@@ -3,7 +3,6 @@ description: Use Dynamic Facets to create new range selections automatically at 
 seo-description: Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
 seo-title: About Dynamic Facets
 solution: Target
-subtopic: Navigation
 title: About Dynamic Facets
 topic: Design,Site search and merchandising
 uuid: cbdf4bcf-8872-41b5-b014-ed476abd8229

@@ -3,7 +3,6 @@ description: You can use Re-Rank Index to update your site's ranking information
 seo-description: You can use Re-Rank Index to update your site's ranking information without the need to recrawl your site.
 seo-title: About Re-Rank Index
 solution: Target
-subtopic: Re-Rank Index
 title: About Re-Rank Index
 topic: Index,Site search and merchandising
 uuid: bbb9497f-7232-4f1e-bd18-e8d3d2f34a8e

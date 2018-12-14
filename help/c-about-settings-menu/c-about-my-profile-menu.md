@@ -3,7 +3,6 @@ description: Use the My Profile menu to set personal information, preferences, l
 seo-description: Use the My Profile menu to set personal information, preferences, login password, and view access privileges.
 seo-title: About the My Profile menu
 solution: Target
-subtopic: My Profile
 title: About the My Profile menu
 topic: Settings,Site search and merchandising
 uuid: fe2d4e75-5f33-46c2-8886-e669df5ed708

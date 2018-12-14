@@ -3,7 +3,6 @@ description: You can use menus to customize your presentation layer.
 seo-description: You can use menus to customize your presentation layer.
 seo-title: About Menus
 solution: Target
-subtopic: Navigation
 title: About Menus
 topic: Design,Site search and merchandising
 uuid: cb0e9faf-c8ab-41cf-b26d-755f7510e934

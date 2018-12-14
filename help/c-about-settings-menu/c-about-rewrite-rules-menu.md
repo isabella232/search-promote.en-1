@@ -3,7 +3,6 @@ description: Use the Rewrite Rules menu to set crawl and search URL and title ru
 seo-description: Use the Rewrite Rules menu to set crawl and search URL and title rules.
 seo-title: About the Rewrite Rules menu
 solution: Target
-subtopic: Rewrite Rules
 title: About the Rewrite Rules menu
 topic: Settings,Site search and merchandising
 uuid: 7205e5ce-ac81-477a-9cdf-97e0e2eabde0

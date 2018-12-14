@@ -3,7 +3,6 @@ description: Recent Searches is a cookie-based system that lets you use a presen
 seo-description: Recent Searches is a cookie-based system that lets you use a presentation template to display your customer's recent search history.
 seo-title: Configuring recent searches
 solution: Target
-subtopic: Navigation
 title: Configuring recent searches
 topic: Design,Site search and merchandising
 uuid: c74a5088-1ccd-49fa-8495-768370b3d2e1

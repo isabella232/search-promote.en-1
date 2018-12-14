@@ -3,7 +3,6 @@ description: You can use Rollback to back up and archive website indexes that yo
 seo-description: You can use Rollback to back up and archive website indexes that you have generated. You can also restore the backup of an index at any time.
 seo-title: About Rollback for indexes
 solution: Target
-subtopic: Rollback
 title: About Rollback for indexes
 topic: Index,Site search and merchandising
 uuid: 1fafeece-d7b7-4ccc-bde9-e117d49d0020

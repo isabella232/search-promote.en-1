@@ -3,7 +3,6 @@ description: Use the Filtering menu to use scripts that change the content of a 
 seo-description: Use the Filtering menu to use scripts that change the content of a web document before it is indexed.
 seo-title: About the Filtering menu
 solution: Target
-subtopic: Filtering
 title: About the Filtering menu
 topic: Settings,Site search and merchandising
 uuid: f717b80d-b080-4e08-b1ce-1c7015016297

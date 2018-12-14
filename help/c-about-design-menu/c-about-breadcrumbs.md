@@ -3,7 +3,6 @@ description: Breadcrumbs are a navigational control that you can add to your web
 seo-description: Breadcrumbs are a navigational control that you can add to your website. The breadcrumb gives customers feedback on where they are within a search result set. It also helps them quickly back out to a previous step.
 seo-title: About Breadcrumbs
 solution: Target
-subtopic: Navigation
 title: About Breadcrumbs
 topic: Design,Site search and merchandising
 uuid: b1ac2246-a756-4e37-ad7a-e167876724e8

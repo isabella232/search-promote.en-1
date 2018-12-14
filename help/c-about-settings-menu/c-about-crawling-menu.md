@@ -3,7 +3,6 @@ description: Use the Crawling menu set date and URL masks, passwords, content ty
 seo-description: Use the Crawling menu set date and URL masks, passwords, content types, connections, form definitions, and URL entrypoints.
 seo-title: About the Crawling menu
 solution: Target
-subtopic: Crawling
 title: About the Crawling menu
 topic: Settings,Site search and merchandising
 uuid: 6dee2beb-6bef-4700-a06a-9ebc4ba47eaf
@@ -1327,8 +1326,6 @@ t_adding_an_index_connector_definition.xml
  -->
 
 Before the effects of the new and enabled definition is visible to customers, rebuild your site index.
-
-See [About the Index menu](../c-about-index-menu/c-about-index-menu.md#concept_113F5790AE1C4356B3564768F39F43EF).
 
 **To add an Index Connector definition ** 
 

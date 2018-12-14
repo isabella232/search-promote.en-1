@@ -3,7 +3,6 @@ description: Use the Account Options menu to update your account settings, set m
 seo-description: Use the Account Options menu to update your account settings, set merchandising preferences, or remove your own Search&Promote account.
 seo-title: About the Account Options menu
 solution: Target
-subtopic: Account Options
 title: About the Account Options menu
 topic: Settings,Site search and merchandising
 uuid: ddcdcb5b-0a50-4a05-b803-f586be7791dd

@@ -3,7 +3,6 @@ description: You can use Page Navigation to customize the page navigation contro
 seo-description: You can use Page Navigation to customize the page navigation control of your search presentation layer.
 seo-title: About Page Navigation
 solution: Target
-subtopic: Navigation
 title: About Page Navigation
 topic: Design,Site search and merchandising
 uuid: 882c8e2b-eb84-4ed6-af2a-30fa98f9dde7

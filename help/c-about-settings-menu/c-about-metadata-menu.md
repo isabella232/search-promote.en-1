@@ -3,7 +3,6 @@ description: Use the Metadata menu to customize Search definitions and index inj
 seo-description: Use the Metadata menu to customize Search definitions and index injections.
 seo-title: About the Metadata menu
 solution: Target
-subtopic: Metadata
 title: About the Metadata menu
 topic: Settings,Site search and merchandising
 uuid: d9174e6f-cec8-4f1a-a85b-3b7e949ec4ca
@@ -720,7 +719,6 @@ t_adding_an_attribute_loader_definition.xml
 
 Before the effects of the new and enabled definition are visible to customers, rebuild your site index.
 
-See [About the Index menu](../c-about-index-menu/c-about-index-menu.md#concept_113F5790AE1C4356B3564768F39F43EF).
 
 **To add an Attribute Loader definition ** 
 

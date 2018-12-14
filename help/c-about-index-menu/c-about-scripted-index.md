@@ -3,7 +3,6 @@ description: With Scripted Index you can write, update, and maintain incremental
 seo-description: With Scripted Index you can write, update, and maintain incremental indexing options without the need to log in. The search robot reads instructions from a text file that is hosted on your server.
 seo-title: About Scripted Index
 solution: Target
-subtopic: Scripted Index
 title: About Scripted Index
 topic: Index,Site search and merchandising
 uuid: f2e683f2-9386-428d-a19d-800d7a751a8c
