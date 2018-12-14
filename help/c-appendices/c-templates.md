@@ -2223,6 +2223,7 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 </table>
 
 #### Later page, sp_n=10
+
 <table id="table_00DAAFA92C994387B38737C8435AB3D4">  
  <thead> 
   <tr> 

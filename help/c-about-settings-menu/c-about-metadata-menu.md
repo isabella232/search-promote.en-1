@@ -594,8 +594,8 @@ The [!UICONTROL Attribute Loader] page shows you the following information:
 * The name of defined Attribute Loader configuration that you have configured and added. 
 * One of the following data source types for each connector that you have added:
 
-    * **Text** - Simple "flat" files, comma-delimited, tab-delimited, or other consistently delimited formats. 
-    * **Feed** - XML feeds.
+  * **Text** - Simple "flat" files, comma-delimited, tab-delimited, or other consistently delimited formats. 
+  * **Feed** - XML feeds.
 
 * Whether the configuration is enabled or not for the next crawl and indexing. 
 * The address of the data source.
@@ -722,7 +722,7 @@ Before the effects of the new and enabled definition are visible to customers, r
 
 See [About the Index menu](../c-about-index-menu/c-about-index-menu.md#concept_113F5790AE1C4356B3564768F39F43EF).
 
-**To add an Attribute Loader definition ** 
+**To add an Attribute Loader definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**.
 1. On the [!UICONTROL Stage Attribute Loader Definitions] page, click **[!UICONTROL Add New Attribute Loader]**.

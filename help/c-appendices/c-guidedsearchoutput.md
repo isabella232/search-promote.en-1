@@ -146,6 +146,7 @@ The following are recommendations for integration with your system.
 * Saving the search history.
 
 [!DNL Adobe Search&Promote] is stateless where the entire state is passed over in the http request. 
+
 * Parsing the returned results.
 
   It is recommended that you use a SAX-based XML parser to parse the XML response. If you are generating Ajax request, configure [!DNL Adobe Search&Promote] to return JSON responses for those requests to make it easier to parse the response.

@@ -97,12 +97,10 @@ r_facet_rail_options.xml
 
     * Click **[!UICONTROL History]** to revert any changes that you have made.
 
-      See [Using the History option](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002). 
-    
+      See [Using the History option](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
     * Click **[!UICONTROL Live]**.
 
-      See [Viewing live settings](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F). 
-    
+      See [Viewing live settings](../c-about-staging.md#task_401A0EBDB5DB4D4CA933CBA7BECDC10F).
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
@@ -129,12 +127,12 @@ r_facet_rail_options.xml
 
   The following tags do not need the `gsname` attribute inside `<guided-facet-rail>` because the value is dynamically determined at search time and is properly substituted:
 
-    * `<guided-facet>` 
-    * `<guided-facet-display-name>` 
-    * `<guided-facet-total-count>` 
-    * `<guided-facet-undo-link>` 
-    * `<guided-facet-undo-path>` 
-    * `<guided-facet-behavior>`
+  * `<guided-facet>` 
+  * `<guided-facet-display-name>` 
+  * `<guided-facet-total-count>` 
+  * `<guided-facet-undo-link>` 
+  * `<guided-facet-undo-path>` 
+  * `<guided-facet-behavior>`
 
 * Save the presentation template and push it live.
 

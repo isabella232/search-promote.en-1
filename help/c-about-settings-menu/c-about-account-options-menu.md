@@ -100,6 +100,7 @@ t_configuring_integration_with_adobe_cq.xml
 1. In Adobe CQ5, use the Cloud Services tab to create your site search/merchandising configuration.
 
    Use the copied Member ID and Account ID for the respective settings. 
+
 ## Configuring Merchandising preferences {#task_7AC7B9F5D9F44E10AB5BC0B8CB31C37A}
 
 Manage Merchandising preferences such as the default rule builder and default search term.
