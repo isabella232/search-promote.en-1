@@ -292,7 +292,7 @@ r_sample_advanced_search_form.xml
 
 Your home page is a good place to insert an advanced search form because many customers expect to find search capability there. You can also create an HTML page that includes the search form and other helpful information, and then link to that page throughout your website.
 
-If you are indexing secure content, you can have the search results served from secure Search Web servers. Change the URL in the search form action attribute to: action="https://search.atomz.com/search/" to do this.
+If you are indexing secure content, you can have the search results served from secure Search Web servers. Change the URL in the search form action attribute to: `action="https://search.atomz.com/search/"` to do this.
 
 >[!NOTE]
 >

@@ -193,13 +193,13 @@ You can use the following variables in any filtering script:
 * The `$main::search_content_type` is the full Content-Type header delivered by your server. It can sometimes contain a simple MIME type, such as "text/html". Or, it can contain a MIME type followed by other information, like the document's character set encoding, such as "text/html; charset=iso-8859-1". 
 * For each type of non-HTML document, `$main::search_content_type` can take various values. Testing for each value in your script becomes cumbersome. For example, some Word documents have content type values of "application/msword", "application/vnd.ms-word" or "application/x-msword". In such cases, `$main::search_content_class` can take the following values:
 
-    * html 
-    * pdf 
-    * word 
-    * excel 
-    * powerpoint 
-    * mp3 
-    * text
+  * html 
+  * pdf 
+  * word 
+  * excel 
+  * powerpoint 
+  * mp3 
+  * text
 
 * In the example, testing `$main::search_content_class` for "word" would match any of the three possible content-type values. 
 * If nothing is printed to STDOUT from the filtering script, then the document is used exactly as it was downloaded. That is, if you do not need to change anything in a document, then you do not need to copy STDIN to STDOUT for that document. 
@@ -524,13 +524,13 @@ You can use the following variables in any filtering script:
 * The `$main::search_content_type` is the full Content-Type header delivered by your server. It can sometimes contain a simple MIME type, such as "text/html". Or, it can contain a MIME type followed by other information, like the document's character set encoding, such as "text/html; charset=iso-8859-1". 
 * For each type of non-HTML document, `$main::search_content_type` can take various values. Testing for each value in your script becomes cumbersome. For example, some Word documents have content type values of "application/msword", "application/vnd.ms-word" or "application/x-msword". In such cases, `$main::search_content_class` can take the following values:
 
-    * html 
-    * pdf 
-    * word 
-    * excel 
-    * powerpoint 
-    * mp3 
-    * text
+  * html 
+  * pdf 
+  * word 
+  * excel 
+  * powerpoint 
+  * mp3 
+  * text
 
 * In the example, testing `$main::search_content_class` for "word" would match any of the three possible content-type values. 
 * If nothing is printed to STDOUT from the filtering script, then the document is used exactly as it was downloaded. That is, if you do not need to change anything in a document, then you do not need to copy STDIN to STDOUT for that document. 
@@ -739,13 +739,13 @@ You can use the following variables in any filtering script:
 * The `$main::search_content_type` is the full Content-Type header delivered by your server. It can sometimes contain a simple MIME type, such as "text/html". Or, it can contain a MIME type followed by other information, like the document's character set encoding, such as "text/html; charset=iso-8859-1". 
 * For each type of non-HTML document, `$main::search_content_type` can take various values. Testing for each value in your script becomes cumbersome. For example, some Word documents have content type values of "application/msword", "application/vnd.ms-word" or "application/x-msword". In such cases, `$main::search_content_class` can take the following values:
 
-    * html 
-    * pdf 
-    * word 
-    * excel 
-    * powerpoint 
-    * mp3 
-    * text
+  * html 
+  * pdf 
+  * word 
+  * excel 
+  * powerpoint 
+  * mp3 
+  * text
 
 * In the example, testing `$main::search_content_class` for "word" would match any of the three possible content-type values. 
 * If nothing is printed to STDOUT from the filtering script, then the document is used exactly as it was downloaded. That is, if you do not need to change anything in a document, then you do not need to copy STDIN to STDOUT for that document. 
@@ -813,7 +813,7 @@ c_about_url_masks_script.xml
 
 To change the contents of documents that exist only in a specific portion of your website, you can specify include URL masks, exclude URL masks, or both, to define the appropriate pages.
 
-If you want to change only the documents under "http://www.mysite.com/faqs/", you can use the following set of masks:
+If you want to change only the documents under `"http://www.mysite.com/faqs/"`, you can use the following set of masks:
 
 ```
 include http://www.mysite.com/faqs/ 

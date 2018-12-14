@@ -630,8 +630,7 @@ t_adjusting_the_weight_associated_with_ranking_rules.xml
 When Ranking is not defined, the search results are 100% on the **[!UICONTROL Natural Relevance]** side of the Rules & Relevance slider bar on the **[!UICONTROL Adjust Ranking Weights]** page. This balance simply means that the search results are ordered based solely on search terms.
 
 When Ranking is defined, the associated Rank metadata field is assigned a Relevance value, ranging from 1-10. A value of 1 means that the calculated Rank makes up 10% of the search result ordering, and Natural Relevance the remaining 90%.
-
-If you have more than one Rule defined in a Rule group, each Rule's Weight value determines how much that Rule's result contributes to the total calculated Rank. For example, suppose you have a Natural Relevance of 80%, meaning that the associated Rank field's relevance is 2. You also have defined two Rules: one with a weight of 3, and the second with a weight of 7. In such case, the first Rule's contribution to the final result is 6% ((3 / (3+7)) &#42; 20%). The second Rule's contribution to the final result is 14% ((7 / (3+7)) &#42; 20%).
+If you have more than one Rule defined in a Rule group, each Rule's Weight value determines how much that Rule's result contributes to the total calculated Rank. For example, suppose you have a Natural Relevance of 80%, meaning that the associated Rank field's relevance is 2. You also have defined two Rules: one with a weight of 3,and the second with a weight of 7. In such case, the first Rule's contribution to the final result is 6% ((3 / (3+7)) &#42; 20%). The second Rule's contribution to the final result is 14% ((7 / (3+7)) &#42; 20%).
 
 **To adjust the weight associated with ranking rules** 
 

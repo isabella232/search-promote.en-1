@@ -266,7 +266,7 @@ Notice that this RewriteRule does not contain a RewriteCond. As such, it causes 
 
 ## Acknowledgment {#section_B17088EF38244496BC1DDD4ECF75EB5B}
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the Apache [HTTP server project](http://www.apache.org/). 
 
 ## Adding a crawl list store URL rule {#task_22DD40DF95584B12BE8E6ECFBF579BCD}
 
@@ -553,7 +553,7 @@ Notice that this RewriteRule does not contain a RewriteCond. As such, it causes 
 
 ## Acknowledgment {#section_EC3A1DAEB5A54C93A265CB119DF91E9F}
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the [Apache HTTP server project](http://www.apache.org/). 
 
 ## Adding crawl list retrieve URL rules {#task_94A28ED7DC404BFF9767DBB5ADEE6B7A}
 
@@ -802,7 +802,7 @@ Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
 **Acknowledgment**
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the [Apache HTTP server project](http://www.apache.org/). 
 
 ## Adding crawl title rules {#task_272BB4C603BA4C9ABDBEEB398798B101}
 
@@ -959,7 +959,7 @@ RewriteRule  ^http://
 
 This rewrite rule uses the function "tolower" to rewrite the domain portion of a URL to ensure that it is always lowercase:
 
-1. The Pattern (^http://([^/]&#42;)(.&#42;)$) contains a backreference **([^/]&#42;)** that matches all characters between "http://" and the first "/" in the URL. The pattern also contains a second backreference **(.&#42;)** that matches all remaining characters in the URL. 
+1. The Pattern (^http://([^/]&#42;)(.&#42;)$) contains a backreference **([^/]&#42;)** that matches all characters between `"http://"` and the first "/" in the URL. The pattern also contains a second backreference **(.&#42;)** that matches all remaining characters in the URL. 
 
 1. The Substitution (http://${tolower:$1}$2) tells the search engine to rewrite the URL by using the **tolower** function on the first backreference (http://**${tolower:$1**}$2) leaving the rest of the URL untouched (http://${tolower:$1}*$2*).
 
@@ -990,7 +990,7 @@ Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARI
 
 >[!NOTE]
 >
->Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL "http://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678" will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like <input type=hidden name="session" value="1234">.
+>Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL `"http://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"` will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like <input type=hidden name="session" value="1234">.
 
 Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
@@ -1296,7 +1296,7 @@ Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
 **Acknowledgment**
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the [Apache HTTP server project](http://www.apache.org/). 
 
 ## Adding search title rules {#task_155CECB74BE3444384EDBBD04F41515E}
 
