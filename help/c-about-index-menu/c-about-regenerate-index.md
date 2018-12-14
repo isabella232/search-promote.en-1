@@ -3,7 +3,6 @@ description: You can use Regenerate Index to update your website's index without
 seo-description: You can use Regenerate Index to update your website's index without the need to re-crawl your site.
 seo-title: About Regenerate Index
 solution: Target
-subtopic: Regenerate Index
 title: About Regenerate Index
 topic: Index,Site search and merchandising
 uuid: f683262b-dcf0-4b4e-94c1-f5253ea5da77

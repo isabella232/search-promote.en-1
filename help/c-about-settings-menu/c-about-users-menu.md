@@ -3,7 +3,6 @@ description: Use the Users menu to view and add users, view and add roles, or ch
 seo-description: Use the Users menu to view and add users, view and add roles, or change role membership. You must be a site search/merchandising user with administrator privileges to perform any of the tasks on the Users menu.
 seo-title: About the Users menu
 solution: Target
-subtopic: Users
 title: About the Users menu
 topic: Settings,Site search and merchandising
 uuid: cf976ad0-88b5-4611-9aab-644c2574d631

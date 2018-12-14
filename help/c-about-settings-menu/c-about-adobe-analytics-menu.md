@@ -3,7 +3,6 @@ description: Use the Adobe Analytics menu to setup Adobe Analytics metrics authe
 seo-description: Use the Adobe Analytics menu to setup Adobe Analytics metrics authentication, manage Adobe Analytics metrics of a Report Suite, or use SAINT to enhance Adobe Analytics reports through the acceptance of tabular data from outside sources.
 seo-title: About the Adobe Analytics menu
 solution: Target
-subtopic: Adobe Analytics
 title: About the Adobe Analytics menu
 topic: Settings,Site search and merchandising
 uuid: dbc50614-9848-47b5-90da-a3574d473d80

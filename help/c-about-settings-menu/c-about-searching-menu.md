@@ -3,7 +3,6 @@ description: Use the Searching menu to set excluded words, collections, restrict
 seo-description: Use the Searching menu to set excluded words, collections, restrictions, preview, and frames.
 seo-title: About the Searching menu
 solution: Target
-subtopic: Searching
 title: About the Searching menu
 topic: Settings,Site search and merchandising
 uuid: 32932ab0-4abd-449c-aab2-e6fcacfb3b38

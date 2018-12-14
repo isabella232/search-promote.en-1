@@ -3,7 +3,6 @@ description: You can use Facets to customize your presentation layer and provide
 seo-description: You can use Facets to customize your presentation layer and provide your users with a Guided Search that lets them drill down into their search results.
 seo-title: About Facets
 solution: Target
-subtopic: Navigation
 title: About Facets
 topic: Design,Site search and merchandising
 uuid: 922e551c-88b9-4bfa-882f-357c26ae6368

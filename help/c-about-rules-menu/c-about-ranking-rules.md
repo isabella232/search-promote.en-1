@@ -3,7 +3,6 @@ description: You can use Ranking Rules to control the relative positioning or ra
 seo-description: You can use Ranking Rules to control the relative positioning or ranking of a customer's search results based on contained meta tag content and related Adobe Analytics metrics.
 seo-title: About Ranking Rules
 solution: Target
-subtopic: Ranking Rules
 title: About Ranking Rules
 topic: Rules,Site search and merchandising
 uuid: 49da4377-5f42-4b53-b0f5-a9ea5d12e1cd

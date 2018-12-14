@@ -3,7 +3,6 @@ description: You can use SEO (Search Engine Optimization) meta tags to help tail
 seo-description: You can use SEO (Search Engine Optimization) meta tags to help tailor certain elements of your pages and thereby improve search engine placement.
 seo-title: About SEO
 solution: Target
-subtopic: SEO
 title: About SEO
 topic: Settings,Site search and merchandising
 uuid: b19e48a2-effe-4cbf-8600-fecf7259428c
