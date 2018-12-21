@@ -6,9 +6,7 @@ solution: Target
 title: About the Accounts menu
 topic: Settings,Site search and merchandising
 uuid: 7dba9245-a508-4b27-ab14-689f07d10207
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Accounts menu{#about-the-accounts-menu}

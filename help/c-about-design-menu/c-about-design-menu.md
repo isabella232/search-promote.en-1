@@ -6,9 +6,7 @@ solution: Target
 title: Designing your search results page
 topic: Design,Site search and merchandising
 uuid: 351c3901-eb87-403d-a103-b5ea25eda900
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Designing your search results page{#designing-your-search-results-page}

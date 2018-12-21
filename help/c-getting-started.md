@@ -6,9 +6,7 @@ solution: Target
 title: Getting Started
 topic: Getting Started,Site search and merchandising
 uuid: 1a4cf6ed-4a19-4438-8a95-44832477d5d5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Getting Started{#getting-started}

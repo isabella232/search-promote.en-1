@@ -6,9 +6,7 @@ solution: Target
 title: About Data Views
 topic: Reports,Site search and merchandising
 uuid: ccfda1bc-c989-4f98-87d0-b85f671b2df5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Data Views{#about-data-views}

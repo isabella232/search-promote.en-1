@@ -6,9 +6,7 @@ solution: Target
 title: About Home
 topic: Home,Site search and merchandising
 uuid: ac351a21-7f3d-4d7a-92a7-c0b4c0996356
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Home{#about-home}

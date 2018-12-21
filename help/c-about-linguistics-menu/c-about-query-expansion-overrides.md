@@ -6,9 +6,7 @@ solution: Target
 title: About Query Expansion Overrides
 topic: Linguistics,Site search and merchandising
 uuid: 573d3e9c-da4f-4388-9ef3-4fd5568265d2
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Query Expansion Overrides{#about-query-expansion-overrides}

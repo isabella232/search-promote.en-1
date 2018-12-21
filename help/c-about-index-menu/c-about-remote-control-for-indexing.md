@@ -6,9 +6,7 @@ solution: Target
 title: About Remote Control for Indexing
 topic: Index,Site search and merchandising
 uuid: e319635a-7925-4290-aca6-d7581153339e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Remote Control for Indexing{#about-remote-control-for-indexing}

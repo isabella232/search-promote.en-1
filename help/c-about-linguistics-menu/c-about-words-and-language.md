@@ -6,9 +6,7 @@ solution: Target
 title: About Words & Language
 topic: Linguistics,Site search and merchandising
 uuid: 2560b650-49af-43f2-a7de-5161e51a225b
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Words & Language{#about-words-language}

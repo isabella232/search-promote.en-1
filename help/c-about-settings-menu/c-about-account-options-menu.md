@@ -7,9 +7,7 @@ subtopic: Account Options
 title: About the Account Options menu
 topic: Settings,Site search and merchandising
 uuid: db3f9977-7355-4974-8027-52702efd2d4d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Account Options menu{#about-the-account-options-menu}
@@ -20,22 +18,18 @@ Use the Account Options menu to update your account settings, set merchandising 
 
 Manage account settings such as the website name and address, time zone, and more. Or, view your account number.
 
-<!-- 
-
+<!--
 t_configuring_your_searchpromote_account_settings.xml
-
- -->
+-->
 
 **To configure your account settings** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]**.
 1. On the [!DNL Account Settings] page, set the options that you want.
 
-   <!-- 
-
+<!-- 
 r_account_settings_options.xml
-
- -->
+-->
 
 <table id="table_7660BFC618684030A510776F542A6904"> 
  <thead> 
@@ -82,11 +76,9 @@ r_account_settings_options.xml
 
 You can configure the integration of site search/merchandising with Adobe CQ5.
 
-<!-- 
-
+<!-->
 t_configuring_integration_with_adobe_cq.xml
-
- -->
+-->
 
 **To configure integration with Adobe CQ5** 
 
@@ -100,15 +92,14 @@ t_configuring_integration_with_adobe_cq.xml
 1. In Adobe CQ5, use the Cloud Services tab to create your site search/merchandising configuration.
 
    Use the copied Member ID and Account ID for the respective settings. 
+
 ## Configuring Merchandising preferences {#task_7AC7B9F5D9F44E10AB5BC0B8CB31C37A}
 
 Manage Merchandising preferences such as the default rule builder and default search term.
 
 <!-- 
-
 t_configuring_merchandising_preferences.xml
-
- -->
+-->
 
 **To configure Merchandising preferences** 
 
@@ -163,10 +154,8 @@ r_merchandising_preferences_options.xml
 Link your site search/merchandising account to Adobe Scene7 so you can easily add banner ads to your website using uploaded digital assets from Adobe Scene7.
 
 <!-- 
-
 t_configuring_your_scene7_account.xml
-
- -->
+-->
 
 See [About Banners](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA).
 

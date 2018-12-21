@@ -6,9 +6,7 @@ solution: Target
 title: About Simulator
 topic: Simulator,Site search and merchandising
 uuid: 8c0863ee-d128-4d95-9cb4-570b22cb462d
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Simulator{#about-simulator}

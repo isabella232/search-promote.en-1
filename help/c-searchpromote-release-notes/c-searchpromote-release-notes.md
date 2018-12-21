@@ -6,9 +6,7 @@ solution: Target
 title: Release notes
 topic: Release Notes,Site search and merchandising
 uuid: f0fb0202-66a6-4849-9717-8789f89380db
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Release notes{#release-notes}

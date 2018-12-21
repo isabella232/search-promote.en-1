@@ -4,9 +4,7 @@ solution: Target
 title: Search&Promote Documentation
 topic: Site search and merchandising
 uuid: 565c4d79-88b4-4318-b008-b051728bd67f
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Search&Promote Documentation{#search-promote-documentation}

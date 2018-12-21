@@ -6,9 +6,7 @@ solution: Target
 title: About the Index menu
 topic: Index,Site search and merchandising
 uuid: ec190dea-e428-4015-a7a8-b20d3dc52df2
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Index menu{#about-the-index-menu}

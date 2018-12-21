@@ -7,9 +7,7 @@ subtopic: Navigation
 title: About Menus
 topic: Design,Site search and merchandising
 uuid: f6417e39-dee6-4dd7-a33b-0ed02df98a49
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Menus{#about-menus}

@@ -6,9 +6,7 @@ solution: Target
 title: Guided Search output
 topic: Appendices,Site search and merchandising
 uuid: cf8565b9-9c0e-4db3-82d3-09a15d2cdd67
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Guided Search output{#guided-search-output}

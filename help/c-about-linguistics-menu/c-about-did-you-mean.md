@@ -6,9 +6,7 @@ solution: Target
 title: About Did You Mean
 topic: Linguistics,Site search and merchandising
 uuid: bf6c04a0-f0b9-4ecf-a567-e1bc1de00708
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Did You Mean{#about-did-you-mean}

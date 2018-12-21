@@ -7,9 +7,7 @@ subtopic: Navigation
 title: About Page Navigation
 topic: Design,Site search and merchandising
 uuid: 19268316-e71a-4a99-8d33-4a83218a70a5
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Page Navigation{#about-page-navigation}

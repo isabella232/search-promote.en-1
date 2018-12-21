@@ -1,11 +1,12 @@
 ---
 cloud: experience-cloud
-product: adobe
+product: adobe search and promote
 archtype: end-user
-user-guide: null
+user-guide: Search and Promote Help
+index: n
 ---
 
-# Table of Contents {#table-of-contents}
+# Search and Promote Help {#using}
 
 + [Search&Promote Documentation Home](sp-home.md)
 + [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md)

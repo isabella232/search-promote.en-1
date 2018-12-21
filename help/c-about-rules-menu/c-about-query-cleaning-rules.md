@@ -6,9 +6,7 @@ solution: Target
 title: About Query Cleaning Rules
 topic: Rules,Site search and merchandising
 uuid: 2d9fcb3c-b653-4899-84e8-c483843ac5a7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Query Cleaning Rules{#about-query-cleaning-rules}

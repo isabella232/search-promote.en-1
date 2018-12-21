@@ -7,9 +7,7 @@ subtopic: Adobe Analytics
 title: About the Adobe Analytics menu
 topic: Settings,Site search and merchandising
 uuid: 8f3436f1-f296-4f44-8b31-fd5c030d5c8e
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Adobe Analytics menu{#about-the-adobe-analytics-menu}
@@ -31,11 +29,9 @@ t_setting_up_adobe_analytics_authentication.xml
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Authentication]**.
 1. On the [!DNL Setup Adobe Analytics Metrics Authentication] page, specify the information requested in each field.
 
-   <!-- 
-
+<!-- 
 r_setup_adobe_analytics_metrics_authentication_options.xml
-
- -->
+-->
 
 <table id="table_BF76982A31164476BC05E49AE03EF586"> 
  <thead> 
@@ -90,6 +86,7 @@ You can create new Adobe Analytics Report Suite definitions, or you can view or 
 <a id="section_7A6701D1B23E4E6B82AA073597183916"></a>
 
 The first time you access Adobe Analytics from within site search/merchandising, a list of your company's available Report Suites are downloaded and cached. If new Report Suites have recently been added, or existing ones removed, you can refresh the report suite list to re-download the list of Report Suites.  
+
 ## Adding an Adobe Analytics Report Suite {#task_6DE17305EA7146DA8C30FF8FDF68A3C0}
 
 You can select an Adobe Analytics Report Suite on which to base your site search/merchandising Ranking rules.

@@ -7,9 +7,7 @@ subtopic: Searching
 title: About the Searching menu
 topic: Settings,Site search and merchandising
 uuid: e83f6ceb-6bc3-420a-b34d-07f8cedb0eb7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Searching menu{#about-the-searching-menu}

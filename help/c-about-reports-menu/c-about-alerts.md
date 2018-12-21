@@ -6,9 +6,7 @@ solution: Target
 title: About Alerts
 topic: Reports,Site search and merchandising
 uuid: 774ed3cc-dcc9-4095-8a6a-27b9f164cd05
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Alerts{#about-alerts}

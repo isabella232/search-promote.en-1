@@ -7,9 +7,7 @@ subtopic: Navigation
 title: Configuring recent searches
 topic: Design,Site search and merchandising
 uuid: 0baa8fe8-6258-4ab5-a8a1-97f9d44c5874
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Configuring recent searches{#configuring-recent-searches}

@@ -7,9 +7,7 @@ subtopic: Navigation
 title: About Breadcrumbs
 topic: Design,Site search and merchandising
 uuid: e63a8c6f-559e-4018-9f08-b878d7e0b258
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Breadcrumbs{#about-breadcrumbs}

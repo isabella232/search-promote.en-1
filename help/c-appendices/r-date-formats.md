@@ -6,9 +6,7 @@ solution: Target
 title: Date Formats
 topic: Appendices,Site search and merchandising
 uuid: 35933d54-9c32-40cc-9ba3-8c75c8976d18
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Date Formats{#date-formats}

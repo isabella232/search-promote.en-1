@@ -6,9 +6,7 @@ solution: Target
 title: About Common Phrases
 topic: Linguistics,Site search and merchandising
 uuid: db5173d0-42eb-463b-ac87-885b81300753
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About Common Phrases{#about-common-phrases}

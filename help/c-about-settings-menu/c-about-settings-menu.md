@@ -6,9 +6,7 @@ solution: Target
 title: About the Settings menu
 topic: Settings,Site search and merchandising
 uuid: 07028a2c-a6ed-438c-a494-757de81c86ba
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Settings menu{#about-the-settings-menu}

@@ -6,9 +6,7 @@ solution: Target
 title: Templates
 topic: Appendices,Site search and merchandising
 uuid: d8173010-3a2f-4200-bfd6-3204659258c0
-index: y
-internal: n
-snippet: y
+
 ---
 
 # Templates{#templates}
@@ -1915,7 +1913,8 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
  </tbody> 
 </table>
 
-#### First page, sp_n=1
+### First page, sp_n=1
+
 <table id="table_0334F560A1F840A9A1447F357A888B6E">  
  <thead> 
   <tr> 
@@ -1959,7 +1958,8 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
  </tbody> 
 </table>
 
-#### Later page, sp_n=10
+### Later page, sp_n=10
+
 <table id="table_00DAAFA92C994387B38737C8435AB3D4">  
  <thead> 
   <tr> 

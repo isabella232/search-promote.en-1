@@ -7,9 +7,7 @@ subtopic: Rewrite Rules
 title: About the Rewrite Rules menu
 topic: Settings,Site search and merchandising
 uuid: deee95fb-26e1-40f1-b7e1-feb52d5838e7
-index: y
-internal: n
-snippet: y
+
 ---
 
 # About the Rewrite Rules menu{#about-the-rewrite-rules-menu}
