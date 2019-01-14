@@ -370,7 +370,7 @@ r_pick_an_asset_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" id="image_EBB8159690C74D4692B5DF945B045E0B" href="assets/icon_edit_16.gif" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" id="image_EBB8159690C74D4692B5DF945B045E0B" src="assets/icon_edit_16.gif" /> </p> </td> 
    <td colname="col2"> <p>Lets you edit the URL link field that is used in the Flash template. </p> </td> 
   </tr> 
  </tbody> 
