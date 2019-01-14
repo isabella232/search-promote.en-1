@@ -1,13 +1,13 @@
 ---
 cloud: experience-cloud
-product: adobe
+product: Search&Promote
 archtype: end-user
-user-guide: null
+user-guide: Search&Promote
 ---
 
-# Table of Contents {#table-of-contents}
+# Search & Promote User Guide {#using}
 
-+ [Search&Promote Documentation Home](sp-home.md)
++ [Search&Promote Documentation overview](sp-home.md)
 + Release Notes {#release-notes}
    + [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md)
    + [Search&Promote 18.1.1 Release Notes (02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)

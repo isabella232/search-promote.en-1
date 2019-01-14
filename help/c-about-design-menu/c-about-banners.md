@@ -246,47 +246,47 @@ r_pick_an_asset_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_63FE9C1D8F22498080D85A5A4D1ED487" href="assets/S7_folders.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/S7_folders.png"> </p> </td> 
    <td colname="col2"> <p>Lets you select the Scene7 account for your particular company from the drop-down list and also navigate the digital asset folders within that account. </p> <p>When you select a folder, the right pane of the <span class="wintitle"> Pick an Asset </span> dialog box shows you all the available digital assets that are contained within that folder. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_EA6AF682F0BF41229255711D83FB6F2A" href="assets/s7_folderhistory.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_folderhistory.png"> </p> </td> 
    <td colname="col2"> <p>Lets you move forward or backward through your folder navigation history. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_8D891CE778DF49BDB286AADB50A9352F" href="assets/s7_reloadfolder.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_reloadfolder.png"> </p> </td> 
    <td colname="col2"> <p>Refreshes the list of digital assets that are displayed for a selected folder. </p> <p>You may need to click this control if you move, delete, or rename a selected asset using the <span class="uicontrol"> Actions </span> drop-down list. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_11ADA8AA8D21450B9D4F98D12DEDDD1D" href="assets/s7_list_or_grid.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_list_or_grid.png"> </p> </td> 
    <td colname="col2"> <p>Displays digital assets in a list view. The list displays each asset's associated icon or thumbnail image, file name, digital asset type, dimensions, (where applicable), and the date it was last edited. </p> <p>The grid view displays digital assets in the selected folder as icons, thumbnails, or both. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_77AF34B48C804A30976CC2D70F35D1CE" href="assets/s7_actionsdropdown.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_actionsdropdown.png"> </p> </td> 
    <td colname="col2"> <p>In the list view, you can move, delete, or rename a selected digital asset. </p> <p>In the grid view, you can move or delete one or more selected digital assets. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_656479B4D9174AC3A5B291E66AAC7C3C" href="assets/s7_upload.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_upload.png"> </p> </td> 
    <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Scene7 </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_DA7714163B3F4203ADC772DC1513B586" href="assets/s7_searchfield.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_searchfield.png"> </p> </td> 
    <td colname="col2"> <p>Lets you search for a digital asset by keyword or search by file location within the selected folder and its associated sub-folders. </p> <p>When you click the search field, it automatically adds an optional filter field for you. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_47F06E3A6B8548C4A155B1ECECDECE1F" href="assets/s7_addfilter.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_addfilter.png"> </p> </td> 
    <td colname="col2"> <p>Adds another asset filter so you can further refine the list of displayed digital assets by type or by a specific date. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_D8A0E40F356D4694A7448F307B838D7E" href="assets/s7_Kindfilter.png" /> </p> </td> 
-   <td colname="col2"> <p>Refine the list of displayed digital assets to show only those by a certain type such as Flash, Image, Template, or Any. </p> <p>Click <img id="image_384234979C7B4436B0009AF1C8E28148" href="assets/s7_deletefilter.png" /> to delete the filter from the search. </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_Kindfilter.png"> </p> </td> 
+   <td colname="col2"> <p>Refine the list of displayed digital assets to show only those by a certain type such as Flash, Image, Template, or Any. </p> <p>Click <img src="assets/s7_deletefilter.png"> to delete the filter from the search. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_FE375512F32E41DFB8FC861AC986EE39" href="assets/s7_datefilter.png" /> </p> </td> 
-   <td colname="col2"> <p>Refine the list of displayed digital assets to show only those created or edit before a certain date or after a certain date. </p> <p>Click <img id="image_3B3D4C5956F741B1B342A55948C27B71" href="assets/s7_deletefilter.png" /> to delete the filter from the search. </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_datefilter.png"> </p> </td> 
+   <td colname="col2"> <p>Refine the list of displayed digital assets to show only those created or edit before a certain date or after a certain date. </p> <p>Click <img src="assets/s7_deletefilter.png" /> to delete the filter from the search. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_C8AD018A3B19408F9B51D1D6B1F72846" href="assets/s7_assetzoom.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_assetzoom.png"> </p> </td> 
    <td colname="col2"> <p>Lets you drag the slider left or right to reduce or enlarge the entire view of the digital assets pane, respectively. </p> </td> 
   </tr> 
  </tbody> 
@@ -395,11 +395,11 @@ r_pick_an_asset_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_CA592F821E10473FA16CB1D9C74E0E70" href="assets/s7_addfilter.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_addfilter.png"> </p> </td> 
    <td colname="col2"> <p>Adds a search and replace field. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_3F3CD01B9F2F49398D79F8ED5BEE8021" href="assets/s7_deletefilter.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_deletefilter.png"> </p> </td> 
    <td colname="col2"> <p>Deletes a Search and Replace field and restores the previously used text. </p> </td> 
   </tr> 
   <tr> 
@@ -438,7 +438,7 @@ r_pick_an_asset_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img id="image_CAE6765313B54646BFE13EC6E4E72BCF" href="assets/s7_togglelayervisibility.png" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img src="assets/s7_togglelayervisibility.png"> </p> </td> 
    <td colname="col2"> <p>Lets you turn on or off the visibility of the various layers that make up the Flash template file. </p> <p>Each time you turn the visibility of a layer on or off, the preview window is refreshed to update the display. </p> </td> 
   </tr> 
  </tbody> 
