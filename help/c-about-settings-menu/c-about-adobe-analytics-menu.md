@@ -89,7 +89,8 @@ You can create new Adobe Analytics Report Suite definitions, or you can view or 
 
 <a id="section_7A6701D1B23E4E6B82AA073597183916"></a>
 
-The first time you access Adobe Analytics from within site search/merchandising, a list of your company's available Report Suites are downloaded and cached. If new Report Suites have recently been added, or existing ones removed, you can refresh the report suite list to re-download the list of Report Suites.  
+The first time you access Adobe Analytics from within site search/merchandising, a list of your company's available Report Suites are downloaded and cached. If new Report Suites have recently been added, or existing ones removed, you can refresh the report suite list to re-download the list of Report Suites. 
+ 
 ## Adding an Adobe Analytics Report Suite {#task_6DE17305EA7146DA8C30FF8FDF68A3C0}
 
 You can select an Adobe Analytics Report Suite on which to base your site search/merchandising Ranking rules.
