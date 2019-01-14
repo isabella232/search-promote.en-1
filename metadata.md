@@ -1,11 +1,14 @@
 ---
 cloud: experience-cloud
-solution-title: Primetime
-solution-hub-url: https://helpx.adobe.com/support/primetime.html
+solution-title: Search & Promote
+solution-hub-url: https://helpx.adobe.com/support/target.html
 solution-image: https://www.adobe.com
-getting-started-url: https://www.adobe.com/devnet/primetime.html
-tutorials-url: https://www.adobe.com/devnet/primetime.html
-git-repo: https://git.corp.adobe.com/AdobeDocs/primetime.en
+getting-started-title: Getting Started
+getting-started-url: https://helpx.adobe.com/target/get-started.html
+Tutorials title: Tutorials
+tutorials-url: https://helpx.adobe.com/target/kt/index/target-videos.html
+git-repo: https://git.corp.adobe.com/AdobeDocs/search-promote.en
+index: no
 ---
 
 # Metadata for internal use
