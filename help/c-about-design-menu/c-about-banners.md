@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# About Banners{#about-banners}
+# About Banners {#about-banners}
 
 You can use Banners to manage the banner ads on your website.
 
@@ -27,9 +27,9 @@ c_about_banners.xml
 
 There are two methods you can use to add banner ads to your website.
 
-The first method is to add banners by way of Target, Search&Promote. The banners are HTML code snippets that are displayed at the time that a customer searches your website. Your banner can include text or an image in GIF, JPEG, or PNG format, or a combination of both. You can select from preset sizes or define your own custom dimensions to fit your page. The HTML code that you use to display the banner can also specify such things as the font style to use, and the border. This method of adding a banner offers basic functionality and does not require additional software.
+The first method is to add banners by way of Target, Search&amp;Promote. The banners are HTML code snippets that are displayed at the time that a customer searches your website. Your banner can include text or an image in GIF, JPEG, or PNG format, or a combination of both. You can select from preset sizes or define your own custom dimensions to fit your page. The HTML code that you use to display the banner can also specify such things as the font style to use, and the border. This method of adding a banner offers basic functionality and does not require additional software.
 
-The second method is to use Adobe Scene7, a dynamic media management and publishing service. A valid Adobe Scene7 account lets you manage and deliver banner content directly to Target, Search&Promote, using Scene7. In site search/merchandising, you configure access to your Scene7 account. Then you open the Scene7 media browser and pick a dynamic media asset that you want to serve as your banner.
+The second method is to use Adobe Scene7, a dynamic media management and publishing service. A valid Adobe Scene7 account lets you manage and deliver banner content directly to Target, Search&amp;Promote, using Scene7. In site search/merchandising, you configure access to your Scene7 account. Then you open the Scene7 media browser and pick a dynamic media asset that you want to serve as your banner.
 
 >[!NOTE]
 >

@@ -33,11 +33,11 @@ Where links to other pages are provided, they are presented in the form of a rel
 
 ## Understanding a Guided Search implementation {#section_95483980930C4325BAB50A40BD47245A}
 
-When you begin a Guided Search implementation remember that [!DNL Adobe Search&Promote] is responsible for the Business Layer. That is, the logic that surrounds what results and facets are shown to a customer at any given time.
+When you begin a Guided Search implementation remember that [!DNL Adobe Search&amp;Promote] is responsible for the Business Layer. That is, the logic that surrounds what results and facets are shown to a customer at any given time.
 
 When you implement the Web application front end that parses and displays the results as HTML, restrict the functionality to display only. In other words, any server-side logic that you use to create the Presentation Layer does not make the decisions about what to present to a customer, unless it is necessary. The Business Rules will not work as you expect if the front-end script is altering the search results.
 
-[!DNL Adobe Search&Promote] maintains user state of selected search refinement options by way of the URL parameters. All `<link>` nodes contain the relevant parameters of the customer’s selections. These parameters can include breadcrumb, pagination, sort, and facet selections. Where applicable, `<undolink>` nodes are returned to allow a customer to “back out” of a selection. Facets and breadcrumbs offer these types of links.
+[!DNL Adobe Search&amp;Promote] maintains user state of selected search refinement options by way of the URL parameters. All `<link>` nodes contain the relevant parameters of the customer’s selections. These parameters can include breadcrumb, pagination, sort, and facet selections. Where applicable, `<undolink>` nodes are returned to allow a customer to “back out” of a selection. Facets and breadcrumbs offer these types of links.
 
 ## Working with the Search Server {#section_8DBEACDECD714E59BDED6315E6041B8D}
 
@@ -142,13 +142,13 @@ The following are recommendations for integration with your system.
 
 * Communicating with the search server.
 
-  You can communicate with the [!DNL Adobe Search&Promote] web servers using http GET requests. Your servers generate these requests or on the client side doing an Ajax request. 
+  You can communicate with the [!DNL Adobe Search&amp;Promote] web servers using http GET requests. Your servers generate these requests or on the client side doing an Ajax request. 
 * Saving the search history.
 
-[!DNL Adobe Search&Promote] is stateless where the entire state is passed over in the http request. 
+[!DNL Adobe Search&amp;Promote] is stateless where the entire state is passed over in the http request. 
 * Parsing the returned results.
 
-  It is recommended that you use a SAX-based XML parser to parse the XML response. If you are generating Ajax request, configure [!DNL Adobe Search&Promote] to return JSON responses for those requests to make it easier to parse the response.
+  It is recommended that you use a SAX-based XML parser to parse the XML response. If you are generating Ajax request, configure [!DNL Adobe Search&amp;Promote] to return JSON responses for those requests to make it easier to parse the response.
 
 ## Guided Search JSON Output {#reference_EB8182A564DE4374BB84158F2AABEF74}
 

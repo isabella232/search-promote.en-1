@@ -437,7 +437,7 @@ See [About Scripted Index](../c-about-index-menu/c-about-scripted-index.md#conce
 
 ## Feature implementations {#reference_2D0C4A80B8D64051BA9694D562DCE663}
 
-A frequently asked questions page that discusses various feature implementations in [!DNL Search&Promote].
+A frequently asked questions page that discusses various feature implementations in [!DNL Search&amp;Promote].
 
 <a id="section_EABF95A63E1A420080C1BECE1B1A7B0F"></a>
 
@@ -447,7 +447,7 @@ r_faq_implementation.xml
 
  -->
 
-The following are common questions regarding feature implementations in [!DNL Search&Promote] on a website:
+The following are common questions regarding feature implementations in [!DNL Search&amp;Promote] on a website:
 
 * [Why are my business rules not running?](../c-appendices/c-faq.md#section_7FEB60383D8A4B11A60DFF9067274699) 
 * [Why do I have problems scheduling indexing, errors starting indexing, and issues starting staged indexing?](../c-appendices/c-faq.md#section_E05758193DF5436784B0145839989F75) 
@@ -470,7 +470,7 @@ For starting a staged index, see [Running a full index of a live or staged websi
 
 ## My index size limit exceeds my permitted boundary. Why is this happening and how do I fix it? {#section_12E7DA979C4C4B1D8A3A6415FC3DDA70}
 
-A web site can tend to grow and over time Search&Promote "discovers" more documents and web pages that were added. Eventually, your account may exceed your indexing size limit, In such cases, you can consider using **[!UICONTROL URL Mask]**. This feature hides docs and web pages from index crawling that you do not want or do not need to have indexed, thereby reducing your index size. Another option may be to contact Technical Support to have your indexing size limit set larger in your account.
+A web site can tend to grow and over time Search&amp;Promote "discovers" more documents and web pages that were added. Eventually, your account may exceed your indexing size limit, In such cases, you can consider using **[!UICONTROL URL Mask]**. This feature hides docs and web pages from index crawling that you do not want or do not need to have indexed, thereby reducing your index size. Another option may be to contact Technical Support to have your indexing size limit set larger in your account.
 
 See [About URL Masks](../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164).
 

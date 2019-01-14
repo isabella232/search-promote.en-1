@@ -1,6 +1,6 @@
 ---
-description: You can use Home to view a variety of report widgets that give you a quick overview of your Search&Promote account.
-seo-description: You can use Home to view a variety of report widgets that give you a quick overview of your Search&Promote account.
+description: You can use Home to view a variety of report widgets that give you a quick overview of your Search&amp;Promote account.
+seo-description: You can use Home to view a variety of report widgets that give you a quick overview of your Search&amp;Promote account.
 seo-title: About Home
 solution: Target
 title: About Home
@@ -13,7 +13,7 @@ snippet: y
 
 # About Home{#about-home}
 
-You can use Home to view a variety of report widgets that give you a quick overview of your Search&Promote account.
+You can use Home to view a variety of report widgets that give you a quick overview of your Search&amp;Promote account.
 
  You can drag-and-drop report widgets to rearrange your home page without affecting other users who are members of the account. You can also delete report widgets from the home page, or you can add them back using the Add Content drop-down list.
 

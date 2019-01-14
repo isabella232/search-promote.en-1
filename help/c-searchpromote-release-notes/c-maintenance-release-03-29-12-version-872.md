@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.7.2 Release Notes (03/29/2012)
+seo-title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
 solution: Target
-title: Search&Promote 8.7.2 Release Notes (03/29/2012)
+title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
 topic: Release Notes,Site search and merchandising
 uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.7.2 Release Notes (03/29/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.7.2 Release Notes (03/29/2012){#search-promote-release-notes}
 
 ## Product Fixes and Enhancements {#section_6B3602709FB04B3C999C5DFE103CFF7D}
 

@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.9.1 Release Notes (08/16/2012)
+seo-title: Search&amp;Promote 8.9.1 Release Notes (08/16/2012)
 solution: Target
-title: Search&Promote 8.9.1 Release Notes (08/16/2012)
+title: Search&amp;Promote 8.9.1 Release Notes (08/16/2012)
 topic: Release Notes,Site search and merchandising
 uuid: 6f3284ed-660f-477f-a863-b961b185eaf3
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.9.1 Release Notes (08/16/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.9.1 Release Notes (08/16/2012){#search-promote-release-notes}
 
  **Fixes and enhancements**
 
@@ -19,7 +19,7 @@ snippet: y
 * Fixed date queries that were working incorrectly. 
 * Fixed an error where it was possible to add an empty line to the Auto-complete word list. 
 * Added support for facet sorting that is not case sensitive. 
-* Added an advisory message to tell the user to create a strong [!DNL Adobe Search&Promote] account password. 
+* Added an advisory message to tell the user to create a strong [!DNL Adobe Search&amp;Promote] account password. 
 * Added a [!DNL SSO-Login-Only] option to the [!DNL Support] tab in the [!DNL Member Center]. 
 
 * Fixed an error in scripted filtering that could hang a search crawl. 

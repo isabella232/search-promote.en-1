@@ -1191,7 +1191,7 @@ index:<indexconnector_configuration_name>
 
 The crawler processes each added entry if it is found on the Index Connectors page and is enabled.
 
-Note: Because each document's URL is constructed using the Index Connector configuration name and the document's primary key, be sure you use the same Index Connector configuration name when performing Incremental updates! Doing so permits [!DNL Adobe Search&Promote] to correctly update previously indexed documents.
+Note: Because each document's URL is constructed using the Index Connector configuration name and the document's primary key, be sure you use the same Index Connector configuration name when performing Incremental updates! Doing so permits [!DNL Adobe Search&amp;Promote] to correctly update previously indexed documents.
 
 See also [About URL Entrypoints](../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573).
 

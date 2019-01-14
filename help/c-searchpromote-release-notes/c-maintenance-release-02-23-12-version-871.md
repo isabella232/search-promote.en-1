@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.7.1 Release Notes (02/23/2012)
+seo-title: Search&amp;Promote 8.7.1 Release Notes (02/23/2012)
 solution: Target
-title: Search&Promote 8.7.1 Release Notes (02/23/2012)
+title: Search&amp;Promote 8.7.1 Release Notes (02/23/2012)
 topic: Release Notes,Site search and merchandising
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
 index: y
@@ -11,12 +11,12 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.7.1 Release Notes (02/23/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.7.1 Release Notes (02/23/2012){#search-promote-release-notes}
 
 ## New features {#section_CF3326C0E4FD4179A8009FB76D514304}
 
-* Access [!DNL Scene7] assets from within [!DNL Search&Promote]. 
-* Configure [!DNL Scene7] banner parameters from within [!DNL Search&Promote]. 
+* Access [!DNL Scene7] assets from within [!DNL Search&amp;Promote]. 
+* Configure [!DNL Scene7] banner parameters from within [!DNL Search&amp;Promote]. 
 * Apply [!DNL Scene7] banners to business rules.
 
 See also [About Banners](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA)

@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.16.0 Release Notes (9/18/2014)
+seo-title: Search&amp;Promote 8.16.0 Release Notes (9/18/2014)
 solution: Target
-title: Search&Promote 8.16.0 Release Notes (9/18/2014)
+title: Search&amp;Promote 8.16.0 Release Notes (9/18/2014)
 topic: Release Notes,Site search and merchandising
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
 index: y
@@ -11,9 +11,9 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.16.0 Release Notes (9/18/2014){#search-promote-release-notes}
+# Search&amp;Promote 8.16.0 Release Notes (9/18/2014){#search-promote-release-notes}
 
-## Search&Promote 8.16.0 Release Notes (9/18/2014) {#topic_5BECD3F66C684987828F6AE65E62DA29}
+## Search&amp;Promote 8.16.0 Release Notes (9/18/2014) {#topic_5BECD3F66C684987828F6AE65E62DA29}
 
 ## New features {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
@@ -22,7 +22,7 @@ snippet: y
 
   See the Vertical Update Field option in the table in [Adding a new meta tag field](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5) and [About Vertical Update](../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899).
 
-  This feature can only be used on [!DNL Adobe Search&Promote] accounts that use Index Connector. To have this custom feature setup for you so that you can use it in your account, contact your Adobe Technical Account Manager.
+  This feature can only be used on [!DNL Adobe Search&amp;Promote] accounts that use Index Connector. To have this custom feature setup for you so that you can use it in your account, contact your Adobe Technical Account Manager.
 
 ## Fixes and enhancements {#section_22D1AFC99F394D569898828A0D3C419D}
 
