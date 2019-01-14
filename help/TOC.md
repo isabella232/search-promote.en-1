@@ -5,7 +5,7 @@ archtype: end-user
 user-guide: Search&amp;Promote
 ---
 
-# Search & Promote User Guide {#using}
+# Search &amp; Promote User Guide {#using}
 
 + [Search&amp;Promote Documentation overview](sp-home.md)
 + Release Notes {#release-notes}
