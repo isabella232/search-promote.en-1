@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.7 Release Notes (01/19/2012)
+seo-title: Search&amp;Promote 8.7 Release Notes (01/19/2012)
 solution: Target
-title: Search&Promote 8.7 Release Notes (01/19/2012)
+title: Search&amp;Promote 8.7 Release Notes (01/19/2012)
 topic: Release Notes,Site search and merchandising
 uuid: b640a215-1e2f-4cda-9e02-c3db04326cca
 index: y
@@ -11,12 +11,12 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.7 Release Notes (01/19/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.7 Release Notes (01/19/2012){#search-promote-release-notes}
 
 ## New features {#section_CF3326C0E4FD4179A8009FB76D514304}
 
-* Access [!DNL Adobe Scene7] assets from within [!DNL Search&Promote]. 
-* Configure [!DNL Adobe Scene7] banner parameters from within [!DNL Search&Promote]. 
+* Access [!DNL Adobe Scene7] assets from within [!DNL Search&amp;Promote]. 
+* Configure [!DNL Adobe Scene7] banner parameters from within [!DNL Search&amp;Promote]. 
 
 * Apply [!DNL Adobe Scene7] banners to business rules.
 

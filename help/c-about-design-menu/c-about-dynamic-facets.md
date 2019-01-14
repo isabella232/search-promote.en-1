@@ -1,6 +1,6 @@
 ---
-description: Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
-seo-description: Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
+description: Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&amp;Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
+seo-description: Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&amp;Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
 seo-title: About Dynamic Facets
 solution: Target
 subtopic: Navigation
@@ -14,15 +14,15 @@ snippet: y
 
 # About Dynamic Facets{#about-dynamic-facets}
 
-Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
+Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&amp;Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
 
 ## About Dynamic Facets {#concept_E65A70C9C2E04804BF24FBE1B3CAD899}
 
-Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your [!DNL Adobe Search&Promote] account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
+Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your [!DNL Adobe Search&amp;Promote] account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
 
 >[!NOTE]
 >
->This feature is not enabled in [!DNL Adobe Search&Promote], by default. Contact Technical Support to activate the feature for your use.
+>This feature is not enabled in [!DNL Adobe Search&amp;Promote], by default. Contact Technical Support to activate the feature for your use.
 
 Without the use of Dynamic Facets, you had to merge related attributes into "slots", and only display the slots that were homogeneous for a given search. That is, they could only contain one logical attribute's values, such as "shoe size" or "ring size". This method provided adequate search-time performance with a large set of unique attributes.
 
@@ -36,7 +36,7 @@ If your account has a large number of such facets, it enhances search performanc
 
 ## Relationship of facets to meta tag fields {#section_2869E5FCDA8B431A87BC6E5573F2B0A0}
 
-Facets are built on top of meta tag fields. A meta tag field is a low-level, core search layer feature of [!DNL Adobe Search&Promote]. Facets, on the other hand are part of GS (Guided Search)-the high-level, presentation layer of Adobe Search&Promote. Facets own meta tag fields, however, meta tag fields know nothing about facets. When you configure dynamic facets, you first add facets and then add meta tag fields with the Dynamic Facet option selected to set the identified facet to be dynamic.
+Facets are built on top of meta tag fields. A meta tag field is a low-level, core search layer feature of [!DNL Adobe Search&amp;Promote]. Facets, on the other hand are part of GS (Guided Search)-the high-level, presentation layer of Adobe Search&amp;Promote. Facets own meta tag fields, however, meta tag fields know nothing about facets. When you configure dynamic facets, you first add facets and then add meta tag fields with the Dynamic Facet option selected to set the identified facet to be dynamic.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ t_configuring_dynamic_facets.xml
 
 >[!NOTE]
 >
->This feature is not enabled in Adobe Search&Promote, by default. Contact Technical Support to activate the feature for your use.
+>This feature is not enabled in Adobe Search&amp;Promote, by default. Contact Technical Support to activate the feature for your use.
 
 Before the effects of your dynamic facets are visible to customers, you must rebuild your site index.
 

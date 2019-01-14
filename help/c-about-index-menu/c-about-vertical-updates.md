@@ -30,11 +30,11 @@ While the new vertical index updates your live website, customers can continue t
 
 >[!NOTE]
 >
->This feature is not enabled in [!DNL Adobe Search&Promote], by default. Contact Technical Support to activate the feature for your use.
+>This feature is not enabled in [!DNL Adobe Search&amp;Promote], by default. Contact Technical Support to activate the feature for your use.
 
-Vertical Updates are specifically meant to be used on eCommerce-style [!DNL Adobe Search&Promote] accounts that use IndexConnector to supply the content for the search index. The typical use-case is one where the [!DNL Adobe Search&Promote] index represents a searchable product catalog, and the need exists to be able to quickly update frequently changing values, such as inventory-on-hand, availability and/or price. A Vertical Update is somewhat similar to an Incremental Index, except that it only updates portions of each document, whereas an Incremental Index replaces entire documents with new versions.
+Vertical Updates are specifically meant to be used on eCommerce-style [!DNL Adobe Search&amp;Promote] accounts that use IndexConnector to supply the content for the search index. The typical use-case is one where the [!DNL Adobe Search&amp;Promote] index represents a searchable product catalog, and the need exists to be able to quickly update frequently changing values, such as inventory-on-hand, availability and/or price. A Vertical Update is somewhat similar to an Incremental Index, except that it only updates portions of each document, whereas an Incremental Index replaces entire documents with new versions.
 
-The term "Vertical Update" refers to the notion that an [!DNL Adobe Search&Promote] index can be pictured as a columnar table, with each column corresponding to an [!DNL Adobe Search&Promote] Metadata field definition, and each row corresponding to a document. The Vertical Update process replaces one or more columns without the need to alter any of the other columns' content.
+The term "Vertical Update" refers to the notion that an [!DNL Adobe Search&amp;Promote] index can be pictured as a columnar table, with each column corresponding to an [!DNL Adobe Search&amp;Promote] Metadata field definition, and each row corresponding to a document. The Vertical Update process replaces one or more columns without the need to alter any of the other columns' content.
 
 Where the main source for content, an IndexConnector feed, contains all of the required data elements needed to create the index, the Vertical Update feed is a subset of the main feed, one that uses the same IndexConnector "schema" to define the data elements, but containing *only* those data items that need to be updated.
 
@@ -79,7 +79,7 @@ A requirement is to be able to quickly update just the `<price>` and `<inventory
 </products>
 ```
 
-This information is typically stored in a separate file on the customer's server, and the IndexConnector "Vertical File Path" configuration setting points to this file. The Vertical Update process reads this new content and updates the existing [!DNL Adobe Search&Promote] index, only updating the values for `<price>` and `<inventory>`, in this case. Subsequent searches returns the newly updated content.
+This information is typically stored in a separate file on the customer's server, and the IndexConnector "Vertical File Path" configuration setting points to this file. The Vertical Update process reads this new content and updates the existing [!DNL Adobe Search&amp;Promote] index, only updating the values for `<price>` and `<inventory>`, in this case. Subsequent searches returns the newly updated content.
 
 >[!NOTE]
 >

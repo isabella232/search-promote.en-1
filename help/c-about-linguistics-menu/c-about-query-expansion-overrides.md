@@ -23,7 +23,7 @@ When you configure a query expansion override, you create a set of "rules". Each
 
 >[!NOTE]
 >
->This feature is not enabled in Search&Promote, by default. Contact Technical Support to activate the feature for your use. After the Query Expansion Overrides feature is enabled, you must "turn it on" in the user interface.
+>This feature is not enabled in Search&amp;Promote, by default. Contact Technical Support to activate the feature for your use. After the Query Expansion Overrides feature is enabled, you must "turn it on" in the user interface.
 
 **How a Query Expansion Override works**
 
@@ -57,7 +57,7 @@ If you add a new rule with a Do Not Expand value replicating an earlier definiti
 
 ## Configuring Query Expansion Overrides {#task_A087354A509D4997BA275186C224160E}
 
-Defining and adding a Query Expansion override in Search&Promote.
+Defining and adding a Query Expansion override in Search&amp;Promote.
 
 <!-- 
 
@@ -67,11 +67,11 @@ t_configuring_query_expansion_overrides.xml
 
 >[!NOTE]
 >
->This feature is not enabled in Search&Promote, by default. Contact Technical Support to activate the feature for your use. After the Query Expansion Overrides feature is enabled, you must "turn it on" in the user interface. The first few steps below outline how to do that.
+>This feature is not enabled in Search&amp;Promote, by default. Contact Technical Support to activate the feature for your use. After the Query Expansion Overrides feature is enabled, you must "turn it on" in the user interface. The first few steps below outline how to do that.
 
 **To configure Query Expansion Overrides** 
 
-1. In Search&Promote, click **Settings** > **User** > **View Roles**.
+1. In Search&amp;Promote, click **Settings** > **User** > **View Roles**.
 1. On the View Roles page, in the Actions column of the table, click **Edit** to the right of the role whom you want to give access to Query Expansion Overrides on the Linguistics menu.
 1. On the Edit Role page, expand the Linguistics tree.
 1. Check **Query Expansion Overrides**, and then click **Save Changes**.

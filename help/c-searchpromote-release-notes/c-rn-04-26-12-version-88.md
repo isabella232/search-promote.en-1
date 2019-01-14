@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.8 Release Notes (04/26/2012)
+seo-title: Search&amp;Promote 8.8 Release Notes (04/26/2012)
 solution: Target
-title: Search&Promote 8.8 Release Notes (04/26/2012)
+title: Search&amp;Promote 8.8 Release Notes (04/26/2012)
 topic: Release Notes,Site search and merchandising
 uuid: ddb9f1af-92a4-4f85-be8f-a36f34d31add
 index: y
@@ -11,26 +11,26 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.8 Release Notes (04/26/2012){#search-promote-release-notes}
+# Search&amp;Promote 8.8 Release Notes (04/26/2012){#search-promote-release-notes}
 
  **New features**
 
 * Dynamic faceting
 
   Ability to dynamically facet against a free-form set of attributes associated with each page of site content, that potentially change (new attributes are added, old ones remove or renamed) from index to index. Dynamic faceting automatically maps the slot facets with the real facets. The Guided Search layer helps facilitate this feature with business rules. 
-* Adobe Search&Promote e user interface
+* Adobe Search&amp;Promote e user interface
 
-  Implemented Adobe User Interface across all Adobe Search&Promote web pages. 
+  Implemented Adobe User Interface across all Adobe Search&amp;Promote web pages. 
 * Tighter integration with Adobe's login portal
 
-  Adobe Search&Promote customers can use the Adobe login portal exclusively. Current [!DNL Adobe Publish], Adobe SiteSearch, and Atomz customers will continue to use the legacy login. 
+  Adobe Search&amp;Promote customers can use the Adobe login portal exclusively. Current [!DNL Adobe Publish], Adobe SiteSearch, and Atomz customers will continue to use the legacy login. 
 * New morphological analyzer for supporting Chinese and Japanese
 
   Morphological analyzer is applied on index and on search time for supporting Chinese and Japanese. 
 * Support for new documents types, such as Microsoft Office 2010
 
   Search can convert various type of documents, such as .doc, .docx, .pdf, and .mp3 into HTML before feeding into the indexer. 
-* New Adobe Search&Promote online Help system
+* New Adobe Search&amp;Promote online Help system
 
   Online Help system has a new user interface and is now task-based.
 

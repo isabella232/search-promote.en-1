@@ -1,6 +1,6 @@
 ---
-description: Read about new features, fixes, and enhancements in the latest version of Adobe Search&Promote–part of Adobe Experience Cloud.
-seo-description: Read about new features, fixes, and enhancements in the latest version of Adobe Search&Promote–part of Adobe Experience Cloud.
+description: Read about new features, fixes, and enhancements in the latest version of Adobe Search&amp;Promote–part of Adobe Experience Cloud.
+seo-description: Read about new features, fixes, and enhancements in the latest version of Adobe Search&amp;Promote–part of Adobe Experience Cloud.
 seo-title: Release notes
 solution: Target
 title: Release notes
@@ -13,5 +13,5 @@ snippet: y
 
 # Release notes{#release-notes}
 
-Read about new features, fixes, and enhancements in the latest version of Adobe Search&Promote–part of Adobe Experience Cloud.
+Read about new features, fixes, and enhancements in the latest version of Adobe Search&amp;Promote–part of Adobe Experience Cloud.
 

@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.9.6 Release Notes (03/21/2013)
+seo-title: Search&amp;Promote 8.9.6 Release Notes (03/21/2013)
 solution: Target
-title: Search&Promote 8.9.6 Release Notes (03/21/2013)
+title: Search&amp;Promote 8.9.6 Release Notes (03/21/2013)
 topic: Release Notes,Site search and merchandising
 uuid: f0f32eba-35c1-4666-a0b8-ec8adc4a832f
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.9.6 Release Notes (03/21/2013){#search-promote-release-notes}
+# Search&amp;Promote 8.9.6 Release Notes (03/21/2013){#search-promote-release-notes}
 
  **Fixes and enhancements**
 

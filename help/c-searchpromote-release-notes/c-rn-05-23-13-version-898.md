@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.9.8 Release Notes (05/23/2013)
+seo-title: Search&amp;Promote 8.9.8 Release Notes (05/23/2013)
 solution: Target
-title: Search&Promote 8.9.8 Release Notes (05/23/2013)
+title: Search&amp;Promote 8.9.8 Release Notes (05/23/2013)
 topic: Release Notes,Site search and merchandising
 uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.9.8 Release Notes (05/23/2013){#search-promote-release-notes}
+# Search&amp;Promote 8.9.8 Release Notes (05/23/2013){#search-promote-release-notes}
 
 <table id="table_27B1D387802541DB80C450DEB838D020"> 
  <thead> 

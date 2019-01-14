@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 8.11.0 Release Notes (10/29/2013)
+seo-title: Search&amp;Promote 8.11.0 Release Notes (10/29/2013)
 solution: Target
-title: Search&Promote 8.11.0 Release Notes (10/29/2013)
+title: Search&amp;Promote 8.11.0 Release Notes (10/29/2013)
 topic: Release Notes,Site search and merchandising
 uuid: 973f9608-a5c7-4571-ae2b-6f1fa05bc862
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 8.11.0 Release Notes (10/29/2013){#search-promote-release-notes}
+# Search&amp;Promote 8.11.0 Release Notes (10/29/2013){#search-promote-release-notes}
 
 <table id="table_27B1D387802541DB80C450DEB838D020"> 
  <thead> 
@@ -30,23 +30,23 @@ snippet: y
 
 **Enhancements and fixes**
 
-* Enhancements made to the existing [!DNL Search&Promote] table matching capabilities. The enhancements provide better support of customer requirements related to increasingly complex relationships between SKU and product data.
+* Enhancements made to the existing [!DNL Search&amp;Promote] table matching capabilities. The enhancements provide better support of customer requirements related to increasingly complex relationships between SKU and product data.
 
   >[!NOTE]
   >
-  >This feature is not enabled by default. Contact Adobe Customer Care to activate the feature in Search&Promote for your use.
+  >This feature is not enabled by default. Contact Adobe Customer Care to activate the feature in Search&amp;Promote for your use.
 
 * Added an option that allows Guided Search to sort Facets using the account's language setting.
 
   >[!NOTE]
   >
-  >This feature is not enabled by default. Contact Adobe Customer Care to activate the feature in Search&Promote for your use.
+  >This feature is not enabled by default. Contact Adobe Customer Care to activate the feature in Search&amp;Promote for your use.
 
 * Added an option to increase the number of facet values that a user can specify for multi-select facets.
 
   >[!NOTE]
   >
-  >This feature is not enabled by default. Contact Adobe Customer Care to activate the feature in Search&Promote for your use.
+  >This feature is not enabled by default. Contact Adobe Customer Care to activate the feature in Search&amp;Promote for your use.
 
 * Added the checkbox option **[!UICONTROL Only allow searches that use HTTPS]** to **[!UICONTROL Settings]** > **[!UICONTROL Searching]** > **[!UICONTROL Restrictions]**.
 

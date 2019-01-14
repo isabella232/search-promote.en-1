@@ -1,9 +1,9 @@
 ---
 description: null
 seo-description: null
-seo-title: Search&Promote 15.1.1 Release Notes (01/15/2015)
+seo-title: Search&amp;Promote 15.1.1 Release Notes (01/15/2015)
 solution: Target
-title: Search&Promote 15.1.1 Release Notes (01/15/2015)
+title: Search&amp;Promote 15.1.1 Release Notes (01/15/2015)
 topic: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 index: y
@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Search&Promote 15.1.1 Release Notes (01/15/2015){#search-promote-release-notes}
+# Search&amp;Promote 15.1.1 Release Notes (01/15/2015){#search-promote-release-notes}
 
 ## New feature {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
 
