@@ -27,6 +27,6 @@ snippet: y
 
 ## Other information {#topic_34A00195904D4AE7AE982D3746F693AA}
 
-[Adobe Search&Promote website](http://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
+[Adobe Search&Promote website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
 
-[Industry Insights](http://blogs.adobe.com/digitalmarketing/) - The Adobe blog for digital marketing. 
+[Industry Insights](https://blogs.adobe.com/digitalmarketing/) - The Adobe blog for digital marketing. 

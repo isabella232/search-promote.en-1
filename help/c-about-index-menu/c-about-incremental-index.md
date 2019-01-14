@@ -61,7 +61,7 @@ r_incremental_index_configuration_options.xml
    <td colname="col1"> <p>Add or Update URLs </p> </td> 
    <td colname="col2"> <p>Specify URLs. </p> <p>The search robot only indexes the specified documents that have changed since the last time you indexed. </p> <p>Additionally, the search robot follows links that are contained within the specified documents and indexes only those documents that have changed. </p> <p>This field must contain document URLs only and not masks as in the following example: </p> <p> 
      <userinput>
-       http://www.mydomain.com/products/new.html 
+       https://www.mydomain.com/products/new.html 
      </userinput>. </p> <p>You can use the following keywords with the URL: </p> <p> 
      <ul id="ul_62D1082ACBD547D092B10D72C56A3A1E"> 
       <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
@@ -72,7 +72,7 @@ r_incremental_index_configuration_options.xml
           noindex 
         </userinput> after the URL as in the following example: </p> <p> 
         <userinput>
-          http://www.mydomain.com/products/new.html noindex 
+          https://www.mydomain.com/products/new.html noindex 
         </userinput> </p> <p>Be sure you separate 
         <userinput>
           noindex 
@@ -85,7 +85,7 @@ r_incremental_index_configuration_options.xml
           nofollow 
         </userinput> after the URL as in the following example: </p> <p> 
         <userinput>
-          http://www.mydomain.com/products/new.html nofollow 
+          https://www.mydomain.com/products/new.html nofollow 
         </userinput> </p> <p> Be sure you separate 
         <userinput>
           nofollow 
@@ -96,10 +96,10 @@ r_incremental_index_configuration_options.xml
    <td colname="col1"> <p>Find and Update URL Masks </p> </td> 
    <td colname="col2"> <p>Specify simple URL masks—full path, partial path, or paths that use wild cards or regular expressions. </p> <p>The search robot finds all matching documents and indexes only those documents that have changed since the last time you indexed. </p> <p>Additionally, the search robot follows links that are contained within the matching documents and indexes only those pages that have changed. For example: </p> <p> 
      <userinput>
-       http://www.mydomain.com/products/household/*.html 
+       https://www.mydomain.com/products/household/*.html 
      </userinput> </p> <p>You can also use regular expressions as in the following example: </p> <p> 
      <userinput>
-       regexp ^http://www\.mydomain\.com/products/household/.*\.html$ 
+       regexp ^https://www\.mydomain\.com/products/household/.*\.html$ 
      </userinput> </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>You can also use the keywords 
      <userinput>
        nofollow 
@@ -112,10 +112,10 @@ r_incremental_index_configuration_options.xml
    <td colname="col1"> <p>Include and Exclude URL Masks </p> </td> 
    <td colname="col2"> <p>Specify simple include or exclude URL masks—full path, partial path, or paths that use wild cards or regular expressions. </p> <p>The search robot finds and indexes ("include") or ignores ("exclude") documents based on the type of mask that is specified. </p> <p> When indexing a site, directions are followed in order of appearance. For example, the following list of masks: </p> <p> 
      <userinput>
-       include http://www.mydomain.com/products/household/lightbulbs*.html 
+       include https://www.mydomain.com/products/household/lightbulbs*.html 
      </userinput> </p> <p> 
      <userinput>
-       exclude http://www.mydomain.com/products/ 
+       exclude https://www.mydomain.com/products/ 
      </userinput> </p> <p>indexes the pages 
      <userinput>
        lightbulbs1.html 
@@ -144,7 +144,7 @@ r_incremental_index_configuration_options.xml
          <li id="li_0527BF7103F34B83AC3E684069B899F7">server-date </li> 
         </ul> </p> <p>For example, the following mask includes all documents in the /archive/support folder that are 0 days or older: </p> <p> 
         <userinput>
-          include-days 0 http://www.mydomain.com/archive/support/ 
+          include-days 0 https://www.mydomain.com/archive/support/ 
         </userinput> </p> </li> 
       <li id="li_7663ABED40DD4E159F746E4F92BB6407"> 
        <userinput>
@@ -156,7 +156,7 @@ r_incremental_index_configuration_options.xml
          <li id="li_05646FACF3524D2A9E201A23770E357F"> server-date </li> 
         </ul> </p> <p>The following mask example includes all documents in the /archive/ folder dated on or before July 25, 2011: </p> <p> 
         <userinput>
-          include-date 2011-07-25 http://www.mydomain.com/archive/ 
+          include-date 2011-07-25 https://www.mydomain.com/archive/ 
         </userinput> </p> </li> 
       <li id="li_172692DEDA8744B3AA492701D24C2D80"> 
        <userinput>
@@ -176,7 +176,7 @@ r_incremental_index_configuration_options.xml
           server-date 
         </userinput>. </p> <p>The following mask example excludes all documents in the /archive/ folder dated on or before April 23, 2004: </p> <p> 
         <userinput>
-          exclude-date 2004-04-23 http://www.mydomain.com/archive/ 
+          exclude-date 2004-04-23 https://www.mydomain.com/archive/ 
         </userinput> </p> </li> 
      </ul> </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"> About Date Masks </a>. </p> </td> 
   </tr> 
@@ -188,10 +188,10 @@ r_incremental_index_configuration_options.xml
    <td colname="col1"> <p>Find and Delete URL Masks </p> </td> 
    <td colname="col2"> <p>Specify simple URL masks—full path, partial path, or ones that use wild cards or regular expressions. </p> <p>If the specified URL mask matches pages in your search index, the search robot deletes the pages before it adds or updates any other pages. For example: </p> <p> 
      <userinput>
-       http://www.mydomain.com/products/1998/household/* 
+       https://www.mydomain.com/products/1998/household/* 
      </userinput> </p> <p>You can also use regular expressions as in the following example: </p> <p> 
      <userinput>
-       regexp ^http://www\.mydomain\.com/products/199[567]/.*$ 
+       regexp ^https://www\.mydomain\.com/products/199[567]/.*$ 
      </userinput> </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
   </tr> 
  </tbody> 

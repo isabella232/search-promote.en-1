@@ -95,12 +95,12 @@ t_configuring_integration_with_adobe_cq.xml
 * Login to your site search/merchandising account. 
 * In the URL path, copy the member ID and the account ID.
 
-  For example, if the URL path to your account were `http://searchandpromote.mycompany.com/px/home/?sp_id=00123a4b-sp1234a5b6`, the member ID would be `00123a4b` and the account ID would be `sp1234a5b6`.
+  For example, if the URL path to your account were `https://searchandpromote.mycompany.com/px/home/?sp_id=00123a4b-sp1234a5b6`, the member ID would be `00123a4b` and the account ID would be `sp1234a5b6`.
 
 1. In Adobe CQ5, use the Cloud Services tab to create your site search/merchandising configuration.
 
    Use the copied Member ID and Account ID for the respective settings. 
-   
+
 ## Configuring Merchandising preferences {#task_7AC7B9F5D9F44E10AB5BC0B8CB31C37A}
 
 Manage Merchandising preferences such as the default rule builder and default search term.

@@ -162,8 +162,8 @@ Passing JSON versus XML from the search-engine is known to be faster because it 
 
 If you are new to JSON, you can use the following links and examples to help you get started:
 
-* An introduction to JSON. See [http://www.json.org/](http://www.json.org/). 
-* Test your JSON to ensure that it is valid. See [http://jsonlint.com/](http://jsonlint.com/).
+* An introduction to JSON. See [https://www.json.org/](https://www.json.org/). 
+* Test your JSON to ensure that it is valid. See [https://jsonlint.com/](https://jsonlint.com/).
 
 **Example JSON template**
 

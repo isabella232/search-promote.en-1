@@ -33,19 +33,19 @@ See [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference
 
 Search requests consist of a base URL. The base URL indicates what account the customer is searching, and a set of CGI parameters (key-value pairs) that indicate how to return the desired search results for the associated account.
 
-The base URL is associated with a specific account and a staged or live environment. You can request multiple aliases for the base URL from your account manager. For example, a company called Megacorp may have two base URLs associated with their account: http://search.megacorp.com and http://stage.megacorp.com. The former URL searches their live index and the latter URL searches their staged index.
+The base URL is associated with a specific account and a staged or live environment. You can request multiple aliases for the base URL from your account manager. For example, a company called Megacorp may have two base URLs associated with their account: https://search.megacorp.com and https://stage.megacorp.com. The former URL searches their live index and the latter URL searches their staged index.
 
 Three formats of CGI Parameters are supported. By default your account is configured to separate CGI Parameters with a semi-colon as in the following example:
 
-`http://search.megacorp.com?q=shoes;page=2`
+`https://search.megacorp.com?q=shoes;page=2`
 
 If you prefer, you can have your account manager configure your account to use ampersands to separate the CGI parameters as in the following example:
 
-`http://search.megacorp.com?q=shoes&page=2`
+`https://search.megacorp.com?q=shoes&page=2`
 
 A third format, called the SEO format, is also supported where a forward slash "/" is used in place of the separator and equal sign as in the following example:
 
-`http://search.megacorp.com/q/shoes/page/2`
+`https://search.megacorp.com/q/shoes/page/2`
 
 Any time the SEO format is used to send a request, all output links are returned in the same format.
 
@@ -564,14 +564,14 @@ You can select backend search CGI parameters from the following table:
 The following link queries start a search using "Music" as the search query, and uses all the default parameters. Note that the URL is split across two lines for readability. In your HTML, this link should all be on one line.
 
 ```
-<a href="http://search.atomz.com/search/?sp_q=Music&sp_a=sp99999999"> 
+<a href="https://search.atomz.com/search/?sp_q=Music&sp_a=sp99999999"> 
 Testing...</a>
 ```
 
 The same functionality is more typically defined with a form:
 
 ```
-<form action="http://search.atomz.com/search/"> 
+<form action="https://search.atomz.com/search/"> 
 <input size=12 name="sp_q" value="Music"><br> 
 <input type=hidden name="sp_a" value="sp99999999"> 
 <input type=submit value="Search"><br> 
@@ -585,7 +585,7 @@ You should typically use default parameters when initiating a search. That way, 
 The following form queries display `25` results starting at result `10`. Summaries are not shown, the sort order is by date, and the collection named `support` is used. Only documents dated within the last 30 days are returned.
 
 ```
-<form action="http://search.atomz.com/search/"> 
+<form action="https://search.atomz.com/search/"> 
 <input size=12 name="sp_q"><br> 
 <input type=hidden name="sp_a" value="sp99999999"> 
 <input type=submit value="Search"><br> 

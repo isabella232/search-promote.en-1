@@ -424,12 +424,12 @@ append|replace field [regexp] URL value
 The `append|replace`, `field`, `URL`. and `value` items are mandatory. You enter one injection definition per line. The following example contains six different injection definitions.
 
 ```
-replace title  http://www.yoursite.com/company/contactus.html Adobe: Contact Us 
-append body http://www.yoursite.com/products/* On Sale Now! 
-append target http://www.yoursite.com/news/bob_white/ Regular Weekly Feature 
-append target regexp http://www.yoursite.com/travel/mr_travel/.*\column.html$ Regular Weekly Feature 
-replace charset http://www.yoursite.com/japanese/intro.txt shift-jis 
-replace language http://www.yoursite.com/japanese/intro.txt ja_JP
+replace title  https://www.yoursite.com/company/contactus.html Adobe: Contact Us 
+append body https://www.yoursite.com/products/* On Sale Now! 
+append target https://www.yoursite.com/news/bob_white/ Regular Weekly Feature 
+append target regexp https://www.yoursite.com/travel/mr_travel/.*\column.html$ Regular Weekly Feature 
+replace charset https://www.yoursite.com/japanese/intro.txt shift-jis 
+replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 ```
 
 <table id="table_B0E801734BD94A7C80713D90C59097C5"> 
@@ -458,22 +458,22 @@ replace language http://www.yoursite.com/japanese/intro.txt ja_JP
       <li id="li_FD0B1CD9E6304B18B9D7F57E61015107"> <span class="codeph"> target </span> </li> 
       <li id="li_400D7E3F3E9B47EFB2FF5C0D278DB573"> <span class="codeph"> title </span> </li> 
       <li id="li_449BCBEE4F64424BB69F780C10F5956C"> <span class="codeph"> url </span> </li> 
-     </ul> </p> <p>Each field name corresponds to elements on your site pages. If you specify the field name <span class="codeph"> desc </span> for example, you can add the injection definition value to the field that corresponds to the description Meta tags on your site pages. </p> <p>If no description Meta tag exists on your pages, the defined content creates the tag for you. The content specified in a <span class="codeph"> desc </span> injection displays on your results page just as hard-coded Meta-description content would. </p> <p>You can also create multiple definitions with the same field name. For example, supposed you have the following injections: </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;http://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;http://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>All site pages in the above example receive an injected title "Welcome to My Site". Pages in the "/company/" folder are injected with a new title "My Site: Contact Us" that replaces the previous one. </p> <p>Notice that injections are applied in the order in which they appear in the <span class="wintitle"> Field Injection Definitions </span> text box. If the same field ("title" in this example) is defined more than once for pages at the same location, the later definition takes precedence. </p> <p> <span class="codeph"> [regexp] </span> - optional. If you choose to use the <span class="codeph"> regexp </span> option, the defined URL is treated as a regular expression. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>In the following definition: </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> "Important information" is injected into the "target" field on all pages that match the regular expression <span class="codeph"> ^.*/products/.*\.html$ </span>. </p> <p>Therefore, you have the following: </p> <p> <code> http://www.mydomain.com/products/page1.html 
-      &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p> <code> http://www.mydomain.com/product/oldstuff.html 
+     </ul> </p> <p>Each field name corresponds to elements on your site pages. If you specify the field name <span class="codeph"> desc </span> for example, you can add the injection definition value to the field that corresponds to the description Meta tags on your site pages. </p> <p>If no description Meta tag exists on your pages, the defined content creates the tag for you. The content specified in a <span class="codeph"> desc </span> injection displays on your results page just as hard-coded Meta-description content would. </p> <p>You can also create multiple definitions with the same field name. For example, supposed you have the following injections: </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/&nbsp;Welcome&nbsp;to&nbsp;My&nbsp;Site </code> </p> <p> <code> replace&nbsp; <b>title</b>&nbsp;https://www.mysite.com/company/*.html&nbsp;My&nbsp;Site:&nbsp;Contact </code> </p> <p>All site pages in the above example receive an injected title "Welcome to My Site". Pages in the "/company/" folder are injected with a new title "My Site: Contact Us" that replaces the previous one. </p> <p>Notice that injections are applied in the order in which they appear in the <span class="wintitle"> Field Injection Definitions </span> text box. If the same field ("title" in this example) is defined more than once for pages at the same location, the later definition takes precedence. </p> <p> <span class="codeph"> [regexp] </span> - optional. If you choose to use the <span class="codeph"> regexp </span> option, the defined URL is treated as a regular expression. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>In the following definition: </p> <p> <code> replace&nbsp;target&nbsp; <b>regexp&amp;nbsp;^.*/products/.*\.html$</b>&nbsp;Important&nbsp;information </code> </p> <p> "Important information" is injected into the "target" field on all pages that match the regular expression <span class="codeph"> ^.*/products/.*\.html$ </span>. </p> <p>Therefore, you have the following: </p> <p> <code> https://www.mydomain.com/products/page1.html 
+      &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p> <code> https://www.mydomain.com/product/oldstuff.html 
       &nbsp;&nbsp;&nbsp;&nbsp;(Will&nbsp;not&nbsp;receive&nbsp;"target"&nbsp;content) </code> </p> <p>In the following example: </p> <p> <code> append&amp;nbsp;title&amp;nbsp;regexp&amp;nbsp;^.*\.pdf$&amp;nbsp;Millennium&amp;nbsp;Science </code> </p> <p>The injection appends "Millennium Science" to the "title" content of all pages that end with a ".pdf" filename extension. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> URL </span> </p> </td> 
    <td colname="col2"> <p>A URL is required and specifies which documents are injected. </p> <p>The URL is any one of the following: </p> <p> 
      <ul id="ul_C5C74F6D5EA943B293742989EB822751"> 
-      <li id="li_382392DB778D4E14BFFC96D35A861951"> A full path, as in http://www.mydomain.com/products.html </li> 
-      <li id="li_EA2BD0FB66A44CD0844613316F6174D4"> A partial path, as in http://www.mydomain.com/products </li> 
-      <li id="li_D5E0D6D897C8493ABBFC65517CD4A7DB"> A URL that uses wild cards, as in http://www.mydomain.com/*.html </li> 
+      <li id="li_382392DB778D4E14BFFC96D35A861951"> A full path, as in https://www.mydomain.com/products.html </li> 
+      <li id="li_EA2BD0FB66A44CD0844613316F6174D4"> A partial path, as in https://www.mydomain.com/products </li> 
+      <li id="li_D5E0D6D897C8493ABBFC65517CD4A7DB"> A URL that uses wild cards, as in https://www.mydomain.com/*.html </li> 
      </ul> </p> <p>The URL value must not have any space characters in it. If the <span class="codeph"> regexp </span> option is used, the URL is treated like a regular expression. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> value </span> </p> </td> 
-   <td colname="col2"> <p>A value is required and is used to either replace or add to existing field content. You can specify multiple values for the same field name. For example: </p> <p>append <b>keys</b> http://www.mysite.com/travel/ <b>summer</b>, <b>beach</b>, <b>sand</b> </p> <p>append <b>keys</b> http://www.mysite.com/travel/fare/*.html <b>cheap tickets</b> </p> <p>In the above example, the words "summer, beach, sand" is appended to the "keys" field on all pages in the "/travel/" directory. The words "cheap tickets" is also appended to the "keys" field on all pages in the "/travel/fare/" directory. </p> </td> 
+   <td colname="col2"> <p>A value is required and is used to either replace or add to existing field content. You can specify multiple values for the same field name. For example: </p> <p>append <b>keys</b> https://www.mysite.com/travel/ <b>summer</b>, <b>beach</b>, <b>sand</b> </p> <p>append <b>keys</b> https://www.mysite.com/travel/fare/*.html <b>cheap tickets</b> </p> <p>In the above example, the words "summer, beach, sand" is appended to the "keys" field on all pages in the "/travel/" directory. The words "cheap tickets" is also appended to the "keys" field on all pages in the "/travel/fare/" directory. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -688,7 +688,7 @@ r_attribute_loader_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code otherprops="syntax html"> http://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields </p> </td> 
+   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File Path </p> </td> 
@@ -751,7 +751,7 @@ r_attribute_loader_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code class="syntax html"> http://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields. </p> </td> 
+   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code class="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>File Path </p> </td> 
@@ -778,8 +778,8 @@ r_attribute_loader_options.xml
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feedtype&gt;incremental&lt;/feedtype&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;group&nbsp;action="add"&gt; 
-      &lt;record&nbsp;url=http://www.adobe.com/cfusion/marketplace_gsa/ 
-      index.cfm?event=marketplace.home&amp;amp;marketplaceid=1&nbsp;action="add"&nbsp;mimetype="text/html"displayurl="http://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=1"&gt; 
+      &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
+      index.cfm?event=marketplace.home&amp;amp;marketplaceid=1&nbsp;action="add"&nbsp;mimetype="text/html"displayurl="https://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=1"&gt; 
       &lt;metadata&gt; 
       &lt;meta&nbsp;name="mp_mkt"&nbsp;content="1"/&gt; 
       &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
@@ -789,8 +789,8 @@ r_attribute_loader_options.xml
       &lt;/metadata&gt; 
       &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;AIR&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Discover&nbsp;new&nbsp;applications&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;&lt;/cntent&gt; 
       &lt;/record&gt; 
-      &lt;record&nbsp;url=http://www.adobe.com/cfusion/marketplace_gsa/ 
-      index.cfm?event=marketplace.home&amp;amp;marketplaceid=2&nbsp;action="add"&nbsp;mimetype="text/html"&nbsp;displayurl="http://www.adobe.com/cfusion/ 
+      &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
+      index.cfm?event=marketplace.home&amp;amp;marketplaceid=2&nbsp;action="add"&nbsp;mimetype="text/html"&nbsp;displayurl="https://www.adobe.com/cfusion/ 
       marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=2"&gt; 
       &lt;metadata&gt; 
       &lt;meta&nbsp;name="mp_mkt"&nbsp;content="2"/&gt; 
@@ -830,7 +830,7 @@ r_attribute_loader_options.xml
          <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
          <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
          <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
-        </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="http://www.w3schools.com/xpath/" scope="external" format="html"> http://www.w3schools.com/xpath/ </a> </p> </li> 
+        </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Field </span> <p>Defines the name attribute value that is used for each generated <span class="codeph"> &lt;meta&gt; </span> tag. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metadata? </span> <p>Causes <span class="uicontrol"> Field </span> to become a drop-down list from which you can select defined metadata fields for the current account. </p> <p>The <span class="uicontrol"> Field </span> value can be an undefined metadata field, if desired. An undefined metadata field is sometimes useful to create content used by <span class="wintitle"> Filtering Script </span>. </p> <p>See <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> About Filtering Script </a>. </p> <p>When Attribute Loader processes XML documents with multiple hits on any map field, the multiple values are concatenated into a single value in the resulting cached document. By default, these values are combined using a comma delimiter. However, suppose that the corresponding <span class="wintitle"> Field </span> value is a defined metadata field. In addition, that field has the <span class="wintitle"> Allow Lists </span> attribute set. In this case, the field's List Delimiters value, which is the first delimiter defined, is used in the concatenation. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primary Key? </span> <p>Only one field is identified as the primary key. This field will be used as the "foreign key" to match the Attribute Loader data with the corresponding document in the index. </p> </li> 

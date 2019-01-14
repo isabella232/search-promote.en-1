@@ -50,8 +50,8 @@ For example, a primary IndexConnector feed might look like the following (but us
   <title><![CDATA[Title for product 123]]></title>
   <description><![CDATA[Description for product 123.]]></description>
   <price>3.99</price>
-  <link><![CDATA[http://www.somewhere.com/products/123]]></link>
-  <image><![CDATA[http://www.somewher.com/images/products/123.jpg]]></image>
+  <link><![CDATA[https://www.somewhere.com/products/123]]></link>
+  <image><![CDATA[https://www.somewher.com/images/products/123.jpg]]></image>
   <label><![CDATA[PROD123]]></label>
   <inventory>100</inventory>
   <brand><![CDATA[brand123]]></brand>

@@ -71,7 +71,7 @@ Plain Text: Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are the two types of backreferences:
 
-* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^http:// ([^/]*) (.*)$ http://${tolower: $1} $2.` 
+* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2.` 
 
 * ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
@@ -136,18 +136,18 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 Assume that you have a case-sensitive server, which handles the strings "www.mydomain.com" and "www.MyDomain.com" differently. In order for your server to work correctly, ensure that the domain is always "www.mydomain.com" even though some documents contain links referencing "www.MyDomain.com." To do this, you could use the following rule:
 
 ```
-RewriteRule  ^http:// 
+RewriteRule  ^https:// 
 <b>([^/]*)</b> 
-<i>(.*)</i>$  http://${tolower:$1}$2
+<i>(.*)</i>$  https://${tolower:$1}$2
 ```
 
 This rewrite rule uses the function `tolower` to rewrite the domain portion of a URL to ensure that it is always lowercase as in the following:
 
-1. The Pattern `(^http://([^/]*)(.*)$)` contains a backreference ** `([^/]*)`** that matches all characters between `http://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
+1. The Pattern `(^https://([^/]*)(.*)$)` contains a backreference ** `([^/]*)`** that matches all characters between `https://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
 
-1. The Substitution `(http://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the `tolower` function on the first backreference `(http:// ${tolower:$1}$2)` leaving the rest of the URL untouched `(http://${tolower:$1} $2)`.
+1. The Substitution `(https://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the `tolower` function on the first backreference `(https:// ${tolower:$1}$2)` leaving the rest of the URL untouched `(https://${tolower:$1} $2)`.
 
-Thus, a URL of the form `http://www.MyDomain.com/INTRO/index.Html` is rewritten as `http://www.mydomain.com/INTRO/index.Html`.
+Thus, a URL of the form `https://www.MyDomain.com/INTRO/index.Html` is rewritten as `https://www.mydomain.com/INTRO/index.Html`.
 
 ## About RewriteCond directives {#section_CD5A19B2D3204F73B645411931FC34A1}
 
@@ -165,7 +165,7 @@ Plain text: Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are the two types of backreferences:
 
-* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^http:// ([^/]*) (.*)$ http://${tolower: $1} $2`. 
+* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2`. 
 
 * ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
 
@@ -248,7 +248,7 @@ The regular expression `^&#]+` matches the portion of a URL between the word `se
 
 The RewriteCond examines the variable `sessionid` ( `%{sessionid}`). If it does not have even a single character (!.+), then the RewriteRule matches.
 
-Using this rule, the URL is read as `http://www.domain.com/home/?sessionid=1234&function=start` and assign the value `1234` to the variable `sessionid`.
+Using this rule, the URL is read as `https://www.domain.com/home/?sessionid=1234&function=start` and assign the value `1234` to the variable `sessionid`.
 
 The second rule is used to rewrite all URLs that match the following RewriteRule Pattern:
 
@@ -262,11 +262,11 @@ The RewriteRule Pattern contains two backreferences: `(.+)` and `(.*)`. The firs
 
 The Substitution pattern rewrites the URL using the first backreference, followed by the string "sessionid=", followed by the value of the session ID variable defined by the first rule `%{sessionid}`, followed by the second backreference. `($1sessionid=%{sessionid} $2)`
 
-Notice that this RewriteRule does not contain a RewriteCond. As such, it causes a rewrite for all URLs that match the RewriteRule *Pattern*. Thus, if the value of the sessionid variable ( `%{sessionid}`) is `1234`, a URL of the form `http://www.domain.com/products/?sessionid=5678&function=buy` is rewritten as `http://www.domain.com/products/?sessionid=1234&function=buy`
+Notice that this RewriteRule does not contain a RewriteCond. As such, it causes a rewrite for all URLs that match the RewriteRule *Pattern*. Thus, if the value of the sessionid variable ( `%{sessionid}`) is `1234`, a URL of the form `https://www.domain.com/products/?sessionid=5678&function=buy` is rewritten as `https://www.domain.com/products/?sessionid=1234&function=buy`
 
 ## Acknowledgment {#section_B17088EF38244496BC1DDD4ECF75EB5B}
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (https://www.apache.org/). 
 
 ## Adding a crawl list store URL rule {#task_22DD40DF95584B12BE8E6ECFBF579BCD}
 
@@ -358,7 +358,7 @@ Plain Text: Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are the two types of backreferences:
 
-* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^http:// ([^/]*) (.*)$ http://${tolower: $1} $2.` 
+* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2.` 
 
 * ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
@@ -423,18 +423,18 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 Assume that you have a case-sensitive server, which handles the strings "www.mydomain.com" and "www.MyDomain.com" differently. In order for your server to work correctly, ensure that the domain is always "www.mydomain.com" even though some documents contain links referencing "www.MyDomain.com." To do this, you could use the following rule:
 
 ```
-RewriteRule  ^http:// 
+RewriteRule  ^https:// 
 <b>([^/]*)</b> 
-<i>(.*)</i>$  http://${tolower:$1}$2
+<i>(.*)</i>$  https://${tolower:$1}$2
 ```
 
 This rewrite rule uses the function `tolower` to rewrite the domain portion of a URL to ensure that it is always lowercase as in the following:
 
-1. The Pattern `(^http://([^/]*)(.*)$)` contains a backreference ** `([^/]*)`** that matches all characters between `http://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
+1. The Pattern `(^https://([^/]*)(.*)$)` contains a backreference ** `([^/]*)`** that matches all characters between `https://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
 
-1. The Substitution `(http://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the `tolower` function on the first backreference `(http:// ${tolower:$1}$2)` leaving the rest of the URL untouched `(http://${tolower:$1} $2)`.
+1. The Substitution `(https://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the `tolower` function on the first backreference `(https:// ${tolower:$1}$2)` leaving the rest of the URL untouched `(https://${tolower:$1} $2)`.
 
-Thus, a URL of the form `http://www.MyDomain.com/INTRO/index.Html` is rewritten as `http://www.mydomain.com/INTRO/index.Html`.
+Thus, a URL of the form `https://www.MyDomain.com/INTRO/index.Html` is rewritten as `https://www.mydomain.com/INTRO/index.Html`.
 
 ## About RewriteCond directives {#section_ADD642A24B68452CB98294A0BD687EC3}
 
@@ -452,7 +452,7 @@ Plain text: Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are the two types of backreferences:
 
-* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^http:// ([^/]*) (.*)$ http://${tolower: $1} $2`. 
+* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2`. 
 
 * ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
 
@@ -535,7 +535,7 @@ The regular expression `^&#]+` matches the portion of a URL between the word `se
 
 The RewriteCond examines the variable `sessionid` ( `%{sessionid}`). If it does not have even a single character (!.+), then the RewriteRule matches.
 
-Using this rule, the URL is read as `http://www.domain.com/home/?sessionid=1234&function=start` and assign the value `1234` to the variable `sessionid`.
+Using this rule, the URL is read as `https://www.domain.com/home/?sessionid=1234&function=start` and assign the value `1234` to the variable `sessionid`.
 
 The second rule is used to rewrite all URLs that match the following RewriteRule Pattern:
 
@@ -549,11 +549,11 @@ The RewriteRule Pattern contains two backreferences: `(.+)` and `(.*)`. The firs
 
 The Substitution pattern rewrites the URL using the first backreference, followed by the string "sessionid=", followed by the value of the session ID variable defined by the first rule `%{sessionid}`, followed by the second backreference. `($1sessionid=%{sessionid} $2)`
 
-Notice that this RewriteRule does not contain a RewriteCond. As such, it causes a rewrite for all URLs that match the RewriteRule *Pattern*. Thus, if the value of the sessionid variable ( `%{sessionid}`) is `1234`, a URL of the form `http://www.domain.com/products/?sessionid=5678&function=buy` is rewritten as `http://www.domain.com/products/?sessionid=1234&function=buy`
+Notice that this RewriteRule does not contain a RewriteCond. As such, it causes a rewrite for all URLs that match the RewriteRule *Pattern*. Thus, if the value of the sessionid variable ( `%{sessionid}`) is `1234`, a URL of the form `https://www.domain.com/products/?sessionid=5678&function=buy` is rewritten as `https://www.domain.com/products/?sessionid=1234&function=buy`
 
 ## Acknowledgment {#section_EC3A1DAEB5A54C93A265CB119DF91E9F}
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (https://www.apache.org/). 
 
 ## Adding crawl list retrieve URL rules {#task_94A28ED7DC404BFF9767DBB5ADEE6B7A}
 
@@ -802,7 +802,7 @@ Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
 **Acknowledgment**
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (https://www.apache.org/). 
 
 ## Adding crawl title rules {#task_272BB4C603BA4C9ABDBEEB398798B101}
 
@@ -952,18 +952,18 @@ Note that the Store Rewrite Rules and the Retrieve Rewrite Rules share variable 
 Assume that you have a case-sensitive server. It handles the strings "www.mydomain.com" and "www.MyDomain.com" differently. To have your server work correctly, you must ensure that the domain is always "www.mydomain.com" even though some documents contain links that reference "www.MyDomain.com." To do this, you could use the following rule:
 
 ```
-RewriteRule  ^http:// 
+RewriteRule  ^https:// 
 <b>([^/]*)</b> 
-<i>(.*)</i>$  http://${tolower:$1}$2 
+<i>(.*)</i>$  https://${tolower:$1}$2 
 ```
 
 This rewrite rule uses the function "tolower" to rewrite the domain portion of a URL to ensure that it is always lowercase:
 
-1. The Pattern (^http://([^/]&#42;)(.&#42;)$) contains a backreference **([^/]&#42;)** that matches all characters between "http://" and the first "/" in the URL. The pattern also contains a second backreference **(.&#42;)** that matches all remaining characters in the URL. 
+1. The Pattern (^https://([^/]&#42;)(.&#42;)$) contains a backreference **([^/]&#42;)** that matches all characters between "https://" and the first "/" in the URL. The pattern also contains a second backreference **(.&#42;)** that matches all remaining characters in the URL. 
 
-1. The Substitution (http://${tolower:$1}$2) tells the search engine to rewrite the URL by using the **tolower** function on the first backreference (http://**${tolower:$1**}$2) leaving the rest of the URL untouched (http://${tolower:$1}*$2*).
+1. The Substitution (https://${tolower:$1}$2) tells the search engine to rewrite the URL by using the **tolower** function on the first backreference (https://**${tolower:$1**}$2) leaving the rest of the URL untouched (https://${tolower:$1}*$2*).
 
-Therefore, a URL of the form `http://www.MyDomain.com/INTRO/index.Html` is rewritten as `http://www.mydomain.com/INTRO/index.Html`
+Therefore, a URL of the form `https://www.MyDomain.com/INTRO/index.Html` is rewritten as `https://www.mydomain.com/INTRO/index.Html`
 
 **RewriteCond Directive** (Optional)
 
@@ -990,7 +990,7 @@ Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARI
 
 >[!NOTE]
 >
->Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL "http://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678" will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like <input type=hidden name="session" value="1234">.
+>Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL "https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678" will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like <input type=hidden name="session" value="1234">.
 
 Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
@@ -1053,11 +1053,11 @@ The Substitution pattern rewrites the URL using the first backreference, followe
 
 The **RewriteCond** examines the variable sessionid `(%{sessionid})`. If it contains at least one character (.+), then the RewriteRule matches.
 
-Thus, if the search query is "http://search.atomz.com/search/?sp_a=sp99999999&sp_q=word&sessionid=5678", then all search result URLs will be rewritten so that the "sessionid" value is "5678" instead of the "sessionid" value that the search robot encountered when it crawled your site and saved the links.
+Thus, if the search query is "https://search.atomz.com/search/?sp_a=sp99999999&sp_q=word&sessionid=5678", then all search result URLs will be rewritten so that the "sessionid" value is "5678" instead of the "sessionid" value that the search robot encountered when it crawled your site and saved the links.
 
 **Acknowledgment**
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (https://www.apache.org/). 
 
 ## Adding search URL rules {#task_50C77D1B53804AEEB20896F74265BD6F}
 
@@ -1296,7 +1296,7 @@ Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
 **Acknowledgment**
 
-The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (http://www.apache.org/). 
+The rewrite engine software was originally developed by the Apache Group for use in the Apache HTTP server project (https://www.apache.org/). 
 
 ## Adding search title rules {#task_155CECB74BE3444384EDBBD04F41515E}
 

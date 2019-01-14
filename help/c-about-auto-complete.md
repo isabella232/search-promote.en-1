@@ -79,7 +79,7 @@ r_auto-complete_setup_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Form name </p> </td> 
-   <td colname="col2"> <p>Specifies the "name" attribute of the auto-complete enabled search form's "form" tag. For example, </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="http://sp1004337c.guided.t1.atomz.com" target="_blank"&gt; </span> </p> <p>where <span class="filepath"> SiteSearch </span> is the name attribute of the form tag. </p> </td> 
+   <td colname="col2"> <p>Specifies the "name" attribute of the auto-complete enabled search form's "form" tag. For example, </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="https://sp1004337c.guided.t1.atomz.com" target="_blank"&gt; </span> </p> <p>where <span class="filepath"> SiteSearch </span> is the name attribute of the form tag. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Div tag ID </p> </td> 
@@ -214,7 +214,7 @@ t_configuring_auto-complete_css.xml
 
 Auto-Complete CSS controls the content of [!DNL autocomplete_styles.css], which is included as a part of the auto-complete enabled search form. The CSS you specify here controls the visual presentation of the auto-complete suggestion list. For an example of the visual presentation ideas that are possible, see the following:
 
-[http://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](http://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html).
+[https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html).
 
 [Configuring Auto-Complete Word List](c-about-auto-complete.md#task_1F8E0F346263443383F8CFD2C7AB35D4).
 

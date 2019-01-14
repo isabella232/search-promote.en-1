@@ -1248,7 +1248,7 @@ The following tags are available to let you do more advanced things with your te
    <td colname="col1"> <p> <span class="codeph"> Base Path </span> </p> </td> 
    <td colname="col2"> <p> If you want to create a link using the basepath, use <span class="codeph"> / </span> at the start of your <span class="codeph"> href </span> and add on parameters. </p> <p> <code class="syntax html"> &lt;a&nbsp;href="/"&gt;All&nbsp;Products&lt;/a&gt; 
       Would&nbsp;create&nbsp;a&nbsp;link&nbsp;"All&nbsp;Products"&nbsp;to&nbsp;your 
-      basepath,&nbsp;for&nbsp;example&nbsp;http://search.mycompany.com/ 
+      basepath,&nbsp;for&nbsp;example&nbsp;https://search.mycompany.com/ 
        </code> </p> </td> 
   </tr> 
   <tr> 
@@ -1256,7 +1256,7 @@ The following tags are available to let you do more advanced things with your te
    <td colname="col1"> <p> 
      <!--Updated to match search-eng, 2/1/2013--> <span class="codeph"> &lt;guided-query-param gsname="query_parameter" [escape="html|url"] /&gt; </span> </p> </td> 
    <td colname="col2"> <p>Lets you grab the existing value of a query parameter that is on the URL. If your parameter does not exist, this tag returns an empty string. If you do not specify an escape option the string returned is automatically HTML escaped, you can specify either HTML or URL escaping. </p> <p>Example: </p> <p> <code> If 
-      my&nbsp;URL&nbsp;is&nbsp;http://stage.leejeansken.com:2928/?q=pants&amp;lang=en 
+      my&nbsp;URL&nbsp;is&nbsp;https://stage.leejeansken.com:2928/?q=pants&amp;lang=en 
        
       &lt;guided-query-param&nbsp;gsname="q"&nbsp;/&gt; 
       gives&nbsp;you&nbsp;the&nbsp;value&nbsp;pants 
@@ -2218,7 +2218,7 @@ The following tags output a string into the HTML at that point in the template.
 
 ## Template anchor link tags {#section_3A51D27616C541E2B818CC52B2B856BA}
 
-The following are tags that cause an anchor link to surround the HTML between them. When clicked, the anchor link requests another page of results to display. The optional attribute "count" requests that many results on the page to display. If not specified, the count requested on the current page is used. The advanced, optional "URL" attribute controls the domain to which the associated link is directed. By default the domain is http://search.atomz.com/search/, but you can change this using the URL attribute.
+The following are tags that cause an anchor link to surround the HTML between them. When clicked, the anchor link requests another page of results to display. The optional attribute "count" requests that many results on the page to display. If not specified, the count requested on the current page is used. The advanced, optional "URL" attribute controls the domain to which the associated link is directed. By default the domain is https://search.atomz.com/search/, but you can change this using the URL attribute.
 
 <table id="table_F940A41509A2488DAB04ACC144A3FB8A"> 
  <thead> 
@@ -2231,17 +2231,17 @@ The following are tags that cause an anchor link to surround the HTML between th
  <tbody> 
   <tr> 
    <td colname="col01"> <p>1 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-next URL="http://search.yourdomain.com/search/"&gt; ... &lt;/search-next&gt; </span> </p> <p> <span class="codeph"> &lt;search-prev URL="http://search.yourdomain.com/search/"&gt; ... &lt;/search-prev&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-next URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-next&gt; </span> </p> <p> <span class="codeph"> &lt;search-prev URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-prev&gt; </span> </p> </td> 
    <td colname="col2"> <p>Displays the next or previous page of the results. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>2 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-date URL="http://search.yourdomain.com/search/"&gt; ... &lt;/search-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-sort-by-score URL="http://search.yourdomain.com/search/"&gt; ... &lt;/search-sort-by-score&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-sort-by-date URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-sort-by-date&gt; </span> </p> <p> <span class="codeph"> &lt;search-sort-by-score URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-sort-by-score&gt; </span> </p> </td> 
    <td colname="col2"> <p>Sorts the results by date or by relevance. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <p>3 </p> </td> 
-   <td colname="col1"> <p> <span class="codeph"> &lt;search-show-summaries URL="http://search.yourdomain.com/search/"&gt; ... &lt;/search-show-summaries&gt; </span> </p> <p> <span class="codeph"> &lt;search-hide-summaries URL="http://search.yourdomain.com/search/"&gt; ... &lt;/search-hide-summaries&gt; </span> </p> </td> 
+   <td colname="col1"> <p> <span class="codeph"> &lt;search-show-summaries URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-show-summaries&gt; </span> </p> <p> <span class="codeph"> &lt;search-hide-summaries URL="https://search.yourdomain.com/search/"&gt; ... &lt;/search-hide-summaries&gt; </span> </p> </td> 
    <td colname="col2"> <p>Shows or hides the summaries. </p> </td> 
   </tr> 
  </tbody> 

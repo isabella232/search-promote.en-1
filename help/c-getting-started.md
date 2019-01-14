@@ -31,7 +31,7 @@ When you have finished with your personal settings, open your account-wide setti
 
 See [Configuring your account settings](c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
 
-Review your account name and website address, and then select a time zone to use for reports and scheduling. The website address you enter is the main site "entrypoint" for your site. All pages below the entrypoint are crawled and indexed if they are linked, directly or indirectly, to the specified URL. For example, if the entrypoint is `http://www.mysite.com/`, the page `http://www.mysite.com/news/04.html` is indexed, if it is linked from the main `index.html` page or a page that is linked from that index. If your website contains sections that are not linked from the main entrypoint, such as pages on a second domain, you can specify additional URL entrypoints.
+Review your account name and website address, and then select a time zone to use for reports and scheduling. The website address you enter is the main site "entrypoint" for your site. All pages below the entrypoint are crawled and indexed if they are linked, directly or indirectly, to the specified URL. For example, if the entrypoint is `https://www.mysite.com/`, the page `https://www.mysite.com/news/04.html` is indexed, if it is linked from the main `index.html` page or a page that is linked from that index. If your website contains sections that are not linked from the main entrypoint, such as pages on a second domain, you can specify additional URL entrypoints.
 
 See [Adding multiple URL entry points that you want indexed](c-about-settings-menu/c-about-crawling-menu.md#task_2338A47387D74CFDAC4D4EF4A367ED45).
 

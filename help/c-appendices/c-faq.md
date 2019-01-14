@@ -186,7 +186,7 @@ Site search/merchandising is secure, fast, stable, and easy to use. You are not 
 
 ## What about the privacy of my customer information? {#section_8FB493F15E51454BA92A0C83E14C0CC7}
 
-Adobe is committed to honoring the privacy of their customers and visitors. See the Adobe [Privacy Center](http://www.adobe.com/privacy.html).
+Adobe is committed to honoring the privacy of their customers and visitors. See the Adobe [Privacy Center](https://www.adobe.com/privacy.html).
 
 ## Can I show my own banner ads on the search results pages? {#section_611EB8B32C16418386CB7DC7FB6954B8}
 
@@ -403,7 +403,7 @@ Disallow: /
 
 You can learn more about web robots and the Robots Exclusion Protocol at the following:
 
-[http://www.robotstxt.org/orig.html](http://www.robotstxt.org/orig.html)
+[https://www.robotstxt.org/orig.html](https://www.robotstxt.org/orig.html)
 
 ## Certain portions of my website must be updated frequently so that my customers get the most accurate search results. Does incremental indexing help with this issue? {#section_6D2FB1DE1B8A49729F9CCAE2A2770AB3}
 
@@ -641,11 +641,11 @@ One solution you can use to overcome this issue is to place hidden links to othe
 <a href="/mydir/mypag2.html"></a>
 ```
 
-Another solution is to list the URLs of the additional pages on your website as entrypoints to crawl and index. Begin the URLs with `http://` as shown in the following:
+Another solution is to list the URLs of the additional pages on your website as entrypoints to crawl and index. Begin the URLs with `https://` as shown in the following:
 
 ```
-http://www.mydomain.com/mydir/mypag1.html 
-http://www.mydomain.com/mydir/mypag2.html
+https://www.mydomain.com/mydir/mypag1.html 
+https://www.mydomain.com/mydir/mypag2.html
 ```
 
 See [Adding multiple URL entry points that you want indexed](../c-about-settings-menu/c-about-crawling-menu.md#task_2338A47387D74CFDAC4D4EF4A367ED45).
@@ -703,35 +703,35 @@ The following is an example of an improperly formed comments:
 
 Often a website can consist of pages that actually exist on a web server with a different domain address. For example, if your main website address is the following:
 
-`http://www.mydomain.com/`
+`https://www.mydomain.com/`
 
 Your website may also have pages on another domain such as the following:
 
-`http://www.otherdomain.com/`
+`https://www.otherdomain.com/`
 
 By default, the site search/merchandising robot does not follow links on a domain other than the main one. However, by setting additional entrypoints for your search account, you can easily index multiple domains.
 
 On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**. Add the "main website entrypoint" URL of your site. Then, add additional URL entrypoints to any other domains that contain site pages. For example, you would set your main URL entrypoint to:
 
-`http://www.mydomain.com/`
+`https://www.mydomain.com/`
 
 and add the following additional site URL entrypoint:
 
-`http://www.otherdomain.com/`
+`https://www.otherdomain.com/`
 
 ## Are you using a virtual domain service for your URL? {#section_2861F09EA21A45E6B7E15F032739CDF3}
 
 You might be using a virtual domain service (sometimes called a "domain redirection service") to provide a better URL for customers to get to your website. For example, suppose the real address of your website is the following:
 
-`http://www.myispdomain.com/~myname/mywebpages/`
+`https://www.myispdomain.com/~myname/mywebpages/`
 
 However, you use a virtual domain service so customers can get to your site at following addresses:
 
-`http://myname.adomain.com/`
+`https://myname.adomain.com/`
 
 or
 
-`http://adomain.com/myname/`
+`https://adomain.com/myname/`
 
 By default, the site search/merchandising robot does not follow links on a domain other than the main one. However, by setting additional entrypoints for your search account, you can easily index multiple domains.
 
@@ -739,17 +739,17 @@ On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]**
 
 For example, you would set your main URL entrypoint to the following:
 
-`http://myname.adomain.com/`
+`https://myname.adomain.com/`
 
 And add the following additional website URL entrypoint:
 
-`http://www.myispdomain.com/~myname/mywebpages/`
+`https://www.myispdomain.com/~myname/mywebpages/`
 
 ## Does your web page use a meta refresh tag? {#section_5A2F544C237C49B8B1A7FE0C45371C0D}
 
 Many websites have a front page that includes a meta refresh tag between the `<head>...</head>` tags similar to the following:
 
-`<meta http-equiv="Refresh" content="0;URL=http://www.adomain.com/apath/afile.html">`
+`<meta http-equiv="Refresh" content="0;URL=https://www.adomain.com/apath/afile.html">`
 
 Under certain circumstances, the site search/merchandising robot is unable to follow the meta refresh URL to index the content of your website. This issue is easy to work around by setting additional entrypoints.
 
@@ -765,7 +765,7 @@ Because the site search/merchandising robot is itself a web robot, it follows th
 
 You can learn more about web robots and the Robots Exclusion Protocol at the following:
 
-[http://www.robotstxt.org/orig.html](http://www.robotstxt.org/orig.html)
+[https://www.robotstxt.org/orig.html](https://www.robotstxt.org/orig.html)
 
 Remove or modify the meta robots tag on the web pages that you want indexed on your website.
 
@@ -773,7 +773,7 @@ Remove or modify the meta robots tag on the web pages that you want indexed on y
 
 Sometimes a website has a page called robots.txt that excludes all or certain robots from crawling it. To see if your website has a robots.txt file, look for it just under the top-level domain as shown in the following:
 
-`http://www.yourdomain.com/robots.txt`
+`https://www.yourdomain.com/robots.txt`
 
 The contents of the robots.txt file looks similar to the following text:
 
@@ -1179,7 +1179,7 @@ The code above tells the site search/merchandising robot to index the contents o
 
 You can learn more about web robots and the Robots Exclusion Protocol at the following:
 
-[http://www.robotstxt.org/orig.html](http://www.robotstxt.org/orig.html)
+[https://www.robotstxt.org/orig.html](https://www.robotstxt.org/orig.html)
 
 If you do not have access to the source of the pages on additional domains, you can remove the multiple URL entrypoints. Doing so helps you to limit indexing activity only to those domains whose content you want customers to be able to search.
 

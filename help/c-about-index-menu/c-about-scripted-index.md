@@ -22,7 +22,7 @@ With Scripted Index you can write, update, and maintain incremental indexing opt
 
 ## About configuring scripted incremental indexing {#section_161D254065E143F3A39F3FC09C400090}
 
-To use Scripted Index, you use the Scripted Incremental Index Configuration page to specify the URL to a script file (a plain text file) that is located on your server. For example, `http://www.mysite.com/indexlist.txt`. As your site changes, you can add command blocks to the text file either manually or automatically (with a script triggered by the arrival of information from a news feed, stock ticker, or other altered file).
+To use Scripted Index, you use the Scripted Incremental Index Configuration page to specify the URL to a script file (a plain text file) that is located on your server. For example, `https://www.mysite.com/indexlist.txt`. As your site changes, you can add command blocks to the text file either manually or automatically (with a script triggered by the arrival of information from a news feed, stock ticker, or other altered file).
 
 When the scripted incremental index begins, the search robot reads the text file and runs the new commands that are found in that file. By default, the search robot processes only the new commands, which are determined by the file date. Unless you check **[!UICONTROL Clear Date]** at the time you configure Scripted Index, the search robot "remembers" the date-specifier of the most recently processed block.
 
@@ -77,7 +77,7 @@ A leading zero is required for all ordinal dates lower than the 10th when using 
         </userinput> or 
         <userinput>
           noindex 
-        </userinput> keywords as in the following example: </p> <p> <code> add&amp;nbsp;http://www.mydomain.com/&amp;nbsp;noindex </code> </p> </li> 
+        </userinput> keywords as in the following example: </p> <p> <code> add&amp;nbsp;https://www.mydomain.com/&amp;nbsp;noindex </code> </p> </li> 
       <li id="li_8E47BF07DB24417083883F5BF40D6B9E"> 
        <userinput>
          update 
@@ -87,14 +87,14 @@ A leading zero is required for all ordinal dates lower than the 10th when using 
         </userinput> or 
         <userinput>
           noindex 
-        </userinput> keywords as in the following example: </p> <p> <code> update&amp;nbsp;http://www.mydomain.com/products/ </code> </p> </li> 
+        </userinput> keywords as in the following example: </p> <p> <code> update&amp;nbsp;https://www.mydomain.com/products/ </code> </p> </li> 
       <li id="li_B3EC8B1670D54F66A1D8411A694EF7E4"> 
        <userinput>
          include 
        </userinput> or 
        <userinput>
          exclude 
-       </userinput> <p>Use with URL mask. The search robot finds and indexes ("include") or ignores ("exclude") documents based on the type of mask specified. </p> <p>For example, </p> <p> <code> include&amp;nbsp;http://www.mydomain.com/products/household/lightbulbs*.html </code> </p> <p>or </p> <p> <code> exclude&amp;nbsp;http://www.mydomain.com/archive/ </code> </p> </li> 
+       </userinput> <p>Use with URL mask. The search robot finds and indexes ("include") or ignores ("exclude") documents based on the type of mask specified. </p> <p>For example, </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/products/household/lightbulbs*.html </code> </p> <p>or </p> <p> <code> exclude&amp;nbsp;https://www.mydomain.com/archive/ </code> </p> </li> 
       <li id="li_050B54B735F0475E93806455FA6DC6A5"> 
        <userinput>
          include-date 
@@ -181,24 +181,24 @@ In the following script file example, the search robot processes the blocks prov
 # Start of file. 
 # Added by John Smith 
 date Sat, 01 Jan 2004 16:05:53 PST 
-exclude http://www.mydomain.com/housewares.html 
-exclude http://www.mydomain.com/lightfixtures.html 
-include http://www.mydomain.com/ 
-delete http://www.mydomain.com/y2k-problems.html 
-add http://www.mydomain.com/no-y2k-problems.html nofollow 
+exclude https://www.mydomain.com/housewares.html 
+exclude https://www.mydomain.com/lightfixtures.html 
+include https://www.mydomain.com/ 
+delete https://www.mydomain.com/y2k-problems.html 
+add https://www.mydomain.com/no-y2k-problems.html nofollow 
  
 date Sun, 02 Jan 2004 20:19:08 PST 
 # Added by the wire service updater 
-exclude-date 1999-01-01 http://www.mydomain.com/archive server-date 
-exclude http://www.mydomain.com/housewares.html 
-exclude http://www.mydomain.com/lightfixtures.html 
-include http://www.mydomain.com/help/ nofollow 
-include http://www.mydomain.com/ 
+exclude-date 1999-01-01 https://www.mydomain.com/archive server-date 
+exclude https://www.mydomain.com/housewares.html 
+exclude https://www.mydomain.com/lightfixtures.html 
+include https://www.mydomain.com/help/ nofollow 
+include https://www.mydomain.com/ 
 # no add files, just update existing files 
 # update all files in the "products" directory 
-update http://www.mydomain.com/products/ 
+update https://www.mydomain.com/products/ 
 # update all files in the "information" directory 
-update regexp ^http://www\.mydomain\.com/information/.*$ 
+update regexp ^https://www\.mydomain\.com/information/.*$ 
 # End of file.
 ```
 

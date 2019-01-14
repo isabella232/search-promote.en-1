@@ -159,14 +159,14 @@ Content-type: application/json; charset=utf-8
     "lines": [ 
         "07/25 16:40:07 PST   ======== Starting manual crawl of account sp99999999. ========", 
         "07/25 16:40:08 PST   Loading existing data", 
-        "07/25 16:40:08 PST   Downloading entrypoint http://www.atomz.com/", 
-        "07/25 16:40:08 PST   Robots.txt exclude mask: http://www.atomz.com/snap", 
-        "07/25 16:40:08 PST   Exclude mask: regexp ^http://www.atomz.com/$", 
-        "07/25 16:40:08 PST   Include mask: http://www.atomz.com/", 
-        "07/25 16:40:08 PST   Downloading http://www.atomz.com/style.css", 
-        "07/25 16:40:09 PST   Ignoring http://www.atomz.com/style.css, document type 'text/css'.", 
-        "07/25 16:40:09 PST   Downloading http://www.atomz.com/privacy.html", 
-        "07/25 16:40:09 PST   Downloading http://www.atomz.com/terms.html" 
+        "07/25 16:40:08 PST   Downloading entrypoint https://www.atomz.com/", 
+        "07/25 16:40:08 PST   Robots.txt exclude mask: https://www.atomz.com/snap", 
+        "07/25 16:40:08 PST   Exclude mask: regexp ^https://www.atomz.com/$", 
+        "07/25 16:40:08 PST   Include mask: https://www.atomz.com/", 
+        "07/25 16:40:08 PST   Downloading https://www.atomz.com/style.css", 
+        "07/25 16:40:09 PST   Ignoring https://www.atomz.com/style.css, document type 'text/css'.", 
+        "07/25 16:40:09 PST   Downloading https://www.atomz.com/privacy.html", 
+        "07/25 16:40:09 PST   Downloading https://www.atomz.com/terms.html" 
     ], 
     "status": 1, 
     "message": "ok" 

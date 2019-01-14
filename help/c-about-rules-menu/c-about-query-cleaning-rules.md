@@ -68,7 +68,7 @@ MegaElectronic is a large electronics store. From analyzing their search data, M
 On condition: 
   query q matches regular expression ^\D\D\D-\d\d\d\d$ 
 Perform the following actions: 
-  redirect to http://www.megaelectronic.com/?sku={{q}}
+  redirect to https://www.megaelectronic.com/?sku={{q}}
 ```
 
 ## Adding a query cleaning rule {#task_47F43988D3D9485F8AE1DFDA7E00BF54}

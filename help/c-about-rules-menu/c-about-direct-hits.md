@@ -29,8 +29,8 @@ Direct hits consist of two main elements: the URL of your website, and one or mo
 For example, suppose that you have a corporate website with a page that specifies all of your terms and conditions. When a customer searches for your terms and conditions, rather than showing the results, you can redirect the customer to your terms and conditions page.
 
 ```
-    http://www.mycompany.com/policies.asp?article=terms: terms and conditions, terms, conditions, security
-    http://www.mycompany.com/press/news.asp: press releases, press
+    https://www.mycompany.com/policies.asp?article=terms: terms and conditions, terms, conditions, security
+    https://www.mycompany.com/press/news.asp: press releases, press
 ```
 
 If the query term does not match any direct hits, search results are returned in the usual manner. 

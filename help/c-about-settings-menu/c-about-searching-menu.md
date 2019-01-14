@@ -735,8 +735,8 @@ You can test your collections by entering one of your website URLs in the option
 
 Each collection is specified on a single line with a name and a URL mask. A URL mask can consist of the following:
 
-* a full path such as `http://www.mydomain.com/products.html` 
-* a partial path such as `http://www.mydomain.com/products` 
+* a full path such as `https://www.mydomain.com/products.html` 
+* a partial path such as `https://www.mydomain.com/products` 
 * a regular expression
 
   To make a mask a regular expression, you insert the keyword `regexp` between the collection name and the URL mask.
@@ -746,11 +746,11 @@ Each collection is specified on a single line with a name and a URL mask. A URL 
 Each line in the Collections field can contain only one URL mask. However, you can specify multiple URL masks for the same collection name on different lines. The following example contains four different collection names and five URL masks:
 
 ```
-Company Info http://www.yoursite.com/company 
-Products http://www.yoursite.com/products 
+Company Info https://www.yoursite.com/company 
+Products https://www.yoursite.com/products 
 FAQs regexp ^.*/faqs 
-Support http://www.yoursite.com/email_support/ 
-Support http://www.yoursite.com/phone_support/
+Support https://www.yoursite.com/email_support/ 
+Support https://www.yoursite.com/phone_support/
 ```
 
 In this example, after you have updated the search form to include these collections, customers can select and search each defined collection individually. The `Support` collection includes files that match both the URL masks, so that files in both `www.yoursite.com/email_support/` and `www.yoursite.com/phone_support` are searched when this collection is selected. 
@@ -843,15 +843,15 @@ r_restriction_options.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Referrer URL Masks </p> </td> 
-   <td colname="col2"> <p>The referrer URL from the HTTP referrer header is read. The first mask that matches the referrer URL determines whether to allow the search, if the mask is an include mask. Or, it determines whether to disallow the search, if the mask is an exclude mask. If no mask matches the referrer URL, that URL is included and the search is allowed. </p> <p> If your search template contains a new search form or if your search template can contain links like "Next 10", "Previous 10", or "Hide Summaries", then you list your search results template as an "include" mask. The easiest way to do that is with the regular expression as in the following example: </p> <p> <span class="codeph"> include regexp ^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ </span> </p> <p>The following example contains five different referrer URL masks: </p> <p> <code> include&nbsp;http://www.mydomain.com/search/ 
-      include&nbsp;http://search.mydomain.com/ 
-      include&nbsp;regexp&nbsp;^http://www.mydomain.com/help/.*/search/ 
+   <td colname="col2"> <p>The referrer URL from the HTTP referrer header is read. The first mask that matches the referrer URL determines whether to allow the search, if the mask is an include mask. Or, it determines whether to disallow the search, if the mask is an exclude mask. If no mask matches the referrer URL, that URL is included and the search is allowed. </p> <p> If your search template contains a new search form or if your search template can contain links like "Next 10", "Previous 10", or "Hide Summaries", then you list your search results template as an "include" mask. The easiest way to do that is with the regular expression as in the following example: </p> <p> <span class="codeph"> include regexp ^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ </span> </p> <p>The following example contains five different referrer URL masks: </p> <p> <code> include&nbsp;https://www.mydomain.com/search/ 
+      include&nbsp;https://search.mydomain.com/ 
+      include&nbsp;regexp&nbsp;^https://www.mydomain.com/help/.*/search/ 
       include&nbsp;regexp&nbsp;^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ 
-      exclude&nbsp;* </code> </p> <p>If the referrer URL masks are the following: </p> <p> <code> http://www.mydomain.com/search/searchpage.html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      http://search.mydomain.com/advanced/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      http://www.mydomain.com/help/products/search/advanced/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      http://www.mydomain.com/help/products/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
-      http://www.anotherdomain.com/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
+      exclude&nbsp;* </code> </p> <p>If the referrer URL masks are the following: </p> <p> <code> https://www.mydomain.com/search/searchpage.html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+      https://search.mydomain.com/advanced/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+      https://www.mydomain.com/help/products/search/advanced/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+      https://www.mydomain.com/help/products/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
+      https://www.anotherdomain.com/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
       blank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] </code> </p> </td> 
   </tr> 
   <tr> 

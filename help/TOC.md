@@ -97,7 +97,6 @@ user-guide: null
    + [Users](c-about-settings-menu/c-about-users-menu.md)
 + [Accounts](c-about-accounts-menu.md)
 + Appendices {#appendices}
-   + [Appendices overview](c-appendices/c-appendices.md)
    + [Date Formats](c-appendices/r-date-formats.md)
    + [Regular Expressions](c-appendices/r-regular-expressions.md)
    + [Proximity search](c-appendices/r-about-proximity-search.md)

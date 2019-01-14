@@ -813,17 +813,17 @@ c_about_url_masks_script.xml
 
 To change the contents of documents that exist only in a specific portion of your website, you can specify include URL masks, exclude URL masks, or both, to define the appropriate pages.
 
-If you want to change only the documents under "http://www.mysite.com/faqs/", you can use the following set of masks:
+If you want to change only the documents under "https://www.mysite.com/faqs/", you can use the following set of masks:
 
 ```
-include http://www.mysite.com/faqs/ 
+include https://www.mysite.com/faqs/ 
 exclude *
 ```
 
 You can also use regular expression in a URL mask script as in the following example:
 
 ```
-include regexp ^http://www\.mysite\.com.*/faqs/.*$ 
+include regexp ^https://www\.mysite\.com.*/faqs/.*$ 
 exclude *
 ```
 

@@ -45,8 +45,8 @@ A REST-like API is used that you can interact with to perform searches and recei
 
 The base URI is associated with a specific account and a staged or live environment. You can request multiple aliases for the base URI from your account manager. For example, a fictional company called Megacorp has the following two base URLs associated with their account:
 
-* http://search.megacorp.com 
-* http://stage.megacorp.com
+* https://search.megacorp.com 
+* https://stage.megacorp.com
 
 The former URI performs searches against their live index and the latter URI against their staged index.
 
@@ -54,15 +54,15 @@ Search requests consist of the base URI and a set of CGI parameters or key-value
 
 Three formats of CGI parameters are supported. By default your account is configured to separate CGI parameters with a semi-colon ( `;`), as in the following example:
 
-* `http://search.megacorp.com?q=shoes ;page=2`
+* `https://search.megacorp.com?q=shoes ;page=2`
 
 If you prefer, you can have your account manager configure your account to use ampersands ( `&`) to separate the CGI parameters, as in the following example:
 
-* `http://search.megacorp.com?q=shoes &page=2`
+* `https://search.megacorp.com?q=shoes &page=2`
 
 A third format, called the SEO format, is also supported where a forward slash ( `/`) is used in place of the separator and equal sign to generate “clean” links, as in the following example:
 
-* `http://search.megacorp.com/q/shoes/page/2`
+* `https://search.megacorp.com/q/shoes/page/2`
 
 Any time the SEO format is used to send a request, all output links are returned in the same format.
 
@@ -184,7 +184,7 @@ Example:
 <banners> 
  <banner> 
   <area><![CDATA[top-left]]></area> 
-  <content><![CDATA[<img src="http://www.megacorp.com/discount.gif"/>]]></content> 
+  <content><![CDATA[<img src="https://www.megacorp.com/discount.gif"/>]]></content> 
  </banner> 
 </banners>
 ```
@@ -538,14 +538,14 @@ Example:
   <result> 
     <index><![CDATA[1]]></index> 
     <result-title><![CDATA[New Year's Eve Slumber Party]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/new-years-eve-slumber-party-705199/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/new-years-eve-slumber-party-705199/]]></url> 
     <meta-description><![CDATA[Fun New Year's celebration ideas for your kids]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
-    <small-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/new-years-eve-
+    <small-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/new-years-eve-
 
 slumber-party-parties-photo-80-FF1200SLEEPA18.jpg]]></small-thumbnail-img> 
-    <large-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/new-years-eve- 
+    <large-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/new-years-eve- 
 slumber-party-parties-photo-160-FF1200SLEEPA18.jpg]]></large-thumbnail-img> 
     <byline><![CDATA[Nancy Mades]]></byline> 
     <blurb><![CDATA[Fun New Year's celebration ideas for your kids]]></blurb> 
@@ -553,13 +553,13 @@ slumber-party-parties-photo-160-FF1200SLEEPA18.jpg]]></large-thumbnail-img>
   <result> 
     <index><![CDATA[2]]></index> 
     <result-title><![CDATA[10 Holiday Traditions to Start This Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/10-holiday-traditions-to-start-this-year-704781/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/10-holiday-traditions-to-start-this-year-704781/]]></url> 
     <meta-description><![CDATA[Reader ideas to make Thanksgiving, Christmas, and New Year's even more magical]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
-    <small-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/10-holiday- 
+    <small-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/10-holiday- 
 traditions-to-start-this-year-parties-photo-80-FF1107HOLIA01.jpg]]></small-thumbnail-img> 
-    <large-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/10-holiday- 
+    <large-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/10-holiday- 
 traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thumbnail-img> 
     <byline><![CDATA[Julie Taylor]]></byline> 
     <blurb><![CDATA[Reader ideas to make Thanksgiving, Christmas, and New Year's even more magical]]></blurb> 
@@ -567,7 +567,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[3]]></index> 
     <result-title><![CDATA[A Perfect New Year's Eve]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/a-perfect-new-years-eve-705258/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/a-perfect-new-years-eve-705258/]]></url> 
     <meta-description><![CDATA[You can turn New Year's into a celebration for the whole family.]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -577,7 +577,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[4]]></index> 
     <result-title><![CDATA[New Year's Fun and Games]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/new-years-fun-and-games-705220/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/new-years-fun-and-games-705220/]]></url> 
     <meta-description><![CDATA[Craft, game and food ideas for a New Year's celebration with kids.]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -587,7 +587,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[5]]></index> 
     <result-title><![CDATA[11 Great Ways to Start the New Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/11-great-ways-to-start-the-new-year-705552/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/11-great-ways-to-start-the-new-year-705552/]]></url> 
     <meta-description><![CDATA[11 New Family Traditions to Start This Year from My Magazine]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -597,7 +597,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[6]]></index> 
     <result-title><![CDATA[Celebrating Chinese New Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/celebrating-chinese-new-year-705260/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/celebrating-chinese-new-year-705260/]]></url> 
     <meta-description><![CDATA[Crafts, food, and games to help you celebrate Chinese New Year.]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -606,7 +606,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[7]]></index> 
     <result-title><![CDATA[New Year's Eve, Family Style]]></result-title> 
-    <url><![CDATA[http://mysite.com/holidays/new-years-eve-family-style-701283/]]></url> 
+    <url><![CDATA[https://mysite.com/holidays/new-years-eve-family-style-701283/]]></url> 
     <meta-description><![CDATA[Start a family New Year's Eve tradition by having an evening of kid-focused fun at home]]></meta-description> 
     <category><![CDATA[holidays]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -615,7 +615,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[8]]></index> 
     <result-title><![CDATA[Chinese New Year Activities]]></result-title> 
-    <url><![CDATA[http://mysite.com/crafts/chinese-new-year-activities-710345/]]></url> 
+    <url><![CDATA[https://mysite.com/crafts/chinese-new-year-activities-710345/]]></url> 
     <meta-description><![CDATA[Activities for celebrating Chinese New Year.]]></meta-description> 
     <category><![CDATA[crafts]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -624,7 +624,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[9]]></index> 
     <result-title><![CDATA[More Organized in the New Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/holidays/more-organized-in-the-new-year-701284/]]></url> 
+    <url><![CDATA[https://mysite.com/holidays/more-organized-in-the-new-year-701284/]]></url> 
     <meta-description><![CDATA[Tips for getting your household more organized--and getting the kids to help.]]></meta-description> 
     <category><![CDATA[holidays]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -633,7 +633,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[10]]></index> 
     <result-title><![CDATA[Checklists: Year-End Safety Checklist]]></result-title> 
-    <url><![CDATA[http://mysite.com/holidays/checklists-year-end-safety-checklist-701352/]]></url> 
+    <url><![CDATA[https://mysite.com/holidays/checklists-year-end-safety-checklist-701352/]]></url> 
     <meta-description><![CDATA[Make sure that your home is safe with our year-end safety checklist!]]></meta-description> 
     <category><![CDATA[holidays]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -882,7 +882,7 @@ Example:
 <banners> 
  <banner> 
   <area><![CDATA[top-left]]></area> 
-  <content><![CDATA[<img src="http://www.megacorp.com/discount.gif"/>]]></content> 
+  <content><![CDATA[<img src="https://www.megacorp.com/discount.gif"/>]]></content> 
  </banner> 
 </banners>
 ```
@@ -1237,14 +1237,14 @@ Example:
   <result> 
     <index><![CDATA[1]]></index> 
     <result-title><![CDATA[New Year's Eve Slumber Party]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/new-years-eve-slumber-party-705199/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/new-years-eve-slumber-party-705199/]]></url> 
     <meta-description><![CDATA[Fun New Year's celebration ideas for your kids]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
-    <small-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/new-years-eve-
+    <small-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/new-years-eve-
 
 slumber-party-parties-photo-80-FF1200SLEEPA18.jpg]]></small-thumbnail-img> 
-    <large-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/new-years-eve- 
+    <large-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/new-years-eve- 
 slumber-party-parties-photo-160-FF1200SLEEPA18.jpg]]></large-thumbnail-img> 
     <byline><![CDATA[Nancy Mades]]></byline> 
     <blurb><![CDATA[Fun New Year's celebration ideas for your kids]]></blurb> 
@@ -1252,13 +1252,13 @@ slumber-party-parties-photo-160-FF1200SLEEPA18.jpg]]></large-thumbnail-img>
   <result> 
     <index><![CDATA[2]]></index> 
     <result-title><![CDATA[10 Holiday Traditions to Start This Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/10-holiday-traditions-to-start-this-year-704781/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/10-holiday-traditions-to-start-this-year-704781/]]></url> 
     <meta-description><![CDATA[Reader ideas to make Thanksgiving, Christmas, and New Year's even more magical]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
-    <small-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/10-holiday- 
+    <small-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/10-holiday- 
 traditions-to-start-this-year-parties-photo-80-FF1107HOLIA01.jpg]]></small-thumbnail-img> 
-    <large-thumbnail-img><![CDATA[http://mysite.com/assets/cms/parties/10-holiday- 
+    <large-thumbnail-img><![CDATA[https://mysite.com/assets/cms/parties/10-holiday- 
 traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thumbnail-img> 
     <byline><![CDATA[Julie Taylor]]></byline> 
     <blurb><![CDATA[Reader ideas to make Thanksgiving, Christmas, and New Year's even more magical]]></blurb> 
@@ -1266,7 +1266,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[3]]></index> 
     <result-title><![CDATA[A Perfect New Year's Eve]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/a-perfect-new-years-eve-705258/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/a-perfect-new-years-eve-705258/]]></url> 
     <meta-description><![CDATA[You can turn New Year's into a celebration for the whole family.]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1276,7 +1276,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[4]]></index> 
     <result-title><![CDATA[New Year's Fun and Games]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/new-years-fun-and-games-705220/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/new-years-fun-and-games-705220/]]></url> 
     <meta-description><![CDATA[Craft, game and food ideas for a New Year's celebration with kids.]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1286,7 +1286,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[5]]></index> 
     <result-title><![CDATA[11 Great Ways to Start the New Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/11-great-ways-to-start-the-new-year-705552/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/11-great-ways-to-start-the-new-year-705552/]]></url> 
     <meta-description><![CDATA[11 New Family Traditions to Start This Year from My Magazine]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1296,7 +1296,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[6]]></index> 
     <result-title><![CDATA[Celebrating Chinese New Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/parties/celebrating-chinese-new-year-705260/]]></url> 
+    <url><![CDATA[https://mysite.com/parties/celebrating-chinese-new-year-705260/]]></url> 
     <meta-description><![CDATA[Crafts, food, and games to help you celebrate Chinese New Year.]]></meta-description> 
     <category><![CDATA[parties]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1305,7 +1305,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[7]]></index> 
     <result-title><![CDATA[New Year's Eve, Family Style]]></result-title> 
-    <url><![CDATA[http://mysite.com/holidays/new-years-eve-family-style-701283/]]></url> 
+    <url><![CDATA[https://mysite.com/holidays/new-years-eve-family-style-701283/]]></url> 
     <meta-description><![CDATA[Start a family New Year's Eve tradition by having an evening of kid-focused fun at home]]></meta-description> 
     <category><![CDATA[holidays]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1314,7 +1314,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[8]]></index> 
     <result-title><![CDATA[Chinese New Year Activities]]></result-title> 
-    <url><![CDATA[http://mysite.com/crafts/chinese-new-year-activities-710345/]]></url> 
+    <url><![CDATA[https://mysite.com/crafts/chinese-new-year-activities-710345/]]></url> 
     <meta-description><![CDATA[Activities for celebrating Chinese New Year.]]></meta-description> 
     <category><![CDATA[crafts]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1323,7 +1323,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[9]]></index> 
     <result-title><![CDATA[More Organized in the New Year]]></result-title> 
-    <url><![CDATA[http://mysite.com/holidays/more-organized-in-the-new-year-701284/]]></url> 
+    <url><![CDATA[https://mysite.com/holidays/more-organized-in-the-new-year-701284/]]></url> 
     <meta-description><![CDATA[Tips for getting your household more organized--and getting the kids to help.]]></meta-description> 
     <category><![CDATA[holidays]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -1332,7 +1332,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   <result> 
     <index><![CDATA[10]]></index> 
     <result-title><![CDATA[Checklists: Year-End Safety Checklist]]></result-title> 
-    <url><![CDATA[http://mysite.com/holidays/checklists-year-end-safety-checklist-701352/]]></url> 
+    <url><![CDATA[https://mysite.com/holidays/checklists-year-end-safety-checklist-701352/]]></url> 
     <meta-description><![CDATA[Make sure that your home is safe with our year-end safety checklist!]]></meta-description> 
     <category><![CDATA[holidays]]></category> 
     <content-type><![CDATA[Articles]]></content-type> 
@@ -2210,7 +2210,7 @@ Example results node:
                     <field name="sku"><![CDATA[200190]]></field> 
                     <field name="pagename"><![CDATA[Relaxed Paint Splattered]]></field> 
  
-                    <field name="img_sm_url"><![CDATA[http://geometrixx.com/images/08_geometrixx_icon_men.jpg]]></field> 
+                    <field name="img_sm_url"><![CDATA[https://geometrixx.com/images/08_geometrixx_icon_men.jpg]]></field> 
       <field name="brand"><![CDATA[Armora Jeans]]></field> 
       <field name="price"><![CDATA[195]]></field> 
       <field name="foundIn"><![CDATA[Mens,  
@@ -2222,7 +2222,7 @@ Example results node:
                     <field name="sku"><![CDATA[200195]]></field> 
                     <field name="pagename"><![CDATA[Tumbled Jeans]]></field> 
  
-                    <field name="img_sm_url"><![CDATA[http://geometrixx.com/images/08_geometrixx_icon_men.jpg]]></field> 
+                    <field name="img_sm_url"><![CDATA[https://geometrixx.com/images/08_geometrixx_icon_men.jpg]]></field> 
       <field name="brand"><![CDATA[Armora Jeans]]></field> 
       <field name="price"><![CDATA[235]]></field> 
       <field name="foundIn"><![CDATA[Mens,  
@@ -2234,7 +2234,7 @@ Example results node:
                     <field name="sku"><![CDATA[200196]]></field> 
                     <field name="pagename"><![CDATA[Montana Relaxed]]></field> 
  
-                    <field name="img_sm_url"><![CDATA[http://geometrixx.com/images/08_geometrixx_icon_men.jpg]]></field> 
+                    <field name="img_sm_url"><![CDATA[https://geometrixx.com/images/08_geometrixx_icon_men.jpg]]></field> 
       <field name="brand"><![CDATA[Armora Jeans]]></field> 
       <field name="price"><![CDATA[220]]></field> 
       <field name="foundIn"><![CDATA[Mens,  
@@ -2295,16 +2295,16 @@ Example of search form XML:
         <include-tnt-mbox>1</include-tnt-mbox> 
         <autocomplete> 
             <enabled>1</enabled> 
-            <css><![CDATA[<link rel="stylesheet" type="text/css" href="http://content.t1.atomz.com/sp10043554/stage/autocomplete_styles.css?sp_js_param=2" /> 
+            <css><![CDATA[<link rel="stylesheet" type="text/css" href="https://content.t1.atomz.com/sp10043554/stage/autocomplete_styles.css?sp_js_param=2" /> 
 ]]></css> 
  
             <form-content><![CDATA[<div id="autocomplete"></div> 
 <input type="hidden" name="sp_staged" id="sp_staged" value="1" /> 
 ]]></form-content> 
-            <javascript><![CDATA[<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/utilities/utilities.js"></script> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/datasource/datasource-min.js"></script> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/autocomplete/autocomplete-min.js"></script> 
-<script type="text/javascript" src="http://content.t1.atomz.com/sp10043554/stage/autocomplete_data.js?sp_js_param=3"></script>]]></javascript> 
+            <javascript><![CDATA[<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/utilities/utilities.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/datasource/datasource-min.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/autocomplete/autocomplete-min.js"></script> 
+<script type="text/javascript" src="https://content.t1.atomz.com/sp10043554/stage/autocomplete_data.js?sp_js_param=3"></script>]]></javascript> 
         </autocomplete> 
     </search-form> 
 
@@ -2876,15 +2876,15 @@ Example output for a &#42; search on a fictional website called Geometrixx.
         <autocomplete> 
  
             <enabled>1</enabled> 
-            <css><![CDATA[<link rel="stylesheet" type="text/css" href="http://content.t1.atomz.com/sp10043554/stage/autocomplete_styles.css?sp_js_param=2" /> 
+            <css><![CDATA[<link rel="stylesheet" type="text/css" href="https://content.t1.atomz.com/sp10043554/stage/autocomplete_styles.css?sp_js_param=2" /> 
 ]]></css> 
             <form-content><![CDATA[<div id="autocomplete"></div> 
 <input type="hidden" name="sp_staged" id="sp_staged" value="1" /> 
 ]]></form-content> 
-            <javascript><![CDATA[<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/utilities/utilities.js"></script> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/datasource/datasource-min.js"></script> 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/autocomplete/autocomplete-min.js"></script> 
-<script type="text/javascript" src="http://content.t1.atomz.com/sp10043554/stage/autocomplete_data.js?sp_js_param=3"></script>]]></javascript> 
+            <javascript><![CDATA[<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/utilities/utilities.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/datasource/datasource-min.js"></script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/yui/2.6.0/build/autocomplete/autocomplete-min.js"></script> 
+<script type="text/javascript" src="https://content.t1.atomz.com/sp10043554/stage/autocomplete_data.js?sp_js_param=3"></script>]]></javascript> 
         </autocomplete> 
     </search-form> 
  

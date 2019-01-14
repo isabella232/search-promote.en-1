@@ -45,7 +45,7 @@ Templates are dynamically created and addressable layered image files like layer
 >
 >You can also create templates from layout-based designs by using Template Publishing in Scene7 Publishing System and files from Adobe Illustrator and Adobe InDesign.
 
-See [Template Publishing](http://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html) in the Scene7 Publishing System User Guide.
+See [Template Publishing](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html) in the Scene7 Publishing System User Guide.
 
 A template can contain any number of image layers and text layers. You can convert a static file containing layers, such as a layered PSD file, into a template, or create templates in Scene7. You can create text layers in templates using fonts that you uploaded into Scene7 Publishing System. After you add text to a template, you can format it by changing its justification, fonts, font size, and color.
 
@@ -53,7 +53,7 @@ Using the Parameters screen in Scene7, you can convert any aspect of a template 
 
 You can learn more about how to use Scene7 to create templates and parameterize the properties on the layers so you can use them in banners.
 
-See [Template Basics](http://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) in the Scene7 Publishing System User Guide.
+See [Template Basics](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) in the Scene7 Publishing System User Guide.
 
 **Uploading and publishing of assets**
 
@@ -61,13 +61,13 @@ You must upload and publish assets in Scene7 before you can use them for banners
 
 You can learn more about uploading and publishing of digital assets using Scene7 Publishing System.
 
-See [Upload and Publish Assets](http://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html) in the Scene7 Publishing System User Guide.
+See [Upload and Publish Assets](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html) in the Scene7 Publishing System User Guide.
 
 >[!NOTE]
 >
 >To use the upload functionality in the Scene7 asset viewer, be sure that the Scene7 account you use has the role of "SPS Company Admin" already set.
 
-See [Administration Setup](http://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Scene7 Publishing System User Guide.
+See [Administration Setup](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Scene7 Publishing System User Guide.
 
 **Changing Scene7 Template Parameters in a Banner using Business Rules**
 
@@ -125,9 +125,9 @@ r_banner_options.xml
      </userinput> tags, or JavaScript code that is surrounded by 
      <userinput>
        &lt;script&gt; 
-     </userinput> tags. For example, the following block of code is for a text banner of the type Horizontal top : <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('http://www.brough.com/blackb.gif');&nbsp; 
+     </userinput> tags. For example, the following block of code is for a text banner of the type Horizontal top : <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
       padding-top:&nbsp;10px;&nbsp;padding-bottom:&nbsp;10px;&nbsp;color:&nbsp;white;&nbsp;font-family:&nbsp;verdana;&nbsp; 
-      text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>In the following example, the block of code is for a full splash image: <code> &lt;img&amp;nbsp;src='http://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
+      text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>In the following example, the block of code is for a full splash image: <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Type </p> </td> 
@@ -267,7 +267,7 @@ r_pick_an_asset_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p style="text-align: center;"> <img id="image_656479B4D9174AC3A5B291E66AAC7C3C" href="assets/s7_upload.png" /> </p> </td> 
-   <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Scene7 </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="http://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
+   <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Scene7 </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p style="text-align: center;"> <img id="image_DA7714163B3F4203ADC772DC1513B586" href="assets/s7_searchfield.png" /> </p> </td> 
@@ -450,7 +450,7 @@ r_pick_an_asset_options.xml
    >
    >If you want to use the upload functionality in the Scene7 asset viewer, be sure that the Scene7 account you use has the role of "SPS Company Admin" already set.
 
-   See [Administration Setup](http://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Scene7 Publishing System User Guide.
+   See [Administration Setup](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Scene7 Publishing System User Guide.
 
    <!-- 
 

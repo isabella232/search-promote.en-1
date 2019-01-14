@@ -94,7 +94,7 @@ r_breadcrumb_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Enable User-Defined Crumbs </p> </td> 
-   <td colname="col2"> <p>Check to let you use the User-Defined items in breadcrumbs using <span class="codeph"> uX=[name]&amp;[name]=[value] </span> parameters in the URL. You can use processing rules to handle this parameters the way you want. </p> <p>For example, if this feature is enabled and you have the URL, <code> http://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
+   <td colname="col2"> <p>Check to let you use the User-Defined items in breadcrumbs using <span class="codeph"> uX=[name]&amp;[name]=[value] </span> parameters in the URL. You can use processing rules to handle this parameters the way you want. </p> <p>For example, if this feature is enabled and you have the URL, <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
       type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> in case if you have facets <span class="codeph"> <span class="varname"> category </span> </span> and <span class="codeph"> <span class="varname"> kind </span> </span>, your breadcrumb will look like <span class="codeph"> Clothes &gt; Men &gt; Sweater </span>. </p> </td> 
   </tr> 
   <tr> 

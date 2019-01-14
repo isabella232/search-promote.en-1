@@ -41,22 +41,22 @@ The following example shows four different collection names and the associated a
    <td colname="col1"> <p>Products </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7AE70789C0914EBFBCCC7695C6F53B9E"> 
-      <li id="li_72525BAA34E2442D86152F2FD8CA83D5"> http://www.mycompany.com/products.htm </li> 
-      <li id="li_5CA4152239124BDBB251E6C94B15D45B"> http://www.mycompany.com/publish/ </li> 
-      <li id="li_6E266736B3494696A3AFD841C4AFEC57"> http://www.mycompany.com/search/ </li> 
+      <li id="li_72525BAA34E2442D86152F2FD8CA83D5"> https://www.mycompany.com/products.htm </li> 
+      <li id="li_5CA4152239124BDBB251E6C94B15D45B"> https://www.mycompany.com/publish/ </li> 
+      <li id="li_6E266736B3494696A3AFD841C4AFEC57"> https://www.mycompany.com/search/ </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Customers </p> </td> 
-   <td colname="col2"> <p>http://www.mycompany.com/customers/ </p> </td> 
+   <td colname="col2"> <p>https://www.mycompany.com/customers/ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>News </p> </td> 
-   <td colname="col2"> <p>http://www.mycompany.com/news/ </p> </td> 
+   <td colname="col2"> <p>https://www.mycompany.com/news/ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>About Adobe </p> </td> 
-   <td colname="col2"> <p>http://www.mycompany.com/company/ </p> </td> 
+   <td colname="col2"> <p>https://www.mycompany.com/company/ </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ r_using_frames_with_sp_forms.xml
 
 To learn more about HTML frames and the HTML frameset element, see the following URL:
 
-[http://www.w3schools.com/html/html_frames.asp](http://www.w3schools.com/html/html_frames.asp)
+[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp)
 
 If your site uses frames, you can specify a target frame for search result links. The default target is _self, which opens links in the current frame or browser window. You can, instead, specify site-specific or browser-reserved targets:
 
@@ -177,7 +177,7 @@ The process for configuring framesets is as follows:
 
    ```
    <!-- Adobe Target HTML for [your customer name] --> 
-   <form method="get" action="http://search.atomz.com/search/"> 
+   <form method="get" action="https://search.atomz.com/search/"> 
    <input size=15 name="sp_q"><br> 
    <input type=submit value="Search"> 
    <input type=hidden name="sp_a" value="[your account number]"> 
@@ -199,11 +199,11 @@ If you placed your search form code into the vertical navigation frame as above,
 
 1. To specify the target frame for the results page, add a target and value to the form by changing the following line in the search form code from the following:
 
-`<form method="get" action="http://search.atomz.com/search/">`
+`<form method="get" action="https://search.atomz.com/search/">`
 
 to the following:
 
-`<form target="body" method="get" action="http://search.atomz.com/search/">`
+`<form target="body" method="get" action="https://search.atomz.com/search/">`
 
 Be sure that you put quotes around the form target value.
 
@@ -468,7 +468,7 @@ If you use this code, remember to replace the `sp_a` value of `sp99999999` with 
 To find your account number, on the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]**.
 
 ```
-<form method="get" action="http://search.atomz.com/search/"> 
+<form method="get" action="https://search.atomz.com/search/"> 
 <table cellspacing=0 cellpadding=0 border=0> 
 <tr><td colspan=4> 
 <b>Search For:</b><br> 
@@ -743,7 +743,7 @@ Sorry, no matches were found containing <b><SEARCH-QUERY>.</b>
 </SEARCH-IF-RESULTS> 
  
 <!-- Put up the next form. --> 
-<form method="get" action="http://search.atomz.com/search/"> 
+<form method="get" action="https://search.atomz.com/search/"> 
 <SEARCH-IF-NOT-ADVANCED> 
 <SEARCH-INPUT-ACCOUNT> 
 <SEARCH-INPUT-GALLERY> 
