@@ -8,7 +8,8 @@ user-guide: null
 # Table of Contents {#table-of-contents}
 
 + [Search&Promote Documentation Home](sp-home.md)
-+ [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md)
++ Release Notes {#release-notes}
+   + [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md)
    + [Search&Promote 18.1.1 Release Notes (02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
    + [Search&Promote 17.11.1 Release Notes (10/31/2017)](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
    + [Search&Promote 15.3.1 Release Notes (03/24/2015)](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
@@ -37,7 +38,8 @@ user-guide: null
 + [Getting Started](c-getting-started.md)
 + [Home](c-about-home.md)
 + [Using History](t-using-the-history-option.md)
-+ [Design](c-about-design-menu/c-about-design-menu.md)
++ Design {#design}  
+   + [Design menu](c-about-design-menu/c-about-design-menu.md)
    + [Facets](c-about-design-menu/c-about-facets.md)
    + [About Facet Rail](c-about-design-menu/c-about-facet-rails.md)
    + [Dynamic Facets](c-about-design-menu/c-about-dynamic-facets.md)
@@ -47,7 +49,8 @@ user-guide: null
    + [Configuring recent searches](c-about-design-menu/t-configuring-recent-searches.md)
    + [Templates](c-about-design-menu/c-about-templates.md)
    + [Banners](c-about-design-menu/c-about-banners.md)
-+ [Rules](c-about-rules-menu/c-about-rules-menu.md)
++ Rules {#rules}
+   + [Rules menu](c-about-rules-menu/c-about-rules-menu.md)
    + [Query Cleaning Rules](c-about-rules-menu/c-about-query-cleaning-rules.md)
    + [Direct Hits](c-about-rules-menu/c-about-direct-hits.md)
    + [Pre-Search Rules](c-about-rules-menu/c-about-pre-search-rules.md)
@@ -55,7 +58,8 @@ user-guide: null
    + [Business Rules](c-about-rules-menu/c-about-business-rules.md)
    + [Ranking Rules](c-about-rules-menu/c-about-ranking-rules.md)
 + [Auto-Complete](c-about-auto-complete.md)
-+ [Linguistics](c-about-linguistics-menu/c-about-linguistics-menu.md)
++ Linguistics {#linguistics}
+   + [Linguistics menu](c-about-linguistics-menu/c-about-linguistics-menu.md)
    + [Dictionaries](c-about-linguistics-menu/c-about-dictionaries.md)
    + [Words & Language](c-about-linguistics-menu/c-about-words-and-language.md)
    + [Did You Mean](c-about-linguistics-menu/c-about-did-you-mean.md)
@@ -64,10 +68,12 @@ user-guide: null
    + [Common Phrases](c-about-linguistics-menu/c-about-common-phrases.md)
 + [Simulator](c-about-simulator.md)
 + [Staging](c-about-staging.md)
-+ [Reports](c-about-reports-menu/c-about-reports-menu.md)
++ Reports {#reports}
+   + [Reports menuy](c-about-reports-menu/c-about-reports-menu.md)
    + [Data Views](c-about-reports-menu/c-about-data-views.md)
    + [Alerts](c-about-reports-menu/c-about-alerts.md)
-+ [Index](c-about-index-menu/c-about-index-menu.md)
++ Index {#index}
+   + [Index menu](c-about-index-menu/c-about-index-menu.md)
    + [Index Overview](c-about-index-menu/c-about-index.md)
    + [Full Index](c-about-index-menu/c-about-full-index.md)
    + [Incremental Index](c-about-index-menu/c-about-incremental-index.md)
@@ -77,7 +83,8 @@ user-guide: null
    + [Remote Control for Indexing](c-about-index-menu/c-about-remote-control-for-indexing.md)
    + [Rollback for indexes](c-about-index-menu/c-about-rollback-for-indexes.md)
    + [Vertical Update](c-about-index-menu/c-about-vertical-updates.md)
-+ [Settings](c-about-settings-menu/c-about-settings-menu.md)
++ Settings {#settings}
+   + [Settings menu](c-about-settings-menu/c-about-settings-menu.md)
    + [Crawling](c-about-settings-menu/c-about-crawling-menu.md)
    + [Searching](c-about-settings-menu/c-about-searching-menu.md)
    + [Metadata](c-about-settings-menu/c-about-metadata-menu.md)
@@ -89,7 +96,8 @@ user-guide: null
    + [Account Options](c-about-settings-menu/c-about-account-options-menu.md)
    + [Users](c-about-settings-menu/c-about-users-menu.md)
 + [Accounts](c-about-accounts-menu.md)
-+ [Appendices](c-appendices/c-appendices.md)
++ Appendices {#appendices}
+   + [Appendices overview](c-appendices/c-appendices.md)
    + [Date Formats](c-appendices/r-date-formats.md)
    + [Regular Expressions](c-appendices/r-regular-expressions.md)
    + [Proximity search](c-appendices/r-about-proximity-search.md)
