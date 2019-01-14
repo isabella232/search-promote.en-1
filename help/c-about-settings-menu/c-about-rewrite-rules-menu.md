@@ -133,7 +133,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 
 **Example of a RewriteRule with a function**
 
-Assume that you have a case-sensitive server, which handles the strings "www.mydomain.com" and "www.MyDomain.com" differently. In order for your server to work correctly, ensure that the domain is always "www.mydomain.com" even though some documents contain links referencing "www.MyDomain.com." To do this, you could use the following rule:
+Assume that you have a case-sensitive server, which handles the strings `"www.mydomain.com"` and `"www.MyDomain.com"` differently. In order for your server to work correctly, ensure that the domain is always `"www.mydomain.com"` even though some documents contain links referencing `"www.MyDomain.com."` To do this, you could use the following rule:
 
 ```
 RewriteRule  ^https:// 
@@ -990,7 +990,7 @@ Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARI
 
 >[!NOTE]
 >
->Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL "https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678" will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like <input type=hidden name="session" value="1234">.
+>Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"` will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like <input type=hidden name="session" value="1234">.
 
 Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
@@ -1053,7 +1053,7 @@ The Substitution pattern rewrites the URL using the first backreference, followe
 
 The **RewriteCond** examines the variable sessionid `(%{sessionid})`. If it contains at least one character (.+), then the RewriteRule matches.
 
-Thus, if the search query is "https://search.atomz.com/search/?sp_a=sp99999999&sp_q=word&sessionid=5678", then all search result URLs will be rewritten so that the "sessionid" value is "5678" instead of the "sessionid" value that the search robot encountered when it crawled your site and saved the links.
+Thus, if the search query is `"https://search.atomz.com/search/?sp_a=sp99999999&sp_q=word&sessionid=5678"`, then all search result URLs will be rewritten so that the "sessionid" value is "5678" instead of the "sessionid" value that the search robot encountered when it crawled your site and saved the links.
 
 **Acknowledgment**
 

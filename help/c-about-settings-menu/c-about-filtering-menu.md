@@ -813,7 +813,7 @@ c_about_url_masks_script.xml
 
 To change the contents of documents that exist only in a specific portion of your website, you can specify include URL masks, exclude URL masks, or both, to define the appropriate pages.
 
-If you want to change only the documents under "https://www.mysite.com/faqs/", you can use the following set of masks:
+If you want to change only the documents under `"https://www.mysite.com/faqs/"`, you can use the following set of masks:
 
 ```
 include https://www.mysite.com/faqs/ 

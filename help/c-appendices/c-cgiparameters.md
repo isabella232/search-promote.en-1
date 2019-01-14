@@ -33,7 +33,7 @@ See [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference
 
 Search requests consist of a base URL. The base URL indicates what account the customer is searching, and a set of CGI parameters (key-value pairs) that indicate how to return the desired search results for the associated account.
 
-The base URL is associated with a specific account and a staged or live environment. You can request multiple aliases for the base URL from your account manager. For example, a company called Megacorp may have two base URLs associated with their account: https://search.megacorp.com and https://stage.megacorp.com. The former URL searches their live index and the latter URL searches their staged index.
+The base URL is associated with a specific account and a staged or live environment. You can request multiple aliases for the base URL from your account manager. For example, a company called Megacorp may have two base URLs associated with their account: `https://search.megacorp.com` and `https://stage.megacorp.com`. The former URL searches their live index and the latter URL searches their staged index.
 
 Three formats of CGI Parameters are supported. By default your account is configured to separate CGI Parameters with a semi-colon as in the following example:
 

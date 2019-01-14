@@ -2218,7 +2218,7 @@ The following tags output a string into the HTML at that point in the template.
 
 ## Template anchor link tags {#section_3A51D27616C541E2B818CC52B2B856BA}
 
-The following are tags that cause an anchor link to surround the HTML between them. When clicked, the anchor link requests another page of results to display. The optional attribute "count" requests that many results on the page to display. If not specified, the count requested on the current page is used. The advanced, optional "URL" attribute controls the domain to which the associated link is directed. By default the domain is https://search.atomz.com/search/, but you can change this using the URL attribute.
+The following are tags that cause an anchor link to surround the HTML between them. When clicked, the anchor link requests another page of results to display. The optional attribute "count" requests that many results on the page to display. If not specified, the count requested on the current page is used. The advanced, optional "URL" attribute controls the domain to which the associated link is directed. By default the domain is `https://search.atomz.com/search/`, but you can change this using the URL attribute.
 
 <table id="table_F940A41509A2488DAB04ACC144A3FB8A"> 
  <thead> 

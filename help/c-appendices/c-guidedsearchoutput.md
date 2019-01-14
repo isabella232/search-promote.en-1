@@ -45,8 +45,8 @@ A REST-like API is used that you can interact with to perform searches and recei
 
 The base URI is associated with a specific account and a staged or live environment. You can request multiple aliases for the base URI from your account manager. For example, a fictional company called Megacorp has the following two base URLs associated with their account:
 
-* https://search.megacorp.com 
-* https://stage.megacorp.com
+* `https://search.megacorp.com `
+* `https://stage.megacorp.com`
 
 The former URI performs searches against their live index and the latter URI against their staged index.
 
