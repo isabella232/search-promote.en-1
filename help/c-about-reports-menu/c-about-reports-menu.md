@@ -151,24 +151,11 @@ t_viewing_the_search_request_report_or_the_content_requests_report.xml
 1. On the report page, in the **[!UICONTROL Period]** drop-down list, select the length of time to include in the report.
 1. In the **[!UICONTROL Chart Type]** drop-down list, select one of the following options based on the selected report:
 
-    <table> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> <p>Option </p> </th> 
-  <th class="chdeschd"> <p>Description </p> </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Daily Search Request Count or Daily Content Request Count</strong></td> 
-  <td class="chdesc stentry"> <p>Shows the number of requests per day. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Monthly Search Request Count or Monthly Content Request Count</strong></td> 
-  <td class="chdesc stentry"> <p> Shows the number of requests per month. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Daily Search Request Bandwidth or Daily Content Request Bandwidth</strong></td> 
-  <td class="chdesc stentry"> <p> Shows the amount of bandwidth that is required to process the daily search requests or the daily content requests. </p> </td> 
- </tr> 
-</table>    
+    |Option|Description|
+    |--- |--- |
+    |Daily Search Request Count or Daily Content Request Count|Shows the number of requests per day.|
+    |Monthly Search Request Count or Monthly Content Request Count|Shows the number of requests per month.|
+    |Daily Search Request Bandwidth or Daily Content Request Bandwidth|Shows the amount of bandwidth that is required to process the daily search requests or the daily content requests.|
     
 1. In the **[!UICONTROL Chart Style]** drop-down list, select how you want the data represented in the report.
 
@@ -216,65 +203,22 @@ t_viewing_the_crawl_performance_report_or_the_staged_crawl_performance_report.xm
 
 1. In the **[!UICONTROL Metric]** drop-down list, select one of the following metrics:
 
-    <table> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> <p>Option </p> </th> 
-  <th class="chdeschd"> <p>Description </p> </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Documents Downloaded</strong></td> 
-  <td class="chdesc stentry"> <p>Number of documents downloaded. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Pages Downloaded</strong></td> 
-  <td class="chdesc stentry"> <p>Number of pages downloaded. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Bytes Downloaded (KB)</strong></td> 
-  <td class="chdesc stentry"> <p>Number of kilobytes downloaded. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Pages Indexed</strong></td> 
-  <td class="chdesc stentry"> <p>Number of pages indexed. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Bytes Indexed (KB)</strong></td> 
-  <td class="chdesc stentry"> <p>Number of kilobytes indexed. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Average CPS</strong></td> 
-  <td class="chdesc stentry"> <p>Average characters-per-second rate during the indexing crawl. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Connect ms</strong></td> 
-  <td class="chdesc stentry"> <p> Total time spent waiting for TCP/IP connections to complete, per page. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>First Byte ms</strong></td> 
-  <td class="chdesc stentry"> <p>Time between sending the fetch request and the first byte received, per page. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Download ms</strong></td> 
-  <td class="chdesc stentry"> <p>Total document download time, per page. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Aggregate</strong></td> 
-  <td class="chdesc stentry"> <p> Displays Download ms, First Byte ms, Connect ms, and remaining Download times, per page. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>filter process ms</strong></td> 
-  <td class="chdesc stentry"> <p>Total filter script process time, per page. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>download process ms</strong></td> 
-  <td class="chdesc stentry"> <p>Total download process time (includes Download and filter), per page. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>index process ms</strong></td> 
-  <td class="chdesc stentry"> <p>Total indexing process time, per page. </p> </td> 
- </tr> 
-</table>    
-    
+    |Option|Description|
+    |--- |--- |
+    |Documents Downloaded|Number of documents downloaded.|
+    |Pages Downloaded|Number of pages downloaded.|
+    |Bytes Downloaded (KB)|Number of kilobytes downloaded.|
+    |Pages Indexed|Number of pages indexed.|
+    |Bytes Indexed (KB)|Number of kilobytes indexed.|
+    |Average CPS|Average characters-per-second rate during the indexing crawl.|
+    |Connect ms|Total time spent waiting for TCP/IP connections to complete, per page.|
+    |First Byte ms|Time between sending the fetch request and the first byte received, per page.|
+    |Download ms|Total document download time, per page.|
+    |Aggregate|Displays Download ms, First Byte ms, Connect ms, and remaining Download times, per page.|
+    |filter process ms|Total filter script process time, per page.|
+    |download process ms|Total download process time (includes Download and filter), per page.|
+    |index process ms|Total indexing process time, per page.|
+        
 1. In the **[!UICONTROL Chart Style]** drop-down list, select how you want the data represented in the report. You can select **[!UICONTROL Bars]** or **[!UICONTROL Area]**.
 1. In the **[!UICONTROL Chart Type]** drop-down list, choose the index level you want to report on. You can select **[!UICONTROL Full]**, **[!UICONTROL Incremental]**, or **[!UICONTROL Full & Incremental]**.
 
