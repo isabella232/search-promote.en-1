@@ -31,7 +31,7 @@ The table of rules shows a list of all your business rules. By default, the tabl
 
 Business rules can have one of three states: Approved, Suspended, or WIP (Work In Progress) 
 
-<table id="table_7BF9430FC0684F4780E6462C1FABE769"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>State of the business rule </p> </th> 
@@ -115,8 +115,8 @@ The following steps assume you are using the Visual Rule Builder.
 
       This particular feature of being able to customize a combination of triggers is not enabled by default. Contact Technical Support to activate this feature for your use.
 
-    <table id="table_72BA5165F3984D439DFD0E32C5294039"> 
- <thead> 
+<table> 
+  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Triggers option </p> </th> 
    <th colname="col2" class="entry"> <p>Description </p> </th> 
@@ -153,7 +153,7 @@ The following steps assume you are using the Visual Rule Builder.
 
    The Remove Facet Item, Reveal Facet Item, Reveal Facet, Remove Facet, Push Facet Item actions in the following table require a facet. The interface for choosing a facet depends on how your account is configured. For example, a normal account uses a drop-down list for choosing facets. However, if your account has slotted facets, an autocomplete text box appears where you can enter the name of any facet. The autocomplete suggests facets in a drop-down list as you type the name of the facet. The suggestions include currently defined facets. If your account has a slot map, it also suggests slotted facets. 
 
-<table id="table_D38AD5468B364C5E83959CD34BBFA23B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Actions option </p> </th> 
