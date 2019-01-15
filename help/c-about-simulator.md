@@ -42,7 +42,7 @@ r_simulator_page_options.xml
 
    (Optional) Use the checkbox column in the table on the Simulator page to turn on or off a given rule in the simulation.
 
-<table id="table_57BFA24C53404A94AB70F4A414C4DFD8"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

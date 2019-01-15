@@ -210,7 +210,7 @@ r_find_in_dictionaries_options.xml
 
  -->
 
-    <table id="table_3B7930D56F9A40E79A29EE9A7F935B85"> 
+    <table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

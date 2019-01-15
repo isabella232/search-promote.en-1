@@ -29,7 +29,7 @@ Use this information to improve your site design or to further improve the searc
 
 The table in the report shows you the following information:
 
-<table id="table_B29E3E8EB5CF45F0B289515928D37B56"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Column </p> </th> 
@@ -89,7 +89,7 @@ See [Loading Adobe Analytics data](../c-about-settings-menu/c-about-adobe-analyt
 
 The [!DNL Staged Adobe Analytics Terms Report] page and the [!DNL Staged Adobe Analytics Report Suites] page displays the following information in a table:
 
-<table id="table_607DA3EE3AD74B4A9E5E8A3D0ADC30F3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Column </p> </th> 
@@ -151,7 +151,7 @@ t_viewing_the_search_request_report_or_the_content_requests_report.xml
 1. On the report page, in the **[!UICONTROL Period]** drop-down list, select the length of time to include in the report.
 1. In the **[!UICONTROL Chart Type]** drop-down list, select one of the following options based on the selected report:
 
-    <table id="choicetable_02F2F601FCA84993B2E8C4EC7A0CEECD"> 
+    <table> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> <p>Option </p> </th> 
   <th class="chdeschd"> <p>Description </p> </th> 
@@ -216,7 +216,7 @@ t_viewing_the_crawl_performance_report_or_the_staged_crawl_performance_report.xm
 
 1. In the **[!UICONTROL Metric]** drop-down list, select one of the following metrics:
 
-    <table id="choicetable_A847473CA060403BAA01D9F460793B1F"> 
+    <table> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> <p>Option </p> </th> 
   <th class="chdeschd"> <p>Description </p> </th> 

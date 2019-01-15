@@ -49,7 +49,7 @@ A third format, called the SEO format, is also supported where a forward slash "
 
 Any time the SEO format is used to send a request, all output links are returned in the same format.
 
-<table id="table_89D371BD757F4BFEAD124AEC52EA8E6E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col2" class="entry"> <p>Guided Search parameter </p> </th> 
@@ -113,7 +113,7 @@ r_backend_search_cgi_parameters.xml
 
 You can select backend search CGI parameters from the following table:
 
-<table id="table_802D1D13EA6F4DAAA45291B5DA90D2AC"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> </th> 
@@ -531,7 +531,7 @@ You can select backend search CGI parameters from the following table:
        alike-enable</i> </code> </p> <p> <code> sp_w_control= 
        <i>sound-alike-control</i> </code> </p> </td> 
    <td colname="col4"> <p>Specifies that sound-alike matching should be enabled or disabled for this particular query. </p> <p> 
-     <table id="table_CB36D47EE3124B01966D106A090BE63D">  
+     <table>  
      </table> </p> <p>The <span class="codeph"> sp_w_control </span> parameter lets you create a negatively or positively worded checkbox for end-user control of sound-alike matching. </p> <p>If <span class="codeph"> sp_w_control=0 </span> is used, then a negatively worded checkbox is used to set the <span class="codeph"> sp_w </span> parameter as in the following example: </p> <p> <code class="syntax html"> &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value="0"&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt;No&nbsp;Sound-Alike&nbsp;matching </code> </p> <p>If <span class="codeph"> sp_w_control=1 </span> is used, then a positively worded checkbox is used to set the <span class="codeph"> sp_w </span> parameter as in the following: </p> <p> <code class="syntax html"> &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value="1"&gt; 
       &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;Sound-Alike&nbsp;matching </code> </p> <p>See the sample advanced search form for more examples on using <span class="codeph"> sp_w_control </span> and <span class="codeph"> sp_w </span> parameters. </p> <p>See <a href="../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A" type="reference" format="dita" scope="local"> Sample advanced search form </a>. </p> </td> 

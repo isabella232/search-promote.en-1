@@ -21,7 +21,7 @@ You have complete control over this list and may add to or modify it to suit you
 
 For example, suppose you have specified the following date formats:
 
-<table id="table_46E4B024856D432EBFE5DBCEC823BC76"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>%B %d, %Y %T %Z </p> <p>%b %d, %Y %T %Z </p> <p>%A %B %d, %Y %T %Z </p> <p>%A %b %d, %Y %T %Z </p> <p>%a %B %d, %Y %T %Z </p> <p>%a %b %d, %Y %T %Z </p> <p>%d %b %Y %T %Z </p> </td> 
@@ -33,7 +33,7 @@ The first format, "%B %d, %Y %T %Z", matches dates like the following "September
 
 The following table describes the available date format strings:
 
-<table id="table_31CBAA23CE484050BB08732F2864AA75"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Data format </p> </th> 
@@ -152,7 +152,7 @@ The following table describes the available date format strings:
 
 The following default format strings are used by templates. You can add to this list or edit it as necessary.
 
-<table id="table_684D549E013945328E4E0B8A2000283B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Default format string </p> </th> 

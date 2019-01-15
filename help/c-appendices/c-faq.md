@@ -288,7 +288,7 @@ Web pages typically specify the character set with a meta tag similar to the fol
 
 The site search/merchandising engine properly indexes web pages using all of the common character sets in use on the Internet today. Some of the supported character sets include the following:
 
-<table id="table_79A238C0AF164C02B8270950D5DDB6E3"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Arabic (ISO-8859-6) </p> </td> 
@@ -854,7 +854,7 @@ You can also use [!DNL URL Masks] to disable the indexing of Microsoft Office fi
 
 Enter the following URL masks:  
 
-<table id="table_842236F275F343B9AD4407EDBD92EBDC"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>If you are not using regular expressions </p> </td> 
@@ -955,7 +955,7 @@ See [Selecting content types to crawl and index](../c-about-settings-menu/c-abou
 
 You can also use the URL Masks feature to disable MP3 indexing by file extension. To do this, on the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Masks]**. Enter one of the following masks:
 
-<table id="table_0396FD591AEE46A296B5DBB49FCFAE2E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>If your account... </p> </th> 

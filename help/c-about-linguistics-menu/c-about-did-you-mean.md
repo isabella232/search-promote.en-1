@@ -40,7 +40,7 @@ r_did_you_mean_options.xml
 
  -->
 
-<table id="table_9497D57A5F0E4D02A215B4E32AA60F2F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

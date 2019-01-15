@@ -61,7 +61,7 @@ r_add_common_phrase_group_options.xml
 
  -->
 
-<table id="table_C5641613476D4B0B8A4916C84FB4ACD9"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

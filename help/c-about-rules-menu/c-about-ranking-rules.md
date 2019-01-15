@@ -52,7 +52,7 @@ t_configuring_ranking.xml
 
 1. Choose from the following:
 
-    <table id="table_8C6D8A8DFD2B4DFDAA5DB9FCF2B94A5E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Task </p> </th> 
@@ -232,7 +232,7 @@ r_ranking_rule_options.xml
 
    See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664).
 
-<table id="table_F3D9BB18266B4976B687069D371D1E25"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

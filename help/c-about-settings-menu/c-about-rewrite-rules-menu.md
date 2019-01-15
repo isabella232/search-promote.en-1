@@ -92,7 +92,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 **[Flags]** 
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
-<table id="table_4D5B52AF1C0745BCBC5513005CB088F2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -184,7 +184,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >You can also prefix all of these tests with an exclamation mark ('!') to negate their meaning.
 
-<table id="table_25E2EA4D989C4E858EC55D6EACD771E1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -210,7 +210,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 **[Flags]** 
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
-<table id="table_52D3D94E86014AA3AF90B0299BED28EC"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -379,7 +379,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 **[Flags]** 
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
-<table id="table_EEE938FE0DD64832849B2730F30AD5A0"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -471,7 +471,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >You can also prefix all of these tests with an exclamation mark ('!') to negate their meaning.
 
-<table id="table_BF5EEE59C8CD4867A09232A062A6DF06"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -497,7 +497,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 **[Flags]** 
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
-<table id="table_87C38C0089384B0895250A825006BF8C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -668,7 +668,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION: key} where NAME_OF
 
 Flags are enclosed in brackets and multiple flags are comma-separated:
 
-<table id="table_7E61439E1F6D465FBF183D6928575612"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -738,7 +738,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 >
 >You can prefix all of these tests with an exclamation mark ('!') to negate their meaning.
 
-<table id="table_903D6FEC92634D41AF4AE1FF589D43DF"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -765,7 +765,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 
 Flags are enclosed in brackets and multiple flags are comma-separated: 
 
-<table id="table_F2F1FB866FC049C6B1DEA50F098E623A"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -910,7 +910,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 
 Flags are enclosed in brackets and multiple flags are comma-separated: 
 
-<table id="table_54D4E482F69644EAA766A9B6C5FF73DA"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -1003,7 +1003,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 
 You can prefix all of these tests by using an exclamation mark ('!') to negate their meaning. 
 
-<table id="table_82DC07D5F3884BE2ADDC38910D42F1C3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -1161,7 +1161,7 @@ There is a special substitution string: '-' that means "NO substitution." The '-
 
 Flags are enclosed in brackets, and multiple flags are comma-separated: 
 
-<table id="table_94C0E582D7AF4DD0AD9E198BD9EA4939"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -1232,7 +1232,7 @@ There is a special substitution string: '-' that means "NO substitution." The '-
 
 All of these tests can also be prefixed by an exclamation mark ('!') to negate their meaning. 
 
-<table id="table_030D304F4E3F46FFB3D0D676FBE868DF"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -1259,7 +1259,7 @@ All of these tests can also be prefixed by an exclamation mark ('!') to negate t
 
 Flags are enclosed in brackets, and multiple flags are comma-separated: 
 
-<table id="table_2B55CFEE987F4F57A799DAD8799B4E84"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 

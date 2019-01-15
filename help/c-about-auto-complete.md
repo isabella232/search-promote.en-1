@@ -53,7 +53,7 @@ r_auto-complete_setup_options.xml
 
    See also [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-<table id="table_72BA5165F3984D439DFD0E32C5294039"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -134,7 +134,7 @@ r_auto-complete_word_list_options.xml
 
    See [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-<table id="table_69D1D46E431C4110883036497D953A6F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

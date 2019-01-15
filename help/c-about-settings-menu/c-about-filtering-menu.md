@@ -32,7 +32,7 @@ The filtering script is run each time a document is read from your website. The 
 
 Some GNU diff options that you can use while in **[!UICONTROL Expert (diff)]** mode on the Staged Filtering Script page, include the following:
 
-<table id="table_487C94C2CE504062A2047DFB6984D4CB"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>GNU diff option </p> </th> 
@@ -125,7 +125,7 @@ if ($main::ws_content_type =~ /^text\/html/) {
 
 You can use the following variables in any filtering script:
 
-<table id="table_19BEF1F31CF24E128F92B84BFDB4CFA2"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> $main::search_crawl_type </span> </p> </td> 
@@ -234,7 +234,7 @@ r_filtering_script_options.xml
 
  -->
 
-<table id="table_C368F81536BF4DF1B16ABD541C535C16"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -289,7 +289,7 @@ r_filtering_script_options.xml
 
    Some GNU diff options that you can use while in **[!UICONTROL Expert (diff)]** mode on the Staged Filtering Script page, include the following:
 
-<table id="table_08E4A3F2CB544615AB4D40202312DE58"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>GNU diff command line option </p> </th> 
@@ -377,7 +377,7 @@ The initialization script is run once before indexing begins. Use this script to
 
 Some GNU diff options that you can use while in **[!UICONTROL Expert (diff)]** mode on the Staged Initialization Script page, include the following:
 
-<table id="table_CD4B76AD7FEC48838D3139515C481B6E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>GNU diff option </p> </th> 
@@ -456,7 +456,7 @@ $main::doc_count = 0;
 
 You can use the following variables in any filtering script:
 
-<table id="table_08C398A421A649D2A973C1F9ED67C0A2"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> $main::search_crawl_type </span> </p> </td> 
@@ -596,7 +596,7 @@ The termination script is run once after all the documents are indexed. You can 
 
 Some GNU diff command line options that you can use while in **[!UICONTROL Expert (diff)]** mode on the Staged Termination Script page, include the following:
 
-<table id="table_E975CA26234A4D8DAED53CBEDEB0D635"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>GNU diff command line option </p> </th> 
@@ -671,7 +671,7 @@ _search_debug_log("Total docs: " . $main::doc_count);
 
 You can use the following variables in any filtering script:
 
-<table id="table_AEF0A4F2CE6F46AEBA4104E85A20F96F"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> $main::search_crawl_type </span> </p> </td> 

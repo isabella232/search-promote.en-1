@@ -13,7 +13,7 @@ snippet: y
 
 # Search&amp;Promote 8.9.8 Release Notes (05/23/2013){#search-promote-release-notes}
 
-<table id="table_27B1D387802541DB80C450DEB838D020"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>New feature </p> </th> 

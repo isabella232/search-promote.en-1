@@ -29,7 +29,7 @@ See also [About Collections](../c-about-settings-menu/c-about-searching-menu.md#
 
 The following example shows four different collection names and the associated areas of the website that they cover:
 
-<table id="table_56ACDFC29BC54701B0C76287C199470A"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Collection name </p> </th> 
@@ -132,7 +132,7 @@ If you create a custom search results template for your website, you can overrid
 
 The process for configuring framesets is as follows:
 
-<table id="table_82EF8DEB37F045A481FAEB9D86D2744C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Process step </p> </th> 
@@ -312,7 +312,7 @@ See [Configuring Auto-Complete CSS](../c-about-auto-complete.md#task_EECE35DEB6C
 
 See [Copying the HTML code of the search form into the...](../c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
-<table id="table_22988AB80C154751B2D2CD0D563FA075"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col2" class="entry"> <p>Location on form </p> </th> 

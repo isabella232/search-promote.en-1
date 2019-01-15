@@ -40,7 +40,7 @@ To restrict searches based on HTTP referrer, IP address, or request scheme (HTTP
 
 To get more specific search results, you can use the following search tips.
 
-<table id="table_EA3F89EAFF724552916BFB37C1966417"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Search tip </p> </th> 
@@ -193,7 +193,7 @@ r_gs_search_options.xml
 
    See [Adding a new search definition](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648) or [Editing a search definition](../c-about-settings-menu/c-about-searching-menu.md#task_AF1FFB1AEF874C13AB359C28F74BF461).
 
-<table id="table_484773DC6C554354A0ECE5901572EF28"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -326,7 +326,7 @@ r_gs_search_options.xml
 
    See [Adding a new search definition](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648) or [Editing a search definition](../c-about-settings-menu/c-about-searching-menu.md#task_AF1FFB1AEF874C13AB359C28F74BF461).
 
-<table id="table_5E02B2D46426467ABAAA55863DAB88D7"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -537,7 +537,7 @@ r_keyword_options.xml
 
    The following table describes the column properties that are in the table editor.
 
-<table id="table_C7E5CAE8BD9240B1836BAFFDB13BFCB7"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Column </p> </th> 
@@ -621,7 +621,7 @@ r_keyword_options.xml
 
    The following table describes the column properties that are in the table editor.
 
-<table id="table_77D6160C21AA4173B676B31F4A47C228"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Column </p> </th> 
@@ -833,7 +833,7 @@ r_restriction_options.xml
 
  -->
 
-<table id="table_AD2496469F3142DA9A11DF9D6131F535"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -925,7 +925,7 @@ r_preview_options.xml
 
  -->
 
-<table id="table_37EC914E7ADA42B69011B5A78CDBD8A1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -975,7 +975,7 @@ c_about_feeds.xml
 
 After your website is crawled and indexed, you can generate automatic feeds and submit them to third-party organic search engines and shopping engines. You can create the following stream feeds: 
 
-<table id="table_92C18C603E5C40BB84CB790502E00F76"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Feed type </p> </th> 
@@ -1057,7 +1057,7 @@ r_feed_options.xml
 
    **Adobe Recommendations**
 
-<table id="table_4BDDAF32704F401899B0A539737807B9"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Panel </p> </th> 
@@ -1129,7 +1129,7 @@ r_feed_options.xml
 
    **Generic Feed**
 
-<table id="table_BBD93B631668406895B04E12D8B61D2F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Panel </p> </th> 
@@ -1187,7 +1187,7 @@ r_feed_options.xml
 
    **Google Merchant Center**
 
-<table id="table_6215893F2DE04B01B065AE087B4B1974"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Panel </p> </th> 
@@ -1252,7 +1252,7 @@ r_feed_options.xml
 
    **Google Sitemaps**
 
-<table id="table_936B085AAA574ABABB80D8ADFD95E636"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Panel </p> </th> 
