@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# About the My Profile menu{#about-the-my-profile-menu}
+# About the My Profile menu {#about-the-my-profile-menu}
 
 Use the My Profile menu to set personal information, preferences, login password, and view access privileges.
 
@@ -29,6 +29,8 @@ t_configuring_your_personal_user_information.xml
 The character encoding that you select is applied to the web pages in your account as long as they do not specify an overriding character set encoding in a meta tag. The character encoding is also applied to the account configuration pages. The default value is "Western European (ISO-8859-1).
 
 When you specify the email address it must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric `(0..9)` characters with exactly one `@` character used to separate the user name from the domain. The characters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `{`, and `}` are also allowed. Your email address cannot start with a period (`.`) character.
+
+[test](#task_5E06BF565C284C2EBBE18E10A1C4BFBB)
 
 See [Configuring your preferences](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
 
@@ -75,24 +77,11 @@ See [About Templates](../c-about-design-menu/c-about-templates.md#concept_06EB48
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL My Preferences]**.
 1. On the [!DNL My Preferences] page, set the fields that you want.
 
-    <table> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> <p>Option </p> </th> 
-  <th class="chdeschd"> <p>Description </p> </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Rule Builder Preference</strong></td> 
-  <td class="chdesc stentry"> <p>Lets you select the default user interface that you want to use when you build a new business rule. You can choose a simplified, visual interface for fast rule creation, or an advanced options interface that gives you greater control and flexibility. </p> <p>The default preference is Visual. When you build a business rule, you can still switch between using a visual interface or an advanced interface, regardless of the rule builder preference that you have set. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Validate Template Tag Attributes on Save</strong></td> 
-  <td class="chdesc stentry"> <p>Validates all attributes in <span class="codeph"> &lt;guided-*&gt;</span> and <span class="codeph"> &lt;search-*&gt;</span> when you save a template in the Template Editor. </p> <p>See <a href="../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3" type="task" format="dita" scope="local"> Editing a presentation or a transport template</a>. </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>Validate Template Reference to GS Objects on Save</strong></td> 
-  <td class="chdesc stentry"> <p> Checks the existence of Guided Search objects, such as menus, facets, breadcrumbs, custom vars, and templates, that are referred to in <span class="codeph"> &lt;guided-*&gt;</span> tags. </p> </td> 
- </tr> 
-</table>    
+    |Option|Description|
+    |--- |--- |
+    |Rule Builder Preference|Lets you select the default user interface that you want to use when you build a new business rule. You can choose a simplified, visual interface for fast rule creation, or an advanced options interface that gives you greater control and flexibility.  The default preference is Visual. When you build a business rule, you can still switch between using a visual interface or an advanced interface, regardless of the rule builder preference that you have set.|
+    |Validate Template Tag Attributes on Save|Validates all attributes in &lt;guided-*&gt; and &lt;search-*&gt; when you save a template in the Template Editor.  See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).|
+    |Validate Template Reference to GS Objects on Save|Checks the existence of Guided Search objects, such as menus, facets, breadcrumbs, custom vars, and templates, that are referred to in  &lt;guided-*&gt; tags.|
     
 1. Click **Save Changes**.
 
@@ -116,6 +105,8 @@ The following rules and restrictions apply to account passwords:
 * All ASCII text characters are permitted, except the `"@"` symbol. 
 * Spaces are permitted (leading spaces are removed). 
 * Dictionary words are not permitted.
+
+[test](/help/c-about-settings-menu/c-about-my-profile-menu.md)
 
 See [Configuring your personal user information](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
