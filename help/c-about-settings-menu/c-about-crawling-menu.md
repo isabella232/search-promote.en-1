@@ -44,7 +44,7 @@ You qualify each entry point with one or more of the following space-separated k
 
 **Important**: Be sure that you separate a given keyword from the entry point and from each other by a space; a comma is not a valid separator.
 
-<table id="table_5A938198E089480784807150A5D530CF"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Keyword </p> </th> 
@@ -255,7 +255,7 @@ You can qualify each include mask with one or more space-separated keywords, whi
 
 A comma is not valid as a separator between the mask and the keyword; you can only use spaces.
 
-<table id="table_1A60D535EF404E38950BBF9A9BE22C0E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Keyword </p> </th> 
@@ -489,7 +489,7 @@ You can qualify each include mask with one or more space-separated keywords, whi
 
 A comma is not valid as a separator between the mask and the keyword; you can only use spaces.
 
-<table id="table_64DD11CCE5B0418C92A1CA0DE628C969"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Keyword </p> </th> 
@@ -854,7 +854,7 @@ r_form_definition_options.xml
 
    Enter one recognition or submission parameter per line. Each parameter must include a name and a value.
 
-<table id="table_3B1FD82A1CD74891885B4E0A7846F7A8"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -1100,7 +1100,7 @@ See also [About Index Connector](../c-about-settings-menu/c-about-crawling-menu.
 
 ## How the indexing process works for Text and Feed configurations in Index Connector {#section_E059A33D61EE4DB0972A37B8A35E9E16}
 
-<table id="table_5D18B78A98294FB4BEC91533DD0711C4"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Step </p> </th> 
@@ -1199,7 +1199,7 @@ See also [About URL Entrypoints](../c-about-settings-menu/c-about-crawling-menu.
 
 At the time you add an Index Connector, you can optionally use the feature **[!UICONTROL Setup Maps]** to download a sample of your data source. The data is examined for indexing suitability.
 
-<table id="table_B3636C789F2641D4A922B24E6815EAB2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>If you chose the Index Connector type... </p> </th> 
@@ -1258,7 +1258,7 @@ r_index_connector_options.xml
 
  -->
 
-<table id="table_DE548B74D8CD40679FF1CCD05E91E46C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

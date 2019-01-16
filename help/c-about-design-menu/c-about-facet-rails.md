@@ -56,7 +56,7 @@ r_facet_rail_options.xml
 
  -->
 
-<table id="table_F1912CBB3ACE418B9763DF7A480AF4E3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Feature/Option </p> </th> 

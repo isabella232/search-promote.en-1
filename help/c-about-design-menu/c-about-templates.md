@@ -67,7 +67,7 @@ See [Search template tags](../c-appendices/c-templates.md#reference_F7AA3FF60231
 
 **XML Transport Template-specific tags**
 
-<table id="table_5592185984A24517A90018024B3EEEC4"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>XML transport template tag </p> </th> 
@@ -359,7 +359,7 @@ r_add_template_options.xml
 
  -->
 
-<table id="table_C5641613476D4B0B8A4916C84FB4ACD9"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

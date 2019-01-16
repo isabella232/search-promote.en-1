@@ -37,7 +37,7 @@ r_setup_adobe_analytics_metrics_authentication_options.xml
 
  -->
 
-<table id="table_BF76982A31164476BC05E49AE03EF586"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Text field </p> </th> 
@@ -142,7 +142,7 @@ r_edit_adobe_analytics_metrics_options.xml
 
  -->
 
-<table id="table_8A41F708F2B94807B2A8C3079AAB9266"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -296,7 +296,7 @@ t_loading_adobe_analytics_data_from_searchpromote.xml
 
 The Data Load page shows the status of your last Adobe Analytics Data Load operation with the following information:  
 
-<table id="table_A06CB68645D74CDC8E00E96301085D4F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Status field </p> </th> 
@@ -373,7 +373,7 @@ See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Advanced Options]**.
 1. On the [!DNL Advanced Adobe Analytics Options] page, set the following options:
 
-<table id="table_1F502636027246E48B5867DEFC2D76D4"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

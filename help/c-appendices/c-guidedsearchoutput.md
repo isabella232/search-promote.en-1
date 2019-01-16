@@ -70,7 +70,7 @@ Any time the SEO format is used to send a request, all output links are returned
 
 The following table describes the standard “out-of-the-box” search query parameters that you can use. Processing rules and business rules can be built based off user-defined query parameters to implement custom business logic that is relevant to your company. You can work with the consulting team to obtain documentation on those parameters.
 
-<table id="table_C447B58F3B5C4E99A4E6DF70CF175337"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Search query parameter </p> </th> 
@@ -189,7 +189,7 @@ Example:
 </banners>
 ```
 
-<table id="table_8C0D271824BD469794ADF113FA0E5524"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Banners </p> </th> 
@@ -232,7 +232,7 @@ Example:
 
 ```
 
-<table id="table_7823C08B6D34409FA0919330F0B82C6D"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Breadcrumb </p> </th> 
@@ -339,7 +339,7 @@ Example:
 
 ```
 
-<table id="table_D71BB0860ECD4BB5964937613DDA480B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Facets </p> </th> 
@@ -387,7 +387,7 @@ Example:
 
 Used together, these tags present a message such as the following: "Showing results 1-16 of 621 for 'new year'."
 
-<table id="table_CE5F16F3E1C2484889A08352F80F4AE1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in header and query </p> </th> 
@@ -445,7 +445,7 @@ Example:
 
 ```
 
-<table id="table_EA9D4071110E4378B3773BCB8E201008"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Pagination </p> </th> 
@@ -500,7 +500,7 @@ Example:
 
 ```
 
-<table id="table_56F85EA20C754ECEB147A6787E4DA7F2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Recent Searches </p> </th> 
@@ -644,7 +644,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 
 ```
 
-<table id="table_6B0CCC8ADAE14355A08E6DAA02C7F0CE"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Results </p> </th> 
@@ -695,7 +695,7 @@ Example:
 </search-form>
 ```
 
-<table id="table_5262D0D26B0F4B808F5CAAD123E8EC41"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Search Form </p> </th> 
@@ -757,7 +757,7 @@ Example:
 
 ```
 
-<table id="table_D4093615A2234A6D9BAC93E0C914417B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Sort Menu </p> </th> 
@@ -794,7 +794,7 @@ Example:
 
 ```
 
-<table id="table_AC393E215BAD4421B0506E80A6C41DCA"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Suggestions </p> </th> 
@@ -827,7 +827,7 @@ Example:
 
 ```
 
-<table id="table_05E9648A282B49CCB014CBA93ECC1001"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Zones </p> </th> 
@@ -887,7 +887,7 @@ Example:
 </banners>
 ```
 
-<table id="table_9CE30BB1CFFE47A69868EEEAE9F5CD99"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Banners </p> </th> 
@@ -930,7 +930,7 @@ Example:
 
 ```
 
-<table id="table_1A0CA8A62FAD4D83A50F84FD4113D9DA"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Breadcrumb </p> </th> 
@@ -1037,7 +1037,7 @@ Example:
 
 ```
 
-<table id="table_0B30EB2D155146CFA93F102516F2E5FE"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Facets </p> </th> 
@@ -1086,7 +1086,7 @@ Example:
 
 Used together, these tags present a message such as the following: "Showing results 1-16 of 621 for 'new year'."
 
-<table id="table_E566D26FECEF4CE4AB3B46EDA1CAF8EA"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Header and Query </p> </th> 
@@ -1144,7 +1144,7 @@ Example:
 
 ```
 
-<table id="table_0E4D4903A2A243109FB878E90B8A046E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Pagination </p> </th> 
@@ -1199,7 +1199,7 @@ Example:
 
 ```
 
-<table id="table_B2E55ECBF4FF46AF8AFE06D083836F3E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Recent Searches </p> </th> 
@@ -1343,7 +1343,7 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
 
 ```
 
-<table id="table_0F8EF727ADFC483BB4BEBAD02803F65C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Results </p> </th> 
@@ -1394,7 +1394,7 @@ Example:
 </search-form>
 ```
 
-<table id="table_6161E740EC9B4F05AFB2036B019C57F9"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Search Form </p> </th> 
@@ -1456,7 +1456,7 @@ Example:
 
 ```
 
-<table id="table_8517E21402104B8AA415BA0AF9CD5E28"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Sort Menu </p> </th> 
@@ -1493,7 +1493,7 @@ Example:
 
 ```
 
-<table id="table_D7CF50B4BF2D4D9EBC386649A1BA89C3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Suggestions </p> </th> 
@@ -1526,7 +1526,7 @@ Example:
 
 ```
 
-<table id="table_4789E01C699E4D2C90A5ED7596D2041B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Tags in Zones </p> </th> 
@@ -1596,7 +1596,7 @@ The following is an example of a banner that is placed in the area of the pages 
 
 ```
 
-<table id="table_36C4AA40C4D041F8BD174E12651DE0DC"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -1655,7 +1655,7 @@ Example breadcrumb node:
 
 ```
 
-<table id="table_66079AAA77534D36B6CE64B09BE446AC"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -1716,7 +1716,7 @@ Example custom fields node:
 
 ```
 
-<table id="table_8BA1810900D54C35A0F7CABA2BE0EEE5"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -1827,7 +1827,7 @@ Example of facet block:
 
 ```
 
-<table id="table_63EDBBC84A1B46A5B24A5BD30069C997"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -1982,7 +1982,7 @@ The following example shows the data for a three-option sort menu and navigation
 
 ```
 
-<table id="table_62C463D195E94557B2C32E91F5E92C04"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2054,7 +2054,7 @@ Example pagination:
 
 ```
 
-<table id="table_8996E1EEA70E4023A93C55F6CCA716AF"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2100,7 +2100,7 @@ Example query node:
 
 ```
 
-<table id="table_70E0F1CB76E24892AB054669C255E291"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2154,7 +2154,7 @@ Example of recent searches:
 
 ```
 
-<table id="table_04D61364303D42399A467E83A96DD7C1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2247,7 +2247,7 @@ Example results node:
 
 ```
 
-<table id="table_44C1078F413B483284855B52E8E0AC2C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2310,7 +2310,7 @@ Example of search form XML:
 
 ```
 
-<table id="table_EAB9976D5433486EB3D45B512EE96E5B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2402,7 +2402,7 @@ Example output for making suggestion due to low results:
 
 ```
 
-<table id="table_7ABB4F1B979F4645AEB36FCA735B49C2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2459,7 +2459,7 @@ Example template:
 <template><![CDATA[grid]]></template>
 ```
 
-<table id="table_5AF5CE3898B64CDCB7F0AC473EB381E6"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 
@@ -2492,7 +2492,7 @@ Example of zone nodes:
 
 ```
 
-<table id="table_F7F7CEB652AC4C01A55377287E3B7741"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Node </p> </th> 

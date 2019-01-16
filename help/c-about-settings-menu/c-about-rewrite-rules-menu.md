@@ -12,7 +12,7 @@ internal: n
 snippet: y
 ---
 
-# About the Rewrite Rules menu{#about-the-rewrite-rules-menu}
+# About the Rewrite Rules menu {#about-the-rewrite-rules-menu}
 
 Use the Rewrite Rules menu to set crawl and search URL and title rules.
 
@@ -89,10 +89,11 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >There is a special substitution string: `'-'` that means "NO substitution." The `'-'` string is often used with the C (chain) flag, letting you match a URL to several patterns before a substitution occurs.
 
-**\[Flags\]** 
-(optional) Enclose flags in brackets. Multiple flags are comma-separated. 
+**Flags**  
 
-<table id="table_4D5B52AF1C0745BCBC5513005CB088F2"> 
+(optional) Enclose flags in brackets `[]`. Multiple flags are comma-separated. 
+
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -184,7 +185,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >You can also prefix all of these tests with an exclamation mark ('!') to negate their meaning.
 
-<table id="table_25E2EA4D989C4E858EC55D6EACD771E1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -207,11 +208,10 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
  </tbody> 
 </table>
 
-**Flags**
+**Flags** 
+(optional) Enclose flags in brackets `[]`. Multiple flags are comma-separated. 
 
-(optional) Enclose flags in brackets. Multiple flags are comma-separated. 
-
-<table id="table_52D3D94E86014AA3AF90B0299BED28EC"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -377,11 +377,9 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >There is a special substitution string: '-' that means "NO substitution." The '-' string is often used with the C (chain) flag, letting you match a URL to several patterns before a substitution occurs.
 
-**\[Flags\]** 
+**Flags** 
 
-(optional) Enclose flags in brackets. Multiple flags are comma-separated. 
-
-<table id="table_EEE938FE0DD64832849B2730F30AD5A0"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -457,7 +455,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
 * **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
 
-Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *[E]* flag for more information on setting variables.
+Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *`[E]`* flag for more information on setting variables.
 
 Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is the following:
 
@@ -472,7 +470,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >You can also prefix all of these tests with an exclamation mark ('!') to negate their meaning.
 
-<table id="table_BF5EEE59C8CD4867A09232A062A6DF06"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -495,10 +493,10 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
  </tbody> 
 </table>
 
-**\[Flags\]** 
-(optional) Enclose flags in brackets. Multiple flags are comma-separated. 
+**Flags** 
+(optional) Enclose flags in brackets `[]`. Multiple flags are comma-separated. 
 
-<table id="table_87C38C0089384B0895250A825006BF8C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -654,7 +652,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
   These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
-Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the [E] flag for more information on setting environment variables.
+Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the `[E]` flag for more information on setting environment variables.
 
 Functions These are functions of the form ${NAME_OF_FUNCTION: key} where NAME_OF_FUNCTION is:
 
@@ -665,11 +663,11 @@ Functions These are functions of the form ${NAME_OF_FUNCTION: key} where NAME_OF
 >
 >There is a special substitution string: '-' that means "NO substitution." The '-' string is often useful with the C (chain) flag, allowing you to match a title to several patterns before a substitution occurs.
 
-**[Flags]** (optional)
+**Flags** (optional)
 
-Flags are enclosed in brackets and multiple flags are comma-separated:
+Flags are enclosed in brackets `[]`and multiple flags are comma-separated:
 
-<table id="table_7E61439E1F6D465FBF183D6928575612"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -723,7 +721,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 * RewriteRule Backreferences These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
 * RewriteCond Backreferences These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
-Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the [E] flag for more information on setting environment variables..
+Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the `[E]` flag for more information on setting environment variables..
 
 Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
@@ -739,7 +737,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 >
 >You can prefix all of these tests with an exclamation mark ('!') to negate their meaning.
 
-<table id="table_903D6FEC92634D41AF4AE1FF589D43DF"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -764,9 +762,9 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 
 **Flags** (optional)
 
-Flags are enclosed in brackets and multiple flags are comma-separated: 
+Flags are enclosed in brackets `[]`and multiple flags are comma-separated: 
 
-<table id="table_F2F1FB866FC049C6B1DEA50F098E623A"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -907,11 +905,11 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 >
 >There is a special substitution string: '-' that means "NO substitution." The '-' string is often useful in conjunction with the C (chain) flag. It lets you match a URL to several patterns before a substitution occurs.
 
-**[Flags]** (optional)
+**Flags** (optional)
 
-Flags are enclosed in brackets and multiple flags are comma-separated: 
+Flags are enclosed in brackets `[]`and multiple flags are comma-separated: 
 
-<table id="table_54D4E482F69644EAA766A9B6C5FF73DA"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -987,7 +985,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
 * **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
-Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *[E]* flag for more information on setting variables.
+Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *`[E]`* flag for more information on setting variables.
 
 >[!NOTE]
 >
@@ -1004,7 +1002,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 
 You can prefix all of these tests by using an exclamation mark ('!') to negate their meaning. 
 
-<table id="table_82DC07D5F3884BE2ADDC38910D42F1C3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -1027,9 +1025,9 @@ You can prefix all of these tests by using an exclamation mark ('!') to negate t
  </tbody> 
 </table>
 
-**[Flags]** (optional)
+**Flags** (optional)
 
-Flags are enclosed in brackets and multiple flags are comma-separated:
+Flags are enclosed in brackets `[]`and multiple flags are comma-separated:
 
 'nocase|NC' (no case): This makes the test case-insensitive. In other words, there is no difference between 'A-Z' and 'a-z' both in the expanded *TestString* and in the *CondPattern*.
 
@@ -1158,11 +1156,11 @@ Plain text - Text that is passed through unchanged.
 
 There is a special substitution string: '-' that means "NO substitution." The '-' string is often useful in conjunction with the C (chain) flag, allowing you to match a title to several patterns before a substitution occurs.
 
-**[Flags]** (optional)
+**Flags** (optional)
 
-Flags are enclosed in brackets, and multiple flags are comma-separated: 
+Flags are enclosed in brackets `[]`, and multiple flags are comma-separated: 
 
-<table id="table_94C0E582D7AF4DD0AD9E198BD9EA4939"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 
@@ -1213,11 +1211,11 @@ Plain text - Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. There are two types of backreferences:
 
-* ** RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
+* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
 
-* ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
+* **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
-**Variables** These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the [E] flag for more information on setting environment variables. Variables can also be defined in the search form that generated the search results.
+**Variables** These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the `[E]` flag for more information on setting environment variables. Variables can also be defined in the search form that generated the search results.
 
 **Functions** These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
@@ -1233,7 +1231,7 @@ There is a special substitution string: '-' that means "NO substitution." The '-
 
 All of these tests can also be prefixed by an exclamation mark ('!') to negate their meaning. 
 
-<table id="table_030D304F4E3F46FFB3D0D676FBE868DF"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>CondPattern string </p> </th> 
@@ -1256,11 +1254,11 @@ All of these tests can also be prefixed by an exclamation mark ('!') to negate t
  </tbody> 
 </table>
 
-**[Flags]** (optional)
+**Flags** (optional)
 
-Flags are enclosed in brackets, and multiple flags are comma-separated: 
+Flags are enclosed in brackets`[]`, and multiple flags are comma-separated: 
 
-<table id="table_2B55CFEE987F4F57A799DAD8799B4E84"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Flag </p> </th> 

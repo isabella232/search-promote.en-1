@@ -19,7 +19,7 @@ See also [Configuring an incremental index of a staged website](../c-about-index
 
 **Syntax of regular expressions** 
 
-<table id="table_1DFB6241426F4D9CA6CAC7F9EE743C9E"> 
+<table> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Text</b> </p> </td> 
@@ -139,7 +139,7 @@ There are some predefined character class names that you can use in place of com
 
 The predefined character classes and their meanings are the following:  
 
-<table id="table_6EB362934BA14638A8CA8603192EC6F8"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Character class </p> </th> 
@@ -200,7 +200,7 @@ The predefined character classes and their meanings are the following:
 
 Two special character class names match the null space at the start and the end of a word. In other words, they do not match an actual character. A word is considered to be any sequence of alphabetic characters, digits, or underscores (_).  
 
-<table id="table_F01118443FCC4F97BD0A8F9E77F0135B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Character class </p> </th> 

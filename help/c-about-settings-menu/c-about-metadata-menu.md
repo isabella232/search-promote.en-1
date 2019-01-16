@@ -54,7 +54,7 @@ r_meta_tag_field_options.xml
 
  -->
 
-<table id="table_98A4E50054B840F3B81CA62EF47940A4"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -432,7 +432,7 @@ replace charset https://www.yoursite.com/japanese/intro.txt shift-jis
 replace language https://www.yoursite.com/japanese/intro.txt ja_JP
 ```
 
-<table id="table_B0E801734BD94A7C80713D90C59097C5"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Injection definition </p> </th> 
@@ -549,7 +549,7 @@ The [!DNL Attribute Loader] page shows you the following information:
 
 ## How the attribute injection process works for Text and Feed configurations in Attribute Loader {#section_E059A33D61EE4DB0972A37B8A35E9E16}
 
-<table id="table_5D18B78A98294FB4BEC91533DD0711C4"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Step </p> </th> 
@@ -595,7 +595,7 @@ You can define multiple Attribute Loader configurations for any account.
 
 When you add an Attribute Loader, you can optionally use the feature **[!UICONTROL Setup Maps]** to download a sample of your data source. The data is examined for suitability.
 
-<table id="table_B3636C789F2641D4A922B24E6815EAB2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p> Attribute Loader type </p> </th> 
@@ -658,7 +658,7 @@ r_attribute_loader_options.xml
 
  -->
 
-<table id="table_DE548B74D8CD40679FF1CCD05E91E46C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -981,7 +981,7 @@ t_loading_attribute_loader_data_from_searchpromote.xml
 
 The [!DNL Data Load] page shows the following information about the status of your last Attribute Loader Data Load operation:  
 
-<table id="table_A06CB68645D74CDC8E00E96301085D4F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Status field </p> </th> 

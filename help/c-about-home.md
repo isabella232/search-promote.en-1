@@ -19,7 +19,7 @@ You can use Home to view a variety of report widgets that give you a quick overv
 
 The following table describes the report widgets that are available from Home:  
 
-<table id="table_A731652324044062818432599AC0D303"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Widget </p> </th> 

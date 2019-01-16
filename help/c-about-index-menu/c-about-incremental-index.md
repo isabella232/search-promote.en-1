@@ -49,7 +49,7 @@ r_incremental_index_configuration_options.xml
 
  -->
 
-<table id="table_963C8E90616148189A3A522F18247B72"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Field </p> </th> 

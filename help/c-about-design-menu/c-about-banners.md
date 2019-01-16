@@ -105,7 +105,7 @@ r_banner_options.xml
 
  -->
 
-<table id="table_C5641613476D4B0B8A4916C84FB4ACD9"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -237,7 +237,7 @@ r_pick_an_asset_options.xml
 
    **Asset navigation options** 
 
-<table id="table_B9173907AD514828A5865C582F6E311C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Navigation option </p> </th> 
@@ -296,7 +296,7 @@ r_pick_an_asset_options.xml
 
    The Properties options appear if you chose a Flash template, image template, or an image. Depending on the digital asset you chose, not all options are available. 
 
-<table id="table_F6CDB7DE61654840A4D3A7013119E91E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Properties option </p> </th> 
@@ -338,7 +338,7 @@ r_pick_an_asset_options.xml
 
    The Banner Link options appear only if you chose an image or an image template for your banner. 
 
-<table id="table_18FD63F56EEB4F9A94F66DF2102A9957"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Banner Link option </p> </th> 
@@ -361,7 +361,7 @@ r_pick_an_asset_options.xml
 
    The Modify Links option appears only if you chose a Flash template for your banner. 
 
-<table id="table_24D0E07E3A8C48C18DE49401E7CB7CAB"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Modify Links option </p> </th> 
@@ -370,7 +370,7 @@ r_pick_an_asset_options.xml
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" id="image_EBB8159690C74D4692B5DF945B045E0B" href="assets/icon_edit_16.gif" /> </p> </td> 
+   <td colname="col1"> <p style="text-align: center;"> <img placement="inline" id="image_EBB8159690C74D4692B5DF945B045E0B" src="assets/icon_edit_16.gif" /> </p> </td> 
    <td colname="col2"> <p>Lets you edit the URL link field that is used in the Flash template. </p> </td> 
   </tr> 
  </tbody> 
@@ -386,7 +386,7 @@ r_pick_an_asset_options.xml
    >
    >If you add a search and replace command to replace "cow" with "apple", and then create a second command to replace "apple" with "orange", the second command does not take affect.
 
-<table id="table_24796D7DF0634BD1A5F2263121D50519"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Replace Text option </p> </th> 
@@ -429,7 +429,7 @@ r_pick_an_asset_options.xml
 
    The Toggle Layer Visibility option applies only if you chose a Flash template for your banner. 
 
-<table id="table_7A6B8DF717BD43728AFEF3314D620A98"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Toggle Layer Visibility option </p> </th> 
@@ -460,7 +460,7 @@ r_upload_options.xml
 
    **Basic options**
 
-<table id="table_2C280C623EC842B8801CAC46D536F5A7"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -491,7 +491,7 @@ r_upload_options.xml
 
    Scene7 Publishing System creates multiple images from a PSD file with layers if you use the file to create a template; it creates one image for each layer. 
 
-<table id="table_AB77A02A60444D1AAF8B9491B757A6D6"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option group name </p> </th> 

@@ -37,7 +37,7 @@ r_account_settings_options.xml
 
  -->
 
-<table id="table_7660BFC618684030A510776F542A6904"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -122,7 +122,7 @@ r_merchandising_preferences_options.xml
 
  -->
 
-<table id="table_C566C46F6A4A47EF9D892CF6186E89B1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -184,7 +184,7 @@ r_scene7_configuration_options.xml
 
  -->
 
-<table id="table_C6C322C0DF0F4113B7D5729EC6A2EA9D"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -243,7 +243,7 @@ r_adobe_analytics_redirector_options.xml
 
  -->
 
-<table id="table_5AFDBEF161A94707BA1AB847BBD62A62"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 
@@ -321,7 +321,7 @@ r_root_file_options.xml
 
  -->
 
-<table id="table_B51AD4F407894E44B70F44D58BE67C3B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Root file </p> </th> 
