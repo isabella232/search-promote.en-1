@@ -28,7 +28,7 @@ t_configuring_your_personal_user_information.xml
 
 The character encoding that you select is applied to the web pages in your account as long as they do not specify an overriding character set encoding in a meta tag. The character encoding is also applied to the account configuration pages. The default value is "Western European (ISO-8859-1).
 
-When you specify the email address it must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric (0..9) characters with exactly one `@` character used to separate the user name from the domain. The characters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `{`, and `}` are also allowed. Your email address cannot start with a period (`.`) character.
+When you specify the email address it must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric `(0..9)` characters with exactly one `@` character used to separate the user name from the domain. The characters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `{`, and `}` are also allowed. Your email address cannot start with a period (`.`) character.
 
 See [Configuring your preferences](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
 
@@ -113,7 +113,7 @@ The following rules and restrictions apply to account passwords:
 * Passwords are case-sensitive. 
 * 8-character minimum and 20-character maximum. 
 * Must include at least one letter and one number. 
-* All ASCII text characters are permitted, except the "@" symbol. 
+* All ASCII text characters are permitted, except the `"@"` symbol. 
 * Spaces are permitted (leading spaces are removed). 
 * Dictionary words are not permitted.
 

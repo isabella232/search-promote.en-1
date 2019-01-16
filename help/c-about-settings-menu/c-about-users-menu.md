@@ -41,7 +41,7 @@ See [Transferring account ownership to another account user](../c-about-settings
 **To view account users** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Users]** > **[!UICONTROL View Users]**.
-1. (Optional) Under the [!DNL User Admin?] column heading, select account users whom you want to give the ability to remove account users or edit account user roles.
+1. (Optional) Under the [!DNL User Admin] column heading, select account users whom you want to give the ability to remove account users or edit account user roles.
 1. (Optional) Under the [!DNL Remove?] column heading, select account users whom you want to remove.
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Click a hyperlinked role name on the [!DNL View Users] page. The [!DNL Role Membership] page is opened where you can assign users to roles or you can unassign users from roles.
@@ -141,7 +141,7 @@ See [Adding a new role to an account](../c-about-settings-menu/c-about-users-men
 1. Under the [!DNL Edit] column header in the table, click the pencil icon next to the role you want to change.
 1. (Optional) Do any of the following:
 
-* In the [!DNL Role Name] text field, type a new name, if desired. The &#42; indicates that this field is required for the role. 
+* In the [!DNL Role Name] text field, type a new name, if desired. The * indicates that this field is required for the role. 
 * In the [!DNL Description] text field, type a new description of the role, if desired. 
 * In the group box, check or uncheck the features that you want the role to access or block, respectively.
 
