@@ -64,7 +64,7 @@ By default a new user is not assigned as a User Administrator. User Administrato
 
 See [Viewing account users](../c-about-settings-menu/c-about-users-menu.md#task_FDDF30EE23C548DF8CFBB2FB2605303C).
 
-The e-mail address that you specify must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric (0..9) characters with exactly one '@' character used to separate the user name from the domain. The characters '_', '+', '-', '.', '!', '#', '$', ''', '%', '&', '&#42;', '=', '?', '^', '{', and '}' are also allowed. Do not start the e-mail address with '.'
+The e-mail address that you specify must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric (0..9) characters with exactly one `@` character used to separate the user name from the domain. The characters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `{`, and `}` are also allowed. Do not start the e-mail address with `.`
 
 If the new user is not an Adobe customer already, you are prompted to create a customer login for that person. The new user is sent a login password and confirmation. When the new user logs in for the first time, they fill out a customer profile.
 
@@ -159,7 +159,7 @@ t_adding_a_new_role_to_an_account.xml
 
 For example, you could individually grant each member of your Public Relations department access to site search/merchandising tasks. However, it is much more efficient to add these users to a "PR" role and then assign the tasks to the entire role.
 
-Each role name must be unique. You can use alphanumeric characters and common symbols, including dashes "-", underscores "_", and periods "." . The name cannot begin with either an underscore or a period.
+Each role name must be unique. You can use alphanumeric characters and common symbols, including dashes `"-"`, underscores `"_"`, and periods `"."` . The name cannot begin with either an underscore or a period.
 
 Under the [!DNL Users in This Role] column header in the table, you can optionally click a hyperlinked e-mail address of a user. The [!DNL Role Membership] page is opened for the specific user where you can assign the user to roles or you can unassign the user from roles.
 
