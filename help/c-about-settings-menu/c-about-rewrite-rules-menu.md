@@ -73,23 +73,23 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
 * **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2.` 
 
-* ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
+* **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
-Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE is a string for the name of a defined variable. See the *[E]* flag for more information on setting environment variables.
+Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE is a string for the name of a defined variable. See the `*[E]*` flag for more information on setting environment variables.
 
 Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is the following:
 
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
 * escape URL-encodes all characters in *key*. 
-* The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged; spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged; spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL- encoded characters back into single characters.
 
 >[!NOTE]
 >
->There is a special substitution string: '-' that means "NO substitution." The '-' string is often used with the C (chain) flag, letting you match a URL to several patterns before a substitution occurs.
+>There is a special substitution string: `'-'` that means "NO substitution." The `'-'` string is often used with the C (chain) flag, letting you match a URL to several patterns before a substitution occurs.
 
-**[Flags]** 
+**\[Flags\]** 
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
 <table id="table_4D5B52AF1C0745BCBC5513005CB088F2"> 
@@ -143,7 +143,7 @@ RewriteRule  ^https://
 
 This rewrite rule uses the function `tolower` to rewrite the domain portion of a URL to ensure that it is always lowercase as in the following:
 
-1. The Pattern `(^https://([^/]*)(.*)$)` contains a backreference ** `([^/]*)`** that matches all characters between `https://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
+1. The Pattern `(^https://([^/]*)(.*)$)` contains a backreference `([^/]*)` that matches all characters between `https://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
 
 1. The Substitution `(https://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the `tolower` function on the first backreference `(https:// ${tolower:$1}$2)` leaving the rest of the URL untouched `(https://${tolower:$1} $2)`.
 
@@ -169,16 +169,16 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
 * ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
 
-Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *[E]* flag for more information on setting variables.
+Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *`[E]`* flag for more information on setting variables.
 
 Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is the following:
 
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
-* escape URL-encodes all characters in key. The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
-* unescape transforms '+' back to space and all %xx URL encode characters back into single characters.
+* escape URL-encodes all characters in key. The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their `%xx` URL-encoded equivalent. 
+* unescape transforms '+' back to space and all `%xx` URL encode characters back into single characters.
 
-**CondPattern** is a standard Extended Regular Expression with some additions. The pattern string can be prefixed with a '!' character (exclamation mark) to specify a non-matching pattern. Instead of real regular expression strings, you can use one of the following special variants:
+**CondPattern** is a standard Extended Regular Expression with some additions. The pattern string can be prefixed with a `!` character (exclamation mark) to specify a non-matching pattern. Instead of real regular expression strings, you can use one of the following special variants:
 
 >[!NOTE]
 >
@@ -207,7 +207,8 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
  </tbody> 
 </table>
 
-**[Flags]** 
+**Flags**
+
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
 <table id="table_52D3D94E86014AA3AF90B0299BED28EC"> 
@@ -244,7 +245,7 @@ RewriteRule  ^.+sessionid=
 
 The RewriteRule uses an E-flag `([E=sessionid:$1])` to assign the current value of the sessionid CGI parameter to the variable `sessionid`. The `$1` refers to the first backreference, which is contained between the first set of parentheses in the RewriteRule's Pattern `([^&#]+)`.
 
-The regular expression `^&#]+` matches the portion of a URL between the word `sessionid` and the next**&**or**#**character. Since this RewriteRule is used only to create the initial value for the sessionid variable, it does no rewriting. Note that the rule's Substitution field is set to `-` to indicate that no rewriting is required.
+The regular expression `^&#]+` matches the portion of a URL between the word `sessionid` and the next `**&**or**#**` character. Since this RewriteRule is used only to create the initial value for the sessionid variable, it does no rewriting. Note that the rule's Substitution field is set to `-` to indicate that no rewriting is required.
 
 The RewriteCond examines the variable `sessionid` ( `%{sessionid}`). If it does not have even a single character (!.+), then the RewriteRule matches.
 
@@ -369,14 +370,15 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
 * escape URL-encodes all characters in *key*. 
-* The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged; spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged; spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL- encoded characters back into single characters.
 
 >[!NOTE]
 >
 >There is a special substitution string: '-' that means "NO substitution." The '-' string is often used with the C (chain) flag, letting you match a URL to several patterns before a substitution occurs.
 
-**[Flags]** 
+**\[Flags\]** 
+
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
 <table id="table_EEE938FE0DD64832849B2730F30AD5A0"> 
@@ -431,7 +433,6 @@ RewriteRule  ^https://
 This rewrite rule uses the function `tolower` to rewrite the domain portion of a URL to ensure that it is always lowercase as in the following:
 
 1. The Pattern `(^https://([^/]*)(.*)$)` contains a backreference ** `([^/]*)`** that matches all characters between `https://` and the first `/` in the URL. The pattern also contains a second backreference `(.*)` that matches all remaining characters in the URL. 
-
 1. The Substitution `(https://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the `tolower` function on the first backreference `(https:// ${tolower:$1}$2)` leaving the rest of the URL untouched `(https://${tolower:$1} $2)`.
 
 Thus, a URL of the form `https://www.MyDomain.com/INTRO/index.Html` is rewritten as `https://www.mydomain.com/INTRO/index.Html`.
@@ -454,7 +455,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
 * **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2`. 
 
-* ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
+* **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
 
 Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *[E]* flag for more information on setting variables.
 
@@ -462,7 +463,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
-* escape URL-encodes all characters in key. The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* escape URL-encodes all characters in key. The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL encode characters back into single characters.
 
 **CondPattern** is a standard Extended Regular Expression with some additions. The pattern string can be prefixed with a '!' character (exclamation mark) to specify a non-matching pattern. Instead of real regular expression strings, you can use one of the following special variants:
@@ -494,7 +495,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
  </tbody> 
 </table>
 
-**[Flags]** 
+**\[Flags\]** 
 (optional) Enclose flags in brackets. Multiple flags are comma-separated. 
 
 <table id="table_87C38C0089384B0895250A825006BF8C"> 
@@ -729,7 +730,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
 * escape URL-encodes all characters in key. 
-* The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL- encoded characters back into single characters.
 
 **CondPattern** is a standard Extended Regular Expression with some additions. The pattern string can be prefixed with a '!' character (exclamation mark) to specify a non-matching pattern. Instead of real regular expression strings, you can use one of the following special variants.
@@ -761,7 +762,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
  </tbody> 
 </table>
 
-**[Flags]**(optional)
+**Flags** (optional)
 
 Flags are enclosed in brackets and multiple flags are comma-separated: 
 
@@ -899,7 +900,7 @@ Functions: These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
 * escape URL-encodes all characters in *key*. 
-* The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged; spaces are translated to '+'; all other characters are transformed to their %xx URL-encoded equivalent. 
+* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged; spaces are translated to '+'; all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL- encoded characters back into single characters.
 
 >[!NOTE]
@@ -959,9 +960,9 @@ RewriteRule  ^https://
 
 This rewrite rule uses the function "tolower" to rewrite the domain portion of a URL to ensure that it is always lowercase:
 
-1. The Pattern (^https://([^/]&#42;)(.&#42;)$) contains a backreference **([^/]&#42;)** that matches all characters between "https://" and the first "/" in the URL. The pattern also contains a second backreference **(.&#42;)** that matches all remaining characters in the URL. 
+1. The Pattern `(^https://([^/]*)(.*)$)` contains a backreference **`([^/]*)`** that matches all characters between "https://" and the first "/" in the URL. The pattern also contains a second backreference **(.*)** that matches all remaining characters in the URL. 
 
-1. The Substitution (https://${tolower:$1}$2) tells the search engine to rewrite the URL by using the **tolower** function on the first backreference (https://**${tolower:$1**}$2) leaving the rest of the URL untouched (https://${tolower:$1}*$2*).
+1. The Substitution `(https://${tolower:$1}$2)` tells the search engine to rewrite the URL by using the **tolower** function on the first backreference `(https://**${tolower:$1**}$2)` leaving the rest of the URL untouched `(https://${tolower:$1}*$2*)`.
 
 Therefore, a URL of the form `https://www.MyDomain.com/INTRO/index.Html` is rewritten as `https://www.mydomain.com/INTRO/index.Html`
 
@@ -996,7 +997,7 @@ Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_
 
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
-* escape URL-encodes all characters in *key*. The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* escape URL-encodes all characters in *key*. The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL encode characters back into single characters.
 
 **CondPattern** is a standard Extended Regular Expression with some additions. The pattern string can be prefixed with a '!' character (exclamation mark) to specify a non-matching pattern. Instead of real regular expression strings, you can use one of the following special variants.
@@ -1026,7 +1027,7 @@ You can prefix all of these tests by using an exclamation mark ('!') to negate t
  </tbody> 
 </table>
 
-** [Flags] **(optional)
+**[Flags]** (optional)
 
 Flags are enclosed in brackets and multiple flags are comma-separated:
 
@@ -1047,7 +1048,7 @@ RewriteRule  ^
 <i>$2</i>
 ```
 
-The RewriteRule Pattern contains two backreferences: (.+) and (.&#42;). The first backreference matches all characters before "sessionid=". The second backreference matches all characters after the sessionid's terminating '&' or '#'.
+The RewriteRule Pattern contains two backreferences: (.+) and (.*). The first backreference matches all characters before "sessionid=". The second backreference matches all characters after the sessionid's terminating '&' or '#'.
 
 The Substitution pattern rewrites the URL using the first backreference, followed by the string "sessionid=", followed by the value of the session ID variable, which was passed as a CGI parameter in the URL, followed by the second backreference. `($1sessionid=%{sessionid}$2)`.
 
@@ -1223,7 +1224,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 * tolower makes all characters in *key* lowercase. 
 * toupper makes all characters in *key* uppercase. 
 * escape URL-encodes all characters in *key*. 
-* The characters 'a'..'z', 'A'..'Z', '0'..'9', '&#42;', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
 * unescape transforms '+' back to space and all %xx URL- encoded characters back into single characters.
 
 There is a special substitution string: '-' that means "NO substitution." The '-' string is often useful in conjunction with the C (chain) flag, allowing you to match a URL to several patterns before a substitution occurs.
@@ -1290,7 +1291,7 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>} 
 ```
 
-The rule's Pattern `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` contains a backreference** (.&#42;)** that matches the title content that follows "My Company-". Remember that surrounding a portion of a pattern with parenthesis ( ) creates a backreference that can be referenced by the Substitution. In this example, the Substitution (${toupper:**$1**}) rewrites that backreference (**$1**) using the toupper function.
+The rule's Pattern `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` contains a backreference **`(.*)`** that matches the title content that follows "My Company-". Remember that surrounding a portion of a pattern with parenthesis ( ) creates a backreference that can be referenced by the Substitution. In this example, the Substitution (${toupper:**$1**}) rewrites that backreference (**$1**) using the toupper function.
 
 Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
