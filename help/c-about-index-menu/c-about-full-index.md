@@ -79,7 +79,7 @@ r_indexing_options.xml
 
  -->
 
-<table id="table_3B57516CBB7847D694D74AE23751AC45"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

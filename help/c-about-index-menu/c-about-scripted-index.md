@@ -36,7 +36,7 @@ Blocks are ordered by date, with the oldest blocks at the top of the text file, 
 
 A leading zero is required for all ordinal dates lower than the 10th when using the HTTP 1.1 style. For example, November 6th is 06 Nov, not 6 Nov.
 
-<table id="table_CDA295598782468C9DFDC571A800AE8B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Command </p> </th> 

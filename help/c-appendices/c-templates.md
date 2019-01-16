@@ -49,7 +49,7 @@ You can select from the following presentation tag groups:
 
 Declarations are special guided-declare tags that you can set at the top of a top-level presentation template. Any subsequent declarations are ignored, including declarations in included templates.
 
-<table id="table_892D11DDDFBE4DDE85374961A9F8973D"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -73,7 +73,7 @@ Declarations are special guided-declare tags that you can set at the top of a to
 
 ## Results {#section_06F249C9F6AE4B0F8C32117E19DCC905}
 
-<table id="table_BBC8FA6BDA5040838C9F0BD4F293C6E3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -252,7 +252,7 @@ See [About Facet Rail](../c-about-design-menu/c-about-facet-rails.md#concept_1FD
 
 See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899).
 
-<table id="table_9C1183C074444179A0C296248A3C0BA1"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -621,7 +621,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
 
 See [About Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03).
 
-<table id="table_752EFE34541E41C6AA521970E40D74E2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -692,7 +692,7 @@ See [About Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB
 
 See [About Menus](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32).
 
-<table id="table_323B2C09835442DBA51DC39F5848665F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -761,7 +761,7 @@ See [About Menus](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447
 
 The page navigation tags can be used to build a set of links allowing a user to page through the search results.
 
-<table id="table_2B8DFA07CAEE4B8BA156FD55DC9E7068"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -907,7 +907,7 @@ You can use recent searches tags to build a set of links that let a user quickly
 
 See [Configuring recent searches](../c-about-design-menu/t-configuring-recent-searches.md#task_E9E8ACA04C90484F8AFD5262167B2562).
 
-<table id="table_FBDC9DB8ED2A4974B16ED43508C74B7F"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -973,7 +973,7 @@ You can use Did You Mean tags to build a set of links to suggestions when a sear
 
 See [About Did You Mean](../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E).
 
-<table id="table_A139FC0A7DF7460DBC52D0C05771789C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1059,7 +1059,7 @@ The following tags can be used to add autocomplete to your search form. The head
 
 See [About Auto-Complete](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
 
-<table id="table_797858E5872545BE98CD59054F459C1D"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1095,7 +1095,7 @@ See [About Auto-Complete](../c-about-auto-complete.md#concept_093A9CD754864BA79B
 
 Use the following tags to test and display the store that a user is currently in.
 
-<table id="table_6B6538E0D678491DB5BDF22A7CB70932"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1124,7 +1124,7 @@ Use the following tags to test and display the store that a user is currently in
 
 ## Zones {#section_B9B3179E000C42D492E1541F2FE44CB5}
 
-<table id="table_514E2E1BBCBC45C8999893B4CF28548C"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1156,7 +1156,7 @@ You can use each of the following loop indicators in any of these loop blocks:
 * guided-menu-items 
 * guided-pages
 
-<table id="table_1CA600313C7744BEA98532BFC8B39926"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1227,7 +1227,7 @@ You can use each of the following loop indicators in any of these loop blocks:
 
 The following tags are available to let you do more advanced things with your template, such as building your own mini-facet.
 
-<table id="table_7665FC6120A842919EFF325ACB1E1A86"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1441,7 +1441,7 @@ See [Editing a presentation or a transport template](../c-about-design-menu/c-ab
 
 See [Search template tags](../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4). 
 
-<table id="table_C94AA64B3C694C528E25CF0C45833872"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Transport template tag </p> </th> 
@@ -1606,7 +1606,7 @@ The following tags return a string.
 
 See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
-<table id="table_2B841B64E9744F6881FFE6E16FA98D58"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1725,7 +1725,7 @@ The following tags conditionally include the HTML between them.
 
 See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
-<table id="table_C49347072D074E888DC5A8F3CE7C3113"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1776,7 +1776,7 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 
 See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
-<table id="table_90B49709BD5A459EAE152066529B848B"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1809,7 +1809,7 @@ The following tags conditionally include the text between them. They can only ap
 
 See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B4560144663972E8DBC3369C629).
 
-<table id="table_9CA9445FC1D4439EB65ADFD17B2D890D"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1856,7 +1856,7 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 
 ### First page, sp_n=1
 
-<table id="table_0334F560A1F840A9A1447F357A888B6E">  
+<table>  
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Index </p> </th> 
@@ -1901,7 +1901,7 @@ See [About Results loop tags](../c-appendices/c-templates.md#section_D4DC7B45601
 
 ### Later page, sp_n=10
 
-<table id="table_00DAAFA92C994387B38737C8435AB3D4">  
+<table>  
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Index </p> </th> 
@@ -1950,7 +1950,7 @@ Finally, note that `<search-if-even>` is always the same as `<search-if-alt>` fo
 
 The following advanced tags output field values and related data from the entire set of search results. These tags only yield output for fields specified by the `sp-sfvl-field` CGI parameters in the search query.
 
-<table id="table_7854EEFBE7BB40338A84F7AE0381C0BA"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -1986,7 +1986,7 @@ The following advanced tags output field values and related data from the entire
 
 The following advanced tags enumerate and output field values and related data from the entire set of search results using a looping construct. These tags only yield output for fields specified by the `sp-sfvl-field` CGI parameters in the search query.
 
-<table id="table_BB19BF975DE4470190DB02015E5FABB2"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -2026,7 +2026,7 @@ Suggest provides a user-friendly "Did you mean?" service for suggesting alternat
 >
 >The Suggest service does not work for Chinese, Japanese, or Korean.
 
-<table id="table_8E014DED2453470596AD5FBCE371CF29"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -2092,7 +2092,7 @@ Suggest provides a user-friendly "Did you mean?" service for suggesting alternat
 
 The following tags output a string into the HTML at that point in the template.
 
-<table id="table_141DA461BC7442C4A343159F151277B3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -2220,7 +2220,7 @@ The following tags output a string into the HTML at that point in the template.
 
 The following are tags that cause an anchor link to surround the HTML between them. When clicked, the anchor link requests another page of results to display. The optional attribute "count" requests that many results on the page to display. If not specified, the count requested on the current page is used. The advanced, optional "URL" attribute controls the domain to which the associated link is directed. By default the domain is `https://search.atomz.com/search/`, but you can change this using the URL attribute.
 
-<table id="table_F940A41509A2488DAB04ACC144A3FB8A"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -2251,7 +2251,7 @@ The following are tags that cause an anchor link to surround the HTML between th
 
 Tags that let you conditionally include HTML between them.
 
-<table id="table_A1842D42AB8F4F5688AC57C44F817042"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -2312,7 +2312,7 @@ Tags that let you conditionally include HTML between them.
 
 Tags that let you control the default selection state for check boxes, radio buttons, and list boxes within a `<form>` on the search template.
 
-<table id="table_F77D41DADC064DC48AB06A24A00DB472"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col01" class="entry"> </th> 
@@ -2361,7 +2361,7 @@ Tags that let you control the default selection state for check boxes, radio but
 
 You can use the following conversion specifications in date format strings:
 
-<table id="table_00090E2D245D490FAB5DF7E35600D851"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Date format string </p> </th> 
@@ -2488,7 +2488,7 @@ The following table contains the language identifiers for each supported languag
 
 * `search-field-value` See [Field value list loop tags](../c-appendices/c-templates.md#section_0717FA09F0FC449CB916883B0500A60E).
 
-<table id="table_5960FA4A816C47ECA8D8F1F937558FB5"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Language </p> </th> 

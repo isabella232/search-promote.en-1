@@ -113,7 +113,7 @@ The current supported nested facet depth is two, but it can be anywhere along th
 
 The following are the behaviors of various types of nested facets:  
 
-<table id="table_635CF6B3C8AC4EF5903235CD40B2C3D6"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Behavior of nested facet type </p> </th> 
@@ -169,12 +169,11 @@ See also [About Facet Rail](../c-about-design-menu/c-about-facet-rails.md#concep
 
 1. Before you can add a new facet, make sure that you have already done following before you proceed to the next step:
 
-* Have some meta tag fields already defined.
+    * Have some meta tag fields already defined.
 
-  See [Adding a new meta tag field](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5). 
-* Inject the metadata into your index.
-
-  See [Adding field injection definitions](../c-about-settings-menu/c-about-metadata-menu.md#task_E86566FA1FF74CF68115C0ADA05172AE).
+      See [Adding a new meta tag field](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5). 
+    * Inject the metadata into your index.
+      See [Adding field injection definitions](../c-about-settings-menu/c-about-metadata-menu.md#task_E86566FA1FF74CF68115C0ADA05172AE).
 
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Facets.]**
 1. On the [!DNL Facets] page, click **[!UICONTROL Add New Facet]**.
@@ -194,7 +193,7 @@ r_add_facet_options.xml
 
  -->
 
-<table id="table_0B13EDD8BB604EBFAE3326BD0C798419"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

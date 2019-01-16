@@ -27,7 +27,7 @@ The robot performs the same indexing steps as though it had been started manuall
 
 To make a remote control request, use the following format examples based on the location of your data center:
 
-<table id="table_1C18A243B462496C886F1A6E34A02E5E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Data center location </p> </th> 
@@ -52,7 +52,7 @@ To make a remote control request, use the following format examples based on the
 
 or 
 
-<table id="table_B1BE7608F8354C0582B94F9B15A1E44E"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>String and value </p> </th> 
@@ -238,7 +238,7 @@ r_remote_control_configuration_options.xml
 
  -->
 
-<table id="table_65B3DFB94EE64D6F82048A9E2D2F47D3"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

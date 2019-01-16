@@ -15,7 +15,7 @@ snippet: y
 
 ## Search&amp;Promote 8.9.3 Release Notes (11/01/2012) {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
 
-<table id="table_27B1D387802541DB80C450DEB838D020"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>New features and enhancements </p> </th> 

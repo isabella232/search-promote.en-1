@@ -75,7 +75,7 @@ See [About Templates](../c-about-design-menu/c-about-templates.md#concept_06EB48
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL My Profile]** > **[!UICONTROL My Preferences]**.
 1. On the [!DNL My Preferences] page, set the fields that you want.
 
-    <table id="choicetable_78D9722BBC554837ABBF93CE9B09C062"> 
+    <table> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> <p>Option </p> </th> 
   <th class="chdeschd"> <p>Description </p> </th> 

@@ -107,7 +107,7 @@ r_seo_options_for_titles_descriptions_and_keywords.xml
 
  -->
 
-<table id="table_BE15EF989A8241BEAD9909B693EF14B4"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

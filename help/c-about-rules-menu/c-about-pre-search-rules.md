@@ -79,7 +79,7 @@ t_adding_a_new_pre-search_rule.xml
 1. In the [!DNL Name] field, type the name of the new query cleaning rule.
 1. On the [!DNL Add Pre-Search Rule] page, use the drop-down lists and text fields to build out your query.
 
-<table id="table_9AA09226950540A39A088037E9461A88"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

@@ -80,7 +80,7 @@ r_data_view_editor_options.xml
 
    When you view a data view, the resulting table also shows the following additional column fields which are not editable: Ranking, Relevance, and Score (overall). These three special fields represent the relevance scores, rank scores, and overall scores for each result.
 
-<table id="table_446C0D368B484993BD236BDF2FDA0F03"> 
+<table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

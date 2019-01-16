@@ -42,7 +42,7 @@ r_words_and_languages_options.xml
 
  -->
 
-    <table id="table_E3DB6A1C64F7494E97F0715DC996B2F8"> 
+    <table> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> <p>Option </p> </th> 

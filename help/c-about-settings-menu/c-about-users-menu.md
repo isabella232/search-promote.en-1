@@ -204,7 +204,7 @@ See [Viewing the roles that exist for an account](../c-about-settings-menu/c-abo
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Users]** > **[!UICONTROL Role Membership]**.
 1. On the [!DNL Role Membership] page, do one of the following:
 
-    <table id="choicetable_F3391971D73D4AE381B2B8D1B97E00D4"> 
+    <table> 
  <thead class="chhead sthead"> 
   <th class="choptionhd"> <p>Option </p> </th> 
   <th class="chdeschd"> <p>Steps </p> </th> 
