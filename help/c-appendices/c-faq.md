@@ -17,8 +17,6 @@ snippet: y
 
 A frequently asked questions page that discusses support of the indexing and searching of SWF files on a website.
 
-<a id="section_BEFC5E108BBC4771B4670CBA9CA08A98"></a>
-
 <!-- 
 
 r_faq_adobe_flash.xml
@@ -122,8 +120,6 @@ Older SWF files do not specify a character set either. If you selected the SWF c
 ## General search {#reference_E2C675162789452A9B99C6633B12CBEF}
 
 A frequently asked questions page that discusses how site search/merchandising helps customers who visit your website find what they are looking for.
-
-<a id="section_5DA1C144CB3D44F09A22DDE9080BD05F"></a>
 
 <!-- 
 
@@ -439,8 +435,6 @@ See [About Scripted Index](../c-about-index-menu/c-about-scripted-index.md#conce
 
 A frequently asked questions page that discusses various feature implementations in [!DNL Search&amp;Promote].
 
-<a id="section_EABF95A63E1A420080C1BECE1B1A7B0F"></a>
-
 <!-- 
 
 r_faq_implementation.xml
@@ -479,8 +473,6 @@ If you are unsure what to do, you should contact Technical Support. There may be
 ## International {#reference_F017C2968BFB446499EF1D3CE2CAC0FE}
 
 A frequently asked questions page that discusses support of the indexing and searching of more than 19 languages, including multi-byte Asian languages such as Chinese (Simplified and Traditional), Japanese, and Korean.
-
-<a id="section_48FB87B40FC241879AE0C3AF63429325"></a>
 
 <!-- 
 
@@ -579,8 +571,6 @@ If your account uses the default template, one of the ready-to-use templates, or
 ## Low page count {#reference_4344E3E3CB2948939860F8C078BD7773}
 
 A frequently asked questions page that discusses common problems associated with a low indexing page count.
-
-<a id="section_2F4B95651C6F41BE888DC85D95A39974"></a>
 
 <!-- 
 
@@ -796,8 +786,6 @@ Disallow: /
 
 A frequently asked questions page that discusses support of the indexing and searching of Microsoft® Office files on a website.
 
-<a id="section_A59C82699DB84747B2364FA4FE7EF042"></a>
-
 <!-- 
 
 r_faq_microsoft_office.xml
@@ -884,8 +872,6 @@ See [Regular Expressions](../c-appendices/r-regular-expressions.md#reference_B5B
 ## MP3 {#reference_7614250EE81C4EEFA43E57A6A74E83D7}
 
 A frequently asked questions page that discusses support of the indexing and searching of MP3 music files on a website.
-
-<a id="section_8BF68DE0215B4981A0BA10DD17298458"></a>
 
 <!-- 
 
@@ -988,8 +974,6 @@ See [About Injections](../c-about-settings-menu/c-about-metadata-menu.md#concept
 
 A frequently asked questions page the discusses support of the indexing and searching of PDF files on a website.
 
-<a id="section_B57108860F7A41B98B49E884028C8868"></a>
-
 <!-- 
 
 r_faq_pdf.xml
@@ -1075,8 +1059,6 @@ See [Adding field injection definitions](../c-about-settings-menu/c-about-metada
 ## Too many pages {#reference_48A748BC1ED14844ACAC2735C8388E8A}
 
 A frequently asked questions page that explains some of the reasons why the indexer has counted more pages than you actually have, and what the solution is in each case.
-
-<a id="section_ADEF7169D7DA4754B8BD5CFCCB05C2DF"></a>
 
 <!-- 
 

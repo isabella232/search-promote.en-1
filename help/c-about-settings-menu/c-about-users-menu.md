@@ -141,9 +141,9 @@ See [Adding a new role to an account](../c-about-settings-menu/c-about-users-men
 1. Under the [!DNL Edit] column header in the table, click the pencil icon next to the role you want to change.
 1. (Optional) Do any of the following:
 
-* In the [!DNL Role Name] text field, type a new name, if desired. The * indicates that this field is required for the role. 
-* In the [!DNL Description] text field, type a new description of the role, if desired. 
-* In the group box, check or uncheck the features that you want the role to access or block, respectively.
+   * In the [!DNL Role Name] text field, type a new name, if desired. The * indicates that this field is required for the role. 
+   * In the [!DNL Description] text field, type a new description of the role, if desired. 
+   * In the group box, check or uncheck the features that you want the role to access or block, respectively.
 
 1. Click **[!UICONTROL Save Changes]**.
 
@@ -204,29 +204,29 @@ See [Viewing the roles that exist for an account](../c-about-settings-menu/c-abo
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Users]** > **[!UICONTROL Role Membership]**.
 1. On the [!DNL Role Membership] page, do one of the following:
 
-    <table> 
- <thead class="chhead sthead"> 
-  <th class="choptionhd"> <p>Option </p> </th> 
-  <th class="chdeschd"> <p>Steps </p> </th> 
- </thead> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>To add one or more users to a single role</strong></td> 
-  <td class="chdesc stentry"> <p> 
-    <ul id="ul_59E7C36210804EF9B6A2706A5357A892"> 
-     <li id="li_2A8D31C968B543EBA7948DD4EFA350AA"> In the <span class="uicontrol"> Change Role</span> drop-down list, select a role that you want to add users to. <p>If you do not see the <span class="uicontrol"> Change Role</span> drop-down list, click <span class="uicontrol"> View Users BY GROUP</span>. </p> </li> 
-     <li id="li_3A67F0DDBDBE4883A17300A3F088D71A"> (Optional) In the table, check <span class="uicontrol"> Show Only Role Members</span> to have the table display only account users that are currently assigned to the selected role. </li> 
-     <li id="li_4926A22D1ED94AC9972C2619A398A8C7"> In the check box column of the table, select one or more account users that you want to assign to the selected role. <p>Deselect one or more account users that you want to remove from the selected role. </p> </li> 
-    </ul> </p> </td> 
- </tr> 
- <tr class="chrow strow"> 
-  <td class="choption"><strong>To add one or more roles to a single user</strong></td> 
-  <td class="chdesc stentry"> <p> 
-    <ul id="ul_B3F8E84B0ED94B2D83F0DB0C91F07DC7"> 
-     <li id="li_67EE15F527384CCDB8171DB3D89F6819"> In the <span class="uicontrol"> Change User</span> drop-down list, select a user whom you want to assign one or more roles to. <p>If you do not see the <span class="uicontrol"> Change User</span> drop-down list, click <span class="uicontrol"> View Roles BY USER</span>. </p> </li> 
-     <li id="li_7830E87D6924433DBBA03C953B9452A2"> (Optional) In the table, check <span class="uicontrol"> Show Only This User's Roles</span> to have the table display only those roles that are currently assigned to the selected account user. </li> 
-     <li id="li_DE742B95BFC34BF4AE338B165B533FDF"> In the check box column of the table, select one or more roles that you want to assign to the selected user. <p>Deselect one or more roles that you want to remove from the selected user. </p> </li> 
-    </ul> </p> </td> 
- </tr> 
-</table>    
+   <table> 
+      <thead class="chhead sthead"> 
+      <th class="choptionhd"> <p>Option </p> </th> 
+      <th class="chdeschd"> <p>Steps </p> </th> 
+      </thead> 
+      <tr class="chrow strow"> 
+      <td class="choption"><strong>To add one or more users to a single role</strong></td> 
+      <td class="chdesc stentry"> <p>
+      <ul id="ul_59E7C36210804EF9B6A2706A5357A892"> 
+      <li id="li_2A8D31C968B543EBA7948DD4EFA350AA"> In the <span class="uicontrol"> Change Role</span> drop-down list, select a role that you want to add users to. <p>If you do not see the <span class="uicontrol"> Change Role</span> drop-down list, click <span class="uicontrol"> View Users BY GROUP</span>. </p> </li> 
+      <li id="li_3A67F0DDBDBE4883A17300A3F088D71A"> (Optional) In the table, check <span class="uicontrol"> Show Only Role Members</span> to have the table display only account users that are currently assigned to the selected role. </li> 
+      <li id="li_4926A22D1ED94AC9972C2619A398A8C7"> In the check box column of the table, select one or more account users that you want to assign to the selected role. <p>Deselect one or more account users that you want to remove from the selected role. </p> </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr class="chrow strow"> 
+      <td class="choption"><strong>To add one or more roles to a single user</strong></td> 
+      <td class="chdesc stentry"> <p> 
+         <ul id="ul_B3F8E84B0ED94B2D83F0DB0C91F07DC7"> 
+         <li id="li_67EE15F527384CCDB8171DB3D89F6819"> In the <span class="uicontrol"> Change User</span> drop-down list, select a user whom you want to assign one or more roles to. <p>If you do not see the <span class="uicontrol"> Change User</span> drop-down list, click <span class="uicontrol"> View Roles BY USER</span>. </p> </li> 
+         <li id="li_7830E87D6924433DBBA03C953B9452A2"> (Optional) In the table, check <span class="uicontrol"> Show Only This User's Roles</span> to have the table display only those roles that are currently assigned to the selected account user. </li> 
+         <li id="li_DE742B95BFC34BF4AE338B165B533FDF"> In the check box column of the table, select one or more roles that you want to assign to the selected user. <p>Deselect one or more roles that you want to remove from the selected user. </p> </li> 
+         </ul> </p> </td> 
+      </tr> 
+   </table>    
     
 1. Click **Save Changes**.
