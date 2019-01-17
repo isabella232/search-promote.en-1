@@ -43,63 +43,22 @@ If you prefer, you can have your account manager configure your account to use a
 
 `https://search.megacorp.com?q=shoes&page=2`
 
-A third format, called the SEO format, is also supported where a forward slash "/" is used in place of the separator and equal sign as in the following example:
+A third format, called the SEO format, is also supported where a forward slash `/` is used in place of the separator and equal sign as in the following example:
 
 `https://search.megacorp.com/q/shoes/page/2`
 
 Any time the SEO format is used to send a request, all output links are returned in the same format.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col2" class="entry"> <p>Guided Search parameter </p> </th> 
-   <th colname="col3" class="entry"> <p>Example </p> </th> 
-   <th colname="col4" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col2"> <p>q </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> q=string </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the query string for the search. This parameter maps to the <span class="codeph"> sp_q </span> backend search parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>q# </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> q#=string </span> </p> </td> 
-   <td colname="col4"> <p>Faceting (searching within a given field) is done by way of numbered q and x parameters. </p> <p>The q parameter defines the term you are searching for in the facet as denoted by the corresponding numbered x parameter. </p> <p>For example, if you have two facets that are named size and color, you can have something like q1=small;x1=size;q2=red;x2=color. </p> <p>This parameter maps to the <span class="codeph"> sp_q_exact_# </span> backend search parameters. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>x# </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> q#=string </span> </p> </td> 
-   <td colname="col4"> <p>Faceting (searching within a given field) is done by way of numbered q and x parameters. </p> <p>The q parameter defines the term you are searching for in the facet as denoted by the corresponding numbered x parameter. </p> <p>For example, if you have two facets that are named size and color, you can have something like q1=small;x1=size;q2=red;x2=color. </p> <p>This parameter maps to the <span class="codeph"> sp_x_# </span> backend search parameters. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>collection </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> collection=string </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the collection to use for the search. </p> <p>This parameter maps to the <span class="codeph"> sp_k </span> backend search parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>count </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> count=number </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the total count of results that are shown. </p> <p>The default is defined in <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Searching </span> &gt; <span class="uicontrol"> Searches </span>. . </p> <p>This parameter maps to the <span class="codeph"> sp_c </span> backend search parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>page </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> page=number </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the page of results that are returned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>rank </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> rank=field </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the rank field to use for static ranking. </p> <p>The field must be a field of type Rank with relevance greater than 0. </p> <p>This parameter maps to the <span class="codeph"> sp_sr </span> backend parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col2"> <p>sort </p> </td> 
-   <td colname="col3"> <p> <span class="codeph"> sort=number </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the sort order. </p> <p> "0" is the default and sorts by relevance score; "1" sorts by date; "-1" does not sort. </p> <p>Users can specify a field name for the value of the <span class="codeph"> sp_s </span> parameter. </p> <p>For example, <span class="codeph"> sp_s=title </span> sorts results according to the values that are contained in the title field. When a field name is used for the value of an <span class="codeph"> sp_s </span> parameter, results are sorted by that field and then sub-sorted by relevance. </p> <p>To enable this feature, click <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>. On the Definitions page, click <span class="uicontrol"> Add New Field </span> or click <span class="uicontrol"> Edit </span> for a particular field name. In the <span class="uicontrol"> Sorting </span> drop-down list, select either <span class="uicontrol"> Ascending </span> or <span class="uicontrol"> Descending </span>. This parameter maps to the <span class="codeph"> sp_s </span> backend search parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Guided Search parameter  | Example  | Description  |
+|--- |--- |--- |
+|q|`q=string`|Specifies the query string for the search. This parameter maps to the `sp_q` backend search parameter.  See [Backend search CGI parameters]("../c-appendices/c-cgiparameters.md).|
+|q#|`q#=string`|Faceting (searching within a given field) is done by way of numbered q and x parameters.  The q parameter defines the term you are searching for in the facet as denoted by the corresponding numbered x parameter.<br>For example, if you have two facets that are named size and color, you can have something like q1=small;x1=size;q2=red;x2=color.  This parameter maps to the `sp_q_exact_#` backend search parameters.  <br>See [Backend search CGI parameters](../c-appendices/c-cgiparameters.md).|
+|x#|`q#=string`|Faceting (searching within a given field) is done by way of numbered q and x parameters.  The q parameter defines the term you are searching for in the facet as denoted by the corresponding numbered x parameter. <br>For example, if you have two facets that are named size and color, you can have something like q1=small;x1=size;q2=red;x2=color.  This parameter maps to the `sp_x_#` backend search parameters.  <br>See [Backend search CGI parameters](../c-appendices/c-cgiparameters.md).|
+|collection|`collection=string`|Specifies the collection to use for the search.  This parameter maps to the `sp_k` backend search parameter.  See [Backend search CGI parameters]("../c-appendices/c-cgiparameters.md).|
+|count|`count=number`|Specifies the total count of results that are shown.  The default is defined in [!UICONTROL Settings ] > [!UICONTROL Searching ] > [!UICONTROL Searches ]. .  This parameter maps to the `sp_c` backend search parameter.  See [Backend search CGI parameters](../c-appendices/c-cgiparameters.md).|
+|page|`page=number`|Specifies the page of results that are returned.|
+|rank|`rank=field`|Specifies the rank field to use for static ranking.  The field must be a field of type Rank with relevance greater than 0.  This parameter maps to the `sp_sr` backend parameter.  See [Backend search CGI parameters](../c-appendices/c-cgiparameters.md).|
+|sort|`sort=number`|Specifies the sort order.<br>"0" is the default and sorts by relevance score; "1" sorts by date; "-1" does not sort.  Users can specify a field name for the value of the `sp_s` parameter.  For example, `sp_s=title` sorts results according to the values that are contained in the title field. When a field name is used for the value of an ` sp_s ` parameter, results are sorted by that field and then sub-sorted by relevance.  To enable this feature, click [!UICONTROL Settings ] > [!UICONTROL Metadata ] > [!UICONTROL Definitions ]. On the Definitions page, click [!UICONTROL Add New Field ] or click [!UICONTROL Edit ] for a particular field name. In the [!UICONTROL Sorting ] drop-down list, select either [!UICONTROL Ascending ] or [!UICONTROL Descending ]. This parameter maps to the `sp_s` backend search parameter. <br>See [Backend search CGI parameters].("../c-appendices/c-cgiparameters.md).|
 
 ## Backend search CGI parameters {#reference_582E85C3886740C98FE88CA9DF7918E8}
 
