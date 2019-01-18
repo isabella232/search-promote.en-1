@@ -52,42 +52,42 @@ t_configuring_ranking.xml
 
 1. Choose from the following:
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Task </p> </th> 
-   <th colname="col2" class="entry"> <p>Configuration </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>To create ranking rules that are based on meta tags </p> </td> 
-   <td colname="col2"> <p> 
-     <ol id="ol_28ABB980143948DFA79AC4360AAB7556"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Task </p> </th> 
+      <th colname="col2" class="entry"> <p>Configuration </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>To create ranking rules that are based on meta tags </p> </td> 
+      <td colname="col2"> <p> 
+      <ol id="ol_28ABB980143948DFA79AC4360AAB7556"> 
       <li id="li_544075CFA0964C6F8FAF7941AAA9ECCC"> On the product menu, click <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>. </li> 
       <li id="li_F237F13B89E8425080C15D3BD697652C"> On the Definitions page, click <span class="uicontrol"> Add New Field </span>. </li> 
       <li id="li_2A839874D71D45FEA661B3D3B8BE2A86"> On the Add Field page, in the <span class="uicontrol"> Field Name </span> text field, type 
-       <userinput>
-         rank 
-       </userinput>; in the <span class="uicontrol"> Meta Tag Name </span> text field, type 
-       <userinput>
-         rank 
-       </userinput>; in the <span class="uicontrol"> Data Type </span> drop-down list, select <span class="uicontrol"> Rank </span>. Leave all other field options as-is. <p>See the query parameter <span class="codeph"> sp_sr </span> in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
+      <userinput>
+        rank 
+      </userinput>; in the <span class="uicontrol"> Meta Tag Name </span> text field, type 
+      <userinput>
+        rank 
+      </userinput>; in the <span class="uicontrol"> Data Type </span> drop-down list, select <span class="uicontrol"> Rank </span>. Leave all other field options as-is. <p>See the query parameter <span class="codeph"> sp_sr </span> in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
       <li id="li_8E91AF4BE51A4A41ABBF9680DDE0B7CE">Click <span class="uicontrol"> Add </span>. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>To create ranking rules that are based on Adobe Analytics metrics </p> </td> 
-   <td colname="col2"> <p> 
-     <ol id="ol_BE57CBC303D941778B10D855ADC93C68"> 
+      </ol> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>To create ranking rules that are based on Adobe Analytics metrics </p> </td> 
+      <td colname="col2"> <p> 
+      <ol id="ol_BE57CBC303D941778B10D855ADC93C68"> 
       <li id="li_8DF5D8F924B24ECBBD2D93C76C69D00C"> Make sure you have set up Adobe Analytics authentication from within site search/merchandising. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_8AA93F6273B747F9B4DE9E8DFBCBDC42" type="task" format="dita" scope="local"> Setting up Adobe Analytics metrics authentication </a>. </p> </li> 
       <li id="li_CF7DD073FC5A432DADBD282AA8BB9920"> Select and add an available report suite. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local"> Adding an Adobe Analytics Report Suite </a>. </p> </li> 
       <li id="li_9A63448577D04E028DF211D8715F943A"> Configure the list of Adobe Analytics metrics that you want to be available for the creation of new Ranking Rules. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> Editing the Adobe Analytics metrics of a Report Suite </a>. </p> </li> 
       <li id="li_1ACA3611D9B44AC394604CD89209C966"> Load the initial Adobe Analytics metrics for your website pages. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181" type="task" format="dita" scope="local"> Loading Adobe Analytics data </a>. </p> </li> 
-     </ol> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ol> </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Add one or more Ranking Rules.
 
@@ -288,9 +288,9 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
 
    The range of valid rank values is normally -1.0 to 1.0 as in the following:
 
-   * -1.0 is "Minimum Rank (display lower in the search results)." 
-   * 0.0 is "Neutral rank (do not change search results order)." 
-   * 1.0 is "Maximum rank (display higher in the search results."
+   * `-1.0` is "Minimum Rank (display lower in the search results)." 
+   * `0.0` is "Neutral rank (do not change search results order)." 
+   * `1.0` is "Maximum rank (display higher in the search results."
 
    Defined ranks should be within the same range for every rule. The rank ranges must also match the ranges that are defined for the Rank field under **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions]**.
 
@@ -631,4 +631,3 @@ If you have more than one Rule defined in a Rule group, each Rule's Weight value
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-
