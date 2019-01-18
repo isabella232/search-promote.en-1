@@ -71,7 +71,6 @@ r_backend_search_cgi_parameters.xml
  -->
 
 You can select backend search CGI parameters from the following table:
-
 <table> 
  <thead> 
   <tr> 
@@ -108,8 +107,7 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col2"> <p>sp_context_field </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_context_ 
-      field= <i>field</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_context_field= <i>field</i> </code> </p> </td> 
    <td colname="col4"> <p>Collects contextual information for the given field. Collected information is output in the search results by way of the <span class="codeph"> &lt;search-context&gt; </span> template tag. The default value is <span class="codeph"> body </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -130,26 +128,21 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>7 </p> </td> 
    <td colname="col2"> <p>sp_date_range </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_date_ 
-      range= <i>number</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_date_range= <i>number</i> </code> </p> </td> 
    <td colname="col4"> <p>Specifies a pre-defined date range to apply to the search. Values greater than or equal to zero specify the number of days to search prior to today — for example, a value of "0" specifies "today," a value of "1" specifies "today and yesterday," a value of "30" specifies "within the last 30 days," and so forth. </p> <p>Values below zero specify a custom range as follows: </p> <p>-1 = "None," the same as specifying no date range. </p> <p>-2 = "This week," which searches from Sunday to Saturday of the current week. </p> <p>-3 = "Last week," which searches from Sunday to Saturday of the week prior to the current week. </p> <p>-4 = "This month," which searches dates within the current month. </p> <p>-5 = "Last month," which searches dates within the month prior to the current month. </p> <p>-6 = "This year," which searches dates within the current year. </p> <p>-7 = "Last year," which searches dates within the year prior to the current year. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>8 </p> </td> 
    <td colname="col2"> <p> </p> </td> 
-   <td colname="col03"> <p>sp_date_ 
-     range_# </p> </td> 
-   <td colname="col3"> <p> <code> sp_date_ 
-      range_#= <i>number</i> </code> </p> </td> 
+   <td colname="col03"> <p>sp_date_range_# </p> </td> 
+   <td colname="col3"> <p> <code> sp_date_range_#= <i>number</i> </code> </p> </td> 
    <td colname="col4"> <p>Specifies a pre-defined date range to apply to the corresponding <span class="codeph"> sp_q_# </span> query. The "#" is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_date_range_8 </span>, applies to the numbered query <span class="codeph"> sp_q_8 </span>). </p> <p>Values greater than or equal to zero specify the number of days to search prior to today. For example, a value of 0 specifies today; a value of 1 specifies today and yesterday; a value of 30 specifies within the last 30 days, and so forth. </p> <p>Values below zero specify a custom range as follows: </p> <p>-1 = "None," the same as specifying no date range. </p> <p>-2 = "This week," which searches from Sunday to Saturday of the current week. </p> <p>-3 = "Last week," which searches from Sunday to Saturday of the week prior to the current week. </p> <p>-4 = "This month," which searches dates within the current month. </p> <p>-5 = "Last month," which searches dates within the month prior to the current month. </p> <p>-6 = "This year," which searches dates within the current year. </p> <p>-7 = "Last year," which searches dates within the year prior to the current year. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>9 </p> </td> 
-   <td colname="col2"> <p>sp_dedupe_ 
-     field </p> </td> 
+   <td colname="col2"> <p>sp_dedupe_field </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_dedupe_ 
-      field= <i>fieldname</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_dedupe_field= <i>fieldname</i> </code> </p> </td> 
    <td colname="col4"> <p>Specifies a single field to dedupe search results on. All duplicate results on that field are removed from the search results. For example, if for <span class="codeph"> sp_dedupe_field=title </span>, only the top result for a given title is displayed in the search results (no two results will have identical title field content). For multi-value (allow list) type fields, the entire field contents are used for comparison. Only one field may be specified. A "table-qualifier" is not allowed in the field name. </p> </td> 
   </tr> 
   <tr> 
@@ -170,9 +163,7 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>12 </p> </td> 
    <td colname="col2"> <p>sp_end_day, sp_end_month, sp_end_year </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_end_day= <i>number</i>, 
-      sp_end_month= <i>number</i>, 
-       sp_end_year= <i>number</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_end_day= <i>number</i>,sp_end_month= <i>number</i>, sp_end_year= <i>number</i> </code> </p> </td> 
    <td colname="col4"> <p>This triplet of values specifies the end date range for the search and must be provided as a set. </p> </td> 
   </tr> 
   <tr> 
@@ -186,12 +177,8 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>14 </p> </td> 
    <td colname="col2"> <p>sp_field_table </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_field_ 
-      table=table: 
-      field,field... </code> </p> </td> 
-   <td colname="col4"> <p>Defines a logical data table consisting of the given fields. For example, a table named "items" consisting of the fields "color," "size," and "price" would be defined as the following: </p> <p> <span class="codeph"> sp_field_table=items:color,size,price </span> </p> <p>Logical tables are most useful in conjunction with fields that have "Allow Lists" checked (under <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>). All CGI parameters and template tags that take a field name as a value may optionally specify a table name followed by a "." prior to the field name (for example, <span class="codeph"> sp_x_1=tablename.fieldname </span>). </p> <p>For example, to perform a search for documents that contain one or more "red" items in size "large" (where items are represented as parallel rows of metadata), you could use the following: </p> <p> <code> sp_q_exact_1=red&amp;sp_x_1=items.color&amp; 
-      sp_q_exact_2=large&amp;sp_x_2=items.size&amp; 
-      sp_field_table=items:color,size,price </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_field_ table=table: field,field... </code> </p> </td> 
+   <td colname="col4"> <p>Defines a logical data table consisting of the given fields. For example, a table named "items" consisting of the fields "color," "size," and "price" would be defined as the following: </p> <p> <span class="codeph"> sp_field_table=items:color,size,price </span> </p> <p>Logical tables are most useful in conjunction with fields that have "Allow Lists" checked (under <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>). All CGI parameters and template tags that take a field name as a value may optionally specify a table name followed by a "." prior to the field name (for example, <span class="codeph"> sp_x_1=tablename.fieldname </span>). </p> <p>For example, to perform a search for documents that contain one or more "red" items in size "large" (where items are represented as parallel rows of metadata), you could use the following: </p> <p> <code> sp_q_exact_1=red&amp;sp_x_1=items.color&amp; sp_q_exact_2=large&amp;sp_x_2=items.size&amp;sp_field_table=items:color,size,price </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>15 </p> </td> 
@@ -237,8 +224,7 @@ You can select backend search CGI parameters from the following table:
   </tr> 
   <tr> 
    <td colname="col1"> <p>21 </p> </td> 
-   <td colname="col2"> <p>sp_not_ 
-     found_page </p> </td> 
+   <td colname="col2"> <p>sp_not_found_page </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_not_found_page= url </span> </p> </td> 
    <td colname="col4"> <p> Specifies whether to redirect to the specified URL if there are no search results. </p> </td> 
@@ -261,16 +247,14 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>24 </p> </td> 
    <td colname="col2"> <p>sp_pt </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_pt= <i>exact/ 
-       equivalent/compatible</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_pt= <i>exact/equivalent/compatible</i> </code> </p> </td> 
    <td colname="col4"> <p> Specifies the type of target matching to apply. The use of <span class="codeph"> exact </span> means yield target matches only in documents that exactly match the query string within target content. The use of <span class="codeph"> equivalent </span> is like exact, except that the order of the words is not important. The use of <span class="codeph"> compatible </span> automatically sets the target matching type based on the value of the <span class="codeph"> sp_p </span> parameter. The use of <span class="codeph"> exact </span> is used if <span class="codeph"> sp_p </span> is <span class="codeph"> all </span> or <span class="codeph"> phrase </span>, otherwise <span class="codeph"> equivalent </span> is used. The default value of <span class="codeph"> sp_pt </span> is <span class="codeph"> compatible </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>25 </p> </td> 
    <td colname="col2"> <p> </p> </td> 
    <td colname="col03"> <p>sp_pt_# </p> </td> 
-   <td colname="col3"> <p> <code> sp_pt_#= <i>exact/ 
-       equivalent/compatible</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_pt_#= <i>exact/equivalent/compatible</i> </code> </p> </td> 
    <td colname="col4"> <p>Specifies the type of target matching to apply with the corresponding <span class="codeph"> sp_q_# </span> query. The "#" is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_p_8 </span> applies to the numbered query <span class="codeph"> sp_q_8 </span>). The use of <span class="codeph"> exact </span> means yield target matches only in documents that exactly match the query string within target content. The use of <span class="codeph"> equivalent </span> is like <span class="codeph"> exact </span>, except that the order of the words is not important. The use of <span class="codeph"> compatible </span> automatically sets the target matching type based on the value of the corresponding <span class="codeph"> sp_p_# </span> parameter: <span class="codeph"> exact </span> is used if <span class="codeph"> sp_p_# </span> is all or phrase, otherwise <span class="codeph"> equivalent </span> is used. The default value of <span class="codeph"> sp_pt_# </span> is <span class="codeph"> compatible </span>. </p> </td> 
   </tr> 
   <tr> 
@@ -278,8 +262,7 @@ You can select backend search CGI parameters from the following table:
    <td colname="col2"> <p>sp_q </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_q= string </span> </p> </td> 
-   <td colname="col4"> <p> Specifies the query string for the search. An empty string leads to no results being shown. </p> <p> 
-     <!--See also <xref href="c_about_common_phrases.xml#concept_4946E53586DF492EAEB1B7F757FD440F" format="dita" scope="local">About Common Phrases</xref>--> </p> </td> 
+   <td colname="col4"> <p> Specifies the query string for the search. An empty string leads to no results being shown. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>27 </p> </td> 
@@ -287,67 +270,35 @@ You can select backend search CGI parameters from the following table:
    <td colname="col03"> <p>sp_q_# </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_q_#= text </span> </p> </td> 
    <td colname="col4"> <p>This parameter allows for the creation of multiple queries on search forms. The <span class="codeph"> sp_q_# </span> parameter contains the query string to use in the given numbered query. A search request may reference up to 16 different numbered queries ( <span class="codeph"> sp_q_1 </span> to <span class="codeph"> sp_q_16 </span>). </p> <p>For example, submitting the following form returns all documents that contain the words "great" and "books". </p> <p> <code class="syntax html"> Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="great"&gt; 
-      Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_1"&nbsp;value="books"&gt; </code> </p> <p> 
-     <!--See also <xref href="c_about_common_phrases.xml#concept_4946E53586DF492EAEB1B7F757FD440F" format="dita" scope="local">About Common Phrases</xref>--> </p> </td> 
+      Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_1"&nbsp;value="books"&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>28 </p> </td> 
    <td colname="col2"> <p>sp_q_day, sp_q_month, sp_q_year </p> </td> 
    <td colname="col03"> <p> sp_q _day_#, sp_q _month_#, sp_q _year_# </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_q_day= integer value </span> </p> <p> <span class="codeph"> sp_q_month= integer value </span> </p> <p> <span class="codeph"> sp_q_year= integer value </span> </p> <p> <span class="codeph"> sp_q_day_#= integer value </span> </p> <p> <span class="codeph"> sp_q_month_#= integer value </span> </p> <p> <span class="codeph"> sp_q_year_#= integer value </span> </p> </td> 
-   <td colname="col4"> <p>These parameters are used to specify an exact date for a particular query. The <span class="codeph"> sp_q_day </span>, <span class="codeph"> sp_q_month </span>, and <span class="codeph"> sp_q_year </span> parameters apply to the main query ( <span class="codeph"> sp_q </span>). </p> <p>The <span class="codeph"> # </span>parameter is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_q_day_6 </span>, which applies to the numbered query <span class="codeph"> sp_q_6 </span>). By default, all dates are searched relative to Greenwich Mean Time. </p> <p>The following section of code lets a user to search for the word "orange" in documents dated "Jan. 1st, 2000" in a user-defined field named <span class="codeph"> PublishDate </span>: </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="PublishDate"&gt; 
-      Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="orange"&gt; 
-      On&nbsp;:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_day_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Day 
-      &lt;input&nbsp;type="text"&nbsp;name="sp_q_month_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Month 
-      &lt;input&nbsp;type="text"&nbsp;name="sp_q_year_1"&nbsp;size="4"&nbsp;value="2000"&gt;&nbsp;Year&nbsp; </code> </p> </td> 
+   <td colname="col4"> <p>These parameters are used to specify an exact date for a particular query. The <span class="codeph"> sp_q_day </span>, <span class="codeph"> sp_q_month </span>, and <span class="codeph"> sp_q_year </span> parameters apply to the main query ( <span class="codeph"> sp_q </span>). </p> <p>The <span class="codeph"> # </span>parameter is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_q_day_6 </span>, which applies to the numbered query <span class="codeph"> sp_q_6 </span>). By default, all dates are searched relative to Greenwich Mean Time. </p> <p>The following section of code lets a user to search for the word "orange" in documents dated "Jan. 1st, 2000" in a user-defined field named <span class="codeph"> PublishDate </span>: </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="PublishDate"&gt; Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="orange"&gt;On&nbsp;:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_day_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Day&lt;input&nbsp;type="text"&nbsp;name="sp_q_month_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Month &lt;input&nbsp;type="text"&nbsp;name="sp_q_year_1"&nbsp;size="4"&nbsp;value="2000"&gt;&nbsp;Year&nbsp; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>29 </p> </td> 
    <td colname="col2"> <p>sp_q_location </p> </td> 
-   <td colname="col03"> <p>sp_q_ 
-     location_# </p> </td> 
-   <td colname="col3"> <p> <code> sp_q_location= 
-       <i>latitude/longitude</i> OR <i>areacode</i> OR <i>zipcode</i> </code> </p> <p> <code> sp_q_location_#= 
-       <i>latitude/longitude</i> OR <i>areacode</i> OR <i>zipcode</i> </code> </p> </td> 
+   <td colname="col03"> <p>sp_q_location_# </p> </td> 
+   <td colname="col3"> <p> <code> sp_q_location=<i>latitude/longitude</i> OR <i>areacode</i> OR <i>zipcode</i> </code> </p> <p> <code> sp_q_location_#= <i>latitude/longitude</i> OR <i>areacode</i> OR <i>zipcode</i> </code> </p> </td> 
    <td colname="col4"> <p>These parameters associate a location with the main or numbered query. The use of <span class="codeph"> sp_q_location </span> affects the main query, <span class="codeph"> sp_q_location_# </span> (where the <span class="codeph"> # </span> is replaced by a number from 1 to 16), affects the given numbered query. These parameters are used to perform minimum and/or maximum distance proximity searches against the location data indexed for each site page. The format of the value determines its interpretation. </p> <p>A value in the form DDD (three digits) is interpreted as a US telephone areacode; a value in the form DDDDD or DDDDD-DDDD is interpreted as a US zipcode; and a value in the form ±DD.DDDD±DDD.DDDD is interpreted as a latitude/longitude pair. The signs are required for each value. For example, +38.6317+120.5509 specifies latitude 38.6317, longitude 120.5509. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>30 </p> </td> 
-   <td colname="col2"> <p>sp_q_max_ 
-     relevant_distance </p> </td> 
+   <td colname="col2"> <p>sp_q_max_relevant_distance </p> </td> 
    <td colname="col03"> <p>sp_q_max _relevant _distance _# </p> </td> 
-   <td colname="col3"> <p> <code> sp_q_max_relevant_ 
-      distance= <i>value</i> </code> </p> <p> <code> sp_q_max_relevant_ 
-      distance_#= <i>value</i> </code> </p> </td> 
+   <td colname="col3"> <p> <code> sp_q_max_relevant_distance= <i>value</i> </code> </p> <p> <code> sp_q_max_relevant_distance_#= <i>value</i> </code> </p> </td> 
    <td colname="col4"> <p>These parameters control the relevance calculation applied to proximity searches. The use of <span class="codeph"> sp_q_max_relevant_distance </span> affects the main query, <span class="codeph"> sp_q_max_relevant_distance_# </span> (where the <span class="codeph"> # </span> is replaced by a number from 1 to 16), affects the given numbered query. </p> <p>The default value of <span class="codeph"> sp_q_max_relevant_distance </span> is 100. </p> <p>A perfect relevance score for the proximity component would represent a distance of 0. A minimum relevance score for the proximity component would represent a distance just over the specified <span class="codeph"> sp_q_max_relevant_distance_# </span> value. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>31 </p> </td> 
    <td colname="col2"> <p>sp_q_min_day, sp_q_min_month, sp_q_min_year </p> <p>sp_q_max_day, sp_q_max_month, sp_q_max_year </p> </td> 
-   <td colname="col03"> <p>sp_q_min_ 
-     day_#, sp_q_min_ 
-     month_#, sp_q_min_ 
-     year_# </p> <p> sp_q_max_ 
-     day_#, sp_q_max_ 
-     month_#, sp_q_max_ 
-     year_# </p> </td> 
-   <td colname="col3"> <p> <code> sp_q_min_day= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_min_month= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_min_year= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_max_day= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_max_month= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_max_year= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_min_day_#= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_min_month_#= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_min_year_#= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_max_day_#= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_max_month_#= 
-       <i>integer value</i> </code> </p> <p> <code> sp_q_max_year_#= 
-       <i>integer value</i> </code> </p> </td> 
-   <td colname="col4"> <p>These parameters are used to set minimum and maximum date ranges for a particular query. The <span class="codeph"> sp_q_min_day </span>, <span class="codeph"> sp_q_min_month </span>, <span class="codeph"> sp_q_min_year </span>, <span class="codeph"> sp_q_max_day </span>, <span class="codeph"> sp_q_max_month </span>, and <i>sp_q_max_year</i> parameters apply to the main query ( <span class="codeph"> sp_q </span>). </p> <p>The <span class="codeph"> # </span>in the parameter name is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_q_min_day_6 </span> applies to the numbered query <span class="codeph"> sp_q_6 </span>). </p> <p>It is legal to specify only a minimum date, only a maximum date, or both minimum and maximum date. However, for a given minimum or maximum set, all three date parameters must be specified (day, month and year). By default, all dates are searched relative to Greenwich Mean Time. </p> <p>The following section of code lets a user search for the word "orange" in documents with a date between Jan. 1st, 2000 and Dec. 31st, 2000 in a user-defined field named <span class="codeph"> PublishDate </span>: </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="PublishDate"&gt; 
-      Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="orange"&gt; 
-      Between:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_min_day_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Start&nbsp;Day 
-      &lt;input&nbsp;type="text"&nbsp;name="sp_q_min_month_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Start&nbsp;Month 
+   <td colname="col03"> <p>sp_q_min_day_#, sp_q_min_month_#, sp_q_min_year_# </p> <p> sp_q_max_day_#, sp_q_max_month_#, sp_q_max_year_# </p> </td> 
+   <td colname="col3"> <p> <code> sp_q_min_day=<i>integer value</i> </code> </p> <p> <code> sp_q_min_month=<i>integer value</i> </code> </p> <p> <code> sp_q_min_year=<i>integer value</i> </code> </p> <p> <code> sp_q_max_day=<i>integer value</i> </code> </p> <p> <code> sp_q_max_month=<i>integer value</i> </code> </p> <p> <code> sp_q_max_year=<i>integer value</i> </code> </p> <p> <code> sp_q_min_day_#=<i>integer value</i> </code> </p> <p> <code> sp_q_min_month_#=<i>integer value</i> </code> </p> <p> <code> sp_q_min_year_#=<i>integer value</i> </code> </p> <p> <code> sp_q_max_day_#=<i>integer value</i> </code> </p> <p> <code> sp_q_max_month_#=<i>integer value</i> </code> </p> <p> <code> sp_q_max_year_#=<i>integer value</i> </code> </p> </td> 
+   <td colname="col4"> <p>These parameters are used to set minimum and maximum date ranges for a particular query. The <span class="codeph"> sp_q_min_day </span>, <span class="codeph"> sp_q_min_month </span>, <span class="codeph"> sp_q_min_year </span>, <span class="codeph"> sp_q_max_day </span>, <span class="codeph"> sp_q_max_month </span>, and <i>sp_q_max_year</i> parameters apply to the main query ( <span class="codeph"> sp_q </span>). </p> <p>The <span class="codeph"> # </span>in the parameter name is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_q_min_day_6 </span> applies to the numbered query <span class="codeph"> sp_q_6 </span>). </p> <p>It is legal to specify only a minimum date, only a maximum date, or both minimum and maximum date. However, for a given minimum or maximum set, all three date parameters must be specified (day, month and year). By default, all dates are searched relative to Greenwich Mean Time. </p> <p>The following section of code lets a user search for the word "orange" in documents with a date between Jan. 1st, 2000 and Dec. 31st, 2000 in a user-defined field named <span class="codeph"> PublishDate </span>: </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="PublishDate"&gt;Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="orange"&gt;Between:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_min_day_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Start&nbsp;Day&lt;input&nbsp;type="text"&nbsp;name="sp_q_min_month_1"&nbsp;size="2"&nbsp;value="1"&gt;&nbsp;Start&nbsp;Month 
       &lt;input&nbsp;type="text"&nbsp;name="sp_q_min_year_1"&nbsp;size="4"&nbsp;value="2000"&gt;&nbsp;Start&nbsp;Year 
       And:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_max_day_1"&nbsp;size="2"&nbsp;value="31"&gt;&nbsp;End&nbsp;Day 
       &lt;input&nbsp;type="text"&nbsp;name="sp_q_max_month_1"&nbsp;size="2"&nbsp;value="12"&gt;&nbsp;End&nbsp;Month 
@@ -486,34 +437,22 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>49 </p> </td> 
    <td colname="col2"> <p>sp_w, sp_w_control </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> <code> sp_w= <i>sound- 
-       alike-enable</i> </code> </p> <p> <code> sp_w_control= 
-       <i>sound-alike-control</i> </code> </p> </td> 
-   <td colname="col4"> <p>Specifies that sound-alike matching should be enabled or disabled for this particular query. </p> <p> 
-     <table>  
-     </table> </p> <p>The <span class="codeph"> sp_w_control </span> parameter lets you create a negatively or positively worded checkbox for end-user control of sound-alike matching. </p> <p>If <span class="codeph"> sp_w_control=0 </span> is used, then a negatively worded checkbox is used to set the <span class="codeph"> sp_w </span> parameter as in the following example: </p> <p> <code class="syntax html"> &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value="0"&gt; 
-      &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt;No&nbsp;Sound-Alike&nbsp;matching </code> </p> <p>If <span class="codeph"> sp_w_control=1 </span> is used, then a positively worded checkbox is used to set the <span class="codeph"> sp_w </span> parameter as in the following: </p> <p> <code class="syntax html"> &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value="1"&gt; 
-      &lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;Sound-Alike&nbsp;matching </code> </p> <p>See the sample advanced search form for more examples on using <span class="codeph"> sp_w_control </span> and <span class="codeph"> sp_w </span> parameters. </p> <p>See <a href="../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A" type="reference" format="dita" scope="local"> Sample advanced search form </a>. </p> </td> 
+   <td colname="col3"> <p> <code> sp_w= <i>sound-alike-enable</i> </code> </p> <p> <code> sp_w_control=<i>sound-alike-control</i> </code> </p> </td> 
+   <td colname="col4"> <p>Specifies that sound-alike matching should be enabled or disabled for this particular query. </p> <p>The sp_w_control for `Exact` is Ignored. Sound-alike matching is Disabled. </p><p>The sp_w_control for `Alike` is Ignored. Sound-alike matching is Enabled</p><p>The sp_w_control for Anything else is 1. Sound-alike matching is Disabled. </p><p>The sp_w_control for Anything else is anything else. Sound-alike matching is Enabled. </p>The <span class="codeph"> sp_w_control </span> parameter lets you create a negatively or positively worded checkbox for end-user control of sound-alike matching. </p> <p>If <span class="codeph"> sp_w_control=0 </span> is used, then a negatively worded checkbox is used to set the <span class="codeph"> sp_w </span> parameter as in the following example: </p> <p> <code class="syntax html"> &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value="0"&gt;&lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="exact"&gt;No&nbsp;Sound-Alike&nbsp;matching </code> </p> <p>If <span class="codeph"> sp_w_control=1 </span> is used, then a positively worded checkbox is used to set the <span class="codeph"> sp_w </span> parameter as in the following: </p> <p> <code class="syntax html"> &lt;input&nbsp;type=hidden&nbsp;name="sp_w_control"&nbsp;value="1"&gt;&lt;input&nbsp;type=checkbox&nbsp;name="sp_w"&nbsp;value="alike"&gt;Sound-Alike&nbsp;matching </code> </p> <p>See the sample advanced search form for more examples on using <span class="codeph"> sp_w_control </span> and <span class="codeph"> sp_w </span> parameters. </p> <p>See <a href="../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A" type="reference" format="dita" scope="local"> Sample advanced search form </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>50 </p> </td> 
    <td colname="col2"> <p>sp_x </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_x= field </span> </p> </td> 
-   <td colname="col4"> <p>Specifies the fields to search for the query string. any means search all fields. title means search only title fields. desc means search only document description fields. keys means search only document keywords. body means search only body text. alt means search only alternate text. url means search only the URL values. target means search only target keywords. In any of these cases, user specification of "text:", "desc:", "keys:", "body:", "alt:", "url:", and "target:" field prefixes within the corresponding <span class="codeph"> sp_q </span> parameter are ignored. If <span class="codeph"> sp_x </span> is not present or if it is set to an empty string or any, then the standard user field prefixes are allowed. See the Search Tips description for more information about the field prefixes. </p> <p>See <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> About Searches </a>. </p> <p>See the sample Advanced Search Form description for examples using the <span class="codeph"> sp_x </span> parameter. </p> <p>See <a href="../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A" type="reference" format="dita" scope="local"> Sample advanced search form </a>. </p> <p>You can create queries that search all fields set to <span class="uicontrol"> Search By Default </span> under <span class="uicontrol"> Options </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span> by setting <span class="codeph"> sp_x=any </span>. Both pre- and user-defined fields may be used as the value of the <span class="codeph"> sp_x </span> parameter. </p> <p>You can also assign several fields to a single query by setting the <span class="codeph"> sp_x </span> parameter several times. The following template lines let users query both the "title" and "author" fields for "Great Books". </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x"&nbsp;value="title"&gt; 
-      &lt;input&nbsp;type="hidden"&nbsp;name="sp_x"&nbsp;value="author"&gt; 
-      Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="Great&nbsp;Books"&gt; </code> </p> </td> 
+   <td colname="col4"> <p>Specifies the fields to search for the query string. any means search all fields. title means search only title fields. desc means search only document description fields. keys means search only document keywords. body means search only body text. alt means search only alternate text. url means search only the URL values. target means search only target keywords. In any of these cases, user specification of "text:", "desc:", "keys:", "body:", "alt:", "url:", and "target:" field prefixes within the corresponding <span class="codeph"> sp_q </span> parameter are ignored. If <span class="codeph"> sp_x </span> is not present or if it is set to an empty string or any, then the standard user field prefixes are allowed. See the Search Tips description for more information about the field prefixes. </p> <p>See <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> About Searches </a>. </p> <p>See the sample Advanced Search Form description for examples using the <span class="codeph"> sp_x </span> parameter. </p> <p>See <a href="../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A" type="reference" format="dita" scope="local"> Sample advanced search form </a>. </p> <p>You can create queries that search all fields set to <span class="uicontrol"> Search By Default </span> under <span class="uicontrol"> Options </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span> by setting <span class="codeph"> sp_x=any </span>. Both pre- and user-defined fields may be used as the value of the <span class="codeph"> sp_x </span> parameter. </p> <p>You can also assign several fields to a single query by setting the <span class="codeph"> sp_x </span> parameter several times. The following template lines let users query both the "title" and "author" fields for "Great Books". </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x"&nbsp;value="title"&gt;&lt;input&nbsp;type="hidden"&nbsp;name="sp_x"&nbsp;value="author"&gt;Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="Great&nbsp;Books"&gt; </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>51 </p> </td> 
    <td colname="col2"> <p> </p> </td> 
    <td colname="col03"> <p>sp_x_# </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_x_#= field-name </span> </p> </td> 
-   <td colname="col4"> <p>This parameter specifies which field to search in the corresponding <span class="codeph"> sp_q_# </span> query. The <span class="codeph"> <span class="codeph"> # </span> </span> is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_x_8 </span>). The field-name is any pre- or user-defined field. </p> <p>If no <span class="codeph"> sp_x_# </span> parameter is provided for a particular numbered query, all fields defined as <span class="uicontrol"> Search By Default </span> as set under <span class="uicontrol"> Setting </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span> are searched by that query. </p> <p>For example, submitting the following form returns all documents that contain the word "great" that also contain the word "Fitzgerald" in the "author" field: </p> <p> <code class="syntax html"> Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="great"&gt; 
-      &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="author"&gt; 
-      Search&nbsp;only&nbsp;documents&nbsp;written&nbsp;by:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_1"&nbsp;value="Fitzgerald"&gt; </code> </p> <p>You can associate multiple field names with a particular query or numbered query by providing more than one instance of the same <span class="codeph"> sp_x </span> or <span class="codeph"> sp_x_# </span> parameter in a single search request. </p> <p>For example, to search for the word "flower" within both the "body" and "keys" fields, you could create a search form with the following information: </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="body"&gt; 
-      &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="keys"&gt; 
-      Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_1"&nbsp;value="flower"&gt; </code> </p> </td> 
+   <td colname="col4"> <p>This parameter specifies which field to search in the corresponding <span class="codeph"> sp_q_# </span> query. The <span class="codeph"> <span class="codeph"> # </span> </span> is replaced with a number between 1 and 16 (for example, <span class="codeph"> sp_x_8 </span>). The field-name is any pre- or user-defined field. </p> <p>If no <span class="codeph"> sp_x_# </span> parameter is provided for a particular numbered query, all fields defined as <span class="uicontrol"> Search By Default </span> as set under <span class="uicontrol"> Setting </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span> are searched by that query. </p> <p>For example, submitting the following form returns all documents that contain the word "great" that also contain the word "Fitzgerald" in the "author" field: </p> <p> <code class="syntax html"> Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q"&nbsp;value="great"&gt;&lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="author"&gt;Search&nbsp;only&nbsp;documents&nbsp;written&nbsp;by:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_1"&nbsp;value="Fitzgerald"&gt; </code> </p> <p>You can associate multiple field names with a particular query or numbered query by providing more than one instance of the same <span class="codeph"> sp_x </span> or <span class="codeph"> sp_x_# </span> parameter in a single search request. </p> <p>For example, to search for the word "flower" within both the "body" and "keys" fields, you could create a search form with the following information: </p> <p> <code class="syntax html"> &lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="body"&gt;&lt;input&nbsp;type="hidden"&nbsp;name="sp_x_1"&nbsp;value="keys"&gt;Search&nbsp;for:&nbsp;&lt;input&nbsp;type="text"&nbsp;name="sp_q_1"&nbsp;value="flower"&gt; </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>

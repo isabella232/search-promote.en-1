@@ -45,52 +45,52 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Auto-Complete Setup]**.
 1. On the [!DNL Auto-Complete Setup] page, set the options that you want.
 
-   <!-- 
+<!-- 
 
 r_auto-complete_setup_options.xml
 
- -->
+-->
 
    See also [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Maximum suggestions </p> </td> 
-   <td colname="col2"> <p>Specifies the maximum number of items to display in the auto-complete suggestions list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Minimum input characters </p> </td> 
-   <td colname="col2"> <p>Specifies the number of characters that a customer must type into the auto-complete search form before it displays suggestions. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Maximum cache entries </p> </td> 
-   <td colname="col2"> <p>Specifies the maximum number of previously requested auto-complete suggestions to cache in the customer's browser. Generally, you should leave this setting at the default of 1000. </p> <p>While you can completely disable browser caching by setting this option to 0, it is not recommended. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Display shadow </p> </td> 
-   <td colname="col2"> <p>Adds a cosmetic drop-shadow to the auto-complete suggestions list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Form name </p> </td> 
-   <td colname="col2"> <p>Specifies the "name" attribute of the auto-complete enabled search form's "form" tag. For example, </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="https://sp1004337c.guided.t1.atomz.com" target="_blank"&gt; </span> </p> <p>where <span class="filepath"> SiteSearch </span> is the name attribute of the form tag. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Div tag ID </p> </td> 
-   <td colname="col2"> <p>Specifies the ID attribute of the auto-complete enabled search form's "div" tag. For example, </p> <p> <span class="filepath"> &lt;div id="autocomplete"&gt; </span> </p> <p>where <span class="filepath"> autocomplete </span> is the attribute of the div tag. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Input tag ID </p> </td> 
-   <td colname="col2"> <p>Specifies the ID attribute of the auto-complete enabled search form's "input" tag. For example, </p> <p> <span class="filepath"> &lt;input type="text" id="q" name="q" /&gt; </span> </p> <p>where <span class="filepath"> q </span> is the id attribute of the input tag. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Maximum suggestions </p> </td> 
+      <td colname="col2"> <p>Specifies the maximum number of items to display in the auto-complete suggestions list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Minimum input characters </p> </td> 
+      <td colname="col2"> <p>Specifies the number of characters that a customer must type into the auto-complete search form before it displays suggestions. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Maximum cache entries </p> </td> 
+      <td colname="col2"> <p>Specifies the maximum number of previously requested auto-complete suggestions to cache in the customer's browser. Generally, you should leave this setting at the default of 1000. </p> <p>While you can completely disable browser caching by setting this option to 0, it is not recommended. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Display shadow </p> </td> 
+      <td colname="col2"> <p>Adds a cosmetic drop-shadow to the auto-complete suggestions list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Form name </p> </td> 
+      <td colname="col2"> <p>Specifies the "name" attribute of the auto-complete enabled search form's "form" tag. For example, </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="https://sp1004337c.guided.t1.atomz.com" target="_blank"&gt; </span> </p> <p>where <span class="filepath"> SiteSearch </span> is the name attribute of the form tag. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Div tag ID </p> </td> 
+      <td colname="col2"> <p>Specifies the ID attribute of the auto-complete enabled search form's "div" tag. For example, </p> <p> <span class="filepath"> &lt;div id="autocomplete"&gt; </span> </p> <p>where <span class="filepath"> autocomplete </span> is the attribute of the div tag. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Input tag ID </p> </td> 
+      <td colname="col2"> <p>Specifies the ID attribute of the auto-complete enabled search form's "input" tag. For example, </p> <p> <span class="filepath"> &lt;input type="text" id="q" name="q" /&gt; </span> </p> <p>where <span class="filepath"> q </span> is the id attribute of the input tag. </p> </td> 
+      </tr> 
+    </tbody> 
+   </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do one of the following:
@@ -126,7 +126,7 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Auto-Complete Word List]**.
 1. On the [!DNL Auto-Complete Word List] page, set the options that you want.
 
-   <!-- 
+<!-- 
 
 r_auto-complete_word_list_options.xml
 
@@ -134,57 +134,57 @@ r_auto-complete_word_list_options.xml
 
    See [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Popular Searches Period </p> </td> 
-   <td colname="col2"> <p> Controls the time period for the inclusion of words and phrases from a customer's recent searches. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Maximum Search Count </p> </td> 
-   <td colname="col2"> <p>Controls the maximum number of searched words and phrases to include in the auto-complete word list. The top words and phrases, which are also the most popular, are included. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Field Name </p> </td> 
-   <td colname="col2"> <p>Each field name defines the name of one field for which to include indexed values. Use + and - to add or remove field names. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Maximum Value Count </p> </td> 
-   <td colname="col2"> <p>Defines the maximum count of field values that are allowed for the selected field name. The top values, which are also the most referenced, are included. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Add these words and phrases </p> </td> 
-   <td colname="col2"> <p> The auto-complete word list is populated with the words and phrases that are listed in this area. </p> <p> Click <span class="uicontrol"> Edit </span> to see the list or to add word and phrases to the list. When you are finished, click <span class="uicontrol"> Save Changes </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove these words and phrases </p> </td> 
-   <td colname="col2"> <p> Entries in this area are not displayed in the auto-complete word list. </p> <p> Click <span class="uicontrol"> Edit </span> to see the list or to add word and phrases to the list. When you are finished, click <span class="uicontrol"> Save Changes </span>. </p> <p> Regular expressions are allowed in this list. To specify a regular expression in this list, start the line with 
-     <userinput>
-       regexp 
-     </userinput> followed by a single space, followed by the regular expression. Any lines in the word list that match the regular expression are removed. </p> <p> <b>Important</b>: You should only use regular expressions only if you have previously worked with them in other applications. </p> <p>See <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Ignore Case </p> </td> 
-   <td colname="col2"> <p>Duplicate entries in the auto-complete word list that differ only by alphabetic uppercase/lowercase are removed; all word list entries are forced to lowercase. </p> <p>If you want the Auto-Complete suggestions to appear "first letter capitalized" or "all caps", add the 
-     <userinput>
-       text-transform : capitalize; 
-     </userinput> or 
-     <userinput>
-       text-transform : uppercase; 
-     </userinput> CSS text properties to the Auto-Complete CSS content, under "/* styles for result item */". </p> <p>See <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> Configuring Auto-Complete CSS </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Update on Re-Index </p> </td> 
-   <td colname="col2"> <p>Auto-complete word list is automatically regenerated after each successful account re-index. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+   <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Popular Searches Period </p> </td> 
+      <td colname="col2"> <p> Controls the time period for the inclusion of words and phrases from a customer's recent searches. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Maximum Search Count </p> </td> 
+      <td colname="col2"> <p>Controls the maximum number of searched words and phrases to include in the auto-complete word list. The top words and phrases, which are also the most popular, are included. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Field Name </p> </td> 
+      <td colname="col2"> <p>Each field name defines the name of one field for which to include indexed values. Use + and - to add or remove field names. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Maximum Value Count </p> </td> 
+      <td colname="col2"> <p>Defines the maximum count of field values that are allowed for the selected field name. The top values, which are also the most referenced, are included. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Add these words and phrases </p> </td> 
+      <td colname="col2"> <p> The auto-complete word list is populated with the words and phrases that are listed in this area. </p> <p> Click <span class="uicontrol"> Edit </span> to see the list or to add word and phrases to the list. When you are finished, click <span class="uicontrol"> Save Changes </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove these words and phrases </p> </td> 
+      <td colname="col2"> <p> Entries in this area are not displayed in the auto-complete word list. </p> <p> Click <span class="uicontrol"> Edit </span> to see the list or to add word and phrases to the list. When you are finished, click <span class="uicontrol"> Save Changes </span>. </p> <p> Regular expressions are allowed in this list. To specify a regular expression in this list, start the line with 
+        <userinput>
+          regexp 
+        </userinput> followed by a single space, followed by the regular expression. Any lines in the word list that match the regular expression are removed. </p> <p> <b>Important</b>: You should only use regular expressions only if you have previously worked with them in other applications. </p> <p>See <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Ignore Case </p> </td> 
+      <td colname="col2"> <p>Duplicate entries in the auto-complete word list that differ only by alphabetic uppercase/lowercase are removed; all word list entries are forced to lowercase. </p> <p>If you want the Auto-Complete suggestions to appear "first letter capitalized" or "all caps", add the 
+        <userinput>
+          text-transform : capitalize; 
+        </userinput> or 
+        <userinput>
+          text-transform : uppercase; 
+        </userinput> CSS text properties to the Auto-Complete CSS content, under "/* styles for result item */". </p> <p>See <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> Configuring Auto-Complete CSS </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Update on Re-Index </p> </td> 
+      <td colname="col2"> <p>Auto-complete word list is automatically regenerated after each successful account re-index. </p> </td> 
+      </tr> 
+    </tbody> 
+   </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do any of the following:
