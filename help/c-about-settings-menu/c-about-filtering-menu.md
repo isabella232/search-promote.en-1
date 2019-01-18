@@ -94,7 +94,7 @@ _search_debug_log("Done processing document: " . $main::search_url);
 
 These messages appear with the word `DEBUG` as a preface, and are not logged as errors.
 
-The following is an example of filtering. Web page <title> fields often begin with the company name. Even though this information is useful for site navigation purposes, it is not relevant when searching. If the titles of all MegaCorp web pages start with a common string, such as the following:
+The following is an example of filtering. Web page `<title>` fields often begin with the company name. Even though this information is useful for site navigation purposes, it is not relevant when searching. If the titles of all MegaCorp web pages start with a common string, such as the following:
 
 ```
 <title>MegaCorp -- meaningful title 
@@ -121,62 +121,21 @@ if ($main::ws_content_type =~ /^text\/html/) {
 }
 ```
 
-## Global Variables {#section_F76CC0C8701A48C6AE0659EEE39E23CD}
+## Global Variables {#global-variables}
 
 You can use the following variables in any filtering script:
 
-<table> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_crawl_type </span> </p> </td> 
-   <td colspan="2"> <p>The value of <span class="codeph"> $main::search_crawl_type </span> indicates the type of index operation underway. </p> <p>Deprecated form: $main::ws_crawl_type </p> <p>The index operations and associated values include the following: </p> <p> 
-     <ul id="ul_071C57D3A9C2438DB4E20EB29959FBF3"> 
-      <li id="li_812F859C1F0546C9ABC038F591F2C212">Full Index: Manual - <span class="codeph"> manual </span> </li> 
-      <li id="li_03B41FCAAFE343B89C636BAF346D2659">Full Index: Scheduled - <span class="codeph"> auto </span> </li> 
-      <li id="li_327AE6A1C77541CD9DE1B9175AA1DF17">Full Index: Remote Control - <span class="codeph"> CGI </span> </li> 
-      <li id="li_06BAF4CBBFF44A15A15A19B7762EDFC7">Incremental Index: Manual - <span class="codeph"> manual-incremental </span> </li> 
-      <li id="li_C84BFAB47D45402FA81EDFEF992C7E49">Incremental Index: Scheduled - <span class="codeph"> auto-incremental </span> </li> 
-      <li id="li_3FD65172125E4CC7ABAD8F5E0043A718">Incremental Index: Remote Control - <span class="codeph"> CGI-incremental </span> </li> 
-      <li id="li_F5A59D7282C443989227F273080E10DE">Scripted Index: Manual - <span class="codeph"> manual-indexlist.txt </span> </li> 
-      <li id="li_1F9E8341BCD64D65841BB3F5083916C5">Scripted Index: Scheduled - <span class="codeph"> auto-indexlist.txt </span> </li> 
-      <li id="li_ECB4917D1D1E494CB5834A9108C9701E">Scripted Index: Remote Control - <span class="codeph"> CGI-indexlist.txt </span> </li> 
-      <li id="li_7ED5D8AFBE6A4A3AA2FD991094EE6FC1">Regenerate - <span class="codeph"> manual-upgrade </span> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_clear_cache </span> </p> </td> 
-   <td colspan="2"> <p>The value indicates whether the "Clear index cache" indexing option was requested for the current index operation. If "Clear index cache" was requested, the value of <span class="codeph"> $main::search_clear_cache </span> is " <span class="codeph"> 1 </span>". </p> <p>Deprecated form: <span class="codeph"> $main::ws_clear_cache </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_fields </span> </p> </td> 
-   <td colspan="2"> <p> The value contains a tab-separated list of the metadata fields that are defined in the account. By default, the value is: </p> <p> <span class="codeph"> url title desc keys target body alt date charset language </span> </p> <p>Deprecated form: <span class="codeph"> $main::ws_fields </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_collections </span> </p> </td> 
-   <td colspan="2"> <p>The value contains a tab-separated list of the Collections defined in the account. </p> <p>Deprecated form: <span class="codeph"> $main::ws_collections </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_url </span> </p> </td> 
-   <td colspan="2"> <p>The value is the fully qualified URL of the document. </p> <p>Deprecated form: <span class="codeph"> $main::ws_url </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_content_type </span> </p> </td> 
-   <td colspan="2"> <p>The value is the content-type of the document as fetched from the http-equiv meta tag. A typical value is "text/html; charset=iso-8859-1". </p> <p>Deprecated form: <span class="codeph"> $main::ws_content_type </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_content_class </span> </p> </td> 
-   <td colspan="2"> <p>The value is the content class of the document, as derived from the content-type field. </p> <p>Deprecated form: <span class="codeph"> $main::ws_content_class </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_syntax_check </span> </p> </td> 
-   <td colspan="2"> <p>The value reflects the use of the "Check Syntax" button. If clicked, the value is 1 (one); otherwise, its value is 0 (zero). </p> <p>Deprecated form: <span class="codeph"> $main::ws_syntax_check </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_last_mod_date </span> </p> </td> 
-   <td colspan="2"> <p>If provided by the web server, this value contains the Epoch representation (seconds since January 1, 1970) of the document's last-modified date. </p> <p>You can format this value by using the Perl localtime() library call. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+|Variable | Description |
+|--- |--- |
+|`$main::search_crawl_type`|The value of `$main::search_crawl_type` indicates the type of index operation underway.  Deprecated form: `$main::ws_crawl_type`  The index operations and associated values include the following: <ul><li>Full Index: Manual - `manual`</li><li>Full Index: Scheduled - `auto`</li><li>Full Index: Remote Control - `CGI`</li><li>Incremental Index: Manual - `manual-incremental`</li><li>Incremental Index: Scheduled - `auto-incremental` </li><li>Incremental Index: Remote Control - `CGI-incremental`</li><li>Scripted Index: Manual - `manual-indexlist.txt` </li><li>Scripted Index: Scheduled - `auto-indexlist.txt`</li><li>Scripted Index: Remote Control - `CGI-indexlist.txt`</li><li>Regenerate - `manual-upgrade`</li></ul>|
+|`$main::search_clear_cache`|The value indicates whether the "Clear index cache" indexing option was requested for the current index operation. If "Clear index cache" was requested, the value of `$main::search_clear_cache` is " `1`".  Deprecated form: `$main::ws_clear_cache`|
+|`$main::search_fields`|The value contains a tab-separated list of the metadata fields that are defined in the account. By default, the value is:   `url title desc keys target body alt date charset language`  Deprecated form: `$main::ws_fields`|
+|`$main::search_collections`|The value contains a tab-separated list of the Collections that are defined in the account.  Deprecated form: `$main::ws_collections`|
+|`$main::search_url`|The value is the fully qualified URL of the document.  Deprecated form: `$main::ws_url`|
+|`$main::search_content_type`|The value is the content-type of the document as fetched from the http-equiv meta tag. A typical value is "text/html; charset=iso-8859-1".  Deprecated form: `$main::ws_content_type`|
+|`$main::search_content_class`|The value is the content class of the document, as derived from the content-type field.  Deprecated form: `$main::ws_content_class`|
+|`$main::search_syntax_check`|The value reflects the use of the "Check Syntax" button. If clicked, the value is 1 (one); otherwise, its value is 0 (zero).  Deprecated form: `$main::ws_syntax_check`|
+|`$main::search_last_mod_date`|If provided by the web server, this value contains the Epoch representation (seconds since January 1, 1970) of the document's last-modified date.  You can format this value by using the Perl localtime() library call.|
 
 ## Quick tips {#section_89A5C16911744AF98E232DF608C6A1F5}
 
@@ -452,19 +411,7 @@ sub my_sub_for_the_filtering_script {
 $main::doc_count = 0;
 ```
 
-## Global Variables {#section_AD49B99243C147EEB797CDB9F77AC3F4}
-
-You can use the following variables in any filtering script:
-
-|`$main::search_crawl_type`|The value of `$main::search_crawl_type` indicates the type of index operation underway.  Deprecated form: `$main::ws_crawl_type`  The index operations and associated values include the following: <ul><li>Full Index: Manual - `manual`</li><li>Full Index: Scheduled - `auto`</li><li>Full Index: Remote Control - `CGI`</li><li>Incremental Index: Manual - `manual-incremental`</li><li>Incremental Index: Scheduled - `auto-incremental` </li><li>Incremental Index: Remote Control - `CGI-incremental`</li><li>Scripted Index: Manual - `manual-indexlist.txt` </li><li>Scripted Index: Scheduled - `auto-indexlist.txt`</li><li>Scripted Index: Remote Control - `CGI-indexlist.txt`</li><li>Regenerate - `manual-upgrade`</li></ul>|
-|`$main::search_clear_cache`|The value indicates whether the "Clear index cache" indexing option was requested for the current index operation. If "Clear index cache" was requested, the value of `$main::search_clear_cache` is " `1`".  Deprecated form: `$main::ws_clear_cache`|
-|`$main::search_fields`|The value contains a tab-separated list of the metadata fields that are defined in the account. By default, the value is:   `url title desc keys target body alt date charset language`  Deprecated form: `$main::ws_fields`|
-|`$main::search_collections`|The value contains a tab-separated list of the Collections that are defined in the account.  Deprecated form: `$main::ws_collections`|
-|`$main::search_url`|The value is the fully qualified URL of the document.  Deprecated form: `$main::ws_url`|
-|`$main::search_content_type`|The value is the content-type of the document as fetched from the http-equiv meta tag. A typical value is "text/html; charset=iso-8859-1".  Deprecated form: `$main::ws_content_type`|
-|`$main::search_content_class`|The value is the content class of the document, as derived from the content-type field.  Deprecated form: `$main::ws_content_class`|
-|`$main::search_syntax_check`|The value reflects the use of the "Check Syntax" button. If clicked, the value is 1 (one); otherwise, its value is 0 (zero).  Deprecated form: `$main::ws_syntax_check`|
-|`$main::search_last_mod_date`|If provided by the web server, this value contains the Epoch representation (seconds since January 1, 1970) of the document's last-modified date.  You can format this value by using the Perl localtime() library call.|
+See [Global Variables](#global-variables)
 
 ## Quick tips {#section_A2CC0302CAF14135BF8EF6171FB184F1}
 
@@ -624,62 +571,7 @@ print STDERR "Total docs: $main::doc_count\n";
 _search_debug_log("Total docs: " . $main::doc_count);
 ```
 
-## Global Variables {#section_6E5C7F3FD44046B38CF82F379C4B47A7}
-
-You can use the following variables in any filtering script:
-
-<table> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_crawl_type </span> </p> </td> 
-   <td colspan="2"> <p>The value of <span class="codeph"> $main::search_crawl_type </span> indicates the type of index operation underway. </p> <p>Deprecated form: <span class="codeph"> $main::ws_crawl_type </span> </p> <p>The index operations and associated values include the following: </p> <p> 
-     <ul id="ul_0F3816A7D02B4464968F46DA0FC06D75"> 
-      <li id="li_F86F8FEB7613440288FA9FAB2A8D6AB5">Full Index: Manual - <span class="codeph"> manual </span> </li> 
-      <li id="li_623D9DE6F0BE43C4910632E4D765FA05">Full Index: Scheduled - <span class="codeph"> auto </span> </li> 
-      <li id="li_EF796CCE719846CE802CBDB2C2119FAB">Full Index: Remote Control - <span class="codeph"> CGI </span> </li> 
-      <li id="li_B2A74F5FE8EC4AE986A66335D51F2FE0">Incremental Index: Manual - <span class="codeph"> manual-incremental </span> </li> 
-      <li id="li_95A47E5CC90A4D52B45E0DDEF691B7DF">Incremental Index: Scheduled - <span class="codeph"> auto-incremental </span> </li> 
-      <li id="li_55888E9F2C8A47FDAB8514A95C00B625">Incremental Index: Remote Control - <span class="codeph"> CGI-incremental </span> </li> 
-      <li id="li_06DD1B26F2E3431DAD9919233B710A4B">Scripted Index: Manual - <span class="codeph"> manual-indexlist.txt </span> </li> 
-      <li id="li_46F9A36F37C247AAB1CBEB47E6318981">Scripted Index: Scheduled - <span class="codeph"> auto-indexlist.txt </span> </li> 
-      <li id="li_7ABC604CEDAD40EF897EB4CD05E9B3B8">Scripted Index: Remote Control - <span class="codeph"> CGI-indexlist.txt </span> </li> 
-      <li id="li_DD65C33EB2254D69841C872ACCA77724">Regenerate - <span class="codeph"> manual-upgrade </span> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_clear_cache </span> </p> </td> 
-   <td colspan="2"> <p>The value indicates whether the "Clear index cache" indexing option was requested for the current index operation. If "Clear index cache" was requested, the value of <span class="codeph"> $main::search_clear_cache </span> is " <span class="codeph"> 1 </span>". </p> <p>Deprecated form: <span class="codeph"> $main::ws_clear_cache </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_fields </span> </p> </td> 
-   <td colspan="2"> <p> The value contains a tab-separated list of the metadata fields that are defined in the account. By default, the value is: </p> <p> <span class="codeph"> url title desc keys target body alt date charset language </span> </p> <p>Deprecated form: <span class="codeph"> $main::ws_fields </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_collections </span> </p> </td> 
-   <td colspan="2"> <p>The value contains a tab-separated list of the Collections that are defined in the account. </p> <p>Deprecated form: <span class="codeph"> $main::ws_collections </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_url </span> </p> </td> 
-   <td colspan="2"> <p>The value is the fully qualified URL of the document. </p> <p>Deprecated form: <span class="codeph"> $main::ws_url </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_content_type </span> </p> </td> 
-   <td colspan="2"> <p>The value is the content-type of the document as fetched from the http-equiv meta tag. A typical value is "text/html; charset=iso-8859-1". </p> <p>Deprecated form: <span class="codeph"> $main::ws_content_type </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_content_class </span> </p> </td> 
-   <td colspan="2"> <p>The value is the content class of the document, as derived from the content-type field. </p> <p>Deprecated form: <span class="codeph"> $main::ws_content_class </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_syntax_check </span> </p> </td> 
-   <td colspan="2"> <p>The value reflects the use of the "Check Syntax" button. If clicked, the value is 1 (one); otherwise, its value is 0 (zero). </p> <p>Deprecated form: <span class="codeph"> $main::ws_syntax_check </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> $main::search_last_mod_date </span> </p> </td> 
-   <td colspan="2"> <p>If provided by the web server, this value contains the Epoch representation (seconds since January 1, 1970) of the document's last-modified date. </p> <p>You can format this value by using the Perl localtime() library call. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+See [Global Variables](#global-variables)
 
 ## Quick tips {#section_5790EA7ACAC046CBA01F759F88E2460F}
 
@@ -890,4 +782,3 @@ See [About Filtering Script](../c-about-settings-menu/c-about-filtering-menu.md#
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-
