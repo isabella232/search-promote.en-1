@@ -288,9 +288,9 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
 
    The range of valid rank values is normally -1.0 to 1.0 as in the following:
 
-   * `-1.0` is "Minimum Rank (display lower in the search results)." 
-   * `0.0` is "Neutral rank (do not change search results order)." 
-   * `1.0` is "Maximum rank (display higher in the search results."
+    * `-1.0` is "Minimum Rank (display lower in the search results)." 
+    * `0.0` is "Neutral rank (do not change search results order)." 
+    * `1.0` is "Maximum rank (display higher in the search results."
 
    Defined ranks should be within the same range for every rule. The rank ranges must also match the ranges that are defined for the Rank field under **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions]**.
 
