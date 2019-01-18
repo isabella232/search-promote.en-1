@@ -188,139 +188,137 @@ See also [About Facet Rail](../c-about-design-menu/c-about-facet-rails.md#concep
    Depending on the facet options that you select, not all options are available.
 
    <!-- 
+   r_add_facet_options.xml
+   -->
 
-r_add_facet_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Facet Name </p> </td> 
-   <td colname="col2"> <p>Identifies the name of a given facet. </p> <p> <p>Note:  You can only have a facet based on existing user-defined metadata. If there are no facets available in the drop-down list, then you must first define some metadata. </p> </p> <p>See <a href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita" scope="local"> Adding a new meta tag field </a>. </p> <p>To build a facet based on a field table, use the custom facet name and specify your field table name. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Display Label </p> </td> 
-   <td colname="col2"> <p>Sets the label of a facet which can then be used in a breadcrumb, instead of a metadata fieldname (with the <span class="codeph"> &lt;guided-breadcrumb-label&gt; </span> tag) or a stand-alone value (with the <span class="codeph"> &lt;guided-facet-display-name&gt; </span> tag). </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Behavior </p> </td> 
-   <td colname="col2"> <p>Sets one of three facet behaviors. </p> <p> 
-     <ul id="ul_67C19E1C16224B9990F04A0D05BD3D05"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Facet Name </p> </td> 
+      <td colname="col2"> <p>Identifies the name of a given facet. </p> <p> <p>Note:  You can only have a facet based on existing user-defined metadata. If there are no facets available in the drop-down list, then you must first define some metadata. </p> </p> <p>See <a href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita" scope="local"> Adding a new meta tag field </a>. </p> <p>To build a facet based on a field table, use the custom facet name and specify your field table name. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Display Label </p> </td> 
+      <td colname="col2"> <p>Sets the label of a facet which can then be used in a breadcrumb, instead of a metadata fieldname (with the <span class="codeph"> &lt;guided-breadcrumb-label&gt; </span> tag) or a stand-alone value (with the <span class="codeph"> &lt;guided-facet-display-name&gt; </span> tag). </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Behavior </p> </td> 
+      <td colname="col2"> <p>Sets one of three facet behaviors. </p> <p> 
+      <ul id="ul_67C19E1C16224B9990F04A0D05BD3D05"> 
       <li id="li_6B232C11A61840B68CA59E1F593405A0"> <span class="uicontrol"> Normal </span> <p>When a customer clicks a facet whose behavior is set to <span class="uicontrol"> Normal </span>, it drills into the search results for that item. From there, the customer can further refine and narrow the number of search results. </p> </li> 
       <li id="li_7D7C43A7F7AB4B84A9B0FEF34627605A"> <span class="uicontrol"> Category </span> <p>Category facets act like navigational elements. These facets are top-level facets that customers typically drill through before revealing facets with attribute options. Category facets do not narrow when other facets are selected and remain open. Clicking a different value within a category facet deselects all other facets on the page except for that category facet's parents. </p> </li> 
       <li id="li_01255993D71F40DBA8870AA3FEA7D304"> <span class="uicontrol"> Category Multi-Select </span> <p>facets are category facets that support the selection of multiple items from the facet where the items are "ORed" together. </p> </li> 
-     </ul> 
-     <ul id="ul_683F6D3FC8524E65AF303453ADDB6001"> 
-      <li id="li_81F504D1D1294666BBBC5EA43B34B712"> <span class="uicontrol"> Sticky </span> <p>When a customer clicks a facet whose behavior is set to <span class="uicontrol"> Sticky </span>, the facet with the selected option remains open during the drill-down. This option is useful when you want to let a customer change a previous choice. </p> </li> 
-     </ul> 
-     <ul id="ul_8E871D63B09445268C600C8ABC20F6A4"> 
-      <li id="li_F88AC5528B0C4751BC4CFE7FA9525857"> <span class="uicontrol"> Multi-Select </span> <p>Allows the selection of multiple items from a facet, where the items within the facet are "ORed" together. This option is useful for a facet that may show a minor attribute such as colors and you want to let the customer have the ability to build a query that lets them "show shoes in my size that are red or black". </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show Always </p> </td> 
-   <td colname="col2"> <p>For a normal or sticky facet, sets the facet to remain visible to the customer at all times. </p> <p>This option is only available if you selected <span class="uicontrol"> Normal </span>, <span class="uicontrol"> Category </span>, or <span class="uicontrol"> Sticky </span> from the <span class="uicontrol"> Behavior </span> drop-down list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Facet's Parents </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Category </span> or <span class="uicontrol"> Category Multi-Select </span> from the <span class="uicontrol"> Behavior </span> drop-down list. </p> <p>Indicates what the category facet's parents are. The selected items in the categories parent facets are used to narrow the choices that are available within the current category facet. Parent facets are not deselected when a customer interacts with the category facet. You can specify multiple comma-delimited parents. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sticky Depth </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Sticky </span> from the <span class="uicontrol"> Behavior </span> drop-down list. </p> <p>Sets the number of options to remain open during the drill-down. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Length Threshold </p> </td> 
-   <td colname="col2"> <p>Sets the vertical length (1-9999) of the facet defined in number of items. </p> <p>If your presentation template is set up appropriately, you can use this setting to provide a "Show more..." link, or determine when to throw the facet into a scrollable div, and so on. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Truncate Length Threshold </p> </td> 
-   <td colname="col2"> <p>Truncates the number of items in a facet after a given threshold. </p> <p>Some implementations have facets with thousands of items in them. It can be expensive to send all the data over the wire. You can use this setting to trim the facet down to a manageable level. The facet will be truncated after sorting. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Max Value Width </p> </td> 
-   <td colname="col2"> <p>Specifies a limit to the length of the facet value string (1-999). </p> <p>This option is useful when you want to put a facet in a fixed width layout and keep strings from wrapping. By default, the string is set to 3 characters shorter than the threshold so that an ellipsis can be added. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Value Extension </p> </td> 
-   <td colname="col2"> <p>Specifies the string that you want use to indicate that a facet's value is truncated. By default the string "..." is used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delimiter </p> </td> 
-   <td colname="col2"> <p>Specifies the delimiter to use for any delimited separated value list that applies to the facet. </p> <p>The delimiter that is used is the same one that is defined in the metadata on which the facet is based. The default delimiter is a comma. However, you can use any XML-compliant value. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sort </p> </td> 
-   <td colname="col2"> <p>Specifies how you want facets sorted on your website. You can have facets sorted by the following. If desired, you can combine up to five sorts. </p> 
-    <ul id="ul_12987F4DC7B34C63ABC906B59688A174"> 
-     <li id="li_3206C96013DF431D90119F594D93D85D"> <span class="uicontrol"> alpha </span> <p>Sorts the values alphabetically (0-9, A-Z), including punctuation characters. </p> </li> 
-     <li id="li_304E4A518FBE48D18D9E9EA7339A3481"> <span class="uicontrol"> alpha (alphanumeric only) </span> <p>Sorts the values alphabetically (0-9, A-Z), ignoring punctuation characters. </p> </li> 
-     <li id="li_CADB888CC514455F9CA379C8EEE490AA"> <span class="uicontrol"> alpha (not case sensitive) </span> <p>Sorts the values alphabetically (0-9, A-Z), ignoring the case of alphabetic characters, and including punctuation characters. </p> </li> 
-     <li id="li_F61122E79AB5413792DA31F8AB1414BD"> <span class="uicontrol"> alpha (not case sensitive, alphanumeric only) </span> <p>Sorts the values alphabetically (0-9, A-Z), ignoring the case of alphabetic characters, and ignoring punctuation characters. </p> </li> 
-     <li id="li_F50CC298ABF046D0A39D5AE5B1261823"> <span class="uicontrol"> count </span> <p>Sorts by number of results matching each facet value from greatest to least. </p> </li> 
-     <li id="li_32B6AF39E9534762B39B15181DC5AD01"> <span class="uicontrol"> numeric </span> <p>Sorts the values numerically. When sorting numbers, this option is superior to an Alpha sort because if you use an Alpha sort, 10 displays before 2. </p> </li> 
-     <li id="li_CF8E76A7B1184E0C8DCC11B53E31A1DC"> <span class="uicontrol"> split </span> <p>Breaks the list into two separate lists by count threshold. Facet values above the threshold are moved to the top. Facet values with counts below the threshold are moved to the bottom. A split-threshold is required when you want to force values of a certain range to always be at the top. </p> </li> 
-     <li id="li_4AB8276577384B1099CBA895898205AD"> <span class="uicontrol"> break </span> <p>Forces certain values to the top or the bottom of the list. For example, you may always want the term "Other" to appear at the bottom of the list. Either top-values or bottom-values are required when you use a break sort to identify the explicit values that should be at the top or the bottom of the sort. </p> </li> 
-     <li id="li_227E96CFED2044FCA2F10B6913B03CFB"> <span class="uicontrol"> ordered </span> <p>The facet values should always be in a fixed order (a delimiter separated value list defined in the <span class="uicontrol"> Order </span> option described below). </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Facet's Alias </p> </td> 
-   <td colname="col2"> <p>To support existing search URLs that you may have out in the wild, you can use a facet alias to map legacy parameter name to modified or just create a facet with a different name. The alias is applied to incoming requests only and is not used to create facet links. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Facet Rail Name </p> </td> 
-   <td colname="col2"> <p>The name of the facet rail if you decide to sort your facets alphabetically, by count, or by a custom method. </p> <p>See <a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local"> About Facet Rail </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Order </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Ordered </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>Lets you define a delimited list of values that specifies the order to use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Append Extras </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Ordered </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>If the values are not present in the ordered list, the values are appended to the end. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show Ghosts </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Ordered </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>If the values that are specified by the ordered list are missing, this option flags each missing item in the facet as "ghost" so that the items are displayed differently. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nested Facet </p> </td> 
-   <td colname="col2"> <p>A nested facet displays its categories and its children's categories. It can only show a depth of two categories, but it can be anywhere along the drill-down. </p> <p>The data for this facet must follow a convention in describing the two levels of categories. For example, a facet value can be 'shoes:boots' where the parent category is 'shoes' and the child category is 'boots'. The ':' is used as a delimiter to separate them. </p> <p>See Nested Delimiter below for more information about changing the delimiter. </p> <p>To generate the data in this format, you can use a filter script to combine two existing categories. You can combine Normal, Category, and Sticky behaviors with nested facets. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nested Parent Name </p> </td> 
-   <td colname="col2"> <p>This drop-down list is only available if you selected <span class="uicontrol"> Nested Facet </span>. </p> <p>Lets you choose which field represents the parent category. This field is used during search time in matching parent categories. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nested Child Name </p> </td> 
-   <td colname="col2"> <p>This drop-down list is only available if you selected <span class="uicontrol"> Nested Facet </span>. </p> <p>Lets you choose which field represents the child category. This field is used during search time in matching child categories. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Nested Facet Delimiter </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Nested Facet </span>. </p> <p>The character entered here is used to parse the parent categories and children categories from its data. </p> <p>For example, if ':' is used as a delimiter and the parent is 'shoes' and the child is 'boots', it expects the data to be formatted as 'shoes:boots'. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Split Threshold </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Split </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>When using a Split sort, the split-threshold defines the count at which to split the facet into two separate lists. Values with counts greater than or equal to the threshold are kept at the top while values below the threshold are moved to the bottom. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Top Values </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Break </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>When using a Break sort, this delimited list of values is always placed at the top of the list. Use of regular expressions is allowed but they should be in curly brackets or braces, for example: {^New .*?},{^Very New .*} </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Bottom Values </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Break </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>When using a Break sort, this delimited list of values is always placed at the bottom of the list. Use of regular expressions is allowed but they should be in curly brackets or braces, as in the following example: {^Old .*?},{^Very Old .*} </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ul> 
+      <ul id="ul_683F6D3FC8524E65AF303453ADDB6001"> 
+        <li id="li_81F504D1D1294666BBBC5EA43B34B712"> <span class="uicontrol"> Sticky </span> <p>When a customer clicks a facet whose behavior is set to <span class="uicontrol"> Sticky </span>, the facet with the selected option remains open during the drill-down. This option is useful when you want to let a customer change a previous choice. </p> </li> 
+      </ul> 
+      <ul id="ul_8E871D63B09445268C600C8ABC20F6A4"> 
+        <li id="li_F88AC5528B0C4751BC4CFE7FA9525857"> <span class="uicontrol"> Multi-Select </span> <p>Allows the selection of multiple items from a facet, where the items within the facet are "ORed" together. This option is useful for a facet that may show a minor attribute such as colors and you want to let the customer have the ability to build a query that lets them "show shoes in my size that are red or black". </p> </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show Always </p> </td> 
+      <td colname="col2"> <p>For a normal or sticky facet, sets the facet to remain visible to the customer at all times. </p> <p>This option is only available if you selected <span class="uicontrol"> Normal </span>, <span class="uicontrol"> Category </span>, or <span class="uicontrol"> Sticky </span> from the <span class="uicontrol"> Behavior </span> drop-down list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Facet's Parents </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Category </span> or <span class="uicontrol"> Category Multi-Select </span> from the <span class="uicontrol"> Behavior </span> drop-down list. </p> <p>Indicates what the category facet's parents are. The selected items in the categories parent facets are used to narrow the choices that are available within the current category facet. Parent facets are not deselected when a customer interacts with the category facet. You can specify multiple comma-delimited parents. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Sticky Depth </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Sticky </span> from the <span class="uicontrol"> Behavior </span> drop-down list. </p> <p>Sets the number of options to remain open during the drill-down. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Length Threshold </p> </td> 
+      <td colname="col2"> <p>Sets the vertical length (1-9999) of the facet defined in number of items. </p> <p>If your presentation template is set up appropriately, you can use this setting to provide a "Show more..." link, or determine when to throw the facet into a scrollable div, and so on. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Truncate Length Threshold </p> </td> 
+      <td colname="col2"> <p>Truncates the number of items in a facet after a given threshold. </p> <p>Some implementations have facets with thousands of items in them. It can be expensive to send all the data over the wire. You can use this setting to trim the facet down to a manageable level. The facet will be truncated after sorting. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Max Value Width </p> </td> 
+      <td colname="col2"> <p>Specifies a limit to the length of the facet value string (1-999). </p> <p>This option is useful when you want to put a facet in a fixed width layout and keep strings from wrapping. By default, the string is set to 3 characters shorter than the threshold so that an ellipsis can be added. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Value Extension </p> </td> 
+      <td colname="col2"> <p>Specifies the string that you want use to indicate that a facet's value is truncated. By default the string "..." is used. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Delimiter </p> </td> 
+      <td colname="col2"> <p>Specifies the delimiter to use for any delimited separated value list that applies to the facet. </p> <p>The delimiter that is used is the same one that is defined in the metadata on which the facet is based. The default delimiter is a comma. However, you can use any XML-compliant value. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Sort </p> </td> 
+      <td colname="col2"> <p>Specifies how you want facets sorted on your website. You can have facets sorted by the following. If desired, you can combine up to five sorts. </p> 
+      <ul id="ul_12987F4DC7B34C63ABC906B59688A174"> 
+      <li id="li_3206C96013DF431D90119F594D93D85D"> <span class="uicontrol"> alpha </span> <p>Sorts the values alphabetically (0-9, A-Z), including punctuation characters. </p> </li> 
+      <li id="li_304E4A518FBE48D18D9E9EA7339A3481"> <span class="uicontrol"> alpha (alphanumeric only) </span> <p>Sorts the values alphabetically (0-9, A-Z), ignoring punctuation characters. </p> </li> 
+      <li id="li_CADB888CC514455F9CA379C8EEE490AA"> <span class="uicontrol"> alpha (not case sensitive) </span> <p>Sorts the values alphabetically (0-9, A-Z), ignoring the case of alphabetic characters, and including punctuation characters. </p> </li> 
+      <li id="li_F61122E79AB5413792DA31F8AB1414BD"> <span class="uicontrol"> alpha (not case sensitive, alphanumeric only) </span> <p>Sorts the values alphabetically (0-9, A-Z), ignoring the case of alphabetic characters, and ignoring punctuation characters. </p> </li> 
+      <li id="li_F50CC298ABF046D0A39D5AE5B1261823"> <span class="uicontrol"> count </span> <p>Sorts by number of results matching each facet value from greatest to least. </p> </li> 
+      <li id="li_32B6AF39E9534762B39B15181DC5AD01"> <span class="uicontrol"> numeric </span> <p>Sorts the values numerically. When sorting numbers, this option is superior to an Alpha sort because if you use an Alpha sort, 10 displays before 2. </p> </li> 
+      <li id="li_CF8E76A7B1184E0C8DCC11B53E31A1DC"> <span class="uicontrol"> split </span> <p>Breaks the list into two separate lists by count threshold. Facet values above the threshold are moved to the top. Facet values with counts below the threshold are moved to the bottom. A split-threshold is required when you want to force values of a certain range to always be at the top. </p> </li> 
+      <li id="li_4AB8276577384B1099CBA895898205AD"> <span class="uicontrol"> break </span> <p>Forces certain values to the top or the bottom of the list. For example, you may always want the term "Other" to appear at the bottom of the list. Either top-values or bottom-values are required when you use a break sort to identify the explicit values that should be at the top or the bottom of the sort. </p> </li> 
+      <li id="li_227E96CFED2044FCA2F10B6913B03CFB"> <span class="uicontrol"> ordered </span> <p>The facet values should always be in a fixed order (a delimiter separated value list defined in the <span class="uicontrol"> Order </span> option described below). </p> </li> 
+      </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Facet's Alias </p> </td> 
+      <td colname="col2"> <p>To support existing search URLs that you may have out in the wild, you can use a facet alias to map legacy parameter name to modified or just create a facet with a different name. The alias is applied to incoming requests only and is not used to create facet links. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Facet Rail Name </p> </td> 
+      <td colname="col2"> <p>The name of the facet rail if you decide to sort your facets alphabetically, by count, or by a custom method. </p> <p>See <a href="../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB" format="dita" scope="local"> About Facet Rail </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Order </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Ordered </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>Lets you define a delimited list of values that specifies the order to use. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Append Extras </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Ordered </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>If the values are not present in the ordered list, the values are appended to the end. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show Ghosts </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Ordered </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>If the values that are specified by the ordered list are missing, this option flags each missing item in the facet as "ghost" so that the items are displayed differently. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Nested Facet </p> </td> 
+      <td colname="col2"> <p>A nested facet displays its categories and its children's categories. It can only show a depth of two categories, but it can be anywhere along the drill-down. </p> <p>The data for this facet must follow a convention in describing the two levels of categories. For example, a facet value can be 'shoes:boots' where the parent category is 'shoes' and the child category is 'boots'. The ':' is used as a delimiter to separate them. </p> <p>See Nested Delimiter below for more information about changing the delimiter. </p> <p>To generate the data in this format, you can use a filter script to combine two existing categories. You can combine Normal, Category, and Sticky behaviors with nested facets. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Nested Parent Name </p> </td> 
+      <td colname="col2"> <p>This drop-down list is only available if you selected <span class="uicontrol"> Nested Facet </span>. </p> <p>Lets you choose which field represents the parent category. This field is used during search time in matching parent categories. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Nested Child Name </p> </td> 
+      <td colname="col2"> <p>This drop-down list is only available if you selected <span class="uicontrol"> Nested Facet </span>. </p> <p>Lets you choose which field represents the child category. This field is used during search time in matching child categories. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Nested Facet Delimiter </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Nested Facet </span>. </p> <p>The character entered here is used to parse the parent categories and children categories from its data. </p> <p>For example, if ':' is used as a delimiter and the parent is 'shoes' and the child is 'boots', it expects the data to be formatted as 'shoes:boots'. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Split Threshold </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Split </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>When using a Split sort, the split-threshold defines the count at which to split the facet into two separate lists. Values with counts greater than or equal to the threshold are kept at the top while values below the threshold are moved to the bottom. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Top Values </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Break </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>When using a Break sort, this delimited list of values is always placed at the top of the list. Use of regular expressions is allowed but they should be in curly brackets or braces, for example: {^New .*?},{^Very New .*} </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Bottom Values </p> </td> 
+      <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Break </span> from the <span class="uicontrol"> Sort </span> drop-down list. </p> <p>When using a Break sort, this delimited list of values is always placed at the bottom of the list. Use of regular expressions is allowed but they should be in curly brackets or braces, as in the following example: {^Old .*?},{^Very Old .*} </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) On the [!DNL Facets] page, do one of the following:

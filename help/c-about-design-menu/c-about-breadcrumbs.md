@@ -49,60 +49,60 @@ t_adding_a_new_breadcrumb.xml
    These settings affect both the behavior and the default presentation of a breadcrumb. You can override some of these settings by way of the presentation template's settings.
 
    <!-- 
+   
+   r_breadcrumb_options.xml
+    
+    -->
 
-r_breadcrumb_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Breadcrumb Name </p> </td> 
-   <td colname="col2"> <p>The name of the breadcrumb. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Behavior </p> </td> 
-   <td colname="col2"> <p>Sets one of the following three breadcrumb behaviors: </p> <p> 
-     <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
-      <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Goto </span> <p>Goto removes all the breadcrumbs after the one that is clicked, and starts a new search at that point. </p> </li> 
-      <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Remove </span> <p>Remove deletes from the path the breadcrumb that the customer clicked and then starts a new search. This behavior is useful when you want to let the customer undo steps in drilling down through the search. </p> </li> 
-      <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Drop </span> <p>Drop removes all the breadcrumbs. </p> </li> 
-     </ul> </p> <p> For example, suppose you have a breadcrumb of 1 &gt; 2 &gt; 3 &gt; 4. When a customer clicks on "2", it has the following results, based on the behavior you have chosen: </p> <p> 
-     <ul id="ul_96FCD8E4C3704B45B59BC18A7A1AC52A"> 
-      <li id="li_B880037088DF426F880788EAA3072180">Go To - 1 &gt; 2 </li> 
-      <li id="li_D0F07A15DCD043EFA4563632ED33A9E2">Remove - 1 &gt; 3 &gt; 4 </li> 
-      <li id="li_D848ED44B4E44538AA92010F9F186224"> Drop - Entire breadcrumb is dropped, taking the customer back to the point before they started to drill down. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Max Value Width </p> </td> 
-   <td colname="col2"> <p>Specifies the length of each value in the breadcrumb trail. You specify the setting as a number of characters. </p> <p>For example, a setting of 6 means that the breadcrumb trail can be up to 6 characters long, including spaces. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Value Extension </p> </td> 
-   <td colname="col2"> <p>Specifies the ellipses to use when a breadcrumb is truncated. </p> <p>By default a "..." (ellipses) is used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include Query Term </p> </td> 
-   <td colname="col2"> <p>Controls the presence of query term in a breadcrumb. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enable User-Defined Crumbs </p> </td> 
-   <td colname="col2"> <p>Check to let you use the User-Defined items in breadcrumbs using <span class="codeph"> uX=[name]&amp;[name]=[value] </span> parameters in the URL. You can use processing rules to handle this parameters the way you want. </p> <p>For example, if this feature is enabled and you have the URL, <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
-      type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> in case if you have facets <span class="codeph"> <span class="varname"> category </span> </span> and <span class="codeph"> <span class="varname"> kind </span> </span>, your breadcrumb will look like <span class="codeph"> Clothes &gt; Men &gt; Sweater </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>User-Defined Crumb Names </p> </td> 
-   <td colname="col2"> <p>A comma-separated list of all possible names of user-defined breadcrumb items. </p> <p>This option is only available if you check <span class="uicontrol"> Enable User-Defined Crumbs </span>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Breadcrumb Name </p> </td> 
+      <td colname="col2"> <p>The name of the breadcrumb. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Behavior </p> </td> 
+      <td colname="col2"> <p>Sets one of the following three breadcrumb behaviors: </p> <p> 
+      <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
+        <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Goto </span> <p>Goto removes all the breadcrumbs after the one that is clicked, and starts a new search at that point. </p> </li> 
+        <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Remove </span> <p>Remove deletes from the path the breadcrumb that the customer clicked and then starts a new search. This behavior is useful when you want to let the customer undo steps in drilling down through the search. </p> </li> 
+        <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Drop </span> <p>Drop removes all the breadcrumbs. </p> </li> 
+      </ul> </p> <p> For example, suppose you have a breadcrumb of 1 &gt; 2 &gt; 3 &gt; 4. When a customer clicks on "2", it has the following results, based on the behavior you have chosen: </p> <p> 
+      <ul id="ul_96FCD8E4C3704B45B59BC18A7A1AC52A"> 
+        <li id="li_B880037088DF426F880788EAA3072180">Go To - 1 &gt; 2 </li> 
+        <li id="li_D0F07A15DCD043EFA4563632ED33A9E2">Remove - 1 &gt; 3 &gt; 4 </li> 
+        <li id="li_D848ED44B4E44538AA92010F9F186224"> Drop - Entire breadcrumb is dropped, taking the customer back to the point before they started to drill down. </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Max Value Width </p> </td> 
+      <td colname="col2"> <p>Specifies the length of each value in the breadcrumb trail. You specify the setting as a number of characters. </p> <p>For example, a setting of 6 means that the breadcrumb trail can be up to 6 characters long, including spaces. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Value Extension </p> </td> 
+      <td colname="col2"> <p>Specifies the ellipses to use when a breadcrumb is truncated. </p> <p>By default a "..." (ellipses) is used. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Include Query Term </p> </td> 
+      <td colname="col2"> <p>Controls the presence of query term in a breadcrumb. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enable User-Defined Crumbs </p> </td> 
+      <td colname="col2"> <p>Check to let you use the User-Defined items in breadcrumbs using <span class="codeph"> uX=[name]&amp;[name]=[value] </span> parameters in the URL. You can use processing rules to handle this parameters the way you want. </p> <p>For example, if this feature is enabled and you have the URL, <code> https://search.host.com/?1=category&amp;q1=Clothes&amp;u2= 
+          type&amp;type=Men&amp;x3=kind&amp;q3=Sweater </code> in case if you have facets <span class="codeph"> <span class="varname"> category </span> </span> and <span class="codeph"> <span class="varname"> kind </span> </span>, your breadcrumb will look like <span class="codeph"> Clothes &gt; Men &gt; Sweater </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>User-Defined Crumb Names </p> </td> 
+      <td colname="col2"> <p>A comma-separated list of all possible names of user-defined breadcrumb items. </p> <p>This option is only available if you check <span class="uicontrol"> Enable User-Defined Crumbs </span>. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) On the [!DNL Breadcrumbs] page, do one of the following:

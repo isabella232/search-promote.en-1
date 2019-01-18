@@ -39,49 +39,47 @@ t_configuring_web_page_navigation.xml
 1. On the [!DNL Add Page Navigation] page, set the options you want.
 
    <!-- 
+   r_page_navigation_options.xml
+   -->
 
-r_page_navigation_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Number of links to pages </p> </td> 
-   <td colname="col2"> <p> Specifies the default number of page links that a customer can see. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>View all threshold </p> </td> 
-   <td colname="col2"> <p>Specifies the maximum number of pages that a customer can see if <span class="uicontrol"> View All</span> is selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show link to first page </p> </td> 
-   <td colname="col2"> <p>Displays a link to the first page of the search results. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show link to last page </p> </td> 
-   <td colname="col2"> <p> Displays a link to the last page of the search results. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Highest result </p> </td> 
-   <td colname="col2"> <p>Specifies the highest number of results that a search can return. The default is 50000. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show Result Range </p> </td> 
-   <td colname="col2"> <p>Shows the number of available pages of search results. The customer can click the links to any page of results within the specified range </p> <p> You can customize the number of results per page when you customize the search that the presentation template uses. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show Page Total </p> </td> 
-   <td colname="col2"> <p>Shows the customer the total number of pages found in the search. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Number of links to pages </p> </td> 
+      <td colname="col2"> <p> Specifies the default number of page links that a customer can see. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>View all threshold </p> </td> 
+      <td colname="col2"> <p>Specifies the maximum number of pages that a customer can see if <span class="uicontrol"> View All</span> is selected. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show link to first page </p> </td> 
+      <td colname="col2"> <p>Displays a link to the first page of the search results. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show link to last page </p> </td> 
+      <td colname="col2"> <p> Displays a link to the last page of the search results. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Highest result </p> </td> 
+      <td colname="col2"> <p>Specifies the highest number of results that a search can return. The default is 50000. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show Result Range </p> </td> 
+      <td colname="col2"> <p>Shows the number of available pages of search results. The customer can click the links to any page of results within the specified range </p> <p> You can customize the number of results per page when you customize the search that the presentation template uses. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show Page Total </p> </td> 
+      <td colname="col2"> <p>Shows the customer the total number of pages found in the search. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) Do one of the following:

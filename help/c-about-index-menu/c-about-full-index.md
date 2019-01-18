@@ -74,44 +74,44 @@ t_running_a_full_index_of_a_live_or_stage_website.xml
 1. Set the indexing options that you want.
 
    <!-- 
+   
+   r_indexing_options.xml
+   
+   -->
 
-r_indexing_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Clear Index Cache </p> </td> 
-   <td colname="col2"> <p>Removes all documents from the index cache. </p> <p>When selected, every website page is downloaded from your server. If this setting is checked and disabled, your account is set to clear the cache every time a full index is performed. Or, some previously changed account setting now requires a full index. </p> <p>When deselected, all indexed pages stay in the index until the web server says that the page no longer exists. This situation is true even if links to that page are removed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Regenerate Pending </p> </td> 
-   <td colname="col2"> <p>Select If you have made changes to your account settings that have substantially changed the contents of your index. Substantial changes include making changes to any of the following: 
-     <ul id="ul_4EB8FF692FEB47BBB9A64D61299380D1"> 
-      <li id="li_7CF8D286512F4210BEA3DB9F0EFA097A">Synonyms </li> 
-      <li id="li_8178ABC342BB4365B3927E20433756E3">Collections </li> 
-      <li id="li_57C8BD06BFA64AFAA2C9EF2CC59520EF">Metadata </li> 
-      <li id="li_C4B6A7DA023B4A43991D03EC592170C9">Excluded words </li> 
-      <li id="li_9E0AD4B6DDC24A5A8FB5C2C1CCD5348A">Account language </li> 
-      <li id="li_338F107547DF48AAA0EF90F4AD8664A5">Ranking </li> 
-      <li id="li_7F49B86D94974E79AAD381A64A1400F2">Toggling case-sensitive search </li> 
-      <li id="li_E8FE6EE240A840AC826ADF4294AAC6F6">Toggling diacritical support </li> 
-      <li id="li_51763D482DCB4ED0972966F492B8C0F2">Toggling number indexing </li> 
-     </ul> </p> <p>Before another crawl takes places, a quick pass is done through all the index data to make it conform to the new account settings. </p> <p>This option is only available if you are doing a full index of a staged website. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Count All Pages </p> </td> 
-   <td colname="col2"> <p>Allows the crawling of website pages to continue even after you have reached your account page limit. </p> <p>Additional pages are not added to your index, but you can ascertain the total number of documents on your website. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> <p>Option </p> </th> 
+    <th colname="col2" class="entry"> <p>Description </p> </th> 
+    </tr> 
+    </thead>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p>Clear Index Cache </p> </td> 
+    <td colname="col2"> <p>Removes all documents from the index cache. </p> <p>When selected, every website page is downloaded from your server. If this setting is checked and disabled, your account is set to clear the cache every time a full index is performed. Or, some previously changed account setting now requires a full index. </p> <p>When deselected, all indexed pages stay in the index until the web server says that the page no longer exists. This situation is true even if links to that page are removed. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Regenerate Pending </p> </td> 
+    <td colname="col2"> <p>Select If you have made changes to your account settings that have substantially changed the contents of your index. Substantial changes include making changes to any of the following: 
+    <ul id="ul_4EB8FF692FEB47BBB9A64D61299380D1"> 
+    <li id="li_7CF8D286512F4210BEA3DB9F0EFA097A">Synonyms </li> 
+    <li id="li_8178ABC342BB4365B3927E20433756E3">Collections </li> 
+    <li id="li_57C8BD06BFA64AFAA2C9EF2CC59520EF">Metadata </li> 
+    <li id="li_C4B6A7DA023B4A43991D03EC592170C9">Excluded words </li> 
+    <li id="li_9E0AD4B6DDC24A5A8FB5C2C1CCD5348A">Account language </li> 
+    <li id="li_338F107547DF48AAA0EF90F4AD8664A5">Ranking </li> 
+    <li id="li_7F49B86D94974E79AAD381A64A1400F2">Toggling case-sensitive search </li> 
+    <li id="li_E8FE6EE240A840AC826ADF4294AAC6F6">Toggling diacritical support </li> 
+    <li id="li_51763D482DCB4ED0972966F492B8C0F2">Toggling number indexing </li> 
+    </ul> </p> <p>Before another crawl takes places, a quick pass is done through all the index data to make it conform to the new account settings. </p> <p>This option is only available if you are doing a full index of a staged website. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Count All Pages </p> </td> 
+    <td colname="col2"> <p>Allows the crawling of website pages to continue even after you have reached your account page limit. </p> <p>Additional pages are not added to your index, but you can ascertain the total number of documents on your website. </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Full Index Now]**.
 1. (Optional) If indexing errors occurred, click **[!UICONTROL View Errors]** to view the associated log.

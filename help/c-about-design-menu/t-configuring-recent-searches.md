@@ -28,33 +28,33 @@ See [Presentation template tags](../c-appendices/c-templates.md#reference_F1BBF6
 1. On the [!DNL Recent Searches] page, set the options that you want.
 
    <!-- 
+   
+   r_recent_searches_options.xml
+   
+   -->
 
-r_recent_searches_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Enable recent searches </p> </td> 
-   <td colname="col2"> <p> When the Recent Searches module is enabled, the cookie "vsrecentsearches" is set with the outgoing search results. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number of searches to save </p> </td> 
-   <td colname="col2"> <p>Configure how many searches to save in the cookie. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Expiration </p> </td> 
-   <td colname="col2"> <p>Specifies when the cookie expires. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Enable recent searches </p> </td> 
+      <td colname="col2"> <p> When the Recent Searches module is enabled, the cookie "vsrecentsearches" is set with the outgoing search results. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number of searches to save </p> </td> 
+      <td colname="col2"> <p>Configure how many searches to save in the cookie. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Expiration </p> </td> 
+      <td colname="col2"> <p>Specifies when the cookie expires. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) Do one of the following:
 
