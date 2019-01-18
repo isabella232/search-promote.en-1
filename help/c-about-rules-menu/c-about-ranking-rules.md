@@ -52,42 +52,42 @@ t_configuring_ranking.xml
 
 1. Choose from the following:
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Task </p> </th> 
-   <th colname="col2" class="entry"> <p>Configuration </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>To create ranking rules that are based on meta tags </p> </td> 
-   <td colname="col2"> <p> 
-     <ol id="ol_28ABB980143948DFA79AC4360AAB7556"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Task </p> </th> 
+      <th colname="col2" class="entry"> <p>Configuration </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>To create ranking rules that are based on meta tags </p> </td> 
+      <td colname="col2"> <p> 
+      <ol id="ol_28ABB980143948DFA79AC4360AAB7556"> 
       <li id="li_544075CFA0964C6F8FAF7941AAA9ECCC"> On the product menu, click <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>. </li> 
       <li id="li_F237F13B89E8425080C15D3BD697652C"> On the Definitions page, click <span class="uicontrol"> Add New Field </span>. </li> 
       <li id="li_2A839874D71D45FEA661B3D3B8BE2A86"> On the Add Field page, in the <span class="uicontrol"> Field Name </span> text field, type 
-       <userinput>
-         rank 
-       </userinput>; in the <span class="uicontrol"> Meta Tag Name </span> text field, type 
-       <userinput>
-         rank 
-       </userinput>; in the <span class="uicontrol"> Data Type </span> drop-down list, select <span class="uicontrol"> Rank </span>. Leave all other field options as-is. <p>See the query parameter <span class="codeph"> sp_sr </span> in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
+      <userinput>
+        rank 
+      </userinput>; in the <span class="uicontrol"> Meta Tag Name </span> text field, type 
+      <userinput>
+        rank 
+      </userinput>; in the <span class="uicontrol"> Data Type </span> drop-down list, select <span class="uicontrol"> Rank </span>. Leave all other field options as-is. <p>See the query parameter <span class="codeph"> sp_sr </span> in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
       <li id="li_8E91AF4BE51A4A41ABBF9680DDE0B7CE">Click <span class="uicontrol"> Add </span>. </li> 
-     </ol> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>To create ranking rules that are based on Adobe Analytics metrics </p> </td> 
-   <td colname="col2"> <p> 
-     <ol id="ol_BE57CBC303D941778B10D855ADC93C68"> 
+      </ol> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>To create ranking rules that are based on Adobe Analytics metrics </p> </td> 
+      <td colname="col2"> <p> 
+      <ol id="ol_BE57CBC303D941778B10D855ADC93C68"> 
       <li id="li_8DF5D8F924B24ECBBD2D93C76C69D00C"> Make sure you have set up Adobe Analytics authentication from within site search/merchandising. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_8AA93F6273B747F9B4DE9E8DFBCBDC42" type="task" format="dita" scope="local"> Setting up Adobe Analytics metrics authentication </a>. </p> </li> 
       <li id="li_CF7DD073FC5A432DADBD282AA8BB9920"> Select and add an available report suite. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0" type="task" format="dita" scope="local"> Adding an Adobe Analytics Report Suite </a>. </p> </li> 
       <li id="li_9A63448577D04E028DF211D8715F943A"> Configure the list of Adobe Analytics metrics that you want to be available for the creation of new Ranking Rules. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> Editing the Adobe Analytics metrics of a Report Suite </a>. </p> </li> 
       <li id="li_1ACA3611D9B44AC394604CD89209C966"> Load the initial Adobe Analytics metrics for your website pages. <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181" type="task" format="dita" scope="local"> Loading Adobe Analytics data </a>. </p> </li> 
-     </ol> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ol> </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Add one or more Ranking Rules.
 
@@ -223,82 +223,74 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
 1. On the [!DNL Add Ranking Rule] page, set the options you want. Fields that are marked with an asterisk (&#42;) are required.
 
    <!-- 
-
-r_ranking_rule_options.xml
-
- -->
+   
+   r_ranking_rule_options.xml
+   
+   -->
 
    The Data Source Type that you select affects the choices that are available on the [!DNL Data Source Name] drop-down list. For example, if you selected **[!UICONTROL Meta Tag]** as the Data Source Type, the Data Source Name refers to the name of a meta tag on your website pages. If you selected **[!UICONTROL Adobe Analytics Metric (Number)]**, the Data Source Name refers to one of the Adobe Analytics metric names that you selected in a Report Suite as found on the **[!UICONTROL Edit Adobe Analytics Metrics]** page in site search/merchandising.
 
    See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664).
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Data Source Type </p> </td> 
-   <td colname="col2"> <p>Determines the characteristics of the data source that is used as the input to this ranking rule. </p> <p>Data source types that you can select from include the following: 
-     <!--removed Rule Group option from bullet list below --> 
-     <ul id="ul_B0A97BF0E314495985F44A642C86918D"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Data Source Type </p> </td> 
+      <td colname="col2"> <p>Determines the characteristics of the data source that is used as the input to this ranking rule. </p> <p>Data source types that you can select from include the following: 
+      <ul id="ul_B0A97BF0E314495985F44A642C86918D"> 
       <li id="li_4D8BDE32853540809AE78FF5FF5677A1"> <span class="uicontrol"> Meta Tag </span> <p> Bases this rule on numeric data or textual data that is stored within a named meta tag on your website pages. </p> </li> 
       <li id="li_4976C31D67254C7F81D554EC49DDBB40"> <span class="uicontrol"> Adobe Analytics Metric (Number) </span> <p>Bases this rule on a numeric Adobe Analytics metric that is associated with your site pages. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data Source Name </p> </td> 
-   <td colname="col2"> <p>If you chose <span class="uicontrol"> Meta Tag </span> as the Data Source Type, this is the name of a meta tag that is found within the pages of your website. The names in the drop-down menu come from the list of defined metadata values that were configured in Settings &gt; Metadata &gt; Definitions. </p> <p>See <a scope="local" href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita"> Adding a new meta tag field </a>. </p> <p>If you chose Adobe Analytics Metric (Number) as the Data Source Type, this is the name of a Adobe Analytics metric. The names in the drop-down menu, come from the list defined available Adobe Analytics metrics that were configured in Settings &gt; Adobe Analytics &gt; Metrics &gt; Edit. </p> <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> Editing the Adobe Analytics metrics of a Report Suite </a>. </p> <p>If the Adobe Analytics metric name that you selected is not already defined in <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>, a text field and an Add button are displayed. Enter the name of the Metadata Field Name (the metadata field name cannot exceed 20 characters), and then click <span class="uicontrol"> Add </span>. </p> <p>When pages are encountered with multiple Adobe Analytics keys, as with a product page displaying multiple products, Composite Scheme specifies how to deal with the multiple Adobe Analytics metric values associated with that page. Select one of the following: </p> <p> 
-     <ul id="ul_D6E51748BB3949048A37C1895F2C0A58"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Data Source Name </p> </td> 
+      <td colname="col2"> <p>If you chose <span class="uicontrol"> Meta Tag </span> as the Data Source Type, this is the name of a meta tag that is found within the pages of your website. The names in the drop-down menu come from the list of defined metadata values that were configured in Settings &gt; Metadata &gt; Definitions. </p> <p>See <a scope="local" href="../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5" type="task" format="dita"> Adding a new meta tag field </a>. </p> <p>If you chose Adobe Analytics Metric (Number) as the Data Source Type, this is the name of a Adobe Analytics metric. The names in the drop-down menu, come from the list defined available Adobe Analytics metrics that were configured in Settings &gt; Adobe Analytics &gt; Metrics &gt; Edit. </p> <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664" type="task" format="dita" scope="local"> Editing the Adobe Analytics metrics of a Report Suite </a>. </p> <p>If the Adobe Analytics metric name that you selected is not already defined in <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>, a text field and an Add button are displayed. Enter the name of the Metadata Field Name (the metadata field name cannot exceed 20 characters), and then click <span class="uicontrol"> Add </span>. </p> <p>When pages are encountered with multiple Adobe Analytics keys, as with a product page displaying multiple products, Composite Scheme specifies how to deal with the multiple Adobe Analytics metric values associated with that page. Select one of the following: </p> <p> 
+      <ul id="ul_D6E51748BB3949048A37C1895F2C0A58"> 
       <li id="li_04F00F382A264C96A519B0D975E25E94"> <span class="uicontrol"> Sum </span> <p>Returns the sum of the metric values. </p> </li> 
       <li id="li_FA44219B663F4CC197BD3A094EB84396"> <span class="uicontrol"> Average </span> <p>Returns the average of the values (the sum divided by the number of values). </p> </li> 
       <li id="li_F0EAAE1EA1754FFEB30F611E5550097B"> <span class="uicontrol"> Maximum </span> <p>Returns the largest of the values. </p> </li> 
       <li id="li_38E3E3F3D9AF4C57803B84B60223FB9D"> <span class="uicontrol"> First </span> <p>Returns the value corresponding to the first key. </p> </li> 
       <li id="li_4AEE470CE6BB4D899E975915EC226624"> <span class="uicontrol"> Last </span> <p>Return the value corresponding to the last key. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Weights/Conditions </p> </td> 
-   <td colname="col2"> <p>Contains either a simple, single rule weight number, or a paired list of rules weight numbers and test conditions. </p> <p>A rule weight number is a value from 1-10 that indicates how important this ranking rule is relative to the other ranking rules in determining the overall rank of a document. A higher rule weight indicates higher importance. A weight of zero (0) ignores the rule. </p> <p>Choose <span class="uicontrol"> Custom </span> from the drop-down list to customize the rule weight for various pages by defining a list of rule weight/test conditions pairs. Test conditions are fragments of Perl that are used to test Data Source Values, or global variables that are defined within your custom filter script (for example, price, brand, season, or page views as in the following example). If a test condition evaluates to "true," the associated rule weight value is applied. If a test condition evaluates to "false,", the next condition in the list is evaluated. <code> 0&nbsp;({price}&nbsp;&gt;&nbsp;50.00)&nbsp;&amp;&amp;&nbsp;({brand}=~/Kuhl/) 
-      5&nbsp;{season}&nbsp;=~&nbsp;/Fall/ 
-      10&nbsp;{pageviews}&nbsp;&gt;&nbsp;100000 
-      5 </code>In the custom created weight/condition example above, the rule weight 0 is applied if the first test condition evaluates to "true." That is, the price contains a value greater than 50 and the brand contains "Kuhl"). If the first test condition evaluates to "false," the next condition is evaluated. If none of the previous conditions are met, the rule weight 5 is assigned. </p> <p>You should always provide a rule weight with no condition at the end of the list. If you do not do this, the rule gets a weight of 0 in the case where none of the condition tests evaluate to "true." </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Values/Ranks </p> </td> 
-   <td colname="col2"> <p>Consists of either one of the built-in ranking functions, or possible Data Source content along with desired ranks. </p> <p>If you chose <span class="uicontrol"> Adobe Analytics Metric (Number) </span> as the Data Source Type, you are presented with a drop-down list with the following options: 
-     <ul id="ul_104906B6AA8547BAB6979AA37C4FAB90"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Weights/Conditions </p> </td> 
+      <td colname="col2"> <p>Contains either a simple, single rule weight number, or a paired list of rules weight numbers and test conditions. </p> <p>A rule weight number is a value from 1-10 that indicates how important this ranking rule is relative to the other ranking rules in determining the overall rank of a document. A higher rule weight indicates higher importance. A weight of zero (0) ignores the rule. </p> <p>Choose <span class="uicontrol"> Custom </span> from the drop-down list to customize the rule weight for various pages by defining a list of rule weight/test conditions pairs. Test conditions are fragments of Perl that are used to test Data Source Values, or global variables that are defined within your custom filter script (for example, price, brand, season, or page views as in the following example). If a test condition evaluates to "true," the associated rule weight value is applied. If a test condition evaluates to "false,", the next condition in the list is evaluated. <code> 0&nbsp;({price}&nbsp;&gt;&nbsp;50.00)&nbsp;&amp;&amp;&nbsp;({brand}=~/Kuhl/)5&nbsp;{season}&nbsp;=~&nbsp;/Fall/10&nbsp;{pageviews}&nbsp;&gt;&nbsp;1000005 </code>In the custom created weight/condition example above, the rule weight 0 is applied if the first test condition evaluates to "true." That is, the price contains a value greater than 50 and the brand contains "Kuhl"). If the first test condition evaluates to "false," the next condition is evaluated. If none of the previous conditions are met, the rule weight 5 is assigned. </p> <p>You should always provide a rule weight with no condition at the end of the list. If you do not do this, the rule gets a weight of 0 in the case where none of the condition tests evaluate to "true." </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Values/Ranks </p> </td> 
+      <td colname="col2"> <p>Consists of either one of the built-in ranking functions, or possible Data Source content along with desired ranks. </p> <p>If you chose <span class="uicontrol"> Adobe Analytics Metric (Number) </span> as the Data Source Type, you are presented with a drop-down list with the following options: 
+      <ul id="ul_104906B6AA8547BAB6979AA37C4FAB90"> 
       <li id="li_7656A2855A054DB8B64E90FE501517AA"> <span class="uicontrol"> Auto-Rank by Order (default) </span> <p>Calculates a rank that is based on the document's relative position, according to its Adobe Analytics Metric. For example, the closer the document's position to the top-ranked document, the higher its rank. </p> </li> 
       <li id="li_1A7D60EA6965434AA6D39B215C158306"> <span class="uicontrol"> Auto-Rank by Value </span> <p>Calculates a rank based on the document's relative value, according to its Adobe Analytics Metric. For example, the closer the document's value to the top-ranked document's value, the higher its rank. </p> </li> 
       <li id="li_457DE44D6ADA40619DC77220BF12318E"> <span class="uicontrol"> Custom </span> <p>Specifies custom settings. For example, a Data Source with the name of "brand" might contain the brand name for a particular product. You can specify the relative importance of each brand by listing it along with its rank. </p> </li> 
-     </ul> </p> <p>The rank values returned from the Auto-Rank calculations are in the range 0.0 (lowest) to 1.0 (highest). They are not adjusted according to the ranges that are defined for the Rank field under Settings &gt; Metadata &gt; Definitions. </p> <p>In the following example, if the brand Data Source for a particular search result exactly matches "DKNY," the applied rank for that result is 0.5. Otherwise, if the brand is "Levis," the applied rank is 0.1. The Data Source content must match the set value. In other words, If the Data Source content is "Levis Corp.", it will not match the value "Levis". Case is ignored, so "DKNY" matches "dkny" and "Dkny". <code> DKNY&nbsp;0.5 
-      Levis&nbsp;0.1 
-      Lee&nbsp;0.2 </code> </p> <p>As a more advanced option, you can specify values as regular expressions. For example, suppose some of your site pages contain a brand value of "Levis" and other site pages contain a brand value of "Levis jeans." You can use a regular expression specified with the keyword 
-     <userinput>
-       regexp 
-     </userinput>. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>In the following example, a search result document containing brand content "Levis jeans" is assigned a rank of 0.1. As with standard comparison, case is ignored for regular expressions. <code> DKNY&nbsp;0.5 
-      regexp&nbsp;Levis.*&nbsp;0.1 
-      Lee&nbsp;0.2 </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Default Rank </p> </td> 
-   <td colname="col2"> <p> Specifies the rank to apply for search result documents that do not match any of the specified values. In the above example, a search results document with a "brand" Data Source containing "the gap" is assigned the default rank value because "the gap" does not match any of the defined values. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Notes </p> </td> 
-   <td colname="col2"> <p>Add information that pertains to the ranking rule definition or the rule group definition that you created. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ul> </p> <p>The rank values returned from the Auto-Rank calculations are in the range 0.0 (lowest) to 1.0 (highest). They are not adjusted according to the ranges that are defined for the Rank field under Settings &gt; Metadata &gt; Definitions. </p> <p>In the following example, if the brand Data Source for a particular search result exactly matches "DKNY," the applied rank for that result is 0.5. Otherwise, if the brand is "Levis," the applied rank is 0.1. The Data Source content must match the set value. In other words, If the Data Source content is "Levis Corp.", it will not match the value "Levis". Case is ignored, so "DKNY" matches "dkny" and "Dkny". <code> DKNY&nbsp;0.5 Levis&nbsp;0.1 Lee&nbsp;0.2 </code> </p> <p>As a more advanced option, you can specify values as regular expressions. For example, suppose some of your site pages contain a brand value of "Levis" and other site pages contain a brand value of "Levis jeans." You can use a regular expression specified with the keyword 
+      <userinput>
+        regexp 
+      </userinput>. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>In the following example, a search result document containing brand content "Levis jeans" is assigned a rank of 0.1. As with standard comparison, case is ignored for regular expressions. <code> DKNY&nbsp;0.5 regexp&nbsp;Levis.*&nbsp;0.1 Lee&nbsp;0.2 </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Default Rank </p> </td> 
+      <td colname="col2"> <p> Specifies the rank to apply for search result documents that do not match any of the specified values. In the above example, a search results document with a "brand" Data Source containing "the gap" is assigned the default rank value because "the gap" does not match any of the defined values. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Notes </p> </td> 
+      <td colname="col2"> <p>Add information that pertains to the ranking rule definition or the rule group definition that you created. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    The range of valid rank values is normally -1.0 to 1.0 as in the following:
 
-* -1.0 is "Minimum Rank (display lower in the search results)." 
-* 0.0 is "Neutral rank (do not change search results order)." 
-* 1.0 is "Maximum rank (display higher in the search results."
+    * `-1.0` is "Minimum Rank (display lower in the search results)." 
+    * `0.0` is "Neutral rank (do not change search results order)." 
+    * `1.0` is "Maximum rank (display higher in the search results."
 
    Defined ranks should be within the same range for every rule. The rank ranges must also match the ranges that are defined for the Rank field under **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions]**.
 
@@ -639,4 +631,3 @@ If you have more than one Rule defined in a Rule group, each Rule's Weight value
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

@@ -354,29 +354,15 @@ t_adding_a_new_presentation_or_transport_template_file.xml
 1. In the [!DNL Add Template] dialog box, set the options that you want.
 
    <!-- 
+   
+   r_add_template_options.xml
+   
+   -->
 
-r_add_template_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>New file name </p> </td> 
-   <td colname="col2"> <p>Specifies the name of the template that you want to add. The proper file extension is automatically added to the file name, based on the template type you select. </p> <p>Presentation templates have a .tmpl file extension; Transport templates have a .tpl file extension. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>New template type </p> </td> 
-   <td colname="col2"> <p>Lets you choose a presentation or a transport template that you want to add. </p> <p>See <a href="../c-about-design-menu/c-about-templates.md#concept_06EB481B14864E18A8AE2BCD1D6EF0B5" type="concept" format="dita" scope="local"> About Templates </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    | Option  | Description  |
+|--- |--- |
+|New file name|Specifies the name of the template that you want to add. The proper file extension is automatically added to the file name, based on the template type you select.  Presentation templates have a .tmpl file extension; Transport templates have a .tpl file extension.|
+|New template type|Lets you choose a presentation or a transport template that you want to add.  See [About Templates](../c-about-design-menu/c-about-templates.md).|
 
    See also [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3). 
 1. Click **[!UICONTROL Add]**.

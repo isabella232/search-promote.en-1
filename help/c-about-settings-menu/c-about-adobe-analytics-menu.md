@@ -32,33 +32,33 @@ t_setting_up_adobe_analytics_authentication.xml
 1. On the [!DNL Setup Adobe Analytics Metrics Authentication] page, specify the information requested in each field.
 
    <!-- 
+   
+   r_setup_adobe_analytics_metrics_authentication_options.xml
+   
+   -->
 
-r_setup_adobe_analytics_metrics_authentication_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Text field </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Analytics Company Name </p> </td> 
-   <td colname="col2"> <p>The same Company Name setting that is used to log in to your Adobe Analytics account. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Web Services Username </p> </td> 
-   <td colname="col2"> <p>The Web Services Username that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Admin Console </span> &gt; <span class="uicontrol"> Company </span> &gt; <span class="uicontrol"> Web Services </span>. The information is in the API Access Information table. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Web Services Shared Secret </p> </td> 
-   <td colname="col2"> <p>The Web Services Shared Secret that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Admin Console </span> &gt; <span class="uicontrol"> Company </span> &gt; <span class="uicontrol"> Web Services </span>. The information is in the API Access Information table. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Text field </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Adobe Analytics Company Name </p> </td> 
+      <td colname="col2"> <p>The same Company Name setting that is used to log in to your Adobe Analytics account. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Web Services Username </p> </td> 
+      <td colname="col2"> <p>The Web Services Username that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Admin Console </span> &gt; <span class="uicontrol"> Company </span> &gt; <span class="uicontrol"> Web Services </span>. The information is in the API Access Information table. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Web Services Shared Secret </p> </td> 
+      <td colname="col2"> <p>The Web Services Shared Secret that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Admin Console </span> &gt; <span class="uicontrol"> Company </span> &gt; <span class="uicontrol"> Web Services </span>. The information is in the API Access Information table. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do one of the following:
@@ -135,57 +135,57 @@ See [Configuring advanced Adobe Analytics options](../c-about-settings-menu/c-ab
 1. On the [!DNL Edit Adobe Analytics Metrics] page, set the metrics that are required. Metrics that do not have an asterisk (&#42;) next to the metric name, are optional.
 
    <!-- 
+   
+   r_edit_adobe_analytics_metrics_options.xml
+   
+   -->
 
-r_edit_adobe_analytics_metrics_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Report Suite </p> </td> 
-   <td colname="col2"> <p>Displays the name of the currently Report Suite that you added. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Report Suite View Name </p> </td> 
-   <td colname="col2"> <p>Provides an "alias" name for the Adobe Analytics Report Suite name. This alternate name is useful if the same Report Suite is used in more than one definition. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Select Report Type </p> </td> 
-   <td colname="col2"> <p>Specifies the Report Type value to use with the selected Report Suite. The value identifies the key for each returned row of results. </p> <p>The Report Type is also known as the Adobe Analytics Element. </p> <p>This metric is required. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cross-reference Field Name </p> </td> 
-   <td colname="col2"> <p>Specifies a metadata field whose values are used as look-up "keys" into the Report Suite's data. </p> <p>If no value is selected ("-- None --"), this Report Suite's data is not available for use in Ranking calculations ( <span class="uicontrol"> Rules </span> &gt; <span class="uicontrol"> Ranking Rules </span> &gt; <span class="uicontrol"> Edit Rules </span>). </p> <p>When you select a value, this field's values are used to cross-reference site search/merchandising documents with this Report Suite's Adobe Analytics data, using the selected Report Type value that you set earlier. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Search Terms Report </p> </td> 
-   <td colname="col2"> <p>Gives you access to create business rules and simulate search terms from the <b>Stage Adobe Analytics Data Preview</b> page. </p> <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0" type="task" format="dita" scope="local"> Previewing Adobe Analytics Data </a>. </p> <p>A pull-down menu appears on every row that includes two options: <b>Simulate Search Term</b> and <b>Create New Business Rule</b>. </p> <p>Both options use data from the Report Type as the search terms. Therefore, this feature only makes sense if the Report Type represents search terms. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Metrics </p> </td> 
-   <td colname="col2"> <p>Identifies the metric values that you want to download and use within your site search/merchandising Ranking Rules. </p> <p>The metrics that you configure here appear as choices on the <span class="uicontrol"> Rules </span> &gt; <span class="uicontrol"> Ranking Rules </span> &gt; <span class="uicontrol"> Edit Rules </span> member center pages, when the rule's Data Type is set to <span class="uicontrol"> Adobe Analytics Metric (Number) </span>. The choices show a combination of the Report Suite names or Report Suite View Names, if specified, and the individual metric names. </p> <p>This metric is required. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Minimum Metric Value </p> </td> 
-   <td colname="col2"> <p>Lets you enter a nonzero value to specify a minimum value for the metric. </p> <p>If blank, or zero, all values for the metric are downloaded; otherwise, the download for this metric stops when the minimum metric value is passed. </p> <p>Adobe Analytics metrics are retrieved in descending order. </p> <p>Click <span class="uicontrol"> + </span> to add additional metric definitions; click <span class="uicontrol"> - </span> to remove metric definitions that you no longer need or want. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Analytics Metric Aggregation Period (Days) </p> </td> 
-   <td colname="col2"> <p> Controls the number of days worth of Adobe Analytics metrics to fetch, counting back from yesterday's date. No attempt is made to fetch data from the current day. </p> <p>The default is 7. </p> <p>This metric is required. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Analytics Download Refresh Frequency (Days) </p> </td> 
-   <td colname="col2"> <p> Sets the minimum interval between downloads of Adobe Analytics data that is used in ranking calculations. </p> <p>Index-triggered downloads that occur within the download refresh frequency interval are ignored. However, manual downloads ignore this value. </p> <p>When you set this value to the default of 1, Adobe Analytics data does not download more than once within a 24 hour period. All Search indexes that occur within the download refresh frequency interval use the last data set that was downloaded. </p> <p>This metric is required. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Report Suite </p> </td> 
+      <td colname="col2"> <p>Displays the name of the currently Report Suite that you added. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Report Suite View Name </p> </td> 
+      <td colname="col2"> <p>Provides an "alias" name for the Adobe Analytics Report Suite name. This alternate name is useful if the same Report Suite is used in more than one definition. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Select Report Type </p> </td> 
+      <td colname="col2"> <p>Specifies the Report Type value to use with the selected Report Suite. The value identifies the key for each returned row of results. </p> <p>The Report Type is also known as the Adobe Analytics Element. </p> <p>This metric is required. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Cross-reference Field Name </p> </td> 
+      <td colname="col2"> <p>Specifies a metadata field whose values are used as look-up "keys" into the Report Suite's data. </p> <p>If no value is selected ("-- None --"), this Report Suite's data is not available for use in Ranking calculations ( <span class="uicontrol"> Rules </span> &gt; <span class="uicontrol"> Ranking Rules </span> &gt; <span class="uicontrol"> Edit Rules </span>). </p> <p>When you select a value, this field's values are used to cross-reference site search/merchandising documents with this Report Suite's Adobe Analytics data, using the selected Report Type value that you set earlier. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Search Terms Report </p> </td> 
+      <td colname="col2"> <p>Gives you access to create business rules and simulate search terms from the <b>Stage Adobe Analytics Data Preview</b> page. </p> <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0" type="task" format="dita" scope="local"> Previewing Adobe Analytics Data </a>. </p> <p>A pull-down menu appears on every row that includes two options: <b>Simulate Search Term</b> and <b>Create New Business Rule</b>. </p> <p>Both options use data from the Report Type as the search terms. Therefore, this feature only makes sense if the Report Type represents search terms. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Metrics </p> </td> 
+      <td colname="col2"> <p>Identifies the metric values that you want to download and use within your site search/merchandising Ranking Rules. </p> <p>The metrics that you configure here appear as choices on the <span class="uicontrol"> Rules </span> &gt; <span class="uicontrol"> Ranking Rules </span> &gt; <span class="uicontrol"> Edit Rules </span> member center pages, when the rule's Data Type is set to <span class="uicontrol"> Adobe Analytics Metric (Number) </span>. The choices show a combination of the Report Suite names or Report Suite View Names, if specified, and the individual metric names. </p> <p>This metric is required. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Minimum Metric Value </p> </td> 
+      <td colname="col2"> <p>Lets you enter a nonzero value to specify a minimum value for the metric. </p> <p>If blank, or zero, all values for the metric are downloaded; otherwise, the download for this metric stops when the minimum metric value is passed. </p> <p>Adobe Analytics metrics are retrieved in descending order. </p> <p>Click <span class="uicontrol"> + </span> to add additional metric definitions; click <span class="uicontrol"> - </span> to remove metric definitions that you no longer need or want. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Adobe Analytics Metric Aggregation Period (Days) </p> </td> 
+      <td colname="col2"> <p> Controls the number of days worth of Adobe Analytics metrics to fetch, counting back from yesterday's date. No attempt is made to fetch data from the current day. </p> <p>The default is 7. </p> <p>This metric is required. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Adobe Analytics Download Refresh Frequency (Days) </p> </td> 
+      <td colname="col2"> <p> Sets the minimum interval between downloads of Adobe Analytics data that is used in ranking calculations. </p> <p>Index-triggered downloads that occur within the download refresh frequency interval are ignored. However, manual downloads ignore this value. </p> <p>When you set this value to the default of 1, Adobe Analytics data does not download more than once within a 24 hour period. All Search indexes that occur within the download refresh frequency interval use the last data set that was downloaded. </p> <p>This metric is required. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    See also [About Ranking Rules](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397). 
 1. Click **[!UICONTROL Save Changes]**.

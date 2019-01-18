@@ -184,102 +184,102 @@ See [About Templates](../c-about-design-menu/c-about-templates.md#concept_06EB48
 1. On the **[!UICONTROL GS Add Search]** page, set the options that you want.
 
    <!-- 
-
-r_gs_search_options.xml
-
- -->
+   
+   r_gs_search_options.xml
+   
+   -->
 
    Be aware that the processing rules that select your presentation template can override some of these options.
 
    See [Adding a new search definition](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648) or [Editing a search definition](../c-about-settings-menu/c-about-searching-menu.md#task_AF1FFB1AEF874C13AB359C28F74BF461).
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Search Name </p> </td> 
-   <td colname="col2"> <p>Identifies the name of the defined search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Source </p> </td> 
-   <td colname="col2"> <p>Lets you select the back-end search that you want to use. You can select from <span class="wintitle"> SiteSearch </span> or <span class="wintitle"> Merchandising </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Account </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select the site search/merchandising account that you want to search. Typically, a search searches in the account that you are currently using. However, your presentation template can use a back-end search for any of your other accounts. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Name/IP </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the full name of the <span class="wintitle"> Merchandising </span> server that the <span class="wintitle"> Merchandising </span> search should access. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Port </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the <span class="wintitle"> Merchandising </span> server port number. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pyramid </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the pyramid within the <span class="wintitle"> Merchandising </span> server. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number Of Results </p> </td> 
-   <td colname="col2"> <p>Specifies the number of search results that you want returned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number Of First Page Results (if different) </p> </td> 
-   <td colname="col2"> <p>Specifies the number of results that are returned at first page. Use this option if you need to have it different from other pages. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number Of Columns </p> </td> 
-   <td colname="col2"> <p>Specifies the number of columns that the search results are split over. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type Of Searching </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select from the following three types of search. </p> <p> 
-     <ul id="ul_2F6FA9EFD8DB49EEAB866C3D070E2644"> 
-      <li id="li_ECFEBEDD86FF4DE2BB768423B3B91B5E"> <span class="uicontrol"> all </span> <p>Searches for documents that contain all of the words in the query string. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
-      <li id="li_62EB215BDDE74DF0BF76B3BD5B96776F"> <span class="uicontrol"> any </span> <p>Use of "+" and "-" word prefixes are allowed. </p> </li> 
-      <li id="li_3D71982C0BBA41AFA353069AF3F2F6D8"> <span class="uicontrol"> phrase </span> <p>The query string is treated as if it were a quoted phrase, and all user-typed quotes are ignored. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
-     </ul> </p> <p> If you want each word in a query to potentially select a facet value, then your primary search should always use <span class="uicontrol"> all </span>. </p> <p>You can review search tips regarding the use of the + and - modifiers in a search query. </p> <p>See <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> About Searches </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Collection </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Identifies the collection within your index that you want to search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Promosearch </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you use a random selection from the search results, subject to the <span class="uicontrol"> Number Of Results </span> that you specified. </p> <p>Promosearch is a legacy concept. As such, we recommend that you use the new banner management system within site search/merchandising. </p> <p>See <a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local"> About Banners </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Apply facet parameters </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that a promotional search use the selected facets to narrow down the promotions. Most promosearch accounts do not use this option. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Provide default promotion if no matching promotion </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that another search for a promotion occur if the initial search for a promotion does not find anything. The second search for a promotion drops the keyword. Instead, it looks for any promotion where an "is_default" metadata field is set to "yes". </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Highlight Search </p> </td> 
-   <td colname="col2"> <p>Pulls out a select number of results from the main search that you want to highlight in a "hero-zone". </p> <p>Typically, highlight searches have a similar search criteria to the main search but with a different ranking mechanism to highlight certain results. The software removes the duplicates from the main search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Base Search </p> </td> 
-   <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you select the search that has the results that you are highlighting results from. Duplicates are removed from this search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DeDupe Priority </p> </td> 
-   <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you have multiple highlight searches. </p> <p>When you have multiple highlight searches you need to specify the priority of de-duplication, where "1" is the highest priority. </p> <p>For example, suppose you have two highlight searches: bestsellers and new products. Theoretically. it is possible that a best-seller is also a new product. In this case, you want the duplicate removed from the new products and the main search. Therefore, you set the priority of bestsellers to 1 and the priority of new products to 2. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parameter </p> </td> 
-   <td colname="col2"> <p>Lets you add CGI parameters to the search. </p> <p>See <a scope="local" href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Search Name </p> </td> 
+      <td colname="col2"> <p>Identifies the name of the defined search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Source </p> </td> 
+      <td colname="col2"> <p>Lets you select the back-end search that you want to use. You can select from <span class="wintitle"> SiteSearch </span> or <span class="wintitle"> Merchandising </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Account </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select the site search/merchandising account that you want to search. Typically, a search searches in the account that you are currently using. However, your presentation template can use a back-end search for any of your other accounts. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Server Name/IP </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the full name of the <span class="wintitle"> Merchandising </span> server that the <span class="wintitle"> Merchandising </span> search should access. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Server Port </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the <span class="wintitle"> Merchandising </span> server port number. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Pyramid </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the pyramid within the <span class="wintitle"> Merchandising </span> server. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number Of Results </p> </td> 
+      <td colname="col2"> <p>Specifies the number of search results that you want returned. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number Of First Page Results (if different) </p> </td> 
+      <td colname="col2"> <p>Specifies the number of results that are returned at first page. Use this option if you need to have it different from other pages. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number Of Columns </p> </td> 
+      <td colname="col2"> <p>Specifies the number of columns that the search results are split over. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Type Of Searching </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select from the following three types of search. </p> <p> 
+        <ul id="ul_2F6FA9EFD8DB49EEAB866C3D070E2644"> 
+          <li id="li_ECFEBEDD86FF4DE2BB768423B3B91B5E"> <span class="uicontrol"> all </span> <p>Searches for documents that contain all of the words in the query string. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
+          <li id="li_62EB215BDDE74DF0BF76B3BD5B96776F"> <span class="uicontrol"> any </span> <p>Use of "+" and "-" word prefixes are allowed. </p> </li> 
+          <li id="li_3D71982C0BBA41AFA353069AF3F2F6D8"> <span class="uicontrol"> phrase </span> <p>The query string is treated as if it were a quoted phrase, and all user-typed quotes are ignored. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
+        </ul> </p> <p> If you want each word in a query to potentially select a facet value, then your primary search should always use <span class="uicontrol"> all </span>. </p> <p>You can review search tips regarding the use of the + and - modifiers in a search query. </p> <p>See <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> About Searches </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Collection </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Identifies the collection within your index that you want to search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Promosearch </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you use a random selection from the search results, subject to the <span class="uicontrol"> Number Of Results </span> that you specified. </p> <p>Promosearch is a legacy concept. As such, we recommend that you use the new banner management system within site search/merchandising. </p> <p>See <a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local"> About Banners </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Apply facet parameters </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that a promotional search use the selected facets to narrow down the promotions. Most promosearch accounts do not use this option. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Provide default promotion if no matching promotion </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that another search for a promotion occur if the initial search for a promotion does not find anything. The second search for a promotion drops the keyword. Instead, it looks for any promotion where an "is_default" metadata field is set to "yes". </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Highlight Search </p> </td> 
+      <td colname="col2"> <p>Pulls out a select number of results from the main search that you want to highlight in a "hero-zone". </p> <p>Typically, highlight searches have a similar search criteria to the main search but with a different ranking mechanism to highlight certain results. The software removes the duplicates from the main search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Base Search </p> </td> 
+      <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you select the search that has the results that you are highlighting results from. Duplicates are removed from this search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>DeDupe Priority </p> </td> 
+      <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you have multiple highlight searches. </p> <p>When you have multiple highlight searches you need to specify the priority of de-duplication, where "1" is the highest priority. </p> <p>For example, suppose you have two highlight searches: bestsellers and new products. Theoretically. it is possible that a best-seller is also a new product. In this case, you want the duplicate removed from the new products and the main search. Therefore, you set the priority of bestsellers to 1 and the priority of new products to 2. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Parameter </p> </td> 
+      <td colname="col2"> <p>Lets you add CGI parameters to the search. </p> <p>See <a scope="local" href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita"> Backend search CGI parameters </a>. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) On the [!DNL Searches] page, do any of the following:
@@ -317,102 +317,102 @@ See [About Templates](../c-about-design-menu/c-about-templates.md#concept_06EB48
 1. On the **[!UICONTROL GS Edit Search]** page, set the options that you want.
 
    <!-- 
-
-r_gs_search_options.xml
-
- -->
+   
+   r_gs_search_options.xml
+   
+   -->
 
    Be aware that the processing rules that select your presentation template can override some of these options.
 
    See [Adding a new search definition](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648) or [Editing a search definition](../c-about-settings-menu/c-about-searching-menu.md#task_AF1FFB1AEF874C13AB359C28F74BF461).
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Search Name </p> </td> 
-   <td colname="col2"> <p>Identifies the name of the defined search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Source </p> </td> 
-   <td colname="col2"> <p>Lets you select the back-end search that you want to use. You can select from <span class="wintitle"> SiteSearch </span> or <span class="wintitle"> Merchandising </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Account </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select the site search/merchandising account that you want to search. Typically, a search searches in the account that you are currently using. However, your presentation template can use a back-end search for any of your other accounts. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Name/IP </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the full name of the <span class="wintitle"> Merchandising </span> server that the <span class="wintitle"> Merchandising </span> search should access. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Server Port </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the <span class="wintitle"> Merchandising </span> server port number. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Pyramid </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the pyramid within the <span class="wintitle"> Merchandising </span> server. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number Of Results </p> </td> 
-   <td colname="col2"> <p>Specifies the number of search results that you want returned. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number Of First Page Results (if different) </p> </td> 
-   <td colname="col2"> <p>Specifies the number of results that are returned at first page. Use this option if you need to have it different from other pages. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number Of Columns </p> </td> 
-   <td colname="col2"> <p>Specifies the number of columns that the search results are split over. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type Of Searching </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select from the following three types of search. </p> <p> 
-     <ul id="ul_E1D8B3DE9DB24DE4813D53F6298A03A6"> 
-      <li id="li_C3DD7AA7699B477A9EE0731CFC012630"> <span class="uicontrol"> all </span> <p>Searches for documents that contain all of the words in the query string. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
-      <li id="li_4C66B9EFEFA042908A4D3730F9F54EB0"> <span class="uicontrol"> any </span> <p>Use of "+" and "-" word prefixes are allowed. </p> </li> 
-      <li id="li_37E9AD42A61C4E31A0816DFB8E71118D"> <span class="uicontrol"> phrase </span> <p>The query string is treated as if it were a quoted phrase, and all user-typed quotes are ignored. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
-     </ul> </p> <p> If you want each word in a query to potentially select a facet value, then your primary search should always use <span class="uicontrol"> all </span>. </p> <p>You can review search tips regarding the use of the + and - modifiers in a search query. </p> <p>See <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> About Searches </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Collection </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Identifies the collection within your index that you want to search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Promosearch </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you use a random selection from the search results, subject to the <span class="uicontrol"> Number Of Results </span> that you specified. </p> <p>Promosearch is a legacy concept. As such, we recommend that you use the new banner management system within site search/merchandising. </p> <p>See <a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local"> About Banners </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Apply facet parameters </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that a promotional search use the selected facets to narrow down the promotions. Most promosearch accounts do not use this option. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Provide default promotion if no matching promotion </p> </td> 
-   <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that another search for a promotion occur if the initial search for a promotion does not find anything. The second search for a promotion drops the keyword. Instead, it looks for any promotion where an "is_default" metadata field is set to "yes". </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Highlight Search </p> </td> 
-   <td colname="col2"> <p>Pulls out a select number of results from the main search that you want to highlight in a "hero-zone". </p> <p>Typically, highlight searches have a similar search criteria to the main search but with a different ranking mechanism to highlight certain results. The software removes the duplicates from the main search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Base Search </p> </td> 
-   <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you select the search that has the results that you are highlighting results from. Duplicates are removed from this search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>DeDupe Priority </p> </td> 
-   <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you have multiple highlight searches. </p> <p>When you have multiple highlight searches you need to specify the priority of de-duplication, where "1" is the highest priority. </p> <p>For example, suppose you have two highlight searches: bestsellers and new products. Theoretically. it is possible that a best-seller is also a new product. In this case, you want the duplicate removed from the new products and the main search. Therefore, you set the priority of bestsellers to 1 and the priority of new products to 2. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parameter </p> </td> 
-   <td colname="col2"> <p>Lets you add CGI parameters to the search. </p> <p>See <a scope="local" href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Search Name </p> </td> 
+      <td colname="col2"> <p>Identifies the name of the defined search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Source </p> </td> 
+      <td colname="col2"> <p>Lets you select the back-end search that you want to use. You can select from <span class="wintitle"> SiteSearch </span> or <span class="wintitle"> Merchandising </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Account </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select the site search/merchandising account that you want to search. Typically, a search searches in the account that you are currently using. However, your presentation template can use a back-end search for any of your other accounts. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Server Name/IP </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the full name of the <span class="wintitle"> Merchandising </span> server that the <span class="wintitle"> Merchandising </span> search should access. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Server Port </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the <span class="wintitle"> Merchandising </span> server port number. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Pyramid </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Merchandising </span> as your source. </p> <p>Specifies the pyramid within the <span class="wintitle"> Merchandising </span> server. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number Of Results </p> </td> 
+      <td colname="col2"> <p>Specifies the number of search results that you want returned. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number Of First Page Results (if different) </p> </td> 
+      <td colname="col2"> <p>Specifies the number of results that are returned at first page. Use this option if you need to have it different from other pages. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number Of Columns </p> </td> 
+      <td colname="col2"> <p>Specifies the number of columns that the search results are split over. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Type Of Searching </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you select from the following three types of search. </p> <p> 
+        <ul id="ul_E1D8B3DE9DB24DE4813D53F6298A03A6"> 
+          <li id="li_C3DD7AA7699B477A9EE0731CFC012630"> <span class="uicontrol"> all </span> <p>Searches for documents that contain all of the words in the query string. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
+          <li id="li_4C66B9EFEFA042908A4D3730F9F54EB0"> <span class="uicontrol"> any </span> <p>Use of "+" and "-" word prefixes are allowed. </p> </li> 
+          <li id="li_37E9AD42A61C4E31A0816DFB8E71118D"> <span class="uicontrol"> phrase </span> <p>The query string is treated as if it were a quoted phrase, and all user-typed quotes are ignored. </p> <p>Use of "+" and "-" before search words is disabled and those characters are ignored. </p> </li> 
+        </ul> </p> <p> If you want each word in a query to potentially select a facet value, then your primary search should always use <span class="uicontrol"> all </span>. </p> <p>You can review search tips regarding the use of the + and - modifiers in a search query. </p> <p>See <a href="../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8" type="concept" format="dita" scope="local"> About Searches </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Collection </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Identifies the collection within your index that you want to search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Promosearch </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source. </p> <p>Lets you use a random selection from the search results, subject to the <span class="uicontrol"> Number Of Results </span> that you specified. </p> <p>Promosearch is a legacy concept. As such, we recommend that you use the new banner management system within site search/merchandising. </p> <p>See <a href="../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA" type="concept" format="dita" scope="local"> About Banners </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Apply facet parameters </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that a promotional search use the selected facets to narrow down the promotions. Most promosearch accounts do not use this option. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Provide default promotion if no matching promotion </p> </td> 
+      <td colname="col2"> <p>This option is only available if you chose <span class="uicontrol"> Search&amp;Promote </span> as your source, and you selected <span class="uicontrol"> Promosearch </span>. </p> <p>Specifies that another search for a promotion occur if the initial search for a promotion does not find anything. The second search for a promotion drops the keyword. Instead, it looks for any promotion where an "is_default" metadata field is set to "yes". </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Highlight Search </p> </td> 
+      <td colname="col2"> <p>Pulls out a select number of results from the main search that you want to highlight in a "hero-zone". </p> <p>Typically, highlight searches have a similar search criteria to the main search but with a different ranking mechanism to highlight certain results. The software removes the duplicates from the main search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Base Search </p> </td> 
+      <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you select the search that has the results that you are highlighting results from. Duplicates are removed from this search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>DeDupe Priority </p> </td> 
+      <td colname="col2"> <p>This option is only available is you selected <span class="uicontrol"> Highlight Search </span>. </p> <p>Lets you have multiple highlight searches. </p> <p>When you have multiple highlight searches you need to specify the priority of de-duplication, where "1" is the highest priority. </p> <p>For example, suppose you have two highlight searches: bestsellers and new products. Theoretically. it is possible that a best-seller is also a new product. In this case, you want the duplicate removed from the new products and the main search. Therefore, you set the priority of bestsellers to 1 and the priority of new products to 2. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Parameter </p> </td> 
+      <td colname="col2"> <p>Lets you add CGI parameters to the search. </p> <p>See <a scope="local" href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita"> Backend search CGI parameters </a>. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) On the [!DNL Searches] page, do any of the following:
@@ -528,45 +528,45 @@ At the time you add a new keyword, you can reorder the search results and pin th
 1. On the [!DNL Add New Keyword] page, in the **[!UICONTROL Keyword]** field, enter a search query, and then click **[!UICONTROL Search Keyword]**.
 
    <!-- 
-
-r_keyword_options.xml
-
- -->
+   
+   r_keyword_options.xml
+   
+   -->
 
    You can use the Edit Table button to adjust how you view the table of search results. For example, you can use the list of columns to reveal or hide specific columns. You can also rearrange the order of the columns using drag-and-drop.
 
    The following table describes the column properties that are in the table editor.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Column </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Order </p> </td> 
-   <td colname="col2"> <p>Specifies the numerical order of the appearance of the columns. You can drag-and-drop the columns to automatically update the order. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Field Name </p> </td> 
-   <td colname="col2"> <p>Identifies the name of the column header that appears in the <span class="wintitle"> Simulated Search Results </span> table of the <span class="wintitle"> Staged Add New Keyword </span> panel and the <span class="wintitle"> Staged Edit Keyword </span> panel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include </p> </td> 
-   <td colname="col2"> <p>The column appears in the Pinned Results Table if the box is checked. If the box is empty or deselected, the column disappears from the table. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Display URL as Image </p> </td> 
-   <td colname="col2"> <p>If the meta field that is assigned to this column has URLs to graphics or pictures, checking this box places HTML image tags around it and the picture appears. Missing pictures or bad links are empty. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Field Length </p> </td> 
-   <td colname="col2"> <p>Lets you enter the maximum length of text for display before it is truncated with ellipses (...). If the column is set to display URLs as images, this field has no effect. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Column </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Order </p> </td> 
+      <td colname="col2"> <p>Specifies the numerical order of the appearance of the columns. You can drag-and-drop the columns to automatically update the order. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Field Name </p> </td> 
+      <td colname="col2"> <p>Identifies the name of the column header that appears in the <span class="wintitle"> Simulated Search Results </span> table of the <span class="wintitle"> Staged Add New Keyword </span> panel and the <span class="wintitle"> Staged Edit Keyword </span> panel. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Include </p> </td> 
+      <td colname="col2"> <p>The column appears in the Pinned Results Table if the box is checked. If the box is empty or deselected, the column disappears from the table. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Display URL as Image </p> </td> 
+      <td colname="col2"> <p>If the meta field that is assigned to this column has URLs to graphics or pictures, checking this box places HTML image tags around it and the picture appears. Missing pictures or bad links are empty. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Field Length </p> </td> 
+      <td colname="col2"> <p>Lets you enter the maximum length of text for display before it is truncated with ellipses (...). If the column is set to display URLs as images, this field has no effect. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) Do any of the following:
 
@@ -612,45 +612,45 @@ At the time you edit a keyword, you can reorder the search results and pin them 
    Be sure that you follow the rules for the keyword search.
 
    <!-- 
-
-r_keyword_options.xml
-
- -->
+   
+   r_keyword_options.xml
+   
+   -->
 
    You can use the Edit Table button to adjust how you view the table of search results. For example, you can use the list of columns to reveal or hide specific columns. You can also rearrange the order of the columns using drag-and-drop.
 
    The following table describes the column properties that are in the table editor.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Column </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Order </p> </td> 
-   <td colname="col2"> <p>Specifies the numerical order of the appearance of the columns. You can drag-and-drop the columns to automatically update the order. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Field Name </p> </td> 
-   <td colname="col2"> <p>Identifies the name of the column header that appears in the <span class="wintitle"> Simulated Search Results </span> table of the <span class="wintitle"> Staged Add New Keyword </span> panel and the <span class="wintitle"> Staged Edit Keyword </span> panel. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include </p> </td> 
-   <td colname="col2"> <p>The column appears in the Pinned Results Table if the box is checked. If the box is empty or deselected, the column disappears from the table. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Display URL as Image </p> </td> 
-   <td colname="col2"> <p>If the meta field that is assigned to this column has URLs to graphics or pictures, checking this box places HTML image tags around it and the picture appears. Missing pictures or bad links are empty. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Field Length </p> </td> 
-   <td colname="col2"> <p>Lets you enter the maximum length of text for display before it is truncated with ellipses (...). If the column is set to display URLs as images, this field has no effect. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Column </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Order </p> </td> 
+      <td colname="col2"> <p>Specifies the numerical order of the appearance of the columns. You can drag-and-drop the columns to automatically update the order. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Field Name </p> </td> 
+      <td colname="col2"> <p>Identifies the name of the column header that appears in the <span class="wintitle"> Simulated Search Results </span> table of the <span class="wintitle"> Staged Add New Keyword </span> panel and the <span class="wintitle"> Staged Edit Keyword </span> panel. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Include </p> </td> 
+      <td colname="col2"> <p>The column appears in the Pinned Results Table if the box is checked. If the box is empty or deselected, the column disappears from the table. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Display URL as Image </p> </td> 
+      <td colname="col2"> <p>If the meta field that is assigned to this column has URLs to graphics or pictures, checking this box places HTML image tags around it and the picture appears. Missing pictures or bad links are empty. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Field Length </p> </td> 
+      <td colname="col2"> <p>Lets you enter the maximum length of text for display before it is truncated with ellipses (...). If the column is set to display URLs as images, this field has no effect. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) Do any of the following:
 
@@ -828,54 +828,54 @@ t_adding_url_mask_or_jp_address_restrictions.xml
 1. On the [!DNL Restrictions] page, set the restriction options that you want. Enter referrer URL mask addresses, IP address mask addresses or, optionally, a URL address of a customized web page that is displayed to customers who are not permitted to search your site.
 
    <!-- 
+   
+   r_restriction_options.xml
+   
+   -->
 
-r_restriction_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Referrer URL Masks </p> </td> 
-   <td colname="col2"> <p>The referrer URL from the HTTP referrer header is read. The first mask that matches the referrer URL determines whether to allow the search, if the mask is an include mask. Or, it determines whether to disallow the search, if the mask is an exclude mask. If no mask matches the referrer URL, that URL is included and the search is allowed. </p> <p> If your search template contains a new search form or if your search template can contain links like "Next 10", "Previous 10", or "Hide Summaries", then you list your search results template as an "include" mask. The easiest way to do that is with the regular expression as in the following example: </p> <p> <span class="codeph"> include regexp ^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ </span> </p> <p>The following example contains five different referrer URL masks: </p> <p> <code> include&nbsp;https://www.mydomain.com/search/ 
-      include&nbsp;https://search.mydomain.com/ 
-      include&nbsp;regexp&nbsp;^https://www.mydomain.com/help/.*/search/ 
-      include&nbsp;regexp&nbsp;^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ 
-      exclude&nbsp;* </code> </p> <p>If the referrer URL masks are the following: </p> <p> <code> https://www.mydomain.com/search/searchpage.html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      https://search.mydomain.com/advanced/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      https://www.mydomain.com/help/products/search/advanced/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      https://www.mydomain.com/help/products/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
-      https://www.anotherdomain.com/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
-      blank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>IP Address Masks </p> </td> 
-   <td colname="col2"> <p>The first mask that matches the IP address determines whether to allow the search, if the mask is an include mask. Or, it determines whether to allow or disallow the search if the mask is an exclude mask. If no mask matches the requesting IP address, that IP address is included and the search is allowed. </p> <p>The following example below shows four different IP address masks. </p> <p> <code> include&nbsp;64.128.192.* 
-      include&nbsp;192.168. 
-      include&nbsp;regexp&nbsp;^209\.42\.97\.[1-5]+ 
-      exclude&nbsp;* </code> </p> <p>If the referring IP address masks are the following: </p> <p> <code> 64.128.192.10&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      192.168.10.127&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      209.42.97.14&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
-      64.128.193.10&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
-      192.169.10.14&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
-      209.42.97.68&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Only allow searches that use HTTPS </p> </td> 
-   <td colname="col2"> <p>Restrict searches to HTTPS. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>URL to Which Disallowed Requests Should Be Sent </p> </td> 
-   <td colname="col2"> <p> Restricted users are redirected to the URL that you enter here. This option provides a means for you to craft your own custom error page to display to customers who are not permitted to search your site. </p> <p>If you do not specify a URL, a generic error page is returned when a restricted user attempts to search your site. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Referrer URL Masks </p> </td> 
+      <td colname="col2"> <p>The referrer URL from the HTTP referrer header is read. The first mask that matches the referrer URL determines whether to allow the search, if the mask is an include mask. Or, it determines whether to disallow the search, if the mask is an exclude mask. If no mask matches the referrer URL, that URL is included and the search is allowed. </p> <p> If your search template contains a new search form or if your search template can contain links like "Next 10", "Previous 10", or "Hide Summaries", then you list your search results template as an "include" mask. The easiest way to do that is with the regular expression as in the following example: </p> <p> <span class="codeph"> include regexp ^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ </span> </p> <p>The following example contains five different referrer URL masks: </p> <p> <code> include&nbsp;https://www.mydomain.com/search/ 
+          include&nbsp;https://search.mydomain.com/ 
+          include&nbsp;regexp&nbsp;^https://www.mydomain.com/help/.*/search/ 
+          include&nbsp;regexp&nbsp;^https?://[^/]*\.atomz\.com/.*[?&amp;]sp_a=sp1000130e.*$ 
+          exclude&nbsp;* </code> </p> <p>If the referrer URL masks are the following: </p> <p> <code> https://www.mydomain.com/search/searchpage.html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+          https://search.mydomain.com/advanced/&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+          https://www.mydomain.com/help/products/search/advanced/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+          https://www.mydomain.com/help/products/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
+          https://www.anotherdomain.com/&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
+          blank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>IP Address Masks </p> </td> 
+      <td colname="col2"> <p>The first mask that matches the IP address determines whether to allow the search, if the mask is an include mask. Or, it determines whether to allow or disallow the search if the mask is an exclude mask. If no mask matches the requesting IP address, that IP address is included and the search is allowed. </p> <p>The following example below shows four different IP address masks. </p> <p> <code> include&nbsp;64.128.192.* 
+          include&nbsp;192.168. 
+          include&nbsp;regexp&nbsp;^209\.42\.97\.[1-5]+ 
+          exclude&nbsp;* </code> </p> <p>If the referring IP address masks are the following: </p> <p> <code> 64.128.192.10&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+          192.168.10.127&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+          209.42.97.14&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;allowed] 
+          64.128.193.10&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
+          192.169.10.14&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] 
+          209.42.97.68&nbsp;&nbsp;&nbsp;&nbsp;[then&nbsp;search&nbsp;is&nbsp;disallowed] </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Only allow searches that use HTTPS </p> </td> 
+      <td colname="col2"> <p>Restrict searches to HTTPS. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>URL to Which Disallowed Requests Should Be Sent </p> </td> 
+      <td colname="col2"> <p> Restricted users are redirected to the URL that you enter here. This option provides a means for you to craft your own custom error page to display to customers who are not permitted to search your site. </p> <p>If you do not specify a URL, a generic error page is returned when a restricted user attempts to search your site. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do any of the following:
@@ -920,33 +920,33 @@ t_setting_values_in_preview.xml
 1. On the [!DNL Preview] page, set the options that you want.
 
    <!-- 
+   
+   r_preview_options.xml
+   
+   -->
 
-r_preview_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Query </p> </td> 
-   <td colname="col2"> <p>By default, the query string is set to <span class="codeph"> * </span>, which usually returns results. However, you can specify a query that is more specific to your website's content. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parameters </p> </td> 
-   <td colname="col2"> <p>Parameters are set with a name and value. You can specify as many additional parameters as you need. For example, you can specify additional search criteria with <span class="codeph"> sp_q_1 </span> and <span class="codeph"> sp_x_1 </span> parameters. The parameter value <span class="codeph"> sp_q_1=windows&amp;sp_x_1=platform </span> creates a preview search that looks for the value "windows" in the "platform" meta tag of searched pages, in addition to the main query. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Host </p> </td> 
-   <td colname="col2"> <p>If your website uses private domain labeling, set the proper host name to accurately preview your search results. </p> <p>For information about private domain labeling, contact Customer Support. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Query </p> </td> 
+      <td colname="col2"> <p>By default, the query string is set to <span class="codeph"> * </span>, which usually returns results. However, you can specify a query that is more specific to your website's content. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Parameters </p> </td> 
+      <td colname="col2"> <p>Parameters are set with a name and value. You can specify as many additional parameters as you need. For example, you can specify additional search criteria with <span class="codeph"> sp_q_1 </span> and <span class="codeph"> sp_x_1 </span> parameters. The parameter value <span class="codeph"> sp_q_1=windows&amp;sp_x_1=platform </span> creates a preview search that looks for the value "windows" in the "platform" meta tag of searched pages, in addition to the main query. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Host </p> </td> 
+      <td colname="col2"> <p>If your website uses private domain labeling, set the proper host name to accurately preview your search results. </p> <p>For information about private domain labeling, contact Customer Support. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do any of the following:
@@ -1048,269 +1048,269 @@ t_creating_a_feed.xml
 1. Depending on the feed type you selected, in the [!DNL Create Feed] dialog box, set the options as identified in each panel of the wizard.
 
    <!-- 
-
-r_feed_options.xml
-
- -->
+   
+   r_feed_options.xml
+   
+   -->
 
    Depending on the feed type that you are creating or editing, the available options differ slightly.
 
    **Adobe Recommendations**
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Panel </p> </th> 
-   <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
-   <th colname="col3" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Feed Name </p> </td> 
-   <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Field Maps </p> </td> 
-   <td colname="col3"> <p>Lets you map vendor-specific feed fields to site search/merchandising metadata fields. This mapping step in the wizard is important because it allows Feeds to correlate the information between the fields in the index and the fields in the feed data. In most cases, except for <span class="wintitle"> Generic Feeds </span>, the correlations are saved in a dynamically generated search template. </p> <p>Each row in the <span class="wintitle"> Field Maps </span> table represents a field mapping. In the Add/Remove column of the table, click <span class="uicontrol"> + </span> to add a new field mapping row; click <span class="uicontrol"> - </span> to delete the currently selected field mapping row from the table. To associate a feed field with a site search/merchandising metadata fields, use the respective drop-down lists to choose the desired fields. </p> <p> <b>Field mappings for Adobe Recommendations</b> </p> <p>The Recommendation data feed is a CSV file, columns of data separated by commas. The order of appearance of each mapping on the Field Maps table is important as they determine the order of the columns in the CSV feed file. Create the rows of mappings in the following order—each row is mandatory: </p> <p> 
-     <ol id="ol_49C739D04DD340168DC6C1F794544C35"> 
-      <li id="li_A95D9C5A353746A3A0D38F200AC2EEA2"> id </li> 
-      <li id="li_044763D4C7054CEB948C94590735D74F"> name </li> 
-      <li id="li_832F07CA0E3F4E10A4AE30171F3E8541"> categoryId </li> 
-      <li id="li_2A33FB42F7E942ED881BA1F478542C4D"> message </li> 
-      <li id="li_A76E66B2366845B0B63ED5C200531ADD"> thumbnailURL </li> 
-      <li id="li_518CCD5E7E404521AB8199981BA86F76"> value </li> 
-      <li id="li_14A0A8FCC2B34B758E1FBB98E3F2DFB2"> pageURL </li> 
-      <li id="li_36D22F1603394AF89E0C7ADB18AAAAB7"> inventory </li> 
-      <li id="li_ABDB9C762BBC4F27B82FEA4425A8DDC4"> margin </li> 
-     </ol> </p> <p> <b>Advanced usage</b> </p> <p>After you have mapped the first nine required Feed Fields as outlined above, you can create your own custom fields. In the <span class="wintitle"> Feed Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom tag name for that field. This custom option is useful if a feed needs special vendor-specific fields. </p> <p> <p>Note:  Although the Recommendation Feed specifications states that each field name must be prefixed with "entity", it is not necessary in this case. </p> </p> <p>You can also create a custom metadata field. In the <span class="wintitle"> Metadata Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom metadata field value. The value is inserted into the pre-generated template and it can also be used to inject custom search template tags. </p> <p>See <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Search template tags </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col2"> <p>Search Criteria </p> </td> 
-   <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
-    <ul id="ul_799ECF61C03A44878C7182F8B88CC3AD"> 
-     <li id="li_0763F600A4FB4650ACC28BF337EB50AF"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
-     <li id="li_756B776902AE4A0E95524442D663343E"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
-     <li id="li_7ADEDB8747B241D78AC50F1AC75AE695"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
-     <li id="li_4039A9BC2F74460B83BFF662B58DAA1B"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>4 </p> </td> 
-   <td colname="col2"> <p>File Submission </p> </td> 
-   <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
-    <ul id="ul_55E253F83BDA46BAABF2BE38F0918E80"> 
-     <li id="li_877A376B5B30422FAC816E31D50EA508"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the data feed vendor's policy about the frequency of submissions. 
-       <!--The time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> 
-       <!--ick <uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
-       <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
-     <li id="li_760F5068D3ED46C582AE41392A2CA342"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> 
-      <ul id="ul_666759EDDD034537AA7C0ED936A2F315"> 
-       <li id="li_B4AD5CEEBB7B41C0B8DC291B95DC5F83"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
-       <li id="li_C082D3993C6C469B9067F207703BE619"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. The only piece of information to set this up is <span class="uicontrol"> Content Network Filename </span>. The filename is the base name of the file that is served. Use only filenames with a filename extension. Depending on the feed, the filename is a template for multiple files where the feed might generate multiple files in the following format: basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml. </p> <p>After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. </p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Verification </p> </td> 
-   <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
-    <ul id="ul_0C6EFB38E06F401696084863D85CBD0D"> 
-     <li id="li_07FC9F04C7F640048546F9DC5D91DA1D"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
-     <li id="li_67046A56D08C48298E5A3E1F9C4A8AF3"> <span class="uicontrol"> Feed Files </span> <p>After site search/merchandising servers generate the feed files, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do not view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
-     <li id="li_99D66C7AD87A475CB3D831D514DB78A0"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Panel </p> </th> 
+      <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
+      <th colname="col3" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col2"> <p>Feed Name </p> </td> 
+      <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>2 </p> </td> 
+      <td colname="col2"> <p>Field Maps </p> </td> 
+      <td colname="col3"> <p>Lets you map vendor-specific feed fields to site search/merchandising metadata fields. This mapping step in the wizard is important because it allows Feeds to correlate the information between the fields in the index and the fields in the feed data. In most cases, except for <span class="wintitle"> Generic Feeds </span>, the correlations are saved in a dynamically generated search template. </p> <p>Each row in the <span class="wintitle"> Field Maps </span> table represents a field mapping. In the Add/Remove column of the table, click <span class="uicontrol"> + </span> to add a new field mapping row; click <span class="uicontrol"> - </span> to delete the currently selected field mapping row from the table. To associate a feed field with a site search/merchandising metadata fields, use the respective drop-down lists to choose the desired fields. </p> <p> <b>Field mappings for Adobe Recommendations</b> </p> <p>The Recommendation data feed is a CSV file, columns of data separated by commas. The order of appearance of each mapping on the Field Maps table is important as they determine the order of the columns in the CSV feed file. Create the rows of mappings in the following order—each row is mandatory: </p> <p> 
+        <ol id="ol_49C739D04DD340168DC6C1F794544C35"> 
+          <li id="li_A95D9C5A353746A3A0D38F200AC2EEA2"> id </li> 
+          <li id="li_044763D4C7054CEB948C94590735D74F"> name </li> 
+          <li id="li_832F07CA0E3F4E10A4AE30171F3E8541"> categoryId </li> 
+          <li id="li_2A33FB42F7E942ED881BA1F478542C4D"> message </li> 
+          <li id="li_A76E66B2366845B0B63ED5C200531ADD"> thumbnailURL </li> 
+          <li id="li_518CCD5E7E404521AB8199981BA86F76"> value </li> 
+          <li id="li_14A0A8FCC2B34B758E1FBB98E3F2DFB2"> pageURL </li> 
+          <li id="li_36D22F1603394AF89E0C7ADB18AAAAB7"> inventory </li> 
+          <li id="li_ABDB9C762BBC4F27B82FEA4425A8DDC4"> margin </li> 
+        </ol> </p> <p> <b>Advanced usage</b> </p> <p>After you have mapped the first nine required Feed Fields as outlined above, you can create your own custom fields. In the <span class="wintitle"> Feed Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom tag name for that field. This custom option is useful if a feed needs special vendor-specific fields. </p> <p> <p>Note:  Although the Recommendation Feed specifications states that each field name must be prefixed with "entity", it is not necessary in this case. </p> </p> <p>You can also create a custom metadata field. In the <span class="wintitle"> Metadata Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom metadata field value. The value is inserted into the pre-generated template and it can also be used to inject custom search template tags. </p> <p>See <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Search template tags </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col2"> <p>Search Criteria </p> </td> 
+      <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
+        <ul id="ul_799ECF61C03A44878C7182F8B88CC3AD"> 
+        <li id="li_0763F600A4FB4650ACC28BF337EB50AF"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
+        <li id="li_756B776902AE4A0E95524442D663343E"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
+        <li id="li_7ADEDB8747B241D78AC50F1AC75AE695"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
+        <li id="li_4039A9BC2F74460B83BFF662B58DAA1B"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>4 </p> </td> 
+      <td colname="col2"> <p>File Submission </p> </td> 
+      <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
+        <ul id="ul_55E253F83BDA46BAABF2BE38F0918E80"> 
+        <li id="li_877A376B5B30422FAC816E31D50EA508"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the data feed vendor's policy about the frequency of submissions. 
+          <!--The time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> 
+          <!--ick <uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
+          <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
+        <li id="li_760F5068D3ED46C582AE41392A2CA342"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> 
+          <ul id="ul_666759EDDD034537AA7C0ED936A2F315"> 
+          <li id="li_B4AD5CEEBB7B41C0B8DC291B95DC5F83"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
+          <li id="li_C082D3993C6C469B9067F207703BE619"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. The only piece of information to set this up is <span class="uicontrol"> Content Network Filename </span>. The filename is the base name of the file that is served. Use only filenames with a filename extension. Depending on the feed, the filename is a template for multiple files where the feed might generate multiple files in the following format: basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml. </p> <p>After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. </p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>5 </p> </td> 
+      <td colname="col2"> <p>Verification </p> </td> 
+      <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
+        <ul id="ul_0C6EFB38E06F401696084863D85CBD0D"> 
+        <li id="li_07FC9F04C7F640048546F9DC5D91DA1D"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
+        <li id="li_67046A56D08C48298E5A3E1F9C4A8AF3"> <span class="uicontrol"> Feed Files </span> <p>After site search/merchandising servers generate the feed files, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do not view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
+        <li id="li_99D66C7AD87A475CB3D831D514DB78A0"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Generic Feed**
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Panel </p> </th> 
-   <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
-   <th colname="col3" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Feed Name </p> </td> 
-   <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Search Criteria </p> </td> 
-   <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
-    <ul id="ul_C750687E69A647D0A4440FF1B6CC7E05"> 
-     <li id="li_B5C3B8523D71472E9508A04E23AC0211"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
-     <li id="li_D1E49834BBEA42CC8C49AE7D72037C53"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
-     <li id="li_D5F0651B834F4EACAD15A2D154A0737B"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
-     <li id="li_FC8F382BD20C4518BC2230D4B4954591"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
-    </ul> <p>Generic feeds need a special CGI parameter specified. To bind the special template that is associated with this feed, you define the <span class="codeph"> sp_t </span> parameter. Set the value of <span class="codeph"> sp_t </span> to the name of the transport template file. For example, if you added a transport template file named <span class="codeph"> super_feed.tpl </span>, you create a custom CGI search parameter as <span class="codeph"> sp_t=super_feed </span>. The text box for entering the <span class="codeph"> sp_t </span> does not appear until you select <span class="uicontrol"> Free Form </span> from the <span class="wintitle"> Meta Field </span> drop-down list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col2"> <p>File Submission </p> </td> 
-   <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
-    <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
-     <li id="li_79EAFDBD2B9F411EA985CAEC1BAF3926"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the feed vendor's policy about the frequency of submissions. 
-       <!--he time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> 
-       <!--<uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
-       <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
-     <li id="li_20BF70A19E7E45BA91CD972E2FCE0EA4"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> 
-      <ul id="ul_5888C2E9097645CE89938EE09F8CB4F1"> 
-       <li id="li_EA9ED19F3BEA4BEAB1A9F2C2FAFF85F7"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
-       <li id="li_181268A7EE40456CA1DB768E8C66EEB9"> <span class="uicontrol"> Hosted Content Network </span> <p>The Hosted Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. The only piece of information to set this up is <span class="uicontrol"> Content Network Filename </span>. The filename is the base name of the file that is served. Use only filenames with a filename extension. 
-         <!--Depending on the feed, the file name is a template for multiple files where the feed might generate multiple files in the following format: basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml. --> </p> <p>After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. </p> </li> 
-      </ul> </li> 
-     <li id="li_4DF56FA607A7479296CDA042A63C5A2C"> <p> <b>Preserve tabs?</b> </p> <p>Maintain tab characters in the feed. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>4 </p> </td> 
-   <td colname="col2"> <p>Verification </p> </td> 
-   <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
-    <ul id="ul_7420C415987448A796DD979CF5FA2EB6"> 
-     <li id="li_AF02E8609B7B4F20A01AF4E010308E15"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
-     <li id="li_32CEB8885C184354BFA1773BA66DB7A7"> <span class="uicontrol"> Feed Files </span> <p>After site search/merchandising servers generate the feed files, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do not view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
-     <li id="li_8D1B876B0EC2455C8654EC573EC53FA9"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Panel </p> </th> 
+      <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
+      <th colname="col3" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col2"> <p>Feed Name </p> </td> 
+      <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>2 </p> </td> 
+      <td colname="col2"> <p>Search Criteria </p> </td> 
+      <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
+        <ul id="ul_C750687E69A647D0A4440FF1B6CC7E05"> 
+        <li id="li_B5C3B8523D71472E9508A04E23AC0211"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
+        <li id="li_D1E49834BBEA42CC8C49AE7D72037C53"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
+        <li id="li_D5F0651B834F4EACAD15A2D154A0737B"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
+        <li id="li_FC8F382BD20C4518BC2230D4B4954591"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
+        </ul> <p>Generic feeds need a special CGI parameter specified. To bind the special template that is associated with this feed, you define the <span class="codeph"> sp_t </span> parameter. Set the value of <span class="codeph"> sp_t </span> to the name of the transport template file. For example, if you added a transport template file named <span class="codeph"> super_feed.tpl </span>, you create a custom CGI search parameter as <span class="codeph"> sp_t=super_feed </span>. The text box for entering the <span class="codeph"> sp_t </span> does not appear until you select <span class="uicontrol"> Free Form </span> from the <span class="wintitle"> Meta Field </span> drop-down list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col2"> <p>File Submission </p> </td> 
+      <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
+        <ul id="ul_30E830C41F6A4526822AF1FD3083075A"> 
+        <li id="li_79EAFDBD2B9F411EA985CAEC1BAF3926"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the feed vendor's policy about the frequency of submissions. 
+          <!--he time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> 
+          <!--<uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
+          <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
+        <li id="li_20BF70A19E7E45BA91CD972E2FCE0EA4"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> 
+          <ul id="ul_5888C2E9097645CE89938EE09F8CB4F1"> 
+          <li id="li_EA9ED19F3BEA4BEAB1A9F2C2FAFF85F7"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
+          <li id="li_181268A7EE40456CA1DB768E8C66EEB9"> <span class="uicontrol"> Hosted Content Network </span> <p>The Hosted Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. The only piece of information to set this up is <span class="uicontrol"> Content Network Filename </span>. The filename is the base name of the file that is served. Use only filenames with a filename extension. 
+            <!--Depending on the feed, the file name is a template for multiple files where the feed might generate multiple files in the following format: basename.xml, basename1.xml, basename2.xml, ..., basename-Nth.xml. --> </p> <p>After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. </p> </li> 
+          </ul> </li> 
+        <li id="li_4DF56FA607A7479296CDA042A63C5A2C"> <p> <b>Preserve tabs?</b> </p> <p>Maintain tab characters in the feed. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>4 </p> </td> 
+      <td colname="col2"> <p>Verification </p> </td> 
+      <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
+        <ul id="ul_7420C415987448A796DD979CF5FA2EB6"> 
+        <li id="li_AF02E8609B7B4F20A01AF4E010308E15"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
+        <li id="li_32CEB8885C184354BFA1773BA66DB7A7"> <span class="uicontrol"> Feed Files </span> <p>After site search/merchandising servers generate the feed files, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do not view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
+        <li id="li_8D1B876B0EC2455C8654EC573EC53FA9"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Google Merchant Center**
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Panel </p> </th> 
-   <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
-   <th colname="col3" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Feed Name </p> </td> 
-   <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Field Maps </p> </td> 
-   <td colname="col3"> <p>Lets you map vendor-specific feed fields to site search/merchandising metadata fields. This mapping step in the wizard is important because it allows Feeds to correlate the information between the fields in the index and the fields in the feed data. In most cases, except for <span class="wintitle"> Generic Feeds </span>, the correlations are saved in a dynamically generated search template. </p> <p>Each row in the Field Maps table represents a field mapping. In the <span class="wintitle"> Add/Remove </span> column of the table, click <span class="uicontrol"> + </span> to add a new field mapping row; click <span class="uicontrol"> - </span> to delete the currently selected field mapping row from the table. To associate a feed field with a site search/merchandising metadata field, use the respective drop-down lists to choose the desired fields. </p> <p> <b>Advanced usage</b> </p> <p>You can create your own custom fields. In the <span class="wintitle"> Feed Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom tag name for that field. This custom option is useful if a feed needs special vendor-specific fields. </p> <p>You can also create a custom metadata field. In the <span class="wintitle"> Metadata Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom metadata field value. The value is inserted into the pre-generated template and it can also be used to inject custom search template tags. </p> <p>See <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Search template tags </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col2"> <p>Search Criteria </p> </td> 
-   <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
-    <ul id="ul_8179321A58BB4C72B0CDB2B2BEC58FE4"> 
-     <li id="li_9F8008A2398A4667B106BC49C94E5E3E"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
-     <li id="li_50C9CE59E9E5418895F8C1A070560063"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
-     <li id="li_9F86D0F5010046A4A9F93DBA5FB158B3"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
-     <li id="li_1051AFD5AEA447D0AF5FAB305E1D1E64"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>4 </p> </td> 
-   <td colname="col2"> <p>File Submission </p> </td> 
-   <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
-    <ul id="ul_A6A3C333AADD4438B835BF3E16E2AEFF"> 
-     <li id="li_FCC4DAF198E149278B5CFB870CB6218C"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the feed vendor's policy about the frequency of submissions. </p> <p> 
-       <!--The time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> </p> <p> 
-       <!--Click <uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
-       <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
-     <li id="li_2D9ECAFB8E8544D39B486F7BC3DCE589"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> <p>The recommended upload method for submitting the data feed is <span class="uicontrol"> FTP </span>. Google Merchant Center hosts an FTP server for this purpose. See the Google Merchant Center Help about setting up a separate Google FTP account for this Google Product Search feed. </p> 
-      <ul id="ul_BC0D8B541068407883CAC948496DBD0A"> 
-       <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. In this case, it is 
-         <userinput>
-           uploads.google.com 
-         </userinput>. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
-       <li id="li_5990927146434DAF89273F4636D21437"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. </p> <p> 
-         <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
-      </ul> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Verification </p> </td> 
-   <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
-    <ul id="ul_4A94355A8DF840A3BAF6BD5E9F11C27F"> 
-     <li id="li_825697CB36B34C4AB5959B15EDDB55F1"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
-     <li id="li_91B8B5F5F9DE4A13863CD62F74AA6206"> <span class="uicontrol"> Feed Files </span> <p>After site search/merchandising servers generate the feed files, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do not view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
-     <li id="li_4A5EC089628E43029A38F8919888FF0A"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Panel </p> </th> 
+      <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
+      <th colname="col3" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col2"> <p>Feed Name </p> </td> 
+      <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>2 </p> </td> 
+      <td colname="col2"> <p>Field Maps </p> </td> 
+      <td colname="col3"> <p>Lets you map vendor-specific feed fields to site search/merchandising metadata fields. This mapping step in the wizard is important because it allows Feeds to correlate the information between the fields in the index and the fields in the feed data. In most cases, except for <span class="wintitle"> Generic Feeds </span>, the correlations are saved in a dynamically generated search template. </p> <p>Each row in the Field Maps table represents a field mapping. In the <span class="wintitle"> Add/Remove </span> column of the table, click <span class="uicontrol"> + </span> to add a new field mapping row; click <span class="uicontrol"> - </span> to delete the currently selected field mapping row from the table. To associate a feed field with a site search/merchandising metadata field, use the respective drop-down lists to choose the desired fields. </p> <p> <b>Advanced usage</b> </p> <p>You can create your own custom fields. In the <span class="wintitle"> Feed Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom tag name for that field. This custom option is useful if a feed needs special vendor-specific fields. </p> <p>You can also create a custom metadata field. In the <span class="wintitle"> Metadata Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom metadata field value. The value is inserted into the pre-generated template and it can also be used to inject custom search template tags. </p> <p>See <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Search template tags </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col2"> <p>Search Criteria </p> </td> 
+      <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
+        <ul id="ul_8179321A58BB4C72B0CDB2B2BEC58FE4"> 
+        <li id="li_9F8008A2398A4667B106BC49C94E5E3E"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
+        <li id="li_50C9CE59E9E5418895F8C1A070560063"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
+        <li id="li_9F86D0F5010046A4A9F93DBA5FB158B3"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
+        <li id="li_1051AFD5AEA447D0AF5FAB305E1D1E64"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>4 </p> </td> 
+      <td colname="col2"> <p>File Submission </p> </td> 
+      <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
+        <ul id="ul_A6A3C333AADD4438B835BF3E16E2AEFF"> 
+        <li id="li_FCC4DAF198E149278B5CFB870CB6218C"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the feed vendor's policy about the frequency of submissions. </p> <p> 
+          <!--The time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> </p> <p> 
+          <!--Click <uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
+          <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
+        <li id="li_2D9ECAFB8E8544D39B486F7BC3DCE589"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> <p>The recommended upload method for submitting the data feed is <span class="uicontrol"> FTP </span>. Google Merchant Center hosts an FTP server for this purpose. See the Google Merchant Center Help about setting up a separate Google FTP account for this Google Product Search feed. </p> 
+          <ul id="ul_BC0D8B541068407883CAC948496DBD0A"> 
+          <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. In this case, it is 
+            <userinput>
+              uploads.google.com 
+            </userinput>. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
+          <li id="li_5990927146434DAF89273F4636D21437"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. </p> <p> 
+            <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>5 </p> </td> 
+      <td colname="col2"> <p>Verification </p> </td> 
+      <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
+        <ul id="ul_4A94355A8DF840A3BAF6BD5E9F11C27F"> 
+        <li id="li_825697CB36B34C4AB5959B15EDDB55F1"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
+        <li id="li_91B8B5F5F9DE4A13863CD62F74AA6206"> <span class="uicontrol"> Feed Files </span> <p>After site search/merchandising servers generate the feed files, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do not view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
+        <li id="li_4A5EC089628E43029A38F8919888FF0A"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Google Sitemaps**
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Panel </p> </th> 
-   <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
-   <th colname="col3" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>1 </p> </td> 
-   <td colname="col2"> <p>Feed Name </p> </td> 
-   <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>2 </p> </td> 
-   <td colname="col2"> <p>Field Maps </p> </td> 
-   <td colname="col3"> <p>Lets you map vendor-specific feed fields to site search/merchandising metadata fields. This mapping step in the wizard is important because it allows Feeds to correlate the information between the fields in the index and the fields in the feed data. In most cases, except for <span class="wintitle"> Generic Feeds </span>, the correlations are saved in a dynamically generated search template. </p> <p>Each row in the Field Maps table represents a field mapping. In the Add/Remove column of the table, click <span class="uicontrol"> + </span> to add a new field mapping row; click <span class="uicontrol"> - </span> to delete the currently selected field mapping row from the table. To associate a Feed Field with a Metadata Field, use the respective drop-down lists to choose the desired fields. </p> <p> <b>Advanced usage</b> </p> <p>You can create your own custom fields. In the <span class="wintitle"> Feed Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom tag name for that field. This custom option is useful if a feed needs special vendor-specific fields. </p> <p>You can also create a custom metadata field. In the <span class="wintitle"> Metadata Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom metadata field value. The value is inserted into the pre-generated template and it can also be used to inject custom search template tags. </p> <p>See <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Search template tags </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>3 </p> </td> 
-   <td colname="col2"> <p>Search Criteria </p> </td> 
-   <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
-    <ul id="ul_994585E89A044BD3A89A99D30F277432"> 
-     <li id="li_61FA9246B9824E3C8124958C8EBFF0DA"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
-     <li id="li_A5D00883738845C8B8F612A7521F160F"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
-     <li id="li_5A312C2984454C2CB518CA453AD9F6D2"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
-     <li id="li_666AAE1BC7A2432E91953B08EC7394DC"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>4 </p> </td> 
-   <td colname="col2"> <p>File Submission </p> </td> 
-   <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
-    <ul id="ul_49B3255BE669424B925BBAEE4C9B385F"> 
-     <li id="li_939828C774D440EBB0769F6D5B0BBA23"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the feed vendor's policy about the frequency of submissions. </p> <p> 
-       <!--The time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> </p> <p> 
-       <!--Click <uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
-       <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
-     <li id="li_07B5BCF7936241A7915C4898B231184B"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> 
-      <ul id="ul_74FA98A82754469BA5FADCC63FC364F7"> 
-       <li id="li_02940B712D6444A8B65C0A51834187E6"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
-       <li id="li_EAE504436CD84452BA04BE51855A2BEF"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the way to serve files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. </p> <p> 
-         <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
-      </ul> </li> 
-    </ul> <p>Note that either upload method requires you to specify the URL that Google uses to retrieve the sitemap, in the <span class="wintitle"> Main Sitemap URL </span> field. The name of the sitemap file is determined here, too. If your sitemap is large, multiple files may exist and the naming convention is to attach an index number at the end of the file starting with the number 1. The first file or index file has no index, as in <span class="codeph"> sitemap.xml </span>, <span class="codeph"> sitemap1.xml </span>, <span class="codeph"> sitemap2.xml </span> ... <span class="codeph"> sitemap12.xml </span>. </p> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as the upload method, the URL of the files has the same filenames, but the URL has the path and host name of the hosting service. Therefore, you redirect the requests for the sitemap to the Hosted Content Network. You should be able to pull the files from the same location, too. </p> <p>After the feed files are created and submitted to the intermediate destination, Google is pinged and lets them know that the sitemap feed is ready. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>5 </p> </td> 
-   <td colname="col2"> <p>Verification </p> </td> 
-   <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
-    <ul id="ul_A1D889A84972419599FC83F39EA2676A"> 
-     <li id="li_C8ED077B6DD1461E85A4914C1CFDBE88"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
-     <li id="li_DACEE40703AF40EFBCD90D43825CE9C1"> <span class="uicontrol"> Feed Files </span> <p>After the feed files are generated, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do no view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
-     <li id="li_1C530354B4F34EC79D92CEFEB5B39ED7"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Panel </p> </th> 
+      <th colname="col2" class="entry"> <p>Wizard Panel Name </p> </th> 
+      <th colname="col3" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>1 </p> </td> 
+      <td colname="col2"> <p>Feed Name </p> </td> 
+      <td colname="col3"> <p>Specifies the name of the feed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>2 </p> </td> 
+      <td colname="col2"> <p>Field Maps </p> </td> 
+      <td colname="col3"> <p>Lets you map vendor-specific feed fields to site search/merchandising metadata fields. This mapping step in the wizard is important because it allows Feeds to correlate the information between the fields in the index and the fields in the feed data. In most cases, except for <span class="wintitle"> Generic Feeds </span>, the correlations are saved in a dynamically generated search template. </p> <p>Each row in the Field Maps table represents a field mapping. In the Add/Remove column of the table, click <span class="uicontrol"> + </span> to add a new field mapping row; click <span class="uicontrol"> - </span> to delete the currently selected field mapping row from the table. To associate a Feed Field with a Metadata Field, use the respective drop-down lists to choose the desired fields. </p> <p> <b>Advanced usage</b> </p> <p>You can create your own custom fields. In the <span class="wintitle"> Feed Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom tag name for that field. This custom option is useful if a feed needs special vendor-specific fields. </p> <p>You can also create a custom metadata field. In the <span class="wintitle"> Metadata Fields </span> drop-down list, click <span class="uicontrol"> Custom </span>. In the associated text field, enter a custom metadata field value. The value is inserted into the pre-generated template and it can also be used to inject custom search template tags. </p> <p>See <a href="../c-appendices/c-templates.md#reference_F7AA3FF602314E42842BBC740D2CA1A4" type="reference" format="dita" scope="local"> Search template tags </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>3 </p> </td> 
+      <td colname="col2"> <p>Search Criteria </p> </td> 
+      <td colname="col3"> <p>When the feed files are generated, a search query is used to filter the data. You define the filters that are used for the search query in this panel. </p> 
+        <ul id="ul_994585E89A044BD3A89A99D30F277432"> 
+        <li id="li_61FA9246B9824E3C8124958C8EBFF0DA"> <span class="uicontrol"> Meta Field </span> <p>Defines which metadata field that you want to filter on. </p> <p> <b>Advanced usage</b> </p> <p>Because the filtering system is a standard search query, you can select <span class="uicontrol"> Free Form </span> from the drop-down list to enter CGI search parameters and their values. URL escaping is required. The search argument <span class="codeph"> sp_q </span> is ignored. You can create multiple rows of Free Form text boxes. Between each row, the arguments are delimited with &amp;'s automatically. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </li> 
+        <li id="li_A5D00883738845C8B8F612A7521F160F"> <span class="uicontrol"> Criteria </span> <p>Defines the filter operation. The filter operation that you select from the drop-down list applies the constant value that is entered in the third column. </p> </li> 
+        <li id="li_5A312C2984454C2CB518CA453AD9F6D2"> <span class="uicontrol"> Value </span> <p>The constant value. </p> </li> 
+        <li id="li_666AAE1BC7A2432E91953B08EC7394DC"> <span class="uicontrol"> Action </span> <p>Adds a new field mapping row, or deletes the currently highlighted row. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>4 </p> </td> 
+      <td colname="col2"> <p>File Submission </p> </td> 
+      <td colname="col3"> <p>Lets you configure the schedule for submitting the feed files and set the method that you want to use to upload the files. </p> 
+        <ul id="ul_49B3255BE669424B925BBAEE4C9B385F"> 
+        <li id="li_939828C774D440EBB0769F6D5B0BBA23"> <span class="uicontrol"> Schedule </span> <p>Sets the maximum frequency that a feed is submitted. Selecting <span class="uicontrol"> Never </span> turns off the feed. Other values define the period that the feed waits before submitting again. The decision when to submit the feed is done at each index. In other words, at the end of the index, a feed is checked to see if it has expired and needs to be updated and submitted by the vendor. Also, it is used as a method of preventing an account from over-submitting to a vendor. Some vendors have policies against data feed sources that upload too frequently. Be sure that you check the feed vendor's policy about the frequency of submissions. </p> <p> 
+          <!--The time of the last upload and the status of the upload feed is displayed here. If any other feeds are currently running, their status appears here instead. Each account processes one feed at a time. --> </p> <p> 
+          <!--Click <uicontrol>Manual Upload</uicontrol> to generate the feed and push the files to the final destination. Any schedule restrictions that you have already set are ignored. --> </p> <p> 
+          <!--If <uicontrol>Manual Upload</uicontrol> is dimmed (inactive), the account is currently processing this feed or another feed. An account only works with one feed at a time. --> </p> </li> 
+        <li id="li_07B5BCF7936241A7915C4898B231184B"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> 
+          <ul id="ul_74FA98A82754469BA5FADCC63FC364F7"> 
+          <li id="li_02940B712D6444A8B65C0A51834187E6"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
+          <li id="li_EAE504436CD84452BA04BE51855A2BEF"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the way to serve files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. </p> <p> 
+            <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
+          </ul> </li> 
+        </ul> <p>Note that either upload method requires you to specify the URL that Google uses to retrieve the sitemap, in the <span class="wintitle"> Main Sitemap URL </span> field. The name of the sitemap file is determined here, too. If your sitemap is large, multiple files may exist and the naming convention is to attach an index number at the end of the file starting with the number 1. The first file or index file has no index, as in <span class="codeph"> sitemap.xml </span>, <span class="codeph"> sitemap1.xml </span>, <span class="codeph"> sitemap2.xml </span> ... <span class="codeph"> sitemap12.xml </span>. </p> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as the upload method, the URL of the files has the same filenames, but the URL has the path and host name of the hosting service. Therefore, you redirect the requests for the sitemap to the Hosted Content Network. You should be able to pull the files from the same location, too. </p> <p>After the feed files are created and submitted to the intermediate destination, Google is pinged and lets them know that the sitemap feed is ready. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>5 </p> </td> 
+      <td colname="col2"> <p>Verification </p> </td> 
+      <td colname="col3"> <p>When you get to the <span class="wintitle"> Verification </span> panel, your feed is saved at that point. However, the actual feed files are not saved until later. </p> <p>The <span class="wintitle"> Verification </span> panel lets you do the following: </p> 
+        <ul id="ul_A1D889A84972419599FC83F39EA2676A"> 
+        <li id="li_C8ED077B6DD1461E85A4914C1CFDBE88"> <span class="uicontrol"> Data View </span> <p>Lets you click the link to check the feed output through a data view that is displayed in table form. The data view can also help you troubleshoot by showing you which meta fields are chosen and how any specified search criteria from the <span class="wintitle"> Search Criteria </span> panel in the wizard, affects the feed output. The data view is generated dynamically, so it is available at all times. </p> </li> 
+        <li id="li_DACEE40703AF40EFBCD90D43825CE9C1"> <span class="uicontrol"> Feed Files </span> <p>After the feed files are generated, you can use the <span class="uicontrol"> Feed Files </span> drop-down list to view the files from the servers. A new browser tab or new browser window appears with the content of the feed. This method is useful for helping you troubleshoot feeds that have formatting issues. Note that you do no view the files from the final destination or from the vendors themselves. </p> <p> If the feed is new, then the drop-down list is empty until you generate feed files. </p> </li> 
+        <li id="li_1C530354B4F34EC79D92CEFEB5B39ED7"> <span class="uicontrol"> Content Network Link </span> <p>If you chose <span class="uicontrol"> Hosted Content Network </span> as your upload method in the <span class="wintitle"> File Submission </span> panel of the wizard, the URL is displayed here. If you have not yet generated any feed files, the URL is not valid until the feed is successfully generated. </p> </li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. When you complete the steps in the wizard, click **[!UICONTROL Close]**.
 

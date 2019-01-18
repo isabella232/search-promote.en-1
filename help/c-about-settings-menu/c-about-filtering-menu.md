@@ -188,114 +188,114 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
    Click a testing option to see changes to the raw HTML text.
 
    <!-- 
+   
+   r_filtering_script_options.xml
+   
+   -->
 
-r_filtering_script_options.xml
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Test URL field </p> </td> 
+      <td colname="col2"> <p>Lets you enter the URL of a document on your website. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Test </p> </td> 
+      <td colname="col2"> <p>Tests the URL against the filtering scripts and URL masks. </p> <p>The test URL document is downloaded, which is then used as the STDIN input to the filtering script. The initialization, filtering, and termination scripts are then run. If there is any STDOUT output from the filtering script, that output is displayed in a new browser window. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Test only </p> </td> 
+      <td colname="col2"> <p>Tests the script's operation only. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Preview </p> </td> 
+      <td colname="col2"> <p>Lets you view the page. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Full visual </p> </td> 
+      <td colname="col2"> <p>Generates a full before-and-after table view of the documents. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Short visual </p> </td> 
+      <td colname="col2"> <p>Shows only the differences between the before-and-after views. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Expert (diff) </p> </td> 
+      <td colname="col2"> <p>Displays the raw output of the GNU diff command that is used to compare the files, using the supplied command line options. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Filtering Script </p> </td> 
+      <td colname="col2"> <p>Lets you paste your filtering script in the field provided. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Save Changes </p> </td> 
+      <td colname="col2"> <p>Saves the filtering script. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Check Syntax </p> </td> 
+      <td colname="col2"> <p>Lets you do a quick syntax check of your script by running the initialization, filtering, and termination scripts. It does not update and save your script. </p> <p>All Perl compiler errors and warnings, and all STDERR output are printed. </p> <p>Before the effects of the script are visible to customers, you must rebuild your site index. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
- -->
+    **GNU diff command line options**
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Test URL field </p> </td> 
-   <td colname="col2"> <p>Lets you enter the URL of a document on your website. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Test </p> </td> 
-   <td colname="col2"> <p>Tests the URL against the filtering scripts and URL masks. </p> <p>The test URL document is downloaded, which is then used as the STDIN input to the filtering script. The initialization, filtering, and termination scripts are then run. If there is any STDOUT output from the filtering script, that output is displayed in a new browser window. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Test only </p> </td> 
-   <td colname="col2"> <p>Tests the script's operation only. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Preview </p> </td> 
-   <td colname="col2"> <p>Lets you view the page. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Full visual </p> </td> 
-   <td colname="col2"> <p>Generates a full before-and-after table view of the documents. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Short visual </p> </td> 
-   <td colname="col2"> <p>Shows only the differences between the before-and-after views. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Expert (diff) </p> </td> 
-   <td colname="col2"> <p>Displays the raw output of the GNU diff command that is used to compare the files, using the supplied command line options. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Filtering Script </p> </td> 
-   <td colname="col2"> <p>Lets you paste your filtering script in the field provided. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Save Changes </p> </td> 
-   <td colname="col2"> <p>Saves the filtering script. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Check Syntax </p> </td> 
-   <td colname="col2"> <p>Lets you do a quick syntax check of your script by running the initialization, filtering, and termination scripts. It does not update and save your script. </p> <p>All Perl compiler errors and warnings, and all STDERR output are printed. </p> <p>Before the effects of the script are visible to customers, you must rebuild your site index. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    Some GNU diff options that you can use while in **[!UICONTROL Expert (diff)]** mode on the Staged Filtering Script page, include the following:
 
-**GNU diff command line options**
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>GNU diff command line option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -b </span> </p> </td> 
+      <td colname="col2"> <p> Ignores changes in amount of white space. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -B </span> </p> </td> 
+      <td colname="col2"> <p> Ignores changes that insert or delete blank lines. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -c </span> </p> </td> 
+      <td colname="col2"> <p> Uses the context output format, showing three lines of context. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -C lines </span> </p> </td> 
+      <td colname="col2"> <p> Uses the context output format, showing lines (an integer) lines of context, or three if lines is not given. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -i </span> </p> </td> 
+      <td colname="col2"> <p> Ignores changes in case; consider upper- and lowercase letters equivalent. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -f </span> </p> </td> 
+      <td colname="col2"> <p> Makes output that looks similar like an ed script but has changes in the order that they appear in the file. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -n </span> </p> </td> 
+      <td colname="col2"> <p> Outputs RCS-format diffs; like <span class="codeph"> -f </span> except that each command specifies the number of lines that are affected. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>-u </p> </td> 
+      <td colname="col2"> <p> Uses the unified output format, showing three lines of context. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <span class="codeph"> -U lines </span> </p> </td> 
+      <td colname="col2"> <p> Uses the unified output format, showing lines (an integer) of context, or three if lines is not given. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
-Some GNU diff options that you can use while in **[!UICONTROL Expert (diff)]** mode on the Staged Filtering Script page, include the following:
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>GNU diff command line option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -b </span> </p> </td> 
-   <td colname="col2"> <p> Ignores changes in amount of white space. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -B </span> </p> </td> 
-   <td colname="col2"> <p> Ignores changes that insert or delete blank lines. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -c </span> </p> </td> 
-   <td colname="col2"> <p> Uses the context output format, showing three lines of context. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -C lines </span> </p> </td> 
-   <td colname="col2"> <p> Uses the context output format, showing lines (an integer) lines of context, or three if lines is not given. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -i </span> </p> </td> 
-   <td colname="col2"> <p> Ignores changes in case; consider upper- and lowercase letters equivalent. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -f </span> </p> </td> 
-   <td colname="col2"> <p> Makes output that looks similar like an ed script but has changes in the order that they appear in the file. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -n </span> </p> </td> 
-   <td colname="col2"> <p> Outputs RCS-format diffs; like <span class="codeph"> -f </span> except that each command specifies the number of lines that are affected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>-u </p> </td> 
-   <td colname="col2"> <p> Uses the unified output format, showing three lines of context. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> -U lines </span> </p> </td> 
-   <td colname="col2"> <p> Uses the unified output format, showing lines (an integer) of context, or three if lines is not given. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-   Click **[!UICONTROL Test]** to test against the filtering scripts and URL masks.
+1. Click **[!UICONTROL Test]** to test against the filtering scripts and URL masks.
 
    Clicking **[!UICONTROL Test]** does not update and save your filtering script. 
 1. In the [!DNL Filtering Script] field, paste your script.

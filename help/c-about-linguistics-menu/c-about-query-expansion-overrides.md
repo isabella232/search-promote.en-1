@@ -80,37 +80,37 @@ t_configuring_query_expansion_overrides.xml
 1. In the Query Expansion Overrides Add page, set the options you want.
 
    <!-- 
+   
+   r_query_expansion_override_definitions.xml
+   
+   -->
 
-r_query_expansion_override_definitions.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Do Not Expand </p> </td> 
-   <td colname="col2"> <p>Specifies the word or phrase that you do not want to expand. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>Select <b>Text</b> to specify a specific word or phrase pairing. Or, select a classification to specify that the Do Not Expand word or phrase is not converted by way of the selected classification. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Term </p> </td> 
-   <td colname="col2"> <p>Only available if you selected <b>Text</b> as the Type. Specifies the word or phrase to exclude from the search expansion. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Action </p> </td> 
-   <td colname="col2"> <p> Click <b>+</b> or <b>-</b> to add or delete Terms, respectively, to the definition. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Do Not Expand </p> </td> 
+      <td colname="col2"> <p>Specifies the word or phrase that you do not want to expand. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Type </p> </td> 
+      <td colname="col2"> <p>Select <b>Text</b> to specify a specific word or phrase pairing. Or, select a classification to specify that the Do Not Expand word or phrase is not converted by way of the selected classification. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Term </p> </td> 
+      <td colname="col2"> <p>Only available if you selected <b>Text</b> as the Type. Specifies the word or phrase to exclude from the search expansion. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Action </p> </td> 
+      <td colname="col2"> <p> Click <b>+</b> or <b>-</b> to add or delete Terms, respectively, to the definition. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. When you are finished, click **Add**.
 

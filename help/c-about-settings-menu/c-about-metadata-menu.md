@@ -49,23 +49,23 @@ Before the effects of the new meta tag definition is visible to customers, you m
 1. On the [!DNL Add Field] page, set the options that you want.
 
    <!-- 
+   
+   r_meta_tag_field_options.xml
+   
+   -->
 
-r_meta_tag_field_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Field Name </p> </td> 
-   <td colname="col2"> <p>Specifies a name that is used to reference the field. </p> <p>The field name must adhere to the following rules: </p> <p> 
-     <ul id="ul_D39D09CD7E7D41A59ECB6C5A6F4F263D"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Field Name </p> </td> 
+      <td colname="col2"> <p>Specifies a name that is used to reference the field. </p> <p>The field name must adhere to the following rules: </p> <p> 
+      <ul id="ul_D39D09CD7E7D41A59ECB6C5A6F4F263D"> 
       <li id="li_11CE852BE3C64CEF90FEC7A6E1079E13"> The name must contain only alphanumeric characters. </li> 
       <li id="li_7FC340E7C58545C88CE9AF4AF09AD7AD"> Dashes are allowed in the name, but no spaces. </li> 
       <li id="li_996FF38457AB4C6DB22B15850A0830CC"> You can enter a name up to 20 characters long. </li> 
@@ -73,221 +73,221 @@ r_meta_tag_field_options.xml
       <li id="li_E55404D6CE354EC89CFFEB1048A11F44"> You cannot use the names that exist in the pre-defined fields as seen in the table on the <span class="wintitle"> Staged Definitions </span> page. </li> 
       <li id="li_7CE328AE3B5F45A8A09E2DA7ECB62551"> You cannot use the word "any" as the value of a user-defined field name. </li> 
       <li id="li_9B8287EED1784E79BFCBBBA956705CD2"> You cannot edit the names of pre-defined fields. </li> 
-     </ul> </p> <p> Field name examples: </p> <p> 
-     <ul id="ul_5881669913D04E35A6D4A6D31BEE7DF3"> 
-      <li id="li_0AFFB8B516FE40F8A615C2F578F2CEA3"> author </li> 
-      <li id="li_7F0ADFBFB21E4B84ACA8A1CEBFE344D1"> PublishDate </li> 
-      <li id="li_6D1BEB3D19AC499E9227EC115AEB6296"> something-wild </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Meta Tag Name(s) </p> </td> 
-   <td colname="col2"> <p>Determines the content that is associated with the defined field. </p> <p>The list of names can be up to 255 characters long. And, name can contain any characters that are allowed in the name attribute of an HTML meta tag. </p> <p>You can specify multiple meta tags in a single field definition. </p> <p>Multiple values must be comma-separated, and the leftmost meta tag name found on any given web page takes precedence. </p> <p>For example, suppose that you have defined a field named "auth". The field name has the associated meta tags "author, dc.author". In this case, the content from the "author" meta tag is indexed and searched over that of the "dc.author" if both meta tags appear on a web page. </p> <p>User-defined fields must have at least one meta tag name in their definition. Pre-defined fields do not need to have an associated meta tag. However, if one or more meta tags are specified, the content of the meta tags override the current data source for each tag. </p> <p>For example, if the meta tag "dc.title" is associated with the pre-defined "title" field, the content from the "dc.title" meta tag is indexed over that of the 
-     <userinput>
-       &lt;title&gt; 
-     </userinput> tag for any particular document. </p> <p>Examples include the following: </p> <p> 
-     <ul id="ul_0132E15FC19E4C0CA13CD5A12EA3BBEC"> 
+      </ul> </p> <p> Field name examples: </p> <p> 
+      <ul id="ul_5881669913D04E35A6D4A6D31BEE7DF3"> 
+        <li id="li_0AFFB8B516FE40F8A615C2F578F2CEA3"> author </li> 
+        <li id="li_7F0ADFBFB21E4B84ACA8A1CEBFE344D1"> PublishDate </li> 
+        <li id="li_6D1BEB3D19AC499E9227EC115AEB6296"> something-wild </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Meta Tag Name(s) </p> </td> 
+      <td colname="col2"> <p>Determines the content that is associated with the defined field. </p> <p>The list of names can be up to 255 characters long. And, name can contain any characters that are allowed in the name attribute of an HTML meta tag. </p> <p>You can specify multiple meta tags in a single field definition. </p> <p>Multiple values must be comma-separated, and the leftmost meta tag name found on any given web page takes precedence. </p> <p>For example, suppose that you have defined a field named "auth". The field name has the associated meta tags "author, dc.author". In this case, the content from the "author" meta tag is indexed and searched over that of the "dc.author" if both meta tags appear on a web page. </p> <p>User-defined fields must have at least one meta tag name in their definition. Pre-defined fields do not need to have an associated meta tag. However, if one or more meta tags are specified, the content of the meta tags override the current data source for each tag. </p> <p>For example, if the meta tag "dc.title" is associated with the pre-defined "title" field, the content from the "dc.title" meta tag is indexed over that of the 
+      <userinput>
+        &lt;title&gt; 
+      </userinput> tag for any particular document. </p> <p>Examples include the following: </p> <p> 
+      <ul id="ul_0132E15FC19E4C0CA13CD5A12EA3BBEC"> 
       <li id="li_ECD3B194FECB4C2090CAEC8449320D3F"> dc.date </li> 
       <li id="li_09C76BC7AC7348859D01989697212E31"> description </li> 
       <li id="li_9230C0450F9D424087D1F127048DA311"> proprietarytag </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Data Type </p> </td> 
-   <td colname="col2"> <p>Every field has an associated data type such as text, number, date, version, rank, or location. This data type determines how the field's content is indexed, searched and optionally, sorted. </p> <p>You cannot change the data type after you create the field definition. </p> <p>Use the following information to help you select the data type that is relevant to the information that the field contains. </p> <p> 
-     <ul id="ul_A3AD5A0CF354410F836311F39151B8A6"> 
+      </ul> </p> </td> 
+    </tr> 
+      <tr> 
+      <td colname="col1"> <p>Data Type </p> </td> 
+      <td colname="col2"> <p>Every field has an associated data type such as text, number, date, version, rank, or location. This data type determines how the field's content is indexed, searched and optionally, sorted. </p> <p>You cannot change the data type after you create the field definition. </p> <p>Use the following information to help you select the data type that is relevant to the information that the field contains. </p> <p> 
+      <ul id="ul_A3AD5A0CF354410F836311F39151B8A6"> 
       <li id="li_9F412DA7D9EF497BA6E65F9CE10F3046"> <span class="uicontrol"> Text </span> data type fields are treated as character strings. </li> 
       <li id="li_AD78B75644AE40208F0239311015611F"> <span class="uicontrol"> Number </span> data type fields are treated as integer or floating-point numeric values. </li> 
       <li id="li_0B46975C589148E9A7C32A8D250487B7"> <span class="uicontrol"> Date </span> data type fields are treated as date/time specifiers. You can customize the allowed date/time formats when you add or edit the new field. </li> 
       <li id="li_BB68CB1DBE0543AC9000B3DEDFB28E7E"> <span class="uicontrol"> Version </span> data type fields are treated as free-form numeric data. For example, 1.2.3 sorts before 1.2.2. </li> 
       <li id="li_0BA895B4DADA46528A7A4161EEB1521E"> <span class="uicontrol"> Rank </span> data type fields are treated the same as "Number" type fields, except that they additionally influence the ranking / relevance calculations in the search results. <p>See <a href="../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397" type="concept" format="dita" scope="local"> About Ranking Rules </a>. </p> </li> 
       <li id="li_459405DA437049AD88AA1FAC28F04720"> <span class="uicontrol"> Location </span> data type fields are treated as a physical location anywhere in the world. The allowed location formats include the following: <p> 
-        <ul id="ul_D2CEBFA1A5504AA996BA2F7641AFB7F3"> 
-         <li id="li_5283A2F2D5D84840B3D920C08D43654C"> 5- or 9-digit ZIP codes in the form of DDDDD or DDDDD-DDDD, where each "D" is a 0-9 digit. </li> 
-         <li id="li_A5CD4DFC90164BC68183DB7D10603B7C"> Three-digit area-codes in the form of DDD. </li> 
-         <li id="li_9DAEAE64BC7F4902B25043D998C8F56D"> Latitude/longitude pairs in the form ±DD.DDDD±DDD.DDDD, where the first number specifies the latitude and the second number specifies the longitude. </li> 
-        </ul> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Allow Lists </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Text </span>, or <span class="uicontrol"> Number </span> is selected. </p> <p>Separately index delimited values in the metadata content of this field. </p> <p>For example, the content "Red, Yellow, Green, Blue" is treated as four separate values instead of one when "Allow Lists" is selected. This treatment is most useful with range searching (using 
-     <userinput>
-       sp_q_min 
-     </userinput>, 
-     <userinput>
-       sp_q_max 
-     </userinput>, or 
-     <userinput>
-       sp_q_exact 
-     </userinput>) and with the 
-     <userinput>
-       &lt;search-field-value-list&gt; 
-     </userinput>, 
-     <userinput>
-       &lt;search-field-values&gt; 
-     </userinput>, and 
-     <userinput>
-       &lt;search-display-field-values&gt; 
-     </userinput>. </p> <p>Not available if Version data type is selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Dynamic Facet </p> </td> 
-   <td colname="col2"> <p> 
-     <!--NEW 2/2/2014--> <p>Note:  This feature is not enabled by default. Contact Technical Support to activate it for your use. After it is activated, it appears in the user interface. </p> </p> <p>Sets the identified facet to be dynamic. </p> <p>Facets are built on top of meta tag fields. A meta tag field is a low-level, core search layer of Adobe Search&amp;Promote. Facets, on the other hand are part of GS (Guided Search)-the high-level, presentation layer of Adobe Search&amp;Promote. Facets own meta tag fields, however, meta tag fields know nothing about facets. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Dynamic Facets </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Allow Dedupe </p> </td> 
-   <td colname="col2"> <p>Check this option to enable deduplication for this field. That is, allow this field to be specified at search-time by way of the 
-     <userinput>
-       sp_dedupe_field 
-     </userinput> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Table Name </p> </td> 
-   <td colname="col2"> <p>Permanently associates the given field with the given table name. </p> <p>Any time such a field is mentioned within a core search CGI parameter or a template tag, the table name is provided automatically. This feature allows the selection of dynamic facets through table matches, but you can also use it for non-dynamic facet fields, if desired. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>List Delimiters </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Allow Lists </span> is selected. </p> <p>Specifies which characters separate individual list values. You can specify multiple characters, each of which are treated as a value separator. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Search By Default </p> </td> 
-   <td colname="col2"> <p>When selected, the field content is searched even when the field is not explicitly specified in a given search query. If you deselect this option, the field is only searched when requested. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vertical Update Field </p> </td> 
-   <td colname="col2"> <p> <p>Note:  This feature is not enabled by default. Contact Technical Support to activate it for your use. After it is activated, it appears in the user interface. </p> </p> <p>Sets the identified field to be a Vertical Update field. </p> <p>Vertical Update fields are candidates to be updated by way of the Vertical Update process ( <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Vertical Update </span>.) Due to the way that Vertical Updates are made, content from these fields cannot be searched in free-text searches. Checking this option results in this field's content not being added to the "word" index during any kind of index operation. It also enables the update of this field during a Vertical Update operation. </p> <p>To learn more about Vertical Updates, see <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Vertical Update </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Relevance </p> </td> 
-   <td colname="col2"> <p>You can edit the relevance of pre-defined and user-defined fields. </p> <p>Relevance is specified on a scale 1-10. A setting of 1 means that it is the least relevant and 10 being the most relevant. These values are taken into account when the software considers the query matches in each field. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sorting </p> </td> 
-   <td colname="col2"> <p>Specifies when results are sorted by the named field, by way of the 
-     <userinput>
-       sp_s 
-     </userinput> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Language </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span>, <span class="uicontrol"> Number </span>, or <span class="uicontrol"> Date </span> is selected. </p> <p>Controls the language and locale conventions that are applied when indexing the date, number, and rank values for this field. </p> <p>You can choose to apply the account language (Linguistics &gt; Words &amp; Languages). Or, you can apply the language that is associated with the document that contains each number or date value, or a specific language. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Date Format(s) </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Date </span> is selected. </p> <p>Controls the date formats that are recognized when indexing date values for this field. </p> <p>A default list of date format strings is provided for each date field. You can add to the list or edit the list to suit your own site's needs. </p> <p>See <a href="../c-appendices/r-date-formats.md#reference_4D1FC1F6B9F44857967188496D8D335B" type="reference" format="dita" scope="local"> Date Formats </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Test Date Formats </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Date </span> is selected as the Data Type. </p> <p>Lets you preview the date formats that you have specified to ensure that they are formatted correctly. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Time Zone </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Date </span> is selected as the Data Type. </p> <p>Controls the assumed time zone that is applied when indexing date values for this field that do not specify a time zone. </p> <p>For example, if your account time zone is set to "America/Los Angeles" and you select <span class="uicontrol"> Use Account Time Zone </span>, the following meta date value, which does not have a specified time zone, is treated as if it were Pacific Time, accounting for daylight savings: </p> <p>&lt;meta name="dc.date" content="Mon, 05 Sep 201213:12:00"&gt; </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Least Important Rank Value </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span> is selected as the Data Type. </p> <p>Controls the rank value that represents the minimum rank of any document. </p> <p>If your document rankings range from 0 for the lowest rank to 10 for the highest rank, then you set this value to 0. </p> <p>If your document rankings range from 1 for the highest rank to 10 for the lowest rank, then you set this value to 10. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Default Rank Value </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span> is selected as the Data Type. </p> <p>Controls the rank value that is used if a document does not contain any of the meta tags that are defined for this rank field. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Most Important Rank Value </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span> is selected as the Data Type. </p> <p>Controls the rank value that represents the maximum rank of any document. </p> <p>If your document rankings range from 0 for the lowest rank to 10 for the highest rank, then you set this value to 10. </p> <p>If your document rankings range from 1 for the highest rank to 10 for the lowest rank, then you set this value to 1. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Default Units </p> </td> 
-   <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Location </span> is selected as the Data Type. </p> <p>Controls the treatment of distance values for proximity searches. </p> <p>If you set the default units to <span class="uicontrol"> Miles </span>, then any proximity search minimum/maximum distance criteria that is applied to this field (by way of the 
-     <userinput>
-       sp_q_min[_#] 
-     </userinput> or the 
-     <userinput>
-       sp_q_max[_#] 
-     </userinput> Search CGI parameters) is treated as miles, otherwise as kilometers. </p> <p>This option also controls the default distance units that are applied to the output of the 
-     <userinput>
-       &lt;Search-Display-Field&gt; 
-     </userinput> search results template tag when applied to a proximity search output field. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Create Range Description? </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Number </span> is selected as the Data Type. </p> <p>Controls the automatic creation of Field Range descriptions, for use with <span class="uicontrol"> Design </span> &gt; <span class="uicontrol"> Navigation </span> &gt; <span class="uicontrol"> Facets </span>. </p> <p>See <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> About Facets </a>. </p> <p> <p>Note:  If this field has <span class="uicontrol"> Vertical Update Field </span> checked, the generated Field Range description field is updated during a Vertical Update. However, it is recommended that the field identified in <span class="uicontrol"> Range Field </span> also have <span class="uicontrol"> Vertical Update Field </span> checked. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Range Field </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked. </p> <p>The <span class="uicontrol"> Text </span> field to be updated with range descriptions for the current field. This list contains all <span class="uicontrol"> Text </span> fields that are not already being used with other fields for Field Range generation. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Range Values </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>A blank-delimited list of data points to use when creating the Field Range descriptions. For example: </p> <code> 10&amp;nbsp;20&amp;nbsp;50&amp;nbsp;100&amp;nbsp;1000 </code> <p>You can enter these values in any order. The values are sorted and duplicates removed before it is saved. You can also specify negative and non-integer values. </p> <p>For each of this field's values: 
-     <ul id="ul_C4B41AF5AADF4B84B9C489CE82FF7075"> 
+      <ul id="ul_D2CEBFA1A5504AA996BA2F7641AFB7F3"> 
+      <li id="li_5283A2F2D5D84840B3D920C08D43654C"> 5- or 9-digit ZIP codes in the form of DDDDD or DDDDD-DDDD, where each "D" is a 0-9 digit. </li> 
+      <li id="li_A5CD4DFC90164BC68183DB7D10603B7C"> Three-digit area-codes in the form of DDD. </li> 
+      <li id="li_9DAEAE64BC7F4902B25043D998C8F56D"> Latitude/longitude pairs in the form ±DD.DDDD±DDD.DDDD, where the first number specifies the latitude and the second number specifies the longitude. </li> 
+      </ul> </p> </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Allow Lists </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Text </span>, or <span class="uicontrol"> Number </span> is selected. </p> <p>Separately index delimited values in the metadata content of this field. </p> <p>For example, the content "Red, Yellow, Green, Blue" is treated as four separate values instead of one when "Allow Lists" is selected. This treatment is most useful with range searching (using 
+      <userinput>
+        sp_q_min 
+      </userinput>, 
+      <userinput>
+        sp_q_max 
+      </userinput>, or 
+      <userinput>
+        sp_q_exact 
+      </userinput>) and with the 
+      <userinput>
+        &lt;search-field-value-list&gt; 
+      </userinput>, 
+      <userinput>
+        &lt;search-field-values&gt; 
+      </userinput>, and 
+      <userinput>
+        &lt;search-display-field-values&gt; 
+      </userinput>. </p> <p>Not available if Version data type is selected. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Dynamic Facet </p> </td> 
+      <td colname="col2"> <p> 
+        <!--NEW 2/2/2014--> <p>Note:  This feature is not enabled by default. Contact Technical Support to activate it for your use. After it is activated, it appears in the user interface. </p> </p> <p>Sets the identified facet to be dynamic. </p> <p>Facets are built on top of meta tag fields. A meta tag field is a low-level, core search layer of Adobe Search&amp;Promote. Facets, on the other hand are part of GS (Guided Search)-the high-level, presentation layer of Adobe Search&amp;Promote. Facets own meta tag fields, however, meta tag fields know nothing about facets. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Dynamic Facets </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Allow Dedupe </p> </td> 
+      <td colname="col2"> <p>Check this option to enable deduplication for this field. That is, allow this field to be specified at search-time by way of the 
+        <userinput>
+          sp_dedupe_field 
+        </userinput> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Table Name </p> </td> 
+      <td colname="col2"> <p>Permanently associates the given field with the given table name. </p> <p>Any time such a field is mentioned within a core search CGI parameter or a template tag, the table name is provided automatically. This feature allows the selection of dynamic facets through table matches, but you can also use it for non-dynamic facet fields, if desired. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>List Delimiters </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Allow Lists </span> is selected. </p> <p>Specifies which characters separate individual list values. You can specify multiple characters, each of which are treated as a value separator. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Search By Default </p> </td> 
+      <td colname="col2"> <p>When selected, the field content is searched even when the field is not explicitly specified in a given search query. If you deselect this option, the field is only searched when requested. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Vertical Update Field </p> </td> 
+      <td colname="col2"> <p> <p>Note:  This feature is not enabled by default. Contact Technical Support to activate it for your use. After it is activated, it appears in the user interface. </p> </p> <p>Sets the identified field to be a Vertical Update field. </p> <p>Vertical Update fields are candidates to be updated by way of the Vertical Update process ( <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Vertical Update </span>.) Due to the way that Vertical Updates are made, content from these fields cannot be searched in free-text searches. Checking this option results in this field's content not being added to the "word" index during any kind of index operation. It also enables the update of this field during a Vertical Update operation. </p> <p>To learn more about Vertical Updates, see <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Vertical Update </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Relevance </p> </td> 
+      <td colname="col2"> <p>You can edit the relevance of pre-defined and user-defined fields. </p> <p>Relevance is specified on a scale 1-10. A setting of 1 means that it is the least relevant and 10 being the most relevant. These values are taken into account when the software considers the query matches in each field. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Sorting </p> </td> 
+      <td colname="col2"> <p>Specifies when results are sorted by the named field, by way of the 
+        <userinput>
+          sp_s 
+        </userinput> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Language </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span>, <span class="uicontrol"> Number </span>, or <span class="uicontrol"> Date </span> is selected. </p> <p>Controls the language and locale conventions that are applied when indexing the date, number, and rank values for this field. </p> <p>You can choose to apply the account language (Linguistics &gt; Words &amp; Languages). Or, you can apply the language that is associated with the document that contains each number or date value, or a specific language. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Date Format(s) </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Date </span> is selected. </p> <p>Controls the date formats that are recognized when indexing date values for this field. </p> <p>A default list of date format strings is provided for each date field. You can add to the list or edit the list to suit your own site's needs. </p> <p>See <a href="../c-appendices/r-date-formats.md#reference_4D1FC1F6B9F44857967188496D8D335B" type="reference" format="dita" scope="local"> Date Formats </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Test Date Formats </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Date </span> is selected as the Data Type. </p> <p>Lets you preview the date formats that you have specified to ensure that they are formatted correctly. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Time Zone </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Date </span> is selected as the Data Type. </p> <p>Controls the assumed time zone that is applied when indexing date values for this field that do not specify a time zone. </p> <p>For example, if your account time zone is set to "America/Los Angeles" and you select <span class="uicontrol"> Use Account Time Zone </span>, the following meta date value, which does not have a specified time zone, is treated as if it were Pacific Time, accounting for daylight savings: </p> <p>&lt;meta name="dc.date" content="Mon, 05 Sep 201213:12:00"&gt; </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Least Important Rank Value </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span> is selected as the Data Type. </p> <p>Controls the rank value that represents the minimum rank of any document. </p> <p>If your document rankings range from 0 for the lowest rank to 10 for the highest rank, then you set this value to 0. </p> <p>If your document rankings range from 1 for the highest rank to 10 for the lowest rank, then you set this value to 10. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Default Rank Value </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span> is selected as the Data Type. </p> <p>Controls the rank value that is used if a document does not contain any of the meta tags that are defined for this rank field. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Most Important Rank Value </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Rank </span> is selected as the Data Type. </p> <p>Controls the rank value that represents the maximum rank of any document. </p> <p>If your document rankings range from 0 for the lowest rank to 10 for the highest rank, then you set this value to 10. </p> <p>If your document rankings range from 1 for the highest rank to 10 for the lowest rank, then you set this value to 1. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Default Units </p> </td> 
+      <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Location </span> is selected as the Data Type. </p> <p>Controls the treatment of distance values for proximity searches. </p> <p>If you set the default units to <span class="uicontrol"> Miles </span>, then any proximity search minimum/maximum distance criteria that is applied to this field (by way of the 
+      <userinput>
+        sp_q_min[_#] 
+      </userinput> or the 
+      <userinput>
+        sp_q_max[_#] 
+      </userinput> Search CGI parameters) is treated as miles, otherwise as kilometers. </p> <p>This option also controls the default distance units that are applied to the output of the 
+      <userinput>
+        &lt;Search-Display-Field&gt; 
+      </userinput> search results template tag when applied to a proximity search output field. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Create Range Description? </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Number </span> is selected as the Data Type. </p> <p>Controls the automatic creation of Field Range descriptions, for use with <span class="uicontrol"> Design </span> &gt; <span class="uicontrol"> Navigation </span> &gt; <span class="uicontrol"> Facets </span>. </p> <p>See <a href="../c-about-design-menu/c-about-facets.md#concept_FA912B3B41EE493DB2F492D188457FF5" format="dita" scope="local"> About Facets </a>. </p> <p> <p>Note:  If this field has <span class="uicontrol"> Vertical Update Field </span> checked, the generated Field Range description field is updated during a Vertical Update. However, it is recommended that the field identified in <span class="uicontrol"> Range Field </span> also have <span class="uicontrol"> Vertical Update Field </span> checked. </p> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Range Field </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked. </p> <p>The <span class="uicontrol"> Text </span> field to be updated with range descriptions for the current field. This list contains all <span class="uicontrol"> Text </span> fields that are not already being used with other fields for Field Range generation. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Range Values </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>A blank-delimited list of data points to use when creating the Field Range descriptions. For example: </p> <code> 10&amp;nbsp;20&amp;nbsp;50&amp;nbsp;100&amp;nbsp;1000 </code> <p>You can enter these values in any order. The values are sorted and duplicates removed before it is saved. You can also specify negative and non-integer values. </p> <p>For each of this field's values: 
+      <ul id="ul_C4B41AF5AADF4B84B9C489CE82FF7075"> 
       <li id="li_90736394A5AE4F5CA6B47687BCB627AA">if the value is less than (&lt;) the smallest value in <span class="uicontrol"> Range Values </span>, the <span class="uicontrol"> "Less Than" Format </span> is used </li> 
       <li id="li_A5C272B2D26A468CA07EB2046B2EA8A7">if the value is greater than or equal to (&gt;=) the largest value in <span class="uicontrol"> Range Values </span>, the <span class="uicontrol"> "Greater Than" Format </span> is used. </li> 
       <li id="li_9DDFB70E1E824CF4819C57450C1A6DD2">otherwise, a "range" is found where the field value falls between two consecutive <span class="uicontrol"> Range Values </span> (greater than (&gt;) the smaller value and less than or equal to (&lt;=) the larger value), and the <span class="uicontrol"> Intermediate Format </span> is used. </li> 
-     </ul> </p> <p>For example, the above example set of values will define a set of descriptions for values: 
-     <ul id="ul_03ED30D5A19346AB8E6809BDD186A9A9"> 
+    </ul> </p> <p>For example, the above example set of values will define a set of descriptions for values: 
+    <ul id="ul_03ED30D5A19346AB8E6809BDD186A9A9"> 
       <li id="li_F97A6B3763954EFE9B6751F472AF7D20">less than 10 </li> 
       <li id="li_12B6F636A6444B8292E0BFE4F55032DF">greater than or equal to 10 and less than 20 </li> 
       <li id="li_545A2EAF5BD046B5AD59B77DB43DCD14">greater than or equal to 20 and less than 50 </li> 
       <li id="li_26A8CD2422524D2CBD36794C6908572A">greater than or equal to 50 and less than 100 </li> 
       <li id="li_05EBEEE68DC348E0821F1CC16D04D69C">greater than or equal to 100 and less than 10000 </li> 
       <li id="li_9513A6B519394780A6A41B80762A0370">greater than or equal to 10000 </li> 
-     </ul> </p> <p>See <span class="uicontrol"> Test using Greater Than? </span> to change how these tests are performed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>"Less Than" Format </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>This is the template used to specify the range description for values less than the smallest value found in <span class="uicontrol"> Range Values </span>. The smallest value will be represented using the numeric placeholder token <span class="uicontrol"> ~N~ </span>. For example: </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>or: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>Normally, the value will be formatted "as-is" - i.e. for a <span class="uicontrol"> Range Values </span> definition of "5 10 20" and a supplied value of 1, the generated range description would simply be something like "Less than 5". If you'd instead like to have it be "4.99 and below", set <span class="uicontrol"> Precision </span> to <span class="uicontrol"> 2 </span> and use this format: </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>In <span class="uicontrol"> "Less Than" Format </span>, the lower-case <span class="uicontrol"> ~n~ </span> will cause the value to be rounded <i>down</i> according to the <span class="uicontrol"> Precision </span> setting. </p> <p>Note: to include any numeric placeholder in the range description, as is, specify with a backslash (\) prefix - e.g. <span class="uicontrol"> \~N~ </span> or <span class="uicontrol"> \~n~ </span>. To include a backslash character, specify it with another backslash - e.g. <span class="uicontrol"> \\ </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Intermediate Format </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>This is the template used to specify the range description for values that fall somewhere between the smallest and largest values found in <span class="uicontrol"> Range Values </span>. For the given range, the lower range value will be represented using the numeric placeholder token <span class="uicontrol"> ~L~ </span>, and the higher range value will be represented using the token <span class="uicontrol"> ~H~ </span>. For example: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>or: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>or: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>Normally, the values will be formatted "as-is" - i.e. for a <span class="uicontrol"> Range Values </span> definition of "5 10 20" and a supplied value of 8, the generated range description would simply be something like "Between 5 and 10". If you'd instead like to have it be "Between 5 and 9.99", with the higher value adjusted <i>downwards</i>, set <span class="uicontrol"> Precision </span> to <span class="uicontrol"> 2 </span> and use this format: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>Similarly, <span class="uicontrol"> ~L~ </span> can be replaced with <span class="uicontrol"> ~l~ </span> to have the lower value adjusted <i>upwards</i>, also according to the <span class="uicontrol"> Precision </span> setting. This means that a definition like: </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>with a <span class="uicontrol"> Precision </span> value of <span class="uicontrol"> 2 </span> would create "Between 5.01 and 10". </p> <p>The lower-case <span class="uicontrol"> ~l~ </span> will cause the lower value to be rounded <i>up</i> according to the <span class="uicontrol"> Precision </span> setting, and the lower-case <span class="uicontrol"> ~h~ </span> will cause the higher value to be rounded <i>down</i>. </p> <p>Note: to include any numeric placeholder in the range description, as is, specify with a backslash (\) prefix - e.g. <span class="uicontrol"> \~L~ </span> or <span class="uicontrol"> \~h~ </span>. To include a backslash character, specify it with another backslash - e.g. <span class="uicontrol"> \\ </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>"Greater Than" Format </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>This is the template used to specify the range description for values greater than the largest value found in <span class="uicontrol"> Range Values </span>. The largest value will be represented using the numeric placeholder token <span class="uicontrol"> ~N~ </span>. For example: </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>or: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>Normally, the value will be formatted "as-is" - i.e. for a <span class="uicontrol"> Range Values </span> definition of "5 10 20" and a supplied value of 30, the generated range description would simply be something like "Greater than 20". If you'd instead like to have it be "20.01 and above", set <span class="uicontrol"> Precision </span> to <span class="uicontrol"> 2 </span> and use this format: </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>In <span class="uicontrol"> "Greater Than" Format </span>, the lower-case <span class="uicontrol"> ~n~ </span> will cause the value to be rounded <i>up</i> according to the <span class="uicontrol"> Precision </span> setting. </p> <p>Note: to include any numeric placeholder in the range description, as is, specify with a backslash (\) prefix - e.g. <span class="uicontrol"> \~N~ </span> or <span class="uicontrol"> \~n~ </span>. To include a backslash character, specify it with another backslash - e.g. <span class="uicontrol"> \\ </span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Precision </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>An integer value specifying the number of digits to the right of a decimal point. This also controls rounding operations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Strip leading zeros? </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked, a <span class="uicontrol"> Range Field </span> item is selected and a non-zero <span class="uicontrol"> Precision </span> value has been set. </p> <p>Should we display "0.50" as ".50"? </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Strip trailing zeros? </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked, a <span class="uicontrol"> Range Field </span> item is selected and a non-zero <span class="uicontrol"> Precision </span> value has been set. </p> <p>Should we display "10.00" as "10"? </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Show thousands separators? </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>Should we display "10000" as "10,000"? Locale-specific values will be used. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Adjust zero values? </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>When rounded zero values are displayed, should they be rounded up or down according to the <span class="uicontrol"> Precision </span> setting? i.e. display "0.01"? </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Test using Greater Than? </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>As each value is compared against the values in <span class="uicontrol"> Range Values </span>, processed in <i><b>descending</b></i> order, it is compared, by default, using the Greater Than or Equal (&gt;=) operator, stopping once this test succeeds. This means that with a set of <span class="uicontrol"> Range Values </span> like "10 20 50 100 1000" the value 100 will fall in the range 100 to 1000, as 100 is indeed &gt;= 100. If you'd rather have it fall in the range 50 to 100, check this option, which will cause the comparisons to use the Greater Than (&gt;) operator, instead. </p> <p>For example, for each of this field's values, when this option is checked: 
-     <ul id="ul_969621B1BD914FA5BD73ED21F8841010"> 
+      </ul> </p> <p>See <span class="uicontrol"> Test using Greater Than? </span> to change how these tests are performed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>"Less Than" Format </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>This is the template used to specify the range description for values less than the smallest value found in <span class="uicontrol"> Range Values </span>. The smallest value will be represented using the numeric placeholder token <span class="uicontrol"> ~N~ </span>. For example: </p> <code> Less&amp;nbsp;than&amp;nbsp;~N~ </code> <p>or: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;below </code> <p>Normally, the value will be formatted "as-is" - i.e. for a <span class="uicontrol"> Range Values </span> definition of "5 10 20" and a supplied value of 1, the generated range description would simply be something like "Less than 5". If you'd instead like to have it be "4.99 and below", set <span class="uicontrol"> Precision </span> to <span class="uicontrol"> 2 </span> and use this format: </p> <code> ~n~&amp;nbsp;and&amp;nbsp;below </code> <p>In <span class="uicontrol"> "Less Than" Format </span>, the lower-case <span class="uicontrol"> ~n~ </span> will cause the value to be rounded <i>down</i> according to the <span class="uicontrol"> Precision </span> setting. </p> <p>Note: to include any numeric placeholder in the range description, as is, specify with a backslash (\) prefix - e.g. <span class="uicontrol"> \~N~ </span> or <span class="uicontrol"> \~n~ </span>. To include a backslash character, specify it with another backslash - e.g. <span class="uicontrol"> \\ </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Intermediate Format </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>This is the template used to specify the range description for values that fall somewhere between the smallest and largest values found in <span class="uicontrol"> Range Values </span>. For the given range, the lower range value will be represented using the numeric placeholder token <span class="uicontrol"> ~L~ </span>, and the higher range value will be represented using the token <span class="uicontrol"> ~H~ </span>. For example: </p> <code> ~L~&amp;nbsp;to&amp;nbsp;~H~ </code> <p>or: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>or: </p> <code> Less&amp;nbsp;than&amp;nbsp;~H~&amp;nbsp;and&amp;nbsp;greater&amp;nbsp;than&amp;nbsp;~L~ </code> <p>Normally, the values will be formatted "as-is" - i.e. for a <span class="uicontrol"> Range Values </span> definition of "5 10 20" and a supplied value of 8, the generated range description would simply be something like "Between 5 and 10". If you'd instead like to have it be "Between 5 and 9.99", with the higher value adjusted <i>downwards</i>, set <span class="uicontrol"> Precision </span> to <span class="uicontrol"> 2 </span> and use this format: </p> <code> Between&amp;nbsp;~L~&amp;nbsp;and&amp;nbsp;~h~ </code> <p>Similarly, <span class="uicontrol"> ~L~ </span> can be replaced with <span class="uicontrol"> ~l~ </span> to have the lower value adjusted <i>upwards</i>, also according to the <span class="uicontrol"> Precision </span> setting. This means that a definition like: </p> <code> Between&amp;nbsp;~l~&amp;nbsp;and&amp;nbsp;~H~ </code> <p>with a <span class="uicontrol"> Precision </span> value of <span class="uicontrol"> 2 </span> would create "Between 5.01 and 10". </p> <p>The lower-case <span class="uicontrol"> ~l~ </span> will cause the lower value to be rounded <i>up</i> according to the <span class="uicontrol"> Precision </span> setting, and the lower-case <span class="uicontrol"> ~h~ </span> will cause the higher value to be rounded <i>down</i>. </p> <p>Note: to include any numeric placeholder in the range description, as is, specify with a backslash (\) prefix - e.g. <span class="uicontrol"> \~L~ </span> or <span class="uicontrol"> \~h~ </span>. To include a backslash character, specify it with another backslash - e.g. <span class="uicontrol"> \\ </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>"Greater Than" Format </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>This is the template used to specify the range description for values greater than the largest value found in <span class="uicontrol"> Range Values </span>. The largest value will be represented using the numeric placeholder token <span class="uicontrol"> ~N~ </span>. For example: </p> <code> Greater&amp;nbsp;than&amp;nbsp;~N~ </code> <p>or: </p> <code> ~N~&amp;nbsp;and&amp;nbsp;above </code> <p>Normally, the value will be formatted "as-is" - i.e. for a <span class="uicontrol"> Range Values </span> definition of "5 10 20" and a supplied value of 30, the generated range description would simply be something like "Greater than 20". If you'd instead like to have it be "20.01 and above", set <span class="uicontrol"> Precision </span> to <span class="uicontrol"> 2 </span> and use this format: </p> <code> ~n~&amp;nbsp;and&amp;nbsp;above </code> <p>In <span class="uicontrol"> "Greater Than" Format </span>, the lower-case <span class="uicontrol"> ~n~ </span> will cause the value to be rounded <i>up</i> according to the <span class="uicontrol"> Precision </span> setting. </p> <p>Note: to include any numeric placeholder in the range description, as is, specify with a backslash (\) prefix - e.g. <span class="uicontrol"> \~N~ </span> or <span class="uicontrol"> \~n~ </span>. To include a backslash character, specify it with another backslash - e.g. <span class="uicontrol"> \\ </span>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Precision </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>An integer value specifying the number of digits to the right of a decimal point. This also controls rounding operations. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Strip leading zeros? </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked, a <span class="uicontrol"> Range Field </span> item is selected and a non-zero <span class="uicontrol"> Precision </span> value has been set. </p> <p>Should we display "0.50" as ".50"? </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Strip trailing zeros? </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked, a <span class="uicontrol"> Range Field </span> item is selected and a non-zero <span class="uicontrol"> Precision </span> value has been set. </p> <p>Should we display "10.00" as "10"? </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Show thousands separators? </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>Should we display "10000" as "10,000"? Locale-specific values will be used. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Adjust zero values? </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>When rounded zero values are displayed, should they be rounded up or down according to the <span class="uicontrol"> Precision </span> setting? i.e. display "0.01"? </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Test using Greater Than? </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>As each value is compared against the values in <span class="uicontrol"> Range Values </span>, processed in <i><b>descending</b></i> order, it is compared, by default, using the Greater Than or Equal (&gt;=) operator, stopping once this test succeeds. This means that with a set of <span class="uicontrol"> Range Values </span> like "10 20 50 100 1000" the value 100 will fall in the range 100 to 1000, as 100 is indeed &gt;= 100. If you'd rather have it fall in the range 50 to 100, check this option, which will cause the comparisons to use the Greater Than (&gt;) operator, instead. </p> <p>For example, for each of this field's values, when this option is checked: 
+      <ul id="ul_969621B1BD914FA5BD73ED21F8841010"> 
       <li id="li_157BEFDA7D0E44C481F4E4BC9046EF24">if the value is less than or equal to (&lt;=) the smallest value in <span class="uicontrol"> Range Values </span>, the <span class="uicontrol"> "Less Than" Format </span> will be used </li> 
       <li id="li_737EE666CA6243A8864E17A311CF3ACC">if the value is greater than (&gt;) the largest value in <span class="uicontrol"> Range Values </span>, the <span class="uicontrol"> "Greater Than" Format </span> will be used </li> 
       <li id="li_353A9820F7F74CCCBB3281EC4CB48734">otherwise, a range will be found where the field value falls between two consecutive <span class="uicontrol"> Range Values </span> (greater than or equal to (&gt;=) the smaller value and less than (&lt;) the larger value), and the <span class="uicontrol"> Intermediate Format </span> will be used </li> 
-     </ul> </p> <p>and, when unchecked: 
-     <ul id="ul_945844C33C2E4D95A598C4876E15F211"> 
+    </ul> </p> <p>and, when unchecked: 
+    <ul id="ul_945844C33C2E4D95A598C4876E15F211"> 
       <li id="li_653B6E2934574DA3B4BCEF07D0A84527">if the value is less than (&lt;) the smallest value in <span class="uicontrol"> Range Values </span>, the <span class="uicontrol"> "Less Than" Format </span> will be used </li> 
       <li id="li_AECA6880002F40FAB1820B37237550A7">if the value is greater than or equal to (&gt;=) the largest value in <span class="uicontrol"> Range Values </span>, the <span class="uicontrol"> "Greater Than" Format </span> will be used </li> 
       <li id="li_ECB2DF7CA592497298E9ADC708220366">otherwise, a range will be found where the field value falls between two consecutive <span class="uicontrol"> Range Values </span> (greater than (&gt;) the smaller value and less than or equal to (&lt;=) the larger value), and the <span class="uicontrol"> Intermediate Format </span> will be used </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Test </p> </td> 
-   <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>Supply a sample numeric value and press the <span class="uicontrol"> Test </span> button to see how the Range Field is created. The generated Range description will be displayed in the window. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Test </p> </td> 
+      <td colname="col2"> <p>Available only if <span class="uicontrol"> Create Range Description </span> is checked and a <span class="uicontrol"> Range Field </span> item is selected. </p> <p>Supply a sample numeric value and press the <span class="uicontrol"> Test </span> button to see how the Range Field is created. The generated Range description will be displayed in the window. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    See also [Adding a new meta tag field](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5). 
 1. Click **[!UICONTROL Add]**.
@@ -653,193 +653,193 @@ See [About the Index menu](../c-about-index-menu/c-about-index-menu.md#concept_1
 1. On the [!DNL Attribute Loader Add] page, set the configuration options that you want. The options that are available depend on the **[!UICONTROL Type]** that you selected.
 
    <!-- 
+   
+   r_attribute_loader_options.xml
+   
+   -->
 
-r_attribute_loader_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>The unique name of the Attribute Loader configuration. You can use alphanumeric characters. The characters "_" and "-" are also allowed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>The source of your data. The data source type that you select affects the resulting options that are available on the <span class="wintitle"> Attribute Loader Add </span> page. You can choose from the following: </p> <p> 
-     <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Name </p> </td> 
+      <td colname="col2"> <p>The unique name of the Attribute Loader configuration. You can use alphanumeric characters. The characters "_" and "-" are also allowed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Type </p> </td> 
+      <td colname="col2"> <p>The source of your data. The data source type that you select affects the resulting options that are available on the <span class="wintitle"> Attribute Loader Add </span> page. You can choose from the following: </p> <p> 
+      <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Text </span> <p>Simple flat text files, comma-delimited, tab-delimited, or other consistently delimited formats. Each newline-delimited line of text corresponds to an individual document, and is parsed using the specified delimiter. </p> <p>You can map each value, or column, to a metadata field, referenced by the column number, starting at 1 (one). </p> </li> 
       <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a master XML document that contains multiple "rows" of information. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Data source type: Text</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enabled </p> </td> 
-   <td colname="col2"> <p>Turns the configuration "on" for use. Or, you can turn "off" the configuration to prevent if from being used. </p> <p> <b>Note</b>: Disabled Attribute Loader configurations are ignored. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file. </p> <p>The path is relative to the root of the host address. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Protocol </p> </td> 
-   <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
-     <ul id="ul_F6BC10FD51CA4A1D855B2B3212838A9C"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <b>Data source type: Text</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enabled </p> </td> 
+      <td colname="col2"> <p>Turns the configuration "on" for use. Or, you can turn "off" the configuration to prevent if from being used. </p> <p> <b>Note</b>: Disabled Attribute Loader configurations are ignored. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Host Address </p> </td> 
+      <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code otherprops="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Protocol </p> </td> 
+      <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
+      <ul id="ul_F6BC10FD51CA4A1D855B2B3212838A9C"> 
       <li id="li_79FB7DC65E774ABBB23E57BF98AD9738"> HTTP <p>If necessary, you may enter proper authentication credentials to access the HTTP server. </p> </li> 
       <li id="li_BAA9AD5E4B014E09B3A66C94022B7225"> HTTPS <p>If necessary, you may enter proper authentication credentials to access the HTTPS server. </p> </li> 
       <li id="li_E716ABB169DD408BA91F1CA27F445A16"> FTP <p>You must enter proper authentication credentials to access the FTP server. </p> </li> 
       <li id="li_FD7143019C5244C3B8A5B1B5AA84859A"> SFTP <p>You must enter proper authentication credentials to access the SFTP server. </p> </li> 
       <li id="li_38E0036C1365419F9D00083CACA34AFB"> File </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Timeout </p> </td> 
-   <td colname="col2"> <p>Specifies the timeout, in seconds, for FTP, SFTP, HTTP or HTTPS connections. This value must be between 30 and 300. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Retries </p> </td> 
-   <td colname="col2"> <p>Specifies the maximum number of retries for failed FTP, SFTP, HTTP or HTTPS connections. This value must be between 0 and 10. </p> <p>A value of zero (0) will prevent retry attempts. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Encoding </p> </td> 
-   <td colname="col2"> <p>Specifies the character encoding system that is used in the specified data source file. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delimiter </p> </td> 
-   <td colname="col2"> <p>Specifies the character that you want to use to delineate each field in the specified data source file. </p> <p>The comma character ( <span class="codeph"> , </span>) is an example of a delimiter. The comma acts as a field delimiter that helps to separate data fields in your specified data source file. </p> <p>Select <span class="uicontrol"> Tab? </span> to use the horizontal-tab character as the delimiter. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Headers in First Row </p> </td> 
-   <td colname="col2"> <p>Indicates that the first row in the data source file contains header information only, not data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Stale Days </p> </td> 
-   <td colname="col2"> <p>Sets the minimum interval between downloads of Attribute Loader data. Index-triggered downloads that occur within the download refresh frequency interval are ignored. When you set this value to the default of 1, Attribute Loader data does not download more than once within a 24 hour period. All Search indexes that occur within the download refresh frequency interval use the last data set that was downloaded. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Map </p> </td> 
-   <td colname="col2"> <p>Specifies column-to-metadata mappings, using column numbers. </p> <p> 
-     <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Timeout </p> </td> 
+      <td colname="col2"> <p>Specifies the timeout, in seconds, for FTP, SFTP, HTTP or HTTPS connections. This value must be between 30 and 300. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Retries </p> </td> 
+      <td colname="col2"> <p>Specifies the maximum number of retries for failed FTP, SFTP, HTTP or HTTPS connections. This value must be between 0 and 10. </p> <p>A value of zero (0) will prevent retry attempts. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Encoding </p> </td> 
+      <td colname="col2"> <p>Specifies the character encoding system that is used in the specified data source file. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Delimiter </p> </td> 
+      <td colname="col2"> <p>Specifies the character that you want to use to delineate each field in the specified data source file. </p> <p>The comma character ( <span class="codeph"> , </span>) is an example of a delimiter. The comma acts as a field delimiter that helps to separate data fields in your specified data source file. </p> <p>Select <span class="uicontrol"> Tab? </span> to use the horizontal-tab character as the delimiter. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Headers in First Row </p> </td> 
+      <td colname="col2"> <p>Indicates that the first row in the data source file contains header information only, not data. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Stale Days </p> </td> 
+      <td colname="col2"> <p>Sets the minimum interval between downloads of Attribute Loader data. Index-triggered downloads that occur within the download refresh frequency interval are ignored. When you set this value to the default of 1, Attribute Loader data does not download more than once within a 24 hour period. All Search indexes that occur within the download refresh frequency interval use the last data set that was downloaded. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Map </p> </td> 
+      <td colname="col2"> <p>Specifies column-to-metadata mappings, using column numbers. </p> <p> 
+      <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
       <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> Column </span> <p> Specifies a column number, with the first column being 1 (one). To add new map rows for each column, under <span class="wintitle"> Action </span>, click <span class="uicontrol"> + </span>. </p> <p>You do not need to reference each column in the data source. Instead, you can choose to skip values. </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> Field </span> <p>Defines the name attribute value that is used for each generated &lt;meta&gt; tag. </p> </li> 
       <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> Metadata? </span> <p>Causes <span class="uicontrol"> Field </span> to become a drop-down list from which you can select defined metadata fields for the current account. </p> <p>The <span class="uicontrol"> Field </span> value can be an undefined metadata field, if desired. An undefined metadata field is sometimes useful to create content used by a <span class="wintitle"> Filtering Script </span>. </p> <p>See <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> About Filtering Script </a>. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> Primary Key? </span> <p>Only one field is identified as the primary key. This field will be used as the "foreign key" to match the Attribute Loader data with the corresponding document in the index. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> Strip HTML? </span> <p>When this option is checked, any HTML tags found in this field's data is removed. </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> Action </span> <p>Lets you add rows to the map or remove rows from the map. The order of the rows is not important. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Data source type: Feed</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enabled </p> </td> 
-   <td colname="col2"> <p>Turns the configuration "on" for use. Or, you can turn "off" the configuration to prevent if from being used. </p> <p> <b>Note</b>: Disabled Attribute Loader configurations are ignored. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code class="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the master XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Protocol </p> </td> 
-   <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
-     <ul id="ul_976A34FD14A841F2B610C1C0CCBB82B9"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <b>Data source type: Feed</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enabled </p> </td> 
+      <td colname="col2"> <p>Turns the configuration "on" for use. Or, you can turn "off" the configuration to prevent if from being used. </p> <p> <b>Note</b>: Disabled Attribute Loader configurations are ignored. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Host Address </p> </td> 
+      <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code class="syntax html"> https://www.somewhere.com/some_path/some_file.tsv </code> </p> <p>or </p> <p> <code class="syntax html"> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.csv </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the master XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Protocol </p> </td> 
+      <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
+      <ul id="ul_976A34FD14A841F2B610C1C0CCBB82B9"> 
       <li id="li_05BBA0F670F14431A89AE4178F1A6F94"> HTTP <p>If necessary, you may enter proper authentication credentials to access the HTTP server. </p> </li> 
       <li id="li_100446691F304572B8FC3F083F86A2CB"> HTTPS <p>If necessary, you may enter proper authentication credentials to access the HTTPS server. </p> </li> 
       <li id="li_027088A8E30444DAA8CCCC5B0BAA74C1"> FTP <p>You must enter proper authentication credentials to access the FTP server. </p> </li> 
       <li id="li_DCEF9D5C99354990B03E29083C2ED8DC"> SFTP <p>You must enter proper authentication credentials to access the SFTP server. </p> </li> 
       <li id="li_44E34FF2AB0D429EB3408106E6FCF780"> File </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Itemtag </p> </td> 
-   <td colname="col2"> <p>Identifies the XML element that you can use to identify individual XML lines in the data source file that you specified. </p> <p>For example, in the following Feed fragment of an Adobe XML document, the Itemtag value is <span class="codeph"> record </span>: </p> <p> <code class="syntax xml"> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
-      &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; 
-      &lt;gsafeed&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;datasource&gt;marketplace&lt;/datasource&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feedtype&gt;incremental&lt;/feedtype&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;group&nbsp;action="add"&gt; 
-      &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
-      index.cfm?event=marketplace.home&amp;amp;marketplaceid=1&nbsp;action="add"&nbsp;mimetype="text/html"displayurl="https://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=1"&gt; 
-      &lt;metadata&gt; 
-      &lt;meta&nbsp;name="mp_mkt"&nbsp;content="1"/&gt; 
-      &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
-      dbreferenced/marketplaceicons/icn_air.png"/&gt; 
-      &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;AIR&nbsp;Marketplace"/&gt; 
-      &lt;meta&nbsp;name="description"&nbsp;content="Discover&nbsp;new&nbsp;applications&nbsp;..."/&gt; 
-      &lt;/metadata&gt; 
-      &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;AIR&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Discover&nbsp;new&nbsp;applications&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;&lt;/cntent&gt; 
-      &lt;/record&gt; 
-      &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
-      index.cfm?event=marketplace.home&amp;amp;marketplaceid=2&nbsp;action="add"&nbsp;mimetype="text/html"&nbsp;displayurl="https://www.adobe.com/cfusion/ 
-      marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=2"&gt; 
-      &lt;metadata&gt; 
-      &lt;meta&nbsp;name="mp_mkt"&nbsp;content="2"/&gt; 
-      &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
-      dbreferenced/marketplaceicons/icn_photoshop.png"/&gt; 
-      &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;Photoshop&nbsp;Marketplace"/&gt; 
-      &lt;meta&nbsp;name="description"&nbsp;content="Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;..."/&gt; 
-      &lt;/metadata&gt; 
-      &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;Photoshop&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;/content&gt; 
-      &lt;/record&gt; 
-      ... 
-      &lt;record&gt; 
-      ... 
-      &lt;/record&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/group&gt; 
-      &lt;/gsafeed&gt; 
-       </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cross-Reference Field Name </p> </td> 
-   <td colname="col2"> <p>Specifies a metadata field whose values are used as look-up "keys" into the Attribute Loader configuration's data. If no value is selected (<b>--None--</b>), this configuration's data is not available for use in Ranking calculations (<b>Rules</b> &gt; <b>Ranking Rules</b> &gt; <b>Edit Rules</b>). When you select a value, this field's values are used to cross-reference site search/merchandising documents with this configuration's data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Stale Days </p> </td> 
-   <td colname="col2"> <p>Sets the minimum interval between downloads of Attribute Loader data. Index-triggered downloads that occur within the download refresh frequency interval are ignored. When you set this value to the default of 1, Attribute Loader data does not download more than once within a 24 hour period. All Search indexes that occur within the download refresh frequency interval use the last data set that was downloaded. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Map </p> </td> 
-   <td colname="col2"> <p>Lets you specify XML-element-to-metadata mappings, using XPath expressions. </p> <p> 
-     <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Itemtag </p> </td> 
+      <td colname="col2"> <p>Identifies the XML element that you can use to identify individual XML lines in the data source file that you specified. </p> <p>For example, in the following Feed fragment of an Adobe XML document, the Itemtag value is <span class="codeph"> record </span>: </p> <p> <code class="syntax xml"> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
+        &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; 
+        &lt;gsafeed&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;datasource&gt;marketplace&lt;/datasource&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feedtype&gt;incremental&lt;/feedtype&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;group&nbsp;action="add"&gt; 
+        &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
+        index.cfm?event=marketplace.home&amp;amp;marketplaceid=1&nbsp;action="add"&nbsp;mimetype="text/html"displayurl="https://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=1"&gt; 
+        &lt;metadata&gt; 
+        &lt;meta&nbsp;name="mp_mkt"&nbsp;content="1"/&gt; 
+        &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
+        dbreferenced/marketplaceicons/icn_air.png"/&gt; 
+        &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;AIR&nbsp;Marketplace"/&gt; 
+        &lt;meta&nbsp;name="description"&nbsp;content="Discover&nbsp;new&nbsp;applications&nbsp;..."/&gt; 
+        &lt;/metadata&gt; 
+        &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;AIR&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Discover&nbsp;new&nbsp;applications&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;&lt;/cntent&gt; 
+        &lt;/record&gt; 
+        &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
+        index.cfm?event=marketplace.home&amp;amp;marketplaceid=2&nbsp;action="add"&nbsp;mimetype="text/html"&nbsp;displayurl="https://www.adobe.com/cfusion/ 
+        marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=2"&gt; 
+        &lt;metadata&gt; 
+        &lt;meta&nbsp;name="mp_mkt"&nbsp;content="2"/&gt; 
+        &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
+        dbreferenced/marketplaceicons/icn_photoshop.png"/&gt; 
+        &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;Photoshop&nbsp;Marketplace"/&gt; 
+        &lt;meta&nbsp;name="description"&nbsp;content="Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;..."/&gt; 
+        &lt;/metadata&gt; 
+        &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;Photoshop&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;/content&gt; 
+        &lt;/record&gt; 
+        ... 
+        &lt;record&gt; 
+        ... 
+        &lt;/record&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/group&gt; 
+        &lt;/gsafeed&gt; 
+        </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Cross-Reference Field Name </p> </td> 
+      <td colname="col2"> <p>Specifies a metadata field whose values are used as look-up "keys" into the Attribute Loader configuration's data. If no value is selected (<b>--None--</b>), this configuration's data is not available for use in Ranking calculations (<b>Rules</b> &gt; <b>Ranking Rules</b> &gt; <b>Edit Rules</b>). When you select a value, this field's values are used to cross-reference site search/merchandising documents with this configuration's data. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Stale Days </p> </td> 
+      <td colname="col2"> <p>Sets the minimum interval between downloads of Attribute Loader data. Index-triggered downloads that occur within the download refresh frequency interval are ignored. When you set this value to the default of 1, Attribute Loader data does not download more than once within a 24 hour period. All Search indexes that occur within the download refresh frequency interval use the last data set that was downloaded. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Map </p> </td> 
+      <td colname="col2"> <p>Lets you specify XML-element-to-metadata mappings, using XPath expressions. </p> <p> 
+      <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
       <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Specifies an XPath representation of the parsed XML data. Using the example Adobe XML document above, under the option Itemtag, it could be mapped using the following syntax: </p> <p> <code class="syntax xml"> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
-         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
-         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
-         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>The above syntax translates as the following: </p> <p> 
+        /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
+        /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
+        /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>The above syntax translates as the following: </p> <p> 
         <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
-         <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>The <span class="codeph"> displayurl </span> attribute of the <span class="codeph"> record </span> element maps to the metadata field <span class="codeph"> page-url </span>. </p> </li> 
-         <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
-         <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
-         <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
+        <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code class="syntax xml"> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>The <span class="codeph"> displayurl </span> attribute of the <span class="codeph"> record </span> element maps to the metadata field <span class="codeph"> page-url </span>. </p> </li> 
+        <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code class="syntax xml"> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
+        <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
+        <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code class="syntax xml"> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
         </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Field </span> <p>Defines the name attribute value that is used for each generated <span class="codeph"> &lt;meta&gt; </span> tag. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metadata? </span> <p>Causes <span class="uicontrol"> Field </span> to become a drop-down list from which you can select defined metadata fields for the current account. </p> <p>The <span class="uicontrol"> Field </span> value can be an undefined metadata field, if desired. An undefined metadata field is sometimes useful to create content used by <span class="wintitle"> Filtering Script </span>. </p> <p>See <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> About Filtering Script </a>. </p> <p>When Attribute Loader processes XML documents with multiple hits on any map field, the multiple values are concatenated into a single value in the resulting cached document. By default, these values are combined using a comma delimiter. However, suppose that the corresponding <span class="wintitle"> Field </span> value is a defined metadata field. In addition, that field has the <span class="wintitle"> Allow Lists </span> attribute set. In this case, the field's List Delimiters value, which is the first delimiter defined, is used in the concatenation. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primary Key? </span> <p>Only one field is identified as the primary key. This field will be used as the "foreign key" to match the Attribute Loader data with the corresponding document in the index. </p> </li> 
       <li id="li_80D6AF130FCE40AC972FE4B605B86BF6"> <span class="uicontrol"> Strip HTML? </span> <p>When this option is checked, any HTML tags found in this field's data is removed. </p> </li> 
       <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> Action </span> <p>Lets you add rows to the map or remove rows from the map. The order of the rows is not important. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ul> </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) Click **[!UICONTROL Setup Maps]** to download a sample of your data source. The data is examined for suitability.
 1. Click **[!UICONTROL Add]** to add the configuration to the [!DNL Attribute Loader Definitions] page.

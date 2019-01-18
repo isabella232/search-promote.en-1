@@ -49,69 +49,67 @@ t_adding_a_new_menu.xml
    See [About Menus](../c-about-design-menu/c-about-menus.md#concept_68123CE5CF4447B59217B5D721424E32).
 
    <!-- 
+   r_add_menu_options.xml
+   -->
 
-r_add_menu_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Menu Name </p> </td> 
-   <td colname="col2"> <p>Name of the menu. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Menu type </p> </td> 
-   <td colname="col2"> <p>Sets one of the following three menu types: </p> <p> 
-     <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Menu Name </p> </td> 
+      <td colname="col2"> <p>Name of the menu. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Menu type </p> </td> 
+      <td colname="col2"> <p>Sets one of the following three menu types: </p> <p> 
+      <ul id="ul_7E66ACC1DA494B20BEC3B0B2CCAB103A"> 
       <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Sort </span> <p>Organizes your search by any of your defined metadata types. </p> <p>For example, you might define a sort menu with the following metadata types: three items of relevance; a custom metadata field such as an availability code; and price. The three items can be given the labels "Sort by Relevance", "Sort by Availability", and "Sort by Price", respectively. When you include this in your presentation template, the customer can use this control to sort their search results. </p> </li> 
       <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Count </span> <p>Defines the number of search results to show. This menu type maps to the cgi parameter <span class="varname"> sp_c </span>. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
       <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Navigation </span> <p>Specifies a set of static URLs that are associated with menu items. Typically, a navigation menu is used to create a top-level navigation bar on your search results page. </p> <p>For example, you could create a menu that has women, men, boys, and girls where the menu items would be something like the following: 
-        <userinput>
-          /?q1=womens;x1=gender 
-        </userinput>, 
-        <userinput>
-          /?q1=mens;x1=gender 
-        </userinput> </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Merchandising </p> 
-    <!--DONT' KNOW WHAT THIS DOES--> </td> 
-   <td colname="col2"> <p>This option is only available if you chose the menu type <span class="uicontrol"> Sort. </span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Number of items in menu </p> </td> 
-   <td colname="col2"> <p>Specifies the number of items in a menu. Changing this setting adds or deletes fields from the form. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Default item </p> </td> 
-   <td colname="col2"> <p>Lets you select which menu item is displayed by default. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Item value </p> </td> 
-   <td colname="col2"> <p>The item value depends on the menu type you have set. </p> 
-    <ul id="ul_2F14E6AA673640578A2D5161FD9D13EF"> 
-     <li id="li_5017EC6E4ACB4B8E99E0AA61CBAAFFAE"> Sort menu type <p>Identifies what the selected item in the menu should sort by. The select items are populated with sortable metadata fields. </p> <p>For a single item you can sort by three metadata fields. The sort is done in the order that is specified. </p> </li> 
-     <li id="li_CC6BAFBF969C4367A71B55F08E0758D1"> Count menu type <p>Lets you specify the number of results that you want to return when the customer selects this menu item. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Item label </p> </td> 
-   <td colname="col2"> <p>The item label depends on the menu type you have set. </p> 
-    <ul id="ul_957BF01235F84748B5EB7062D6AEAC41"> 
-     <li id="li_03FB2E2C96134A2B8E08154F87F0CD55"> Sort menu type <p>Identifies the custom label that you want your customer to see when they view this item in the menu. </p> </li> 
-     <li id="li_C9FE2BC46D9443FB85FEB837C7CA45E1"> Count menu type <p>Identifies the custom label that you want to have displayed for this menu item. </p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
+      <userinput>
+        /?q1=womens;x1=gender 
+      </userinput>, 
+      <userinput>
+        /?q1=mens;x1=gender 
+      </userinput> </p> </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Merchandising </p> 
+        <!--DONT' KNOW WHAT THIS DOES--> </td> 
+      <td colname="col2"> <p>This option is only available if you chose the menu type <span class="uicontrol"> Sort. </span> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Number of items in menu </p> </td> 
+      <td colname="col2"> <p>Specifies the number of items in a menu. Changing this setting adds or deletes fields from the form. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Default item </p> </td> 
+      <td colname="col2"> <p>Lets you select which menu item is displayed by default. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Item value </p> </td> 
+      <td colname="col2"> <p>The item value depends on the menu type you have set. </p> 
+        <ul id="ul_2F14E6AA673640578A2D5161FD9D13EF"> 
+        <li id="li_5017EC6E4ACB4B8E99E0AA61CBAAFFAE"> Sort menu type <p>Identifies what the selected item in the menu should sort by. The select items are populated with sortable metadata fields. </p> <p>For a single item you can sort by three metadata fields. The sort is done in the order that is specified. </p> </li> 
+        <li id="li_CC6BAFBF969C4367A71B55F08E0758D1"> Count menu type <p>Lets you specify the number of results that you want to return when the customer selects this menu item. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Item label </p> </td> 
+      <td colname="col2"> <p>The item label depends on the menu type you have set. </p> 
+        <ul id="ul_957BF01235F84748B5EB7062D6AEAC41"> 
+        <li id="li_03FB2E2C96134A2B8E08154F87F0CD55"> Sort menu type <p>Identifies the custom label that you want your customer to see when they view this item in the menu. </p> </li> 
+        <li id="li_C9FE2BC46D9443FB85FEB837C7CA45E1"> Count menu type <p>Identifies the custom label that you want to have displayed for this menu item. </p> </li> 
+        </ul> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) On the [!DNL Menus] page, do one of the following:

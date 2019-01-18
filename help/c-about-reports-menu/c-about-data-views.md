@@ -71,57 +71,57 @@ See [Adding a data view](../c-about-reports-menu/c-about-data-views.md#task_A20F
 1. On the [!DNL Data Views Editor] page, set the options you want.
 
    <!-- 
-
-r_data_view_editor_options.xml
-
- -->
+   
+   r_data_view_editor_options.xml
+   
+   -->
 
    The Data View Editor has all the controls for hiding, showing, and moving field columns on the Data View page.
 
    When you view a data view, the resulting table also shows the following additional column fields which are not editable: Ranking, Relevance, and Score (overall). These three special fields represent the relevance scores, rank scores, and overall scores for each result.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Title </p> </td> 
-   <td colname="col2"> <p>The name of the data view. The name is displayed at the top right when you view the data view. </p> <p>See <a href="../c-about-reports-menu/c-about-data-views.md#task_FD0D2CE53DF84CBD9220AD7CA920011F" type="task" format="dita" scope="local"> Viewing a data view</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Description </p> </td> 
-   <td colname="col2"> <p>(Optional) Contains a description of the data view. The description is displayed between the title name of the data view and the <span class="wintitle"> New Search</span> text field. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Search Parameters </p> </td> 
-   <td colname="col2"> <p>Lets you specify default search parameters. When the data view is displayed for the first time, these CGI parameters are automatically appended. </p> <p>Do not change or delete <span class="codeph"> sp_cs</span> or <span class="codeph"> sp_f</span>. These parameters are essential to Data View regardless of the account's preferred character set. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Lock Status </p> </td> 
-   <td colname="col2"> <p>Lets you lock or unlock the data view. </p> <p>You can view a locked data view only with a password and user name. The user must be a current member of the account. </p> <p>An unlocked data view is accessed without a password or user account. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Order </p> </td> 
-   <td colname="col2"> <p> Lets you change the column order by editing the number in the <span class="wintitle"> Order</span> text box. You can also drag-and-drop a row to change the column order. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include </p> </td> 
-   <td colname="col2"> <p> Lets you turn on or off the display of the column. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Display URL as image </p> </td> 
-   <td colname="col2"> <p>Display thumbnails and images in this column if the search result for this column returns a URL. </p> <p>The URL is stripped of its scheme name or protocol before becoming a value of the <span class="codeph"> src</span> attribute of an image tag. </p> <p>If the returning search result does not look like a URL to an image, then an is displayed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Field Length </p> </td> 
-   <td colname="col2"> <p>Sets the number of characters that are displayed as a result on the data view. </p> <p>The default is 100 characters. </p> <p>Some fields, such as the ranking score and the date field, do not have adjustable field lengths. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Title </p> </td> 
+      <td colname="col2"> <p>The name of the data view. The name is displayed at the top right when you view the data view. </p> <p>See <a href="../c-about-reports-menu/c-about-data-views.md#task_FD0D2CE53DF84CBD9220AD7CA920011F" type="task" format="dita" scope="local"> Viewing a data view</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Description </p> </td> 
+      <td colname="col2"> <p>(Optional) Contains a description of the data view. The description is displayed between the title name of the data view and the <span class="wintitle"> New Search</span> text field. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Search Parameters </p> </td> 
+      <td colname="col2"> <p>Lets you specify default search parameters. When the data view is displayed for the first time, these CGI parameters are automatically appended. </p> <p>Do not change or delete <span class="codeph"> sp_cs</span> or <span class="codeph"> sp_f</span>. These parameters are essential to Data View regardless of the account's preferred character set. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Lock Status </p> </td> 
+      <td colname="col2"> <p>Lets you lock or unlock the data view. </p> <p>You can view a locked data view only with a password and user name. The user must be a current member of the account. </p> <p>An unlocked data view is accessed without a password or user account. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Order </p> </td> 
+      <td colname="col2"> <p> Lets you change the column order by editing the number in the <span class="wintitle"> Order</span> text box. You can also drag-and-drop a row to change the column order. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Include </p> </td> 
+      <td colname="col2"> <p> Lets you turn on or off the display of the column. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Display URL as image </p> </td> 
+      <td colname="col2"> <p>Display thumbnails and images in this column if the search result for this column returns a URL. </p> <p>The URL is stripped of its scheme name or protocol before becoming a value of the <span class="codeph"> src</span> attribute of an image tag. </p> <p>If the returning search result does not look like a URL to an image, then an is displayed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Field Length </p> </td> 
+      <td colname="col2"> <p>Sets the number of characters that are displayed as a result on the data view. </p> <p>The default is 100 characters. </p> <p>Some fields, such as the ranking score and the date field, do not have adjustable field lengths. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do any of the following:

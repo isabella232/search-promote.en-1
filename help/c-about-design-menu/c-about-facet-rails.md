@@ -38,7 +38,7 @@ You can add a facet rail to customize your presentation layer. Facet rails provi
 
 t_configuring_facet_rail.xml
 
- -->
+-->
 
 Any changes you make to facet rails can be reverted using the History feature.
 
@@ -51,46 +51,15 @@ Any changes you make to facet rails can be reverted using the History feature.
 1. On the [!DNL Facet Rail] page, select the facets that you want to include in the facet rail, and then set the **[!UICONTROL Sort Facets Method]** option from the drop-down list.
 
    <!-- 
+   r_facet_rail_options.xml
+   -->
 
-r_facet_rail_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Feature/Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Facet Rail Name </p> </td> 
-   <td colname="col2"> <p>Identifies the name of the facet rail. </p> <p>You create the name of the facet rail at the time you add the facet. </p> <p>See <a href="../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B" format="dita" scope="local"> Adding a new facet</a> </p> 
-    <!--<p>To change the name of a facet rail, edit the facet. </p> <p>See <xref href="t_Editing_a_facet.xml#task_457EDC49983F4F7781873703AF574DA5" format="dita" scope="local">Editing a facet</xref>. </p>--> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Facets Included </p> </td> 
-   <td colname="col2"> <p>A list of possible facets that you can select to add to the facet rail. </p> <p>If you choose to sort facets using <span class="uicontrol"> Custom</span>, the order that you select facets here determines the order that they appear in the <span class="uicontrol"> Custom Facet Order</span> text box. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Sort Facets Method </p> </td> 
-   <td colname="col2"> <p>Choose from one of the following three options in the drop-down list: </p> <p> 
-     <ul id="ul_DD398ADCE9814CC0B4FDDDEED580F038"> 
-      <li id="li_3BEA6E7D8BA247BCB5624EEBF78851EB"> <span class="uicontrol"> Alpha</span> <p>The facets are sorted in alphabetical order with respect to their names, including punctuation characters. </p> </li> 
-      <li id="li_3BEA6E7D8BA247BCB5624EEBF78851EC"> <span class="uicontrol"> Alpha (not case sensitive)</span> <p>The facets are sorted in alphabetical order with respect to their names, ignoring the case of alphabetic characters, and including punctuation characters. </p> </li> 
-      <li id="li_3BEA6E7D8BA247BCB5624EEBF78851ED"> <span class="uicontrol"> Alpha (alphanumeric only)</span> <p>The facets are sorted in alphabetical order with respect to their names, ignoring punctuation characters. </p> </li> 
-      <li id="li_3BEA6E7D8BA247BCB5624EEBF78851EE"> <span class="uicontrol"> Alpha (not case sensitive, alphanumeric only)</span> <p>The facets are sorted in alphabetical order with respect to their names, ignoring the case of alphabetic characters, and ignoring punctuation characters. </p> </li> 
-      <li id="li_6B71E95A671A4BEC8C701E6E63ED44DE"> <span class="uicontrol"> Count</span> <p>The facets are sorted base on count. </p> </li> 
-      <li id="li_A8DBEB6D9D4B40799A606ACE8AE63A03"> <span class="uicontrol"> Custom</span> <p>Opens the <span class="uicontrol"> Custom Facet Order</span> text box which lets you define the order of the facets by entering the exact name of each facet. Any facet labels left out are removed from the <span class="uicontrol"> Custom Facet Order</span> list. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom Facet Order </p> </td> 
-   <td colname="col2"> <p>This option is only available if you selected <span class="uicontrol"> Custom</span> from the <span class="uicontrol"> Sort Facets Method</span> drop-down list. </p> <p>Lets you list facet names, either one per line, or all on one line and comma-separated. If facet labels are defined they are shown in the <span class="uicontrol"> Facets Included</span> list, enclosed in parentheses. </p> <p>Do not include facet labels in the <span class="uicontrol"> Custom Facet Order</span> text box. </p> <p>When you select or deselect facets in the <span class="uicontrol"> Facets Included</span> list, the <span class="uicontrol"> Custom Facet Order</span> text box is automatically updated. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    | Feature/Option  | Description  |
+    |--- |--- |
+    |Facet Rail Name|Identifies the name of the facet rail.  You create the name of the facet rail at the time you add the facet.  See [Adding a new facet](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B)|
+    |Facets Included|A list of possible facets that you can select to add to the facet rail.  If you choose to sort facets using `Custom`, the order that you select facets here determines the order that they appear in the `Custom Facet Order` text box.|
+    |Sort Facets Method|Choose from one of the following three options in the drop-down list:<ul><li>`Alpha` The facets are sorted in alphabetical order with respect to their names, including punctuation characters.</li><li>`Alpha (not case sensitive)` The facets are sorted in alphabetical order with respect to their names, ignoring the case of alphabetic characters, and including punctuation characters. </li><li>`Alpha (alphanumeric only)` The facets are sorted in alphabetical order with respect to their names, ignoring punctuation characters. </li><li>`Alpha (not case sensitive, alphanumeric only)` The facets are sorted in alphabetical order with respect to their names, ignoring the case of alphabetic characters, and ignoring punctuation characters. </li><li>`Count` The facets are sorted base on count. </li><li>`Custom` Opens the `Custom Facet Order` text box which lets you define the order of the facets by entering the exact name of each facet. Any facet labels left out are removed from the `Custom Facet Order` list.</li></ul>|
+    |Custom Facet Order|This option is only available if you selected `Custom` from the `Sort Facets Method` drop-down list.  Lets you list facet names, either one per line, or all on one line and comma-separated. If facet labels are defined they are shown in the `Facets Included` list, enclosed in parentheses.  Do not include facet labels in the `Custom Facet Order` text box.  When you select or deselect facets in the `Facets Included` list, the `Custom Facet Order` text box is automatically updated.|
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) On the [!DNL Facet Rail] page, do one of the following:
