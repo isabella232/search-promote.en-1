@@ -27,7 +27,7 @@ The following are common questions regarding SWF files:
 
 * [When is a SWF file crawled and indexed?](#section_01BB5259140D4D5FB04CCB7A1A63DE99) 
 * [What do I have to do to index a SWF...](#section_0A6A52CC70D4495BBE14D91906318F95) 
-* [How are SWF files recognized?](.#section_B36C0536AB544F509601DC6A11A8E656) 
+* [How are SWF files recognized?](#section_B36C0536AB544F509601DC6A11A8E656) 
 * [How are SWF files indexed?](#section_36856058A4B54FA5ABF921344F50410C) 
 * [Does a SWF file count as a page?](#section_0158D6DE70BC40D78E2374787B9F58AB) 
 * [How do I prevent the indexing of individual SWF files...](#section_E38AD37989EF410B97AF5125057BFD22) 
