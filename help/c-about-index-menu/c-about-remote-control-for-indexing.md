@@ -233,36 +233,36 @@ t_configuring_remote_control_for_indexing.xml
 1. On the [!DNL Remote Control] page, set each configuration field option to be able to submit an indexing request from your server automatically to index your website.
 
    <!-- 
+   
+   r_remote_control_configuration_options.xml
+   
+   -->
 
-r_remote_control_configuration_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Remote Control Password </p> </td> 
-   <td colname="col2"> <p>Specify the remote control password. </p> <p> Passwords are case sensitive, at least six characters long, and must include at least one letter. It is recommended that you also include at least one number. </p> <p>Do not use your site search/merchandising login password. </p> <p>Your password is used in each remote control request. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>OK Response String </p> </td> 
-   <td colname="col2"> <p>Lets you specify an OK response text string if the requested index operation begins successfully. In such cases, the search robot returns your OK response string to the server. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Priority Response String </p> </td> 
-   <td colname="col2"> <p>If another indexing operation is in progress when the remote request is made, the search robot cannot perform the requested index. In such cases, your Priority response text string is returned to the server. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Error Response String </p> </td> 
-   <td colname="col2"> <p>Lets you specify an Error response text string If your password is incorrect, or if another error occurs. In such cases, the search robot returns your Error response string back to the server. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+    <tr> 
+    <th colname="col1" class="entry"> <p>Option </p> </th> 
+    <th colname="col2" class="entry"> <p>Description </p> </th> 
+    </tr> 
+    </thead>
+    <tbody> 
+    <tr> 
+    <td colname="col1"> <p>Remote Control Password </p> </td> 
+    <td colname="col2"> <p>Specify the remote control password. </p> <p> Passwords are case sensitive, at least six characters long, and must include at least one letter. It is recommended that you also include at least one number. </p> <p>Do not use your site search/merchandising login password. </p> <p>Your password is used in each remote control request. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>OK Response String </p> </td> 
+    <td colname="col2"> <p>Lets you specify an OK response text string if the requested index operation begins successfully. In such cases, the search robot returns your OK response string to the server. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Priority Response String </p> </td> 
+    <td colname="col2"> <p>If another indexing operation is in progress when the remote request is made, the search robot cannot perform the requested index. In such cases, your Priority response text string is returned to the server. </p> </td> 
+    </tr> 
+    <tr> 
+    <td colname="col1"> <p>Error Response String </p> </td> 
+    <td colname="col2"> <p>Lets you specify an Error response text string If your password is incorrect, or if another error occurs. In such cases, the search robot returns your Error response string back to the server. </p> </td> 
+    </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.

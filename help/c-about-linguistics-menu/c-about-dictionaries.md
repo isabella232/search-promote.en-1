@@ -202,54 +202,54 @@ You can also use **[!UICONTROL Find]** to locate specific synonyms and hyponyms 
     * On the [!DNL Dictionary Menu] page, in the table, click the hyperlinked name of a single dictionary whose terms you want to edit or delete. 
     * On the [!DNL Dictionary Menu] page, in the **[!UICONTROL Find]** text field, type a term that you want to locate across all dictionaries, and then click **[!UICONTROL Find]**.
 
-      On the [!DNL Find in Dictionaries] page, use the accompanying drop-down lists to set the refinement options that you want.
+    On the [!DNL Find in Dictionaries] page, use the accompanying drop-down lists to set the refinement options that you want.
 
-      <!-- 
-
-r_find_in_dictionaries_options.xml
-
- -->
+    <!-- 
+    
+    r_find_in_dictionaries_options.xml
+    
+    -->
 
     <table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Find </p> </td> 
-   <td colname="col2"> <p>Lets you enter the term that you want to search for across all dictionaries. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Match drop-down list </p> </td> 
-   <td colname="col2"> <p>Lets you select from the following four types of matching: 
-     <ul id="ul_D656F159677946938050115F610EEF4B"> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Find </p> </td> 
+      <td colname="col2"> <p>Lets you enter the term that you want to search for across all dictionaries. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Match drop-down list </p> </td> 
+      <td colname="col2"> <p>Lets you select from the following four types of matching: 
+      <ul id="ul_D656F159677946938050115F610EEF4B"> 
       <li id="li_2D6B302E021A4CE7A47F028812633EDC"> <span class="uicontrol"> Exact Match </span> <p>The query must have an exact match with a hyponym or synonym. </p> </li> 
       <li id="li_30AD5976E43041E98190F4757E821092"> <span class="uicontrol"> Contains Text </span> <p>The query only needs a substring match; a match inside a hyponym or synonym. </p> </li> 
       <li id="li_9BF911EFB54345BB82679BDE51DDF8AF"> <span class="uicontrol"> Starts With </span> <p>The query is only matched against the beginning of each hyponym and synonym. </p> </li> 
       <li id="li_CB791C7F5B5A4496B329ED505E7D97BC"> <span class="uicontrol"> Word Match </span> <p>The query is compared to each word from a synonym or hyponym, but the word must match exactly. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enabled/Disabled Dictionary drop-down list </p> </td> 
-   <td colname="col2"> <p>Lets you select from the following options: 
-     <ul id="ul_EBBD3F3A2D854952A35CBDDBECB40958"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enabled/Disabled Dictionary drop-down list </p> </td> 
+      <td colname="col2"> <p>Lets you select from the following options: 
+      <ul id="ul_EBBD3F3A2D854952A35CBDDBECB40958"> 
       <li id="li_7F5654C284BE485EAC9B000A663C6C60"> <span class="uicontrol"> Enabled and Disabled Dictionaries </span> <p>Search for the specified term in both enabled and disabled dictionaries. </p> </li> 
       <li id="li_4A83EECF38044287A923EC0AAF639079"> <span class="uicontrol"> Enabled Dictionaries only </span> <p>Searching enabled dictionaries only is helpful for debugging the current index. </p> </li> 
-     </ul> </p> <p>See <a href="../c-about-linguistics-menu/c-about-dictionaries.md#task_EC282EA0846942F6913918EA8218220B" type="task" format="dita" scope="local"> Enabling or disabling a dictionary </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Staged/Live drop-down list </p> </td> 
-   <td colname="col2"> <p>Lets you select from the following options: 
-     <ul id="ul_BD0733A30E6B470E942B21F499A4373B"> 
+      </ul> </p> <p>See <a href="../c-about-linguistics-menu/c-about-dictionaries.md#task_EC282EA0846942F6913918EA8218220B" type="task" format="dita" scope="local"> Enabling or disabling a dictionary </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Staged/Live drop-down list </p> </td> 
+      <td colname="col2"> <p>Lets you select from the following options: 
+      <ul id="ul_BD0733A30E6B470E942B21F499A4373B"> 
       <li id="li_F9A8C39C22EA4FBF86536F5924ED973C"> <span class="uicontrol"> Staged/Live Dictionaries </span> <p>Searches for the specified term across staged and live dictionaries. However, it only searches the staged version of the dictionary if it exists. If the staged version does not exist, it searches the live version of the dictionary. </p> </li> 
       <li id="li_DB0944DB18564269AA10676BDFDB0460"> <span class="uicontrol"> Live Dictionaries </span> <p>Search for the specified term in the live dictionaries only. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ul> </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. In the table, do either one of the following:
 

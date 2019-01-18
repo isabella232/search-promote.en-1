@@ -843,10 +843,10 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 1. On the [!DNL Add Form Definition] page, set the [!DNL Form Recognition] and [!DNL Form Submission] options.
 
    <!-- 
-
-r_form_definition_options.xml
-
- -->
+   
+   r_form_definition_options.xml
+   
+   -->
 
    The five options in the [!DNL Form Recognition] section on the [!DNL Form Definition] page are used to identify forms in your web pages that can be process.
 
@@ -854,141 +854,139 @@ r_form_definition_options.xml
 
    Enter one recognition or submission parameter per line. Each parameter must include a name and a value.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <b>Form Recognition</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Page URL Mask </p> </td> 
-   <td colname="col2"> <p>Identify the web page or pages that contain the form. To identify a form that appears on a single page, enter the URL for that page as in the following example: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>To identify forms that appear on multiple pages, specify a URL mask that uses wildcards to describe the pages. To identify forms encountered on any ASP page under <code> https://www.mydomain.com/register/ </code>, for example, you would specify the following: </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>You can also use a regular expression to identify multiple pages. Just specify the 
-     <userinput>
-       regexp 
-     </userinput> keyword before the URL mask as in the following example: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Action URL Mask </p> </td> 
-   <td colname="col2"> <p>Identifies the action attribute of the 
-     <userinput>
-       &lt;form&gt; 
-     </userinput> tag. </p> <p>Like the page URL mask, the action URL mask can take the form of a single URL, a URL with wildcards, or a regular expression. </p> <p>The URL mask can be any of the following: 
-     <ul id="ul_EDFE7688D3DD4C0BBACCE5D4648D8E44"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <b>Form Recognition</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Page URL Mask </p> </td> 
+      <td colname="col2"> <p>Identify the web page or pages that contain the form. To identify a form that appears on a single page, enter the URL for that page as in the following example: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>To identify forms that appear on multiple pages, specify a URL mask that uses wildcards to describe the pages. To identify forms encountered on any ASP page under <code> https://www.mydomain.com/register/ </code>, for example, you would specify the following: </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>You can also use a regular expression to identify multiple pages. Just specify the 
+      <userinput>
+        regexp 
+      </userinput> keyword before the URL mask as in the following example: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Action URL Mask </p> </td> 
+      <td colname="col2"> <p>Identifies the action attribute of the 
+      <userinput>
+        &lt;form&gt; 
+      </userinput> tag. </p> <p>Like the page URL mask, the action URL mask can take the form of a single URL, a URL with wildcards, or a regular expression. </p> <p>The URL mask can be any of the following: 
+      <ul id="ul_EDFE7688D3DD4C0BBACCE5D4648D8E44"> 
       <li id="li_77550A448D954EF29FF33EE5E8B5E0F5"> A full path as in the following: <code> https://www.mydomain.com/products.html </code> </li> 
       <li id="li_F84E25553BBA41419BE153DC0709E011"> A partial path as in the following: <code> https://www.mydomain.com/products </code> </li> 
       <li id="li_8DADA1C8604740FCACBA30B4AAADB2A1"> A URL that uses wild cards as in the following: <code> https://www.mydomain.com/*.html </code> </li> 
-      <li id="li_1EF637B450654B509AA4B618F7FD3C2B"> A regular expression as in the following: <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </li> 
-     </ul> </p> <p>If you do not want to index the text on pages that are identified by a URL mask or by an action URL mask, or if you do not want links followed on those pages, you can use the 
-     <userinput>
-       noindex 
-     </userinput> and 
-     <userinput>
-       nofollow 
-     </userinput> keywords. You can add these keywords to your masks using URL masks or entrypoints. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> About URL Entrypoints </a>. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> About URL Masks </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Form Name Mask </p> </td> 
-   <td colname="col2"> <p>Identifies forms if the 
-     <userinput>
-       &lt;form&gt; 
-     </userinput> tags in your web pages contain a name attribute. </p> <p>You can use a simple name ( 
-     <userinput>
-       login_form 
-     </userinput>), a name with a wildcard ( 
-     <userinput>
-       form* 
-     </userinput>), or a regular expression ( 
-     <userinput>
-       regexp ^.*authorize.*$ 
-     </userinput>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Form ID Mask </p> </td> 
-   <td colname="col2"> <p>Identifies forms if the 
-     <userinput>
-       &lt;form&gt; 
-     </userinput> tags in your web pages contain an id attribute. </p> <p>You can use a simple name ( 
-     <userinput>
-       login_form 
-     </userinput>), a name with a wildcard ( 
-     <userinput>
-       form* 
-     </userinput>), or a regular expression ( 
-     <userinput>
-       regexp ^.*authorize.*$ 
-     </userinput>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parameters </p> </td> 
-   <td colname="col2"> <p>Identify forms that contain, or do not contain, a named parameter or a named parameter with a specific value. </p> <p>For example, to identify a form that contains an e-mail parameter that is preset to rick_brough@mydomain.com, a password parameter, but not a first-name parameter, you would specify the following parameter settings, one per line: </p> <p> <code> email=rick_brough@mydomain.com 
-      password 
-      not&nbsp;first-name </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Form Submission</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Override Action URL </p> </td> 
-   <td colname="col2"> <p>Specify when the target of the form submission is different from what is specified in the form's action attribute. </p> <p>For example, you might use this option when the form is submitted by way of a JavaScript function that constructs a URL value that is different from what is found in the form. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Override Method </p> </td> 
-   <td colname="col2"> <p>Specify when the target of the form submission is different from what is used in the form's action attribute and when the submitting JavaScript has changed the method. </p> <p>The default values for all form parameters ( 
-     <userinput>
-       &lt;input&gt; 
-     </userinput> tags, including hidden fields), the default 
-     <userinput>
-       &lt;option&gt; 
-     </userinput> from a 
-     <userinput>
-       &lt;select&gt; 
-     </userinput> tag, and the default text between 
-     <userinput>
-       &lt;textarea&gt;...&lt;/textarea&gt; 
-     </userinput> tags) are read from the web page. However, any parameter that is listed in the <span class="wintitle"> Form Submission </span> section, in the <span class="uicontrol"> Parameters </span> field, is replaced with the form defaults. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Parameters </p> </td> 
-   <td colname="col2"> <p>You can prefix form submission parameters with the 
-     <userinput>
-       not 
-     </userinput> keyword. </p> <p>When you prefix a parameter with 
-     <userinput>
-       not 
-     </userinput>, it is not submitted as part of the form submission. This behavior is useful for check boxes that should be submitted deselected. </p> <p>For example, suppose you want to submit the following parameters: </p> <p> 
-     <ul id="ul_962D12BACF464FF189DB12BFAFCC93A6"> 
+      <li id="li_1EF637B450654B509AA4B618F7FD3C2B"> A regular expression as in the following: <code> regexp&amp;nbsp^https://www\.mydomain\.com/.*/login\.html$ </code> </li> 
+      </ul> </p> <p>If you do not want to index the text on pages that are identified by a URL mask or by an action URL mask, or if you do not want links followed on those pages, you can use the 
+      <userinput>
+        noindex 
+      </userinput> and 
+      <userinput>
+        nofollow 
+      </userinput> keywords. You can add these keywords to your masks using URL masks or entrypoints. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> About URL Entrypoints </a>. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> About URL Masks </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Form Name Mask </p> </td> 
+      <td colname="col2"> <p>Identifies forms if the 
+      <userinput>
+        &lt;form&gt; 
+      </userinput> tags in your web pages contain a name attribute. </p> <p>You can use a simple name ( 
+      <userinput>
+        login_form 
+      </userinput>), a name with a wildcard ( 
+      <userinput>
+        form* 
+      </userinput>), or a regular expression ( 
+      <userinput>
+        regexp ^.*authorize.*$ 
+      </userinput>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Form ID Mask </p> </td> 
+      <td colname="col2"> <p>Identifies forms if the 
+      <userinput>
+        &lt;form&gt; 
+      </userinput> tags in your web pages contain an id attribute. </p> <p>You can use a simple name ( 
+      <userinput>
+        login_form 
+      </userinput>), a name with a wildcard ( 
+      <userinput>
+        form* 
+      </userinput>), or a regular expression ( 
+      <userinput>
+        regexp ^.*authorize.*$ 
+      </userinput>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Parameters </p> </td> 
+      <td colname="col2"> <p>Identify forms that contain, or do not contain, a named parameter or a named parameter with a specific value. </p> <p>For example, to identify a form that contains an e-mail parameter that is preset to rick_brough@mydomain.com, a password parameter, but not a first-name parameter, you would specify the following parameter settings, one per line: </p> <p> <code> email=rick_brough@mydomain.com password  not&nbsp;first-name </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <b>Form Submission</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Override Action URL </p> </td> 
+      <td colname="col2"> <p>Specify when the target of the form submission is different from what is specified in the form's action attribute. </p> <p>For example, you might use this option when the form is submitted by way of a JavaScript function that constructs a URL value that is different from what is found in the form. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Override Method </p> </td> 
+      <td colname="col2"> <p>Specify when the target of the form submission is different from what is used in the form's action attribute and when the submitting JavaScript has changed the method. </p> <p>The default values for all form parameters ( 
+      <userinput>
+        &lt;input&gt; 
+      </userinput> tags, including hidden fields), the default 
+      <userinput>
+        &lt;option&gt; 
+      </userinput> from a 
+      <userinput>
+        &lt;select&gt; 
+      </userinput> tag, and the default text between 
+      <userinput>
+        &lt;textarea&gt;...&lt;/textarea&gt; 
+      </userinput> tags) are read from the web page. However, any parameter that is listed in the <span class="wintitle"> Form Submission </span> section, in the <span class="uicontrol"> Parameters </span> field, is replaced with the form defaults. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Parameters </p> </td> 
+      <td colname="col2"> <p>You can prefix form submission parameters with the 
+      <userinput>
+        not 
+      </userinput> keyword. </p> <p>When you prefix a parameter with 
+      <userinput>
+        not 
+      </userinput>, it is not submitted as part of the form submission. This behavior is useful for check boxes that should be submitted deselected. </p> <p>For example, suppose you want to submit the following parameters: </p> <p> 
+      <ul id="ul_962D12BACF464FF189DB12BFAFCC93A6"> 
       <li id="li_830C6C3EC8D2448388A453BB8EDE5940"> The e-mail parameter with the value 
-       <userinput>
-         nobody@mydomain.com 
-       </userinput> </li> 
+      <userinput>
+        nobody@mydomain.com 
+      </userinput> </li> 
       <li id="li_905497E3FACE472DBDD49392D5B45E01"> The password parameter with the value 
-       <userinput>
-         tryme 
-       </userinput> </li> 
+      <userinput>
+        tryme 
+      </userinput> </li> 
       <li id="li_AAA411708ADC464793EADF0D821E282E"> The mycheckbox parameter as deselected. </li> 
       <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>All other 
-        <userinput>
-          &lt;form&gt; 
-        </userinput> parameters as their default values </p> </li> 
-     </ul> </p> <p>Your form submission parameter would look like the following: </p> <p> <code> email=nobody@mydomain.com 
-      password=tryme 
-      not&nbsp;mycheckbox </code> </p> <p>The method attribute of the 
-     <userinput>
-       &lt;form&gt; 
-     </userinput> tag on the web page is used to decide if the data is sent to your server using the GET method or the POST method. </p> <p>If the 
-     <userinput>
-       &lt;form&gt; 
-     </userinput> tag does not contain a method attribute, the form is submitted using the GET method. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      <userinput>
+        &lt;form&gt; 
+      </userinput> parameters as their default values </p> </li> 
+      </ul> </p> <p>Your form submission parameter would look like the following: </p> <p> <code> email=nobody@mydomain.com 
+        password=tryme 
+        not&nbsp;mycheckbox </code> </p> <p>The method attribute of the 
+      <userinput>
+        &lt;form&gt; 
+      </userinput> tag on the web page is used to decide if the data is sent to your server using the GET method or the POST method. </p> <p>If the 
+      <userinput>
+        &lt;form&gt; 
+      </userinput> tag does not contain a method attribute, the form is submitted using the GET method. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) Do any of the following:
@@ -1253,273 +1251,267 @@ See [About the Index menu](../c-about-index-menu/c-about-index-menu.md#concept_1
 1. On the [!DNL Index Connector Add] page, set the connector options that you want. The options that are available depend on the **[!UICONTROL Type]** that you selected.
 
    <!-- 
+   
+   r_index_connector_options.xml
+   
+   -->
 
-r_index_connector_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>The unique name of the Index Connector configuration. You can use alphanumeric characters. The characters "_" and "-" are also allowed. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>The source of your data. The data source type that you select affects the resulting options that are available on the <span class="wintitle"> Index Connector Add </span> page. You can choose from the following: </p> <p> 
-     <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Name </p> </td> 
+      <td colname="col2"> <p>The unique name of the Index Connector configuration. You can use alphanumeric characters. The characters "_" and "-" are also allowed. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Type </p> </td> 
+      <td colname="col2"> <p>The source of your data. The data source type that you select affects the resulting options that are available on the <span class="wintitle"> Index Connector Add </span> page. You can choose from the following: </p> <p> 
+      <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Text </span> <p>Simple flat text files, comma-delimited, tab-delimited, or other consistently delimited formats. Each newline-delimited line of text corresponds to an individual document, and is parsed using the specified delimiter. </p> <p>You can map each value, or column, to a metadata field, referenced by the column number, starting at 1 (one). </p> </li> 
       <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a master XML document that contains multiple "rows" of information. </p> </li> 
       <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Downloads a master XML document that contains links ( 
-        <userinput>
-          &lt;a&gt; 
-        </userinput>) to individual XML documents. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Data source type: Text</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enabled </p> </td> 
-   <td colname="col2"> <p>Turns the configuration "on" to crawl and index. Or, you can turn "off" the configuration to prevent crawling and indexing. </p> <p> <b>Note</b>: Disabled Index Connector configurations are ignored if they are found in an entrypoint list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code> https://www.somewhere.com/some_path/some_file.xml </code> </p> <p>or </p> <p> <code> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.xml </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields. </p> <p>Specifies the IP address or the URL address of the host system where the data source file is found. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file. </p> <p>The path is relative to the root of the host address. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Incremental File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. If no file is specified, the file listed under File Path is used instead. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vertical File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file to be used during a Vertical Update. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Vertical Update operations. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Deletes File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the simple flat text file, containing a single document identifier value per line. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. The values found in this file are used to construct "delete" requests to remove previously indexed documents. The values in this file must correspond to the values found in the Full or Incremental File Path files, in the column identified as the <span class="uicontrol"> Primary Key </span>. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Protocol </p> </td> 
-   <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
-     <ul id="ul_F6BC10FD51CA4A1D855B2B3212838A9C"> 
+      <userinput>
+        &lt;a&gt; 
+      </userinput>) to individual XML documents. </p> </li> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <b>Data source type: Text</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enabled </p> </td> 
+      <td colname="col2"> <p>Turns the configuration "on" to crawl and index. Or, you can turn "off" the configuration to prevent crawling and indexing. </p> <p> <b>Note</b>: Disabled Index Connector configurations are ignored if they are found in an entrypoint list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Host Address </p> </td> 
+      <td colname="col2"> <p>Specifies the address of the server host where your data is located. </p> <p>If desired, you can specify a full URI (Uniform Resource Identifier) path to the data source document as in the following examples: </p> <p> <code> https://www.somewhere.com/some_path/some_file.xml </code> </p> <p>or </p> <p> <code> ftp://user:password@ftpserver.somewhere.com/some_path/some_file.xml </code> </p> <p>The URI is broken down into the appropriate entries for the Host Address, File Path, Protocol, and, optionally, Username, and Password fields. </p> <p>Specifies the IP address or the URL address of the host system where the data source file is found. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Incremental File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. If no file is specified, the file listed under File Path is used instead. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Vertical File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the simple flat text file, comma-delimited, tab-delimited, or other consistently delimited format file to be used during a Vertical Update. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Vertical Update operations. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Deletes File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the simple flat text file, containing a single document identifier value per line. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. The values found in this file are used to construct "delete" requests to remove previously indexed documents. The values in this file must correspond to the values found in the Full or Incremental File Path files, in the column identified as the <span class="uicontrol"> Primary Key </span>. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Protocol </p> </td> 
+      <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
+      <ul id="ul_F6BC10FD51CA4A1D855B2B3212838A9C"> 
       <li id="li_79FB7DC65E774ABBB23E57BF98AD9738"> HTTP <p>If necessary, you may enter proper authentication credentials to access the HTTP server. </p> </li> 
       <li id="li_BAA9AD5E4B014E09B3A66C94022B7225"> HTTPS <p>If necessary, you may enter proper authentication credentials to access the HTTPS server. </p> </li> 
       <li id="li_E716ABB169DD408BA91F1CA27F445A16"> FTP <p>You must enter proper authentication credentials to access the FTP server. </p> </li> 
       <li id="li_FD7143019C5244C3B8A5B1B5AA84859A"> SFTP <p>You must enter proper authentication credentials to access the SFTP server. </p> </li> 
       <li id="li_38E0036C1365419F9D00083CACA34AFB"> File </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Timeout </p> </td> 
-   <td colname="col2"> <p>Specifies the timeout, in seconds, for FTP, SFTP, HTTP or HTTPS connections. This value must be between 30 and 300. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Retries </p> </td> 
-   <td colname="col2"> <p>Specifies the maximum number of retries for failed FTP, SFTP, HTTP or HTTPS connections. This value must be between 0 and 10. </p> <p>A value of zero (0) will prevent retry attempts. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Encoding </p> </td> 
-   <td colname="col2"> <p>Specifies the character encoding system that is used in the specified data source file. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Delimiter </p> </td> 
-   <td colname="col2"> <p>Specifies the character that you want to use to delineate each field in the specified data source file. </p> <p>The comma character ( <span class="codeph"> , </span>) is an example of a delimiter. The comma acts as a field delimiter that helps to separate data fields in your specified data source file. </p> <p>Select <span class="uicontrol"> Tab? </span> to use the horizontal-tab character as the delimiter. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Headers in First Row </p> </td> 
-   <td colname="col2"> <p>Indicates that the first row in the data source file contains header information only, not data. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Minimum number of documents for indexing </p> </td> 
-   <td colname="col2"> <p>If set to a positive value, this specifies the minimum number of records expected in the file downloaded. If fewer records are received, the index operation is aborted. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> <p> <b>Note</b>: This feature is only used during full Index operations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Map </p> </td> 
-   <td colname="col2"> <p>Specifies column-to-metadata mappings, using column numbers. </p> <p> 
-     <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Timeout </p> </td> 
+      <td colname="col2"> <p>Specifies the timeout, in seconds, for FTP, SFTP, HTTP or HTTPS connections. This value must be between 30 and 300. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Retries </p> </td> 
+      <td colname="col2"> <p>Specifies the maximum number of retries for failed FTP, SFTP, HTTP or HTTPS connections. This value must be between 0 and 10. </p> <p>A value of zero (0) will prevent retry attempts. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Encoding </p> </td> 
+      <td colname="col2"> <p>Specifies the character encoding system that is used in the specified data source file. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Delimiter </p> </td> 
+      <td colname="col2"> <p>Specifies the character that you want to use to delineate each field in the specified data source file. </p> <p>The comma character ( <span class="codeph"> , </span>) is an example of a delimiter. The comma acts as a field delimiter that helps to separate data fields in your specified data source file. </p> <p>Select <span class="uicontrol"> Tab? </span> to use the horizontal-tab character as the delimiter. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Headers in First Row </p> </td> 
+      <td colname="col2"> <p>Indicates that the first row in the data source file contains header information only, not data. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Minimum number of documents for indexing </p> </td> 
+      <td colname="col2"> <p>If set to a positive value, this specifies the minimum number of records expected in the file downloaded. If fewer records are received, the index operation is aborted. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> <p> <b>Note</b>: This feature is only used during full Index operations. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Map </p> </td> 
+      <td colname="col2"> <p>Specifies column-to-metadata mappings, using column numbers. </p> <p> 
+      <ul id="ul_981AE2C6D30443BDBFC6575D413732A2"> 
       <li id="li_A42CB9DFFF8C45A7BAC2D471FE96CEBE"> <span class="uicontrol"> Column </span> <p> Specifies a column number, with the first column being 1 (one). To add new map rows for each column, under <span class="wintitle"> Action </span>, click <span class="uicontrol"> + </span>. </p> <p>You do not need to reference each column in the data source. Instead, you can choose to skip values. </p> </li> 
       <li id="li_26E8C9554A5D4BC5A5073D6385E3626F"> <span class="uicontrol"> Field </span> <p>Defines the name attribute value that is used for each generated &lt;meta&gt; tag. </p> </li> 
       <li id="li_5DFA514B7F9549B98D6CBC095A66033C"> <span class="uicontrol"> Metadata? </span> <p>Causes <span class="uicontrol"> Field </span> to become a drop-down list from which you can select defined metadata fields for the current account. </p> <p>The <span class="uicontrol"> Field </span> value can be an undefined metadata field, if desired. An undefined metadata field is sometimes useful to create content used by <span class="wintitle"> Filtering Script </span>. </p> <p>See <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> About Filtering Script </a>. </p> <p>When Index Connector processes XML documents with multiple hits on any map field, the multiple values are concatenated into a single value in the resulting cached document. By default, these values are combined using a comma delimiter. However, suppose that the corresponding <span class="wintitle"> Field </span> value is a defined metadata field. In addition, that field has the <span class="wintitle"> Allow Lists </span> attribute set. In this case, the field's List Delimiters value, which is the first delimiter defined, is used in the concatenation. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892C95"> <span class="uicontrol"> Primary Key? </span> <p>Only one map definition is identified as the primary key. This field becomes the unique reference that is presented when this document is added to the index. This value is used in the document’s URL in the Index. </p> <p>The <span class="uicontrol"> Primary Key </span> values must be unique across all of the documents represented by the Index Connector configuration - any duplicates encountered will be ignored. If your source documents don't contain a single unique value for use as <span class="uicontrol"> Primary Key </span>, but two or more fields taken together <i>can</i> form a unique identifier, you can define the <span class="uicontrol"> Primary Key </span> by combining multiple <span class="uicontrol"> Column </span> values with a vertical bar ("|") delimiting the values. </p> </li> 
       <li id="li_80DB205525094CE1AA6762BFC7892D96"> <span class="uicontrol"> Strip HTML? </span> <p>When this option is checked, any HTML tags found in this field's data is removed. </p> </li> 
       <li id="li_359D2902859B4C5BADB0BA26F0BA4DC0"> <span class="uicontrol"> Action </span> <p>Lets you add rows to the map or remove rows from the map. The order of the rows is not important. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Data source type: Feed</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enabled </p> </td> 
-   <td colname="col2"> <p>Turns the configuration "on" to crawl and index. Or, you can turn "off" the configuration to prevent crawling and indexing. </p> <p> <b>Note</b>: Disabled Index Connector configurations are ignored if they are found in an entrypoint list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the IP address or the URL address of the host system where the data source file is found. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the master XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Incremental File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the incremental XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. If no file is specified, the file listed under File Path is used instead. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Vertical File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the XML document that contains multiple sparse "rows" of information to be used during a Vertical Update. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Vertical Update operations. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Deletes File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the simple flat text file, containing a single document identifier value per line. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. The values found in this file are used to construct "delete" requests to remove previously indexed documents. The values in this file must correspond to the values found in the Full or Incremental File Path files, in the column identified as the <span class="uicontrol"> Primary Key </span>. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Protocol </p> </td> 
-   <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
-     <ul id="ul_976A34FD14A841F2B610C1C0CCBB82B9"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <b>Data source type: Feed</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enabled </p> </td> 
+      <td colname="col2"> <p>Turns the configuration "on" to crawl and index. Or, you can turn "off" the configuration to prevent crawling and indexing. </p> <p> <b>Note</b>: Disabled Index Connector configurations are ignored if they are found in an entrypoint list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Host Address </p> </td> 
+      <td colname="col2"> <p>Specifies the IP address or the URL address of the host system where the data source file is found. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the master XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Incremental File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the incremental XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. If no file is specified, the file listed under File Path is used instead. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Vertical File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the XML document that contains multiple sparse "rows" of information to be used during a Vertical Update. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Vertical Update operations. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Deletes File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the simple flat text file, containing a single document identifier value per line. </p> <p>The path is relative to the root of the host address. </p> <p>This file, if specified, is downloaded and processed during Incremental Index operations. The values found in this file are used to construct "delete" requests to remove previously indexed documents. The values in this file must correspond to the values found in the Full or Incremental File Path files, in the column identified as the <span class="uicontrol"> Primary Key </span>. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Protocol </p> </td> 
+      <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
+      <ul id="ul_976A34FD14A841F2B610C1C0CCBB82B9"> 
       <li id="li_05BBA0F670F14431A89AE4178F1A6F94"> HTTP <p>If necessary, you may enter proper authentication credentials to access the HTTP server. </p> </li> 
       <li id="li_100446691F304572B8FC3F083F86A2CB"> HTTPS <p>If necessary, you may enter proper authentication credentials to access the HTTPS server. </p> </li> 
       <li id="li_027088A8E30444DAA8CCCC5B0BAA74C1"> FTP <p>You must enter proper authentication credentials to access the FTP server. </p> </li> 
       <li id="li_DCEF9D5C99354990B03E29083C2ED8DC"> SFTP <p>You must enter proper authentication credentials to access the SFTP server. </p> </li> 
       <li id="li_44E34FF2AB0D429EB3408106E6FCF780"> File </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Itemtag </p> </td> 
-   <td colname="col2"> <p>Identifies the XML element that you can use to identify individual XML lines in the data source file that you specified. </p> <p>For example, in the following Feed fragment of an Adobe XML document, the Itemtag value is <span class="codeph"> record </span>: </p> <p> <code> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
-      &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; 
-      &lt;gsafeed&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;datasource&gt;marketplace&lt;/datasource&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feedtype&gt;incremental&lt;/feedtype&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;group&nbsp;action="add"&gt; 
-      &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
-      index.cfm?event=marketplace.home&amp;amp;marketplaceid=1&nbsp;action="add"&nbsp;mimetype="text/html"displayurl="https://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=1"&gt; 
-      &lt;metadata&gt; 
-      &lt;meta&nbsp;name="mp_mkt"&nbsp;content="1"/&gt; 
-      &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
-      dbreferenced/marketplaceicons/icn_air.png"/&gt; 
-      &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;AIR&nbsp;Marketplace"/&gt; 
-      &lt;meta&nbsp;name="description"&nbsp;content="Discover&nbsp;new&nbsp;applications&nbsp;..."/&gt; 
-      &lt;/metadata&gt; 
-      &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;AIR&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Discover&nbsp;new&nbsp;applications&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;&lt;/cntent&gt; 
-      &lt;/record&gt; 
-      &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/ 
-      index.cfm?event=marketplace.home&amp;amp;marketplaceid=2&nbsp;action="add"&nbsp;mimetype="text/html"&nbsp;displayurl="https://www.adobe.com/cfusion/ 
-      marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=2"&gt; 
-      &lt;metadata&gt; 
-      &lt;meta&nbsp;name="mp_mkt"&nbsp;content="2"/&gt; 
-      &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
-      dbreferenced/marketplaceicons/icn_photoshop.png"/&gt; 
-      &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;Photoshop&nbsp;Marketplace"/&gt; 
-      &lt;meta&nbsp;name="description"&nbsp;content="Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;..."/&gt; 
-      &lt;/metadata&gt; 
-      &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;Photoshop&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;/content&gt; 
-      &lt;/record&gt; 
-      ... 
-      &lt;record&gt; 
-      ... 
-      &lt;/record&gt; 
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/group&gt; 
-      &lt;/gsafeed&gt; 
-       </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Minimum number of documents for indexing </p> </td> 
-   <td colname="col2"> <p>If set to a positive value, this specifies the minimum number of records expected in the file downloaded. If fewer records are received, the index operation is aborted. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> <p> <b>Note</b>: This feature is only used during full Index operations. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Map </p> </td> 
-   <td colname="col2"> <p>Lets you specify XML-element-to-metadata mappings, using XPath expressions. </p> <p> 
-     <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Itemtag </p> </td> 
+      <td colname="col2"> <p>Identifies the XML element that you can use to identify individual XML lines in the data source file that you specified. </p> <p>For example, in the following Feed fragment of an Adobe XML document, the Itemtag value is <span class="codeph"> record </span>: </p> <p> <code> &lt;?xml&nbsp;version="1.0"&nbsp;encoding="utf-8"?&gt; 
+        &lt;!DOCTYPE&nbsp;gsafeed&nbsp;PUBLIC&nbsp;"-//Google//DTD&nbsp;GSA&nbsp;Feeds//EN"&nbsp;""&gt; &lt;gsafeed&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;header&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;datasource&gt;marketplace&lt;/datasource&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;feedtype&gt;incremental&lt;/feedtype&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/header&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;group&nbsp;action="add"&gt; 
+        &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa
+        index.cfm?event=marketplace.home&amp;amp;marketplaceid=1&nbsp;action="add"&nbsp;mimetype="text/html"displayurl="https://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=1"&gt;&lt;metadata&gt; 
+        &lt;meta&nbsp;name="mp_mkt"&nbsp;content="1"/&gt; 
+        &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
+        dbreferenced/marketplaceicons/icn_air.png"/&gt; 
+        &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;AIR&nbsp;Marketplace"/&gt; 
+        &lt;meta&nbsp;name="description"&nbsp;content="Discover&nbsp;new&nbsp;applications&nbsp;..."/&gt; &lt;/metadata&gt; 
+        &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;AIR&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Discover&nbsp;new&nbsp;applications&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;&lt;/cntent&gt; 
+        &lt;/record&gt; 
+        &lt;record&nbsp;url=https://www.adobe.com/cfusion/marketplace_gsa/
+        index.cfm?event=marketplace.home&amp;amp;marketplaceid=2&nbsp;action="add"&nbsp;mimetype="text/html"&nbsp;displayurl="https://www.adobe.com/cfusion/ 
+        marketplace/index.cfm?event=marketplace.home&amp;amp;marketplaceid=2"&gt; 
+        &lt;metadata&gt; 
+        &lt;meta&nbsp;name="mp_mkt"&nbsp;content="2"/&gt; 
+        &lt;meta&nbsp;name="mp_logo"&nbsp;content="/images/marketplace/ 
+        dbreferenced/marketplaceicons/icn_photoshop.png"/&gt;         &lt;meta&nbsp;name="title"&nbsp;content="Adobe&nbsp;Photoshop&nbsp;Marketplace"/&gt;         &lt;meta&nbsp;name="description"&nbsp;content="Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;..."/&gt; 
+        &lt;/metadata&gt;         &lt;content&gt;&lt;![CDATA[&lt;html&gt;&lt;head&gt;&lt;title&gt;Adobe&nbsp;Photoshop&nbsp;Marketplace&lt;/title&gt;&lt;/head&gt;&lt;body&gt;Extend&nbsp;your&nbsp;creative&nbsp;possibilities&nbsp;...&lt;/body&gt;&lt;/html&gt;]]&gt;/content&gt; 
+        &lt;/record&gt; 
+        ... 
+        &lt;record&gt; 
+        ... 
+        &lt;/record&gt; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/group&gt; 
+        &lt;/gsafeed&gt; 
+        </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Minimum number of documents for indexing </p> </td> 
+      <td colname="col2"> <p>If set to a positive value, this specifies the minimum number of records expected in the file downloaded. If fewer records are received, the index operation is aborted. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> <p> <b>Note</b>: This feature is only used during full Index operations. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Map </p> </td> 
+      <td colname="col2"> <p>Lets you specify XML-element-to-metadata mappings, using XPath expressions. </p> <p> 
+      <ul id="ul_604108C0277C4892AE8A40CA39889ABD"> 
       <li id="li_0AF92270AE9F4BA8B2C7EE41FABC0F34"> <span class="uicontrol"> Tag </span> <p>Specifies an XPath representation of the parsed XML data. Using the example Adobe XML document above, under the option Itemtag, it could be mapped using the following syntax: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
-         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
-         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
-         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>The above syntax translates as the following: </p> <p> 
-        <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
-         <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>The <span class="codeph"> displayurl </span> attribute of the <span class="codeph"> record </span> element maps to the metadata field <span class="codeph"> page-url </span>. </p> </li> 
-         <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
-         <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
-         <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
-        </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
+      /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
+      /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
+      /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>The above syntax translates as the following: </p> <p> 
+      <ul id="ul_6400EBD08D424EADA1612FE4F7EFB640"> 
+      <li id="li_9958F9B40D42434195597DBA9F2AF28F"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>The <span class="codeph"> displayurl </span> attribute of the <span class="codeph"> record </span> element maps to the metadata field <span class="codeph"> page-url </span>. </p> </li> 
+      <li id="li_759013EA02CD48BE971A55B0A6A11424"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
+      <li id="li_E741CA59197D462EB2946EDE874AFDC8"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
+      <li id="li_E35EAE3D284D46D485D9064D7BB6AB13"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
+      </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_8147075D7ACD4811A7ED335F23FE62A6"> <span class="uicontrol"> Field </span> <p>Defines the name attribute value that is used for each generated <span class="codeph"> &lt;meta&gt; </span> tag. </p> </li> 
       <li id="li_2380199D63BF425A919606D8232FA6E2"> <span class="uicontrol"> Metadata? </span> <p>Causes <span class="uicontrol"> Field </span> to become a drop-down list from which you can select defined metadata fields for the current account. </p> <p>The <span class="uicontrol"> Field </span> value can be an undefined metadata field, if desired. An undefined metadata field is sometimes useful to create content used by <span class="wintitle"> Filtering Script </span>. </p> <p>See <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> About Filtering Script </a>. </p> <p>When Index Connector processes XML documents with multiple hits on any map field, the multiple values are concatenated into a single value in the resulting cached document. By default, these values are combined using a comma delimiter. However, suppose that the corresponding <span class="wintitle"> Field </span> value is a defined metadata field. In addition, that field has the <span class="wintitle"> Allow Lists </span> attribute set. In this case, the field's List Delimiters value, which is the first delimiter defined, is used in the concatenation. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC70E"> <span class="uicontrol"> Primary Key? </span> <p>Only one map definition is identified as the primary key. This field becomes the unique reference that is presented when this document is added to the index. This value is used in the document’s URL in the Index. </p> <p>The <span class="uicontrol"> Primary Key </span> values must be unique across all of the documents represented by the Index Connector configuration - any duplicates encountered will be ignored. If your source documents don't contain a single unique value for use as <span class="uicontrol"> Primary Key </span>, but two or more fields taken together <i>can</i> form a unique identifier, you can define the <span class="uicontrol"> Primary Key </span> by combining multiple <span class="uicontrol"> Tag </span> definitions with a vertical bar ("|") delimiting the values. </p> </li> 
       <li id="li_DEA24003E97E406DA2510C43CCFDC81F"> <span class="uicontrol"> Strip HTML? </span> <p>When this option is checked, any HTML tags found in this field's data are removed. </p> </li> 
       <li id="li_5E829D1D0DBD4BB7AAB5DB983053D248"> <span class="uicontrol"> Use for Delete? </span> <p>Used during Incremental Index operations, only. Records matching this XPath pattern identify items for deletion. The <span class="uicontrol"> Primary Key </span> value for each such record is used to construct "delete" requests, as with Delete File Path. </p> <p> <b>Note</b>: This feature is not enabled by default. Contact Technical Support to activate the feature for your use. </p> </li> 
       <li id="li_D40E2F9AD8AD49FC9AC4B8C75BA31E28"> <span class="uicontrol"> Action </span> <p>Lets you add rows to the map or remove rows from the map. The order of the rows is not important. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <b>Data source type: XML</b> </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Enabled </p> </td> 
-   <td colname="col2"> <p>Turns the configuration "on" to crawl and index. Or, you can turn "off" the configuration to prevent crawling and indexing. </p> <p> <b>Note</b>: Disabled Index Connector configurations are ignored if they are found in an entrypoint list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Host Address </p> </td> 
-   <td colname="col2"> <p>Specifies the URL address of the host system where the data source file is found. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>File Path </p> </td> 
-   <td colname="col2"> <p>Specifies the path to the master XML document that contains links ( 
-     <userinput>
-       &lt;a&gt; 
-     </userinput>) to individual XML documents. </p> <p>The path is relative to the root of the host address. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Protocol </p> </td> 
-   <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
-     <ul id="ul_EA4EB7953D68483FAD75753B2EE70E74"> 
+      </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <b>Data source type: XML</b> </p> </td> 
+      <td colname="col2"> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Enabled </p> </td> 
+      <td colname="col2"> <p>Turns the configuration "on" to crawl and index. Or, you can turn "off" the configuration to prevent crawling and indexing. </p> <p> <b>Note</b>: Disabled Index Connector configurations are ignored if they are found in an entrypoint list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Host Address </p> </td> 
+      <td colname="col2"> <p>Specifies the URL address of the host system where the data source file is found. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>File Path </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the master XML document that contains links ( 
+      <userinput>
+        &lt;a&gt; 
+      </userinput>) to individual XML documents. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Protocol </p> </td> 
+      <td colname="col2"> <p>Specifies the protocol that is used to access the file. You can choose from the following: </p> <p> 
+      <ul id="ul_EA4EB7953D68483FAD75753B2EE70E74"> 
       <li id="li_537F24C6B2AB435CB7C14117663D7B3F"> HTTP <p>If necessary, you may enter proper authentication credentials to access the HTTP server. </p> </li> 
       <li id="li_8C13C93C52364FFA8B9B18830CDB223C"> HTTPS <p>If necessary, you may enter proper authentication credentials to access the HTTPS server. </p> </li> 
       <li id="li_2F967B5675254C949B31EAB19910751C"> FTP <p>You must enter proper authentication credentials to access the FTP server. </p> </li> 
       <li id="li_C24BE4C1DE79488AA64C7133D78CD3A6"> SFTP <p>You must enter proper authentication credentials to access the SFTP server. </p> </li> 
       <li id="li_7581C21CFC104986A361F62BD7A370C1"> File </li> 
-     </ul> </p> <p> <b>Note</b>: The Protocol setting is only used when there is information specified in the Host Address and/or File Path fields. Individual XML documents are downloaded using either HTTP or HTTPS, according to their URL specifications. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Itemtag </p> </td> 
-   <td colname="col2"> <p>Identifies the XML element that defines a "row" in the data source file that you specified. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Map </p> </td> 
-   <td colname="col2"> <p>Lets you specify column-to-metadata mappings, using column numbers. </p> <p> 
-     <ul id="ul_06F50CBA0AA64C7CB1AFAE076E629A64"> 
+      </ul> </p> <p> <b>Note</b>: The Protocol setting is only used when there is information specified in the Host Address and/or File Path fields. Individual XML documents are downloaded using either HTTP or HTTPS, according to their URL specifications. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Itemtag </p> </td> 
+      <td colname="col2"> <p>Identifies the XML element that defines a "row" in the data source file that you specified. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Map </p> </td> 
+      <td colname="col2"> <p>Lets you specify column-to-metadata mappings, using column numbers. </p> <p> 
+      <ul id="ul_06F50CBA0AA64C7CB1AFAE076E629A64"> 
       <li id="li_0FA2502869BA40DC93D790B79E15A9D2"> <span class="uicontrol"> Tag </span> <p>Specifies an XPath representation of the parsed XML data. Using the example Adobe XML document above, under the option Itemtag, you can map it using the following syntax: </p> <p> <code> /record/@displayurl&nbsp;-&gt;&nbsp;page-url 
-         /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
-         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
-         /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>The above syntax translates as the following: </p> <p> 
-        <ul id="ul_F8C536E6E54546D9AA5B22B879C0AF39"> 
-         <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>The <span class="codeph"> displayurl </span> attribute of the <span class="codeph"> record </span> element maps to the metadata field <span class="codeph"> page-url </span>. </p> </li> 
-         <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
-         <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
-         <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
-        </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
+        /record/metadata/meta[@name='title']/@content&nbsp;-&gt;&nbsp;title 
+        /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;desc 
+        /record/metadata/meta[@name='description']/@content&nbsp;-&gt;&nbsp;body </code> </p> <p>The above syntax translates as the following: </p> <p> 
+      <ul id="ul_F8C536E6E54546D9AA5B22B879C0AF39"> 
+      <li id="li_78A35DFFF1B4496CAC6EDC7B1E991F29"> <code> /record/@displayurl&amp;nbsp;-&gt;&amp;nbsp;page-url </code> <p>The <span class="codeph"> displayurl </span> attribute of the <span class="codeph"> record </span> element maps to the metadata field <span class="codeph"> page-url </span>. </p> </li> 
+      <li id="li_FA7DF3D1942248B98660F3D0C82F4563"> <code> /record/metadata/meta[@name='title']/@content&amp;nbsp;-&gt;&amp;nbsp;title </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside a <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> title </span>, maps to the metadata field <span class="codeph"> title </span>. </p> </li> 
+      <li id="li_D8000A116FF84DE59ED19C656DDD3BC1"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;desc </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained inside a <span class="codeph"> metadata </span> element, that is contained inside the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> desc </span>. </p> </li> 
+      <li id="li_7FA6A53DFD3D42A98B7BA17CC29DDB81"> <code> /record/metadata/meta[@name='description']/@content&amp;nbsp;-&gt;&amp;nbsp;body </code> <p>The <span class="codeph"> content </span> attribute of any <span class="codeph"> meta </span> element that is contained within a <span class="codeph"> metadata </span> element, that is contained within the <span class="codeph"> record </span> element, whose name attribute is <span class="codeph"> description </span>, maps to the metadata field <span class="codeph"> body </span>. </p> </li> 
+      </ul> </p> <p>XPath is a relatively complicated notation. More information is available at the following location: </p> <p>See <a href="https://www.w3schools.com/xpath/" scope="external" format="html"> https://www.w3schools.com/xpath/ </a> </p> </li> 
       <li id="li_84999D07E0AE4265BC7928BBB49957B9"> <span class="uicontrol"> Field </span> <p>Defines the name attribute value that is used for each generated &lt;meta&gt; tag. </p> </li> 
       <li id="li_E125788D0F5242958BD790E26A675C20"> <span class="uicontrol"> Metadata? </span> <p>Causes <span class="uicontrol"> Field </span> to become a drop-down list from which you can select defined metadata fields for the current account. </p> <p>The <span class="uicontrol"> Field </span> value can be an undefined metadata field, if desired. An undefined metadata field is sometimes useful to create content used by <span class="wintitle"> Filtering Script </span>. </p> <p>See <a href="../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47" type="concept" format="dita" scope="local"> About Filtering Script </a>. </p> <p>When Index Connector processes XML documents with multiple hits on any map field, the multiple values are concatenated into a single value in the resulting cached document. By default, these values are combined using a comma delimiter. However, suppose that the corresponding <span class="wintitle"> Field </span> value is a defined metadata field. In addition, that field has the <span class="wintitle"> Allow Lists </span> attribute set. In this case, the field's List Delimiters value, which is the first delimiter defined, is used in the concatenation. </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824609F"> <span class="uicontrol"> Primary Key? </span> <p>Only one map definition is identified as the primary key. This field becomes the unique reference that is presented when this document is added to the index. This value is used in the document’s URL in the Index. </p> <p>The <span class="uicontrol"> Primary Key </span> values must be unique across all of the documents represented by the Index Connector configuration - any duplicates encountered will be ignored. If your source documents don't contain a single unique value for use as <span class="uicontrol"> Primary Key </span>, but two or more fields taken together <i>can</i> form a unique identifier, you can define the <span class="uicontrol"> Primary Key </span> by combining multiple <span class="uicontrol"> Tag </span> definitions with a vertical bar ("|") delimiting the values. </p> </li> 
       <li id="li_9F435EFB3EC74B409EC82A851824610G"> <span class="uicontrol"> Strip HTML? </span> <p>When this option is checked, any HTML tags found in this field's data are removed. </p> </li> 
       <li id="li_6302D18971AD439FBECE27742649C56B"> <span class="uicontrol"> Action </span> <p>Lets you add rows to the map or remove rows from the map. The order of the rows is not important. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+      </ul> </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) Click **[!UICONTROL Setup Maps]** to download a sample of your data source. The data is examined for indexing suitability. This feature is available for Text and Feed Types, only.
 1. (Optional) Click **[!UICONTROL Preview]** to test the actual working of the configuration. This feature is available for Text and Feed Types, only.

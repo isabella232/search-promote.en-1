@@ -56,33 +56,33 @@ See [Finding groups that contain particular words in a phrase](../c-about-lingui
 1. On the [!DNL Add Common Phrase Group] page, set the options that you want and add all the phrases that make up the group.
 
    <!-- 
+   
+   r_add_common_phrase_group_options.xml
+   
+   -->
 
-r_add_common_phrase_group_options.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Group Name </p> </td> 
-   <td colname="col2"> <p>Required. </p> <p>The unique name of the Common Phrase Group. </p> <p>If you edit a Common Phrase Group later, note that you cannot change the Group Name. To change the Group Name, use the <span class="uicontrol"> Rename</span> feature. </p> <p>See <a href="../c-about-linguistics-menu/c-about-common-phrases.md#task_168E07C59C0F40989D43E7010EFF22EB" format="dita" scope="local"> Renaming a Common Phrase Group</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Notes </p> </td> 
-   <td colname="col2"> <p>Optional. </p> <p>Add information that pertains to the Common Phrase Group. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Phrases </p> </td> 
-   <td colname="col2"> <p>Required. </p> <p>Lets you specify a phrase up to a maximum of five words. To adjust the maximum word setting, contact Technical Support. </p> <p>Each phrase that you enter must be unique within any Common Phrase Group. </p> <p>Use the plus (+) and minus (-) icons in the Action column to add the entered phrase or to delete a phrase. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Group Name </p> </td> 
+      <td colname="col2"> <p>Required. </p> <p>The unique name of the Common Phrase Group. </p> <p>If you edit a Common Phrase Group later, note that you cannot change the Group Name. To change the Group Name, use the <span class="uicontrol"> Rename</span> feature. </p> <p>See <a href="../c-about-linguistics-menu/c-about-common-phrases.md#task_168E07C59C0F40989D43E7010EFF22EB" format="dita" scope="local"> Renaming a Common Phrase Group</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Notes </p> </td> 
+      <td colname="col2"> <p>Optional. </p> <p>Add information that pertains to the Common Phrase Group. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Phrases </p> </td> 
+      <td colname="col2"> <p>Required. </p> <p>Lets you specify a phrase up to a maximum of five words. To adjust the maximum word setting, contact Technical Support. </p> <p>Each phrase that you enter must be unique within any Common Phrase Group. </p> <p>Use the plus (+) and minus (-) icons in the Action column to add the entered phrase or to delete a phrase. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **Add**.
 1. (Optional) Do one of the following:
