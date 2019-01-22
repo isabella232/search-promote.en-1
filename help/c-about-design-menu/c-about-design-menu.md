@@ -15,3 +15,12 @@ snippet: y
 
 Use the Design menu to construct the presentation for your Search results page.
 
++ [Facets](c-about-facets.md)
++ [About Facet Rail](c-about-facet-rails.md)
++ [Dynamic Facets](c-about-dynamic-facets.md)
++ [Breadcrumbs](c-about-breadcrumbs.md)
++ [Page Navigation](c-about-page-navigation.md)
++ [Menus](c-about-menus.md)
++ [Configuring recent searches](t-configuring-recent-searches.md)
++ [Templates](c-about-templates.md)
++ [Banners](c-about-banners.md)
