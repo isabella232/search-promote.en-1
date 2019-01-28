@@ -6,7 +6,7 @@ solution: Target
 title: About Home
 topic: Home,Site search and merchandising
 uuid: 5d4dbf5e-954d-46ae-a822-18a58af60de6
-index: y
+index: n
 internal: n
 snippet: y
 ---

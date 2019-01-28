@@ -7,7 +7,7 @@ subtopic: SEO
 title: About SEO
 topic: Settings,Site search and merchandising
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
-index: y
+index: n
 internal: n
 snippet: y
 ---

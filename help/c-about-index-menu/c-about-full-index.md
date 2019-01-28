@@ -7,7 +7,7 @@ subtopic: Full Index
 title: About Full Index
 topic: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
-index: y
+index: n
 internal: n
 snippet: y
 ---

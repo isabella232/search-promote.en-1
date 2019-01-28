@@ -6,7 +6,7 @@ solution: Target
 title: About Pre-Search Rules
 topic: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
-index: y
+index: n
 internal: n
 snippet: y
 ---

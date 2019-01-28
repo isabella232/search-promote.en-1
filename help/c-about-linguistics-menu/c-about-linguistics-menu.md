@@ -6,7 +6,7 @@ solution: Target
 title: About the Linguistics menu
 topic: Linguistics,Site search and merchandising
 uuid: f5534418-17f6-4e34-8f4d-04064446fa81
-index: y
+index: n
 internal: n
 snippet: y
 ---

@@ -7,7 +7,7 @@ subtopic: Navigation
 title: About Facet Rail
 topic: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
-index: y
+index: n
 internal: n
 snippet: y
 ---

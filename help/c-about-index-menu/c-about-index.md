@@ -6,7 +6,7 @@ solution: Target
 title: About Index Overview
 topic: Index,Site search and merchandising
 uuid: 66d18842-739c-4817-95b4-85d5e98d3954
-index: y
+index: n
 internal: n
 snippet: y
 ---

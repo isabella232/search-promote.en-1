@@ -6,7 +6,7 @@ solution: Target
 title: About proximity search
 topic: Appendices,Site search and merchandising
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
-index: y
+index: n
 internal: n
 snippet: y
 ---
