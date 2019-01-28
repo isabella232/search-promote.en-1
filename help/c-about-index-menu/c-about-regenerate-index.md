@@ -7,7 +7,7 @@ subtopic: Regenerate Index
 title: About Regenerate Index
 topic: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
-index: y
+index: n
 internal: n
 snippet: y
 ---

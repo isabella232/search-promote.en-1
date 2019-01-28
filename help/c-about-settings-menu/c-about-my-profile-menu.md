@@ -7,7 +7,7 @@ subtopic: My Profile
 title: About the My Profile menu
 topic: Settings,Site search and merchandising
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
-index: y
+index: n
 internal: n
 snippet: y
 ---

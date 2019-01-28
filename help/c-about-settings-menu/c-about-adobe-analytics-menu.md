@@ -7,7 +7,7 @@ subtopic: Adobe Analytics
 title: About the Adobe Analytics menu
 topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
-index: y
+index: n
 internal: n
 snippet: y
 ---

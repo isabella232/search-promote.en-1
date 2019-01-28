@@ -6,7 +6,7 @@ solution: Target
 title: About Banners
 topic: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
-index: y
+index: n
 internal: n
 snippet: y
 ---

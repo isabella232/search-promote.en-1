@@ -6,7 +6,7 @@ solution: Target
 title: Search&amp;Promote 8.17.0 Release Notes (10/30/2014)
 topic: Release Notes,Site search and merchandising
 uuid: ea1725df-778c-4875-a269-f33d0c367126
-index: y
+index: n
 internal: n
 snippet: y
 ---

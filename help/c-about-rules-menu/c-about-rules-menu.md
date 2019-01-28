@@ -6,7 +6,7 @@ solution: Target
 title: About the Rules Menu
 topic: Rules,Site search and merchandising
 uuid: 1f563b6d-4c56-4ca5-b857-fc7544f291c4
-index: y
+index: n
 internal: n
 snippet: y
 ---

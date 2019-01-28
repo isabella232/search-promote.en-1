@@ -7,7 +7,7 @@ subtopic: Auto-Complete
 title: About Auto-Complete
 topic: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
-index: y
+index: n
 internal: n
 snippet: y
 ---

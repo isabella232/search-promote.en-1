@@ -6,7 +6,7 @@ solution: Target
 title: About Staging
 topic: Staging,Site search and merchandising
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
-index: y
+index: n
 internal: n
 snippet: y
 ---
