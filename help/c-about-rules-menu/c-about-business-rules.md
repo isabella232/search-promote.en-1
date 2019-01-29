@@ -196,7 +196,7 @@ The following steps assume you are using the Visual Rule Builder.
   </tr> 
   <tr> 
    <td colname="col1"> <p>Add banner commands </p> </td> 
-   <td colname="col2"> <p>Applies to Adobe Scene7 templates only. </p> <p>Lets you change the default parameters that are used in the banner template. </p> <p>See the table of options in <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita"> Adding a banner using Adobe Scene7 </a>. </p> <p>See also <a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> Editing a banner using Adobe Scene7 </a>. </p> </td> 
+   <td colname="col2"> <p>Applies to Adobe Dynamic Media Classic templates only. </p> <p>Lets you change the default parameters that are used in the banner template. </p> <p>See the table of options in <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita"> Adding a banner using Adobe Dynamic Media Classic </a>. </p> <p>See also <a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> Editing a banner using Adobe Dynamic Media Classic </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Remove banner </p> </td> 
@@ -247,15 +247,15 @@ The following steps assume you are using the Visual Rule Builder.
 
       The add banner action is added to the [!DNL Actions] panel. 
     
-    * In the presentation template area of the [!DNL Business Rule Builder] page, right-click on an Adobe Scene7 template banner whose parameters you want to change, and then click **[!UICONTROL Add banner commands]**. In the [!DNL Change Parameters] dialog box, set the parameter options that you want.
+    * In the presentation template area of the [!DNL Business Rule Builder] page, right-click on an Adobe Dynamic Media Classic template banner whose parameters you want to change, and then click **[!UICONTROL Add banner commands]**. In the [!DNL Change Parameters] dialog box, set the parameter options that you want.
 
-      See the table of options in [Adding a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
+      See the table of options in [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
 
       Click **[!UICONTROL Save]**.
 
       The parameter changes are added to the [!DNL Actions] panel.
 
-      See also [Editing a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9). 
+      See also [Editing a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9). 
     
     * In the presentation template area of the Business Rule Builder page, right-click on a banner that you want to delete from the page, and then click **[!UICONTROL Remove banner]**. The remove banner action is added to the Actions panel.
 
@@ -311,15 +311,15 @@ t_editing_a_business_rule.xml
 
       The add banner action is added to the [!DNL Actions] panel. 
     
-    * In the presentation template area of the [!DNL Business Rule Builder] page, right-click on an Adobe Scene7 template banner whose parameters you want to change, and then click **[!UICONTROL Add banner commands]**. In the [!DNL Change Parameters] dialog box, set the parameter options that you want.
+    * In the presentation template area of the [!DNL Business Rule Builder] page, right-click on an Adobe Dynamic Media Classic template banner whose parameters you want to change, and then click **[!UICONTROL Add banner commands]**. In the [!DNL Change Parameters] dialog box, set the parameter options that you want.
 
-      See the table of options in [Adding a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
+      See the table of options in [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
 
       Click **[!UICONTROL Save]**.
 
       The parameter changes are added to the [!DNL Actions] panel.
 
-      See also [Editing a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9). 
+      See also [Editing a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9). 
     
     * In the presentation template area of the [!DNL Business Rule Builder] page, right-click on a banner that you want to delete from the page, and then click **[!UICONTROL Remove banner]**. The remove banner action is added to the [!DNL Actions] panel.
 

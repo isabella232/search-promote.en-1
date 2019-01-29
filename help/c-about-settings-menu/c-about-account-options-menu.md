@@ -159,9 +159,9 @@ t_configuring_merchandising_preferences.xml
 
 1. Click **[!UICONTROL Save Changes]**.
 
-## Configuring access to your Adobe Scene7 account {#task_CEFF88C2033D41D0B2FE86C435EDAC6D}
+## Configuring access to your Adobe Dynamic Media Classic account {#task_CEFF88C2033D41D0B2FE86C435EDAC6D}
 
-Link your site search/merchandising account to Adobe Scene7 so you can easily add banner ads to your website using uploaded digital assets from Adobe Scene7.
+Link your site search/merchandising account to Adobe Dynamic Media Classic so you can easily add banner ads to your website using uploaded digital assets from Adobe Scene7.
 
 <!-- 
 
@@ -171,9 +171,9 @@ t_configuring_your_scene7_account.xml
 
 See [About Banners](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA).
 
-See [Adding a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
+See [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
 
-**To configure access to your Adobe Scene7 account** 
+**To configure access to your Adobe Dynamic Media Classic account** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Scene7 Configuration]**.
 1. On the [!DNL Scene7 Configuration] page, set the options that you want.
@@ -194,32 +194,32 @@ See [Adding a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.
     <tbody> 
       <tr> 
       <td colname="col1"> <p>Region </p> </td> 
-      <td colname="col2"> <p>Required. Identifies the region of the world where your Scene7 account accesses the various Scene7 servers. </p> </td> 
+      <td colname="col2"> <p>Required. Identifies the region of the world where your Dynamic Media Classic account accesses the various Dynamic Media Classic servers. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Default Company </p> </td> 
-      <td colname="col2"> <p>Identifies the name of the company that is associated with your Scene7 account. </p> </td> 
+      <td colname="col2"> <p>Identifies the name of the company that is associated with your Dynamic Media Classic account. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> Email </p> </td> 
-      <td colname="col2"> <p>Required. Identifies your email address that is used for Scene7 sign-in and communications. </p> </td> 
+      <td colname="col2"> <p>Required. Identifies your email address that is used for Dynamic Media Classic sign-in and communications. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Password </p> </td> 
-      <td colname="col2"> <p>Required. Your Scene7 sign-in password. </p> </td> 
+      <td colname="col2"> <p>Required. Your Dynamic Media Classic sign-in password. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Enabled </p> </td> 
-      <td colname="col2"> <p>Enables all the Scene7 controls within site search/merchandising. </p> </td> 
+      <td colname="col2"> <p>Enables all the Dynamic Media Classic controls within site search/merchandising. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Test </p> </td> 
-      <td colname="col2"> <p>Verifies that your Scene7 region name, email address, and password details are correct. </p> </td> 
+      <td colname="col2"> <p>Verifies that your Dynamic Media Classic region name, email address, and password details are correct. </p> </td> 
       </tr> 
     </tbody> 
     </table>
 
-1. (Optional) Click **[!UICONTROL Test]** to verify that your Scene7 region name, email address, and password details are correct.
+1. (Optional) Click **[!UICONTROL Test]** to verify that your Dynamic Media Classic region name, email address, and password details are correct.
 1. Click **[!UICONTROL Save Changes]**.
 
 ## Configuring Adobe Analytics Redirector {#task_2C9DE333FD7246E4A460FC0F55204160}

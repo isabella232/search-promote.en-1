@@ -34,6 +34,6 @@ Improvement to search time performance through the addition of support for cachi
 * Fixed index crawling issues with xlhtml and ppthtml. 
 * Copy Rule feature displayed name value as garbage characters. 
 * Preservation of time stamps so that template caches are not invalidated. 
-* Some change parameters fields were cut off when the scroll bar appeared in the Scene7 banner dialog box. 
-* Any Business Rule changes you made to Scene7 banner parameters worked in the Staging area, but did not take effect when you pushed live.
+* Some change parameters fields were cut off when the scroll bar appeared in the Dynamic Media Classic banner dialog box. 
+* Any Business Rule changes you made to Dynamic Media Classic banner parameters worked in the Staging area, but did not take effect when you pushed live.
 

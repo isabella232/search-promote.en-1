@@ -54,7 +54,7 @@ snippet: y
 
 * If a large number of dynamic facet fields were defined, users experienced slow core search response times. 
 * False range index errors were occurring. 
-* Scene7 access in non-North American datacenters was broken. 
+* Dynamic Media Classic access in non-North American datacenters was broken. 
 * The SPIN XPath validation function was returning a false-positive error.
 
 * After a SPIN enable/disable operation, the user was redirected to the member center login page.

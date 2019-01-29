@@ -29,7 +29,7 @@ There are two methods you can use to add banner ads to your website.
 
 The first method is to add banners by way of Target, Search&amp;Promote. The banners are HTML code snippets that are displayed at the time that a customer searches your website. Your banner can include text or an image in GIF, JPEG, or PNG format, or a combination of both. You can select from preset sizes or define your own custom dimensions to fit your page. The HTML code that you use to display the banner can also specify such things as the font style to use, and the border. This method of adding a banner offers basic functionality and does not require additional software.
 
-The second method is to use Adobe Scene7, a dynamic media management and publishing service. A valid Adobe Scene7 account lets you manage and deliver banner content directly to Target, Search&amp;Promote, using Scene7. In site search/merchandising, you configure access to your Scene7 account. Then you open the Scene7 media browser and pick a dynamic media asset that you want to serve as your banner.
+The second method is to use Adobe Dynamic Media Classic, a dynamic media management and publishing service. A valid Adobe Dynamic Media Classic account lets you manage and deliver banner content directly to Target, Search&amp;Promote, using Dynamic Media Classic. In site search/merchandising, you configure access to your Dynamic Media Classic account. Then you open the Dynamic Media Classic media browser and pick a dynamic media asset that you want to serve as your banner.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ The second method is to use Adobe Scene7, a dynamic media management and publish
 
 ## Integration of Banners with Adobe Scene7 Publishing System {#section_D4D7ADEA6A6348E68EDA138E184FE579}
 
-You can use Scene7 asset types as banners in site search/merchandising including images, dynamic banners, and templates, such as image templates or Flash templates.
+You can use Dynamic Media Classic asset types as banners in site search/merchandising including images, dynamic banners, and templates, such as image templates or Flash templates.
 
 Templates are dynamically created and addressable layered image files like layered files in image-editing applications such as Adobe Photoshop®. Unlike a static image file, a template can include parameters. Through parameters, you can customize variable image properties and image content.
 
@@ -45,33 +45,33 @@ Templates are dynamically created and addressable layered image files like layer
 >
 >You can also create templates from layout-based designs by using Template Publishing in Scene7 Publishing System and files from Adobe Illustrator and Adobe InDesign.
 
-See [Template Publishing](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html) in the Scene7 Publishing System User Guide.
+See [Template Publishing](https://help.adobe.com/en_US/scene7/using/WSFBFBAD30-2694-4b18-B7CE-894F9FC5CDDF.html) in the Dynamic Media Classic (Scene7) User Guide.
 
-A template can contain any number of image layers and text layers. You can convert a static file containing layers, such as a layered PSD file, into a template, or create templates in Scene7. You can create text layers in templates using fonts that you uploaded into Scene7 Publishing System. After you add text to a template, you can format it by changing its justification, fonts, font size, and color.
+A template can contain any number of image layers and text layers. You can convert a static file containing layers, such as a layered PSD file, into a template, or create templates in Dynamic Media Classic. You can create text layers in templates using fonts that you uploaded into Scene7 Publishing System. After you add text to a template, you can format it by changing its justification, fonts, font size, and color.
 
-Using the Parameters screen in Scene7, you can convert any aspect of a template to an addressable parameter. In so doing, you can change which layered image to use or what text value to use in your template. Parameters are passed with the URL string, allowing you to change any parameter to dynamically customize the reply image generated from the image server.
+Using the Parameters screen in Dynamic Media Classic, you can convert any aspect of a template to an addressable parameter. In so doing, you can change which layered image to use or what text value to use in your template. Parameters are passed with the URL string, allowing you to change any parameter to dynamically customize the reply image generated from the image server.
 
-You can learn more about how to use Scene7 to create templates and parameterize the properties on the layers so you can use them in banners.
+You can learn more about how to use Dynamic Media Classic to create templates and parameterize the properties on the layers so you can use them in banners.
 
-See [Template Basics](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) in the Scene7 Publishing System User Guide.
+See [Template Basics](https://help.adobe.com/en_US/scene7/using/WS60B68844-9054-4099-BF69-3DC998A04D3C.html) in the Dynamic Media Classic (Scene7) User Guide.
 
 **Uploading and publishing of assets**
 
-You must upload and publish assets in Scene7 before you can use them for banners in site search/merchandising. This prerequisite also includes any assets that an image template or a Flash template uses. Use your Scene7 account to upload and publish digital assets. Or, you can use site search/merchandising to upload a digital asset and then have Scene7 automatically publish it for you based on your upload settings. If you attempt to pick an asset that is not yet uploaded and published, you are notified in the user interface and given the option of uploading it before proceeding.
+You must upload and publish assets in Dynamic Media Classic before you can use them for banners in site search/merchandising. This prerequisite also includes any assets that an image template or a Flash template uses. Use your Dynamic Media Classic account to upload and publish digital assets. Or, you can use site search/merchandising to upload a digital asset and then have Dynamic Media Classic automatically publish it for you based on your upload settings. If you attempt to pick an asset that is not yet uploaded and published, you are notified in the user interface and given the option of uploading it before proceeding.
 
 You can learn more about uploading and publishing of digital assets using Scene7 Publishing System.
 
-See [Upload and Publish Assets](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html) in the Scene7 Publishing System User Guide.
+See [Upload and Publish Assets](https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html) in the Dynamic Media Classic (Scene7) User Guide.
 
 >[!NOTE]
 >
->To use the upload functionality in the Scene7 asset viewer, be sure that the Scene7 account you use has the role of "SPS Company Admin" already set.
+>To use the upload functionality in the Dynamic Media Classic asset viewer, be sure that the Dynamic Media Classic account you use has the role of "SPS Company Admin" already set.
 
-See [Administration Setup](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Scene7 Publishing System User Guide.
+See [Administration Setup](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Dynamic Media Classic (Scene7) User Guide.
 
-**Changing Scene7 Template Parameters in a Banner using Business Rules**
+**Changing Dynamic Media Classic Template Parameters in a Banner using Business Rules**
 
-If you added a Scene7 asset as a banner, you can use [!DNL Visual Rule Builder] in [!DNL Business Rules] to add it to any banner area on your website. For example, you add the banner to your search results pages, just as you would any other banner. You can also override the default parameter values in Scene7 templates by customizing them to your specific needs. This kind of functionality lets you customize Scene7 templates with different marketing messages and hyperlinks to different endpoints.
+If you added a Dynamcic Media Classic asset as a banner, you can use [!DNL Visual Rule Builder] in [!DNL Business Rules] to add it to any banner area on your website. For example, you add the banner to your search results pages, just as you would any other banner. You can also override the default parameter values in Dynamic Media Classic templates by customizing them to your specific needs. This kind of functionality lets you customize Dynamic Media Classic templates with different marketing messages and hyperlinks to different endpoints.
 
 See also [Adding a new business rule](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7).
 
@@ -87,11 +87,11 @@ t_adding_a_new_banner.xml
 
  -->
 
-If you have a valid Adobe Scene7 account, you can add banner ads by way of the Scene7 Publishing System.
+If you have a valid Adobe Dynamic Media Classic account, you can add banner ads by way of the Scene7 Publishing System.
 
-See [Adding a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
+See [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
 
-See [Configuring access to your Adobe Scene7 account](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
+See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
 
 **To add a banner** 
 
@@ -171,9 +171,9 @@ t_editing_a_banner.xml
 
  -->
 
-If you added a banner using site search/merchandising, you also edit the banner using Adobe Scene7.
+If you added a banner using site search/merchandising, you also edit the banner using Adobe Dynamic Media Classic.
 
-See also [Editing a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
+See also [Editing a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
 
 **To edit a banner** 
 
@@ -199,9 +199,9 @@ See also [Editing a banner using Adobe Scene7](../c-about-design-menu/c-about-ba
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Adding a banner using Adobe Scene7 {#task_AD1E0C00A9E04B1FA819EB93288786B3}
+## Adding a banner using Adobe Dynamic Media Classic {#task_AD1E0C00A9E04B1FA819EB93288786B3}
 
-You can use [!DNL Banners] to manage the banner ads on your website. When you add a banner using Adobe Scene7, you can choose from any digital asset that you have uploaded to the Scene7 Publishing System.
+You can use [!DNL Banners] to manage the banner ads on your website. When you add a banner using Adobe Dynamic Media Classic, you can choose from any digital asset that you have uploaded to the Scene7 Publishing System.
 
 <!-- 
 
@@ -209,11 +209,11 @@ t_adding_a_banner_using_adobe_scene7.xml
 
  -->
 
-To add a banner using Adobe Scene7, be sure that you have configured access to your valid Scene7 account.
+To add a banner using Adobe Dynamic Media Classic, be sure that you have configured access to your valid Dynamic Media Classic account.
 
-See [Configuring access to your Adobe Scene7 account](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
+See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-settings-menu/c-about-account-options-menu.md#task_CEFF88C2033D41D0B2FE86C435EDAC6D).
 
-**To add a banner using Adobe Scene7** 
+**To add a banner using Adobe Dynamic Media Classic** 
 
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners.]**
 1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, click **[!UICONTROL Adobe Scene7]**.
@@ -233,7 +233,7 @@ r_pick_an_asset_options.xml
    >
    >The asset navigation options do not appear when you edit the banner in the [!DNL Change Parameters] dialog box.
 
-   See [Editing a banner using Adobe Scene7](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
+   See [Editing a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9).
 
    **Asset navigation options** 
 
@@ -247,7 +247,7 @@ r_pick_an_asset_options.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/S7_folders.png"> </p> </td> 
-   <td colname="col2"> <p>Lets you select the Scene7 account for your particular company from the drop-down list and also navigate the digital asset folders within that account. </p> <p>When you select a folder, the right pane of the <span class="wintitle"> Pick an Asset </span> dialog box shows you all the available digital assets that are contained within that folder. </p> </td> 
+   <td colname="col2"> <p>Lets you select the Dynamic Media Classic account for your particular company from the drop-down list and also navigate the digital asset folders within that account. </p> <p>When you select a folder, the right pane of the <span class="wintitle"> Pick an Asset </span> dialog box shows you all the available digital assets that are contained within that folder. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/s7_folderhistory.png"> </p> </td> 
@@ -267,7 +267,7 @@ r_pick_an_asset_options.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/s7_upload.png"> </p> </td> 
-   <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Scene7 </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
+   <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Dynamic Media Classic </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <img src="assets/s7_searchfield.png"> </p> </td> 
@@ -487,7 +487,7 @@ r_upload_options.xml
 
    When you upload PostScript (EPS) or Illustrator (AI) image files, you can format them in various ways. You can rasterize the files, convert them to FXG for Template Publishing, maintain the transparent background, choose a resolution, and choose a color space.
 
-   PSD (Photoshop Document files) are most often used in Scene7 to create templates. When you upload a PSD file, you can create a Scene7 template automatically from the file (select the **[!UICONTROL Create Template]** option).
+   PSD (Photoshop Document files) are most often used in Dynamic Media Classic to create templates. When you upload a PSD file, you can create a Dynamic Media Classic template automatically from the file (select the **[!UICONTROL Create Template]** option).
 
    Scene7 Publishing System creates multiple images from a PSD file with layers if you use the file to create a template; it creates one image for each layer. 
 
@@ -642,9 +642,9 @@ r_upload_options.xml
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
 
-## Editing a banner using Adobe Scene7 {#task_C3E782477FBF428ABEA220751781ACA9}
+## Editing a banner using Adobe Dynamic Media Classic {#task_C3E782477FBF428ABEA220751781ACA9}
 
-Use [!DNL Edit Banner] to change the properties and parameters of a banner that you have added using Adobe Scene7.
+Use [!DNL Edit Banner] to change the properties and parameters of a banner that you have added using Adobe Dynamic Media Classic.
 
 <!-- 
 
@@ -656,7 +656,7 @@ If you added a banner by adding HTML code, you edit the banner using site search
 
 See also [Editing a banner](../c-about-design-menu/c-about-banners.md#task_D4081083BE7B40F5A003D1A2F1435AEA).
 
-**To edit a banner using Adobe Scene7** 
+**To edit a banner using Adobe Dynamic Media Classic** 
 
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
 1. On the [!DNL Banners] page, click  ![](assets/icon_edit_16.gif)

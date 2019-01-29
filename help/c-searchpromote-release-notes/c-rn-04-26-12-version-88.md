@@ -36,7 +36,7 @@ snippet: y
 
 **Fixes and enhancements**
 
-* Fixed pushing a banner live using Stage Manager that resulted in broken Scene7 related functionality in live. 
+* Fixed pushing a banner live using Stage Manager that resulted in broken Dynamic Media Classic related functionality in live. 
 * Fixed an issue where editing a rule with the trigger "Query Parameter does not exist" was incorrectly translated to "Keyword contains". 
 * Fixed an issue where you were unable to Edit Parameter the second time around. 
 * Fixed an issue with Index Connector where two or more map definitions cannot point to the same metadata/field value. 

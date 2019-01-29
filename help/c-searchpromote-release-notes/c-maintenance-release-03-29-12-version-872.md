@@ -20,6 +20,6 @@ snippet: y
 * Fixed issues with direct hit data that was doubly-encoded on the client side and the server side. 
 * Fixed Visual Rule Builder to now support facet actions on Internet Explorer 7 and 8 for certain customers. 
 * Fixed as issue with Business Rules keyword equality tests with pipe delimiter. 
-* Fixed an issue with editing Scene7 banner parameters. 
-* Added ability to change the size of a Scene7 banner while maintaining its aspect ratio.
+* Fixed an issue with editing Dynamic Media Classic banner parameters. 
+* Added ability to change the size of a Dynamic Media Classic banner while maintaining its aspect ratio.
 

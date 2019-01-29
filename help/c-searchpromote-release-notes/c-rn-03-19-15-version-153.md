@@ -35,7 +35,7 @@ snippet: y
 * Empty core search results for "embedded" search mode, for a search containing Japanese characters. 
 * Tika conversion of Word .docx files now populates the `title` attribute. 
 * Corrected erroneous "duplicate banner" messages in the **[!UICONTROL Banner]** manager. 
-* Scene7 banners are now protocol-agnostic. 
+* Dynamic Media Classic banners are now protocol-agnostic. 
 * The **[!UICONTROL Table Name]** field attribute was sometimes hidden when editing user-defined fields in the Metadata user interface, even when **[!UICONTROL Dynamic Facets]** was enabled for the account. 
 * **[!UICONTROL Recent Searches]** no longer multiply-encodes non-ASCII characters. 
 * MDI fields can be populated without resorting to Scripted Filtering. 
