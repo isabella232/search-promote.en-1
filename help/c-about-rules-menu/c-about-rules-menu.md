@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# Rules {#about-the-rules-menu}
+# Rules{#about-the-rules-menu}
 
 Use the Rules menu to create rules that transform your customers' Search experience.
 
