@@ -8,8 +8,7 @@ user-guide: Search&amp;Promote
 # Search \&amp; Promote User Guide {#using}
 
 + [Search&amp;Promote Documentation overview](sp-home.md)
-+ Release Notes {#release-notes}
-   + [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md)
++ [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md)
    + [Search&amp;Promote 18.1.1 Release Notes (02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
    + [Search&amp;Promote 17.11.1 Release Notes (10/31/2017)](c-searchpromote-release-notes/c-rn-10-31-17-version-1711.md)
    + [Search&amp;Promote 15.3.1 Release Notes (03/24/2015)](c-searchpromote-release-notes/c-rn-03-19-15-version-153.md)
