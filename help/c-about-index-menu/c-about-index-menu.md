@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# About the Index menu{#about-the-index-menu}
+# Index{#about-the-index-menu}
 
 Use the Index menu to configure indexing or perform full, incremental, scripted, or remotely controlled indexing of your website.
 
