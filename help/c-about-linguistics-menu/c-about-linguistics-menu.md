@@ -11,7 +11,7 @@ internal: n
 snippet: y
 ---
 
-# About the Linguistics menu{#about-the-linguistics-menu}
+# Linguistics{#about-the-linguistics-menu}
 
 Use the Linguistics menu to manage your various linguistic settings that affect your search results.
 
