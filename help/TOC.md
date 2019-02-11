@@ -89,7 +89,7 @@ user-guide: Search&amp;Promote
    + [Account Options](c-about-settings-menu/c-about-account-options-menu.md)
    + [Users](c-about-settings-menu/c-about-users-menu.md)
 + [Working with Search&amp;Promote accounts](#accounts)
-+ Appendices(#appendices)
++ [Appendices](#appendices)
    + [Date Formats](c-appendices/r-date-formats.md)
    + [Regular Expressions](c-appendices/r-regular-expressions.md)
    + [Proximity search](c-appendices/r-about-proximity-search.md)
