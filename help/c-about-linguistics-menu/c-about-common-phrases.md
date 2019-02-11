@@ -15,9 +15,7 @@ snippet: y
 
 You can define Common Phrases that are used on your website so that when a customer enters a search query, they do not need to enter quotes around any of the phrases you have defined.
 
-## About Common Phrases {#concept_4946E53586DF492EAEB1B7F757FD440F}
-
-You can define Common Phrases that are used on your website so that when a customer enters a search query, they do not need to enter quotes around any of the phrases you have defined.
+## Using Common Phrases {#concept_4946E53586DF492EAEB1B7F757FD440F}
 
 >[!NOTE]
 >

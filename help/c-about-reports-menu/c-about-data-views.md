@@ -15,9 +15,7 @@ snippet: y
 
 Data Views displays the search results with the meta fields. Each column is a meta field and each row is result from a search query. Customize Data Views by choosing and rearranging columns. Data Views can also have custom titles and descriptions.
 
-## About Data Views {#concept_DCA897D074464BC1861AA47B40CC86C3}
-
-Data Views displays the search results with the meta fields. Each column is a meta field and each row is result from a search query. Customize Data Views by choosing and rearranging columns. Data Views can also have custom titles and descriptions. 
+## Using Data Views {#concept_DCA897D074464BC1861AA47B40CC86C3}
 
 Each account has the convenience of creating multiple data views. Use the Data Views page to create and edit these data views.
 

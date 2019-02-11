@@ -16,9 +16,7 @@ snippet: y
 
 You can use Ranking Rules to control the relative positioning or ranking of a customer's search results based on contained meta tag content and related Adobe Analytics metrics.
 
-## About Ranking Rules {#concept_F555C076759B4E81B925441CFE707397}
-
-You can use Ranking Rules to control the relative positioning or ranking of a customer's search results based on contained meta tag content and related Adobe Analytics metrics. 
+## Using Ranking Rules {#concept_F555C076759B4E81B925441CFE707397} 
 
 You define ranking rules to affect the relative placement of the documents within your search results, based on the contents of each document. You can base ranking rules either on meta tag content, Adobe Analytics metrics (if your account is configured to work with Adobe Analytics), or Adobe Analytics HBX metrics (if your account is configured to work with Adobe Analytics HBX).
 

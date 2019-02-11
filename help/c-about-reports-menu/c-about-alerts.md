@@ -15,9 +15,7 @@ snippet: y
 
 The Alerts page provides a central place to view and manage all alerts having to do with your account.
 
-## About Alerts {#concept_B731210A050A4AB1A7F4C809AA8B5355}
-
-The Alerts page provides a central place to view and manage all alerts having to do with your account. 
+## Using Alerts {#concept_B731210A050A4AB1A7F4C809AA8B5355} 
 
 A variety of alerts are generated, sent to one or more e-mail addresses. The filters and other controls on the Alerts page can help you manage multiple alerts at once.
 

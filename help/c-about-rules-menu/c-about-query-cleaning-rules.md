@@ -15,9 +15,7 @@ snippet: y
 
 Use Query Cleaning Rules to analyze and modify the incoming query.
 
-## About Query Cleaning Rules {#concept_17F3CDDC3C8A4128AF092A82B777B86C}
-
-Use Query Cleaning Rules to analyze and modify the incoming query. 
+## Using Query Cleaning Rules {#concept_17F3CDDC3C8A4128AF092A82B777B86C}
 
 This feature is often used when you want to modify site search/merchandising behavior. For example, you could change a blank search to a popular keyword instead of a "&#42;" search, thus promoting a popular product. You can also use query cleaning rules to perform a direct hit, where you redirect to a URL. This can be particularly useful when you detect that someone is searching for a product SKU and you want to skip the search and redirect to that product's page. Query Cleaning can also mine the query and set custom variables that can be used in later processing flow steps. Query cleaning rules are executed in sequence for every query. To alter the order of your rules you can use drag-and-drop. The actual order is not changed until you save it.
 

@@ -14,11 +14,9 @@ snippet: y
 
 # About Regenerate Index{#about-regenerate-index}
 
-You can use Regenerate Index to update your website's index without the need to re-crawl your site.
+You can use [!DNL Regenerate Index] to update your website's index without the need to re-crawl your site.
 
-## About Regenerate Index {#concept_6CBE6B8D18EF47D293091CBA542245FA}
-
-You can use [!DNL Regenerate Index] to update your website's index without the need to re-crawl your site. 
+## Using Regenerate Index {#concept_6CBE6B8D18EF47D293091CBA542245FA}
 
 You can use this option whenever you make a change to the following account options:
 

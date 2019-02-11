@@ -14,11 +14,9 @@ snippet: y
 
 # About Re-Rank Index{#about-re-rank-index}
 
-You can use Re-Rank Index to update your site's ranking information without the need to recrawl your site.
+You can use [!DNL Re-Rank Index] to update your site's ranking information without the need to recrawl your site.
 
-## About Re-Rank Index {#concept_147B0A9FCD51451787DA898E06F7C692}
-
-You can use [!DNL Re-Rank Index] to update your site's ranking information without the need to recrawl your site. 
+## Using Re-Rank Index {#concept_147B0A9FCD51451787DA898E06F7C692}
 
 You can use this option whenever you make changes to certain account Ranking settings. The updated account option information is used to generate new site ranking data. Re-Rank lets you quickly and efficiently make changes to your site ranking.
 

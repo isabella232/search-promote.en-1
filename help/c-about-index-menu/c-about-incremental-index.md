@@ -16,9 +16,7 @@ snippet: y
 
 You can use Incremental Index to index "pieces" of your live or staged website, such as a collection of frequently changed pages.
 
-## About Incremental Index {#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
-
-You can use Incremental Index to index "pieces" of your live or staged website, such as a collection of frequently changed pages. 
+## Using Incremental Index {#concept_A7770F0552D14C47B3DDB65DB78FFFEE}
 
 An incremental index takes only seconds to perform and is useful on large capacity websites that can take many hours to completely index.
 

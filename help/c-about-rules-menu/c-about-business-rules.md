@@ -15,9 +15,7 @@ snippet: y
 
 You can use Business Rules to merchandise your search.
 
-## About Business Rules {#concept_2A93D76216754D3D8412CDEA00BD26BD}
-
-You can use Business Rules to merchandise your search. 
+## Using Business Rules {#concept_2A93D76216754D3D8412CDEA00BD26BD} 
 
 For example, you can configure when banners appear, or what results appear and in what order. You can also configure the position of an item in your facet, and what template is used for a given search. The rules run in the order they were defined; the higher a rule's order number, the later it runs in the process, trumping earlier rules. You can drag-and-drop the rules to change their order, or you can reorder them by entering a new number in the rules order text box.
 

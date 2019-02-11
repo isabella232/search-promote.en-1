@@ -16,9 +16,7 @@ snippet: y
 
 You can use Vertical Update to quickly update parts of your index without having to process large amounts of data.
 
-## About Vertical Update {#concept_E65A70C9C2E04804BF24FBE1B3CAD899}
-
-You can use **Vertical Update** to quickly update parts of your index without having to process large amounts of data. 
+## Using Vertical Update {#concept_E65A70C9C2E04804BF24FBE1B3CAD899} 
 
 A vertical index takes only seconds to perform and is useful on large capacity eCommerce websites that can take many hours to either completely or incrementally index.
 

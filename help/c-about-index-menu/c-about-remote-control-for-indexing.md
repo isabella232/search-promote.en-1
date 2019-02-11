@@ -15,9 +15,7 @@ snippet: y
 
 Whenever your website changes, you can run a script or program requesting that the search robot run an index using Remote Control.
 
-## About Remote Control for Indexing {#concept_C79B322190E84106A434E5C6D4A4118F}
-
-Whenever your website changes, you can run a script or program requesting that the search robot run an index using Remote Control. 
+## Using Remote Control for Indexing {#concept_C79B322190E84106A434E5C6D4A4118F}
 
 The remote control indexing request typically comes from a script or a program that is located on your server.
 

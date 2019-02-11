@@ -16,9 +16,7 @@ snippet: y
 
 You can use Facets to customize your presentation layer and provide your users with a Guided Search that lets them drill down into their search results.
 
-## About Facets {#concept_FA912B3B41EE493DB2F492D188457FF5}
-
-You can use Facets to customize your presentation layer and provide your users with a Guided Search that lets them drill down into their search results. 
+## Using Facets {#concept_FA912B3B41EE493DB2F492D188457FF5} 
 
 For example, suppose a visitor to a website that sells tools, performs a search for wrenches. The company could use two facets: one to specify all the brands of wrenches that were found, and the second one to specify all the wrench sizes. The customer can click any brand or size within the appropriate facet to narrow the results and quickly find the correct wrench they need.
 

@@ -15,9 +15,7 @@ snippet: y
 
 You can override the expansion of search query results.
 
-## About Query Expansion Overrides {#concept_6895B469B0E044299E93361BFA06B554}
-
-You can override the expansion of search query results. 
+## Using Query Expansion Overrides {#concept_6895B469B0E044299E93361BFA06B554}
 
 When you configure a query expansion override, you create a set of "rules". Each rule says, essentially, "Do not expand `<this>` into `<that>` at the time of search" where `<this>` is a simple text word or phrase, and `<that>` is text word or phrase, or a classification.
 

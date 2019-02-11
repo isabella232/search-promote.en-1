@@ -16,9 +16,7 @@ snippet: y
 
 Breadcrumbs are a navigational control that you can add to your website. The breadcrumb gives customers feedback on where they are within a search result set. It also helps them quickly back out to a previous step.
 
-## About Breadcrumbs {#concept_FB8A943C594A4A1593B118141DA61F03}
-
-Breadcrumbs are a navigational control that you can add to your website. The breadcrumb gives customers feedback on where they are within a search result set. It also helps them quickly back out to a previous step. 
+## Using Breadcrumbs {#concept_FB8A943C594A4A1593B118141DA61F03} 
 
 The breadcrumbs track the term searched for and the subsequent facets that were selected to narrow down the result set.
 

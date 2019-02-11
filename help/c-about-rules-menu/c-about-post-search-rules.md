@@ -15,11 +15,9 @@ snippet: y
 
 You can use Post-Search Rules to examine the results of a search and determine how the search affects the displayed content.
 
-## About Post-Search Rules {#concept_AF6ADFCC0ADF4A788003964939917FDE}
+## Using Post-Search Rules {#concept_AF6ADFCC0ADF4A788003964939917FDE}
 
-You can use Post-Search Rules to examine the results of a search and determine how the search affects the displayed content. 
-
-For example, if a search has no results, a Post-Search Rule can perform a search for a similar item. Or, it can display a web page that recommends other items to customers who search for the item that was not found.
+If a search has no results, a Post-Search Rule can perform a search for a similar item. Or, it can display a web page that recommends other items to customers who search for the item that was not found.
 
 Each Post-Search Rule consists of two main elements: the rule's actions, and its optional conditions. You can specify an unlimited number of rules and conditions. The order of these rules is important because the rule set is looped through rule-by-rule. When a rule's conditions match, all the associated actions are performed.
 

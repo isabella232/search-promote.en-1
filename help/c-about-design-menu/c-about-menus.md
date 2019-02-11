@@ -16,9 +16,7 @@ snippet: y
 
 You can use menus to customize your presentation layer.
 
-## About Menus {#concept_68123CE5CF4447B59217B5D721424E32}
-
-You can use menus to customize your presentation layer. 
+## Using Menus {#concept_68123CE5CF4447B59217B5D721424E32} 
 
 Add menus that map to settings within your search. Each item within a menu specifies the value for the setting of the menu. You can also customize the menu labels.
 

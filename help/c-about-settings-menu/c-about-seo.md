@@ -16,9 +16,7 @@ snippet: y
 
 You can use SEO (Search Engine Optimization) meta tags to help tailor certain elements of your pages and thereby improve search engine placement.
 
-## About SEO {#concept_C58BFCE720824A2B9B5F5E613CFD4C0B}
-
-You can use SEO (Search Engine Optimization) meta tags to help tailor certain elements of your pages and thereby improve search engine placement. 
+## Using SEO {#concept_C58BFCE720824A2B9B5F5E613CFD4C0B} 
 
 You can define each such element as a piece of starting text followed by a list of words. The list of words can include the following:
 

@@ -15,9 +15,7 @@ snippet: y
 
 You can use Banners to manage the banner ads on your website.
 
-## About Banners {#concept_5BBE01FEC6134393B43CC917C8CC64DA}
-
-You can use Banners to manage the banner ads on your website.
+## Using Banners {#concept_5BBE01FEC6134393B43CC917C8CC64DA}
 
 <!-- 
 

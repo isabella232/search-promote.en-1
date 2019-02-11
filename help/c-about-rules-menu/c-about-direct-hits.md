@@ -15,9 +15,7 @@ snippet: y
 
 Direct hits let you redirect a customer to a specified URL when the customer searches for a matching term. This kind of functionality lets you improve the navigation of the search of your website.
 
-## About Direct Hits {#concept_C5EE074A19FD4D5B8DD21DB575E35565}
-
-Direct hits let you redirect a customer to a specified URL when the customer searches for a matching term. This kind of functionality lets you improve the navigation of the search of your website. 
+## Using Direct Hits {#concept_C5EE074A19FD4D5B8DD21DB575E35565} 
 
 Direct hits consist of two main elements: the URL of your website, and one or more comma-delimited search terms. Direct hits are specified as follows:
 

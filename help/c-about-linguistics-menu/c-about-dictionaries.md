@@ -15,9 +15,7 @@ snippet: y
 
 You can use Dictionaries to manage a collection of dictionaries and their associated synonyms and hyponyms.
 
-## About Dictionaries {#concept_B8028B71EC8144669614C64578EDB034}
-
-You can use Dictionaries to manage a collection of dictionaries and their associated synonyms and hyponyms. 
+## Using Dictionaries {#concept_B8028B71EC8144669614C64578EDB034}
 
 Synonyms are words that have the same or similar meaning such as pants, jeans, trousers, and slacks, or buy, purchase, acquire, and order.
 

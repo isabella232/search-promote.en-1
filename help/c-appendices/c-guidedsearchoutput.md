@@ -15,9 +15,7 @@ snippet: y
 
 You can customize output in any text-based format, including XML or JSON.
 
-## Guided Search output {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
-
-You can customize output in any text-based format, including XML or JSON.
+## Using Guided Search output {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
 
 <!-- 
 

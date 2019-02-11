@@ -14,11 +14,9 @@ snippet: y
 
 # About Rollback for indexes{#about-rollback-for-indexes}
 
-You can use Rollback to back up and archive website indexes that you have generated. You can also restore the backup of an index at any time.
+You can use [!DNL Rollback] to back up and archive website indexes that you have generated. You can also restore the backup of an index at any time.
 
-## About Rollback for indexes {#concept_0BC4BC975DB045A986C3607CF32705D8}
-
-You can use [!DNL Rollback] to back up and archive website indexes that you have generated. You can also restore the backup of an index at any time. 
+## Using Rollback for indexes {#concept_0BC4BC975DB045A986C3607CF32705D8}
 
 The archive contains four indexes: the current site index, and three previous site indexes, which the search robot automatically archives based on the rollback configuration settings. Each time your website is indexed, the archive is updated. Newer indexes replace existing archived indexes so that the archive always remains current.
 

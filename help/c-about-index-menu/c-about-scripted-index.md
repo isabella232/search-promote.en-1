@@ -16,9 +16,7 @@ snippet: y
 
 With Scripted Index you can write, update, and maintain incremental indexing options without the need to log in. The search robot reads instructions from a text file that is hosted on your server.
 
-## About Scripted Index {#concept_34F58D551BC04BFB8ADC294B9DA9199D}
-
-With Scripted Index you can write, update, and maintain incremental indexing options without the need to log in. The search robot reads instructions from a text file that is hosted on your server.
+## Using Scripted Index {#concept_34F58D551BC04BFB8ADC294B9DA9199D}
 
 ## About configuring scripted incremental indexing {#section_161D254065E143F3A39F3FC09C400090}
 

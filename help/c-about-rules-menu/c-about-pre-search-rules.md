@@ -15,9 +15,7 @@ snippet: y
 
 Use Pre-Search Rules to analyze the incoming query and determine which presentation template to use. Pre-Search Rules are executed in sequence for every query. To alter the order of your rules you can use drag-and-drop. The actual order does not change until you save it.
 
-## About Pre-Search Rules {#concept_5BF84BB6FACB4645BA9CB7496A01CD1F}
-
-Use Pre-Search Rules to analyze the incoming query and determine which presentation template to use. Pre-Search Rules are executed in sequence for every query. To alter the order of your rules you can use drag-and-drop. The actual order does not change until you save it. 
+## Using Pre-Search Rules {#concept_5BF84BB6FACB4645BA9CB7496A01CD1F} 
 
 Pre-Search Rules are typically used to select which presentation template displays the results based on the incoming query. More advanced features can be used to alter the query that is used for a search that is being done for a presentation template. You can add, delete, or change the value of query parameters as needed. For every incoming query a pre-search-processing module examines the pre-search rules to determine if the query is modified and what presentation template is used. Each Pre-Search Rule consists of two main elements: the rule's actions and optional conditions. You can specify an unlimited number of rules and conditions. The order of these rules is important, because the rule set is looped through rule by rule. When a rule's conditions is matched, all the associated actions are performed.
 

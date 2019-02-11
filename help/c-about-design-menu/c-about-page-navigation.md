@@ -14,11 +14,9 @@ snippet: y
 
 # About Page Navigation{#about-page-navigation}
 
-You can use Page Navigation to customize the page navigation control of your search presentation layer.
+You can use **[!UICONTROL Page Navigation]** to customize the page navigation control of your search presentation layer.
 
-## About Page Navigation {#concept_4488C73B2F59457CB76B658FF71B9E4B}
-
-You can use **[!UICONTROL Page Navigation]** to customize the page navigation control of your search presentation layer. 
+## Using Page Navigation {#concept_4488C73B2F59457CB76B658FF71B9E4B} 
 
 If your presentation layer has more than one set of search results, the page navigation control is for the primary search on the page. 
 

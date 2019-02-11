@@ -16,9 +16,7 @@ snippet: y
 
 You can use Full Index to index all the pages of your staged or live website. Indexing helps your customers more easily find what they are looking for or what they need when they perform a search.
 
-## About Full Index {#concept_C69BD21863FD4856B49326F35DB570D3}
-
-You can use Full Index to index all the pages of your staged or live website. Indexing helps your customers more easily find what they are looking for or what they need when they perform a search. 
+## Using Full Index {#concept_C69BD21863FD4856B49326F35DB570D3} 
 
 When you generate a full index, status information is displayed, such as start time, elapsed time, and errors during the indexing process. Information about the status of your last index is also displayed.
 

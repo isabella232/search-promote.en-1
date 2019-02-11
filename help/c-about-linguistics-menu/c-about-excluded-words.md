@@ -15,9 +15,7 @@ snippet: y
 
 You can use Excluded Words to specify frequently used phrases and common words, such as "a" and "the", that you want to leave out of search results.
 
-## About Excluded Words {#concept_9DB67BD2F0DC43AC88741003D9F39812}
-
-You can use Excluded Words to specify frequently used phrases and common words, such as "a" and "the", that you want to leave out of search results. 
+## Using Excluded Words {#concept_9DB67BD2F0DC43AC88741003D9F39812} 
 
 See also [About Searches](../c-about-settings-menu/c-about-searching-menu.md#concept_207105CF26B1448F8A3D223787C56AB8).
 

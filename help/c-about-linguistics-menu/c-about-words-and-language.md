@@ -13,11 +13,9 @@ snippet: y
 
 # About Words & Language{#about-words-language}
 
-You can use Words & Language to determine how search terms are matched to the content of your web pages.
+You can use [!DNL Words & Language] to determine how search terms are matched to the content of your web pages.
 
-## About Words & Language {#concept_CEB4B9576F3C4E2EB87B352EEC738D79}
-
-You can use [!DNL Words & Language] to determine how search terms are matched to the content of your web pages. 
+## Using Words & Language {#concept_CEB4B9576F3C4E2EB87B352EEC738D79}
 
 Before the effects of [!DNL Words & Language] settings are available to site visitors, including any changes you make to those settings, you must regenerate your site index. Regenerating, unlike indexing, does not involve crawling your web pages and takes only a few seconds. 
 

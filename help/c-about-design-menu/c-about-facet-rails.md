@@ -16,9 +16,7 @@ snippet: y
 
 Use Facet Rail to reorder groups of facets on a web page.
 
-## About Facet Rail {#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB}
-
-Use Facet Rail to reorder groups of facets on a web page. 
+## Using Facet Rail {#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB}
 
 A facet is a property or characteristic, It is a way to generally categorize the search results. For example, manufacturer, price, and color could be considered a group of facets. Each facet can have multiple constraints or values. For example, if you had color as a facet, the "facet values" could be red, orange, yellow, green, blue, indigo, and violet.
 

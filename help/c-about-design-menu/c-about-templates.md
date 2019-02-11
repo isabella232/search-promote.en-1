@@ -13,11 +13,9 @@ snippet: y
 
 # About Templates{#about-templates}
 
-You can use Templates to manage your presentation templates and transport templates.
+You can use **[!UICONTROL Templates]** to manage your presentation templates and transport templates.
 
 ## About Templates {#concept_06EB481B14864E18A8AE2BCD1D6EF0B5}
-
-You can use **[!UICONTROL Templates]** to manage your presentation templates and transport templates.
 
 <!-- 
 
