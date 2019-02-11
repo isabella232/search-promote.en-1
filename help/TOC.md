@@ -37,7 +37,7 @@ user-guide: Search&amp;Promote
 + [Getting started with Search&amp;Promote](c-getting-started.md)
 + [Home](c-about-home.md)
 + [Using History](t-using-the-history-option.md)
-+ [Designing a search] (#design)
++ [Designing a search](#design)
    + [Facets](c-about-design-menu/c-about-facets.md)
    + [Facet Rail](c-about-design-menu/c-about-facet-rails.md)
    + [Dynamic Facets](c-about-design-menu/c-about-dynamic-facets.md)
@@ -89,7 +89,7 @@ user-guide: Search&amp;Promote
    + [Account Options](c-about-settings-menu/c-about-account-options-menu.md)
    + [Users](c-about-settings-menu/c-about-users-menu.md)
 + [Working with Search&amp;Promote accounts](#accounts)
-+ Appendices {#appendices}
++ Appendices(#appendices)
    + [Date Formats](c-appendices/r-date-formats.md)
    + [Regular Expressions](c-appendices/r-regular-expressions.md)
    + [Proximity search](c-appendices/r-about-proximity-search.md)
