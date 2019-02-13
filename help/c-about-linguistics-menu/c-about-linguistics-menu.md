@@ -15,11 +15,11 @@ snippet: y
 
 Use the Linguistics menu to manage your various linguistic settings that affect your search results.
 
-   + [Dictionaries](c-about-linguistics-menu/c-about-dictionaries.md)
-   + [Words & Language](c-about-linguistics-menu/c-about-words-and-language.md)
-   + [Did You Mean](c-about-linguistics-menu/c-about-did-you-mean.md)
-   + [Query Expansion Overrides](c-about-linguistics-menu/c-about-query-expansion-overrides.md)
-   + [Excluded Words](c-about-linguistics-menu/c-about-excluded-words.md)
-   + [Common Phrases](c-about-linguistics-menu/c-about-common-phrases.md)
++ [Dictionaries](c-about-linguistics-menu/c-about-dictionaries.md)
++ [Words & Language](c-about-linguistics-menu/c-about-words-and-language.md)
++ [Did You Mean](c-about-linguistics-menu/c-about-did-you-mean.md)
++ [Query Expansion Overrides](c-about-linguistics-menu/c-about-query-expansion-overrides.md)
++ [Excluded Words](c-about-linguistics-menu/c-about-excluded-words.md)
++ [Common Phrases](c-about-linguistics-menu/c-about-common-phrases.md)
    
    
