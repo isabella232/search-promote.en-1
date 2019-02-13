@@ -63,9 +63,9 @@ The table in the report shows you the following information:
 
 1. On the product menu, do one of the following:
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Terms Report]**. 
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Terms Report]**. 
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Null Terms Report]**.
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Null Terms Report]**.
 
 1. On the report page, in the drop-down list, select a report of either the top phrases or the top words.
 1. Click **[!UICONTROL View Report]**.
@@ -123,9 +123,9 @@ The [!DNL Staged Adobe Analytics Terms Report] page and the [!DNL Staged Adobe A
 
 1. On the product menu, do one of the following:
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Report]**. 
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Report]**. 
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Report Suites]**.
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Report Suites]**.
 
 1. Click **[!UICONTROL View Live Settings]**.
 
@@ -147,9 +147,9 @@ t_viewing_the_search_request_report_or_the_content_requests_report.xml
 
 1. On the product menu, do one of the following:
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Search Requests]**. 
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Search Requests]**. 
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Content Requests]**.
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Content Requests]**.
 
 1. On the report page, in the **[!UICONTROL Period]** drop-down list, select the length of time to include in the report.
 1. In the **[!UICONTROL Chart Type]** drop-down list, select one of the following options based on the selected report:
@@ -196,11 +196,11 @@ t_viewing_the_crawl_performance_report_or_the_staged_crawl_performance_report.xm
 
 1. On the product menu, do one of the following:
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Crawl Performance]**.
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Crawl Performance]**.
 
   On the report page, in the **[!UICONTROL Crawl Ending]** drop-down list, select the length of time to include in the report. 
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Staged Crawl Performance]**.
++ Click **[!UICONTROL Reports]** > **[!UICONTROL Staged Crawl Performance]**.
 
   On the report page, in the **[!UICONTROL Staged Crawl Ending]** drop-down list, select the length of time to include in the report.
 
