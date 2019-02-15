@@ -15,8 +15,8 @@ snippet: y
 
 Use the Reports menu to view or reset reports of customers' search queries.
 
-+ [Data Views](c-about-reports-menu/c-about-data-views.md)
-+ [Alerts](c-about-reports-menu/c-about-alerts.md)
++ [Data Views](/help/c-about-reports-menu/c-about-data-views.md)
++ [Alerts](/help/c-about-reports-menu/c-about-alerts.md)
 
 ## Viewing the Terms Report or the Null Search Terms Report {#task_53B7ED1582DD4B0E8376546A7AFC789A}
 
