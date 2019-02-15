@@ -57,7 +57,7 @@ user-guide: Search&amp;Promote
    + [Ranking Rules](c-about-rules-menu/c-about-ranking-rules.md)
 + Using search linguistics {#linguistics}
    + [Dictionaries](c-about-linguistics-menu/c-about-dictionaries.md)
-   + [Words &amp; Language](c-about-linguistics-menu/c-about-words-and-language.md)
+   + [Words and Language](c-about-linguistics-menu/c-about-words-and-language.md)
    + [Did You Mean](c-about-linguistics-menu/c-about-did-you-mean.md)
    + [Query Expansion Overrides](c-about-linguistics-menu/c-about-query-expansion-overrides.md)
    + [Excluded Words](c-about-linguistics-menu/c-about-excluded-words.md)
