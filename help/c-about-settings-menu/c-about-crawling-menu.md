@@ -1242,8 +1242,6 @@ t_adding_an_index_connector_definition.xml
 
 Before the effects of the new and enabled definition is visible to customers, rebuild your site index.
 
-See [About the Index menu](../c-about-index-menu/c-about-index-menu.md#concept_113F5790AE1C4356B3564768F39F43EF).
-
 **To add an Index Connector definition ** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
