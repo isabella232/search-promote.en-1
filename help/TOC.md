@@ -65,7 +65,7 @@ user-guide: Search&amp;Promote
 + [Simulator](c-about-simulator.md)
 + [Staging](c-about-staging.md)
 + Generating search reports {#reports}
-   + [Working with Search Reports](/help/c-about-reports-menu/c-about-reports-menu.md)
+   + [Working with Search Reports](c-about-reports-menu/c-about-reports-menu.md)
    + [Data Views](c-about-reports-menu/c-about-data-views.md)
    + [Alerts](c-about-reports-menu/c-about-alerts.md)
 + Indexing content {#index}
