@@ -19,7 +19,7 @@ snippet: y
 
 * The latest Adobe Search&amp;Promote release notes:
 
-  [Release notes](c-searchpromote-release-notes/c-searchpromote-release-notes.md#concept_502E2FAC09BB47EBAFD01CFF7BAD9F7F)
+  [Release notes](/help/c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
 
 ## Whitepaper {#topic_EED10B7F7E8D4A9A8F759FE24C461937}
 
