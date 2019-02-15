@@ -78,7 +78,7 @@ user-guide: Search&amp;Promote
    + [Remote Control for Indexing](c-about-index-menu/c-about-remote-control-for-indexing.md)
    + [Rollback for indexes](c-about-index-menu/c-about-rollback-for-indexes.md)
    + [Vertical Update](c-about-index-menu/c-about-vertical-updates.md)
-+ Configuring settings in Search&amp;Promote {#settings}
++ Configuring settings {#settings}
    + [Crawling](c-about-settings-menu/c-about-crawling-menu.md)
    + [Searching](c-about-settings-menu/c-about-searching-menu.md)
    + [Metadata](c-about-settings-menu/c-about-metadata-menu.md)
