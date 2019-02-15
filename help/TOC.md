@@ -69,7 +69,6 @@ user-guide: Search&amp;Promote
    + [Data Views](c-about-reports-menu/c-about-data-views.md)
    + [Alerts](c-about-reports-menu/c-about-alerts.md)
 + Indexing content {#index}
-   + [Index Overview](c-about-index-menu/c-about-index.md)
    + [Full Index](c-about-index-menu/c-about-full-index.md)
    + [Incremental Index](c-about-index-menu/c-about-incremental-index.md)
    + [Scripted Index](c-about-index-menu/c-about-scripted-index.md)
