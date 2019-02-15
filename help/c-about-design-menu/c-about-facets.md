@@ -395,8 +395,6 @@ Add a new meta tag field that is dedicated to holding date for the nested facet.
    `Mens:Footwear` 
 1. After you create or edit the filtering script, test the script. If it looks right, reindex your account, if appropriate. You can check the index using [!DNL Index Overview].
 
-   See [About Index Overview](../c-about-index-menu/c-about-index.md#concept_967E159A7C3240FAA6B2A9343121D0AA).
-
    The following examples assume that you have some standard consulting libraries included with the filtering script initialization. Remember that every account is different, so your filtering script should reflect the necessary requirements for your own account.
 
    **Example of a multi-value filtering script**
