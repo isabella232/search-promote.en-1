@@ -7,9 +7,6 @@ subtopic: Re-Rank Index
 title: About Re-Rank Index
 topic: Index,Site search and merchandising
 uuid: 5c2a4c12-5e06-4fcc-897c-c12fcc5d7aa8
-index: n
-internal: n
-snippet: y
 ---
 
 # About Re-Rank Index{#about-re-rank-index}

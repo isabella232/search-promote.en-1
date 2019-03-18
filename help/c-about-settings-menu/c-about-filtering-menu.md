@@ -7,9 +7,6 @@ subtopic: Filtering
 title: About the Filtering menu
 topic: Settings,Site search and merchandising
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
-index: n
-internal: n
-snippet: y
 ---
 
 # About the Filtering menu{#about-the-filtering-menu}

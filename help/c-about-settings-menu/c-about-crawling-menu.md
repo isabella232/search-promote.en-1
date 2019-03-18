@@ -7,9 +7,6 @@ subtopic: Crawling
 title: About the Crawling menu
 topic: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
-index: n
-internal: n
-snippet: y
 ---
 
 # About the Crawling menu{#about-the-crawling-menu}

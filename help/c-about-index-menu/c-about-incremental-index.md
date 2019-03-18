@@ -7,9 +7,6 @@ subtopic: Incremental Index
 title: About Incremental Index
 topic: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
-index: n
-internal: n
-snippet: y
 ---
 
 # About Incremental Index{#about-incremental-index}

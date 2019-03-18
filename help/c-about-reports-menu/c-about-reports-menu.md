@@ -6,9 +6,6 @@ solution: Target
 title: About the Reports menu
 topic: Reports,Site search and merchandising
 uuid: 3ea856d7-dc07-455f-8dc7-c7f7f56355d7
-index: n
-internal: n
-snippet: y
 ---
 
 # About the Reports menu{#about-the-reports-menu}

@@ -7,9 +7,6 @@ subtopic: Navigation
 title: About Facets
 topic: Design,Site search and merchandising
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
-index: n
-internal: n
-snippet: y
 ---
 
 # About Facets{#about-facets}

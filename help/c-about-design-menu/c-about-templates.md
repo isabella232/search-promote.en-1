@@ -6,9 +6,6 @@ solution: Target
 title: About Templates
 topic: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
-index: n
-internal: n
-snippet: y
 ---
 
 # About Templates{#about-templates}

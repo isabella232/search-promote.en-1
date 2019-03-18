@@ -6,9 +6,6 @@ solution: Target
 title: CGI parameters
 topic: Appendices,Site search and merchandising
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
-index: n
-internal: n
-snippet: y
 ---
 
 # CGI parameters{#cgi-parameters}

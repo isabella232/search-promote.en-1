@@ -6,9 +6,6 @@ solution: Target
 title: About Dictionaries
 topic: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
-index: n
-internal: n
-snippet: y
 ---
 
 # About Dictionaries{#about-dictionaries}

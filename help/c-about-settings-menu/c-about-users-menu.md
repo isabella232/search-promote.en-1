@@ -7,9 +7,6 @@ subtopic: Users
 title: About the Users menu
 topic: Settings,Site search and merchandising
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
-index: n
-internal: n
-snippet: y
 ---
 
 # About the Users menu{#about-the-users-menu}

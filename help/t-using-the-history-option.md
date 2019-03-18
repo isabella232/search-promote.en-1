@@ -6,9 +6,6 @@ solution: Target
 title: Using the History option
 topic: Using History,Site search and merchandising
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
-index: n
-internal: n
-snippet: y
 ---
 
 # Using the History option{#using-the-history-option}
