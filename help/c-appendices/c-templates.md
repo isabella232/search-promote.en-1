@@ -6,9 +6,6 @@ solution: Target
 title: Templates
 topic: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
-index: n
-internal: n
-snippet: y
 ---
 
 # Templates{#templates}

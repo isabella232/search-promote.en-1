@@ -7,9 +7,6 @@ subtopic: Vertical Update
 title: About Vertical Update
 topic: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
-index: n
-internal: n
-snippet: y
 ---
 
 # About Vertical Update{#about-vertical-update}

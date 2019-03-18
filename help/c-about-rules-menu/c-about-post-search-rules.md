@@ -6,9 +6,6 @@ solution: Target
 title: About Post-Search Rules
 topic: Rules,Site search and merchandising
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
-index: n
-internal: n
-snippet: y
 ---
 
 # About Post-Search Rules{#about-post-search-rules}

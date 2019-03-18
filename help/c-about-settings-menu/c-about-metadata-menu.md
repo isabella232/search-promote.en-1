@@ -7,9 +7,6 @@ subtopic: Metadata
 title: About the Metadata menu
 topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
-index: n
-internal: n
-snippet: y
 ---
 
 # About the Metadata menu{#about-the-metadata-menu}

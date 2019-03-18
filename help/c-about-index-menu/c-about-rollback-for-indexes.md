@@ -7,9 +7,6 @@ subtopic: Rollback
 title: About Rollback for indexes
 topic: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
-index: n
-internal: n
-snippet: y
 ---
 
 # About Rollback for indexes{#about-rollback-for-indexes}

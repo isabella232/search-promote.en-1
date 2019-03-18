@@ -6,9 +6,6 @@ solution: Target
 title: Frequently asked questions
 topic: Appendices,Site search and merchandising
 uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
-index: n
-internal: n
-snippet: y
 ---
 
 # Frequently asked questions{#frequently-asked-questions}

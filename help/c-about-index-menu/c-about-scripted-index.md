@@ -7,9 +7,6 @@ subtopic: Scripted Index
 title: About Scripted Index
 topic: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
-index: n
-internal: n
-snippet: y
 ---
 
 # About Scripted Index{#about-scripted-index}

@@ -6,9 +6,6 @@ solution: Target
 title: About Excluded Words
 topic: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
-index: n
-internal: n
-snippet: y
 ---
 
 # About Excluded Words{#about-excluded-words}

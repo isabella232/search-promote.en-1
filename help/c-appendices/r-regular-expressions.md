@@ -6,9 +6,6 @@ solution: Target
 title: Regular Expressions
 topic: Appendices,Site search and merchandising
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
-index: n
-internal: n
-snippet: y
 ---
 
 # Regular Expressions{#regular-expressions}

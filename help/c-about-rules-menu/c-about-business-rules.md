@@ -6,9 +6,6 @@ solution: Target
 title: About Business Rules
 topic: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
-index: n
-internal: n
-snippet: y
 ---
 
 # About Business Rules{#about-business-rules}

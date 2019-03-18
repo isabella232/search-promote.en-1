@@ -7,9 +7,6 @@ subtopic: Ranking Rules
 title: About Ranking Rules
 topic: Rules,Site search and merchandising
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
-index: n
-internal: n
-snippet: y
 ---
 
 # About Ranking Rules{#about-ranking-rules}

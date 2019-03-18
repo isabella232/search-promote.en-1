@@ -6,9 +6,6 @@ solution: Target
 title: About Direct Hits
 topic: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
-index: n
-internal: n
-snippet: y
 ---
 
 # About Direct Hits{#about-direct-hits}

@@ -8,7 +8,7 @@ getting-started-url: https://helpx.adobe.com/target/get-started.html
 Tutorials title: Tutorials
 tutorials-url: https://helpx.adobe.com/target/kt/index/target-videos.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/search-promote.en
-index: no
+index: n
 ---
 
 # Metadata for internal use

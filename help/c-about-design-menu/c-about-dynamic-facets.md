@@ -7,9 +7,6 @@ subtopic: Navigation
 title: About Dynamic Facets
 topic: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
-index: n
-internal: n
-snippet: y
 ---
 
 # About Dynamic Facets{#about-dynamic-facets}

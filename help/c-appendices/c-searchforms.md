@@ -6,9 +6,6 @@ solution: Target
 title: Search forms
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
-index: n
-internal: n
-snippet: y
 ---
 
 # Search forms{#search-forms}
