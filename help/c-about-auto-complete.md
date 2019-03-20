@@ -21,7 +21,7 @@ The file [!DNL autocomplete_data.js] is regenerated and published to the search 
 
 ## Configuring Auto-Complete {#task_F491F2BFC4D24A61BBDC48B9059C11BB}
 
-You can configure and setup the options that control the generation of the auto-complete enabled search form, and the file .
+You can configure and setup the options that control the generation of the auto-complete enabled search form, and the file.
 
 <!-- 
 

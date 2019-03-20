@@ -94,11 +94,11 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, select **[!UICONTROL HTML code]**.
 1. In the [!DNL Add Banner] dialog box, set the options that you want.
 
-   <!-- 
+<!-- 
 
 r_banner_options.xml
 
- -->
+-->
 
 <table> 
  <thead> 
