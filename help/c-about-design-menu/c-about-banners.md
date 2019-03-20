@@ -214,7 +214,7 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, click **[!UICONTROL Adobe Scene7]**.
 1. In the [!DNL Pick an Asset] dialog box, in the left pane, use the navigation options in the user interface to locate the folder that contains the digital asset that you want to use for a banner.
 
-   <!-- 
+<!-- 
 
 r_pick_an_asset_options.xml
 
