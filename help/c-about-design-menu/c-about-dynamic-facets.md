@@ -94,13 +94,13 @@ See also
    See also [Regenerating the index of a live or staged website](../c-about-index-menu/c-about-regenerate-index.md#task_B28DE40C0E9A475ABCBCBC4FF993AACD). 
 1. Determine the number of dynamic facets to select for a given search. You accomplish this task by doing either one of the following:
 
-* Create a query cleaning rule with any desired conditions, that performs the action `set`, `backend parameter`, `sp_sfvl_df_count` to value `X`, where `X` is the desired number of dynamic facets to request at the time of search, and then click **[!UICONTROL Add]**.
+    * Create a query cleaning rule with any desired conditions, that performs the action `set`, `backend parameter`, `sp_sfvl_df_count` to value `X`, where `X` is the desired number of dynamic facets to request at the time of search, and then click **[!UICONTROL Add]**.
 
-  ![](assets/querycleaningrule_dynamicfacets.png)
+![](assets/querycleaningrule_dynamicfacets.png)
 
   See [Adding a query cleaning rule](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
 
-  See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`. 
+  See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`.
 
 * Add a search and set the "custom" `sp_sfvl_df_count` parameter to the desired value, and click **[!UICONTROL Add]**.
 
