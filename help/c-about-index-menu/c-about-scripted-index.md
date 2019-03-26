@@ -213,7 +213,7 @@ t_configuring_a_scripted_incremental_index.xml
 1. On the **[!UICONTROL Scripted Incremental Index Configuration]** page, in the **[!UICONTROL Script File URL]**, enter the URL to the text file script that is located on your server.
 
    See [About Scripted Index](../c-about-index-menu/c-about-scripted-index.md#concept_34F58D551BC04BFB8ADC294B9DA9199D). 
-1. (Optional) Check **[!UICONTROL Clear Data]** if you do not want the search robot to "remember" the date-specifier of the most recently processed block.
+1. (Optional) Check **[!UICONTROL Clear Date]** if you do not want the search robot to "remember" the date-specifier of the most recently processed block.
 
    By default, the search robot processes only new blocks of commands that are found in the text file, which is determined by the file's date. If you do not want the default, check **[!UICONTROL Clear Date]**. 
 1. Click **[!UICONTROL Save Changes]**.
