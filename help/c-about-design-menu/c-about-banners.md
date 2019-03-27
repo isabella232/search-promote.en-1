@@ -10,7 +10,7 @@ uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 
 # About Banners {#about-banners}
 
-You can use Banners to manage the banner ads on your website.
+You can use Banners to manage the banner ads that are on your website.
 
 ## Using Banners {#concept_5BBE01FEC6134393B43CC917C8CC64DA}
 
