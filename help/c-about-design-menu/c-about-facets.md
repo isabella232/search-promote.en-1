@@ -501,14 +501,14 @@ Add a new meta tag field that is dedicated to holding date for the nested facet.
 1. On the [!DNL Facets] page, click **[!UICONTROL Add New Facet]**.
 1. On the [!DNL Add Facet] page, set the following options:
 
-* In the [!DNL Facet Name] drop-down list, select the meta tag field that you defined in Task 1. If you are using search field tables, select **[!UICONTROL custom]** in the drop-down list, and then enter the custom name of the facet. 
+    * In the [!DNL Facet Name] drop-down list, select the meta tag field that you defined in Task 1. If you are using search field tables, select **[!UICONTROL custom]** in the drop-down list, and then enter the custom name of the facet. 
 
-* Check **[!UICONTROL Nested Facet]** to "turn on" nested facets. 
-* In the [!DNL Nested Parent Name] and [!DNL Nested Child Name] drop-down lists, choose the meta tag fields you can to use. If you are using search field tables, select **[!UICONTROL custom]** and enter the custom name of the facet. 
+    * Check **[!UICONTROL Nested Facet]** to "turn on" nested facets. 
+    * In the [!DNL Nested Parent Name] and [!DNL Nested Child Name] drop-down lists, choose the meta tag fields you can to use. If you are using search field tables, select **[!UICONTROL custom]** and enter the custom name of the facet. 
 
-* In the [!DNL Nested Facet Delimiter] field, specify the delimiter that you want to use, such as a ":" (colon). Do not confuse this with the multi-value delimiter. Both delimiters should be different from each other. 
-* If you set the facet's behavior **[!UICONTROL Category]**, you can specify the facet's parents (do not confuse parent with nested facet parents). In general, never use the name of another nested facet as a Category parent. Instead, use the individual facets composing that nested facet. 
-* Set any other facet options you want.
+    * In the [!DNL Nested Facet Delimiter] field, specify the delimiter that you want to use, such as a ":" (colon). Do not confuse this with the multi-value delimiter. Both delimiters should be different from each other. 
+    * If you set the facet's behavior **[!UICONTROL Category]**, you can specify the facet's parents (do not confuse parent with nested facet parents). In general, never use the name of another nested facet as a Category parent. Instead, use the individual facets composing that nested facet. 
+    * Set any other facet options you want.
 
    See [Adding a new facet](../c-about-design-menu/c-about-facets.md#task_FC07BFFA62CA4B718D6CBF4F2855C89B). 
 1. Click **[!UICONTROL Add]**.

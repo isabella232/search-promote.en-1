@@ -30,7 +30,7 @@ You can also use [!DNL History] to revert to a previously applied change that wa
 1. Depending on the feature you are currently using, click **[!UICONTROL History]** in the upper-right corner of the page or window that is currently open.
 1. (Optional) In the History window, do any of the following:
 
-* Set the number of revisions that you want to show per page from the Show drop-down list. 
-* Click a hyperlinked version number to revert the settings in the feature to a specific date.
+    * Set the number of revisions that you want to show per page from the Show drop-down list.
+    * Click a hyperlinked version number to revert the settings in the feature to a specific date.
 
 1. Click **[!UICONTROL Close]**.

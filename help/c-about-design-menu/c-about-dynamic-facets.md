@@ -100,7 +100,7 @@ See also
 
   See [Adding a query cleaning rule](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
 
-  See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`. 
+  See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`.
 
 * Add a search and set the "custom" `sp_sfvl_df_count` parameter to the desired value, and click **[!UICONTROL Add]**.
 
