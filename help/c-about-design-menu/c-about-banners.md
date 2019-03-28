@@ -94,12 +94,6 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, select **[!UICONTROL HTML code]**.
 1. In the [!DNL Add Banner] dialog box, set the options that you want.
 
-<!-- 
-
-r_banner_options.xml
-
--->
-
 <table> 
  <thead> 
   <tr> 
@@ -173,7 +167,7 @@ See also [Editing a banner using Adobe Dynamic Media Classic](../c-about-design-
 **To edit a banner** 
 
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
-1. On the [!DNL Banners] page, click  ![](assets/icon_edit_16.gif)
+1. On the [!DNL Banners] page, click  ![](assets/icon_edit_16.gif).
 
    above a banner thumbnail that you want to edit.
 1. On the [!DNL Edit Banner] page, set the options that you want.
@@ -213,12 +207,6 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners.]**
 1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, click **[!UICONTROL Adobe Scene7]**.
 1. In the [!DNL Pick an Asset] dialog box, in the left pane, use the navigation options in the user interface to locate the folder that contains the digital asset that you want to use for a banner.
-
-<!-- 
-
-r_pick_an_asset_options.xml
-
- -->
 
    With the exception of asset navigation options, all other options are dependent on the digital asset that you selected to add or edit.
 
@@ -611,15 +599,15 @@ r_upload_options.xml
    The [!DNL Pick An Asset] pop-up window appears. 
 1. (Optional) In the [!DNL Pick An Asset] pop-up window, in [!DNL Actions] drop-down list, do any one of the following:
 
-* Click **[!UICONTROL Move]**. In the [!DNL Select a folder to move to] dialog box, select the folder where you want to move the digital asset. Click **[!UICONTROL Move]**.
+    *  Click **[!UICONTROL Move]**. In the [!DNL Select a folder to move to] dialog box, select the folder where you want to move the digital asset. Click **[!UICONTROL Move]**.
 
-  You can also select multiple digital assets that you want to move to another folder. 
+        You can also select multiple digital assets that you want to move to another folder. 
 
-* Click **[!UICONTROL Delete]**. In the [!DNL Delete Selected Assets] dialog box, click **[!UICONTROL Delete]**.
+    * Click **[!UICONTROL Delete]**. In the [!DNL Delete Selected Assets] dialog box, click **[!UICONTROL Delete]**.
 
-  You can also select multiple digital assets that you want to delete from the folder. 
+        You can also select multiple digital assets that you want to delete from the folder. 
 
-* Click **[!UICONTROL Rename]**. In the [!DNL Enter a new name for] dialog box, in the text field, type a new name for the digital asset. Click **[!UICONTROL Rename]**.
+    * Click **[!UICONTROL Rename]**. In the [!DNL Enter a new name for] dialog box, in the text field, type a new name for the digital asset. Click **[!UICONTROL Rename]**.
 
 1. (Optional) Depending on the digital asset that you selected, in the left pane of the [!DNL Pick an Asset] pop-up window, set the options that you want.
 1. Click the asset to select it for use as a banner.
@@ -654,9 +642,7 @@ See also [Editing a banner](../c-about-design-menu/c-about-banners.md#task_D4081
 **To edit a banner using Adobe Dynamic Media Classic** 
 
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
-1. On the [!DNL Banners] page, click  ![](assets/icon_edit_16.gif)
-
-   above a banner thumbnail that has a S7 icon in the lower-left corner of the banner window.
+1. On the [!DNL Banners] page, click  ![](assets/icon_edit_16.gif) above a banner thumbnail that has a S7 icon in the lower-left corner of the banner window.
 1. On the [!DNL Change Parameter] page, set the options that you want.
 1. When you are finished editing the banner, click **[!UICONTROL Save]**.
 1. (Optional) Do one of the following:
