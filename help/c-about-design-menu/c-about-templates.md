@@ -558,7 +558,8 @@ See [Previewing the XML of a transport template file](../c-about-design-menu/c-a
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Templates]**.
 1. On the [!DNL Templates] page, in the drop-down list next to a presentation template name, click **[!UICONTROL Preview minimized]**.
 
-   Use the **[!UICONTROL Type]** column in the Templates table to sort the templates by Presentation and Transport. 1. (Optional) On the [!DNL Preview Minimized Template] page, check **[!UICONTROL Wrap lines]** to read the tags within the defined window.
+   Use the **[!UICONTROL Type]** column in the Templates table to sort the templates by Presentation and Transport.
+1. (Optional) On the [!DNL Preview Minimized Template] page, check **[!UICONTROL Wrap lines]** to read the tags within the defined window.
 1. Click **[!UICONTROL Close]**.
 1. (Optional) Do one of the following:
 
@@ -595,7 +596,8 @@ See [Previewing the presentation template minimized](../c-about-design-menu/c-ab
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Templates]**.
 1. On the [!DNL Templates] page, under the [!DNL Minimize] column, check the box for one or more presentation template files that you want to push as minimize on your website.
 
-   Use the **[!UICONTROL Type]** column in the [!DNL Templates] table to sort the templates by Presentation and Transport. 1. (Optional) Do one of the following:
+   Use the **[!UICONTROL Type]** column in the [!DNL Templates] table to sort the templates by Presentation and Transport.
+1. (Optional) Do one of the following:
 
     * Click **[!UICONTROL History]** to revert any changes that you have made.
 
@@ -634,7 +636,8 @@ It is common to have a rule such as "For every search, set the targeted presenta
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Templates]**.
 1. On the [!DNL Templates] page, under the [!DNL Default] column, click the radio button to the corresponding presentation template file that you want to serve as the default.
 
-   Use the **[!UICONTROL Type]** column in the [!DNL Templates] table to sort the templates by Presentation and Transport. 1. (Optional) Do one of the following:
+   Use the **[!UICONTROL Type]** column in the [!DNL Templates] table to sort the templates by Presentation and Transport.
+1. (Optional) Do one of the following:
 
     * Click **[!UICONTROL History]** to revert any changes that you have made.
 
@@ -671,7 +674,8 @@ See [Previewing the presentation template minimized](../c-about-design-menu/c-ab
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Templates]**.
 1. On the [!DNL Templates] page, in the drop-down list next to a transport template name, click **[!UICONTROL Preview]**.
 
-   Use the **[!UICONTROL Type]** column in the [!DNL Templates] table to sort the templates by Presentation and Transport. 1. Close the viewing window and return to [!DNL site search/merchandising].
+   Use the **[!UICONTROL Type]** column in the [!DNL Templates] table to sort the templates by Presentation and Transport.
+1. Close the viewing window and return to [!DNL site search/merchandising].
 1. (Optional) Do one of the following:
 
     * Click **[!UICONTROL History]** to revert any changes that you have made.
