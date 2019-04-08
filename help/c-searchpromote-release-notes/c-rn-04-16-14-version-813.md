@@ -10,20 +10,9 @@ uuid: b3524992-ff00-4a7c-a404-078242456734
 
 # Search&amp;Promote 8.13.0 Release Notes (04/16/2014){#search-promote-release-notes}
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>New feature and enhancement </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Dynamic Facets with full table match support </p> </td> 
-   <td colname="col2"> <p> </p> <p> Some customers had many "SKU level" attributes that they wanted to select and display by way of Dynamic Facets. As such, you can now optionally associate each dynamic facet field with up to one table name in a static account configuration. Those table relationships can then be applied at search-time for any dynamic facet fields involved in the search. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Dynamic Facets</a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| New feature and enhancement                  | Description                                                                                                                                                                                                                                                                                                                                                                                 |
+|----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dynamic Facets with full table match support | Some customers had many "SKU level" attributes that they,wanted to select and display by way of Dynamic Facets. As such, you can,now optionally associate each dynamic facet field with up to one table,name in a static account configuration. Those table relationships can then be applied at search-time for any dynamic facet fields involved in the search. See [About Dynamic Facts](../c-about-design-menu/c-about-dynamic-facets.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899).
 
 **Fixes**
 
