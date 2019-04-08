@@ -103,7 +103,7 @@ t_editing_web_page_navigation.xml
 
 If your presentation layer has more than one set of search results, the page navigation control is for the primary search on the page.
 
-**To configure Web page navigation** 
+**To edit web page navigation** 
 
 1. On the program menu, click **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Page Navigation]**.
 1. On the [!DNL Page Navigation] page, in the table, click **[!UICONTROL Edit]** to the far right of the page navigation name.
