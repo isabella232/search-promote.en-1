@@ -59,12 +59,6 @@ Also, by default, rules run whenever their associate triggers are met for all st
 
 You can use [!DNL Visual Rule Builder] or [!DNL Advanced Rule Builder] to add business rules that tailor your customer's search experience.
 
-<!-- 
-
-t_adding_a_new_business_rule.xml
-
- -->
-
 **To add a new business rule**
 
 The following steps assume you are using the Visual Rule Builder. 
@@ -110,37 +104,37 @@ The following steps assume you are using the Visual Rule Builder.
 
       This particular feature of being able to customize a combination of triggers is not enabled by default. Contact Technical Support to activate this feature for your use.
 
-<table> 
-  <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Triggers option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Keyword Matches </p> </td> 
-   <td colname="col2"> <p>Trigger is true when the search term matches the given case-sensitive keyword. The trigger is true for both the keyword and all of its synonyms, as defined in the Linguistics dictionary. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Query Matches </p> </td> 
-   <td colname="col2"> <p> Trigger is true when all the search parameters match. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Result Group is Dominant </p> </td> 
-   <td colname="col2"> <p> Trigger is true when the group of results defined by the given search dominates the result set. </p> <p>By default, dominance is set at 50%. This setting is a merchandising preference that you can set. </p> <p> 
-     <!--See <xref href="t_Configuring_Merchandising_preferences.xml#task_7AC7B9F5D9F44E10AB5BC0B8CB31C37A" type="task" format="dita" scope="local">Configuring Merchandising preferences</xref>. --> </p> <p>The entire group must be present within the result set for this trigger to be true. The group of results is dynamic. They can change after index operations, depending on what results match the original search criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Result Group is Present </p> </td> 
-   <td colname="col2"> <p> Trigger is true when the group of results defined by the given search is present in the result set. The entire group must be present within the result set for this trigger to be met (the results can present on any page). The group of results is dynamic and may change after index operations dependent on what results match the original search criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Result Present </p> </td> 
-   <td colname="col2"> <p> Trigger is true when the individual result is found within the result set. The result can be anywhere in the result set, it does not have to be on the page the user is currently viewing. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+      <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Triggers option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Keyword Matches </p> </td> 
+      <td colname="col2"> <p>Trigger is true when the search term matches the given case-sensitive keyword. The trigger is true for both the keyword and all of its synonyms, as defined in the Linguistics dictionary. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Query Matches </p> </td> 
+      <td colname="col2"> <p> Trigger is true when all the search parameters match. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Result Group is Dominant </p> </td> 
+      <td colname="col2"> <p> Trigger is true when the group of results defined by the given search dominates the result set. </p> <p>By default, dominance is set at 50%. This setting is a merchandising preference that you can set. </p> <p> 
+        <!--See <xref href="t_Configuring_Merchandising_preferences.xml#task_7AC7B9F5D9F44E10AB5BC0B8CB31C37A" type="task" format="dita" scope="local">Configuring Merchandising preferences</xref>. --> </p> <p>The entire group must be present within the result set for this trigger to be true. The group of results is dynamic. They can change after index operations, depending on what results match the original search criteria. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Result Group is Present </p> </td> 
+      <td colname="col2"> <p> Trigger is true when the group of results defined by the given search is present in the result set. The entire group must be present within the result set for this trigger to be met (the results can present on any page). The group of results is dynamic and may change after index operations dependent on what results match the original search criteria. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Result Present </p> </td> 
+      <td colname="col2"> <p> Trigger is true when the individual result is found within the result set. The result can be anywhere in the result set, it does not have to be on the page the user is currently viewing. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Action options**
 
@@ -148,87 +142,87 @@ The following steps assume you are using the Visual Rule Builder.
 
    The Remove Facet Item, Reveal Facet Item, Reveal Facet, Remove Facet, Push Facet Item actions in the following table require a facet. The interface for choosing a facet depends on how your account is configured. For example, a normal account uses a drop-down list for choosing facets. However, if your account has slotted facets, an autocomplete text box appears where you can enter the name of any facet. The autocomplete suggests facets in a drop-down list as you type the name of the facet. The suggestions include currently defined facets. If your account has a slot map, it also suggests slotted facets. 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Actions option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Push Group </p> </td> 
-   <td colname="col2"> <p> Pushes the group of search results as defined by the specified search criteria to a specific position. </p> <p>Pushing a group of search results does not implicitly add the group. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Add Group </p> </td> 
-   <td colname="col2"> <p> Add the group of search results as defined by the specified search criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove Group </p> </td> 
-   <td colname="col2"> <p> Remove the group of search results defined by the specified search criteria. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Push Single </p> </td> 
-   <td colname="col2"> <p> Pushes the individual search result to the selected position. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Add Single </p> </td> 
-   <td colname="col2"> <p> Adds an individual search result to the selected position. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove Single </p> </td> 
-   <td colname="col2"> <p> Removes an individual search result from the search result set. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove All Results </p> </td> 
-   <td colname="col2"> <p>Removes all results from the search result set. </p> <p> 
-     <!-- Bug #3331637 The option is meant to be used in conjunction with other rule actions in order to create "canned landing pages" where we want to create a page's content solely by rule actions, and need to completely discard the "natural" results of the search. Given that the other options don't have any kind of "here's how/why you might use this", I don't see much point in breaking that precedent here.--> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Select different banner </p> </td> 
-   <td colname="col2"> <p> Changes the banner in the selected banner area. </p> <p>This option is available when you right-click on a banner in the web page viewing area. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Add banner commands </p> </td> 
-   <td colname="col2"> <p>Applies to Adobe Dynamic Media Classic templates only. </p> <p>Lets you change the default parameters that are used in the banner template. </p> <p>See the table of options in <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita"> Adding a banner using Adobe Dynamic Media Classic </a>. </p> <p>See also <a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> Editing a banner using Adobe Dynamic Media Classic </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove banner </p> </td> 
-   <td colname="col2"> <p> Removes the banner from the selected banner area; no banner is displayed unless another rule that sets a banner, overrides this rule. </p> <p>This option is available when you right-click on a banner in the web page viewing area. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Push Facet Item </p> </td> 
-   <td colname="col2"> <p> Pushes an item within a facet to the selected position. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove Zone </p> </td> 
-   <td colname="col2"> <p> Removes a zone from the search results page. </p> <p>See also the Remove Facet action below. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reveal Zone </p> </td> 
-   <td colname="col2"> <p> Reveals a zone in the search results page. </p> <p>See also the Reveal Facet action below. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove Facet Item </p> </td> 
-   <td colname="col2"> <p> Removes a facet item from a facet. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reveal Facet Item </p> </td> 
-   <td colname="col2"> <p> Reveals a specific facet item. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Reveal Facet </p> </td> 
-   <td colname="col2"> <p> Reveals a specific facet. This action is preferred over the Reveal Zone action. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove Facet </p> </td> 
-   <td colname="col2"> <p> Removes a specific facet. This action is preferred over the Remove Zone action. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Actions option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Push Group </p> </td> 
+      <td colname="col2"> <p> Pushes the group of search results as defined by the specified search criteria to a specific position. </p> <p>Pushing a group of search results does not implicitly add the group. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Add Group </p> </td> 
+      <td colname="col2"> <p> Add the group of search results as defined by the specified search criteria. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove Group </p> </td> 
+      <td colname="col2"> <p> Remove the group of search results defined by the specified search criteria. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Push Single </p> </td> 
+      <td colname="col2"> <p> Pushes the individual search result to the selected position. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Add Single </p> </td> 
+      <td colname="col2"> <p> Adds an individual search result to the selected position. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove Single </p> </td> 
+      <td colname="col2"> <p> Removes an individual search result from the search result set. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove All Results </p> </td> 
+      <td colname="col2"> <p>Removes all results from the search result set. </p> <p> 
+        <!-- Bug #3331637 The option is meant to be used in conjunction with other rule actions in order to create "canned landing pages" where we want to create a page's content solely by rule actions, and need to completely discard the "natural" results of the search. Given that the other options don't have any kind of "here's how/why you might use this", I don't see much point in breaking that precedent here.--> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Select different banner </p> </td> 
+      <td colname="col2"> <p> Changes the banner in the selected banner area. </p> <p>This option is available when you right-click on a banner in the web page viewing area. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Add banner commands </p> </td> 
+      <td colname="col2"> <p>Applies to Adobe Dynamic Media Classic templates only. </p> <p>Lets you change the default parameters that are used in the banner template. </p> <p>See the table of options in <a scope="local" href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita"> Adding a banner using Adobe Dynamic Media Classic </a>. </p> <p>See also <a href="../c-about-design-menu/c-about-banners.md#task_C3E782477FBF428ABEA220751781ACA9" type="task" format="dita" scope="local"> Editing a banner using Adobe Dynamic Media Classic </a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove banner </p> </td> 
+      <td colname="col2"> <p> Removes the banner from the selected banner area; no banner is displayed unless another rule that sets a banner, overrides this rule. </p> <p>This option is available when you right-click on a banner in the web page viewing area. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Push Facet Item </p> </td> 
+      <td colname="col2"> <p> Pushes an item within a facet to the selected position. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove Zone </p> </td> 
+      <td colname="col2"> <p> Removes a zone from the search results page. </p> <p>See also the Remove Facet action below. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Reveal Zone </p> </td> 
+      <td colname="col2"> <p> Reveals a zone in the search results page. </p> <p>See also the Reveal Facet action below. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove Facet Item </p> </td> 
+      <td colname="col2"> <p> Removes a facet item from a facet. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Reveal Facet Item </p> </td> 
+      <td colname="col2"> <p> Reveals a specific facet item. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Reveal Facet </p> </td> 
+      <td colname="col2"> <p> Reveals a specific facet. This action is preferred over the Reveal Zone action. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove Facet </p> </td> 
+      <td colname="col2"> <p> Removes a specific facet. This action is preferred over the Remove Zone action. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
-   Depending on the rule builder panel that is active (unfolded), you can also do the following to set triggers and actions.
+    Depending on the rule builder panel that is active (unfolded), you can also do the following to set triggers and actions.
 
     * When the **[!UICONTROL Triggers]** panel is unfolded - In the presentation template area of the Business Rule Builder page, right-click on any search result or search facet, and then click **[!UICONTROL Add "result present" trigger]**.
 
@@ -277,12 +271,6 @@ The following steps assume you are using the Visual Rule Builder.
 ## Editing a business rule {#task_375CFA75D1D94D9E92A35DE1228E5087}
 
 You can use Visual Rule Builder or Advanced Rule Builder to edit business rules that you have added.
-
-<!-- 
-
-t_editing_a_business_rule.xml
-
- -->
 
 **To edit a new business rule** 
 
@@ -343,12 +331,6 @@ t_editing_a_business_rule.xml
 
 You can copy an existing business rule to use as the basis for a new business rule that you want to create.
 
-<!-- 
-
-t_copying_a_business_rule.xml
-
- -->
-
 **To copy a business rule** 
 
 1. On the product menu, click **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**.
@@ -360,12 +342,6 @@ t_copying_a_business_rule.xml
 ## Approving business rules {#task_BD569D18BF664272B8692294C162E2C1}
 
 You can activate business rules that have either a status of WIP (Work In Progress) or suspended.
-
-<!-- 
-
-t_approving_business_rules.xml
-
- -->
 
 **To approve business rules** 
 
@@ -391,12 +367,6 @@ t_approving_business_rules.xml
 ## Suspending business rules {#task_364E1FFB905141C08E306C8F1794A20E}
 
 You can suspend business rules that have either a status of WIP (Work In Progress) or approved.
-
-<!-- 
-
-t_suspending_business_rules.xml
-
- -->
 
 When you suspended a rule you are indicating in the user interface that you have temporarily made it inactive and you are deferring any work on it for another time. You can, however, still edit a suspended rule.
 
@@ -424,12 +394,6 @@ When you suspended a rule you are indicating in the user interface that you have
 
 You can resume business rules to reactivate a suspended rule. After you resume the business rule, its status is set to WIP (Work In Progress).
 
-<!-- 
-
-t_enabling_business_rules.xml
-
- -->
-
 **To resume business rules** 
 
 1. On the product menu, click **[!UICONTROL Rule]** > **[!UICONTROL Business Rules]**.
@@ -453,12 +417,6 @@ t_enabling_business_rules.xml
 ## Changing the order that business rules run {#task_FE3B1C17307F49B49050C2EC5A063991}
 
 You can reorder business rules to change the order in which they run on presentation templates.
-
-<!-- 
-
-t_changing_the_order_that_business_rules_run.xml
-
- -->
 
 Business rules run in the order that they were defined; the higher a rule's order number, the later it runs in the process, trumping earlier rules. You reorder rules by entering a new number in the Order column of the table on the [!DNL Business Rules] page. You can also use drag-and-drop on rules to change their run order.
 
@@ -492,12 +450,6 @@ Business rules run in the order that they were defined; the higher a rule's orde
 
 You can delete business rules whose status is WIP, suspended, or approved, by using the Bulk Actions drop-down menu.
 
-<!-- 
-
-t_deleting_business_rules.xml
-
- -->
-
 **To delete business rules** 
 
 1. On the product menu, click **[!UICONTROL Rules]** > **[!UICONTROL Business Rules]**.
@@ -521,4 +473,3 @@ t_deleting_business_rules.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

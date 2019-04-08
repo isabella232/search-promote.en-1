@@ -37,12 +37,6 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
 
 Before you can use ranking rules, there are several account configuration steps that you must complete.
 
-<!-- 
-
-t_configuring_ranking.xml
-
- -->
-
 **To configure ranking** 
 
 1. Choose from the following:
@@ -98,12 +92,6 @@ t_configuring_ranking.xml
 ## About ranking documents by age {#topic_770815CF1B2A491F83FF765871B6F1B8}
 
 You can rank an HTML document by its age with an exponential decay function. The rate of decay is specified with a chosen half-life constant, the amount of time that must pass before the value drops to one half of its initial value.
-
-<!-- 
-
-c_about_ranking_documents_by_age.xml
-
- -->
 
 Age ranking is based on the following two equations:
 
@@ -200,12 +188,6 @@ For example, the default value from the Metadata definition should never happen 
 
 You can add [!DNL Ranking Rules] to affect the relative placement of the web pages within your Search results, based on the contents of each web page.
 
-<!-- 
-
-t_adding_a_ranking_rule.xml
-
- -->
-
 See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4CEBC13925B047FC95BDC217B48089C5).
 
 **To add a ranking rule** 
@@ -216,12 +198,6 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
    See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md#task_B65081B3CC9E4330A7FEE77B7BCD36C8). 
 1. On the [!DNL Define Ranking Rules] page, click **[!UICONTROL Add Rule]** to add a new Ranking Rule, or to add a reference to a Rule set.
 1. On the [!DNL Add Ranking Rule] page, set the options you want. Fields that are marked with an asterisk (&#42;) are required.
-
-   <!-- 
-   
-   r_ranking_rule_options.xml
-   
-   -->
 
    The Data Source Type that you select affects the choices that are available on the [!DNL Data Source Name] drop-down list. For example, if you selected **[!UICONTROL Meta Tag]** as the Data Source Type, the Data Source Name refers to the name of a meta tag on your website pages. If you selected **[!UICONTROL Adobe Analytics Metric (Number)]**, the Data Source Name refers to one of the Adobe Analytics metric names that you selected in a Report Suite as found on the **[!UICONTROL Edit Adobe Analytics Metrics]** page in site search/merchandising.
 
@@ -316,12 +292,6 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
 
 You can edit an existing ranking rule that you have already added.
 
-<!-- 
-
-t_editing_a_ranking_rule.xml
-
- -->
-
 See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4CEBC13925B047FC95BDC217B48089C5).
 
 **To edit a ranking rule** 
@@ -358,12 +328,6 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
 
 You can delete ranking rules that you no longer need to use.
 
-<!-- 
-
-t_deleting_a_ranking_rule.xml
-
- -->
-
 See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4CEBC13925B047FC95BDC217B48089C5).
 
 See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md#task_B65081B3CC9E4330A7FEE77B7BCD36C8).
@@ -398,12 +362,6 @@ See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md
 ## Adding a ranking rule group {#task_B65081B3CC9E4330A7FEE77B7BCD36C8}
 
 If you have defined more than one meta tag of type "rank", you can create separate collections of rules to use in calculating the various rank fields. You can add a ranking rule group, which you can then assign to one of your defined Rank fields.
-
-<!-- 
-
-t_adding_a_ranking_rule_group.xml
-
- -->
 
 Rule groups usually contain one or more rules that you have added. However, Rule groups can also refer to other Rule groups. For example, you can create one or more rules groups and then add commonly used rules to each one. Those rules are then shared during the calculation of your multiple ranks.
 
@@ -447,12 +405,6 @@ See [Reviewing ranking rule groups](../c-about-rules-menu/c-about-ranking-rules.
 
 You can edit the settings of an existing ranking rule group.
 
-<!-- 
-
-t_editing_a_ranking_rule_group.xml
-
- -->
-
 See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md#task_B65081B3CC9E4330A7FEE77B7BCD36C8).
 
 **To edit a ranking rule group** 
@@ -489,12 +441,6 @@ See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md
 
 You can delete a Ranking Rule Group that you no longer need or use. When you delete a group, any Rules that were added to the group, are also deleted. You cannot delete the default "Ranking Rules" group.
 
-<!-- 
-
-t_deleting_a_ranking_rule_group.xml
-
- -->
-
 The contents of any Rule Groups that are contained in the delete group are not deleted; only the references to these groups are removed.
 
 Be sure you reindex your website so that the change is properly reflected in the search results.
@@ -530,12 +476,6 @@ See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md
 
 You can use Ranking Rule Groups Overview to see each groups Rank Field name, and associated data source and weighting.
 
-<!-- 
-
-t_reviewing_ranking_rule_groups.xml
-
- -->
-
 See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md#task_B65081B3CC9E4330A7FEE77B7BCD36C8).
 
 **To review ranking rule groups** 
@@ -561,12 +501,6 @@ See [Adding a ranking rule group](../c-about-rules-menu/c-about-ranking-rules.md
 
 You can provide a suitable URL test the Ranking Rule definitions that you have set up. The metrics used in the calculations are displayed, along with the calculated Rank value.
 
-<!-- 
-
-t_testing_ranking_rules.xml
-
- -->
-
 See [About Ranking Rules](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 
 **To test ranking rules** 
@@ -591,12 +525,6 @@ See [About Ranking Rules](../c-about-rules-menu/c-about-ranking-rules.md#concept
 ## Adjusting the weight associated with ranking rules {#task_3CB6FC92A66F4D99874A42D55825DB64}
 
 You can change the relative contributions of your individual Ranking Rules, and the contribution of Ranking to the final search results.
-
-<!-- 
-
-t_adjusting_the_weight_associated_with_ranking_rules.xml
-
- -->
 
 When Ranking is not defined, the search results are 100% on the **[!UICONTROL Natural Relevance]** side of the Rules & Relevance slider bar on the **[!UICONTROL Adjust Ranking Weights]** page. This balance simply means that the search results are ordered based solely on search terms.
 
