@@ -73,33 +73,33 @@ Any changes you make to facet rails can be reverted using the History feature.
 
 1. Edit the Presentation template by doing the following:.
 
-* Create a "facet template" on the presentation template. 
-* Surround the "facet template" with the `<guided-facet-rail>` tags.
+    * Create a "facet template" on the presentation template. 
+    * Surround the "facet template" with the `<guided-facet-rail>` tags.
 
-  See Facets in [Presentation template tags](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
+      See Facets in [Presentation template tags](../c-appendices/c-templates.md#reference_F1BBF616BCEC4AD7B2548ECD3CA74C64).
 
-  Example:
+      Example:
 
-  ```
-  <guided-facet-rail>
-    <guided-facet>
-      <guided-facet-display-name/>
-      ...
-      </guided-facet>
-    </guided-facet-rail>
-  ```
+      ```
+      <guided-facet-rail>
+        <guided-facet>
+          <guided-facet-display-name/>
+          ...
+          </guided-facet>
+        </guided-facet-rail>
+      ```
 
-  These tags carve out a section of the presentation template to become a repeatable pattern for each facet in the facet rail. Each facet that belongs to the facet rail uses this carved out section to evaluate its output. Only one `<guided-facet-rail>` tag can appear on the final presentation template.
+      These tags carve out a section of the presentation template to become a repeatable pattern for each facet in the facet rail. Each facet that belongs to the facet rail uses this carved out section to evaluate its output. Only one `<guided-facet-rail>` tag can appear on the final presentation template.
 
-  The following tags do not need the `gsname` attribute inside `<guided-facet-rail>` because the value is dynamically determined at search time and is properly substituted:
+      The following tags do not need the `gsname` attribute inside `<guided-facet-rail>` because the value is dynamically determined at search time and is properly substituted:
 
-    * `<guided-facet>` 
-    * `<guided-facet-display-name>` 
-    * `<guided-facet-total-count>` 
-    * `<guided-facet-undo-link>` 
-    * `<guided-facet-undo-path>` 
-    * `<guided-facet-behavior>`
+      `<guided-facet>` 
+      `<guided-facet-display-name>` 
+      `<guided-facet-total-count>` 
+      `<guided-facet-undo-link>` 
+      `<guided-facet-undo-path>` 
+      `<guided-facet-behavior>`
 
-* Save the presentation template and push it live.
+    * Save the presentation template and push it live.
 
-   See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3). 
+      See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3). 
