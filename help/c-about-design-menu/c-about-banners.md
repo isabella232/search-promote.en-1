@@ -90,50 +90,50 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 
 **To add a banner** 
 
-1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners.]**
+1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Banners]**.
 1. On the [!DNL Banners] page, in the **[!UICONTROL Add Banner]** drop-down list, select **[!UICONTROL HTML code]**.
 1. In the [!DNL Add Banner] dialog box, set the options that you want.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>Required. Identifies the name of your banner. The name is used to refer to the banner when you add it in the Visual Rule Builder in Business Rules. The name does not appear in the banner itself. </p> <p>See <a href="../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7" type="task" format="dita" scope="local"> Adding a new business rule </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Banner HTML </p> </td> 
-   <td colname="col2"> <p> Lets you paste the HTML code that is associated with the banner. </p> <p>Any HTML code is acceptable, including CSS code that is surrounded by 
-     <userinput>
-       &lt;style&gt; 
-     </userinput> tags, or JavaScript code that is surrounded by 
-     <userinput>
-       &lt;script&gt; 
-     </userinput> tags. For example, the following block of code is for a text banner of the type Horizontal top : <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
-      padding-top:&nbsp;10px;&nbsp;padding-bottom:&nbsp;10px;&nbsp;color:&nbsp;white;&nbsp;font-family:&nbsp;verdana;&nbsp; 
-      text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>In the following example, the block of code is for a full splash image: <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Type </p> </td> 
-   <td colname="col2"> <p>Specifies the following types of banners: 
-     <ul id="ul_6423AEDB9E664049989EB529D63C4A62"> 
-      <li id="li_BF6CD60B3ED748D49CFFB9C5D607661C"> <span class="uicontrol"> [new type] </span> <p>Lets you specify the type of banner you want, including the dimensions and the name. </p> </li> 
-      <li id="li_1A29AB22AD644E60A12298187B5E898E"> <span class="uicontrol"> Full splash </span> <p>The set dimension of this type of banner is 680 pixels wide, and 650 pixels high. You can optionally specify the name of the type, or accept the default name which is the name of the banner type itself. </p> </li> 
-      <li id="li_2BE06D013CB54DDE851051BFC038BB57"> <span class="uicontrol"> Horizontal top </span> <p> The banner is positioned across the top area of your website. This type is useful if you intend to add hyperlinks to the left or to the right of the banner. The set dimension of this type of banner is 468 pixels wide, and 60 pixels high. You can optionally specify the name of the type, or accept the default name which is the name of the banner type itself. </p> </li> 
-      <li id="li_EC35AB92234749F08AA8A9BD26D0EA8D"> <span class="uicontrol"> Horizontal top - Full width </span> <p>This type is the default when you add a new banner. The banner is positioned across the top area of your website and takes up the full width of the page. The set dimension of this type of banner is 670 pixels wide, and 150 pixels high. You can optionally specify the name of the type, or accept the default name which is the name of the banner type itself. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Tags </p> </td> 
-   <td colname="col2"> <p>Adds tags or "keywords" that you want to associate with the banner. If you use many banners, adding tags can help you to refine your banner search so you can quickly locate just the right banner for your needs. You can also delete any tags that you have added. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Name </p> </td> 
+      <td colname="col2"> <p>Required. Identifies the name of your banner. The name is used to refer to the banner when you add it in the Visual Rule Builder in Business Rules. The name does not appear in the banner itself. </p> <p>See <a href="../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7" type="task" format="dita" scope="local"> Adding a new business rule.</a> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Banner HTML </p> </td> 
+      <td colname="col2"> <p> Lets you paste the HTML code that is associated with the banner. </p> <p>Any HTML code is acceptable, including CSS code that is surrounded by 
+        <userinput>
+          &lt;style&gt; 
+        </userinput> tags, or JavaScript code that is surrounded by 
+        <userinput>
+          &lt;script&gt; 
+        </userinput> tags. For example, the following block of code is for a text banner of the type Horizontal top : <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
+          padding-top:&nbsp;10px;&nbsp;padding-bottom:&nbsp;10px;&nbsp;color:&nbsp;white;&nbsp;font-family:&nbsp;verdana;&nbsp; 
+          text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>In the following example, the block of code is for a full splash image: <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Type </p> </td> 
+      <td colname="col2"> <p>Specifies the following types of banners: 
+        <ul id="ul_6423AEDB9E664049989EB529D63C4A62"> 
+          <li id="li_BF6CD60B3ED748D49CFFB9C5D607661C"> <span class="uicontrol"> [new type] </span> <p>Lets you specify the type of banner you want, including the dimensions and the name. </p> </li> 
+          <li id="li_1A29AB22AD644E60A12298187B5E898E"> <span class="uicontrol"> Full splash </span> <p>The set dimension of this type of banner is 680 pixels wide, and 650 pixels high. You can optionally specify the name of the type, or accept the default name which is the name of the banner type itself. </p> </li> 
+          <li id="li_2BE06D013CB54DDE851051BFC038BB57"> <span class="uicontrol"> Horizontal top </span> <p> The banner is positioned across the top area of your website. This type is useful if you intend to add hyperlinks to the left or to the right of the banner. The set dimension of this type of banner is 468 pixels wide, and 60 pixels high. You can optionally specify the name of the type, or accept the default name which is the name of the banner type itself. </p> </li> 
+          <li id="li_EC35AB92234749F08AA8A9BD26D0EA8D"> <span class="uicontrol"> Horizontal top - Full width </span> <p>This type is the default when you add a new banner. The banner is positioned across the top area of your website and takes up the full width of the page. The set dimension of this type of banner is 670 pixels wide, and 150 pixels high. You can optionally specify the name of the type, or accept the default name which is the name of the banner type itself. </p> </li> 
+        </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Tags </p> </td> 
+      <td colname="col2"> <p>Adds tags or "keywords" that you want to associate with the banner. If you use many banners, adding tags can help you to refine your banner search so you can quickly locate just the right banner for your needs. You can also delete any tags that you have added. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save]**.
 1. (Optional) Do one of the following:
@@ -220,144 +220,144 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 
    **Asset navigation options** 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Navigation option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/S7_folders.png"> </p> </td> 
-   <td colname="col2"> <p>Lets you select the Dynamic Media Classic account for your particular company from the drop-down list and also navigate the digital asset folders within that account. </p> <p>When you select a folder, the right pane of the <span class="wintitle"> Pick an Asset </span> dialog box shows you all the available digital assets that are contained within that folder. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_folderhistory.png"> </p> </td> 
-   <td colname="col2"> <p>Lets you move forward or backward through your folder navigation history. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_reloadfolder.png"> </p> </td> 
-   <td colname="col2"> <p>Refreshes the list of digital assets that are displayed for a selected folder. </p> <p>You may need to click this control if you move, delete, or rename a selected asset using the <span class="uicontrol"> Actions </span> drop-down list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_list_or_grid.png"> </p> </td> 
-   <td colname="col2"> <p>Displays digital assets in a list view. The list displays each asset's associated icon or thumbnail image, file name, digital asset type, dimensions, (where applicable), and the date it was last edited. </p> <p>The grid view displays digital assets in the selected folder as icons, thumbnails, or both. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_actionsdropdown.png"> </p> </td> 
-   <td colname="col2"> <p>In the list view, you can move, delete, or rename a selected digital asset. </p> <p>In the grid view, you can move or delete one or more selected digital assets. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_upload.png"> </p> </td> 
-   <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Dynamic Media Classic </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_searchfield.png"> </p> </td> 
-   <td colname="col2"> <p>Lets you search for a digital asset by keyword or search by file location within the selected folder and its associated sub-folders. </p> <p>When you click the search field, it automatically adds an optional filter field for you. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_addfilter.png"> </p> </td> 
-   <td colname="col2"> <p>Adds another asset filter so you can further refine the list of displayed digital assets by type or by a specific date. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_Kindfilter.png"> </p> </td> 
-   <td colname="col2"> <p>Refine the list of displayed digital assets to show only those by a certain type such as Flash, Image, Template, or Any. </p> <p>Click <img src="assets/s7_deletefilter.png"> to delete the filter from the search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_datefilter.png"> </p> </td> 
-   <td colname="col2"> <p>Refine the list of displayed digital assets to show only those created or edit before a certain date or after a certain date. </p> <p>Click <img src="assets/s7_deletefilter.png" /> to delete the filter from the search. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_assetzoom.png"> </p> </td> 
-   <td colname="col2"> <p>Lets you drag the slider left or right to reduce or enlarge the entire view of the digital assets pane, respectively. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Navigation option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/S7_folders.png"> </p> </td> 
+      <td colname="col2"> <p>Lets you select the Dynamic Media Classic account for your particular company from the drop-down list and also navigate the digital asset folders within that account. </p> <p>When you select a folder, the right pane of the <span class="wintitle"> Pick an Asset </span> dialog box shows you all the available digital assets that are contained within that folder. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_folderhistory.png"> </p> </td> 
+      <td colname="col2"> <p>Lets you move forward or backward through your folder navigation history. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_reloadfolder.png"> </p> </td> 
+      <td colname="col2"> <p>Refreshes the list of digital assets that are displayed for a selected folder. </p> <p>You may need to click this control if you move, delete, or rename a selected asset using the <span class="uicontrol"> Actions </span> drop-down list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_list_or_grid.png"> </p> </td> 
+      <td colname="col2"> <p>Displays digital assets in a list view. The list displays each asset's associated icon or thumbnail image, file name, digital asset type, dimensions, (where applicable), and the date it was last edited. </p> <p>The grid view displays digital assets in the selected folder as icons, thumbnails, or both. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_actionsdropdown.png"> </p> </td> 
+      <td colname="col2"> <p>In the list view, you can move, delete, or rename a selected digital asset. </p> <p>In the grid view, you can move or delete one or more selected digital assets. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_upload.png"> </p> </td> 
+      <td colname="col2"> <p>Opens the <span class="wintitle"> Upload </span> dialog box where you can upload a selected digital asset from your desktop or from an external server so that you can use it as a banner. </p> <p>After you upload the asset, a publish job is automatically schedule for you in Scene7 Publishing System. </p> <p>See the table of options in <a href="../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3" type="reference" format="dita" scope="local"> Adding a banner using Adobe Dynamic Media Classic </a>. </p> <p>You can learn more about uploading and publishing of digital assets using Scene7 Publishing System. </p> <p>See <a href="https://help.adobe.com/en_US/scene7/using/WS3673AD39-098B-4f08-8A24-CA51261B7366.html" scope="external" format="html"> Upload and Publish Assets </a> in the Scene7 Publishing System User Guide. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_searchfield.png"> </p> </td> 
+      <td colname="col2"> <p>Lets you search for a digital asset by keyword or search by file location within the selected folder and its associated sub-folders. </p> <p>When you click the search field, it automatically adds an optional filter field for you. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_addfilter.png"> </p> </td> 
+      <td colname="col2"> <p>Adds another asset filter so you can further refine the list of displayed digital assets by type or by a specific date. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_Kindfilter.png"> </p> </td> 
+      <td colname="col2"> <p>Refine the list of displayed digital assets to show only those by a certain type such as Flash, Image, Template, or Any. </p> <p>Click <img src="assets/s7_deletefilter.png"> to delete the filter from the search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_datefilter.png"> </p> </td> 
+      <td colname="col2"> <p>Refine the list of displayed digital assets to show only those created or edit before a certain date or after a certain date. </p> <p>Click <img src="assets/s7_deletefilter.png" /> to delete the filter from the search. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_assetzoom.png"> </p> </td> 
+      <td colname="col2"> <p>Lets you drag the slider left or right to reduce or enlarge the entire view of the digital assets pane, respectively. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Properties options**
 
    The Properties options appear if you chose a Flash template, image template, or an image. Depending on the digital asset you chose, not all options are available. 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Properties option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Name </p> </td> 
-   <td colname="col2"> <p>The descriptive name of the template or image, without any blank spaces. You may want to optionally include the image-size specification in the name to help users further identify the asset. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Format </p> </td> 
-   <td colname="col2"> <p>Identifies the format of the image, or image template. </p> <p>You can choose from the following formats: </p> 
-    <ul id="ul_9A19421BCC424CF585645049DCB87F10"> 
-     <li id="li_A4913D783BD547F9AFA1A259C56EC2B3">jpeg </li> 
-     <li id="li_66237D7BE8754FB0B0088CE5A02C0214">png </li> 
-     <li id="li_4EDDFD7C8AB04677BEC20EFC9AEBBF1F">png-alpha </li> 
-     <li id="li_4FCB03C29AE647ACBAF5105016DF7579">gif </li> 
-     <li id="li_B884BD7DFF1845FAA9C58EF09B888A77">gif-alpha </li> 
-    </ul> <p>This option does not apply to Flash templates. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Quality </p> </td> 
-   <td colname="col2"> <p>Controls the compression level of JPEG or GIF format images. This setting affects both file size and image quality. The quality scale is 1-100. </p> <p>When you drag the slider left or right, the image in the preview window is updated to reflect the change in quality. </p> <p>This option does not apply to Flash templates. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Width </p> </td> 
-   <td colname="col2"> <p>Specifies the width of the digital asset, in pixels. This dimension is the width at which the asset is seen by customers who visit your website. </p> <p>This option does not apply to Flash templates. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Height </p> </td> 
-   <td colname="col2"> <p>Specifies the height of the digital asset, in pixels. This dimension is the height at which the asset is seen by customers who visit your website. </p> <p>This option does not apply to Flash templates. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Properties option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Name </p> </td> 
+      <td colname="col2"> <p>The descriptive name of the template or image, without any blank spaces. You may want to optionally include the image-size specification in the name to help users further identify the asset. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Format </p> </td> 
+      <td colname="col2"> <p>Identifies the format of the image, or image template. </p> <p>You can choose from the following formats: </p> 
+        <ul id="ul_9A19421BCC424CF585645049DCB87F10"> 
+        <li id="li_A4913D783BD547F9AFA1A259C56EC2B3">jpeg </li> 
+        <li id="li_66237D7BE8754FB0B0088CE5A02C0214">png </li> 
+        <li id="li_4EDDFD7C8AB04677BEC20EFC9AEBBF1F">png-alpha </li> 
+        <li id="li_4FCB03C29AE647ACBAF5105016DF7579">gif </li> 
+        <li id="li_B884BD7DFF1845FAA9C58EF09B888A77">gif-alpha </li> 
+        </ul> <p>This option does not apply to Flash templates. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Quality </p> </td> 
+      <td colname="col2"> <p>Controls the compression level of JPEG or GIF format images. This setting affects both file size and image quality. The quality scale is 1-100. </p> <p>When you drag the slider left or right, the image in the preview window is updated to reflect the change in quality. </p> <p>This option does not apply to Flash templates. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Width </p> </td> 
+      <td colname="col2"> <p>Specifies the width of the digital asset, in pixels. This dimension is the width at which the asset is seen by customers who visit your website. </p> <p>This option does not apply to Flash templates. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Height </p> </td> 
+      <td colname="col2"> <p>Specifies the height of the digital asset, in pixels. This dimension is the height at which the asset is seen by customers who visit your website. </p> <p>This option does not apply to Flash templates. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Banner Link options**
 
    The Banner Link options appear only if you chose an image or an image template for your banner. 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Banner Link option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Link URL </p> </td> 
-   <td colname="col2"> <p>Specifies the URL address that you want the banner to link to when a customer clicks the image. </p> <p>If you do not want the banner to link to anything, leave the Link URL field blank. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Target </p> </td> 
-   <td colname="col2"> <p>Specifies where to open the linked banner such as a new browser window or a new tab. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Banner Link option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Link URL </p> </td> 
+      <td colname="col2"> <p>Specifies the URL address that you want the banner to link to when a customer clicks the image. </p> <p>If you do not want the banner to link to anything, leave the Link URL field blank. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Target </p> </td> 
+      <td colname="col2"> <p>Specifies where to open the linked banner such as a new browser window or a new tab. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Modify Links option**
 
    The Modify Links option appears only if you chose a Flash template for your banner. 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Modify Links option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img placement="inline" id="image_EBB8159690C74D4692B5DF945B045E0B" src="assets/icon_edit_16.gif" /> </p> </td> 
-   <td colname="col2"> <p>Lets you edit the URL link field that is used in the Flash template. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Modify Links option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <img placement="inline" id="image_EBB8159690C74D4692B5DF945B045E0B" src="assets/icon_edit_16.gif" /> </p> </td> 
+      <td colname="col2"> <p>Lets you edit the URL link field that is used in the Flash template. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Replace Text options**
 
@@ -369,32 +369,32 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
    >
    >If you add a search and replace command to replace "cow" with "apple", and then create a second command to replace "apple" with "orange", the second command does not take affect.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Replace Text option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_addfilter.png"> </p> </td> 
-   <td colname="col2"> <p>Adds a search and replace field. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_deletefilter.png"> </p> </td> 
-   <td colname="col2"> <p>Deletes a Search and Replace field and restores the previously used text. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Search </p> </td> 
-   <td colname="col2"> <p>Lets you enter a search term for non-linked text within the layers of the Flash template. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Replace </p> </td> 
-   <td colname="col2"> <p>Lets you specify the text that you want to insert in place of the text you are searching for. </p> <p>When you press <span class="uicontrol"> Enter </span> in this field, the preview window is updated with your replacement text. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Replace Text option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_addfilter.png"> </p> </td> 
+      <td colname="col2"> <p>Adds a search and replace field. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_deletefilter.png"> </p> </td> 
+      <td colname="col2"> <p>Deletes a Search and Replace field and restores the previously used text. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Search </p> </td> 
+      <td colname="col2"> <p>Lets you enter a search term for non-linked text within the layers of the Flash template. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Replace </p> </td> 
+      <td colname="col2"> <p>Lets you specify the text that you want to insert in place of the text you are searching for. </p> <p>When you press <span class="uicontrol"> Enter </span> in this field, the preview window is updated with your replacement text. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Parameters options**
 
@@ -412,20 +412,20 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 
    The Toggle Layer Visibility option applies only if you chose a Flash template for your banner. 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Toggle Layer Visibility option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <img src="assets/s7_togglelayervisibility.png"> </p> </td> 
-   <td colname="col2"> <p>Lets you turn on or off the visibility of the various layers that make up the Flash template file. </p> <p>Each time you turn the visibility of a layer on or off, the preview window is refreshed to update the display. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Toggle Layer Visibility option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p> <img src="assets/s7_togglelayervisibility.png"> </p> </td> 
+      <td colname="col2"> <p>Lets you turn on or off the visibility of the various layers that make up the Flash template file. </p> <p>Each time you turn the visibility of a layer on or off, the preview window is refreshed to update the display. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    (Optional) If the digital asset that you want to use for a banner is not available in the selected folder, you may need to upload it. Click **[!UICONTROL Upload]**, and then select the file and options that you want. The file is uploaded to the selected folder.
 
@@ -435,36 +435,30 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
 
    See [Administration Setup](https://help.adobe.com/en_US/scene7/using/WS662101DF-D697-47a7-A7D8-B52FD8E94438.html) in the Scene7 Publishing System User Guide.
 
-   <!-- 
-
-r_upload_options.xml
-
- -->
-
    **Basic options**
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Browse </p> </td> 
-   <td colname="col2"> <p> Lets you browse to the file that you want to upload, publish, and then select for use as a banner. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Overwrite </p> </td> 
-   <td colname="col2"> <p>Files that you upload replace existing files with the same filename, within the selected folder. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>E-mail Preference </p> </td> 
-   <td colname="col2"> <p> Lets you choose what email notification you get for the upload, or you can choose to not be notified for anything related to the upload job. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Browse </p> </td> 
+      <td colname="col2"> <p> Lets you browse to the file that you want to upload, publish, and then select for use as a banner. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Overwrite </p> </td> 
+      <td colname="col2"> <p>Files that you upload replace existing files with the same filename, within the selected folder. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>E-mail Preference </p> </td> 
+      <td colname="col2"> <p> Lets you choose what email notification you get for the upload, or you can choose to not be notified for anything related to the upload job. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
    **Advanced options**
 
@@ -474,125 +468,125 @@ r_upload_options.xml
 
    Scene7 Publishing System creates multiple images from a PSD file with layers if you use the file to create a template; it creates one image for each layer. 
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option group name </p> </th> 
-   <th colname="col02" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Color Profile Options </p> </td> 
-   <td colname="col02"> <p>Color Profile </p> </td> 
-   <td colname="col2"> <p> Lets you choose from the following options: </p> 
-    <ul id="ul_6927BC08CA2647EDB2C85DAD2B82AE31"> 
-     <li id="li_CA3F44FF9C0F4CE987DCB0AF9303C2E4"> <span class="uicontrol"> Convert to SRGB </span> <p>Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. </p> </li> 
-     <li id="li_FCCEE6B14CCD4246ADA152932010ABF1"> <span class="uicontrol"> Keep Original Color Space </span> <p>Retains the original color space. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Image Editing Options </p> </td> 
-   <td colname="col02"> <p>Create Mask From Clipping Path </p> </td> 
-   <td colname="col2"> <p>Create a mask for the image based on its clipping path information. This option applies to images created with image-editing applications in which a clipping path was created. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PostScript Options </p> <p>Illustrator Options </p> </td> 
-   <td colname="col02"> <p>Processing </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Rasterize </span> option converts vector graphics in the file to bitmap format. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Postscript Options </p> <p>Illustrator Options </p> </td> 
-   <td colname="col02"> <p> Resolution </p> </td> 
-   <td colname="col2"> <p> Determines the resolution setting. This setting determines how many pixels are displayed per inch in the file. The default is 150. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> PostScript Options </p> <p>Illustrator Options </p> </td> 
-   <td colname="col02"> <p> Color Space </p> </td> 
-   <td colname="col2"> <p>Lets you choose a color space for the Illustrator file. The RGB color space is preferable for online viewing. </p> <p>You can choose from the following color space options: </p> 
-    <ul id="ul_0E83E2762A574480B243F963A7FB2ACD"> 
-     <li id="li_B9FEC7D220D04CCABACD30839051DAE4"> <span class="uicontrol"> Detect Automatically </span> <p> Retains the color space of the PDF file. </p> </li> 
-     <li id="li_ED0EB3B12BCF41C7AFC435447010B6FF"> <span class="uicontrol"> Force as RGB </span> <p> Converts to the RGB color space. </p> </li> 
-     <li id="li_3FB5DD8887C540BC97148A4D63B38F72"> <span class="uicontrol"> Force as CMYK </span> <p> Converts to the CMYK color space. </p> </li> 
-     <li id="li_6C018D3A4B254880AD41896E9F4AF3D9"> <span class="uicontrol"> Force as Grayscale </span> <p> Converts to the Grayscale color space. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> PostScript Options </p> <p>Illustrator Options </p> </td> 
-   <td colname="col02"> <p> Maintain transparent background </p> </td> 
-   <td colname="col2"> <p>Maintains the background transparency of the file. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Photoshop Options </p> </td> 
-   <td colname="col02"> <p> Maintain layers </p> </td> 
-   <td colname="col2"> <p>Rips the layers in the PSD, if any, into individual assets. The asset layers remain associated with the PSD. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Photoshop Options </p> </td> 
-   <td colname="col02"> <p>Create Template </p> </td> 
-   <td colname="col2"> <p> Creates a template from the layers in the PSD file. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> Photoshop Options </p> </td> 
-   <td colname="col02"> <p> Extract Text </p> </td> 
-   <td colname="col2"> <p> Extracts the text so that customers can search for keywords within a banner. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Photoshop Options </p> </td> 
-   <td colname="col02"> <p> Extend Layers </p> </td> 
-   <td colname="col2"> <p>Extends the size of ripped image layers to the size of the background layer. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Photoshop Options </p> </td> 
-   <td colname="col02"> <p> Layer Naming </p> </td> 
-   <td colname="col2"> <p>Layers in the PSD file are uploaded as separate images. You can select from the following options to decide how you want to name these images in the Scene7 Publishing System: </p> 
-    <ul id="ul_C2A25177A07740CA90B32C638304D39F"> 
-     <li id="li_477D5BFF7238454BBF0E04B22DE378F7"> <span class="uicontrol"> Use layer name from PSD file </span> <p>Names the images after their layer names in the PSD file. For example, a layer named <span class="codeph"> Price Tag </span> in the original PSD file becomes an image named <span class="codeph"> Price Tag </span>. However, if the layer names in the PSD file are default Photoshop layer names (Background, Layer 1, Layer 2, and so on), the images are named after their layer numbers in the PSD file, not their default layer names. </p> </li> 
-     <li id="li_EB4173B884FC41328CFBDE27DA6D43AA"> <span class="uicontrol"> Use PSD file name and append number </span> <p>Names the images after their layer numbers in the PSD file, ignoring original layer names. Images are named with the Photoshop filename and an appended layer number. For example, the second layer of a file called <span class="codeph"> Spring Ad.psd </span> is named <span class="codeph"> Spring Ad_2 </span> even if it had a non-default name in Photoshop. </p> </li> 
-     <li id="li_10B2D2DE2FD24BD08DB56D1D95ABA53D"> <span class="uicontrol"> Use PSD filename and layer name or number </span> <p>Names the images after the PSD file followed by the layer name or layer number. The layer number is used if the layer names in the PSD file are default Photoshop layer names. For example, a layer named <span class="codeph"> Price Tag </span> in a PSD file named <span class="codeph"> SpringAd </span> is named <span class="codeph"> Spring Ad_Price Tag </span>. A layer with the default name <span class="codeph"> Layer 2 </span> is named <span class="codeph"> Spring Ad_2 </span>. </p> </li> 
-     <li id="li_5E57AC0719D4484B9C9BD14DB42B4455"> <span class="uicontrol"> Create folder based on the PSD filename </span> <p>Creates a folder for the layer images using the filename of the PSD. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Photoshop Options </p> </td> 
-   <td colname="col02"> <p>Anchor </p> </td> 
-   <td colname="col2"> <p>Specify how images are anchored in templates that are generated from the layered composition produced from the PSD file. </p> <p>By default, the anchor is the center. A center anchor allows replacement images to best fill the same space, no matter the aspect ratio of the replacement image. Images with a different aspect that replace this image, when referencing the template and using parameter substitution, effectively occupy the same space. Change to a different setting if your application requires the replacement images to fill the allocated space in the template. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PDF Options </p> </td> 
-   <td colname="col02"> <p>Processing </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Rasterize </span> option rips the pages in the PDF file and converts vector graphics to bitmap images. 
-     <!--Choose this option to create an eCatalog. (This option is thedefault.)--> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PDF Options </p> </td> 
-   <td colname="col02"> <p> Resolution </p> </td> 
-   <td colname="col2"> <p>Determines the resolution setting. This setting determines how many pixels are displayed per inch in the PDF file. The default is 150. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PDF Options </p> </td> 
-   <td colname="col02"> <p> Color Space </p> </td> 
-   <td colname="col2"> <p>Lets you choose a color space for the PDF file. Most PDF files have both RGB and CMYK color images. The RGB color space is preferable for online viewing. </p> <p>You can choose from the following color space options: </p> 
-    <ul id="ul_44A8C39DEB21473F9375E3962F14D3C6"> 
-     <li id="li_1046FA0017934C5EB7C0100F8F78507D"> <span class="uicontrol"> Detect Automatically </span> <p> Retains the color space of the PDF file. </p> </li> 
-     <li id="li_561CCF705EDD451993D2DA2EB33F05F7"> <span class="uicontrol"> Force as RGB </span> <p> Converts to the RGB color space. </p> </li> 
-     <li id="li_D9E8CF61C40140979484EDEF7DAD2C44"> <span class="uicontrol"> Force as CMYK </span> <p> Converts to the CMYK color space. </p> </li> 
-     <li id="li_F3606B45C0F84BA594263EA12243F67A"> <span class="uicontrol"> Force as Grayscale </span> <p> Converts to the Grayscale color space. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>PDF Options </p> </td> 
-   <td colname="col02"> <p>Auto-Generate eCatalog from multiple page PDF </p> </td> 
-   <td colname="col2"> <p> Automatically creates an eCatalog from the PDF file. The eCatalog is named after the PDF file you uploaded. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> PDF Options </p> </td> 
-   <td colname="col02"> <p>Extract keywords </p> </td> 
-   <td colname="col2"> <p>Extracts words from the PDF file so that the file is searchable by keywords. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option group name </p> </th> 
+      <th colname="col02" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Color Profile Options </p> </td> 
+      <td colname="col02"> <p>Color Profile </p> </td> 
+      <td colname="col2"> <p> Lets you choose from the following options: </p> 
+        <ul id="ul_6927BC08CA2647EDB2C85DAD2B82AE31"> 
+        <li id="li_CA3F44FF9C0F4CE987DCB0AF9303C2E4"> <span class="uicontrol"> Convert to SRGB </span> <p>Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. </p> </li> 
+        <li id="li_FCCEE6B14CCD4246ADA152932010ABF1"> <span class="uicontrol"> Keep Original Color Space </span> <p>Retains the original color space. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Image Editing Options </p> </td> 
+      <td colname="col02"> <p>Create Mask From Clipping Path </p> </td> 
+      <td colname="col2"> <p>Create a mask for the image based on its clipping path information. This option applies to images created with image-editing applications in which a clipping path was created. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>PostScript Options </p> <p>Illustrator Options </p> </td> 
+      <td colname="col02"> <p>Processing </p> </td> 
+      <td colname="col2"> <p> <span class="uicontrol"> Rasterize </span> option converts vector graphics in the file to bitmap format. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Postscript Options </p> <p>Illustrator Options </p> </td> 
+      <td colname="col02"> <p> Resolution </p> </td> 
+      <td colname="col2"> <p> Determines the resolution setting. This setting determines how many pixels are displayed per inch in the file. The default is 150. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> PostScript Options </p> <p>Illustrator Options </p> </td> 
+      <td colname="col02"> <p> Color Space </p> </td> 
+      <td colname="col2"> <p>Lets you choose a color space for the Illustrator file. The RGB color space is preferable for online viewing. </p> <p>You can choose from the following color space options: </p> 
+        <ul id="ul_0E83E2762A574480B243F963A7FB2ACD"> 
+        <li id="li_B9FEC7D220D04CCABACD30839051DAE4"> <span class="uicontrol"> Detect Automatically </span> <p> Retains the color space of the PDF file. </p> </li> 
+        <li id="li_ED0EB3B12BCF41C7AFC435447010B6FF"> <span class="uicontrol"> Force as RGB </span> <p> Converts to the RGB color space. </p> </li> 
+        <li id="li_3FB5DD8887C540BC97148A4D63B38F72"> <span class="uicontrol"> Force as CMYK </span> <p> Converts to the CMYK color space. </p> </li> 
+        <li id="li_6C018D3A4B254880AD41896E9F4AF3D9"> <span class="uicontrol"> Force as Grayscale </span> <p> Converts to the Grayscale color space. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> PostScript Options </p> <p>Illustrator Options </p> </td> 
+      <td colname="col02"> <p> Maintain transparent background </p> </td> 
+      <td colname="col2"> <p>Maintains the background transparency of the file. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Photoshop Options </p> </td> 
+      <td colname="col02"> <p> Maintain layers </p> </td> 
+      <td colname="col2"> <p>Rips the layers in the PSD, if any, into individual assets. The asset layers remain associated with the PSD. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Photoshop Options </p> </td> 
+      <td colname="col02"> <p>Create Template </p> </td> 
+      <td colname="col2"> <p> Creates a template from the layers in the PSD file. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> Photoshop Options </p> </td> 
+      <td colname="col02"> <p> Extract Text </p> </td> 
+      <td colname="col2"> <p> Extracts the text so that customers can search for keywords within a banner. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Photoshop Options </p> </td> 
+      <td colname="col02"> <p> Extend Layers </p> </td> 
+      <td colname="col2"> <p>Extends the size of ripped image layers to the size of the background layer. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Photoshop Options </p> </td> 
+      <td colname="col02"> <p> Layer Naming </p> </td> 
+      <td colname="col2"> <p>Layers in the PSD file are uploaded as separate images. You can select from the following options to decide how you want to name these images in the Scene7 Publishing System: </p> 
+        <ul id="ul_C2A25177A07740CA90B32C638304D39F"> 
+        <li id="li_477D5BFF7238454BBF0E04B22DE378F7"> <span class="uicontrol"> Use layer name from PSD file </span> <p>Names the images after their layer names in the PSD file. For example, a layer named <span class="codeph"> Price Tag </span> in the original PSD file becomes an image named <span class="codeph"> Price Tag </span>. However, if the layer names in the PSD file are default Photoshop layer names (Background, Layer 1, Layer 2, and so on), the images are named after their layer numbers in the PSD file, not their default layer names. </p> </li> 
+        <li id="li_EB4173B884FC41328CFBDE27DA6D43AA"> <span class="uicontrol"> Use PSD file name and append number </span> <p>Names the images after their layer numbers in the PSD file, ignoring original layer names. Images are named with the Photoshop filename and an appended layer number. For example, the second layer of a file called <span class="codeph"> Spring Ad.psd </span> is named <span class="codeph"> Spring Ad_2 </span> even if it had a non-default name in Photoshop. </p> </li> 
+        <li id="li_10B2D2DE2FD24BD08DB56D1D95ABA53D"> <span class="uicontrol"> Use PSD filename and layer name or number </span> <p>Names the images after the PSD file followed by the layer name or layer number. The layer number is used if the layer names in the PSD file are default Photoshop layer names. For example, a layer named <span class="codeph"> Price Tag </span> in a PSD file named <span class="codeph"> SpringAd </span> is named <span class="codeph"> Spring Ad_Price Tag </span>. A layer with the default name <span class="codeph"> Layer 2 </span> is named <span class="codeph"> Spring Ad_2 </span>. </p> </li> 
+        <li id="li_5E57AC0719D4484B9C9BD14DB42B4455"> <span class="uicontrol"> Create folder based on the PSD filename </span> <p>Creates a folder for the layer images using the filename of the PSD. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Photoshop Options </p> </td> 
+      <td colname="col02"> <p>Anchor </p> </td> 
+      <td colname="col2"> <p>Specify how images are anchored in templates that are generated from the layered composition produced from the PSD file. </p> <p>By default, the anchor is the center. A center anchor allows replacement images to best fill the same space, no matter the aspect ratio of the replacement image. Images with a different aspect that replace this image, when referencing the template and using parameter substitution, effectively occupy the same space. Change to a different setting if your application requires the replacement images to fill the allocated space in the template. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>PDF Options </p> </td> 
+      <td colname="col02"> <p>Processing </p> </td> 
+      <td colname="col2"> <p> <span class="uicontrol"> Rasterize </span> option rips the pages in the PDF file and converts vector graphics to bitmap images. 
+        <!--Choose this option to create an eCatalog. (This option is thedefault.)--> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>PDF Options </p> </td> 
+      <td colname="col02"> <p> Resolution </p> </td> 
+      <td colname="col2"> <p>Determines the resolution setting. This setting determines how many pixels are displayed per inch in the PDF file. The default is 150. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>PDF Options </p> </td> 
+      <td colname="col02"> <p> Color Space </p> </td> 
+      <td colname="col2"> <p>Lets you choose a color space for the PDF file. Most PDF files have both RGB and CMYK color images. The RGB color space is preferable for online viewing. </p> <p>You can choose from the following color space options: </p> 
+        <ul id="ul_44A8C39DEB21473F9375E3962F14D3C6"> 
+        <li id="li_1046FA0017934C5EB7C0100F8F78507D"> <span class="uicontrol"> Detect Automatically </span> <p> Retains the color space of the PDF file. </p> </li> 
+        <li id="li_561CCF705EDD451993D2DA2EB33F05F7"> <span class="uicontrol"> Force as RGB </span> <p> Converts to the RGB color space. </p> </li> 
+        <li id="li_D9E8CF61C40140979484EDEF7DAD2C44"> <span class="uicontrol"> Force as CMYK </span> <p> Converts to the CMYK color space. </p> </li> 
+        <li id="li_F3606B45C0F84BA594263EA12243F67A"> <span class="uicontrol"> Force as Grayscale </span> <p> Converts to the Grayscale color space. </p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>PDF Options </p> </td> 
+      <td colname="col02"> <p>Auto-Generate eCatalog from multiple page PDF </p> </td> 
+      <td colname="col2"> <p> Automatically creates an eCatalog from the PDF file. The eCatalog is named after the PDF file you uploaded. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p> PDF Options </p> </td> 
+      <td colname="col02"> <p>Extract keywords </p> </td> 
+      <td colname="col2"> <p>Extracts words from the PDF file so that the file is searchable by keywords. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. In the right pane, click the image, template, or Flash file that you want.
 

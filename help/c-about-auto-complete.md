@@ -42,12 +42,6 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Auto-Complete Setup]**.
 1. On the [!DNL Auto-Complete Setup] page, set the options that you want.
 
-<!-- 
-
-r_auto-complete_setup_options.xml
-
--->
-
    See also [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
    <table> 
@@ -122,12 +116,6 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 
 1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Auto-Complete Word List]**.
 1. On the [!DNL Auto-Complete Word List] page, set the options that you want.
-
-<!-- 
-
-r_auto-complete_word_list_options.xml
-
- -->
 
    See [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 

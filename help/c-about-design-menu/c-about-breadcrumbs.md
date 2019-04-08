@@ -162,7 +162,7 @@ t_deleting_a_breadcrumb.xml
 
 **To delete a breadcrumb** 
 
-1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**
+1. On the product menu, click **[!UICONTROL Design]** > **[!UICONTROL Navigation]** > **[!UICONTROL Breadcrumbs]**.
 1. On the [!DNL Breadcrumbs] page, click **[!UICONTROL Delete]** to the far right of a breadcrumb name.
 1. In the [!DNL Confirmation] dialog box, click **[!UICONTROL OK]**.
 1. (Optional) Do one of the following:
