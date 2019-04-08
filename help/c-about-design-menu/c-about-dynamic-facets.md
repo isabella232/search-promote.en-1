@@ -94,27 +94,27 @@ See also
    See also [Regenerating the index of a live or staged website](../c-about-index-menu/c-about-regenerate-index.md#task_B28DE40C0E9A475ABCBCBC4FF993AACD). 
 1. Determine the number of dynamic facets to select for a given search. You accomplish this task by doing either one of the following:
 
-* Create a query cleaning rule with any desired conditions, that performs the action `set`, `backend parameter`, `sp_sfvl_df_count` to value `X`, where `X` is the desired number of dynamic facets to request at the time of search, and then click **[!UICONTROL Add]**.
+    * Create a query cleaning rule with any desired conditions, that performs the action `set`, `backend parameter`, `sp_sfvl_df_count` to value `X`, where `X` is the desired number of dynamic facets to request at the time of search, and then click **[!UICONTROL Add]**.
 
-  ![](assets/querycleaningrule_dynamicfacets.png)
+    ![](assets/querycleaningrule_dynamicfacets.png)
 
-  See [Adding a query cleaning rule](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
+    See [Adding a query cleaning rule](../c-about-rules-menu/c-about-query-cleaning-rules.md#task_47F43988D3D9485F8AE1DFDA7E00BF54).
 
-  See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`.
+    See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`.
 
-* Add a search and set the "custom" `sp_sfvl_df_count` parameter to the desired value, and click **[!UICONTROL Add]**.
+    * Add a search and set the "custom" `sp_sfvl_df_count` parameter to the desired value, and click **[!UICONTROL Add]**.
 
-  ![](assets/gs_addsearch_dynamic_facets.png)
+    ![](assets/gs_addsearch_dynamic_facets.png)
 
-  See [Adding a new search definition](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648).
+    See [Adding a new search definition](../c-about-settings-menu/c-about-searching-menu.md#task_98D3A168AB5D4F30A1ADB6E0D48AB648).
 
-  See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`.
+    See also [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8), row 40 in the table for further explanation of `sp_sfvl_df_count`.
 
 1. Edit the appropriate transport template to output the dynamic facets that the core search returns.
 
-   See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
+    See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
 
-   For example, suppose that your transport template is named `guided.tpl`. In such case, on the product menu, click **[!UICONTROL Design]** **[!UICONTROL > Templates]**. On the [!DNL Templates] page, locate `guided.tpl` in the table. and then click **[!UICONTROL Edit]** to the far right of the name. On the Editing page, add the following code block to the end of `</facets>`: JSON output:
+    For example, suppose that your transport template is named `guided.tpl`. In such case, on the product menu, click **[!UICONTROL Design]** **[!UICONTROL > Templates]**. On the [!DNL Templates] page, locate `guided.tpl` in the table. and then click **[!UICONTROL Edit]** to the far right of the name. On the Editing page, add the following code block to the end of `</facets>`: JSON output:
 
    ```
    ... 
