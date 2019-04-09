@@ -44,17 +44,11 @@ As you add Common Phrase Groups, you can use the Find feature on the main Common
 
 See [Finding groups that contain particular words in a phrase](../c-about-linguistics-menu/c-about-common-phrases.md#task_20714969274740A7BB4DC71E705EA15E).
 
-**To add a Common Phrase Group** 
+**To add a Common Phrases group** 
 
 1. On the product menu, click **[!UICONTROL Linguistics]** > **[!UICONTROL Common Phrases]**.
 1. On the [!DNL Common Phrases Groups] page, click **Add Phrase Group**.
 1. On the [!DNL Add Common Phrase Group] page, set the options that you want and add all the phrases that make up the group.
-
-   <!-- 
-   
-   r_add_common_phrase_group_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -98,12 +92,6 @@ See [Finding groups that contain particular words in a phrase](../c-about-lingui
 
 If you selected metadata fields to associate with a phrase group, you can test a particular phrase's expansion.
 
-<!-- 
-
-t_testing_common_phrases.xml
-
- -->
-
 When you test a phrase's expansion, you search for an exact phrase against the metadata fields that you associated with the phrase group. The phrase is searched as if it had quotation marks around it. All other metadata fields search for only the words within the phrase, without the quotation marks. For example, suppose you tested the phrase `audi TT`. The returned results could appear as follows:
 
 `title|body|field3:"Audi TT" url|desc|keys|target|alt:Audi TT`
@@ -121,12 +109,6 @@ When you test a phrase's expansion, you search for an exact phrase against the m
 
 You can use [!DNL Find] to search for specific words in a phrase among all existing groups that you have added.
 
-<!-- 
-
-t_finding_common_phrases.xml
-
- -->
-
 When you use Find, it locates the following:
 
 * Where the exact same phrase is found among all the groups. 
@@ -143,8 +125,8 @@ See also [Editing a Common Phrase Group](../c-about-linguistics-menu/c-about-com
    The results are displayed in the text box. 
 1. (Optional) Do one or more of the following:
 
-* Drag the lower right-corner of the text box to expand the display region. 
-* In the results window, click a hyperlinked phrase to open the Edit Common Phrase Group page of the associated group.
+    * Drag the lower right-corner of the text box to expand the display region. 
+    * In the results window, click a hyperlinked phrase to open the Edit Common Phrase Group page of the associated group.
 
 ## Editing a Common Phrase Group {#task_5CAC3A133C5342EEAFE55A7EABCBCD61}
 
@@ -152,7 +134,7 @@ You can edit the existing Fields, Notes, and Phrases of a common phrase group th
 
 See also [Renaming a Common Phrase Group](../c-about-linguistics-menu/c-about-common-phrases.md#task_168E07C59C0F40989D43E7010EFF22EB).
 
-**To edit a Common Phrase Group** 
+**To edit a Common Phrases group** 
 
 1. On the product menu, click **[!UICONTROL Linguistics]** > **[!UICONTROL Common Phrases]**.
 1. On the [!DNL Common Phrases Groups] page, click **[!UICONTROL Edit]** to the far right of a group name.
@@ -178,15 +160,9 @@ See also [Renaming a Common Phrase Group](../c-about-linguistics-menu/c-about-co
 
 You can change the name of an existing Common Phrase Group. However, if you want to change the existing Fields, Notes, and Phrases of a common phrase group, you must use the [!DNL Edit] feature.
 
-<!-- 
-
-t_renaming_common_phrase_group.xml
-
- -->
-
 See [Editing a Common Phrase Group](../c-about-linguistics-menu/c-about-common-phrases.md#task_5CAC3A133C5342EEAFE55A7EABCBCD61) .
 
-**To rename a Common Phrase Group** 
+**To rename a Common Phrases group** 
 
 1. On the product menu, click **[!UICONTROL Linguistics]** > **[!UICONTROL Common Phrases]**.
 1. On the [!DNL Common Phrases Groups] page, click **[!UICONTROL Rename]** to the far right of a group name.
@@ -210,15 +186,9 @@ See [Editing a Common Phrase Group](../c-about-linguistics-menu/c-about-common-p
 
 You can delete any Common Phrase Group that you have added. If you delete a group by mistake, you can use [!DNL History] to restore the group.
 
-<!-- 
-
-t_deleting_common_phrase_group.xml
-
- -->
-
 See [Using the History option](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).
 
-**To delete a Common Phrase Group** 
+**To delete a Common Phrases group** 
 
 1. On the product menu, click **[!UICONTROL Linguistics]** > **[!UICONTROL Common Phrases]**.
 1. On the [!DNL Common Phrases Groups] page, click **[!UICONTROL Delete]** to the far right of a group name.
