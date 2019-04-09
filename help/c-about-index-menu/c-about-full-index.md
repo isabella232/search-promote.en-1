@@ -27,12 +27,6 @@ While the new index is built for a live website, customers can continue to searc
 
 You can specify the time and days that you want to crawl your website and update the index.
 
-<!-- 
-
-t_setting_the_full_index_schedule_for_a_live_website.xml
-
- -->
-
 The time that you select is local according to the time zone that is configured in Account Settings.
 
 See [Configuring your account settings](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
@@ -52,12 +46,6 @@ The index schedule only applies to your live index; you cannot schedule staged i
 
 You can use Full Index to index all the pages of your staged or live website. Indexing helps your customers more easily find what they are looking for or what they need when they perform a search.
 
-<!-- 
-
-t_running_a_full_index_of_a_live_or_stage_website.xml
-
- -->
-
 **To run a full index of a live or staged website** 
 
 1. On the product menu, do one of the following:
@@ -67,12 +55,6 @@ t_running_a_full_index_of_a_live_or_stage_website.xml
     * Click **[!UICONTROL Index]** > **[!UICONTROL Full Index]** > **[!UICONTROL Staged Index]**.
 
 1. Set the indexing options that you want.
-
-   <!-- 
-   
-   r_indexing_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -114,12 +96,6 @@ t_running_a_full_index_of_a_live_or_stage_website.xml
 ## Viewing the full index log of a live or staged website {#task_02E5E944C56B4EB19CC1FF321F3221B8}
 
 When a live full index or a staged full index is complete, you can view its associated log to troubleshoot any errors that occurred.
-
-<!-- 
-
-t_viewing_the_full_index_log_of_a_live_or_staged_website.xml
-
- -->
 
 You cannot export logs, nor save them. The log remains available for viewing until the new index occurs.
 

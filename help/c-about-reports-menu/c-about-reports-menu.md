@@ -19,12 +19,6 @@ Use the Reports menu to view or reset reports of customers' search queries.
 
 Customers' search terms are logged and reports are created for you by day, week, and month. These term reports can help you understand what customers are looking for on your website.
 
-<!-- 
-
-t_viewing_the_terms_report_or_the_null_search_terms_report.xml
-
- -->
-
 Use this information to improve your site design or to further improve the search results for your customers.
 
 The table in the report shows you the following information:
@@ -60,9 +54,9 @@ The table in the report shows you the following information:
 
 1. On the product menu, do one of the following:
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Terms Report]**. 
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Terms Report]**. 
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Null Terms Report]**.
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Null Terms Report]**.
 
 1. On the report page, in the drop-down list, select a report of either the top phrases or the top words.
 1. Click **[!UICONTROL View Report]**.
@@ -76,12 +70,6 @@ The table in the report shows you the following information:
 ## Setting up Adobe Analytics Report Suites {#task_4A80D97030684C65AC2978B2524DE7F5}
 
 To use Adobe Analytics Report Suite data in a site search/merchandising, you create copies of the Adobe Analytics data in your account.
-
-<!-- 
-
-t_setting_up_adobe_analytics_report_suites.xml
-
- -->
 
 See [About Adobe Analytics Report Suites](../c-about-settings-menu/c-about-adobe-analytics-menu.md#concept_1A51AEC5D40E459B813E7891D64B1BAE).
 
@@ -120,21 +108,15 @@ The [!DNL Staged Adobe Analytics Terms Report] page and the [!DNL Staged Adobe A
 
 1. On the product menu, do one of the following:
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Report]**. 
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Report]**. 
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Report Suites]**.
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Report Suites]**.
 
 1. Click **[!UICONTROL View Live Settings]**.
 
 ## Viewing the Search Request Report or the Content Requests Report {#task_4C6EFB4D51474FC1BDE4326D1A726ECC}
 
 You can view the [!DNL Search Requests Report] to see the number of search requests over a specified period of time. You can also view the [!DNL Content Requests Report] to see the number of content requests over a specified period of time.
-
-<!-- 
-
-t_viewing_the_search_request_report_or_the_content_requests_report.xml
-
- -->
 
 >[!NOTE]
 >
@@ -144,9 +126,9 @@ t_viewing_the_search_request_report_or_the_content_requests_report.xml
 
 1. On the product menu, do one of the following:
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Search Requests]**. 
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Search Requests]**. 
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Content Requests]**.
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Content Requests]**.
 
 1. On the report page, in the **[!UICONTROL Period]** drop-down list, select the length of time to include in the report.
 1. In the **[!UICONTROL Chart Type]** drop-down list, select one of the following options based on the selected report:
@@ -163,12 +145,6 @@ t_viewing_the_search_request_report_or_the_content_requests_report.xml
 
 The Search Index Size report shows the size of the search index over a specified period.
 
-<!-- 
-
-t_viewing_the_search_index_size_report.xml
-
- -->
-
 >[!NOTE]
 >
 >It takes up to 48 hours before the most recent Search Index Size data becomes available in the report.
@@ -183,23 +159,17 @@ t_viewing_the_search_index_size_report.xml
 
 The index crawler's performance is logged by recording various metrics across the duration of the crawl's progress. You can choose a crawl period, metric, chart style, and crawl type when you view a live or staged crawl performance report.
 
-<!-- 
-
-t_viewing_the_crawl_performance_report_or_the_staged_crawl_performance_report.xml
-
- -->
-
 **To view the Crawl Performance Report or the Staged Crawl Performance Report** 
 
 1. On the product menu, do one of the following:
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Crawl Performance]**.
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Crawl Performance]**.
 
-  On the report page, in the **[!UICONTROL Crawl Ending]** drop-down list, select the length of time to include in the report. 
+        On the report page, in the **[!UICONTROL Crawl Ending]** drop-down list, select the length of time to include in the report. 
 
-+ Click **[!UICONTROL Reports]** > **[!UICONTROL Staged Crawl Performance]**.
+    + Click **[!UICONTROL Reports]** > **[!UICONTROL Staged Crawl Performance]**.
 
-  On the report page, in the **[!UICONTROL Staged Crawl Ending]** drop-down list, select the length of time to include in the report.
+      On the report page, in the **[!UICONTROL Staged Crawl Ending]** drop-down list, select the length of time to include in the report.
 
 1. In the **[!UICONTROL Metric]** drop-down list, select one of the following metrics:
 
@@ -225,12 +195,6 @@ t_viewing_the_crawl_performance_report_or_the_staged_crawl_performance_report.xm
 ## Viewing the Change Log {#task_166F1156719F4B3D834BEA8E249C8057}
 
 The Change Log shows you a history of recent changes made within your account.
-
-<!-- 
-
-t_viewing_the_change_log.xml
-
- -->
 
 Only changes that appear under [!DNL History] are shown. The changes are listed in reverse chronological order. Each entry shows the page that was changed, its version number in History, the e-mail address of the user who made the changes, the time of the change, and whether the change was a save or the page's settings pushed live.
 
