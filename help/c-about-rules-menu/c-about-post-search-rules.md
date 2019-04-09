@@ -88,12 +88,6 @@ Perform the following actions:
 
 You can use [!DNL Post-Search Rules] to select which presentation template is used to display the search results based on the incoming query.
 
-<!-- 
-
-t_adding_a_new_post_search_rule.xml
-
- -->
-
 **To add a new post-search rule** 
 
 1. On the product menu, click **[!UICONTROL Rules]** > **[!UICONTROL Post-Search Rules]**.
@@ -101,67 +95,67 @@ t_adding_a_new_post_search_rule.xml
 1. In the [!DNL Name] field, type the name of the new query cleaning rule.
 1. On the [!DNL Add Post-Search Rule] page, use the drop-down lists and text fields to build out your query.
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Cookie </p> </td> 
-   <td colname="col2"> <p>An HTTP cookie. Cookie names and values must be Uniform Resource Identifier encoded. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Custom Variable </p> </td> 
-   <td colname="col2"> <p>A user-defined variable. You can add, delete, or set an unlimited number of custom variables. </p> <p>You can reference any custom variables that you defined in Query Cleaning and in Pre-Search Rules modules, within Post-Search Rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>System Variable </p> </td> 
-   <td colname="col2"> <p>Read-only variables set by the internal system that you can check. The following system variables are supported: </p> <p> 
-     <ul id="ul_BC17F1637F27424CA4E8F530C28A3245"> 
-      <li id="li_C7DF96EFD7AA4A449D00F7EACCAA0EB1"> <span class="uicontrol"> hostname </span> <p>The name of the server host. </p> </li> 
-      <li id="li_F85AB1D2B9374A859657D12B8ED6674B"> <span class="uicontrol"> uri </span> <p>The requested Uniform Resource Identifier without the query string. </p> </li> 
-      <li id="li_440149C9EC6E4805B77BBC97BE41542A"> <span class="uicontrol"> args </span> <p>The entire query string. </p> </li> 
-      <li id="li_F583FC4B0E404858BB3522B33A6F7A0A"> <span class="uicontrol"> environment </span> <p>"Stage" or "live" depending on whether the incoming query was sent to your staged environment or your live environment. </p> </li> 
-      <li id="li_15902AA49B144D42A5E95D7E8B0FB1E1"> <span class="uicontrol"> referrer </span> <p>The Uniform Resource Locator that the customer came from. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>System Variable </p> </td> 
-   <td colname="col2"> <p>Read-only variables that you can use in conditions to determine the current state. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Template's Search Facet </p> </td> 
-   <td colname="col2"> <p>A facet that is local to a named search associated with a presentation template. A facet is essentially special CGI parameters used to indicate which value within a facet a customer has selected. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Template's Search Parameter </p> </td> 
-   <td colname="col2"> <p>A CGI parameter that is local to a named search associated with a presentation template. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Template's Backend Parameter </p> </td> 
-   <td colname="col2"> <p>Incoming query parameters eventually get translated into backend parameters that are used to perform the search. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> <p>Backend parameters do not show up on navigation elements. As a result, you can hide any additional parameters that you want to apply to a search from your customers. </p> <p>The parameter is local to a specific search within a presentation template. Actions on backend parameters are late-binding; that is, they are applied just before the search is sent. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Targeted Template </p> </td> 
-   <td colname="col2"> <p>A special instance of a system-defined custom variable that cannot be deleted. This variable contains the current targeted presentation template. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Rank </p> </td> 
-   <td colname="col2"> <p>Lets you specify which ranking rule to use in the search. This option only appears when you have defined ranking fields and ranking rules. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Last Rule </p> </td> 
-   <td colname="col2"> <p>When checked, the post-search processing module does not perform any additional rules after the action of the matching rule. This action is useful for when you have set actions that cause a later rule to match but you do not want the later rule to run. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Suspend </p> </td> 
-   <td colname="col2"> <p>Turns off the running of the rule but does not delete the rule. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Cookie </p> </td> 
+      <td colname="col2"> <p>An HTTP cookie. Cookie names and values must be Uniform Resource Identifier encoded. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Custom Variable </p> </td> 
+      <td colname="col2"> <p>A user-defined variable. You can add, delete, or set an unlimited number of custom variables. </p> <p>You can reference any custom variables that you defined in Query Cleaning and in Pre-Search Rules modules, within Post-Search Rules. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>System Variable </p> </td> 
+      <td colname="col2"> <p>Read-only variables set by the internal system that you can check. The following system variables are supported: </p> <p> 
+        <ul id="ul_BC17F1637F27424CA4E8F530C28A3245"> 
+          <li id="li_C7DF96EFD7AA4A449D00F7EACCAA0EB1"> <span class="uicontrol"> hostname </span> <p>The name of the server host. </p> </li> 
+          <li id="li_F85AB1D2B9374A859657D12B8ED6674B"> <span class="uicontrol"> uri </span> <p>The requested Uniform Resource Identifier without the query string. </p> </li> 
+          <li id="li_440149C9EC6E4805B77BBC97BE41542A"> <span class="uicontrol"> args </span> <p>The entire query string. </p> </li> 
+          <li id="li_F583FC4B0E404858BB3522B33A6F7A0A"> <span class="uicontrol"> environment </span> <p>"Stage" or "live" depending on whether the incoming query was sent to your staged environment or your live environment. </p> </li> 
+          <li id="li_15902AA49B144D42A5E95D7E8B0FB1E1"> <span class="uicontrol"> referrer </span> <p>The Uniform Resource Locator that the customer came from. </p> </li> 
+        </ul> </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>System Variable </p> </td> 
+      <td colname="col2"> <p>Read-only variables that you can use in conditions to determine the current state. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Template's Search Facet </p> </td> 
+      <td colname="col2"> <p>A facet that is local to a named search associated with a presentation template. A facet is essentially special CGI parameters used to indicate which value within a facet a customer has selected. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Template's Search Parameter </p> </td> 
+      <td colname="col2"> <p>A CGI parameter that is local to a named search associated with a presentation template. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Template's Backend Parameter </p> </td> 
+      <td colname="col2"> <p>Incoming query parameters eventually get translated into backend parameters that are used to perform the search. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> <p>Backend parameters do not show up on navigation elements. As a result, you can hide any additional parameters that you want to apply to a search from your customers. </p> <p>The parameter is local to a specific search within a presentation template. Actions on backend parameters are late-binding; that is, they are applied just before the search is sent. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Targeted Template </p> </td> 
+      <td colname="col2"> <p>A special instance of a system-defined custom variable that cannot be deleted. This variable contains the current targeted presentation template. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Rank </p> </td> 
+      <td colname="col2"> <p>Lets you specify which ranking rule to use in the search. This option only appears when you have defined ranking fields and ranking rules. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Last Rule </p> </td> 
+      <td colname="col2"> <p>When checked, the post-search processing module does not perform any additional rules after the action of the matching rule. This action is useful for when you have set actions that cause a later rule to match but you do not want the later rule to run. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Suspend </p> </td> 
+      <td colname="col2"> <p>Turns off the running of the rule but does not delete the rule. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Add]**.
 1. (Optional) Do one of the following:
@@ -181,12 +175,6 @@ t_adding_a_new_post_search_rule.xml
 ## Editing a post-search rule {#task_ECB00334C0A74C87AF857DB3EB372119}
 
 You can edit existing post-search rules that you have added to the [!DNL Post-Search Rules] page.
-
-<!-- 
-
-t_editing_a_post_search_rule.xml
-
- -->
 
 **To edit a post-search rule** 
 
@@ -214,12 +202,6 @@ t_editing_a_post_search_rule.xml
 
 You can delete post-search rules that you no longer need or use.
 
-<!-- 
-
-t_deleting_a_post_search_rule.xml
-
- -->
-
 When you delete a rule, the order that the remaining rules run is adjusted automatically to account for the deletion.
 
 **To delete a post-search rule** 
@@ -244,12 +226,6 @@ When you delete a rule, the order that the remaining rules run is adjusted autom
 ## Changing the order that post-search rules run {#task_40542FCD32234BBF881A81BF5477F78F}
 
 You can reorder post-search rules to change the order in which they run on presentation templates.
-
-<!-- 
-
-t_changing_the_order_that_post_search_rules_run.xml
-
- -->
 
 Post-search rules run in the order that they were defined. The higher a rule's order number, the later it runs in the process, trumping earlier rules. You reorder rules by entering a new number in the Order column of the table on the [!DNL Post-Search Rules] page. You can also use drag-and-drop on rules to change their run order.
 
@@ -276,4 +252,3 @@ Post-search rules run in the order that they were defined. The higher a rule's o
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-
