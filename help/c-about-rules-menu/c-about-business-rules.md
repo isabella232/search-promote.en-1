@@ -228,14 +228,14 @@ The following steps assume you are using the Visual Rule Builder.
 
       In the Triggers panel click the "X" to the left of a trigger to remove it from the list of triggers.
 
-    * When the **[!UICONTROL Actions]** panel is unfolded - In the presentation template area of the Business Rule Builder page, right-click on a search result. Click **[!UICONTROL Add Result]**, **[!UICONTROL Remove Result]**, **[!UICONTROL Push to bottom]**, or **[!UICONTROL Push to #<n>]** (where <n> is a numeral).
+    * When the **[!UICONTROL Actions]** panel is unfolded - In the presentation template area of the Business Rule Builder page, right-click on a search result. Click **[!UICONTROL Add Result]**, **[!UICONTROL Remove Result]**, **[!UICONTROL Push to bottom]**, or **[!UICONTROL Push to #`<n>`]** (where `<n>` is a numeral).
 
 1. (Optional) In any Business Rule Builder panel ( [!DNL Triggers], [!DNL Actions], or [!DNL Schedule]), do one of the following:
 
     * In the presentation template area of the Business Rule Builder page area, right-click a banner, and then click **[!UICONTROL Select different banner]**. On the **[!UICONTROL Pick Banner]** page, click **[!UICONTROL Pick this banner]** below the banner thumbnail to add it to your presentation template. Only banners that match the size and area of the original banner on the presentation template are available for you to pick.
 
-      The add banner action is added to the [!DNL Actions] panel. 
-    
+      The add banner action is added to the [!DNL Actions] panel.
+
     * In the presentation template area of the [!DNL Business Rule Builder] page, right-click on an Adobe Dynamic Media Classic template banner whose parameters you want to change, and then click **[!UICONTROL Add banner commands]**. In the [!DNL Change Parameters] dialog box, set the parameter options that you want.
 
       See the table of options in [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
