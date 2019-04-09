@@ -36,12 +36,6 @@ When a phrase is excluded, the individual words that make it up are still used a
 
 You can exclude frequently used phrases and common words from your search results.
 
-<!-- 
-
-t_configuring_excluded_words.xml
-
- -->
-
 You can enter one or more words per line. Separate each word with commas as in the following example:
 
 ![](assets/excluded_words_1.jpg)
