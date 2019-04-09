@@ -30,12 +30,6 @@ Select one or more filter buttons to show those levels of alerts, or deselect th
 
 The Alerts page provides a central place to view and manage all alerts having to do with your account.
 
-<!-- 
-
-t_viewing_alerts.xml
-
- -->
-
 **To view alerts** 
 
 1. On the product menu, click **[!UICONTROL Reports]** > **[!UICONTROL Alerts]**.
@@ -43,12 +37,12 @@ t_viewing_alerts.xml
 1. In the table, click an alert to view it.
 1. (Optional) Do any of the following:
 
-* To filter alerts by date, in the [!DNL Start Date] text field, the [!DNL End Date] text field, or both, enter a date in MM/DD/YYYY format. 
+    * To filter alerts by date, in the [!DNL Start Date] text field, the [!DNL End Date] text field, or both, enter a date in MM/DD/YYYY format. 
 
-* In the [!DNL Sent To] text field, the [!DNL Subject] text field, or both, enter words or phrases to find alerts that match the text you entered. 
+    * In the [!DNL Sent To] text field, the [!DNL Subject] text field, or both, enter words or phrases to find alerts that match the text you entered. 
 
-* To delete one or more alerts, in the left column, check the alerts that you want to delete, and then click **Delete Selected Alerts**. 
-* To select all displayed alerts, select the checkbox at the top of the left column.
+    * To delete one or more alerts, in the left column, check the alerts that you want to delete, and then click **Delete Selected Alerts**. 
+    * To select all displayed alerts, select the checkbox at the top of the left column.
 
-  If you want to select all matching alerts rather than a single page of them, in the drop-down list on the right, select **[!UICONTROL All Alerts]**, and then select the checkbox at the top of the column.
+        If you want to select all matching alerts rather than a single page of them, in the drop-down list on the right, select **[!UICONTROL All Alerts]**, and then select the checkbox at the top of the column.
 

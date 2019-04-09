@@ -28,12 +28,6 @@ See [Copying a data view](../c-about-reports-menu/c-about-data-views.md#task_78D
 
 You can add a data view to the [!DNL Data Views] page to display the values of each meta field with a search query.
 
-<!-- 
-
-t_adding_a_data_view.xml
-
- -->
-
 After you add a data view, you must edit it to configure and customize the view.
 
 See [Editing a data view](../c-about-reports-menu/c-about-data-views.md#task_258A367896C24DD498C755925EA8F516).
@@ -49,12 +43,6 @@ See [Editing a data view](../c-about-reports-menu/c-about-data-views.md#task_258
 
 When you add a data view to the [!DNL Data Views] page, you use Edit to change the data view's name and description or to move, reveal, or hide the display of each meta field.
 
-<!-- 
-
-r_editing_a_data_view.xml
-
- -->
-
 You can also lock or unlock a selected data view.
 
 See [Adding a data view](../c-about-reports-menu/c-about-data-views.md#task_A20FEB2E1CA1444D816D2F5F4B6E5B2D).
@@ -64,12 +52,6 @@ See [Adding a data view](../c-about-reports-menu/c-about-data-views.md#task_A20F
 1. On the product menu, click **[!UICONTROL Reports]** > **[!UICONTROL Data Views]**.
 1. On the [!DNL Data Views] page, in the [!DNL Actions] column of the table, click **[!UICONTROL Edit]** in the row with the data view that you want to change.
 1. On the [!DNL Data Views Editor] page, set the options you want.
-
-   <!-- 
-   
-   r_data_view_editor_options.xml
-   
-   -->
 
    The Data View Editor has all the controls for hiding, showing, and moving field columns on the Data View page.
 
@@ -137,12 +119,6 @@ See [Adding a data view](../c-about-reports-menu/c-about-data-views.md#task_A20F
 
 You can copy an existing data view on the [!DNL Data Views] page to use as the basis for creating a new data view.
 
-<!-- 
-
-r_copying_a_data_view.xml
-
- -->
-
 After you copy a data view, you can further customize it by editing the view.
 
 See [Editing a data view](../c-about-reports-menu/c-about-data-views.md#task_258A367896C24DD498C755925EA8F516).
@@ -171,12 +147,6 @@ See [Editing a data view](../c-about-reports-menu/c-about-data-views.md#task_258
 
 You can delete a data view on the [!DNL Data Views] page that you no longer need or use.
 
-<!-- 
-
-r_deleting_a_data_view.xml
-
- -->
-
 **To delete a data view** 
 
 1. On the product menu, click **[!UICONTROL Reports]** > **[!UICONTROL Data Views]**.
@@ -200,12 +170,6 @@ r_deleting_a_data_view.xml
 
 You can use [!DNL View] on the [!DNL Data Views] page to display a selected data view.
 
-<!-- 
-
-r_viewing_a_data_view.xml
-
- -->
-
 The data view that you select is opened in a separate browser window.
 
 **To view a data view** 
@@ -213,7 +177,7 @@ The data view that you select is opened in a separate browser window.
 1. On the product menu, click **[!UICONTROL Reports]** > **[!UICONTROL Data Views]**.
 1. Do any one of the following:
 
-* On the [!DNL Data Views] page, in the [!DNL Title] column of the table, click the name of a data view that you want to open. 
+    * On the [!DNL Data Views] page, in the [!DNL Title] column of the table, click the name of a data view that you want to open. 
 
-* On the [!DNL Data Views] page, in the [!DNL Actions] column of the table, click **[!UICONTROL View]** in the row with the data view that you want to open.
+    * On the [!DNL Data Views] page, in the [!DNL Actions] column of the table, click **[!UICONTROL View]** in the row with the data view that you want to open.
 
