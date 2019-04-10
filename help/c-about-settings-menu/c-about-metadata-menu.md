@@ -17,12 +17,6 @@ Use the Metadata menu to customize Search definitions and index injections.
 
 You can use [!DNL Definitions] to customize the content and relevance of the HTML and metadata fields that are considered when a customer submits a search query.
 
-<!-- 
-
-c_about_definitions.xml
-
- -->
-
 You can edit the fields that are already pre-defined. Or, you can also create new user-defined fields based on metadata tag content. Each definition is displayed on a single line on the [!DNL Staged Definitions] page.
 
 See also [About Data Views](../c-about-reports-menu/c-about-data-views.md#concept_DCA897D074464BC1861AA47B40CC86C3). 
@@ -31,12 +25,6 @@ See also [About Data Views](../c-about-reports-menu/c-about-data-views.md#concep
 
 You can define and add your own metadata tag fields.
 
-<!-- 
-
-t_adding_a_new_meta_tag_field.xml
-
- -->
-
 Before the effects of the new meta tag definition is visible to customers, you must rebuild your site index.
 
 **To add a new meta tag field** 
@@ -44,12 +32,6 @@ Before the effects of the new meta tag definition is visible to customers, you m
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Definitions]**.
 1. On the [!DNL Definitions] page, click **[!UICONTROL Add New Field]**.
 1. On the [!DNL Add Field] page, set the options that you want.
-
-   <!-- 
-   
-   r_meta_tag_field_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -309,12 +291,6 @@ Before the effects of the new meta tag definition is visible to customers, you m
 
 You can edit only certain fields in pre-defined meta tags, or edit all the fields in meta tags that are user-defined.
 
-<!-- 
-
-t_editing_pre-defined_or_user-defined_meta_tag_fields.xml
-
- -->
-
 Before the effects of your meta tag changes are visible to customers, you must rebuild your site index.
 
 **To edit pre-defined or user-defined meta tag fields** 
@@ -349,12 +325,6 @@ Before the effects of your meta tag changes are visible to customers, you must r
 
 You can delete a user-defined meta tag field that you no longer need or use.
 
-<!-- 
-
-t_deleting_a_user-defined_meta_tag_field.xml
-
- -->
-
 You cannot delete pre-defined meta tag fields. However, you can edit certain fields.
 
 See [Editing pre-defined or user-defined meta tag fields](../c-about-settings-menu/c-about-metadata-menu.md#task_0A7657B63596421BB6DB3ED44F827AB3).
@@ -386,12 +356,6 @@ Before the effects of your delete meta tag are visible to customers, you must re
 ## About Injections {#concept_DA091920671948A0A893A26B3A2FAAE5}
 
 You can use [!DNL Injections] to insert content into your web pages without the need to edit the pages themselves.
-
-<!-- 
-
-c_about_injections.xml
-
- -->
 
 You can append content to specific indexed fields like "target" or "body", or replace indexed content with new values. For example, if you inserted new content into the "target" meta tag field, This information is treated just as it would hard-coded page content. You can edit the content of any pre-defined meta tag field regardless of whether your site pages have corresponding content. For example, you can edit the content of the following pre-defined meta tag field names:
 
@@ -481,12 +445,6 @@ See also [Selecting content types to crawl and index](../c-about-settings-menu/c
 
 You can use [!DNL Injections] to insert content into your web pages without the need to edit the pages themselves.
 
-<!-- 
-
-t_adding_field_injection_definitions.xml
-
- -->
-
 You can optionally use **[!UICONTROL Test]** on the [!DNL Injections] page. You enter a test field name (for example, "title" or "body"), the original field value (for example, "Home Page"), and a test URL from your website. The resulting value is displayed for your reference. The current values are not altered during the test.
 
 **To add field injection definitions** 
@@ -513,12 +471,6 @@ You can optionally use **[!UICONTROL Test]** on the [!DNL Injections] page. You 
 
 Use [!DNL Attribute Loader] to define additional input sources to augment data crawled from a website.
 
-<!-- 
-
-c_about_attribute_loader.xml
-
- -->
-
 >[!NOTE]
 >
 >To use Attribute Loader, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support.
@@ -538,11 +490,11 @@ The [!DNL Attribute Loader] page shows you the following information:
 * Whether the configuration is enabled or not for the next crawl and indexing. 
 * The address of the data source.
 
-[How the attribute injection process works for Text and Feed...](../c-about-settings-menu/c-about-metadata-menu.md#section_E059A33D61EE4DB0972A37B8A35E9E16)
+See also [How the attribute injection process works for Text and Feed...](../c-about-settings-menu/c-about-metadata-menu.md#section_E059A33D61EE4DB0972A37B8A35E9E16)
 
-[About configuring multiple Attribute Loaders](../c-about-settings-menu/c-about-metadata-menu.md#section_4CC49C74EF294608A184E233F215ADFF)
+See also [About configuring multiple Attribute Loaders](../c-about-settings-menu/c-about-metadata-menu.md#section_4CC49C74EF294608A184E233F215ADFF)
 
-[About the use of Preview when you add an Attribute...](../c-about-settings-menu/c-about-metadata-menu.md#section_E9CAB000A94C4D9189786C1EDB1CDB46)
+See also [About the use of Preview when you add an Attribute...](../c-about-settings-menu/c-about-metadata-menu.md#section_E9CAB000A94C4D9189786C1EDB1CDB46)
 
 ## How the attribute injection process works for Text and Feed configurations in Attribute Loader {#section_E059A33D61EE4DB0972A37B8A35E9E16}
 
@@ -629,29 +581,17 @@ Preview does not support XML configurations because such documents are processed
 
 Each Attribute Loader configuration defines a data source and mappings to relate the data items defined for that source to metadata fields in the index.
 
-<!-- 
-
-t_adding_an_attribute_loader_definition.xml
-
- -->
-
 >[!NOTE]
 >
 >To use Attribute Loader, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support.
 
 Before the effects of the new and enabled definition are visible to customers, rebuild your site index.
 
-**To add an Attribute Loader definition ** 
+**To add an Attribute Loader definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**.
 1. On the [!DNL Stage Attribute Loader Definitions] page, click **[!UICONTROL Add New Attribute Loader]**.
 1. On the [!DNL Attribute Loader Add] page, set the configuration options that you want. The options that are available depend on the **[!UICONTROL Type]** that you selected.
-
-   <!-- 
-   
-   r_attribute_loader_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -857,12 +797,6 @@ Before the effects of the new and enabled definition are visible to customers, r
 
 You can edit an existing Attribute Loader that you have defined.
 
-<!-- 
-
-t_editing_an_attribute_loader_definition.xml
-
- -->
-
 >[!NOTE]
 >
 >To use Attribute Loader, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support.
@@ -896,12 +830,6 @@ Not all Attribute Loader options are available for you to change, such as the At
 
 You can copy an existing Attribute Loader definition to use as the basis for a new Attribute Loader that you want to create.
 
-<!-- 
-
-t_copying_an_attribute_loader_definition.xml
-
- -->
-
 >[!NOTE]
 >
 >To use Attribute Loader, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support.
@@ -910,7 +838,7 @@ When copying an Attribute Loader definition, the copied definition is disabled b
 
 See [Editing an Attribute Loader definition](../c-about-settings-menu/c-about-metadata-menu.md#task_AA2D1B2BCAFA44A6A0C59A0318274E80).
 
-**To copy an Attribute Loader definition ** 
+**To copy an Attribute Loader definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**.
 1. On the [!DNL Attribute Loader] page, under the [!DNL Actions] column heading, click **[!UICONTROL Copy]** for an Attribute Loader definition name whose settings you want to duplicate.
@@ -933,12 +861,6 @@ See [Editing an Attribute Loader definition](../c-about-settings-menu/c-about-me
 ## Renaming an Attribute Loader definition {#task_58D5DFD7EBC04111BCB91118E4440DB4}
 
 You can change the name of an existing Attribute Loader definition.
-
-<!-- 
-
-t_renaming_an_attribute_loader_definition.xml
-
- -->
 
 >[!NOTE]
 >
@@ -967,12 +889,6 @@ t_renaming_an_attribute_loader_definition.xml
 ## Loading Attribute Loader data {#task_2F3C55189B0A4049AB2113F2291CC181}
 
 You can download the configured Attribute Loader data into site search/merchandising.
-
-<!-- 
-
-t_loading_attribute_loader_data_from_searchpromote.xml
-
- -->
 
 The [!DNL Data Load] page shows the following information about the status of your last Attribute Loader Data Load operation:  
 
@@ -1017,12 +933,6 @@ The [!DNL Data Load] page shows the following information about the status of yo
 
 You can use Preview to view your most recently loaded Attribute Loader data.
 
-<!-- 
-
-t_previewing_attribute_loader_data.xml
-
- -->
-
 The Row column in the table shows the number for each row of data, indicating the original order that the Attribute Loader values were loaded.
 
 The remaining columns show the values that are associated with each entry.
@@ -1047,19 +957,13 @@ See [Loading Attribute Loader data](../c-about-settings-menu/c-about-metadata-me
 
 You can review the configuration settings of an existing Attribute Loader definition.
 
-<!-- 
-
-t_viewing_the_settings_of_an_attribute_loader_definition.xml
-
- -->
-
 After an Attribute Loader definition is added to the [!DNL Attribute Loader Definitions] page, you cannot change its Type setting. Instead, you must delete the definition and then add a new one.
 
 >[!NOTE]
 >
 >To use Attribute Loader, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support.
 
-**To view the settings of an Attribute Loader definition ** 
+**To view the settings of an Attribute Loader definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**.
 1. On the [!DNL Attribute Loader] page, under the [!DNL Actions] column heading, click **[!UICONTROL Edit]** for an Attribute Loader definition name whose settings you want to review or edit.
@@ -1067,12 +971,6 @@ After an Attribute Loader definition is added to the [!DNL Attribute Loader Defi
 ## Viewing the log from the most recent Attribute Loader data load {#task_9C7D6E34BB6C4A40B7CA3EE36ACB0837}
 
 You can use [!DNL View Log] to examine the Attribute Loader data log file of the most recent download process. You can also use the log view to monitor a running download.
-
-<!-- 
-
-t_viewing_the_log_from_the_most_recent_attribute_loader_data_load.xml
-
- -->
 
 See [Loading Attribute Loader data](../c-about-settings-menu/c-about-metadata-menu.md#task_2F3C55189B0A4049AB2113F2291CC181).
 
@@ -1087,17 +985,11 @@ See [Loading Attribute Loader data](../c-about-settings-menu/c-about-metadata-me
 
 You can delete an existing Attribute Loader definition that you no longer need or use.
 
-<!-- 
-
-t_deleting_an_attribute_loader_definition.xml
-
- -->
-
 >[!NOTE]
 >
 >To use Attribute Loader, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support.
 
-**To delete an Attribute Loader definition ** 
+**To delete an Attribute Loader definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Metadata]** > **[!UICONTROL Attribute Loader]**.
 1. On the [!DNL Attribute Loader Definitions] page, under the [!DNL Actions] column heading, click **[!UICONTROL Delete]** for the Attribute Loader definition name you want to remove.
