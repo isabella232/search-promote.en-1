@@ -17,12 +17,6 @@ Use the Crawling menu set date and URL masks, passwords, content types, connecti
 
 Most websites have one primary entry point or home page that a customer initially visits. This main entry point is the URL address from which the search robot begins index crawling. However, if your website has multiple domains or subdomains, or if portions of your site are not linked from the primary entry point, you can use URL Entrypoints to add more entry points.
 
-<!-- 
-
-c_about_url_entrypoints.xml
-
- -->
-
 All website pages below each specified URL entry point are indexed. You can combine URL entry points with masks to control exactly which portions of a website that you want to index. You must rebuild your website index before the effects of URL Entrypoints settings are visible to customers.
 
 The main entry point is typically the URL of the website that you want to index and search. You configure this main entry point in Account Settings.
@@ -102,12 +96,6 @@ See also [About Index Connector](../c-about-settings-menu/c-about-crawling-menu.
 
 If your website has multiple domains or subdomains and you want them crawled, you can use URL Entrypoints to add more URLs.
 
-<!-- 
-
-t_adding_multiple_url_entrypoints_that_you_want_indexed.xml
-
- -->
-
 To set your website's main URL entry point, you use Account Settings.
 
 See [Configuring your account settings](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
@@ -141,12 +129,6 @@ See [Configuring your account settings](../c-about-settings-menu/c-about-account
 ## About URL Masks {#concept_8039DFC53FF3410AA494D602F71BA164}
 
 URL masks are patterns that determine which of your website documents the search robot indexes or not indexes.
-
-<!-- 
-
-c_about_url_masks.xml
-
- -->
 
 Be sure that you rebuild your site index so that the results of your URL masks are visible to your customers.
 
@@ -318,12 +300,6 @@ A comma is not valid as a separator between the mask and the keyword; you can on
 
 You can use [!DNL URL Masks] to define which parts of your website that you want or do not want crawled and indexed.
 
-<!-- 
-
-t_adding_url_masks_to_index_or_not_index_parts_of_your_website.xml
-
- -->
-
 Use the Test URL Masks field to test whether a document is or is not included after you index.
 
 Be sure that you rebuild your site index so that the results of your URL masks are visible to your customers.
@@ -363,12 +339,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 ## About Date Masks {#concept_F4F1F58A646F4A86B8650EC46FDCEF66}
 
 You can use Date Masks to include or exclude files from your search results based on the age of the file.
-
-<!-- 
-
-c_about_date_masks.xml
-
- -->
 
 Be sure that you rebuild your site index so that the results of your URL masks are visible to your customers.
 
@@ -547,12 +517,6 @@ A comma is not valid as a separator between the mask and the keyword; you can on
 
 You can use Date Masks to include or exclude files from customer search results based on the age of the files.
 
-<!-- 
-
-t_adding_date_masks_to_index_or_not_index_parts_of_your_website.xml
-
- -->
-
 Use the **[!UICONTROL Test Date]** and **[!UICONTROL Test URL]** fields to test whether a file is or is not included after you index.
 
 Be sure that you rebuild your site index so that the results of your URL masks are visible to your customers.
@@ -582,12 +546,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 ## About Passwords {#concept_3EDBD731725D46B891F834D4472774DC}
 
 To access portions of your website that are protected with HTTP Basic Authentication, you can add one or more passwords.
-
-<!-- 
-
-c_about_passwords.xml
-
- -->
 
 Before the effects of the Password settings is visible to customers, you must rebuild your site index.
 
@@ -638,12 +596,6 @@ In the list above, the first password is used that contains a realm or URL that 
 
 You can use Passwords to access password-protected areas of your website for crawling and indexing purposes.
 
-<!-- 
-
-t_adding_passwords_to_access_areas_of_your_website_that_require_authentication.xml
-
- -->
-
 Before the effects of your password are additions are visible to customers, be sure you rebuild your site index
 
 See [Configuring an incremental index of a staged website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0).
@@ -679,12 +631,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 ## About Content Types {#concept_6FEA1355C0374500B4C53090C34A8A07}
 
 You can use [!DNL Content Types] to select which types of files that you want to crawl and index for this account.
-
-<!-- 
-
-c_about_content_types.xml
-
- -->
 
 Content types that you can choose to crawl and index include PDF documents, text documents, Adobe Flash movies, files from Microsoft Office applications such as Word, Excel, and Powerpoint, and text in MP3 files. The text that is found within the selected content types is searched along with all of the other text on your website.
 
@@ -729,12 +675,6 @@ If you only want to prevent the indexing of certain MP3 files on your website, y
 
 You can use [!DNL Content Types] to select which types of files that you want to crawl and index for this account.
 
-<!-- 
-
-t_seleting_content_types_to_crawl_and_index.xml
-
- -->
-
 Content types that you can choose to crawl and index include PDF documents, text documents, Adobe Flash movies, files from Microsoft Office applications such as Word, Excel, and Powerpoint, and text in MP3 files. The text that is found within the selected content types is searched along with all of the other text on your website.
 
 Before the effects of the Content Types settings is visible to customers, you must rebuild your site index.
@@ -768,23 +708,11 @@ See [About Injections](../c-about-settings-menu/c-about-metadata-menu.md#concept
 
 You can use Connections to add up to ten HTTP connections that the search robot uses to index your website.
 
-<!-- 
-
-c_about_connections.xml
-
- -->
-
 Increasing the number of connections can significantly reduce the amount of time that it takes to complete a crawl and index. However, be aware that each additional connection increases the load on your server. 
 
 ## Adding connections to increase indexing speed {#task_3E9B83E43C1842A19066355A15C4A6FB}
 
 You can reduce the amount of time it takes to index your website by using Connections to increase the number of simultaneous HTTP connections that the crawler uses. You can add up to ten connections.
-
-<!-- 
-
-t_adding_connections_to_increase_indexing_speed.xml
-
- -->
 
 Be aware that each additional connection increases the load that is placed on your server.
 
@@ -811,23 +739,11 @@ Be aware that each additional connection increases the load that is placed on yo
 
 You can use Form Submission to help you recognize and process forms on your website.
 
-<!-- 
-
-c_about_form_submission.xml
-
- -->
-
 During the crawling and indexing of your website, each encountered form is compared with the form definitions that you have added. If a form matches a form definition, the form is submitted for indexing. If a form matches more than one definition, the form is submitted once for each matched definition. 
 
 ## Adding form definitions for indexing forms on your website {#task_62FBCE9E6DBE4BDA8D1249233ADFC00F}
 
 You can use [!DNL Form Submission] to help process forms that are recognized on your website for indexing purposes.
-
-<!-- 
-
-t_adding_form_definitions_for_indexing_forms_on_your_website.xml
-
- -->
 
 Be sure that you rebuild your site index so that the results of your changes are visible to your customers.
 
@@ -838,12 +754,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Form Submission]**.
 1. On the [!DNL Form Submission] page, click **[!UICONTROL Add New Form]**.
 1. On the [!DNL Add Form Definition] page, set the [!DNL Form Recognition] and [!DNL Form Submission] options.
-
-   <!-- 
-   
-   r_form_definition_options.xml
-   
-   -->
 
    The five options in the [!DNL Form Recognition] section on the [!DNL Form Definition] page are used to identify forms in your web pages that can be process.
 
@@ -1000,12 +910,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 
 You can edit an existing form definition if a form on your website has changed or if you just need to change the definition.
 
-<!-- 
-
-t_editing_a_form_definition.xml
-
- -->
-
 Be aware that there is no [!DNL History] feature on the [!DNL Form Submission] page to revert any changes that you make to a form definition.
 
 Be sure that you rebuild your site index so that the results of your changes are visible to your customers.
@@ -1034,12 +938,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 
 You can delete an existing form definition if the form no longer exists on your website, or if you no longer want to process and index a particular form.
 
-<!-- 
-
-t_deleting_a_form_definition.xml
-
- -->
-
 Be aware that there is no [!DNL History] feature on the [!DNL Form Submission] page to revert any changes that you make to a form definition.
 
 Be sure that you rebuild your site index so that the results of your changes are visible to your customers.
@@ -1066,12 +964,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 ## About Index Connector {#concept_CA6921E2FBF641F9B4F60C92B32AFA84}
 
 Use [!DNL Index Connector] to define additional input sources for indexing XML pages or any kind of feed.
-
-<!-- 
-
-c_about_index_connector.xml
-
- -->
 
 You can use a data feed input source to access content that is stored in a form that is different from what is typically discovered on a website using one of the available crawl methods. Each document that is crawled and indexed directly corresponds to a content page on your website. However, a data feed either comes from an XML document or from a comma- or tab-delimited text file, and contains the content information to index.
 
@@ -1231,25 +1123,13 @@ Preview does not support XML configurations because such documents are processed
 
 Each Index Connector configuration defines a data source and mappings to relate the data items defined for that source to metadata fields in the index.
 
-<!-- 
-
-t_adding_an_index_connector_definition.xml
-
- -->
-
 Before the effects of the new and enabled definition is visible to customers, rebuild your site index.
 
-**To add an Index Connector definition ** 
+**To add an Index Connector definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
 1. On the [!DNL Stage Index Connector Definitions] page, click **[!UICONTROL Add New Index Connector]**.
 1. On the [!DNL Index Connector Add] page, set the connector options that you want. The options that are available depend on the **[!UICONTROL Type]** that you selected.
-
-   <!-- 
-   
-   r_index_connector_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -1532,12 +1412,6 @@ Before the effects of the new and enabled definition is visible to customers, re
 
 You can edit an existing Index Connector that you have defined.
 
-<!-- 
-
-t_editing_an_index_connector_definition.xml
-
- -->
-
 >[!NOTE]
 >
 >Not all options are available for you to change, such as the Index Connector Name or Type from the [!DNL Type] drop-down list.
@@ -1569,12 +1443,6 @@ t_editing_an_index_connector_definition.xml
 
 You can review the configuration settings of an existing index connector definition.
 
-<!-- 
-
-t_viewing_the_settings_of_an_index_connector_definition.xml
-
- -->
-
 After an Index Connector definition is added to the [!DNL Index Connector Definitions] page, you cannot change its Type setting. Instead, you must delete the definition and then add a new one.
 
 **To view the settings of an Index Connector definition** 
@@ -1586,17 +1454,11 @@ After an Index Connector definition is added to the [!DNL Index Connector Defini
 
 You can copy an existing Index Connector definition to use as the basis for a new Index Connector that you want to create.
 
-<!-- 
-
-t_copying_an_index_connector_definition.xml
-
- -->
-
 When copying an Index Connector definition, the copied definition is disabled by default. To enable or "turn on" the definition, you must edit it from the [!DNL Index Connector Edit] page, and select **[!UICONTROL Enable]**.
 
 See [Editing an Index Connector definition](../c-about-settings-menu/c-about-crawling-menu.md#task_DCFC9C6A9964421DB5AB6C25DEE98DE9).
 
-**To copy an Index Connector definition ** 
+**To copy an Index Connector definition** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Index Connector]**.
 1. On the [!DNL Index Connector] page, under the [!DNL Actions] column heading, click **[!UICONTROL Copy]** for an Index Connector definition name whose settings you want to duplicate.
@@ -1619,12 +1481,6 @@ See [Editing an Index Connector definition](../c-about-settings-menu/c-about-cra
 ## Renaming an Index Connector definition {#task_5132118FC21B47D99881E0ED425225D7}
 
 You can change the name of an existing Index Connector definition.
-
-<!-- 
-
-t_renaming_an_index_connector_definition.xml
-
- -->
 
 After you rename the definition, check **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL URL Entrypoints]**. You want to ensure that the new definition name is reflected in the drop-down list on the [!DNL URL Entrypoints] page.
 
@@ -1655,12 +1511,6 @@ See [Adding multiple URL entry points that you want indexed](../c-about-settings
 ## Deleting an Index Connector definition {#task_6B0BD5D0C09F4597A401B0F3AC7C7EA7}
 
 You can delete an existing Index Connector definition that you no longer need or use.
-
-<!-- 
-
-t_deleting_an_index_connector_definition.xml
-
- -->
 
 **To delete an Index Connector definition** 
 
