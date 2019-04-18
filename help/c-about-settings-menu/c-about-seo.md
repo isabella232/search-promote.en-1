@@ -85,57 +85,45 @@ See also [Configuring a search results word list](../c-about-settings-menu/c-abo
 
 You can configure the list of search result words and phrases that are included in page titles, descriptions, and keywords.
 
-<!-- 
-
-t_configuring_a_search_results_word_list.xml
-
- -->
-
 **To configure a search results word list** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL SEO]** > **[!UICONTROL Search Result Pages]**.
 1. On the [!DNL SEO Browse Pages Word List] page, in the respective [!DNL Title], [!DNL Description], and [!DNL Keywords] groups, set the options that you want.
 
-   <!-- 
-
-r_seo_options_for_titles_descriptions_and_keywords.xml
-
- -->
-
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Title | Description | Keywords Starts With </p> </td> 
-   <td colname="col2"> <p>The text that you want to display in front of the word list. </p> <p>For example, you might want the Keywords list to begin with the word "Brands". </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include Popular Searches During </p> </td> 
-   <td colname="col2"> <p>The time period for which searches are included. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Maximum Search Count </p> </td> 
-   <td colname="col2"> <p>The maximum number of searches that are included. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Include Field Values </p> </td> 
-   <td colname="col2"> <p>The field values that are included in the results word list. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Add These Words &amp; Phrases </p> </td> 
-   <td colname="col2"> <p>List the words that you want to add to the search results page title, the browse page title, or the item detail page title. </p> <p>Click <b>Edit</b> to add words to the list. </p> <p>You can add one word or phrase per line. When you are finished, click <b>Save Changes</b>, and then close the page to return to the main SEO page. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Remove These Words &amp; Phrases (except from included field values) </p> </td> 
-   <td colname="col2"> <p>List the words that you want to remove from the search results page title, the browse page title, or the item detail page title. </p> <p>Click <b>Edit</b> to add words to the remove list. </p> <p>You can add one word or phrase per line. When you are finished, click <b>Save Changes</b>, and then close the page to return to the main SEO page. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Title | Description | Keywords Starts With </p> </td> 
+      <td colname="col2"> <p>The text that you want to display in front of the word list. </p> <p>For example, you might want the Keywords list to begin with the word "Brands". </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Include Popular Searches During </p> </td> 
+      <td colname="col2"> <p>The time period for which searches are included. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Maximum Search Count </p> </td> 
+      <td colname="col2"> <p>The maximum number of searches that are included. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Include Field Values </p> </td> 
+      <td colname="col2"> <p>The field values that are included in the results word list. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Add These Words &amp; Phrases </p> </td> 
+      <td colname="col2"> <p>List the words that you want to add to the search results page title, the browse page title, or the item detail page title. </p> <p>Click <b>Edit</b> to add words to the list. </p> <p>You can add one word or phrase per line. When you are finished, click <b>Save Changes</b>, and then close the page to return to the main SEO page. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Remove These Words &amp; Phrases (except from included field values) </p> </td> 
+      <td colname="col2"> <p>List the words that you want to remove from the search results page title, the browse page title, or the item detail page title. </p> <p>Click <b>Edit</b> to add words to the remove list. </p> <p>You can add one word or phrase per line. When you are finished, click <b>Save Changes</b>, and then close the page to return to the main SEO page. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. (Optional) Click **Preview Sample Output** to preview the resulting values for the SEO fields that you set.
 
@@ -161,12 +149,6 @@ r_seo_options_for_titles_descriptions_and_keywords.xml
 ## Configuring a browse pages word list {#task_D7A1D765A92A4D6C94E672B3A86ECB5A}
 
 You can configure the list of browse pages words and phrases that are included in page titles, descriptions, and keywords.
-
-<!-- 
-
-t_configuring_a_browse_pages_word_list.xml
-
- -->
 
 **To configure a browse pages word list** 
 
@@ -198,12 +180,6 @@ t_configuring_a_browse_pages_word_list.xml
 ## Configuring an item detail word list {#task_761538C519B34164BE189F13C39B2495}
 
 You can configure the list of item detail words and phrases that are included in page titles, descriptions, and keywords.
-
-<!-- 
-
-t_configuring_an_item_detail_word_list.xml
-
- -->
 
 **To configure an item detail word list** 
 

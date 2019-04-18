@@ -201,12 +201,6 @@ update regexp ^https://www\.mydomain\.com/information/.*$
 
 You can specify a script that you have created that writes, updates, and maintains an incremental index, without the need to log in. The search robot reads instructions from the text file that is hosted on your server to perform the incremental index.
 
-<!-- 
-
-t_configuring_a_scripted_incremental_index.xml
-
- -->
-
 **To configure a scripted incremental index** 
 
 1. On the product menu, click **[!UICONTROL Index]** > **[!UICONTROL Scripted Index]** > **[!UICONTROL Configuration]**.
@@ -235,12 +229,6 @@ t_configuring_a_scripted_incremental_index.xml
 
 You can schedule scripted incremental indexing to occur at regular intervals throughout the day.
 
-<!-- 
-
-t_setting_the_scripted_incremental_index_schedule_for_a_live_website.xml
-
- -->
-
 The base time that you select is local according to the time zone that is configured in Account Settings.
 
 See [Configuring your account settings](../c-about-settings-menu/c-about-account-options-menu.md#task_80A38D0C8E4F453395BD67B81E4B45D9).
@@ -260,12 +248,6 @@ The index schedule only applies to your live index; you cannot schedule staged i
 
 You can use Scripted Incremental Index to index "pieces" of your live or staged website, such as a collection of frequently changed pages, all without the need to log in.
 
-<!-- 
-
-t_running_a_scripted_incremental_index_of_a_live_or_staged_website.xml
-
- -->
-
 To use this feature, be sure that you have configure a scripted incremental index text file.
 
 See [Configuring a scripted incremental index](../c-about-index-menu/c-about-scripted-index.md#task_05AE040FE75E40FFAA5E10B6B6D4D255).
@@ -283,12 +265,6 @@ See [Configuring a scripted incremental index](../c-about-index-menu/c-about-scr
 ## Viewing the scripted incremental index log of a live or staged website {#task_CBFCE9B9A87B4DF7A2A35A6E83DE93D7}
 
 When a live full scripted index or a staged full scripted index is complete, you can view its associated log to troubleshoot any errors that occurred.
-
-<!-- 
-
-t_viewing_the_scripted_incremental_index_log_of_a_live_or_staged_website.xml
-
- -->
 
 You cannot export logs, nor save them. However, the log remains available for viewing until the new index occurs.
 

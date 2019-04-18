@@ -27,12 +27,6 @@ See [Running an incremental index of a live or staged website...](../c-about-ind
 
 You can use [!DNL Re-Rank Index] to update your site's ranking information without the need to recrawl your site.
 
-<!-- 
-
-t_re-ranking_the_index_of_a_live_or_staged_website.xml
-
- -->
-
 **To re-rank the index of a live or staged website** 
 
 1. On the product menu, do one of the following:
@@ -52,12 +46,6 @@ t_re-ranking_the_index_of_a_live_or_staged_website.xml
 ## Viewing the re-ranked index log of a live or staged website {#task_3C76107DFAC1495FACD3ABB0A688208D}
 
 When a live index re-rank or a staged index re-rank is complete, you can view its associated log to troubleshoot any errors that occurred.
-
-<!-- 
-
-t_viewing_the_re-ranked_index_log_of_a_live_or_staged_website.xml
-
- -->
 
 You cannot export logs, nor save them. However, the log remains available for viewing until the new index occurs.
 

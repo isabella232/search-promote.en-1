@@ -14,12 +14,6 @@ uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
 
 A frequently asked questions page that discusses support of the indexing and searching of SWF files on a website.
 
-<!-- 
-
-r_faq_adobe_flash.xml
-
- -->
-
 The following are common questions regarding SWF files:
 
 * [When is a SWF file crawled and indexed?](#section_01BB5259140D4D5FB04CCB7A1A63DE99) 
@@ -117,12 +111,6 @@ Older SWF files do not specify a character set either. If you selected the SWF c
 ## General search {#reference_E2C675162789452A9B99C6633B12CBEF}
 
 A frequently asked questions page that discusses how site search/merchandising helps customers who visit your website find what they are looking for.
-
-<!-- 
-
-r_faq_general_search.xml
-
- -->
 
 The following are common questions regarding general searching:
 
@@ -432,12 +420,6 @@ See [About Scripted Index](../c-about-index-menu/c-about-scripted-index.md#conce
 
 A frequently asked questions page that discusses various feature implementations in [!DNL Search&amp;Promote].
 
-<!-- 
-
-r_faq_implementation.xml
-
- -->
-
 The following are common questions regarding feature implementations in [!DNL Search&amp;Promote] on a website:
 
 * [Why are my business rules not running?](#section_7FEB60383D8A4B11A60DFF9067274699) 
@@ -470,12 +452,6 @@ If you are unsure what to do, you should contact Technical Support. There may be
 ## International {#reference_F017C2968BFB446499EF1D3CE2CAC0FE}
 
 A frequently asked questions page that discusses support of the indexing and searching of more than 19 languages, including multi-byte Asian languages such as Chinese (Simplified and Traditional), Japanese, and Korean.
-
-<!-- 
-
-r_faq_international.xml
-
- -->
 
 The following are common questions regarding languages and character sets:
 
@@ -568,12 +544,6 @@ If your account uses the default template, one of the ready-to-use templates, or
 ## Low page count {#reference_4344E3E3CB2948939860F8C078BD7773}
 
 A frequently asked questions page that discusses common problems associated with a low indexing page count.
-
-<!-- 
-
-r_faq_low_page_count.xml
-
- -->
 
 The following are common questions regarding low indexing page counts:
 
@@ -783,12 +753,6 @@ Disallow: /
 
 A frequently asked questions page that discusses support of the indexing and searching of Microsoft® Office files on a website.
 
-<!-- 
-
-r_faq_microsoft_office.xml
-
- -->
-
 The following are common questions regarding Microsoft Office files:
 
 * [What gets indexed in a Microsoft Office file?](#section_8681DADFCFE24B7787B1FC08D431EE28) 
@@ -869,12 +833,6 @@ See [Regular Expressions](../c-appendices/r-regular-expressions.md#reference_B5B
 ## MP3 {#reference_7614250EE81C4EEFA43E57A6A74E83D7}
 
 A frequently asked questions page that discusses support of the indexing and searching of MP3 music files on a website.
-
-<!-- 
-
-r_faq_mp3.xml
-
- -->
 
 The following are common questions regarding MP3 files.
 
@@ -971,12 +929,6 @@ See [About Injections](../c-about-settings-menu/c-about-metadata-menu.md#concept
 
 A frequently asked questions page the discusses support of the indexing and searching of PDF files on a website.
 
-<!-- 
-
-r_faq_pdf.xml
-
- -->
-
 The following are common questions regarding PDF files:
 
 * [What gets indexed in a PDF file?](#section_62BFCD7158B44F2BB3B1864224B50174) 
@@ -1056,12 +1008,6 @@ See [Adding field injection definitions](../c-about-settings-menu/c-about-metada
 ## Too many pages {#reference_48A748BC1ED14844ACAC2735C8388E8A}
 
 A frequently asked questions page that explains some of the reasons why the indexer has counted more pages than you actually have, and what the solution is in each case.
-
-<!-- 
-
-r_faq_too_many_pages.xml
-
- -->
 
 If you are certain your website is below your page limit, but the indexer is telling you that the limit is reached, you should review these common questions and answers for possible solutions.
 
