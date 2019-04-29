@@ -101,8 +101,6 @@ The following rules and restrictions apply to account passwords:
 * Spaces are permitted (leading spaces are removed). 
 * Dictionary words are not permitted.
 
-[test](/help/c-about-settings-menu/c-about-my-profile-menu.md)
-
 See [Configuring your personal user information](../c-about-settings-menu/c-about-my-profile-menu.md#task_A11A3BE2527B4204B896E04303B04AA6).
 
 See [Configuring your preferences](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
