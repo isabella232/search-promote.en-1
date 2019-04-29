@@ -27,8 +27,6 @@ The character encoding that you select is applied to the web pages in your accou
 
 When you specify the email address it must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric `(0..9)` characters with exactly one `@` character used to separate the user name from the domain. The characters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `{`, and `}` are also allowed. Your email address cannot start with a period (`.`) character.
 
-[test](#task_5E06BF565C284C2EBBE18E10A1C4BFBB)
-
 See [Configuring your preferences](../c-about-settings-menu/c-about-my-profile-menu.md#task_5E06BF565C284C2EBBE18E10A1C4BFBB).
 
 See [Changing your login password](../c-about-settings-menu/c-about-my-profile-menu.md#task_F5FF13AAD1514FE997C8882D4537C0C9)
