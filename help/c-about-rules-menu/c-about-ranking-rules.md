@@ -111,9 +111,9 @@ Variables `H` and `T` are inputs to this function: `H` is the desired half-life 
 
 Specify `search_get_age_rank()` as follows:
 
-`search_get_age_rank( Birthdate, Half_Life, Default_Rank )`
+`search_get_age_rank(Birthdate#Half_Life#Default_Rank)`
 
-* Birthdate - The birth date or inception date of the file must be a date formatted string in accordance to the field's date formats. This date formatted string is usually a field reference, as in `{field_name}`. 
+* Birthdate - The birth date or inception date of the file must be a date formatted string in accordance to the field's date formats. This date formatted string must be a field reference, as in `{field_name}`. 
 * Half_Life - The half life is the amount of time that must pass before the value drops to one half of its initial value. This value is expressed in the number of days and it is an integer or a floating point number. 
 * Default_Rank - The default rank is used as a safety net in case the birth date is invalid or the date is in the future. You cannot use this default value if its associated metadata field has a valid default value too. The value here is a floating point number or an integer. See below for suggestions if you run into problems with which default value is being used.
 
@@ -125,7 +125,7 @@ See [Editing a ranking rule](../c-about-rules-menu/c-about-ranking-rules.md#task
 
 In the following example,
 
-`search_get_age_rank({birthdate},28,0.20)`
+`search_get_age_rank({birthdate}#28#0.20)`
 
 the date contained in the document's `birthdate` field is passed in as the time-stamp. The half life is 28 days. The default ranking value is 0.20 if the date is invalid.
 
@@ -135,13 +135,13 @@ In the Values/Ranks section of the Add Ranking Rule page or the Edit Ranking Rul
 
 The following is an example of a values/ranks rule—a rule associated with a text field:
 
-`regexp .* search_get_age_rank({other_field},365,0.20)`
+`regexp .* search_get_age_rank({other_field}#365#0.20)`
 
 This example assumes that `other_field` contains a date value. If this field is not itself a date-type field, this value is interpreted using the date formats associated with the pre-defined Date field. Otherwise, this field's date formats are used. This values/ranks entry is used whenever the document's field, that the Rule's Data Source identifies, is non-empty, and the function's return value (from 0 through 1) is the assigned rank.
 
 For a Rule associated with a Numeric field, specifically a Date field:
 
-`9999999999 search_get_age_rank({other_field},365,0.20)`
+`9999999999 search_get_age_rank({other_field}#365#0.20)`
 
 As each document is processed, the value in `other_field` is converted to the Unix "epoch" form, using the field's date format definitions. This value is used in the `search_get_age_rank()` call. As every "epoch" value is less than 9999999999 (for now at least), the Rule simply supplies the function's return value (from 0 through 1) as the rank.
 
@@ -163,7 +163,7 @@ Now you add a new ranking rule. The rule is defined to use the "birthdate" field
 * Data Source Type: Meta Tag 
 * Data Source Name: birthdate 
 * Weights/Conditions: 10 - Maximum Importance 
-* Values/Ranks: 9999999999 search_get_age_rank({birthdate},14,0.10) 
+* Values/Ranks: 9999999999 search_get_age_rank({birthdate}#14#0.10) 
 * Default Rank: -1
 
 The rule does several things. The weight of the rule is set to 10. The rank value is simply the result of the age-rank function, a value from 0 through 1. You cannot use spaces with `search_get_age_rank()`. Also, notice that the field "birthdate" is enclosed in braces. Finally, when you save this rule, the commas in the Values/Ranks definition are replaced with `#` characters; this behavior is normal.
