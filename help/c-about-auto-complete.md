@@ -15,8 +15,6 @@ You can configure various areas of Auto-Complete to control the generation of th
 
 ## About Auto-Complete {#concept_093A9CD754864BA79B456FE4BEB64578}
 
-You can configure various areas of Auto-Complete to control the generation of the auto-complete enabled search form, and the file , which is included as a part of the auto-complete enabled search form. 
-
 The file [!DNL autocomplete_data.js] is regenerated and published to the search content network each time there are changes that the Auto-Complete Setup page has saved. 
 
 ## Configuring Auto-Complete {#task_F491F2BFC4D24A61BBDC48B9059C11BB}
@@ -65,10 +63,6 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
       <td colname="col2"> <p>Specifies the maximum number of previously requested auto-complete suggestions to cache in the customer's browser. Generally, you should leave this setting at the default of 1000. </p> <p>While you can completely disable browser caching by setting this option to 0, it is not recommended. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Display shadow </p> </td> 
-      <td colname="col2"> <p>Adds a cosmetic drop-shadow to the auto-complete suggestions list. </p> </td> 
-      </tr> 
-      <tr> 
       <td colname="col1"> <p>Form name </p> </td> 
       <td colname="col2"> <p>Specifies the "name" attribute of the auto-complete enabled search form's "form" tag. For example, </p> <p> <span class="filepath"> &lt;form name="SiteSearch" method="get" action="https://sp1004337c.guided.t1.atomz.com" target="_blank"&gt; </span> </p> <p>where <span class="filepath"> SiteSearch </span> is the name attribute of the form tag. </p> </td> 
       </tr> 
@@ -80,6 +74,18 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
       <td colname="col1"> <p>Input tag ID </p> </td> 
       <td colname="col2"> <p>Specifies the ID attribute of the auto-complete enabled search form's "input" tag. For example, </p> <p> <span class="filepath"> &lt;input type="text" id="q" name="q" /&gt; </span> </p> <p>where <span class="filepath"> q </span> is the id attribute of the input tag. </p> </td> 
       </tr> 
+      <tr>
+      <td colname="col1"> <p>Display shadow </p> </td>
+      <td colname="col2"> <p>Adds a cosmetic drop-shadow to the auto-complete suggestions list. </p> </td>
+      </tr>
+      <tr>
+      <td colname="col1"> <p>Match only at beginning of phrase </p> </td>
+      <td colname="col2"> <p>Only suggest results that match the beginning of the input text . </p> </td>
+      </tr>
+      <tr>
+      <td colname="col1"> <p>Support UTF-8 character set </p> </td>
+      <td colname="col2"> <p>Correctly handle non-ASCII characters in terms. </p> </td>
+      </tr>
     </tbody> 
    </table>
 
