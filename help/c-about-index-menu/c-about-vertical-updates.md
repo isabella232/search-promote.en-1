@@ -86,12 +86,6 @@ See also [About Remote Control for Indexing](../c-about-index-menu/c-about-remot
 
 You can configure what Index Connector sources you want to include in your vertical update by specifying URLs.
 
-<!-- 
-
-t_configuring_a_vertical_update_of_a_staged_website.xml
-
- -->
-
 **To configure a Vertical Update of a staged website** 
 
 1. On the product menu, click **[!UICONTROL Index]** > **[!UICONTROL Vertical Update]** > **[!UICONTROL Configuration]**.
@@ -120,12 +114,6 @@ t_configuring_a_vertical_update_of_a_staged_website.xml
 ## Viewing the Vertical Update log of a live or staged website {#task_E668E1F1240C476DAA1CA783DC728232}
 
 When a live Vertical Update or a staged Vertical Update is complete, you can view its associated log to troubleshoot any errors that may have occurred.
-
-<!-- 
-
-t_viewing_the_vertical_update_log_of_a_live_or_staged_website.xml
-
- -->
 
 You cannot export Vertical Update log files, nor can you save them. The log file remains available for viewing until the next index occurs.
 

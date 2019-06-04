@@ -165,7 +165,7 @@ Backreferences provide access to the grouped parts (inside parenthesis) of the P
 
 * **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^https:// ([^/]*) (.*)$ https://${tolower: $1} $2`. 
 
-* ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
+* **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0<= N <= 9).
 
 Variables: These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *`[E]`* flag for more information on setting variables.
 

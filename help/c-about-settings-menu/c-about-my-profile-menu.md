@@ -17,13 +17,7 @@ Use the My Profile menu to set personal information, preferences, login password
 
 You can view and manage your personal user information associated with your account including setting your required email address and the character encoding that is used by the majority of your website pages.
 
-<!-- 
-
-t_configuring_your_personal_user_information.xml
-
- -->
-
-The character encoding that you select is applied to the web pages in your account as long as they do not specify an overriding character set encoding in a meta tag. The character encoding is also applied to the account configuration pages. The default value is "Western European (ISO-8859-1).
+The character encoding that you select is applied to the web pages in your account as long as they do not specify an overriding character set encoding in a meta tag. The character encoding is also applied to the account configuration pages. The default value is "Western European (ISO-8859-1)".
 
 When you specify the email address it must contain ASCII characters only. Use standard alphabetic (a..z) characters or numeric `(0..9)` characters with exactly one `@` character used to separate the user name from the domain. The characters `_`, `+`, `-`, `.`, `!`, `#`, `$`, `'`, `%`, `&`, `*`, `=`, `?`, `^`, `{`, and `}` are also allowed. Your email address cannot start with a period (`.`) character.
 
@@ -46,12 +40,6 @@ See [Viewing your access privileges](../c-about-settings-menu/c-about-my-profile
 ## Configuring your preferences {#task_5E06BF565C284C2EBBE18E10A1C4BFBB}
 
 You can configure preferences that are specific to the user interface.
-
-<!-- 
-
-t_configuring_your_searchpromote_preferences.xml
-
- -->
 
 For example, you can set your preference as to which Rule Builder user interface you want to use as the default. Or, you can choose to validate template tag attributes when you save, or validate template references to Guided Search objects when you save.
 
@@ -84,12 +72,6 @@ See [About Templates](../c-about-design-menu/c-about-templates.md#concept_06EB48
 
 You can change the password that you use to log in. First-time users are assigned a password automatically.
 
-<!-- 
-
-t_changing_your_searchpromote_log_in_password.xml
-
- -->
-
 If you lose or forget your password, click **[!UICONTROL Forgot your password?]** on the login page and follow the instructions to generate a new password.
 
 The following rules and restrictions apply to account passwords:
@@ -120,12 +102,6 @@ See [Viewing your access privileges](../c-about-settings-menu/c-about-my-profile
 
 You can choose to cancel your Adobe login. If you cancel your login, you cannot access this account or any other Adobe account with the displayed login email.
 
-<!-- 
-
-t_cancelling_your_adobe_searchpromote_login.xml
-
- -->
-
 As an account owner, before you can cancel your login, transfer account ownership to another active account user. When this action is complete, you can cancel the login like any other account user.
 
 See [Transferring account ownership to another account user](../c-about-settings-menu/c-about-account-options-menu.md#task_47E3C66CC6374274830DA10171E0CF17).
@@ -146,12 +122,6 @@ See [Removing an account](../c-about-settings-menu/c-about-account-options-menu.
 ## Viewing your access privileges {#task_6107C5BA333B4053A56325AE5E3A1848}
 
 With My Access Privileges you can use roles to restrict access to pages or remove rarely used pages. The access privileges shows what roles you belong to, if any. If you are not currently assigned to one or more roles then you have full unrestricted access.
-
-<!-- 
-
-t_viewing_your_searchpromote_access_privileges.xml
-
- -->
 
 The tree view shows you the pages in the member-center that can be restricted and whether you currently have access to that page as denoted by a check mark.
 

@@ -16,12 +16,6 @@ uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 
 Collections let your customers search specific areas of your website. Depending on whether you implement a drop-down list or a list of check boxes, you can let your customers search a single collection or multiple collections.
 
-<!-- 
-
-r_using_collections_in_search_forms.xml
-
- -->
-
 See also [About Collections](../c-about-settings-menu/c-about-searching-menu.md#concept_62E42ACE53D54EEE9273433B86259127).
 
 The following example shows four different collection names and the associated areas of the website that they cover:
@@ -105,12 +99,6 @@ The `<search-input>` tag outputs an `<input>` tag and includes the `checked` att
 ## Using frames with forms {#reference_82CDDDA1E37042E4849EBF7EA05407C5}
 
 You can configure your framesets to work with site search/merchandising.
-
-<!-- 
-
-r_using_frames_with_sp_forms.xml
-
- -->
 
 To learn more about HTML frames and the HTML frameset element, see the following URL:
 
@@ -196,13 +184,13 @@ If you placed your search form code into the vertical navigation frame as above,
 
 1. To specify the target frame for the results page, add a target and value to the form by changing the following line in the search form code from the following:
 
-`<form method="get" action="https://search.atomz.com/search/">`
+   `<form method="get" action="https://search.atomz.com/search/">`
 
-to the following:
+   to the following:
 
-`<form target="body" method="get" action="https://search.atomz.com/search/">`
+   `<form target="body" method="get" action="https://search.atomz.com/search/">`
 
-Be sure that you put quotes around the form target value.
+   Be sure that you put quotes around the form target value.
 
 When a customer performs a search of your website, the search results appear in the "body" frame of the web page.
 
@@ -280,12 +268,6 @@ Typically, you want to exclude your navigation frames from being indexed with yo
 ## Sample advanced search form {#reference_82E1051918744EBA88A01E9E6AE42C4A}
 
 You can edit the advanced form code to suit your design and content needs, or add or remove additional search parameters.
-
-<!-- 
-
-r_sample_advanced_search_form.xml
-
- -->
 
 Your home page is a good place to insert an advanced search form because many customers expect to find search capability there. You can also create an HTML page that includes the search form and other helpful information, and then link to that page throughout your website.
 
@@ -451,12 +433,6 @@ See [Copying the HTML code of the search form into the...](../c-about-auto-compl
 ## Advanced search form HTML code {#reference_9AAD4A46B68D4D48865508982CB86DB9}
 
 The HTML form code that is used to produce the advanced search form that is show at the top of the Sample advanced search form topic.
-
-<!-- 
-
-r_advanced_search_form_html_code.xml
-
- -->
 
 See [Sample advanced search form](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).
 
@@ -657,12 +633,6 @@ Sound-alike matching
 ## Advanced search form template code {#reference_D762C22E754E462DBEECD88D2C3FA579}
 
 You can add the advanced search form HTML code to your template in such a way that the default choice for any parameter is the same as the previous search.
-
-<!-- 
-
-r_advanced_search_form_template_code.xml
-
- -->
 
 In other words, if a customer clicks the **[!UICONTROL Exact phrase]** radio button, you can ensure that radio button is selected by default when the search results are displayed.
 

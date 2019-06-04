@@ -16,12 +16,6 @@ uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 
 Search form code is provided that you can copy and paste into the HTML of your site ( **[!UICONTROL Design]** > **[!UICONTROL Auto-Complete]** > **[!UICONTROL Form Source]**).
 
-<!-- 
-
-r_search_cgi_parameters.xml
-
- -->
-
 See [Copying the HTML code of the search form into the...](../c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
 You can also set the parameters that are listed either in the search form itself, or from a script. In addition to the parameters that are listed below you can also use the backend search parameters to control search.
@@ -60,12 +54,6 @@ Any time the SEO format is used to send a request, all output links are returned
 ## Backend search CGI parameters {#reference_582E85C3886740C98FE88CA9DF7918E8}
 
 Typically customers interact with a presentation layer called Guided Search. However, it is theoretically possible to skip the Guided Search layer and interact with the backend core search directly using the CGI parameters that are described on this page.
-
-<!-- 
-
-r_backend_search_cgi_parameters.xml
-
- -->
 
 You can select backend search CGI parameters from the following table:
 <table> 

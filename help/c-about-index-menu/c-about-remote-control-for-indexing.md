@@ -57,7 +57,7 @@ or
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sp_a= sp99999999 </span> </p> </td> 
-   <td colname="col2"> <p> Your account number. </p> <p>You can find your account number under <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Account Options </span> &gt; <span class="uicontrol"> Account Settings </span>. </p> </td> 
+   <td colname="col2"> <p> Your account number. </p> <p>You can find your account number under <span class="uicontrol"> <b>Settings</b> </span> &gt; <span class="uicontrol"> <b>Account Options</b> </span> &gt; <span class="uicontrol"> <b>Account Settings</b> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sp_lines= N </span> </p> </td> 
@@ -68,17 +68,17 @@ or
    <td colname="col2"> <p>Lets you specify one of the following indexing operations that you want to run: </p> <p> 
      <ul id="ul_6CA190AC41694BC293FC7C6BABA629FE"> 
       <li id="li_EFC76E31D47E473F9A56B2EBA8A97CA1"> <span class="codeph"> full_index </span> <p>The search robot runs a full index of your website. </p> </li> 
-      <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> incremental_index </span> <p>The search robot runs an incremental index using the configuration that is set under <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Incremental Index </span> &gt; <span class="uicontrol"> Configuration </span>. </p> </li> 
-      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index </span> <p>The search robot runs a vertical update using the configuration that is set under <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Vertical Update </span> &gt; <span class="uicontrol"> Configuration </span>. </p> <p>See <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Vertical Update </a>. </p> </li> 
-      <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index </span> <p>The search robot runs an incremental index using the text file that is specified under <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Scripted Index </span> &gt; <span class="uicontrol"> Configuration </span>. </p> </li> 
+      <li id="li_A9ACE21718804A21B3DA7B84AB6729D3"> <span class="codeph"> incremental_index </span> <p>The search robot runs an incremental index using the configuration that is set under <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Incremental Index</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
+      <li id="li_722FE409AE454AD48ACE95C4CDC7A00B"> <span class="codeph"> vertical_index </span> <p>The search robot runs a vertical update using the configuration that is set under <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Vertical Update</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> <p>See <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Vertical Update</a>. </p> </li> 
+      <li id="li_A40B513CE17043A4925CE3D4DE0B48A4"> <span class="codeph"> script_index </span> <p>The search robot runs an incremental index using the text file that is specified under <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Scripted Index</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
       <li id="li_A0BC7F1373B14393997BAB7690FD3EF7"> <span class="codeph"> full_staged_index </span> <p>The search robot runs a full staged index of your website. </p> </li> 
-      <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> incremental_staged_index </span> <p>The search robot runs an incremental staged index using the configuration that is set under <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Incremental Index </span> &gt; <span class="uicontrol"> Configuration </span>. </p> </li> 
-      <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> vertical_staged_index </span> <p>The search robot runs a vertical staged update using the configuration that is set under <span class="uicontrol"> Index </span> &gt; <span class="uicontrol"> Vertical Update </span> &gt; <span class="uicontrol"> Configuration </span>. </p> </li> 
+      <li id="li_47753E358457443A95B384A278FACA83"> <span class="codeph"> incremental_staged_index </span> <p>The search robot runs an incremental staged index using the configuration that is set under <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Incremental Index</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
+      <li id="li_C8B5F8F1208E438ABEFDF9129A6B14A3"> <span class="codeph"> vertical_staged_index </span> <p>The search robot runs a vertical staged update using the configuration that is set under <span class="uicontrol"> <b>Index</b> </span> &gt; <span class="uicontrol"> <b>Vertical Update</b> </span> &gt; <span class="uicontrol"> <b>Configuration</b></span>. </p> </li> 
      </ul> </p> <p>Note:  To use Vertical Updates, you may need to have it enabled in your account by your Adobe account representative or by Adobe Support. </p> <p>See <a href="../c-about-index-menu/c-about-vertical-updates.md#concept_E65A70C9C2E04804BF24FBE1B3CAD899" format="dita" scope="local"> About Vertical Update </a>. </p> <p>You can append <span class="codeph"> _saved </span> to any of the above <span class="codeph"> sp_operation </span> values to have the search robot attempt to use saved content. For example, you could specify the following: </p> <p> <code class="syntax html"> sp_operation=full_index_saved </code> </p> <p>or </p> <p> <code class="syntax html"> sp_operation=full_staged_index_saved </code> </p> <p>Or, you can append <span class="codeph"> _status </span> to any of the above <span class="codeph"> sp_operation </span> values to request a status report for the current, or most recent, operation. For example, you could specify the following: </p> <p> <code class="syntax html"> sp_operation=full_index_status </code> </p> <p>or </p> <p> <code class="syntax html"> sp_operation=full_staged_index_status </code> </p> <p>and the results are returned as a JSON object. Include <span class="codeph"> sp_lines=N </span> to include N lines of the associated log file. If N is negative, the last N lines are included. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sp_operation= pushlive </span> </p> </td> 
-   <td colname="col2"> <p> Lets you remotely push live a staged index. </p> <p>Any attempt to append <span class="codeph"> _saved </span> to the push live operation is ignored. </p> <p>When you run a <span class="codeph"> pushlive </span> operation an OK, Priority, or Error response text string is returned to the server. You specify these response strings on the <span class="wintitle"> Remote Control </span> page. </p> <p>See <a href="../c-about-index-menu/c-about-remote-control-for-indexing.md#task_57C296258404448DA7A5ADC9B7232391" format="dita" scope="local"> Configuring Remote Control for indexing </a>. </p> <p>If you push live when there is no staged index, nothing happens and the OK response string is returned. </p> </td> 
+   <td colname="col2"> <p> Lets you remotely push live a staged index. </p> <p>Any attempt to append <span class="codeph"> _saved </span> to the push live operation is ignored. </p> <p>When you run a <span class="codeph"> pushlive </span> operation an OK, Priority, or Error response text string is returned to the server. You specify these response strings on the <span class="wintitle"> Remote Control </span> page. </p> <p>See <a href="../c-about-index-menu/c-about-remote-control-for-indexing.md#task_57C296258404448DA7A5ADC9B7232391" format="dita" scope="local"> Configuring Remote Control for indexing</a>. </p> <p>If you push live when there is no staged index, nothing happens and the OK response string is returned. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> sp_password= xxxxxx </span> </p> </td> 
@@ -216,22 +216,10 @@ Note that there is no `offset` value returned here, as this operation finished a
 
 Whenever your website changes, you can use Remote Control to run a script or program from your server, requesting that the search robot run an index.
 
-<!-- 
-
-t_configuring_remote_control_for_indexing.xml
-
- -->
-
 **To configure Remote Control for indexing** 
 
 1. On the product menu, click **[!UICONTROL Index]** > **[!UICONTROL Remote Control]**.
 1. On the [!DNL Remote Control] page, set each configuration field option to be able to submit an indexing request from your server automatically to index your website.
-
-   <!-- 
-   
-   r_remote_control_configuration_options.xml
-   
-   -->
 
     <table> 
     <thead> 

@@ -34,12 +34,6 @@ See also [Running an incremental index of a live or staged website...](../c-abou
 
 You can use [!DNL Regenerate Index] to update your website's index without the need to recrawl your site.
 
-<!-- 
-
-t_regenerating_the_index_of_a_live_or_staged_website.xml
-
- -->
-
 **To regenerate the index of a live or staged website** 
 
 1. On the product menu, do one of the following:
@@ -60,12 +54,6 @@ t_regenerating_the_index_of_a_live_or_staged_website.xml
 ## Viewing the regenerated index log of a live or staged website {#task_61CE8F9E7BF84BA89A8D482B2106BB15}
 
 When a live index regeneration or a staged index regeneration is complete, you can view its associated log to troubleshoot any errors that occurred.
-
-<!-- 
-
-t_viewing_the_regenerated_index_log_of_a_live_or_staged_website.xml
-
- -->
 
 You cannot export logs, nor save them. However, the log remains available for viewing until the new index occurs.
 

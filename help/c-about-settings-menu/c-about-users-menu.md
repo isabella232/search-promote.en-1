@@ -17,12 +17,6 @@ Use the Users menu to view and add users, view and add roles, or change role mem
 
 You can use the [!DNL View Users] page to view all existing account users. You can also remove account users (except for the account owner).
 
-<!-- 
-
-t_viewing_account_users.xml
-
- -->
-
 Only account users with **[!UICONTROL User Admin]** checked can remove users or modify user roles.
 
 Before you can remove an account owner, transfer the account ownership to another user.
@@ -48,12 +42,6 @@ See [Transferring account ownership to another account user](../c-about-settings
 ## Adding account users {#task_176C463A0C0849B29245C28EC9876326}
 
 You can use the [!DNL Add Users] page to add new account users to site search/merchandising.
-
-<!-- 
-
-t_adding_account_users.xml
-
- -->
 
 Only the new user's e-mail address is required. When the new user is added to the account, the new user is sent the account information.
 
@@ -85,12 +73,6 @@ See [Configuring role membership](../c-about-settings-menu/c-about-users-menu.md
 
 You can use the [!DNL View Roles] page to show all the roles that currently exist for the currently logged in account.
 
-<!-- 
-
-t_viewing_the_roles_that_exist_for_an_account.xml
-
- -->
-
 If no roles exist for the account, the user interface informs you of this issue. You can use Add Roles to create and add a role.
 
 See [Adding a new role to an account](../c-about-settings-menu/c-about-users-menu.md#task_E148D02275DE4F899BA79736A29895AB).
@@ -108,23 +90,17 @@ Removing a role does not delete account users that are assigned to it.
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do any of the following:
 
-* Under the [!DNL Role Name] column header in the table, click a hyperlinked role name. The [!DNL Role Membership] page is opened where you can assign users to roles or you can unassign users from roles.
+      * Under the [!DNL Role Name] column header in the table, click a hyperlinked role name. The [!DNL Role Membership] page is opened where you can assign users to roles or you can unassign users from roles.
 
-  See [Configuring role membership](../c-about-settings-menu/c-about-users-menu.md#task_DAC596AAFFCE4EF0BE68CEEF7E365414). 
+         See [Configuring role membership](../c-about-settings-menu/c-about-users-menu.md#task_DAC596AAFFCE4EF0BE68CEEF7E365414). 
 
-* Under the [!DNL Edit] column header in the table, click the pencil icon. The [!DNL Edit Role] page is opened where you can rename the role, change the description, and more.
+      * Under the [!DNL Edit] column header in the table, click the pencil icon. The [!DNL Edit Role] page is opened where you can rename the role, change the description, and more.
 
-  See [Editing a role](../c-about-settings-menu/c-about-users-menu.md#task_13875C2464034CE387285640412E1B59).
+         See [Editing a role](../c-about-settings-menu/c-about-users-menu.md#task_13875C2464034CE387285640412E1B59).
 
 ## Editing a role {#task_13875C2464034CE387285640412E1B59}
 
 You can rename a existing role, change its description, and select just the areas of the user interface to which you want to give the role access.
-
-<!-- 
-
-t_editing_a_role.xml
-
- -->
 
 See [Adding a new role to an account](../c-about-settings-menu/c-about-users-menu.md#task_E148D02275DE4F899BA79736A29895AB).
 
@@ -147,12 +123,6 @@ See [Adding a new role to an account](../c-about-settings-menu/c-about-users-men
 ## Adding a new role to an account {#task_E148D02275DE4F899BA79736A29895AB}
 
 You can use the [!DNL Add Roles] page to make the assignment of permissions to account users easier and faster.
-
-<!-- 
-
-t_adding_a_new_role_to_an_account.xml
-
- -->
 
 For example, you could individually grant each member of your Public Relations department access to site search/merchandising tasks. However, it is much more efficient to add these users to a "PR" role and then assign the tasks to the entire role.
 
@@ -179,12 +149,6 @@ Under the [!DNL Roles] column header in the table, you can optionally click a hy
 ## Configuring role membership {#task_DAC596AAFFCE4EF0BE68CEEF7E365414}
 
 You can use the [!DNL Role Membership] page to add users to a role or remove users from a role.
-
-<!-- 
-
-t_configuring_role_membership.xml
-
- -->
 
 You can also manage individual user group memberships when you view roles by user.
 

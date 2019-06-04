@@ -17,22 +17,10 @@ Use the Account Options menu to update your account settings, set merchandising 
 
 Manage account settings such as the website name and address, time zone, and more. Or, view your account number.
 
-<!-- 
-
-t_configuring_your_searchpromote_account_settings.xml
-
- -->
-
 **To configure your account settings** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Account Settings]**.
 1. On the [!DNL Account Settings] page, set the options that you want.
-
-   <!-- 
-   
-   r_account_settings_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -79,20 +67,14 @@ t_configuring_your_searchpromote_account_settings.xml
 
 You can configure the integration of site search/merchandising with Adobe CQ5.
 
-<!-- 
-
-t_configuring_integration_with_adobe_cq.xml
-
- -->
-
 **To configure integration with Adobe CQ5** 
 
 1. Obtain your Member ID and Account ID by doing the following:
 
-* Login to your site search/merchandising account. 
-* In the URL path, copy the member ID and the account ID.
+    * Login to your site search/merchandising account. 
+    * In the URL path, copy the member ID and the account ID.
 
-  For example, if the URL path to your account were `https://searchandpromote.mycompany.com/px/home/?sp_id=00123a4b-sp1234a5b6`, the member ID would be `00123a4b` and the account ID would be `sp1234a5b6`.
+      For example, if the URL path to your account were `https://searchandpromote.mycompany.com/px/home/?sp_id=00123a4b-sp1234a5b6`, the member ID would be `00123a4b` and the account ID would be `sp1234a5b6`.
 
 1. In Adobe CQ5, use the Cloud Services tab to create your site search/merchandising configuration.
 
@@ -102,22 +84,10 @@ t_configuring_integration_with_adobe_cq.xml
 
 Manage Merchandising preferences such as the default rule builder and default search term.
 
-<!-- 
-
-t_configuring_merchandising_preferences.xml
-
- -->
-
 **To configure Merchandising preferences** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Merchandising Preferences]**.
 1. On the [!DNL Merchandising Preferences] page, set the options that you want.
-
-   <!-- 
-   
-   r_merchandising_preferences_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -160,12 +130,6 @@ t_configuring_merchandising_preferences.xml
 
 Link your site search/merchandising account to Adobe Dynamic Media Classic so you can easily add banner ads to your website using uploaded digital assets from Adobe Scene7.
 
-<!-- 
-
-t_configuring_your_scene7_account.xml
-
- -->
-
 See [About Banners](../c-about-design-menu/c-about-banners.md#concept_5BBE01FEC6134393B43CC917C8CC64DA).
 
 See [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c-about-banners.md#task_AD1E0C00A9E04B1FA819EB93288786B3).
@@ -174,12 +138,6 @@ See [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Scene7 Configuration]**.
 1. On the [!DNL Scene7 Configuration] page, set the options that you want.
-
-   <!-- 
-   
-   r_scene7_configuration_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -223,22 +181,10 @@ See [Adding a banner using Adobe Dynamic Media Classic](../c-about-design-menu/c
 
 If you use [!DNL Adobe Analytics] for tracking site visitors, you can use [!DNL Adobe Analytics Redirector] in site search/merchandising to track all HTTP redirects with [!DNL Adobe Analytics].
 
-<!-- 
-
-t_configuring_adobe_analytics_redirector.xml
-
- -->
-
 **To configure Adobe Analytics Redirector** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Adobe Analytics Redirector]**.
 1. On the [!DNL Adobe Analytics Redirector] page, set the options that you want.
-
-   <!-- 
-   
-   r_adobe_analytics_redirector_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -300,22 +246,10 @@ t_configuring_adobe_analytics_redirector.xml
 
 Manage root files in the root folder of your website.
 
-<!-- 
-
-t_configuring_root_files.xml
-
- -->
-
 **To configure root files** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Account Options]** > **[!UICONTROL Root Files]**.
 1. On the [!DNL Root Files] page, browse to the root files you want to upload.
-
-   <!-- 
-   
-   r_root_file_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -362,12 +296,6 @@ t_configuring_root_files.xml
 
 As an account owner, if you intend to cancel your login, you have to first transfer ownership to another active account user. You can use [!DNL Transfer Ownership] to accomplish this task.
 
-<!-- 
-
-t_transferring_account_ownership_to_another_account_user.xml
-
- -->
-
 You can transfer ownership to any existing site search/merchandising account user.
 
 When transfer of ownership is complete, the new account owner receives an e-mail notification, and the former owner is relieved of the restrictions and responsibilities of that position.
@@ -390,12 +318,6 @@ See [Removing yourself from an account](../c-about-settings-menu/c-about-account
 
 You can remove an account entirely from site search/merchandising. When you do so, you and any other users of your account no longer have access to it.
 
-<!-- 
-
-t_removing_an_account.xml
-
- -->
-
 When you remove your account, it can no longer be used to index or search your live site. Also,
 
 To allow others users to continue using this account, you can transfer ownership to a different user and then remove yourself as a user of the account.
@@ -417,12 +339,6 @@ See [Canceling your login](../c-about-settings-menu/c-about-my-profile-menu.md#t
 ## Removing yourself from an account {#task_C56F5AB87B664BAAAC2FD2F15003E73F}
 
 You can remove yourself from a site search/merchandising account.
-
-<!-- 
-
-t_removing_yourself_from_an_account.xml
-
- -->
 
 When you remove yourself from an account, you can no longer access it and you cannot edit account settings or index your site with it.
 
