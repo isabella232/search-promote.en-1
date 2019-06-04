@@ -17,12 +17,6 @@ Use the Filtering menu to use scripts that change the content of a web document 
 
 You can use [!DNL Filtering Script] to change the content of a Web document before it is indexed.
 
-<!-- 
-
-c_about_filtering_script.xml
-
- -->
-
 You can insert HTML tags, remove irrelevant content, and even create new HTML metadata based on a document's URL, MIME type, and existing content. The filtering script is a Perl script, which provides powerful string handling and the flexibility of regular expression matching. You use the filtering script with an initialization script, termination script, URL masks script, and test URL.
 
 The filtering script is run each time a document is read from your website. The script runs as a standard filter, In other words, reads data from STDIN, transforms that data in some way, and writes the results to STDOUT. You can use the filtering script to print status messages from the filtering script to the index log. You either printing the messages to STDERR, or by way of the `_search_debug_log()` subroutine.
@@ -134,7 +128,7 @@ You can use the following variables in any filtering script:
 |`$main::search_syntax_check`|The value reflects the use of the "Check Syntax" button. If clicked, the value is 1 (one); otherwise, its value is 0 (zero).  Deprecated form: `$main::ws_syntax_check`|
 |`$main::search_last_mod_date`|If provided by the web server, this value contains the Epoch representation (seconds since January 1, 1970) of the document's last-modified date.  You can format this value by using the Perl localtime() library call.|
 
-## Quick tips {#section_89A5C16911744AF98E232DF608C6A1F5}
+### Quick tips {#section_89A5C16911744AF98E232DF608C6A1F5}
 
 * All global variables are prefaced with the namespace "main::": `$main::doc_count = 0;` 
 * All local variables are declared with "my": `my $i = 0;` 
@@ -165,12 +159,6 @@ You can use the following variables in any filtering script:
 
 The filtering script is a Perl script that is run for each document that is downloaded from your website.
 
-<!-- 
-
-t_adding_a_filtering_script.xml
-
- -->
-
 You use the filtering script in conjunction with an initialization script, termination script, and URL masks script.
 
 Be sure that you rebuild your site index so that the results of your filtering script are visible to your customers.
@@ -183,12 +171,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 1. (Optional) On the [!DNL Filtering Script] page, in the [!DNL Test URL] field, enter the URL of a document on your website.
 
    Click a testing option to see changes to the raw HTML text.
-
-   <!-- 
-   
-   r_filtering_script_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -321,12 +303,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 
 You can use [!DNL Initialization Script] to change the content of a Web document before it is indexed.
 
-<!-- 
-
-c_about_initialization_script.xml
-
- -->
-
 You can insert HTML tags, remove irrelevant content, and even create new HTML metadata based on a document's URL, MIME type, and existing content. The initialization script is a Perl script, which provides powerful string handling and the flexibility of regular expression matching. You use the initialization script with a filtering script, termination script, URL masks script, and test URL.
 
 The initialization script is run once before indexing begins. Use this script to initialize any global variables and subroutines that are used by your filtering script. You can use the initialization script to print status messages from the filtering script to the index log. You either print the messages to STDERR, or by way of the `_search_debug_log()` subroutine.
@@ -410,7 +386,7 @@ $main::doc_count = 0;
 
 See [Global Variables](#global-variables)
 
-## Quick tips {#section_A2CC0302CAF14135BF8EF6171FB184F1}
+### Quick tips {#section_A2CC0302CAF14135BF8EF6171FB184F1}
 
 * All global variables are prefaced with the namespace "main::": `$main::doc_count = 0;` 
 * All local variables are declared with "my": `my $i = 0;` 
@@ -484,12 +460,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 ## About Termination Script {#concept_AAD6B3B0E7124874AD0947096FC42F47}
 
 You can use [!DNL Termination Script] to change the content of a Web document before it is indexed.
-
-<!-- 
-
-c_about_termination_script.xml
-
- -->
 
 You can insert HTML tags, remove irrelevant content, and even create new HTML metadata based on a document's URL, MIME type, and existing content. The initialization script is a Perl script, which provides powerful string handling and the flexibility of regular expression matching. You use the termination script with an initialization script, filtering script, termination script, URL masks script, and test URL.
 
@@ -570,7 +540,7 @@ _search_debug_log("Total docs: " . $main::doc_count);
 
 See [Global Variables](#global-variables)
 
-## Quick tips {#section_5790EA7ACAC046CBA01F759F88E2460F}
+### Quick tips {#section_5790EA7ACAC046CBA01F759F88E2460F}
 
 * All global variables are prefaced with the namespace "main::": `$main::doc_count = 0;` 
 * All local variables are declared with "my": `my $i = 0;` 
@@ -600,12 +570,6 @@ See [Global Variables](#global-variables)
 ## Adding a termination script {#task_F0CFB412871642CFBC88132889C5B6F9}
 
 The termination script is a Perl script that is run once after all documents are indexed.
-
-<!-- 
-
-t_adding_termination_script.xml
-
- -->
 
 You use the termination script in conjunction with a filtering script, termination script, and URL masks script.
 
@@ -651,12 +615,6 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
 
 With filtering, you can change the content of a web document before it is indexed. You can insert HTML tags, remove irrelevant content, and even create new HTML metadata based on a document's URL, MIME type, and existing content. The URL masks script is a Perl script that provides powerful string handling and the flexibility of regular expression matching.
 
-<!-- 
-
-c_about_url_masks_script.xml
-
- -->
-
 To change the contents of documents that exist only in a specific portion of your website, you can specify include URL masks, exclude URL masks, or both, to define the appropriate pages.
 
 If you want to change only the documents under `"https://www.mysite.com/faqs/"`, you can use the following set of masks:
@@ -680,12 +638,6 @@ Scripted URL masks are considered in the order that you entered them in the [!DN
 ## Adding a URL mask script {#task_D18F2A496C1C45C997B5DA650AAF5D59}
 
 Specify URL include masks and exclude masks to change the contents of documents that exist only in a specific portion of your website.
-
-<!-- 
-
-t_adding_a_url_mask_script.xml
-
- -->
 
 Before the effects of the URL Masks settings are visible to visitors, rebuild your site index.
 
@@ -723,12 +675,6 @@ Before the effects of the URL Masks settings are visible to visitors, rebuild yo
 
 Lets you select which content types that you want filtered for this account.
 
-<!-- 
-
-c_about_content_types_in_filtering.xml
-
- -->
-
 The text found within the selected content types is converted to HTML and then processed using the script that is specified in Filtering Script.
 
 See [About Filtering Script](../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47).
@@ -749,12 +695,6 @@ Before the effects of the Content Types settings or changes to the settings are 
 ## Selecting the content types that are filtered {#task_C46081FA425A43EC8FDE6EA4A52A170A}
 
 Select the content types that you want to pass to the script that is specified in Filtering Script.
-
-<!-- 
-
-t_selecting_the_content_types_that_are_filtered.xml
-
- -->
 
 See [About Filtering Script](../c-about-settings-menu/c-about-filtering-menu.md#concept_E56B73D625854AB2A899EF2D56CFCB47).
 

@@ -17,22 +17,10 @@ Use the Adobe Analytics menu to setup Adobe Analytics metrics authentication, ma
 
 To incorporate Adobe Analytics metrics into your site search/merchandising rankings, you must first obtain a Adobe Analytics Web Services login. After you obtain the login information, you can use it to set up Adobe Analytics authentication in site search/merchandising.
 
-<!-- 
-
-t_setting_up_adobe_analytics_authentication.xml
-
- -->
-
 **To set up Adobe Analytics metrics authentication** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Authentication]**.
 1. On the [!DNL Setup Adobe Analytics Metrics Authentication] page, specify the information requested in each field.
-
-   <!-- 
-   
-   r_setup_adobe_analytics_metrics_authentication_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -48,11 +36,11 @@ t_setting_up_adobe_analytics_authentication.xml
       </tr> 
       <tr> 
       <td colname="col1"> <p>Web Services Username </p> </td> 
-      <td colname="col2"> <p>The Web Services Username that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Admin Console </span> &gt; <span class="uicontrol"> Company </span> &gt; <span class="uicontrol"> Web Services </span>. The information is in the API Access Information table. </p> </td> 
+      <td colname="col2"> <p>The Web Services Username that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> <b>Admin</b> </span> &gt; <span class="uicontrol"> <b>Admin Console</b> </span> &gt; <span class="uicontrol"> <b>Company</b> </span> &gt; <span class="uicontrol"> <b>Web Services</b> </span>. The information is in the API Access Information table. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Web Services Shared Secret </p> </td> 
-      <td colname="col2"> <p>The Web Services Shared Secret that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Admin Console </span> &gt; <span class="uicontrol"> Company </span> &gt; <span class="uicontrol"> Web Services </span>. The information is in the API Access Information table. </p> </td> 
+      <td colname="col2"> <p>The Web Services Shared Secret that is associated with your Adobe Analytics account. </p> <p>You can obtain this information in Adobe Analytics. On the Adobe Analytics menu bar, click <span class="uicontrol"> <b>Admin</b> </span> &gt; <span class="uicontrol"> <b>Admin Console</b> </span> &gt; <span class="uicontrol"> <b>Company</b> </span> &gt; <span class="uicontrol"> <b>Web Services</b> </span>. The information is in the API Access Information table. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -76,12 +64,6 @@ t_setting_up_adobe_analytics_authentication.xml
 
 To use Adobe Analytics Report Suite data within site search/merchandising, you must first create copies of the Adobe Analytics data in your site search/merchandising account.
 
-<!-- 
-
-c_about_adobe_analytics_report_suites.xml
-
- -->
-
 You can create new Adobe Analytics Report Suite definitions, or you can view or modify your existing Adobe Analytics Report Suites and associated metrics.
 
 The first time you access Adobe Analytics from within site search/merchandising, a list of your company's available Report Suites are downloaded and cached. If new Report Suites have recently been added, or existing ones removed, you can refresh the report suite list to re-download the list of Report Suites. 
@@ -89,12 +71,6 @@ The first time you access Adobe Analytics from within site search/merchandising,
 ## Adding an Adobe Analytics Report Suite {#task_6DE17305EA7146DA8C30FF8FDF68A3C0}
 
 You can select an Adobe Analytics Report Suite on which to base your site search/merchandising Ranking rules.
-
-<!-- 
-
-t_adding_a_adobe_analytics_report_suite.xml
-
- -->
 
 The list you can select from should correspond to the Report Suites that are available from within your Adobe Analytics account. The Report Suite you select determines the metrics that are available for use within your site search/merchandising Ranking Rules.
 
@@ -115,12 +91,6 @@ See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-
 
 To incorporate Adobe Analytics metrics into your Ranking Rules in site search/merchandising, you select one or more of the metrics that are associated with the chosen Report Suite. Then you configure the options that are used to fetch metric data by way of the Adobe Analytics Web Service.
 
-<!-- 
-
-t_editing_the_adobe_analytics_metrics_of_a_report_suite.xml
-
- -->
-
 See [Adding an Adobe Analytics Report Suite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0).
 
 See [Configuring advanced Adobe Analytics options](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_C0FF2D69F59D44D8943A7831ED7FEC19).
@@ -130,12 +100,6 @@ See [Configuring advanced Adobe Analytics options](../c-about-settings-menu/c-ab
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
 1. On the [!DNL Adobe Analytics Report Suites] page, under the **[!UICONTROL Actions]** column, click **[!UICONTROL Edit]** for the Report Suite whose metrics you want to configure.
 1. On the [!DNL Edit Adobe Analytics Metrics] page, set the metrics that are required. Metrics that do not have an asterisk (&#42;) next to the metric name, are optional.
-
-   <!-- 
-   
-   r_edit_adobe_analytics_metrics_options.xml
-   
-   -->
 
     <table> 
     <thead> 
@@ -159,19 +123,19 @@ See [Configuring advanced Adobe Analytics options](../c-about-settings-menu/c-ab
       </tr> 
       <tr> 
       <td colname="col1"> <p>Cross-reference Field Name </p> </td> 
-      <td colname="col2"> <p>Specifies a metadata field whose values are used as look-up "keys" into the Report Suite's data. </p> <p>If no value is selected ("-- None --"), this Report Suite's data is not available for use in Ranking calculations ( <span class="uicontrol"> Rules </span> &gt; <span class="uicontrol"> Ranking Rules </span> &gt; <span class="uicontrol"> Edit Rules </span>). </p> <p>When you select a value, this field's values are used to cross-reference site search/merchandising documents with this Report Suite's Adobe Analytics data, using the selected Report Type value that you set earlier. </p> </td> 
+      <td colname="col2"> <p>Specifies a metadata field whose values are used as look-up "keys" into the Report Suite's data. </p> <p>If no value is selected ("-- None --"), this Report Suite's data is not available for use in Ranking calculations ( <span class="uicontrol"> <b>Rules</b> </span> &gt; <span class="uicontrol"> <b>Ranking Rules</b> </span> &gt; <span class="uicontrol"> <b>Edit Rules</b> </span>). </p> <p>When you select a value, this field's values are used to cross-reference site search/merchandising documents with this Report Suite's Adobe Analytics data, using the selected Report Type value that you set earlier. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Search Terms Report </p> </td> 
-      <td colname="col2"> <p>Gives you access to create business rules and simulate search terms from the <b>Stage Adobe Analytics Data Preview</b> page. </p> <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0" type="task" format="dita" scope="local"> Previewing Adobe Analytics Data </a>. </p> <p>A pull-down menu appears on every row that includes two options: <b>Simulate Search Term</b> and <b>Create New Business Rule</b>. </p> <p>Both options use data from the Report Type as the search terms. Therefore, this feature only makes sense if the Report Type represents search terms. </p> </td> 
+      <td colname="col2"> <p>Gives you access to create business rules and simulate search terms from the <b>Stage Adobe Analytics Data Preview</b> page. </p> <p>See <a href="../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0" type="task" format="dita" scope="local">Previewing Adobe Analytics Data</a>. </p> <p>A pull-down menu appears on every row that includes two options: <b>Simulate Search Term</b> and <b>Create New Business Rule</b>. </p> <p>Both options use data from the Report Type as the search terms. Therefore, this feature only makes sense if the Report Type represents search terms. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Metrics </p> </td> 
-      <td colname="col2"> <p>Identifies the metric values that you want to download and use within your site search/merchandising Ranking Rules. </p> <p>The metrics that you configure here appear as choices on the <span class="uicontrol"> Rules </span> &gt; <span class="uicontrol"> Ranking Rules </span> &gt; <span class="uicontrol"> Edit Rules </span> member center pages, when the rule's Data Type is set to <span class="uicontrol"> Adobe Analytics Metric (Number) </span>. The choices show a combination of the Report Suite names or Report Suite View Names, if specified, and the individual metric names. </p> <p>This metric is required. </p> </td> 
+      <td colname="col2"> <p>Identifies the metric values that you want to download and use within your site search/merchandising Ranking Rules. </p> <p>The metrics that you configure here appear as choices on the <span class="uicontrol"> <b>Rules</b> </span> &gt; <span class="uicontrol"> <b>Ranking Rules</b> </span> &gt; <span class="uicontrol"> <b>Edit Rules</b> </span> member center pages, when the rule's Data Type is set to <span class="uicontrol"> Adobe Analytics Metric (Number) </span>. The choices show a combination of the Report Suite names or Report Suite View Names, if specified, and the individual metric names. </p> <p>This metric is required. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Minimum Metric Value </p> </td> 
-      <td colname="col2"> <p>Lets you enter a nonzero value to specify a minimum value for the metric. </p> <p>If blank, or zero, all values for the metric are downloaded; otherwise, the download for this metric stops when the minimum metric value is passed. </p> <p>Adobe Analytics metrics are retrieved in descending order. </p> <p>Click <span class="uicontrol"> + </span> to add additional metric definitions; click <span class="uicontrol"> - </span> to remove metric definitions that you no longer need or want. </p> </td> 
+      <td colname="col2"> <p>Lets you enter a nonzero value to specify a minimum value for the metric. </p> <p>If blank, or zero, all values for the metric are downloaded; otherwise, the download for this metric stops when the minimum metric value is passed. </p> <p>Adobe Analytics metrics are retrieved in descending order. </p> <p>Click <span class="uicontrol"> <b>+</b> </span> to add additional metric definitions; click <span class="uicontrol"> <b>-</b> </span> to remove metric definitions that you no longer need or want. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Adobe Analytics Metric Aggregation Period (Days) </p> </td> 
@@ -206,12 +170,6 @@ See [Configuring advanced Adobe Analytics options](../c-about-settings-menu/c-ab
 
 You can use Delete to remove a Report Suite from the [!DNL Adobe Analytics Report Suites] page. Deleting a Report Suite only removes the copy of the data from the site search/merchandising servers; it does not impact the data on Adobe Analytics systems.
 
-<!-- 
-
-t_deleting_a_adobe_analytics_report_suite.xml
-
- -->
-
 **To delete an Adobe Analytics Report Suite** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**.
@@ -221,12 +179,6 @@ t_deleting_a_adobe_analytics_report_suite.xml
 ## Previewing Adobe Analytics Data {#task_735CDCC1D8174B7B9F5B8E0AFA5F0CA0}
 
 You can use Preview to view your most recently loaded Adobe Analytics metrics.
-
-<!-- 
-
-t_previewing_adobe_analytics_data.xml
-
- -->
 
 The Row column in the table shows the number for each row of metric data, indicating the original order that the Adobe Analytics metrics were loaded.
 
@@ -247,28 +199,22 @@ If the table was designated as a search term report, a small triangle appears in
 
 1. On the product menu, do one of the following:
 
-* Click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**. On the [!DNL Adobe Analytics Report Suites] page, under the [!DNL Actions] column, click **[!UICONTROL Preview]** for the Report Suite whose downloaded data you want to view. 
+    * Click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Metrics]**. On the [!DNL Adobe Analytics Report Suites] page, under the [!DNL Actions] column, click **[!UICONTROL Preview]** for the Report Suite whose downloaded data you want to view. 
 
-* Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Reports]**. On the [!DNL Adobe Analytics Terms Report] page, under the [!DNL Actions] column, click **[!UICONTROL Preview]** for the Report Suite whose downloaded data you want to view.
+    * Click **[!UICONTROL Reports]** > **[!UICONTROL Adobe Analytics Terms Reports]**. On the [!DNL Adobe Analytics Terms Report] page, under the [!DNL Actions] column, click **[!UICONTROL Preview]** for the Report Suite whose downloaded data you want to view.
 
 1. On the [!DNL Adobe Analytics Data Preview] page, use the navigation and viewing options at the top and bottom of the page to view the data.
 
    Click any column heading in the table to sort the data in ascending or descending order. 
 1. Do any of the following:
 
-    * Click **[!UICONTROL Download to Desktop]** to download and save the table as a [!DNL .xlt] file. 
+    * Click **[!UICONTROL Download to Desktop]** to download and save the table as a `.xlt` file. 
     
     * Close the page when you are finish previewing the Adobe Analytics data and return to the previously viewed page.
 
 ## Viewing the log from the most recent Adobe Analytics data load {#task_9C7D6E34BB6C4A40B7CA3EE36ACB0837}
 
 You can use View Log to examine the Adobe Analytics data log file of the most recent download process. You can also use the log view to monitor a running download.
-
-<!-- 
-
-t_viewing_the_log_from_the_most_recent_adobe_analytics_data_load.xml
-
- -->
 
 See [Loading Adobe Analytics data](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_2F3C55189B0A4049AB2113F2291CC181).
 
@@ -282,12 +228,6 @@ See [Loading Adobe Analytics data](../c-about-settings-menu/c-about-adobe-analyt
 ## Loading Adobe Analytics data {#task_2F3C55189B0A4049AB2113F2291CC181}
 
 You can download the configured Adobe Analytics Report Suite data into site search/merchandising.
-
-<!-- 
-
-t_loading_adobe_analytics_data_from_searchpromote.xml
-
- -->
 
 The Data Load page shows the status of your last Adobe Analytics Data Load operation with the following information:  
 
@@ -326,7 +266,7 @@ The Data Load page shows the status of your last Adobe Analytics Data Load opera
 
     * Click **[!UICONTROL Start Load]** to start the load operation.
 
-      During a data load operation, the**Progress** row provides information on its progress.
+      During a data load operation, the **Progress** row provides information on its progress.
 
     * Click **[!UICONTROL Stop Load]** to stop the load operation.
 
@@ -335,12 +275,6 @@ The Data Load page shows the status of your last Adobe Analytics Data Load opera
 ## Refreshing the Report Suite list {#task_EA6215D438CA4185B106657D9712ED34}
 
 The first time you access Adobe Analytics from the site search/merchandising user interface, a list of your company's available Adobe Analytics Report Suites are downloaded and cached. If new Report Suites were recently added, or existing ones deleted, you can use Refresh Report Suite List to update the currently displayed list in site search/merchandising.
-
-<!-- 
-
-t_refreshing_the_report_suite_list.xml
-
- -->
 
 See [Adding an Adobe Analytics Report Suite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_6DE17305EA7146DA8C30FF8FDF68A3C0).
 
@@ -355,12 +289,6 @@ See [Deleting an Adobe Analytics Report Suite](../c-about-settings-menu/c-about-
 
 You can use [!DNL Advanced Adobe Analytics Options] to control settings that are intended to help you fine tune the behavior of the Adobe Analytics Report Suite download process.
 
-<!-- 
-
-t_configuring_advanced_adobe_analytics_options.xml
-
- -->
-
 See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_360904CCBBB140238ADA036C3CC07664).
 
 **To configure advanced Adobe Analytics options** 
@@ -368,24 +296,24 @@ See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Advanced Options]**.
 1. On the [!DNL Advanced Adobe Analytics Options] page, set the following options:
 
-<table> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>Option </p> </th> 
-   <th colname="col2" class="entry"> <p>Description </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Maximum Rows, Any Metric </p> </td> 
-   <td colname="col2"> <p>An optimization setting that prevents the download of too much Adobe Analytics data. </p> <p>If you set this option to a nonzero value, the Adobe Analytics data fetch is stopped when the total number of rows fetched for each metric exceeds the specified value. </p> <p>The default value is 0; no maximum value applied. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Metric Repeating Fetch Size (rows) </p> </td> 
-   <td colname="col2"> <p> Controls the number of Adobe Analytics metric values to fetch at a time. The metric data rows are repeatedly fetched until all the data is retrieved or until the maximum rows limit is reached. </p> <p>Normally you do not need to change this setting. However, you may find it helpful to optimize the metric download phase of a full re-index of your site. </p> <p>The default value is 5000. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+    <table> 
+    <thead> 
+      <tr> 
+      <th colname="col1" class="entry"> <p>Option </p> </th> 
+      <th colname="col2" class="entry"> <p>Description </p> </th> 
+      </tr> 
+    </thead>
+    <tbody> 
+      <tr> 
+      <td colname="col1"> <p>Maximum Rows, Any Metric </p> </td> 
+      <td colname="col2"> <p>An optimization setting that prevents the download of too much Adobe Analytics data. </p> <p>If you set this option to a nonzero value, the Adobe Analytics data fetch is stopped when the total number of rows fetched for each metric exceeds the specified value. </p> <p>The default value is 0; no maximum value applied. </p> </td> 
+      </tr> 
+      <tr> 
+      <td colname="col1"> <p>Metric Repeating Fetch Size (rows) </p> </td> 
+      <td colname="col2"> <p> Controls the number of Adobe Analytics metric values to fetch at a time. The metric data rows are repeatedly fetched until all the data is retrieved or until the maximum rows limit is reached. </p> <p>Normally you do not need to change this setting. However, you may find it helpful to optimize the metric download phase of a full re-index of your site. </p> <p>The default value is 5000. </p> </td> 
+      </tr> 
+    </tbody> 
+    </table>
 
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do one of the following:
@@ -405,12 +333,6 @@ See [Editing the Adobe Analytics metrics of a Report Suite](../c-about-settings-
 ## About SAINT Classification Feeds {#concept_C55609DA24914BBC92CD90ED0259199D}
 
 You can use Adobe Analytics SAINT to enhance your analytics reports through the acceptance of tabular data from outside sources. For example, you can use site search/merchandising to retrieve the data from its own indexes and export that data to Adobe Analytics.
-
-<!-- 
-
-c_about_saint_classification_feeds.xml
-
- -->
 
 To successfully use the Adobe Analytics SAINT feature in site search/merchandising be aware of the following requirements:
 
@@ -433,12 +355,6 @@ Before you create a feed, review the following questions and information so that
 ## Creating an Adobe Analytics SAINT feed {#task_914B5AB821E84627953D8EF9339A7DD0}
 
 You can use Adobe Analytics SAINT to enhance Adobe Analytics reports through the acceptance of tabular data from outside sources.
-
-<!-- 
-
-t_creating_a_adobe_analytics_saint_feed.xml
-
- -->
 
 For example, you can use site search/merchandising to retrieve data from its own indexes and export that data to Adobe Analytics.
 
@@ -467,12 +383,6 @@ For example, you can use site search/merchandising to retrieve data from its own
 
 You can edit all aspects of an existing SAINT feed that you have created.
 
-<!-- 
-
-t_editing_a_adobe_analytics_saint_feed.xml
-
- -->
-
 **To edit an Adobe Analytics SAINT feed** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
@@ -498,12 +408,6 @@ t_editing_a_adobe_analytics_saint_feed.xml
 
 You can delete an existing Adobe Analytics SAINT feed that you no longer need or use.
 
-<!-- 
-
-t_deleting_a_adobe_analytics_saint_feed.xml
-
- -->
-
 **To delete an Adobe Analytics SAINT feed** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Adobe Analytics]** > **[!UICONTROL SAINT Classification Feeds]**.
@@ -513,12 +417,6 @@ t_deleting_a_adobe_analytics_saint_feed.xml
 ## Viewing an Adobe Analytics SAINT feed file {#task_F0C8BADD25E14E5DB30BF31D1F879FDB}
 
 You can open the [!DNL Verification] page of an existing SAINT feed to review the data view representation of the output.
-
-<!-- 
-
-t_viewing_a_adobe_analytics_saint_feed_file.xml
-
- -->
 
 If any actual feed files exist, they are listed here and are available for you to download as a text file.
 
@@ -532,12 +430,6 @@ If any actual feed files exist, they are listed here and are available for you t
 ## Testing an Adobe Analytics SAINT feed {#task_9864D69BE3824FC29C10B36EE4855D25}
 
 You can test an existing Adobe Analytics SAINT feed with no file upload.
-
-<!-- 
-
-t_testing_a_adobe_analytics_saint_feed.xml
-
- -->
 
 See [Generating and uploading an Adobe Analytics SAINT feed](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_47AED946AA964334A877FDC8D4F6F00A).
 
@@ -554,12 +446,6 @@ See [Viewing an Adobe Analytics SAINT feed file](../c-about-settings-menu/c-abou
 ## Generating and uploading an Adobe Analytics SAINT feed {#task_47AED946AA964334A877FDC8D4F6F00A}
 
 You can generate and upload feed files for an existing Adobe Analytics feed that you have created.
-
-<!-- 
-
-t_generating_and_uploading_a_adobe_analytics_saint_feed.xml
-
- -->
 
 See [Testing an Adobe Analytics SAINT feed](../c-about-settings-menu/c-about-adobe-analytics-menu.md#task_9864D69BE3824FC29C10B36EE4855D25).
 

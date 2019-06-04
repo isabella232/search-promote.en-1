@@ -14,12 +14,6 @@ You can customize output in any text-based format, including XML or JSON.
 
 ## Using Guided Search output {#concept_2A1BA3AD413848A1AC2A3ABC4FFE481F}
 
-<!-- 
-
-c_aboutgsxmloutputforsp.xml
-
- -->
-
 The output format is customizable to support the faceting, sorting, and other implementation-specific decisions that are made during the design process. You can adapt the format itself to simplify the development of the customer’s front end, if necessary.
 
 The entire output is contained within `<result>` tags, and most of the dynamic data is enclosed within `<![CDATA[ ]]>` tags. Such organization allows the results to contain HTML and other non-XML entities.
@@ -149,12 +143,6 @@ The following are recommendations for integration with your system.
 
 Tables that describe the standard JSON response output.
 
-<!-- 
-
-r_gsjsonoutputforsp.xml
-
- -->
-
 See also [Guided Search JSON Output](../c-appendices/c-guidedsearchoutput.md#reference_EB8182A564DE4374BB84158F2AABEF74).
 
 You can review JSON response for the following:
@@ -224,7 +212,6 @@ Example:
    <value><![CDATA[Articles]]></value> 
   </breadcrumb-item> 
  </breadcrumb> 
-
 ```
 
 <table> 
@@ -329,9 +316,7 @@ Example:
     <count><![CDATA[2]]></count> 
    </facet-value> 
   </facet-item> 
- 
  </facets> 
-
 ```
 
 <table> 
@@ -377,7 +362,6 @@ Example:
   <upper-results><![CDATA[16]]></upper-results> 
   <total-results><![CDATA[621]]></total-results> 
  </query> 
-
 ```
 
 Used together, these tags present a message such as the following: "Showing results 1-16 of 621 for 'new year'."
@@ -437,7 +421,6 @@ Example:
    <page position="10">?i=1;page=10;q=new+year;q1=Articles;x1=content-type]]></page> 
  </pages> 
 </pagination> 
-
 ```
 
 <table> 
@@ -492,7 +475,6 @@ Example:
   <link><![CDATA[?q=shoes]]></link> 
  </recent-search> 
 </recent-searches> 
-
 ```
 
 <table> 
@@ -636,7 +618,6 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </result>   
  </results> 
 </customer-result> 
-
 ```
 
 <table> 
@@ -749,7 +730,6 @@ Example:
    <link><![CDATA[?q=new+year;q1=Articles;sort=user-rating;x1=content-type]]></link>     
   </sort-item> 
  </sort>
-
 ```
 
 <table> 
@@ -786,7 +766,6 @@ Example:
   <suggestion-item> 
    <link><![CDATA[?q=video]]></link> 
    <word><![CDATA[video]]> 
-
 ```
 
 <table> 
@@ -819,7 +798,6 @@ Example:
   <display><![CDATA[1]]></display> 
  </zone> 
 </zones> 
-
 ```
 
 <table> 
@@ -848,12 +826,6 @@ Example:
 ## Guided Search XML Output {#reference_D93E859A277643068B10AE7A61C973EA}
 
 Tables that describe the standard XML response output.
-
-<!-- 
-
-r_gsxmloutputforsp.xml
-
- -->
 
 You can review XML response for the following:
 
@@ -922,7 +894,6 @@ Example:
    <value><![CDATA[Articles]]></value> 
   </breadcrumb-item> 
  </breadcrumb> 
-
 ```
 
 <table> 
@@ -1026,10 +997,8 @@ Example:
     <link><![CDATA[?q=new+year;q1=Articles;q2=Spring;x1=content-type;x2=seasons]]></link> 
     <count><![CDATA[2]]></count> 
    </facet-value> 
-  </facet-item> 
- 
+  </facet-item>  
  </facets> 
-
 ```
 
 <table> 
@@ -1076,7 +1045,6 @@ Example:
   <upper-results><![CDATA[16]]></upper-results> 
   <total-results><![CDATA[621]]></total-results> 
  </query> 
-
 ```
 
 Used together, these tags present a message such as the following: "Showing results 1-16 of 621 for 'new year'."
@@ -1136,7 +1104,6 @@ Example:
    <page position="10">?i=1;page=10;q=new+year;q1=Articles;x1=content-type]]></page> 
  </pages> 
 </pagination> 
-
 ```
 
 <table> 
@@ -1191,7 +1158,6 @@ Example:
   <link><![CDATA[?q=shoes]]></link> 
  </recent-search> 
 </recent-searches> 
-
 ```
 
 <table> 
@@ -1335,7 +1301,6 @@ traditions-to-start-this-year-parties-photo-160-FF1107HOLIA01.jpg]]></large-thum
   </result>   
  </results> 
 </customer-result> 
-
 ```
 
 <table> 
@@ -1448,7 +1413,6 @@ Example:
    <link><![CDATA[?q=new+year;q1=Articles;sort=user-rating;x1=content-type]]></link>     
   </sort-item> 
  </sort>
-
 ```
 
 <table> 
@@ -1485,7 +1449,6 @@ Example:
   <suggestion-item> 
    <link><![CDATA[?q=video]]></link> 
    <word><![CDATA[video]]> 
-
 ```
 
 <table> 
@@ -1518,7 +1481,6 @@ Example:
   <display><![CDATA[1]]></display> 
  </zone> 
 </zones> 
-
 ```
 
 <table> 
@@ -1547,12 +1509,6 @@ Example:
 ## Guided Search XML Output for Adobe Experience Manager {#reference_DBE13C606C3A4BB185DE53F88D0D3048}
 
 Tables that describe the standard XML response output for AEM (Adobe Experience Manager).
-
-<!-- 
-
-r_gsxmloutputforwem.xml
-
- -->
 
 See also . [Guided Search XML Output](../c-appendices/c-guidedsearchoutput.md#reference_D93E859A277643068B10AE7A61C973EA)
 
@@ -1588,7 +1544,6 @@ The following is an example of a banner that is placed in the area of the pages 
            <content><![CDATA[<div style="color:#70A100">We have custom shipping</div>]]></content> 
        </banner> 
     </banners> 
-
 ```
 
 <table> 
@@ -1647,7 +1602,6 @@ Example breadcrumb node:
       </breadcrumb-item> 
    </breadcrumb> 
     </breadcrumbs> 
-
 ```
 
 <table> 
@@ -1708,7 +1662,6 @@ Example custom fields node:
         <custom-field name="seo-search-title"><![CDATA[Geometrixx Search Results]]></custom-field> 
         <custom-field name="seo-search-keywords"><![CDATA[]]></custom-field> 
     </custom-fields> 
-
 ```
 
 <table> 
@@ -1744,8 +1697,7 @@ Each facet is contained within `<facet-item>` tags. In the following example, it
 Example of facet block:
 
 ```xml
-<facets>  
-         
+<facets>          
      <facet> 
          <facet-title><![CDATA[Department]]></facet-title> 
                 <behavior><![CDATA[sticky]]></behavior> 
@@ -1819,7 +1771,6 @@ Example of facet block:
       </facet-value>   
       </facet> 
     </facets> 
-
 ```
 
 <table> 
@@ -1974,7 +1925,6 @@ The following example shows the data for a three-option sort menu and navigation
                     </item> 
         </menu> 
     </menus> 
-
 ```
 
 <table> 
@@ -2046,7 +1996,6 @@ Example pagination:
             <page position="5"><![CDATA[?i=1;page=5;q=*;sp_cs=UTF-8;sp_staged=1;view=xml]]></page> 
         </pages> 
     </pagination> 
-
 ```
 
 <table> 
@@ -2092,7 +2041,6 @@ Example query node:
  <upper-results><![CDATA[12]]></upper-results> 
  <total-results><![CDATA[265]]></total-results> 
     </query> 
-
 ```
 
 <table> 
@@ -2146,7 +2094,6 @@ Example of recent searches:
             <label><![CDATA[mens]]></label> 
         <recent-search> 
     </recent-searches> 
-
 ```
 
 <table> 
@@ -2235,11 +2182,9 @@ Example results node:
       <field name="foundIn"><![CDATA[Mens,  
             Apparel,  
           Denim]]></field> 
-         </result>   
-      
+         </result>         
         </result-set>   
     </results> 
-
 ```
 
 <table> 
@@ -2302,7 +2247,6 @@ Example of search form XML:
 <script type="text/javascript" src="https://content.t1.atomz.com/sp10043554/stage/autocomplete_data.js?sp_js_param=3"></script>]]></javascript> 
         </autocomplete> 
     </search-form> 
-
 ```
 
 <table> 
@@ -2369,7 +2313,6 @@ Example output for making suggestion due to 0 results:
      <word><![CDATA[arcade]]></word> 
  </suggestion-item>    
     </suggestions>
-
 ```
 
 Example output for automatically searching against a suggestion:
@@ -2380,7 +2323,6 @@ Example output for automatically searching against a suggestion:
         <orig-query><![CDATA[arcace]]></orig-query> 
         <suggestions-low-results>0</suggestions-low-results>         
     </suggestions> 
-
 ```
 
 Example output for making suggestion due to low results:
@@ -2394,7 +2336,6 @@ Example output for making suggestion due to low results:
      <word><![CDATA[coffee]]></word> 
  </suggestion-item>  
     </suggestions> 
-
 ```
 
 <table> 
@@ -2484,7 +2425,6 @@ Example of zone nodes:
             <display>1</display> 
         </zone> 
     </zones> 
-
 ```
 
 <table> 
@@ -2522,12 +2462,6 @@ Example of zone nodes:
 ## Examples {#reference_64B7D8D228AF4B8D90EDF4DE507B0F84}
 
 Example output for a &#42; search on a fictional website called Geometrixx and an example presentation template that is used to produce the example output.
-
-<!-- 
-
-r_examples.xml
-
- -->
 
 * [Example Output](../c-appendices/c-guidedsearchoutput.md#section_515C000A18B847D59097D0A9CCC02636) 
 * [Example Presentation Template](../c-appendices/c-guidedsearchoutput.md#section_AD42571DFB88491AA7F0FDF0929EBE97)

@@ -35,12 +35,6 @@ To maintain the integrity of the archive, the search robot does not update the r
 
 You can use [!DNL Configure] to determine which index files that you want to store in the rollback archive. The archive can store the current index and three backup indexes.
 
-<!-- 
-
-t_configuring_the_rollback_archiving_schedule_of_indexes.xml
-
- -->
-
 The **[!UICONTROL Schedule]** field contains three comma-separated values that represent hours from the present. For example, the schedule values 24,48,72 specify 24 hours from the present or yesterday, 48 hours from the present or two days ago, and 72 hours from the present or three days ago.
 
 Search continually archives the site indexes that are the closest to one day, two days, and three days old. The actual times and dates of the archived indexes can vary depending on your website's indexing schedule.
@@ -55,12 +49,6 @@ Search continually archives the site indexes that are the closest to one day, tw
 
 You can use Rollback to activate an archived index.
 
-<!-- 
-
-t_activating_an_archived_index.xml
-
- -->
-
 When you click **[!UICONTROL Activate]** to rollback an index, the currently active index is moved into the archive.
 
 Following the activation of the archived index, you are returned to the [!DNL Activate Index] page. Information about the index rollback is displayed. Also, the [!DNL Activate] column in the [!DNL Available Indexes] table identifies the rolled back index with the status "Active Index". 
@@ -74,12 +62,6 @@ Following the activation of the archived index, you are returned to the [!DNL Ac
 ## Viewing the log of all index rollbacks {#task_D2D9AA7203F0465FB5AE0D49212AC41C}
 
 View the date and time of all rollback-related operations.
-
-<!-- 
-
-t_viewing_the_log_of_all_index_rollbacks.xml
-
- -->
 
 **To view the log of all index rollbacks** 
 
