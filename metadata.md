@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-solution-title: Search & Promote
+solution-title: Learn & Support
 solution-hub-url: https://helpx.adobe.com/support/target.html
 solution-image: https://www.adobe.com
 getting-started-title: Getting Started
