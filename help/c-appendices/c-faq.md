@@ -102,7 +102,7 @@ See [Regular Expressions](../c-appendices/r-regular-expressions.md#reference_B5B
 
 ## How come I cannot search the Chinese, Japanese, or Korean SWF files on my website? {#section_EE1A3A705AE74148BD195A0CE513A5C4}
 
-Site search/merchandising obtains UTF-8 from SWF files created with Adobe Flash. The UTF-8 contains no indication of language. If you selected the the content type **[!UICONTROL Adobe Flash Movies]** ( **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**), you must use metadata injections to specify the language that is used by the SWF file.
+Site search/merchandising obtains UTF-8 from SWF files created with Adobe Flash. The UTF-8 contains no indication of language. If you selected the content type **[!UICONTROL Adobe Flash Movies]** ( **[!UICONTROL Settings]** > **[!UICONTROL Crawling]** > **[!UICONTROL Content Types]**), you must use metadata injections to specify the language that is used by the SWF file.
 
 See [Adding field injection definitions](../c-about-settings-menu/c-about-metadata-menu.md#task_E86566FA1FF74CF68115C0ADA05172AE).
 

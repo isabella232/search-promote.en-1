@@ -17,7 +17,7 @@ Use Dynamic Facets to create new range selections automatically at the time of s
 
 >[!NOTE]
 >
->This feature is not enabled in [!DNL Adobe Search&amp;Promote], by default. Contact Technical Support to activate the feature for your use.
+>This feature is not enabled in [!DNL Adobe Search&Promote], by default. Contact Technical Support to activate the feature for your use.
 
 Without the use of Dynamic Facets, you had to merge related attributes into "slots", and only display the slots that were homogeneous for a given search. That is, they could only contain one logical attribute's values, such as "shoe size" or "ring size". This method provided adequate search-time performance with a large set of unique attributes.
 
@@ -35,7 +35,7 @@ Facets are built on top of meta tag fields. A meta tag field is a low-level, cor
 
 >[!NOTE]
 >
->There is no "Dynamic Facet" setting in **[!UICONTROL Design]** **[!UICONTROL > Navigation]** **[!UICONTROL > Facets]**. What makes a facet "dynamic" is that its underlying "meta tag field" is dynamic as set in **[!UICONTROL Settings]** > **Metadata** > **Definitions**.
+>There is no "Dynamic Facet" setting in **[!UICONTROL Design > Navigation > Facets]**. What makes a facet "dynamic" is that its underlying "meta tag field" is dynamic as set in **[!UICONTROL Settings > Metadata > Definitions]**.
 
 ## Examples of dynamic facets in action {#section_BC699A05E2E742EF94D41679163ACE84}
 
@@ -114,7 +114,7 @@ See also
 
     See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
 
-    For example, suppose that your transport template is named `guided.tpl`. In such case, on the product menu, click **[!UICONTROL Design]** **[!UICONTROL > Templates]**. On the [!DNL Templates] page, locate `guided.tpl` in the table. and then click **[!UICONTROL Edit]** to the far right of the name. On the Editing page, add the following code block to the end of `</facets>`: JSON output:
+    For example, suppose that your transport template is named `guided.tpl`. In such case, on the product menu, click **[!UICONTROL Design > Templates]**. On the [!DNL Templates] page, locate `guided.tpl` in the table. and then click **[!UICONTROL Edit]** to the far right of the name. On the Editing page, add the following code block to the end of `</facets>`: JSON output:
 
    ```
    ... 
@@ -133,7 +133,7 @@ See also
 
    See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).
 
-   For example, suppose that you have a template named `sim.tmpl` that is used to output content in the Simulator. To edit that template, on the product menu, click **[!UICONTROL Design]** **[!UICONTROL > Templates]**. On the [!DNL Templates] page, locate `sim.tmpl` in the table. and then click **[!UICONTROL Edit]** to the far right of the name. On the Editing page, add the following within the facet display area of the template:
+   For example, suppose that you have a template named `sim.tmpl` that is used to output content in the Simulator. To edit that template, on the product menu, click **[!UICONTROL Design > Templates]**. On the [!DNL Templates] page, locate `sim.tmpl` in the table. and then click **[!UICONTROL Edit]** to the far right of the name. On the Editing page, add the following within the facet display area of the template:
 
    ```
    <h6>DF RAIL</h6> 
