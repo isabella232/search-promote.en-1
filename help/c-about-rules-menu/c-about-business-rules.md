@@ -80,9 +80,9 @@ The following steps assume you are using the Visual Rule Builder.
 
    On the [!DNL Business Rules] page, use the **[!UICONTROL Filter by tag]** feature to filter for rules that match a given label. 1. On the [!DNL Business Rule Builder] page, set the triggers and actions that you want to use.
 
-       **Trigger options**
+   **Trigger options**
 
-       Triggers are the conditions that must be met for a business rule to run. When a business rule has multiple triggers, you can configure how triggers respond using one of the following three methods:
+   Triggers are the conditions that must be met for a business rule to run. When a business rule has multiple triggers, you can configure how triggers respond using one of the following three methods:
 
     * A response where all of the triggers must be true (the default setting) as in the following example:
 
