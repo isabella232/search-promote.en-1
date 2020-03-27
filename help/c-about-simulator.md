@@ -48,28 +48,28 @@ See [Adding a new business rule](c-about-rules-menu/c-about-business-rules.md#ta
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>Simulate Staged/Simulate Live </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">Simulate Staged/Simulate Live</span> </p> </td> 
       <td colname="col2"> <p>Alternate between simulating your live environment or your stage environment. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Show/Hide Processing Rules </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">Show/Hide Processing Rules</span> </p> </td> 
       <td colname="col2"> <p>Show or hide all the processing rules that fired instead of just the business rules. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Change Simulation Date </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">Change Simulation Date</span> </p> </td> 
       <td colname="col2"> <p>Simulate search results for a given date. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Simulate On PC </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">Simulate On PC</span> </p> </td> 
       <td colname="col2"> <p>Simulate search results as if you were using a personal computer. </p> </td> 
       </tr> 
       <tr> 
-      <td colname="col1"> <p>Simulate On Mobile </p> </td> 
+      <td colname="col1"> <p><span class="uicontrol">Simulate On Mobile</span> </p> </td> 
       <td colname="col2"> <p>Simulate search results as if you were using a mobile phone or a tablet. </p> <p>When you select this option, you can choose from the following associated options: </p> 
         <ul id="ul_2A9901418212486A8EE67A78CB99CBE4"> 
-        <li id="li_B210E954DF0D44C397718112C72C2103"> <b>Device</b> <p>Simulate the search results on a mobile phone or a tablet. </p> </li> 
-        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b>Resolution</b> <p>Based on the device you selected, you can choose the associated resolution. </p> </li> 
-        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b>Horizontal view</b> <p>View how the simulated search results appear horizontally on the selected device. </p> </li> 
+        <li id="li_B210E954DF0D44C397718112C72C2103"> <b><span class="uicontrol">Device</span></b> <p>Simulate the search results on a mobile phone or a tablet. </p> </li> 
+        <li id="li_90B64EAA0B57446A90CE22172E703594"> <b><span class="uicontrol">Resolution</span></b> <p>Based on the device you selected, you can choose the associated resolution. </p> </li> 
+        <li id="li_042AF9FA3FA846EDB48F7296DB361515"> <b><span class="uicontrol">Horizontal view</span></b> <p>View how the simulated search results appear horizontally on the selected device. </p> </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
