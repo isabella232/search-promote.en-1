@@ -46,5 +46,5 @@ uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
 * The Index Connector **[!UICONTROL Strip HTML]** setting was always displaying as checked. 
 * Inconsistent search results were experienced with the **[!UICONTROL Common Phrases]** feature. 
 * Display of attribute names were getting truncated in the Rule list summaries. 
-* Pushing an individual Business Rule live was pushing all Business Rules live.
+* Pushing an individual business rule live was pushing all business rules live.
 
