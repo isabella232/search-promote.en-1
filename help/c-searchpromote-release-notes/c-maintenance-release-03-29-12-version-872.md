@@ -12,11 +12,11 @@ uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
 
 ## Product Fixes and Enhancements {#section_6B3602709FB04B3C999C5DFE103CFF7D}
 
-* Corrected an issue with Business Rules to return the correct facets. 
+* Corrected an issue with business rules to return the correct facets. 
 * Fixed an issue with result-based actions that were not working with some staged searches. 
 * Fixed issues with direct hit data that was doubly-encoded on the client side and the server side. 
 * Fixed Visual Rule Builder to now support facet actions on Internet Explorer 7 and 8 for certain customers. 
-* Fixed as issue with Business Rules keyword equality tests with pipe delimiter. 
+* Fixed as issue with [!DNL Business Rules] keyword equality tests with pipe delimiter. 
 * Fixed an issue with editing Dynamic Media Classic banner parameters. 
 * Added ability to change the size of a Dynamic Media Classic banner while maintaining its aspect ratio.
 

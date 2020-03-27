@@ -167,7 +167,7 @@ See also
 
    Be sure that you specify `__dynamic_facets` for the `gsname` in the `guided-facet-rail` tag. This tag is a pre-defined facet rail reserved for outputting any dynamic facets that are returned for a given search.
 
-   You can also optionally edit this special facet rail by way of Rules > Business Rules, and using the Advanced Rule Builder as seen below.
+   You can also optionally edit this special facet rail by way of **[!UICONTROL Rules > Business Rules]**, and using the **[!UICONTROL Advanced Rule Builder]** as seen below.
 
    ![](assets/dynamicfacetrail_businessrule.png)
 

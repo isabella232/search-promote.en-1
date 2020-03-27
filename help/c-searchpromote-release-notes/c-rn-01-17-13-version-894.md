@@ -35,19 +35,19 @@ uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
 
   See [Viewing the Terms Report or the Null Search Terms Report...](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A). 
 
-* Open Reports > Null Search Terms Report, select a time slot and then view the report. Clicked one word in the report to open the search, and then click View Report again. The search count of the keyword you clicked increased twice. This is now fixed.
+* Open **[!UICONTROL Reports > Null Search Terms Report]**, select a time slot and then view the report. Clicked one word in the report to open the search, and then click View Report again. The search count of the keyword you clicked increased twice. This is now fixed.
 
   See [Viewing the Terms Report or the Null Search Terms Report...](../c-about-reports-menu/c-about-reports-menu.md#task_53B7ED1582DD4B0E8376546A7AFC789A). 
 
-* A performance optimization was made for when you push Business Rules live.
+* A performance optimization was made for when you push business rules live.
 
   See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD). 
 
-* The ability to remove in Breadcrumbs did not work all the time.
+* The ability to remove in [!DNL Breadcrumbs] did not work all the time.
 
   See [About Breadcrumbs](../c-about-design-menu/c-about-breadcrumbs.md#concept_FB8A943C594A4A1593B118141DA61F03). 
 
-* Unless you used Regenerate, the Re-rank feature did not allow any changed Ranking Rules to take effect in search results.
+* Unless you used regenerate, the re-rank feature did not allow any changed ranking rules to take effect in search results.
 
   See [About Ranking Rules](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 

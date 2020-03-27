@@ -28,7 +28,7 @@ uuid: ea1725df-778c-4875-a269-f33d0c367126
   See [About Words & Language](../c-about-linguistics-menu/c-about-words-and-language.md#concept_CEB4B9576F3C4E2EB87B352EEC738D79) and [About Auto-Complete](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578). 
 
 * Process monitor now restarts apache processes. 
-* Implemented a "Reveal Facet Item" action in Business Rules. 
+* Implemented a "Reveal Facet Item" action in [!DNL Business Rules]. 
 * On the [!DNL Adjust Ranking Weights] page, you now have the ability to adjust the **[!UICONTROL Rule & Relevancy Balance]** setting in 1% increments.
 
   See [Adjusting the weight associated with ranking rules](../c-about-rules-menu/c-about-ranking-rules.md#task_3CB6FC92A66F4D99874A42D55825DB64). 

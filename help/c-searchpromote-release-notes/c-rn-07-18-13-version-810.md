@@ -31,7 +31,7 @@ uuid: 161d678a-6393-4adb-a47a-e28e108acc31
 
 **Fixes and enhancements**
 
-* **Business Rules** - Added the ability to assign more than one schedule to a business rule.
+* **[!DNL Business Rules]** - Added the ability to assign more than one schedule to a business rule.
 
   See [About Business Rules](../c-about-rules-menu/c-about-business-rules.md#concept_2A93D76216754D3D8412CDEA00BD26BD). 
 
