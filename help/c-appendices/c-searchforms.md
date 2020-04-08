@@ -10,8 +10,6 @@ uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 
 # Search forms{#search-forms}
 
-## Search forms {#concept_915FFF20FF644830B7B3C6E00F416BCB}
-
 ## Using collections in search forms {#reference_5A079AEEEFB84457892EF0870D0605C3}
 
 Collections let your customers search specific areas of your website. Depending on whether you implement a drop-down list or a list of check boxes, you can let your customers search a single collection or multiple collections.
@@ -129,22 +127,22 @@ The process for configuring framesets is as follows:
   <tr> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col02"> <p>Add the form to the desired frame in your web page. </p> </td> 
-   <td colname="col2"> <p> <a href="../c-appendices/c-searchforms.md#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> Adding the search form code to a frame in your... </a> </p> </td> 
+   <td colname="col2"> <p> <a href="#section_BAA8A502BB2243F8B5FF9783CDF2BFFD" type="section" format="dita" scope="local"> Adding the search form code to a frame in your... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2 </p> </td> 
    <td colname="col02"> <p>Set the target frame for the search results page. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> Setting the target frame for the search results page </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_532CACB90888467093D95EACB64FDFA1" type="section" format="dita"> Setting the target frame for the search results page </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>3 </p> </td> 
    <td colname="col02"> <p>Set the target for links made from the search results page. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> Setting the target for links made from the search results... </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_523248C5AC424D878321C21A23A5CD66" type="section" format="dita"> Setting the target for links made from the search results... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>4 </p> </td> 
    <td colname="col02"> <p>Edit the navigation frame pages to prevent them from being indexed. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> Editing the navigation frame pages to prevent them from being... </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_C62E5F0EE1294D5EBD97E123E54433FC" type="section" format="dita"> Editing the navigation frame pages to prevent them from being... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
