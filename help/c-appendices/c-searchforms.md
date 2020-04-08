@@ -147,7 +147,7 @@ The process for configuring framesets is as follows:
   <tr> 
    <td colname="col1"> <p>5 </p> </td> 
    <td colname="col02"> <p>Test the search form. </p> </td> 
-   <td colname="col2"> <p> <a scope="local" href="../c-appendices/c-searchforms.md#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> Testing the search form </a> </p> </td> 
+   <td colname="col2"> <p> <a scope="local" href="#section_43D8D4A7BF524DC480DFE5442F6A2E3C" type="section" format="dita"> Testing the search form </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -283,7 +283,7 @@ Using the following sample advanced search form, the remainder of this topic sho
 
 You can view the entire advanced search form HTML code of the sample above.
 
-See [Advanced search form HTML code](../c-appendices/c-searchforms.md#reference_9AAD4A46B68D4D48865508982CB86DB9).
+See [Advanced search form HTML code](#reference_9AAD4A46B68D4D48865508982CB86DB9).
 
 See [Configuring Auto-Complete CSS](../c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96).
 
@@ -432,7 +432,7 @@ See [Copying the HTML code of the search form into the...](../c-about-auto-compl
 
 The HTML form code that is used to produce the advanced search form that is show at the top of the Sample advanced search form topic.
 
-See [Sample advanced search form](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).
+See [Sample advanced search form](#reference_82E1051918744EBA88A01E9E6AE42C4A).
 
 If you use this code, remember to replace the `sp_a` value of `sp99999999` with your actual account number.
 
