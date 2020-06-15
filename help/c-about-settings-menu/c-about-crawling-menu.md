@@ -1056,7 +1056,7 @@ For example, supposed you have the following rewrite rule:
 RewriteRule (^http.*[.]xml$) index:Adobe?key=$1
 ```
 
-This rule translates any URL ending with `.xml` into an Index Connector link. The crawler recognizes and rewrites the `index:` URL scheme. The download process is redirected through the Index Connector Apache server on the master. Each downloaded document is examined using the same regular expression pattern that is used with Feeds. In this case, however, the manufactured HTML document is not saved in the cache. Instead, it is handed directly to the crawler for index processing.
+This rule translates any URL ending with `.xml` into an Index Connector link. The crawler recognizes and rewrites the `index:` URL scheme. The download process is redirected through the Index Connector Apache server on the primary. Each downloaded document is examined using the same regular expression pattern that is used with Feeds. In this case, however, the manufactured HTML document is not saved in the cache. Instead, it is handed directly to the crawler for index processing.
 
 ## How to configure multiple Index Connectors {#section_C2B14C0F06354A57AEF6238FF3814E5D}
 
@@ -1104,7 +1104,7 @@ At the time you add an Index Connector, you can optionally use the feature **[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>XML </p> </td> 
-   <td colname="col2"> <p>Downloads the URL of a representative individual document, not the master link list. This single document is parsed using the same mechanism that is used with Feeds, and the results are displayed. </p> <p>Before you click <span class="uicontrol"> Add </span> to save the configuration, be sure that you change the URL back to the master link list document. </p> </td> 
+   <td colname="col2"> <p>Downloads the URL of a representative individual document, not the primary link list. This single document is parsed using the same mechanism that is used with Feeds, and the results are displayed. </p> <p>Before you click <span class="uicontrol"> Add </span> to save the configuration, be sure that you change the URL back to the primary link list document. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1148,8 +1148,8 @@ Before the effects of the new and enabled definition is visible to customers, re
       <td colname="col2"> <p>The source of your data. The data source type that you select affects the resulting options that are available on the <span class="wintitle"> Index Connector Add </span> page. You can choose from the following: </p> <p> 
       <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Text </span> <p>Simple flat text files, comma-delimited, tab-delimited, or other consistently delimited formats. Each newline-delimited line of text corresponds to an individual document, and is parsed using the specified delimiter. </p> <p>You can map each value, or column, to a metadata field, referenced by the column number, starting at 1 (one). </p> </li> 
-      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a master XML document that contains multiple "rows" of information. </p> </li> 
-      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Downloads a master XML document that contains links ( 
+      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a primary XML document that contains multiple "rows" of information. </p> </li> 
+      <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Downloads a primary XML document that contains links ( 
       <userinput>
         &lt;a&gt; 
       </userinput>) to individual XML documents. </p> </li> 
@@ -1244,7 +1244,7 @@ Before the effects of the new and enabled definition is visible to customers, re
       </tr> 
       <tr> 
       <td colname="col1"> <p>File Path </p> </td> 
-      <td colname="col2"> <p>Specifies the path to the master XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the primary XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Incremental File Path </p> </td> 
@@ -1344,7 +1344,7 @@ Before the effects of the new and enabled definition is visible to customers, re
       </tr> 
       <tr> 
       <td colname="col1"> <p>File Path </p> </td> 
-      <td colname="col2"> <p>Specifies the path to the master XML document that contains links ( 
+      <td colname="col2"> <p>Specifies the path to the primary XML document that contains links ( 
       <userinput>
         &lt;a&gt; 
       </userinput>) to individual XML documents. </p> <p>The path is relative to the root of the host address. </p> </td> 

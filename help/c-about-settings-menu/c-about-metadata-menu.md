@@ -610,7 +610,7 @@ Before the effects of the new and enabled definition are visible to customers, r
       <td colname="col2"> <p>The source of your data. The data source type that you select affects the resulting options that are available on the <span class="wintitle"> Attribute Loader Add </span> page. You can choose from the following: </p> <p> 
       <ul id="ul_1ADC3DFBC929467385F7465BE8E13635"> 
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Text </span> <p>Simple flat text files, comma-delimited, tab-delimited, or other consistently delimited formats. Each newline-delimited line of text corresponds to an individual document, and is parsed using the specified delimiter. </p> <p>You can map each value, or column, to a metadata field, referenced by the column number, starting at 1 (one). </p> </li> 
-      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a master XML document that contains multiple "rows" of information. </p> </li> 
+      <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a primary XML document that contains multiple "rows" of information. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -690,7 +690,7 @@ Before the effects of the new and enabled definition are visible to customers, r
       </tr> 
       <tr> 
       <td colname="col1"> <p>File Path </p> </td> 
-      <td colname="col2"> <p>Specifies the path to the master XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      <td colname="col2"> <p>Specifies the path to the primary XML document that contains multiple "rows" of information. </p> <p>The path is relative to the root of the host address. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Protocol </p> </td> 
