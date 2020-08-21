@@ -361,18 +361,17 @@ You can select backend search CGI parameters from the following table:
    <td colname="col3"> <p> <span class="codeph"> sp_sfvl_field= string </span> </p> </td> 
    <td colname="col4"> <p>Specifies the name of a field to use in conjunction with the <span class="codeph"> &lt;search-field-value-list&gt; </span> tag in the search template. </p> <p>You can specify multiple <span class="codeph"> sp_sfvl_field </span> parameters. </p> </td> 
   </tr> 
-  <tr> 
+  <tr>
    <td colname="col1"> <p>41 </p> </td> 
    <td colname="col2"> <p> sp_sfvl_df_count </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <span class="codeph"> sp_sfvl_df_count= <span class="varname"> &lt;integer_value&gt; </span> </span> </p> </td> 
-   <td colname="col4"> <p> 
-     <!--NEW 2/2/2014-->Requests up to <span class="codeph"> <span class="varname"> &lt;integer_value&gt; </span> </span> <span class="codeph"> search-field-value-list </span> dynamic-facet fields for this search. </p> <p>The default value is 0. The maximum allowed value is the current number of dynamic-facet fields, dynamic-facet-field-count defined for a given index. Integer values that are below 0 are treated as 0. Integer values specified above <span class="codeph"> dynamic-facet-field-count </span> are capped at <span class="codeph"> dynamic-facet-field-count </span>. Non-integer values are ignored; they are treated as the default value. </p> <p>A given slice's search is capped with a maximum allowed <span class="codeph"> sp_sfvl_df_count </span> value of this slice's <span class="codeph"> dynamic-facet-field-count </span> value. When merging slice results, the effective maximum value of <span class="codeph"> sp_sfvl_df_count </span> is the maximum actual <span class="codeph"> sp_sfvl_df_count </span> across all slices. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> Configuring dynamic facets </a>. </p> </td> 
+   <td colname="col4"> <p> Requests up to <span class="codeph"> <span class="varname"> &lt;integer_value&gt; </span> </span> <span class="codeph"> search-field-value-list </span> dynamic-facet fields for this search. </p> <p>The default value is 0. The maximum allowed value is the current number of dynamic-facet fields, dynamic-facet-field-count defined for a given index. Integer values that are below 0 are treated as 0. Integer values specified above <span class="codeph"> dynamic-facet-field-count </span> are capped at <span class="codeph"> dynamic-facet-field-count </span>. Non-integer values are ignored; they are treated as the default value. </p> <p>A given slice's search is capped with a maximum allowed <span class="codeph"> sp_sfvl_df_count </span> value of this slice's <span class="codeph"> dynamic-facet-field-count </span> value. When merging slice results, the effective maximum value of <span class="codeph"> sp_sfvl_df_count </span> is the maximum actual <span class="codeph"> sp_sfvl_df_count </span> across all slices. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> Configuring dynamic facets </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>42 </p> </td> 
    <td colname="col2"> <p> sp_sfvl_df_exclude </p> </td> 
-   <td colname="col03"> <p> </p> </td> 
+   <td colname="col03"> <p> </p> </td>
    <td colname="col3"> <p> </p> <p> <span class="codeph"> sp_sfvl_df_exclude= &lt; <span class="varname"> field_name </span>&gt;[|&lt; <span class="varname"> field_name </span> </span>&gt;|... </p> </td> 
    <td colname="col4"> <p> Specifies a list of specific dynamic facet fields to exclude from consideration for this search. </p> <p>By default, all dynamic facet fields are considered. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> Configuring dynamic facets </a>. </p> </td> 
   </tr> 

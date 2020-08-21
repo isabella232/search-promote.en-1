@@ -111,7 +111,7 @@ See also [Configuring an incremental index of a staged website](../c-about-index
 
       The `^` has this special meaning only if it occurs first in the string. You can use `-` (minus sign) to indicate a range of consecutive characters, including supplementary code set characters. For example, [0-9] is equivalent to [0123456789].
 
-      Characters specifying the range must be from the same code set. When the characters are from different code sets, one of the characters specifying the range is matched. The `-` loses this special meaning if it occurs first (after an initial `^`, if any) or last in the string. The `]` (right square bracket) does not terminate such a string when it is the first character within it, after an initial `^`, if any. For example, []a-f] matches either a `]` (right square bracket) or one of the ASCII letters a through f inclusive. The four characters listed as special characters above stand for themselves within such a string of characters.
+      Characters specifying the range must be from the same code set. When the characters are from different code sets, one of the characters specifying the range is matched. The `-` loses this special meaning if it occurs first (after an initial `^`, if any) or last in the string. The `]` (right square bracket) does not terminate such a string when it is the first character within it, after an initial `^`, if any. For example, `[]a-f]` matches either a `]` (right square bracket) or one of the ASCII letters a through f inclusive. The four characters listed as special characters above stand for themselves within such a string of characters.
 
 **Rules for constructing regular expressions from one-character regular expressions**
 
