@@ -359,7 +359,7 @@ You can select backend search CGI parameters from the following table:
    <td colname="col2"> <p>sp_sfvl_field </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <code>sp_sfvl_field= string </code> </p> </td> 
-   <td colname="col4"> <p>Specifies the name of a field to use in conjunction with the <code>&lt;search-field-value-list&gt; </code> tag in the search template. </p> <p>You can specify multiple <code>sp_sfvl_field </code> parameters. </p> </td> 
+   <td colname="col4"> <p>Specifies the name of a field to use in conjunction with the <code><search-field-value-list> </code> tag in the search template. </p> <p>You can specify multiple <code>sp_sfvl_field </code> parameters. </p> </td> 
   </tr> 
   <tr>
    <td colname="col1"> <p>41 </p> </td> 
@@ -372,14 +372,14 @@ You can select backend search CGI parameters from the following table:
    <td colname="col1"> <p>42 </p> </td> 
    <td colname="col2"> <p> sp_sfvl_df_exclude </p> </td> 
    <td colname="col03"> <p> </p> </td>
-   <td colname="col3"> <p> </p> <p> <code>sp_sfvl_df_exclude= &lt; <span class="varname"> field_name </code>&gt;[|&lt; <span class="varname"> field_name </span> </span>&gt;|... </p> </td> 
+   <td colname="col3"> <p> </p> <p> <code>sp_sfvl_df_exclude= &lt; <span class="varname"> field_name </code>&gt;&lbrack;|&lt; <span class="varname"> field_name </span> </span>&gt;|... </p> </td> 
    <td colname="col4"> <p> Specifies a list of specific dynamic facet fields to exclude from consideration for this search. </p> <p>By default, all dynamic facet fields are considered. </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> Configuring dynamic facets </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>43 </p> </td> 
    <td colname="col2"> <p> sp_sfvl_df_include </p> </td> 
    <td colname="col03"> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> <code>sp_sfvl_df_include= &lt; <span class="varname"> field_name </code>&gt;[|&lt; <span class="varname"> field_name </span> </span>&gt;|... </p> </td> 
+   <td colname="col3"> <p> </p> <p> <code>sp_sfvl_df_include= &lt; <span class="varname"> field_name </code>&gt;&lbrack;|&lt; <span class="varname"> field_name </span> </span>&gt;|... </p> </td> 
    <td colname="col4"> <p> Specifies a list of specific dynamic facet fields to include in the search results. </p> <p> <p>Note:  The <code>sp_sfvl_df_count </code> parameter determines the total number of dynamic facet fields to return, including any specified by way of <code>sp_sfvl_df_include </code>. That is, using <code>sp_sfvl_df_include </code> does not allow the total count of returned dynamic facet fields to exceed <code>sp_sfvl_df_count </code>. </p> </p> <p>See <a href="../c-about-design-menu/c-about-dynamic-facets.md#task_D17F484130E448258100BAC1EEC53F39" format="dita" scope="local"> Configuring dynamic facets </a>. </p> </td> 
   </tr> 
   <tr> 
