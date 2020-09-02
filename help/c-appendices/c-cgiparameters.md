@@ -359,7 +359,7 @@ You can select backend search CGI parameters from the following table:
    <td colname="col2"> <p>sp_sfvl_field </p> </td> 
    <td colname="col03"> <p> </p> </td> 
    <td colname="col3"> <p> <code>sp_sfvl_field= string </code> </p> </td> 
-   <td colname="col4"> <p>Specifies the name of a field to use in conjunction with the <code><search-field-value-list> </code> tag in the search template. </p> <p>You can specify multiple <code>sp_sfvl_field </code> parameters. </p> </td> 
+   <td colname="col4"> <p>Specifies the name of a field to use in conjunction with the <code>search-field-value-list</code> tag in the search template. </p> <p>You can specify multiple <code>sp_sfvl_field </code> parameters. </p> </td> 
   </tr> 
   <tr>
    <td colname="col1"> <p>41 </p> </td> 
