@@ -431,10 +431,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
   </tr> 
   <tr> 
    <td colname="col01"> <p>16 </p> </td> 
-   <td colname="col1"> <p> <code> &lt;guided-if-facet-long [gsname=" 
-      <varname>
-        facetname 
-      </varname>"]&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-long [gsname="facetname"]&gt; 
       &lt;guided-else-facet-long&gt;&lt;/guided-if-facet-long&gt; </code> </p> </td> 
    <td colname="col2"> <p>This conditional tag is true when the number of facet values is over the length-threshold defined in the configuration. Use it to display a facet as a different user interface element (such as a truncated list or a scroll box) when the list is too long. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-long&gt; 
@@ -472,10 +469,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
   </tr> 
   <tr> 
    <td colname="col01"> <p>18 </p> </td> 
-   <td colname="col1"> <p> <code> &lt;guided-if-facet-single [gsname=" 
-      <varname>
-        facetname 
-      </varname>"]&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-single [gsname="facetname"]&gt; 
       &lt;guided-else-facet-single&gt;&lt;/guided-if-facet-single&gt; </code> </p> </td> 
    <td colname="col2"> <p>This conditional tag is true when there is only one facet value. It can be used to change the display of the facet when it has no ability to refine the results. </p> <p> <code class="syntax html"> &lt;guided-facet&nbsp;gsname="category"&gt; 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;guided-if-facet-single&gt; 
@@ -491,10 +485,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
   </tr> 
   <tr> 
    <td colname="col01"> <p>19 </p> </td> 
-   <td colname="col1"> <p> <code> &lt;guided-if-facet-has-values [gsname=" 
-      <varname>
-        facetname 
-      </varname>"]&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-has-values [gsname="facetname"]&gt; 
       &lt;guided-else-facet-has-values&gt;&lt;/guided-if-facet-has-values&gt; </code> </p> </td> 
    <td colname="col2"> <p>This condition lets you check if the specified facet has any values at all. You can use it for showing another facet instead of an empty one. </p> </td> 
   </tr> 
@@ -582,10 +573,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
   </tr> 
   <tr> 
    <td colname="col01"> <p>32 </p> </td> 
-   <td colname="col1"> <p> <code> &lt;guided-if-facet-value-matches facetname=" 
-      <varname>
-        facetname 
-      </varname>" value="value"&gt;&lt;guided-else-facet-value-matches&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet-value-matches facetname="facetname" value="value"&gt;&lt;guided-else-facet-value-matches&gt; 
       &lt;/guided-if-facet-value-matches&gt; </code> </p> </td> 
    <td colname="col2"> <p>Conditionally display HTML when the given facet has the selected or single value "value". This set of tags is often used to display a facet based on the value selected in another facet. </p> </td> 
   </tr> 
@@ -596,10 +584,7 @@ See [About Dynamic Facets](../c-about-design-menu/c-about-dynamic-facets.md#conc
   </tr> 
   <tr> 
    <td colname="col01"> <p>34 </p> </td> 
-   <td colname="col1"> <p> <code> &lt;guided-if-facet[-not]-visible gsname=" 
-      <varname>
-        real_facet 
-      </varname>"&gt; 
+   <td colname="col1"> <p> <code> &lt;guided-if-facet[-not]-visible gsname="real_facet"&gt; 
       &lt;guided-else-facet[-not]-visible&gt; 
        
       &lt;/guided-if-facet[-not]-visible&gt; </code> </p> </td> 
