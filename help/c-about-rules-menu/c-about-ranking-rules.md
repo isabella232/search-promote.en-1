@@ -56,12 +56,12 @@ Before you can use ranking rules, there are several account configuration steps 
       <li id="li_544075CFA0964C6F8FAF7941AAA9ECCC"> On the product menu, click <span class="uicontrol"> Settings </span> &gt; <span class="uicontrol"> Metadata </span> &gt; <span class="uicontrol"> Definitions </span>. </li> 
       <li id="li_F237F13B89E8425080C15D3BD697652C"> On the Definitions page, click <span class="uicontrol"> Add New Field </span>. </li> 
       <li id="li_2A839874D71D45FEA661B3D3B8BE2A86"> On the Add Field page, in the <span class="uicontrol"> Field Name </span> text field, type 
-      <userinput>
+      <code>
         rank 
-      </userinput>; in the <span class="uicontrol"> Meta Tag Name </span> text field, type 
-      <userinput>
+      </code>; in the <span class="uicontrol"> Meta Tag Name </span> text field, type 
+      <code>
         rank 
-      </userinput>; in the <span class="uicontrol"> Data Type </span> drop-down list, select <span class="uicontrol"> Rank </span>. Leave all other field options as-is. <p>See the query parameter <span class="codeph"> sp_sr </span> in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
+      </code>; in the <span class="uicontrol"> Data Type </span> drop-down list, select <span class="uicontrol"> Rank </span>. Leave all other field options as-is. <p>See the query parameter <span class="codeph"> sp_sr </span> in <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" type="reference" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
       <li id="li_8E91AF4BE51A4A41ABBF9680DDE0B7CE">Click <span class="uicontrol"> Add </span>. </li> 
       </ol> </p> </td> 
       </tr> 
@@ -242,9 +242,9 @@ See [Configuring ranking](../c-about-rules-menu/c-about-ranking-rules.md#task_4C
       <li id="li_1A7D60EA6965434AA6D39B215C158306"> <span class="uicontrol"> Auto-Rank by Value </span> <p>Calculates a rank based on the document's relative value, according to its Adobe Analytics Metric. For example, the closer the document's value to the top-ranked document's value, the higher its rank. </p> </li> 
       <li id="li_457DE44D6ADA40619DC77220BF12318E"> <span class="uicontrol"> Custom </span> <p>Specifies custom settings. For example, a Data Source with the name of "brand" might contain the brand name for a particular product. You can specify the relative importance of each brand by listing it along with its rank. </p> </li> 
       </ul> </p> <p>The rank values returned from the Auto-Rank calculations are in the range 0.0 (lowest) to 1.0 (highest). They are not adjusted according to the ranges that are defined for the Rank field under Settings &gt; Metadata &gt; Definitions. </p> <p>In the following example, if the brand Data Source for a particular search result exactly matches "DKNY," the applied rank for that result is 0.5. Otherwise, if the brand is "Levis," the applied rank is 0.1. The Data Source content must match the set value. In other words, If the Data Source content is "Levis Corp.", it will not match the value "Levis". Case is ignored, so "DKNY" matches "dkny" and "Dkny". <code> DKNY&nbsp;0.5 Levis&nbsp;0.1 Lee&nbsp;0.2 </code> </p> <p>As a more advanced option, you can specify values as regular expressions. For example, suppose some of your site pages contain a brand value of "Levis" and other site pages contain a brand value of "Levis jeans." You can use a regular expression specified with the keyword 
-      <userinput>
+      <code>
         regexp 
-      </userinput>. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>In the following example, a search result document containing brand content "Levis jeans" is assigned a rank of 0.1. As with standard comparison, case is ignored for regular expressions. <code> DKNY&nbsp;0.5 regexp&nbsp;Levis.*&nbsp;0.1 Lee&nbsp;0.2 </code> </p> </td> 
+      </code>. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> <p>In the following example, a search result document containing brand content "Levis jeans" is assigned a rank of 0.1. As with standard comparison, case is ignored for regular expressions. <code> DKNY&nbsp;0.5 regexp&nbsp;Levis.*&nbsp;0.1 Lee&nbsp;0.2 </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Default Rank </p> </td> 

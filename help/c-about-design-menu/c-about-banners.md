@@ -109,12 +109,12 @@ See [Configuring access to your Adobe Dynamic Media Classic account](../c-about-
       <tr> 
       <td colname="col1"> <p>Banner HTML </p> </td> 
       <td colname="col2"> <p> Lets you paste the HTML code that is associated with the banner. </p> <p>Any HTML code is acceptable, including CSS code that is surrounded by 
-        <userinput>
+        <code>
           &lt;style&gt; 
-        </userinput> tags, or JavaScript code that is surrounded by 
-        <userinput>
+        </code> tags, or JavaScript code that is surrounded by 
+        <code>
           &lt;script&gt; 
-        </userinput> tags. For example, the following block of code is for a text banner of the type Horizontal top : <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
+        </code> tags. For example, the following block of code is for a text banner of the type Horizontal top : <code> &lt;div&nbsp;style="width:&nbsp;684px;&nbsp;background-image:&nbsp;url('https://www.brough.com/blackb.gif');&nbsp; 
           padding-top:&nbsp;10px;&nbsp;padding-bottom:&nbsp;10px;&nbsp;color:&nbsp;white;&nbsp;font-family:&nbsp;verdana;&nbsp; 
           text-align:&nbsp;center;&nbsp;font-size:&nbsp;20px;"&gt;&nbsp;Sound&nbsp;Study&nbsp;ships&nbsp;free!&nbsp;&lt;/div&gt; </code>In the following example, the block of code is for a full splash image: <code> &lt;img&amp;nbsp;src='https://geometrixx.com/images/GEOAds/geometrixx-beauty-home-01.jpg'&amp;nbsp;border="0"&amp;nbsp;/&gt; </code> </p> </td> 
       </tr> 

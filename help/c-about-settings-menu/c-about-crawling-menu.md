@@ -46,44 +46,44 @@ You qualify each entry point with one or more of the following space-separated k
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
    <td colname="col2"> <p> If you do not want to index the text on the entry point page, but you do want to follow the page's links, add 
-     <userinput>
+     <code>
        noindex 
-     </userinput> after the entry point. </p> <p>Separate the keyword from the entry point with a space as in the following example: </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>This keyword is equivalent to a robots meta tag with 
-     <userinput>
+     </code> after the entry point. </p> <p>Separate the keyword from the entry point with a space as in the following example: </p> <p> <code> https://www.my-additional-domain.com/more_pages/main.html&amp;nbsp;noindex </code> </p> <p>This keyword is equivalent to a robots meta tag with 
+     <code>
        content="noindex" 
-     </userinput>) between the 
-     <userinput>
+     </code>) between the 
+     <code>
        &lt;head&gt; 
-     </userinput>... 
-     <userinput>
+     </code>... 
+     <code>
        &lt;/head&gt; 
-     </userinput> tags of the entry point page. </p> </td> 
+     </code> tags of the entry point page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
    <td colname="col2"> <p> If you want to index the text in the entry point page but you do not want to follow any of the page's links, add 
-     <userinput>
+     <code>
        nofollow 
-     </userinput> after the entry point. </p> <p>Separate the keyword from the entry point with a space as in the following example: </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>This keyword is equivalent to a robots meta tag with 
-     <userinput>
+     </code> after the entry point. </p> <p>Separate the keyword from the entry point with a space as in the following example: </p> <p> <code> https://www.domain.com/not_linked/directory_listing&amp;nbsp;nofollow </code> </p> <p>This keyword is equivalent to a robots meta tag with 
+     <code>
        content="nofollow" 
-     </userinput> between the 
-     <userinput>
+     </code> between the 
+     <code>
        &lt;head&gt; 
-     </userinput>... 
-     <userinput>
+     </code>... 
+     <code>
        &lt;/head&gt; 
-     </userinput> tag of an entry point page. </p> </td> 
+     </code> tag of an entry point page. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>form </p> </td> 
    <td colname="col2"> <p> When the entry point is a login page, 
-     <userinput>
+     <code>
        form 
-     </userinput> is typically used so that the search robot can submit the login form and receive the appropriate cookies before crawling the website. When the "form" keyword is used, the entry point page is not indexed and the search robot does not mark the entry point page as crawled. Use 
-     <userinput>
+     </code> is typically used so that the search robot can submit the login form and receive the appropriate cookies before crawling the website. When the "form" keyword is used, the entry point page is not indexed and the search robot does not mark the entry point page as crawled. Use 
+     <code>
        nofollow 
-     </userinput> if you do not want the search robot to follow the page's links. </p> </td> 
+     </code> if you do not want the search robot to follow the page's links. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -245,53 +245,53 @@ A comma is not valid as a separator between the mask and the keyword; you can on
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
    <td colname="col2"> <p> If you do not want to index the text on the pages that match the URL mask, but you want to follow the matched pages links, add 
-     <userinput>
+     <code>
        noindex 
-     </userinput> after the include URL mask. Be sure that you separate the keyword from the mask with a space as in the following example: </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>The above example specifies that the search robot follow all links from files with the 
-     <userinput>
+     </code> after the include URL mask. Be sure that you separate the keyword from the mask with a space as in the following example: </p> <p> <code> include&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>The above example specifies that the search robot follow all links from files with the 
+     <code>
        .swf 
-     </userinput> extension, but disables indexing of all text contained within those files. </p> <p>The 
-     <userinput>
+     </code> extension, but disables indexing of all text contained within those files. </p> <p>The 
+     <code>
        noindex 
-     </userinput> keyword is equivalent to a robot meta tag with 
-     <userinput>
+     </code> keyword is equivalent to a robot meta tag with 
+     <code>
        content="noindex" 
-     </userinput> between the 
-     <userinput>
+     </code> between the 
+     <code>
        &lt;head&gt;...&lt;/head&gt; 
-     </userinput> tags of matched pages. </p> </td> 
+     </code> tags of matched pages. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
    <td colname="col2"> <p> If you want to index the text on the pages that match the URL mask, but you do not want to follow the matched page's links, add 
-     <userinput>
+     <code>
        nofollow 
-     </userinput> after the include URL mask. Be sure that you separate the keyword from the mask with a space as in the following example: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>The 
-     <userinput>
+     </code> after the include URL mask. Be sure that you separate the keyword from the mask with a space as in the following example: </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>The 
+     <code>
        nofollow 
-     </userinput> keyword is equivalent to a robot meta tag with 
-     <userinput>
+     </code> keyword is equivalent to a robot meta tag with 
+     <code>
        content="nofollow" 
-     </userinput> between the 
-     <userinput>
+     </code> between the 
+     <code>
        &lt;head&gt;...&lt;/head&gt; 
-     </userinput> tags of matched pages. </p> </td> 
+     </code> tags of matched pages. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
    <td colname="col2"> <p>Used for both include and exclude masks. </p> <p>Any URL mask preceded with 
-     <userinput>
+     <code>
        regexp 
-     </userinput> is treated as a regular expression. If the search robot encounters documents that match an exclude regular expression URL mask, those documents are not indexed. If the search robot encounters documents that match an include regular expression URL mask, those documents are indexed. For example, suppose you have the following URL mask: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>The search robot excludes matching files such as 
-     <userinput>
+     </code> is treated as a regular expression. If the search robot encounters documents that match an exclude regular expression URL mask, those documents are not indexed. If the search robot encounters documents that match an include regular expression URL mask, those documents are indexed. For example, suppose you have the following URL mask: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*/products/.*\.html$ </code> </p> <p>The search robot excludes matching files such as 
+     <code>
        https://www.mydomain.com/products/page1.html 
-     </userinput> </p> <p>If you had the following exclude regular expression URL mask: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>The search robot does not to include any URL containing a CGI parameter such as 
-     <userinput>
+     </code> </p> <p>If you had the following exclude regular expression URL mask: </p> <p> <code> exclude&amp;nbsp;regexp&amp;nbsp;^.*\?..*$ </code> </p> <p>The search robot does not to include any URL containing a CGI parameter such as 
+     <code>
        https://www.mydomain.com/cgi/prog/?arg1=val1&amp;arg2=val2 
-     </userinput>. </p> <p>If you had the following include regular expression URL mask: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>The search robot follows all links from files with the ".swf" extension. The 
-     <userinput>
+     </code>. </p> <p>If you had the following include regular expression URL mask: </p> <p> <code> include&amp;nbsp;regexp&amp;nbsp;^.*\.swf$&amp;nbsp;noindex </code> </p> <p>The search robot follows all links from files with the ".swf" extension. The 
+     <code>
        noindex 
-     </userinput> keyword also specifies that the text of matched files are not indexed. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
+     </code> keyword also specifies that the text of matched files are not indexed. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -467,48 +467,48 @@ A comma is not valid as a separator between the mask and the keyword; you can on
   <tr> 
    <td colname="col1"> <p>noindex </p> </td> 
    <td colname="col2"> <p> If you do not want to index the text on the pages that are dated on or before the date that is specified by the include mask, add 
-     <userinput>
+     <code>
        noindex 
-     </userinput> after the include date mask as in the following: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>Be sure you separate the keyword from the mask with a space. </p> <p>The above example specifies that the search robot follow all links from files with the ".swf" extension that are 10 days old or older. However, it disables indexing of all text contained in those files. </p> <p>You may want make sure that the text for older files is not indexed but still follow all links from those files. In such cases, use an include date mask with the "noindex" keyword instead of using an exclude date mask. </p> </td> 
+     </code> after the include date mask as in the following: </p> <p> <code> include-days&amp;nbsp;10&amp;nbsp;*.swf&amp;nbsp;noindex </code> </p> <p>Be sure you separate the keyword from the mask with a space. </p> <p>The above example specifies that the search robot follow all links from files with the ".swf" extension that are 10 days old or older. However, it disables indexing of all text contained in those files. </p> <p>You may want make sure that the text for older files is not indexed but still follow all links from those files. In such cases, use an include date mask with the "noindex" keyword instead of using an exclude date mask. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>nofollow </p> </td> 
    <td colname="col2"> <p> If you want to index the text on the pages that are dated on or before the date that is specified by the include mask, but you do not want to follow the matched page's links, add 
-     <userinput>
+     <code>
        nofollow 
-     </userinput> after the include date mask as in the following: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Be sure you separate the keyword from the mask with a space. </p> <p>The 
-     <userinput>
+     </code> after the include date mask as in the following: </p> <p> <code> include-days&amp;nbsp;8&amp;nbsp;https://www.mydomain.com/photos&amp;nbsp;nofollow </code> </p> <p>Be sure you separate the keyword from the mask with a space. </p> <p>The 
+     <code>
        nofollow 
-     </userinput> keyword is equivalent to a robot meta tag with 
-     <userinput>
+     </code> keyword is equivalent to a robot meta tag with 
+     <code>
        content="nofollow" 
-     </userinput> between the 
-     <userinput>
+     </code> between the 
+     <code>
        &lt;head&gt;...&lt;/head&gt; 
-     </userinput> tag of matched pages. </p> </td> 
+     </code> tag of matched pages. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>server-date </p> </td> 
    <td colname="col2"> <p>Used for both include and exclude masks. </p> <p>The search robot generally downloads and parses every file before checking the date masks. This behavior occurs because some file types can specify a date inside the file itself. For example, an HTML document can include meta tags that set the date of the file. </p> <p>If you are going to exclude many files based on their date, and you do not want to put an unnecessary load on your servers, you can use 
-     <userinput>
+     <code>
        server-date 
-     </userinput> after the URL in the date mask. </p> <p>This keyword instructs the search robot to trust the date of the file that is returned by your server instead of parsing each file. For example, the following exclude date mask ignores pages that match the URL if the documents are 90 days or older, according to the date that is returned by the server in the HTTP headers: </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> If the date that is returned by the server is 90 days or more past, 
-     <userinput>
+     </code> after the URL in the date mask. </p> <p>This keyword instructs the search robot to trust the date of the file that is returned by your server instead of parsing each file. For example, the following exclude date mask ignores pages that match the URL if the documents are 90 days or older, according to the date that is returned by the server in the HTTP headers: </p> <p> <code> exclude-days&amp;nbsp;90&amp;nbsp;https://www.mydomain.com/docs/archive&amp;nbsp;server-date </code> </p> <p> If the date that is returned by the server is 90 days or more past, 
+     <code>
        server-date 
-     </userinput> specifies that the excluded documents not be downloaded from your server. The result means faster indexing time for your documents and a reduced load placed on your servers. If 
-     <userinput>
+     </code> specifies that the excluded documents not be downloaded from your server. The result means faster indexing time for your documents and a reduced load placed on your servers. If 
+     <code>
        server-date 
-     </userinput> is not specified, the search robot ignores the date that is returned by the server in the HTTP headers. Instead, each file is downloaded and checked to see if the date is specified. If no date is specified in the file, then the search robot uses the date that is returned by the server. </p> <p>You should not use 
-     <userinput>
+     </code> is not specified, the search robot ignores the date that is returned by the server in the HTTP headers. Instead, each file is downloaded and checked to see if the date is specified. If no date is specified in the file, then the search robot uses the date that is returned by the server. </p> <p>You should not use 
+     <code>
        server-date 
-     </userinput> if your files contain commands that override the server date. </p> </td> 
+     </code> if your files contain commands that override the server date. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>regexp </p> </td> 
    <td colname="col2"> <p> Use for both include and exclude masks. </p> <p>Any date mask that is preceded by 
-     <userinput>
+     <code>
        regexp 
-     </userinput> is treated as a regular expression. </p> <p>If the search robot encounters files that match an exclude regular expression date mask, it does not index those files. </p> <p>If the search robot encounters files that match an include regular expression date mask, it indexes those documents. </p> <p>For example, suppose you have the following date mask: </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>The mask tells the search robot to exclude matching files that are 180 days or older. That is, files that contain the word "archive" in their URL. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
+     </code> is treated as a regular expression. </p> <p>If the search robot encounters files that match an exclude regular expression date mask, it does not index those files. </p> <p>If the search robot encounters files that match an include regular expression date mask, it indexes those documents. </p> <p>For example, suppose you have the following date mask: </p> <p> <code> exclude-days&amp;nbsp;180&amp;nbsp;regexp&amp;nbsp;.*archive.* </code> </p> <p>The mask tells the search robot to exclude matching files that are 180 days or older. That is, files that contain the word "archive" in their URL. </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -776,60 +776,60 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
       <tr> 
       <td colname="col1"> <p>Page URL Mask </p> </td> 
       <td colname="col2"> <p>Identify the web page or pages that contain the form. To identify a form that appears on a single page, enter the URL for that page as in the following example: </p> <p> <code> https://www.mydomain.com/login.html </code> </p> <p>To identify forms that appear on multiple pages, specify a URL mask that uses wildcards to describe the pages. To identify forms encountered on any ASP page under <code> https://www.mydomain.com/register/ </code>, for example, you would specify the following: </p> <p> <code> https://www.mydomain.com/register/*.asp&amp;nbsp; </code> </p> <p>You can also use a regular expression to identify multiple pages. Just specify the 
-      <userinput>
+      <code>
         regexp 
-      </userinput> keyword before the URL mask as in the following example: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
+      </code> keyword before the URL mask as in the following example: </p> <p> <code> regexp&amp;nbsp;^https://www\.mydomain\.com/.*/login\.html$ </code> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Action URL Mask </p> </td> 
       <td colname="col2"> <p>Identifies the action attribute of the 
-      <userinput>
+      <code>
         &lt;form&gt; 
-      </userinput> tag. </p> <p>Like the page URL mask, the action URL mask can take the form of a single URL, a URL with wildcards, or a regular expression. </p> <p>The URL mask can be any of the following: 
+      </code> tag. </p> <p>Like the page URL mask, the action URL mask can take the form of a single URL, a URL with wildcards, or a regular expression. </p> <p>The URL mask can be any of the following: 
       <ul id="ul_EDFE7688D3DD4C0BBACCE5D4648D8E44"> 
       <li id="li_77550A448D954EF29FF33EE5E8B5E0F5"> A full path as in the following: <code> https://www.mydomain.com/products.html </code> </li> 
       <li id="li_F84E25553BBA41419BE153DC0709E011"> A partial path as in the following: <code> https://www.mydomain.com/products </code> </li> 
       <li id="li_8DADA1C8604740FCACBA30B4AAADB2A1"> A URL that uses wild cards as in the following: <code> https://www.mydomain.com/*.html </code> </li> 
       <li id="li_1EF637B450654B509AA4B618F7FD3C2B"> A regular expression as in the following: <code> regexp&amp;nbsp^https://www\.mydomain\.com/.*/login\.html$ </code> </li> 
       </ul> </p> <p>If you do not want to index the text on pages that are identified by a URL mask or by an action URL mask, or if you do not want links followed on those pages, you can use the 
-      <userinput>
+      <code>
         noindex 
-      </userinput> and 
-      <userinput>
+      </code> and 
+      <code>
         nofollow 
-      </userinput> keywords. You can add these keywords to your masks using URL masks or entrypoints. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> About URL Entrypoints </a>. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> About URL Masks </a>. </p> </td> 
+      </code> keywords. You can add these keywords to your masks using URL masks or entrypoints. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_5D857E3B5C124E85BC0B5AE77A509573" type="concept" format="dita" scope="local"> About URL Entrypoints </a>. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> About URL Masks </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Form Name Mask </p> </td> 
       <td colname="col2"> <p>Identifies forms if the 
-      <userinput>
+      <code>
         &lt;form&gt; 
-      </userinput> tags in your web pages contain a name attribute. </p> <p>You can use a simple name ( 
-      <userinput>
+      </code> tags in your web pages contain a name attribute. </p> <p>You can use a simple name ( 
+      <code>
         login_form 
-      </userinput>), a name with a wildcard ( 
-      <userinput>
+      </code>), a name with a wildcard ( 
+      <code>
         form* 
-      </userinput>), or a regular expression ( 
-      <userinput>
+      </code>), or a regular expression ( 
+      <code>
         regexp ^.*authorize.*$ 
-      </userinput>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
+      </code>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Form ID Mask </p> </td> 
       <td colname="col2"> <p>Identifies forms if the 
-      <userinput>
+      <code>
         &lt;form&gt; 
-      </userinput> tags in your web pages contain an id attribute. </p> <p>You can use a simple name ( 
-      <userinput>
+      </code> tags in your web pages contain an id attribute. </p> <p>You can use a simple name ( 
+      <code>
         login_form 
-      </userinput>), a name with a wildcard ( 
-      <userinput>
+      </code>), a name with a wildcard ( 
+      <code>
         form* 
-      </userinput>), or a regular expression ( 
-      <userinput>
+      </code>), or a regular expression ( 
+      <code>
         regexp ^.*authorize.*$ 
-      </userinput>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
+      </code>). </p> <p>You can usually leave this field empty because forms typically do not have a name attribute. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Parameters </p> </td> 
@@ -846,51 +846,51 @@ See [Configuring an incremental index of a staged website](../c-about-index-menu
       <tr> 
       <td colname="col1"> <p>Override Method </p> </td> 
       <td colname="col2"> <p>Specify when the target of the form submission is different from what is used in the form's action attribute and when the submitting JavaScript has changed the method. </p> <p>The default values for all form parameters ( 
-      <userinput>
+      <code>
         &lt;input&gt; 
-      </userinput> tags, including hidden fields), the default 
-      <userinput>
+      </code> tags, including hidden fields), the default 
+      <code>
         &lt;option&gt; 
-      </userinput> from a 
-      <userinput>
+      </code> from a 
+      <code>
         &lt;select&gt; 
-      </userinput> tag, and the default text between 
-      <userinput>
+      </code> tag, and the default text between 
+      <code>
         &lt;textarea&gt;...&lt;/textarea&gt; 
-      </userinput> tags) are read from the web page. However, any parameter that is listed in the <span class="wintitle"> Form Submission </span> section, in the <span class="uicontrol"> Parameters </span> field, is replaced with the form defaults. </p> </td> 
+      </code> tags) are read from the web page. However, any parameter that is listed in the <span class="wintitle"> Form Submission </span> section, in the <span class="uicontrol"> Parameters </span> field, is replaced with the form defaults. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Parameters </p> </td> 
       <td colname="col2"> <p>You can prefix form submission parameters with the 
-      <userinput>
+      <code>
         not 
-      </userinput> keyword. </p> <p>When you prefix a parameter with 
-      <userinput>
+      </code> keyword. </p> <p>When you prefix a parameter with 
+      <code>
         not 
-      </userinput>, it is not submitted as part of the form submission. This behavior is useful for check boxes that should be submitted deselected. </p> <p>For example, suppose you want to submit the following parameters: </p> <p> 
+      </code>, it is not submitted as part of the form submission. This behavior is useful for check boxes that should be submitted deselected. </p> <p>For example, suppose you want to submit the following parameters: </p> <p> 
       <ul id="ul_962D12BACF464FF189DB12BFAFCC93A6"> 
       <li id="li_830C6C3EC8D2448388A453BB8EDE5940"> The e-mail parameter with the value 
-      <userinput>
+      <code>
         nobody@mydomain.com 
-      </userinput> </li> 
+      </code> </li> 
       <li id="li_905497E3FACE472DBDD49392D5B45E01"> The password parameter with the value 
-      <userinput>
+      <code>
         tryme 
-      </userinput> </li> 
+      </code> </li> 
       <li id="li_AAA411708ADC464793EADF0D821E282E"> The mycheckbox parameter as deselected. </li> 
       <li id="li_0D3DDE641E2B4BEF9F570C03FDB40ED2"> <p>All other 
-      <userinput>
+      <code>
         &lt;form&gt; 
-      </userinput> parameters as their default values </p> </li> 
+      </code> parameters as their default values </p> </li> 
       </ul> </p> <p>Your form submission parameter would look like the following: </p> <p> <code> email=nobody@mydomain.com 
         password=tryme 
         not&nbsp;mycheckbox </code> </p> <p>The method attribute of the 
-      <userinput>
+      <code>
         &lt;form&gt; 
-      </userinput> tag on the web page is used to decide if the data is sent to your server using the GET method or the POST method. </p> <p>If the 
-      <userinput>
+      </code> tag on the web page is used to decide if the data is sent to your server using the GET method or the POST method. </p> <p>If the 
+      <code>
         &lt;form&gt; 
-      </userinput> tag does not contain a method attribute, the form is submitted using the GET method. </p> </td> 
+      </code> tag does not contain a method attribute, the form is submitted using the GET method. </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -1150,9 +1150,9 @@ Before the effects of the new and enabled definition is visible to customers, re
       <li id="li_64FCD749F55442BAB316BD474128D4F9"> <span class="uicontrol"> Text </span> <p>Simple flat text files, comma-delimited, tab-delimited, or other consistently delimited formats. Each newline-delimited line of text corresponds to an individual document, and is parsed using the specified delimiter. </p> <p>You can map each value, or column, to a metadata field, referenced by the column number, starting at 1 (one). </p> </li> 
       <li id="li_2A4F16CE6DCE4114B7F8E4FE156252BB"> <span class="uicontrol"> Feed </span> <p>Downloads a primary XML document that contains multiple "rows" of information. </p> </li> 
       <li id="li_5A61C53522D74D4C9A5F65989604BDEF"> <span class="uicontrol"> XML </span> <p>Downloads a primary XML document that contains links ( 
-      <userinput>
+      <code>
         &lt;a&gt; 
-      </userinput>) to individual XML documents. </p> </li> 
+      </code>) to individual XML documents. </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 
@@ -1345,9 +1345,9 @@ Before the effects of the new and enabled definition is visible to customers, re
       <tr> 
       <td colname="col1"> <p>File Path </p> </td> 
       <td colname="col2"> <p>Specifies the path to the primary XML document that contains links ( 
-      <userinput>
+      <code>
         &lt;a&gt; 
-      </userinput>) to individual XML documents. </p> <p>The path is relative to the root of the host address. </p> </td> 
+      </code>) to individual XML documents. </p> <p>The path is relative to the root of the host address. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Protocol </p> </td> 

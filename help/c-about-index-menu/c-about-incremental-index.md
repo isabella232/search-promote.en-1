@@ -43,124 +43,124 @@ You can configure what website pages you want to include in your incremental Ind
       <tr> 
       <td colname="col1"> <p>Add or Update URLs </p> </td> 
       <td colname="col2"> <p>Specify URLs. </p> <p>The search robot only indexes the specified documents that have changed since the last time you indexed. </p> <p>Additionally, the search robot follows links that are contained within the specified documents and indexes only those documents that have changed. </p> <p>This field must contain document URLs only and not masks as in the following example: </p> <p> 
-        <userinput>
+        <code>
           https://www.mydomain.com/products/new.html 
-        </userinput> </p> <p>You can use the following keywords with the URL: </p> <p> 
+        </code> </p> <p>You can use the following keywords with the URL: </p> <p> 
         <ul id="ul_62D1082ACBD547D092B10D72C56A3A1E"> 
           <li id="li_32C2B21DE75C4459908384CC44822F7D"> 
-          <userinput>
+          <code>
             noindex 
-          </userinput> <p>If you do not want to index the text on the page that matches a specified URL, but you want to follow the page's links, add 
-            <userinput>
+          </code> <p>If you do not want to index the text on the page that matches a specified URL, but you want to follow the page's links, add 
+            <code>
               noindex 
-            </userinput> after the URL as in the following example: </p> <p> 
-            <userinput>
+            </code> after the URL as in the following example: </p> <p> 
+            <code>
               https://www.mydomain.com/products/new.html noindex 
-            </userinput> </p> <p>Be sure you separate 
-            <userinput>
+            </code> </p> <p>Be sure you separate 
+            <code>
               noindex 
-            </userinput> from the URL with a space; a comma is not a valid separator. </p> </li> 
+            </code> from the URL with a space; a comma is not a valid separator. </p> </li> 
           <li id="li_33AB62B669084BF7B976F4308715E435"> 
-          <userinput>
+          <code>
             nofollow 
-          </userinput> <p>If you want to index the text on the page that matches the specified URL, but you do not want to follow the page's links, add 
-            <userinput>
+          </code> <p>If you want to index the text on the page that matches the specified URL, but you do not want to follow the page's links, add 
+            <code>
               nofollow 
-            </userinput> after the URL as in the following example: </p> <p> 
-            <userinput>
+            </code> after the URL as in the following example: </p> <p> 
+            <code>
               https://www.mydomain.com/products/new.html nofollow 
-            </userinput> </p> <p> Be sure you separate 
-            <userinput>
+            </code> </p> <p> Be sure you separate 
+            <code>
               nofollow 
-            </userinput> from the URL with a space; a comma is not a valid separator. </p> </li> 
+            </code> from the URL with a space; a comma is not a valid separator. </p> </li> 
         </ul> </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Find and Update URL Masks </p> </td> 
       <td colname="col2"> <p>Specify simple URL masks—full path, partial path, or paths that use wild cards or regular expressions. </p> <p>The search robot finds all matching documents and indexes only those documents that have changed since the last time you indexed. </p> <p>Additionally, the search robot follows links that are contained within the matching documents and indexes only those pages that have changed. For example: </p> <p> 
-      <userinput>
+      <code>
         https://www.mydomain.com/products/household/*.html 
-      </userinput> </p> <p>You can also use regular expressions as in the following example: </p> <p> 
-      <userinput>
+      </code> </p> <p>You can also use regular expressions as in the following example: </p> <p> 
+      <code>
         regexp ^https://www\.mydomain\.com/products/household/.*\.html$ 
-      </userinput> </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions</a>. </p> <p>You can also use the keywords 
-      <userinput>
+      </code> </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions</a>. </p> <p>You can also use the keywords 
+      <code>
         nofollow 
-      </userinput> and 
-      <userinput>
+      </code> and 
+      <code>
         noindex 
-      </userinput> as described in <span class="uicontrol"> Add or Update URLs </span> above. </p> </td> 
+      </code> as described in <span class="uicontrol"> Add or Update URLs </span> above. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Include and Exclude URL Masks </p> </td> 
       <td colname="col2"> <p>Specify simple include or exclude URL masks—full path, partial path, or paths that use wild cards or regular expressions. </p> <p>The search robot finds and indexes ("include") or ignores ("exclude") documents based on the type of mask that is specified. </p> <p> When indexing a site, directions are followed in order of appearance. For example, the following list of masks: </p> <p> 
-      <userinput>
+      <code>
         include https://www.mydomain.com/products/household/lightbulbs*.html 
-      </userinput> </p> <p> 
-      <userinput>
+      </code> </p> <p> 
+      <code>
         exclude https://www.mydomain.com/products/ 
-      </userinput> </p> <p>indexes the pages 
-      <userinput>
+      </code> </p> <p>indexes the pages 
+      <code>
         lightbulbs1.html 
-      </userinput> and 
-      <userinput>
+      </code> and 
+      <code>
         lightbulbs2.html 
-      </userinput>. However, it does not index any other pages that are listed under the products directory. </p> <p>A URL mask that appears first always takes precedence over one that appears later in the list. Additionally, if the search robot encounters a document that matches both an include mask and an exclude mask, the mask that is listed first takes precedence. </p> <p>You can also use the keywords 
-      <userinput>
+      </code>. However, it does not index any other pages that are listed under the products directory. </p> <p>A URL mask that appears first always takes precedence over one that appears later in the list. Additionally, if the search robot encounters a document that matches both an include mask and an exclude mask, the mask that is listed first takes precedence. </p> <p>You can also use the keywords 
+      <code>
         nofollow 
-      </userinput> and 
-      <userinput>
+      </code> and 
+      <code>
         noindex 
-      </userinput> as described in <span class="uicontrol"> Add or Update URLs </span> above. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> About URL Masks</a>. </p> </td> 
+      </code> as described in <span class="uicontrol"> Add or Update URLs </span> above. </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_8039DFC53FF3410AA494D602F71BA164" type="concept" format="dita" scope="local"> About URL Masks</a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Include and Exclude Date Masks </p> </td> 
       <td colname="col2"> <p>Specify simple include or exclude date masks—full path, partial path, or paths that use wild cards or regular expressions. </p> <p>The search robot finds and indexes ("include") or ignores ("exclude") documents based on both the URL and the date of documents. </p> <p>You can use the following types of date masks: </p> <p> 
       <ul id="ul_8958ED54C8EF405AA259236595ED3ABA"> 
       <li id="li_0A7841767E004F088CA6FA42E99B9F32"> 
-      <userinput>
+      <code>
         include-days NNN 
-      </userinput> <p>The search robot indexes all documents that match the specified URL mask and are NNN days or more old. </p> <p>You can follow the URL mask with one or more of the following keywords: 
+      </code> <p>The search robot indexes all documents that match the specified URL mask and are NNN days or more old. </p> <p>You can follow the URL mask with one or more of the following keywords: 
         <ul id="ul_22A38D5F38B344ABB02B16EB1865813B"> 
         <li id="li_B89CC37DC2A1428185E86FFCB9DDB193">nofollow </li> 
         <li id="li_C2579B3A338D4AF987C3F518806734B0">noindex </li> 
         <li id="li_0527BF7103F34B83AC3E684069B899F7">server-date </li> 
         </ul> </p> <p>For example, the following mask includes all documents in the /archive/support folder that are 0 days or older: </p> <p> 
-        <userinput>
+        <code>
           include-days 0 https://www.mydomain.com/archive/support/ 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       <li id="li_7663ABED40DD4E159F746E4F92BB6407"> 
-      <userinput>
+      <code>
         include-date YYYY-MM-DD 
-      </userinput> <p>The search robot indexes all documents that match the specified URL mask and are as old or older than the YYYY-MM-DD date. </p> <p>You can follow the URL mask with one or more of the following keywords: </p> <p> 
+      </code> <p>The search robot indexes all documents that match the specified URL mask and are as old or older than the YYYY-MM-DD date. </p> <p>You can follow the URL mask with one or more of the following keywords: </p> <p> 
         <ul id="ul_57BF37A413BB4A4D962863DACE56F395"> 
         <li id="li_88CAB9AB583B4754A5C53478BD1108FF">nofollow </li> 
         <li id="li_999E1CD34FDE4A1B9C332B4AA8C2887D">noindex </li> 
         <li id="li_05646FACF3524D2A9E201A23770E357F"> server-date </li> 
         </ul> </p> <p>The following mask example includes all documents in the /archive/ folder dated on or before July 25, 2011: </p> <p> 
-        <userinput>
+        <code>
           include-date 2011-07-25 https://www.mydomain.com/archive/ 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       <li id="li_172692DEDA8744B3AA492701D24C2D80"> 
-      <userinput>
+      <code>
         exclude-days NNN 
-      </userinput> <p>Disable indexing of all documents that match the specified URL mask and are NNN days or more old. </p> <p>Optionally, you can follow the URL mask by the keyword 
-        <userinput>
+      </code> <p>Disable indexing of all documents that match the specified URL mask and are NNN days or more old. </p> <p>Optionally, you can follow the URL mask by the keyword 
+        <code>
           server-date 
-        </userinput>. </p> <p>The following mask example excludes all PDF files that are 90 days old or older from your index: </p> <p> 
-        <userinput>
+        </code>. </p> <p>The following mask example excludes all PDF files that are 90 days old or older from your index: </p> <p> 
+        <code>
           exclude-days 90 *.pdf 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       <li id="li_26078517744D4AECBE1351008926CBAE"> 
-      <userinput>
+      <code>
         exclude-date YYYY-MM-DD 
-      </userinput> <p>Disable indexing of all documents that match the specified URL mask and are as old or older than the date YYYY-MM-DD. </p> <p>Optionally, you can follow the URL mask by the keyword 
-        <userinput>
+      </code> <p>Disable indexing of all documents that match the specified URL mask and are as old or older than the date YYYY-MM-DD. </p> <p>Optionally, you can follow the URL mask by the keyword 
+        <code>
           server-date 
-        </userinput>. </p> <p>The following mask example excludes all documents in the /archive/ folder dated on or before April 23, 2004: </p> <p> 
-        <userinput>
+        </code>. </p> <p>The following mask example excludes all documents in the /archive/ folder dated on or before April 23, 2004: </p> <p> 
+        <code>
           exclude-date 2004-04-23 https://www.mydomain.com/archive/ 
-        </userinput> </p> </li> 
+        </code> </p> </li> 
       </ul> </p> <p>See <a href="../c-about-settings-menu/c-about-crawling-menu.md#concept_F4F1F58A646F4A86B8650EC46FDCEF66" type="concept" format="dita" scope="local"> About Date Masks</a>. </p> </td> 
       </tr> 
       <tr> 
@@ -170,12 +170,12 @@ You can configure what website pages you want to include in your incremental Ind
       <tr> 
       <td colname="col1"> <p>Find and Delete URL Masks </p> </td> 
       <td colname="col2"> <p>Specify simple URL masks—full path, partial path, or ones that use wild cards or regular expressions. </p> <p>If the specified URL mask matches pages in your search index, the search robot deletes the pages before it adds or updates any other pages. For example: </p> <p> 
-      <userinput>
+      <code>
         https://www.mydomain.com/products/1998/household/* 
-      </userinput> </p> <p>You can also use regular expressions as in the following example: </p> <p> 
-      <userinput>
+      </code> </p> <p>You can also use regular expressions as in the following example: </p> <p> 
+      <code>
         regexp ^https://www\.mydomain\.com/products/199[567]/.*$ 
-      </userinput> </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions</a>. </p> </td> 
+      </code> </p> <p>See <a href="../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions</a>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
