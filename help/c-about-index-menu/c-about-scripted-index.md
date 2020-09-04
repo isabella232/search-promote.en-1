@@ -64,89 +64,89 @@ A leading zero is required for all ordinal dates lower than the 10th when using 
    <td colname="col2"> <p>Each text block can contain as many action commands as you want. The following action-command options correspond to those for standard incremental indexing: </p> <p> 
      <ul id="ul_8E1435350A0F416BB8F7826CD3886E74"> 
       <li id="li_22181666628C48A28A6A0BA1F7CA8E77"> 
-       <userinput>
+       <code>
          add 
-       </userinput> <p>Use with URL. The search robot only indexes the specified URLs that have changed since your last indexing operation. Additionally, the search robot follows links that are contained within specified documents and indexes only those documents that have changed. </p> <p>You can follow the URL with 
-        <userinput>
+       </code> <p>Use with URL. The search robot only indexes the specified URLs that have changed since your last indexing operation. Additionally, the search robot follows links that are contained within specified documents and indexes only those documents that have changed. </p> <p>You can follow the URL with 
+        <code>
           nofollow 
-        </userinput> or 
-        <userinput>
+        </code> or 
+        <code>
           noindex 
-        </userinput> keywords as in the following example: </p> <p> <code> add&amp;nbsp;https://www.mydomain.com/&amp;nbsp;noindex </code> </p> </li> 
+        </code> keywords as in the following example: </p> <p> <code> add&amp;nbsp;https://www.mydomain.com/&amp;nbsp;noindex </code> </p> </li> 
       <li id="li_8E47BF07DB24417083883F5BF40D6B9E"> 
-       <userinput>
+       <code>
          update 
-       </userinput> <p>Use with URL mask. The search robot finds and updates all documents that match the specified URL mask. </p> <p>You can follow the URL with 
-        <userinput>
+       </code> <p>Use with URL mask. The search robot finds and updates all documents that match the specified URL mask. </p> <p>You can follow the URL with 
+        <code>
           nofollow 
-        </userinput> or 
-        <userinput>
+        </code> or 
+        <code>
           noindex 
-        </userinput> keywords as in the following example: </p> <p> <code> update&amp;nbsp;https://www.mydomain.com/products/ </code> </p> </li> 
+        </code> keywords as in the following example: </p> <p> <code> update&amp;nbsp;https://www.mydomain.com/products/ </code> </p> </li> 
       <li id="li_B3EC8B1670D54F66A1D8411A694EF7E4"> 
-       <userinput>
+       <code>
          include 
-       </userinput> or 
-       <userinput>
+       </code> or 
+       <code>
          exclude 
-       </userinput> <p>Use with URL mask. The search robot finds and indexes ("include") or ignores ("exclude") documents based on the type of mask specified. </p> <p>For example, </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/products/household/lightbulbs*.html </code> </p> <p>or </p> <p> <code> exclude&amp;nbsp;https://www.mydomain.com/archive/ </code> </p> </li> 
+       </code> <p>Use with URL mask. The search robot finds and indexes ("include") or ignores ("exclude") documents based on the type of mask specified. </p> <p>For example, </p> <p> <code> include&amp;nbsp;https://www.mydomain.com/products/household/lightbulbs*.html </code> </p> <p>or </p> <p> <code> exclude&amp;nbsp;https://www.mydomain.com/archive/ </code> </p> </li> 
       <li id="li_050B54B735F0475E93806455FA6DC6A5"> 
-       <userinput>
+       <code>
          include-date 
-       </userinput> or 
-       <userinput>
+       </code> or 
+       <code>
          exclude-date 
-       </userinput> <p>Use with URL mask. The search robot finds and indexes ("include") or ignores ("exclude") documents based on the both the URL and the date of documents. The following types of masks are available: </p> <p> 
+       </code> <p>Use with URL mask. The search robot finds and indexes ("include") or ignores ("exclude") documents based on the both the URL and the date of documents. The following types of masks are available: </p> <p> 
         <ul id="ul_23A15CB492214B86BE84D8E6EA1820AE"> 
          <li id="li_0C7051AC3B5A4C57A3E477F7B6246611"> 
-          <userinput>
+          <code>
             include-days NNN 
-          </userinput> <p>The search robot indexes all documents that match the specified URL mask and are NNN days or more old. </p> <p>You can follow the URL mask with the keywords 
-           <userinput>
+          </code> <p>The search robot indexes all documents that match the specified URL mask and are NNN days or more old. </p> <p>You can follow the URL mask with the keywords 
+           <code>
              nofollow 
-           </userinput>, 
-           <userinput>
+           </code>, 
+           <code>
              noindex 
-           </userinput>, and/or 
-           <userinput>
+           </code>, and/or 
+           <code>
              server-date 
-           </userinput>. </p> </li> 
+           </code>. </p> </li> 
          <li id="li_983A10E2ED5D434EA9031F32143F4EF4"> 
-          <userinput>
+          <code>
             include-date YYYY-MM-DD 
-          </userinput> <p> The search robot indexes all documents that match the specified URL mask and are as old or older than the date YYYY-MM-DD, where "YYYY" is the 4 digit year, "MM" is the one- or two-digit month (1-12), and "DD" is the one- or two-digit day (1-31). </p> <p>You can follow the URL mask with the keywords 
-           <userinput>
+          </code> <p> The search robot indexes all documents that match the specified URL mask and are as old or older than the date YYYY-MM-DD, where "YYYY" is the 4 digit year, "MM" is the one- or two-digit month (1-12), and "DD" is the one- or two-digit day (1-31). </p> <p>You can follow the URL mask with the keywords 
+           <code>
              nofollow 
-           </userinput>, 
-           <userinput>
+           </code>, 
+           <code>
              noindex 
-           </userinput>, and/or 
-           <userinput>
+           </code>, and/or 
+           <code>
              server-date 
-           </userinput>. </p> </li> 
+           </code>. </p> </li> 
          <li id="li_733CE1B748024CECA7FBE00D7BC7B88A"> 
-          <userinput>
+          <code>
             exclude-days NNN 
-          </userinput> <p> Disables indexing of all documents that match the specified URL mask and are NNN days or more old. </p> <p>You can follow the URL mask with the keyword 
-           <userinput>
+          </code> <p> Disables indexing of all documents that match the specified URL mask and are NNN days or more old. </p> <p>You can follow the URL mask with the keyword 
+           <code>
              server-date 
-           </userinput>. </p> </li> 
+           </code>. </p> </li> 
          <li id="li_90056A0B96CC4DA3854711860A15CE89"> 
-          <userinput>
+          <code>
             exclude-date YYYY-MM-DD 
-          </userinput> <p>Disables indexing of all documents that match the specified URL mask and are as old or older than the date YYYY-MM-DD. </p> <p>You can follow the URL mask with the keyword 
-           <userinput>
+          </code> <p>Disables indexing of all documents that match the specified URL mask and are as old or older than the date YYYY-MM-DD. </p> <p>You can follow the URL mask with the keyword 
+           <code>
              server-date 
-           </userinput>. </p> </li> 
+           </code>. </p> </li> 
         </ul> </p> </li> 
       <li id="li_AA78F22B60FE4535BE73BA87A8992C08"> 
-       <userinput>
+       <code>
          delete 
-       </userinput> <p>Specify URLs. The search robot removes documents from the index that are identified by the URL. </p> </li> 
+       </code> <p>Specify URLs. The search robot removes documents from the index that are identified by the URL. </p> </li> 
       <li id="li_9C63061568AA4D57A4FEBCF6DB9194EC"> 
-       <userinput>
+       <code>
          deletemask 
-       </userinput> <p>The search robot removes documents from the index that match the specified URL mask. </p> </li> 
+       </code> <p>The search robot removes documents from the index that match the specified URL mask. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

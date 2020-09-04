@@ -66,12 +66,12 @@ t_adding_a_new_menu.xml
       <li id="li_D81876660A8B48AFB70D3317063FBF6F"> <span class="uicontrol"> Sort </span> <p>Organizes your search by any of your defined metadata types. </p> <p>For example, you might define a sort menu with the following metadata types: three items of relevance; a custom metadata field such as an availability code; and price. The three items can be given the labels "Sort by Relevance", "Sort by Availability", and "Sort by Price", respectively. When you include this in your presentation template, the customer can use this control to sort their search results. </p> </li> 
       <li id="li_63AE06B544B64DCAA8C55031B3DFFFF7"> <span class="uicontrol"> Count </span> <p>Defines the number of search results to show. This menu type maps to the cgi parameter <span class="varname"> sp_c </span>. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8" format="dita" scope="local"> Backend search CGI parameters </a>. </p> </li> 
       <li id="li_EEC810D420FF41498ECE49EBAAB33BE5"> <span class="uicontrol"> Navigation </span> <p>Specifies a set of static URLs that are associated with menu items. Typically, a navigation menu is used to create a top-level navigation bar on your search results page. </p> <p>For example, you could create a menu that has women, men, boys, and girls where the menu items would be something like the following: 
-      <userinput>
+      <code>
         /?q1=womens;x1=gender 
-      </userinput>, 
-      <userinput>
+      </code>, 
+      <code>
         /?q1=mens;x1=gender 
-      </userinput> </p> </li> 
+      </code> </p> </li> 
       </ul> </p> </td> 
       </tr> 
       <tr> 

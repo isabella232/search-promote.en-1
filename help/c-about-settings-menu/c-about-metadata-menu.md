@@ -62,9 +62,9 @@ Before the effects of the new meta tag definition is visible to customers, you m
       <tr> 
       <td colname="col1"> <p>Meta Tag Name(s) </p> </td> 
       <td colname="col2"> <p>Determines the content that is associated with the defined field. </p> <p>The list of names can be up to 255 characters long. And, name can contain any characters that are allowed in the name attribute of an HTML meta tag. </p> <p>You can specify multiple meta tags in a single field definition. </p> <p>Multiple values must be comma-separated, and the leftmost meta tag name found on any given web page takes precedence. </p> <p>For example, suppose that you have defined a field named "auth". The field name has the associated meta tags "author, dc.author". In this case, the content from the "author" meta tag is indexed and searched over that of the "dc.author" if both meta tags appear on a web page. </p> <p>User-defined fields must have at least one meta tag name in their definition. Pre-defined fields do not need to have an associated meta tag. However, if one or more meta tags are specified, the content of the meta tags override the current data source for each tag. </p> <p>For example, if the meta tag "dc.title" is associated with the pre-defined "title" field, the content from the "dc.title" meta tag is indexed over that of the 
-      <userinput>
+      <code>
         &lt;title&gt; 
-      </userinput> tag for any particular document. </p> <p>Examples include the following: </p> <p> 
+      </code> tag for any particular document. </p> <p>Examples include the following: </p> <p> 
       <ul id="ul_0132E15FC19E4C0CA13CD5A12EA3BBEC"> 
       <li id="li_ECD3B194FECB4C2090CAEC8449320D3F"> dc.date </li> 
       <li id="li_09C76BC7AC7348859D01989697212E31"> description </li> 
@@ -91,24 +91,24 @@ Before the effects of the new meta tag definition is visible to customers, you m
       <tr> 
       <td colname="col1"> <p>Allow Lists </p> </td> 
       <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Text </span>, or <span class="uicontrol"> Number </span> is selected. </p> <p>Separately index delimited values in the metadata content of this field. </p> <p>For example, the content "Red, Yellow, Green, Blue" is treated as four separate values instead of one when "Allow Lists" is selected. This treatment is most useful with range searching (using 
-      <userinput>
+      <code>
         sp_q_min 
-      </userinput>, 
-      <userinput>
+      </code>, 
+      <code>
         sp_q_max 
-      </userinput>, or 
-      <userinput>
+      </code>, or 
+      <code>
         sp_q_exact 
-      </userinput>) and with the 
-      <userinput>
+      </code>) and with the 
+      <code>
         &lt;search-field-value-list&gt; 
-      </userinput>, 
-      <userinput>
+      </code>, 
+      <code>
         &lt;search-field-values&gt; 
-      </userinput>, and 
-      <userinput>
+      </code>, and 
+      <code>
         &lt;search-display-field-values&gt; 
-      </userinput>. </p> <p>Not available if Version data type is selected. </p> </td> 
+      </code>. </p> <p>Not available if Version data type is selected. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p> Dynamic Facet </p> </td> 
@@ -118,9 +118,9 @@ Before the effects of the new meta tag definition is visible to customers, you m
       <tr> 
       <td colname="col1"> <p>Allow Dedupe </p> </td> 
       <td colname="col2"> <p>Check this option to enable deduplication for this field. That is, allow this field to be specified at search-time by way of the 
-        <userinput>
+        <code>
           sp_dedupe_field 
-        </userinput> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
+        </code> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Table Name </p> </td> 
@@ -145,9 +145,9 @@ Before the effects of the new meta tag definition is visible to customers, you m
       <tr> 
       <td colname="col1"> <p>Sorting </p> </td> 
       <td colname="col2"> <p>Specifies when results are sorted by the named field, by way of the 
-        <userinput>
+        <code>
           sp_s 
-        </userinput> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
+        </code> Search CGI parameter. </p> <p>See <a href="../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890" type="reference" format="dita" scope="local"> Search CGI parameters </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Language </p> </td> 
@@ -180,15 +180,15 @@ Before the effects of the new meta tag definition is visible to customers, you m
       <tr> 
       <td colname="col1"> <p>Default Units </p> </td> 
       <td colname="col2"> <p>Available only if the data type <span class="uicontrol"> Location </span> is selected as the Data Type. </p> <p>Controls the treatment of distance values for proximity searches. </p> <p>If you set the default units to <span class="uicontrol"> Miles </span>, then any proximity search minimum/maximum distance criteria that is applied to this field (by way of the 
-      <userinput>
+      <code>
         sp_q_min[_#] 
-      </userinput> or the 
-      <userinput>
+      </code> or the 
+      <code>
         sp_q_max[_#] 
-      </userinput> Search CGI parameters) is treated as miles, otherwise as kilometers. </p> <p>This option also controls the default distance units that are applied to the output of the 
-      <userinput>
+      </code> Search CGI parameters) is treated as miles, otherwise as kilometers. </p> <p>This option also controls the default distance units that are applied to the output of the 
+      <code>
         &lt;Search-Display-Field&gt; 
-      </userinput> search results template tag when applied to a proximity search output field. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> </td> 
+      </code> search results template tag when applied to a proximity search output field. </p> <p>See <a href="../c-appendices/r-about-proximity-search.md#reference_45AC6BB50609431ABD31DA46EE65360D" type="reference" format="dita" scope="local"> About proximity search </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Create Range Description? </p> </td> 

@@ -155,20 +155,17 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
       </tr> 
       <tr> 
       <td colname="col1"> <p>Remove these words and phrases </p> </td> 
-      <td colname="col2"> <p> Entries in this area are not displayed in the auto-complete word list. </p> <p> Click <span class="uicontrol"> Edit </span> to see the list or to add word and phrases to the list. When you are finished, click <span class="uicontrol"> Save Changes </span>. </p> <p> Regular expressions are allowed in this list. To specify a regular expression in this list, start the line with 
-        <userinput>
-          regexp 
-        </userinput> followed by a single space, followed by the regular expression. Any lines in the word list that match the regular expression are removed. </p> <p> <b>Important</b>: You should only use regular expressions only if you have previously worked with them in other applications. </p> <p>See <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
+      <td colname="col2"> <p> Entries in this area are not displayed in the auto-complete word list. </p> <p> Click <span class="uicontrol"> Edit </span> to see the list or to add word and phrases to the list. When you are finished, click <span class="uicontrol"> Save Changes </span>. </p> <p> Regular expressions are allowed in this list. To specify a regular expression in this list, start the line with <code>regexp</code> followed by a single space, followed by the regular expression. Any lines in the word list that match the regular expression are removed. </p> <p> <b>Important</b>: You should only use regular expressions only if you have previously worked with them in other applications. </p> <p>See <a href="c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A" type="reference" format="dita" scope="local"> Regular Expressions </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Ignore Case </p> </td> 
       <td colname="col2"> <p>Duplicate entries in the auto-complete word list that differ only by alphabetic uppercase/lowercase are removed; all word list entries are forced to lowercase. </p> <p>If you want the Auto-Complete suggestions to appear "first letter capitalized" or "all caps", add the 
-        <userinput>
+        <code>
           text-transform : capitalize; 
-        </userinput> or 
-        <userinput>
+        </code> or 
+        <code>
           text-transform : uppercase; 
-        </userinput> CSS text properties to the Auto-Complete CSS content, under "/* styles for result item */". </p> <p>See <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> Configuring Auto-Complete CSS </a>. </p> </td> 
+        </code> CSS text properties to the Auto-Complete CSS content, under "/* styles for result item */". </p> <p>See <a href="c-about-auto-complete.md#task_EECE35DEB6C94F4A8A5B42B4DED76D96" type="task" format="dita" scope="local"> Configuring Auto-Complete CSS </a>. </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>Update on Re-Index </p> </td> 

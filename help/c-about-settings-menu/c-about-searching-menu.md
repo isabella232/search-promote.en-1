@@ -52,82 +52,82 @@ To get more specific search results, you can use the following search tips.
   <tr> 
    <td colname="col1"> <p>Use multiple words </p> </td> 
    <td colname="col2"> <p>Example: 
-     <userinput>
+     <code>
        our free product 
-     </userinput> </p> <p>Multiple-word queries return more refined results than single-word queries. </p> <p>For example, 
-     <userinput>
+     </code> </p> <p>Multiple-word queries return more refined results than single-word queries. </p> <p>For example, 
+     <code>
        our free product 
-     </userinput> returns more relevant results than just 
-     <userinput>
+     </code> returns more relevant results than just 
+     <code>
        product 
-     </userinput>. </p> <p>Remember that relevant results are returned even if they do not contain all query terms. </p> </td> 
+     </code>. </p> <p>Remember that relevant results are returned even if they do not contain all query terms. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use similar words </p> </td> 
    <td colname="col2"> <p>Example: 
-     <userinput>
+     <code>
        safe secure privacy security 
-     </userinput> </p> <p>The more similar words that you can use in a search query, the more relevant are your search results. </p> </td> 
+     </code> </p> <p>The more similar words that you can use in a search query, the more relevant are your search results. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use appropriate capitalization </p> </td> 
    <td colname="col2"> <p>Example: 
-     <userinput>
+     <code>
        Search Template Reference 
-     </userinput> </p> <p>Capitalize proper nouns. If you use a lowercase word, the search engine matches any case of the word. </p> <p>For example, if you type 
-     <userinput>
+     </code> </p> <p>Capitalize proper nouns. If you use a lowercase word, the search engine matches any case of the word. </p> <p>For example, if you type 
+     <code>
        search 
-     </userinput>, the search engine returns all documents that contain the words "search", "Search", and "SEARCH". However, if you type 
-     <userinput>
+     </code>, the search engine returns all documents that contain the words "search", "Search", and "SEARCH". However, if you type 
+     <code>
        Search 
-     </userinput>, the search engine returns documents that only contain the capitalized word. </p> </td> 
+     </code>, the search engine returns documents that only contain the capitalized word. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use quotation marks </p> </td> 
    <td colname="col2"> <p>Example: 
-     <userinput>
+     <code>
        "our pledge to you" 
-     </userinput> </p> <p>Use quotation marks to find words that must appear adjacent to each other, such as "our pledge to you". Without the surrounding quotes, the search results include the words "our", "pledge", "to", and "you", but not necessarily in that order. Instead, the words may appear anywhere, and in any order, within the document. </p> <p> if you are using the Advanced Search Form with radio buttons for <span class="uicontrol"> any </span>, <span class="uicontrol"> all </span>, and <span class="uicontrol"> phrase </span>, then you can only use quotes when <span class="uicontrol"> any </span> is selected. Quotes are ignored if <span class="uicontrol"> all </span> or <span class="uicontrol"> phrase </span> is selected. </p> </td> 
+     </code> </p> <p>Use quotation marks to find words that must appear adjacent to each other, such as "our pledge to you". Without the surrounding quotes, the search results include the words "our", "pledge", "to", and "you", but not necessarily in that order. Instead, the words may appear anywhere, and in any order, within the document. </p> <p> if you are using the Advanced Search Form with radio buttons for <span class="uicontrol"> any </span>, <span class="uicontrol"> all </span>, and <span class="uicontrol"> phrase </span>, then you can only use quotes when <span class="uicontrol"> any </span> is selected. Quotes are ignored if <span class="uicontrol"> all </span> or <span class="uicontrol"> phrase </span> is selected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use + (plus) or - (minus) </p> </td> 
    <td colname="col2"> <p>Example: 
-     <userinput>
+     <code>
        +"template language" 
-     </userinput> </p> <p>Use + to indicate that a search term or phrase must appear in the search results. </p> <p>Use - to indicate that a search term or phrase must be absent from the search results. </p> <p>You must contain a phrase within quotation marks. Leave no spaces between the plus or minus sign and the search term, as in the example above. </p> <p> if you are using the Advanced Search Form with radio buttons for <span class="uicontrol"> any </span>, <span class="uicontrol"> all </span>, and <span class="uicontrol"> phrase </span>, then you can only use quotes when <span class="uicontrol"> any </span> is selected. The plus and minus modifiers are ignored if <span class="uicontrol"> all </span> or <span class="uicontrol"> phrase </span> is selected. </p> </td> 
+     </code> </p> <p>Use + to indicate that a search term or phrase must appear in the search results. </p> <p>Use - to indicate that a search term or phrase must be absent from the search results. </p> <p>You must contain a phrase within quotation marks. Leave no spaces between the plus or minus sign and the search term, as in the example above. </p> <p> if you are using the Advanced Search Form with radio buttons for <span class="uicontrol"> any </span>, <span class="uicontrol"> all </span>, and <span class="uicontrol"> phrase </span>, then you can only use quotes when <span class="uicontrol"> any </span> is selected. The plus and minus modifiers are ignored if <span class="uicontrol"> all </span> or <span class="uicontrol"> phrase </span> is selected. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Use field searches </p> </td> 
    <td colname="col2"> <p>Examples: </p> <p> 
      <ul id="ul_F7CFF7652894402E8D19D6BA49792530"> 
       <li id="li_27492EF933C5437CB2C499746EC8CF39"> 
-       <userinput>
+       <code>
          title:about 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_BD21505122104FD0B16A4DAD777811DA"> 
-       <userinput>
+       <code>
          desc:"Our Team" 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_8264630F8B3D46BF872EFEB1D69DB6BE"> 
-       <userinput>
+       <code>
          keys:login 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_EBB81CBFC6DA45E99A524890DCD56E9F"> 
-       <userinput>
+       <code>
          body:security 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_6A852E35D6984A2C94144AB6C6D2DFA0"> 
-       <userinput>
+       <code>
          alt:"join now" 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_F4C5699360484D12ACD62BBFB84A7904"> 
-       <userinput>
+       <code>
          url:help 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_B2DBBA2239E74D98868D92B3EDEF5B51"> 
-       <userinput>
+       <code>
          target:Adobe 
-       </userinput> </li> 
+       </code> </li> 
      </ul> </p> <p>Field searches let you create specific searches for words that appear in a specific part of a document. </p> <p>You can perform a field search on body text (body:), title text (title:), alt text (alt:), meta description (desc:), meta key words (keys:), URL (url:) or meta target key words (target:). Use lowercase for the field name and immediately followed by a colon. There are no spaces between the colon and the search term. </p> <p>The field searches are only followed by a word or phrase. Phrases must be contained within quotation marks. </p> <p>if you are using the Advanced Search Form with a list box for the field name, then you can only enter field names before a word or phrase when <span class="uicontrol"> any </span> is selected. Specific field names are ignored if any other Advanced Search Form field is selected in the list box. </p> </td> 
   </tr> 
   <tr> 
@@ -135,27 +135,27 @@ To get more specific search results, you can use the following search tips.
    <td colname="col2"> <p>Examples: </p> <p> 
      <ul id="ul_D8E3867EB15641B0A6E55AD546CCB4DD"> 
       <li id="li_CB8B8FC15EB14B13BB33BB69F5206303"> 
-       <userinput>
+       <code>
          wh* 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_5350A934648C4C81BD6C0875061B426B"> 
-       <userinput>
+       <code>
          "wh* are" 
-       </userinput> </li> 
+       </code> </li> 
       <li id="li_7965A2F7186F40039D2F0736299D11B1"> 
-       <userinput>
+       <code>
          415-*-* 
-       </userinput> </li> 
+       </code> </li> 
      </ul> </p> <p>Wildcard searches expand the number of matches for a particular request. The * character is used as the wildcard character. </p> <p>For example, searching for 
-     <userinput>
+     <code>
        wh* 
-     </userinput> finds the words "what", "why", "when", "whether", and any other word that starts with "wh". Searching for *her* finds the words "here", "whether", "together", "gathering", and any other word that contains "her" anywhere within the word. </p> <p>You can combine wildcards with + and - modifiers, quotes for phrases, as well as the field search specifiers. </p> <p>The search 
-     <userinput>
+     </code> finds the words "what", "why", "when", "whether", and any other word that starts with "wh". Searching for *her* finds the words "here", "whether", "together", "gathering", and any other word that contains "her" anywhere within the word. </p> <p>You can combine wildcards with + and - modifiers, quotes for phrases, as well as the field search specifiers. </p> <p>The search 
+     <code>
        +wh* -se*ch 
-     </userinput> finds all pages that have a word that starts with "wh" and does not contain a word that starts with "se" and ends with "ch". </p> <p>The search 
-     <userinput>
+     </code> finds all pages that have a word that starts with "wh" and does not contain a word that starts with "se" and ends with "ch". </p> <p>The search 
+     <code>
        "wh* are" 
-     </userinput> finds the phrases "where are", "what are", "why are", and so forth. </p> </td> 
+     </code> finds the phrases "where are", "what are", "why are", and so forth. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1226,9 +1226,9 @@ t_creating_a_feed.xml
         <li id="li_2D9ECAFB8E8544D39B486F7BC3DCE589"> <span class="uicontrol"> Upload Method </span> <p>Most feeds have two ways of distributing the files: FTP and Hosted Content Network. </p> <p>The recommended upload method for submitting the data feed is <span class="uicontrol"> FTP </span>. Google Merchant Center hosts an FTP server for this purpose. See the Google Merchant Center Help about setting up a separate Google FTP account for this Google Product Search feed. </p> 
           <ul id="ul_BC0D8B541068407883CAC948496DBD0A"> 
           <li id="li_DB28CA23C94A4AF09E1A0EB06DF8F40C"> <span class="uicontrol"> FTP </span> <p>Site search/merchandising servers use passive FTP. </p> <p>FTP is the only way to push a file to another server. </p> <p> <span class="uicontrol"> FTP Server </span> - Specifies the name of the FTP server. In this case, it is 
-            <userinput>
+            <code>
               uploads.google.com 
-            </userinput>. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
+            </code>. Do not include the protocol or preceding "ftp://". </p> <p> <span class="uicontrol"> FTP User Name </span> - Specifies the name of the FTP account. </p> <p> <span class="uicontrol"> FTP Password </span> - Specifies the password of the FTP account. </p> <p> <span class="uicontrol"> FTP File Name </span> - Specifies the name of the file to transmit. This name is a template if the feed generates multiple files, usually incrementing a number at the end of the name but before the extension. For example: basename.xml, basename1.xml, basename2.xml, ... , basename-Nth.xml </p> <p> <span class="uicontrol"> FTP Directory </span> - If a specific directory path is required, you enter it here. Do not include the filename in the path. </p> </li> 
           <li id="li_5990927146434DAF89273F4636D21437"> <span class="uicontrol"> Hosted Content Network </span> <p>The Content Network is the means of serving files from the web servers of site search/merchandising. The recipient of the feed pulls it from the web servers using an HTTP request. </p> <p> 
             <!--After the base filename is entered and the feed is successfully saved, the URL of the Content Network file is displayed on the Verification panel of the wizard. The URL becomes active after the feed is successfully processed. The vendor can get the feed data from this URL. Multiple files use the same URL path. However, be sure that you replace or change the filename according to the enumeration scheme. --> </p> </li> 
           </ul> </li> 
