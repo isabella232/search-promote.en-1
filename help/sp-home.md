@@ -1,6 +1,6 @@
 ---
-title: Search&amp;Promote technical documentation
-seo-title: Search&amp;Promote technical documentation and self-help
+title: Adobe Search&amp;Promote technical documentation
+seo-title: Adobe Search&amp;Promote technical documentation and self-help
 description: Technical documentation and self-help materials for Adobe Search&amp;Promote
 seo-description: Technical documentation, release notes and self-help materials for Adobe Search&amp;Promote
 solution: Target
@@ -8,7 +8,7 @@ topic: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 ---
 
-# Search&amp;Promote Documentation{#search-promote-documentation}
+# Adobe Search&amp;Promote Guide {#search-promote-documentation}
 
 ## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
 
