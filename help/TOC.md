@@ -6,7 +6,7 @@ user-guide-title: Adobe Search&amp;Promote Guide
 breadcrumb-title: Adobe Search&amp;Promote Guide
 ---
 
-# Adobe Search&amp;Promote Guide {#using}
+# Adobe Search and Promote Guide {#using}
 
 + [Search&amp;Promote Documentation overview](sp-home.md)
 + Release notes {#release-notes}
