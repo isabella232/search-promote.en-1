@@ -1,12 +1,12 @@
 ---
 cloud: experience-cloud
-product: Search&amp;Promote
+product: Adobe Search&amp;Promote
 audience: end-user
-user-guide-title: Search&amp;Promote Guide
-breadcrumb-title: Search&amp;Promote Guide
+user-guide-title: Adobe Search&amp;Promote Guide
+breadcrumb-title: Adobe Search&amp;Promote Guide
 ---
 
-# Search and Promote Guide {#using}
+# Adobe Search&amp;Promote Guide {#using}
 
 + [Search&amp;Promote Documentation overview](sp-home.md)
 + Release notes {#release-notes}
