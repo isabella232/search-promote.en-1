@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: Adobe Search&amp;Promote
+product: adobe search and promote
 audience: end-user
 user-guide-title: Adobe Search&amp;Promote Guide
 breadcrumb-title: Adobe Search&amp;Promote Guide
