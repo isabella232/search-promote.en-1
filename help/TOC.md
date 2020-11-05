@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe search and promote
-solution: Target
+solution: Search & Promote
 type: Documentation
 audience: end-user
 user-guide-title: Adobe Search&amp;Promote Guide
