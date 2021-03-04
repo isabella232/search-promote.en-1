@@ -10,7 +10,11 @@ uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 
 # Adobe Search&amp;Promote Guide {#search-promote-documentation}
 
+<!-- ## [Option 1: Lorem Ipsum FAQ announcement](#lorem-ipsum) -->
+
 ## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
+
+<!-- * [Option 2: Lorem ipsum FAQ announcement](anchor) -->
 
 * Adobe Marketing Cloud Release Notes - Contains new features, fixes, and known issues in all of the Marketing Cloud solutions. Feature releases occur in the Spring and Fall, with maintenance releases occurring monthly.
 
