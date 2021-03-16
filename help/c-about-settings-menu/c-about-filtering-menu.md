@@ -1,7 +1,5 @@
 ---
 description: Use the Filtering menu to use scripts that change the content of a web document before it is indexed.
-seo-description: Use the Filtering menu to use scripts that change the content of a web document before it is indexed.
-seo-title: About the Filtering menu
 solution: Target
 subtopic: Filtering
 title: About the Filtering menu

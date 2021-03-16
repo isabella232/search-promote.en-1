@@ -1,7 +1,5 @@
 ---
 description: Use the Searching menu to set excluded words, collections, restrictions, preview, and frames.
-seo-description: Use the Searching menu to set excluded words, collections, restrictions, preview, and frames.
-seo-title: About the Searching menu
 solution: Target
 subtopic: Searching
 title: About the Searching menu

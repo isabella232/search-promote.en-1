@@ -1,7 +1,5 @@
 ---
 description: You can use Page Navigation to customize the page navigation control of your search presentation layer.
-seo-description: You can use Page Navigation to customize the page navigation control of your search presentation layer.
-seo-title: About Page Navigation
 solution: Target
 subtopic: Navigation
 title: About Page Navigation

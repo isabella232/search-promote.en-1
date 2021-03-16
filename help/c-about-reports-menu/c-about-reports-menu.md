@@ -1,7 +1,5 @@
 ---
 description: Use the Reports menu to view or reset reports of customers' search queries.
-seo-description: Use the Reports menu to view or reset reports of customers' search queries.
-seo-title: About the Reports menu
 solution: Target
 title: About the Reports menu
 topic: Reports,Site search and merchandising

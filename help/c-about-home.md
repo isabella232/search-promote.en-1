@@ -1,7 +1,5 @@
 ---
 description: You can use Home to view a variety of report widgets that give you a quick overview of your Search&amp;Promote account.
-seo-description: You can use Home to view a variety of report widgets that give you a quick overview of your Search&amp;Promote account.
-seo-title: About Home
 solution: Target
 title: About Home
 topic: Home,Site search and merchandising

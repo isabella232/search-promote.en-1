@@ -1,7 +1,5 @@
 ---
 description: Use the Account Options menu to update your account settings, set merchandising preferences, or remove your own Search&amp;Promote account.
-seo-description: Use the Account Options menu to update your account settings, set merchandising preferences, or remove your own Search&amp;Promote account.
-seo-title: About the Account Options menu
 solution: Target
 subtopic: Account Options
 title: About the Account Options menu

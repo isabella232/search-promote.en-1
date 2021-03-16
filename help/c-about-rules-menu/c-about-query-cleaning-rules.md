@@ -1,7 +1,5 @@
 ---
 description: Use Query Cleaning Rules to analyze and modify the incoming query.
-seo-description: Use Query Cleaning Rules to analyze and modify the incoming query.
-seo-title: About Query Cleaning Rules
 solution: Target
 title: About Query Cleaning Rules
 topic: Rules,Site search and merchandising

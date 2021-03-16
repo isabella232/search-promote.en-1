@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: Search&amp;Promote 8.14.0 Release Notes (05/22/2014)
+description: Search&amp;Promote 8.14.0 release notes.
 solution: Target
 title: Search&amp;Promote 8.14.0 Release Notes (05/22/2014)
 topic: Release Notes,Site search and merchandising

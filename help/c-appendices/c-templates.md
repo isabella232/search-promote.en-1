@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: Templates
+description: Learn about using presentation and template tags in Search&amp;Promote.
 solution: Target
 title: Templates
 topic: Appendices,Site search and merchandising

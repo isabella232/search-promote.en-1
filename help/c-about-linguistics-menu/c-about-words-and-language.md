@@ -1,7 +1,5 @@
 ---
 description: You can use Words & Language to determine how search terms are matched to the content of your web pages.
-seo-description: You can use Words & Language to determine how search terms are matched to the content of your web pages.
-seo-title: About Words & Language
 solution: Target
 title: About Words & Language
 topic: Linguistics,Site search and merchandising

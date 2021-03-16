@@ -1,7 +1,5 @@
 ---
 description: You can use Post-Search Rules to examine the results of a search and determine how the search affects the displayed content.
-seo-description: You can use Post-Search Rules to examine the results of a search and determine how the search affects the displayed content.
-seo-title: About Post-Search Rules
 solution: Target
 title: About Post-Search Rules
 topic: Rules,Site search and merchandising

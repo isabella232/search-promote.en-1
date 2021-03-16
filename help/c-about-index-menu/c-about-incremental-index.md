@@ -1,7 +1,5 @@
 ---
 description: You can use Incremental Index to index "pieces" of your live or staged website, such as a collection of frequently changed pages.
-seo-description: You can use Incremental Index to index "pieces" of your live or staged website, such as a collection of frequently changed pages.
-seo-title: About Incremental Index
 solution: Target
 subtopic: Incremental Index
 title: About Incremental Index

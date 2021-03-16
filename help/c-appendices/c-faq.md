@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: Frequently asked questions
+description: Read frequently asked questions about Search&amp;Promote
 solution: Target
 title: Frequently asked questions
 topic: Appendices,Site search and merchandising

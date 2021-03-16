@@ -1,7 +1,5 @@
 ---
 description: You can use menus to customize your presentation layer.
-seo-description: You can use menus to customize your presentation layer.
-seo-title: About Menus
 solution: Target
 subtopic: Navigation
 title: About Menus

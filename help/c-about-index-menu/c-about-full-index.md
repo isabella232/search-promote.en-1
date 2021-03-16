@@ -1,7 +1,5 @@
 ---
 description: You can use Full Index to index all the pages of your staged or live website. Indexing helps your customers more easily find what they are looking for or what they need when they perform a search.
-seo-description: You can use Full Index to index all the pages of your staged or live website. Indexing helps your customers more easily find what they are looking for or what they need when they perform a search.
-seo-title: About Full Index
 solution: Target
 subtopic: Full Index
 title: About Full Index

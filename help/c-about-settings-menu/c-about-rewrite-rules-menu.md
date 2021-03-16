@@ -1,7 +1,5 @@
 ---
 description: Use the Rewrite Rules menu to set crawl and search URL and title rules.
-seo-description: Use the Rewrite Rules menu to set crawl and search URL and title rules.
-seo-title: About the Rewrite Rules menu
 solution: Target
 subtopic: Rewrite Rules
 title: About the Rewrite Rules menu

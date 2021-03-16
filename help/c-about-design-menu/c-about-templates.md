@@ -1,7 +1,5 @@
 ---
 description: You can use Templates to manage your presentation templates and transport templates.
-seo-description: You can use Templates to manage your presentation templates and transport templates.
-seo-title: About Templates
 solution: Target
 title: About Templates
 topic: Design,Site search and merchandising

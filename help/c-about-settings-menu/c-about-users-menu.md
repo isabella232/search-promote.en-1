@@ -1,7 +1,5 @@
 ---
 description: Use the Users menu to view and add users, view and add roles, or change role membership. You must be a site search/merchandising user with administrator privileges to perform any of the tasks on the Users menu.
-seo-description: Use the Users menu to view and add users, view and add roles, or change role membership. You must be a site search/merchandising user with administrator privileges to perform any of the tasks on the Users menu.
-seo-title: About the Users menu
 solution: Target
 subtopic: Users
 title: About the Users menu

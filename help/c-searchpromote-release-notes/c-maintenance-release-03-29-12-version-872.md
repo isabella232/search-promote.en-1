@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
+description: Search&amp;Promote 8.7.2 release notes.
 solution: Target
 title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
 topic: Release Notes,Site search and merchandising

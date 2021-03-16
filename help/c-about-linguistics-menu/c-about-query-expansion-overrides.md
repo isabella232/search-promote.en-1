@@ -1,7 +1,5 @@
 ---
 description: You can override the expansion of search query results.
-seo-description: You can override the expansion of search query results.
-seo-title: About Query Expansion Overrides
 solution: Target
 title: About Query Expansion Overrides
 topic: Linguistics,Site search and merchandising

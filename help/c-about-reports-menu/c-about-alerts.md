@@ -1,7 +1,5 @@
 ---
 description: The Alerts page provides a central place to view and manage all alerts having to do with your account.
-seo-description: The Alerts page provides a central place to view and manage all alerts having to do with your account.
-seo-title: About Alerts
 solution: Target
 title: About Alerts
 topic: Reports,Site search and merchandising

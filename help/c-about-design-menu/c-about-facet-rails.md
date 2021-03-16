@@ -1,7 +1,5 @@
 ---
 description: Use Facet Rail to reorder groups of facets on a web page.
-seo-description: Use Facet Rail to reorder groups of facets on a web page.
-seo-title: About Facet Rail
 solution: Target
 subtopic: Navigation
 title: About Facet Rail

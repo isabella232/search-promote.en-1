@@ -1,7 +1,5 @@
 ---
 description: You can use SEO (Search Engine Optimization) meta tags to help tailor certain elements of your pages and thereby improve search engine placement.
-seo-description: You can use SEO (Search Engine Optimization) meta tags to help tailor certain elements of your pages and thereby improve search engine placement.
-seo-title: About SEO
 solution: Target
 subtopic: SEO
 title: About SEO

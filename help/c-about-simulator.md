@@ -1,7 +1,5 @@
 ---
 description: Use Simulator to see what your search would look like if you were to push everything that is currently staged, live.
-seo-description: Use Simulator to see what your search would look like if you were to push everything that is currently staged, live.
-seo-title: About Simulator
 solution: Target
 title: About Simulator
 topic: Simulator,Site search and merchandising

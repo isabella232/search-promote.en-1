@@ -1,7 +1,5 @@
 ---
 description: You can define the date formats that are used when it parses and indexes any field with a "date" data type.
-seo-description: You can define the date formats that are used when it parses and indexes any field with a "date" data type.
-seo-title: Date Formats
 solution: Target
 title: Date Formats
 topic: Appendices,Site search and merchandising

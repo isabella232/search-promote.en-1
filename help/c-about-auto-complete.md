@@ -1,7 +1,5 @@
 ---
 description: You can configure various areas of Auto-Complete to control the generation of the auto-complete enabled search form, and the file autocomplete_data.js, which is included as a part of the auto-complete enabled search form.
-seo-description: You can configure various areas of Auto-Complete to control the generation of the auto-complete enabled search form, and the file autocomplete_data.js, which is included as a part of the auto-complete enabled search form.
-seo-title: About Auto-Complete
 solution: Target
 subtopic: Auto-Complete
 title: About Auto-Complete

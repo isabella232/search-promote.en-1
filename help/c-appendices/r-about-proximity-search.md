@@ -1,7 +1,5 @@
 ---
 description: Proximity Search lets you associate a unique location with any page on your website, and then search and sort results by proximity (distance) from a given location.
-seo-description: Proximity Search lets you associate a unique location with any page on your website, and then search and sort results by proximity (distance) from a given location.
-seo-title: About proximity search
 solution: Target
 title: About proximity search
 topic: Appendices,Site search and merchandising

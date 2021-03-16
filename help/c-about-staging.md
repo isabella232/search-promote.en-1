@@ -1,7 +1,5 @@
 ---
 description: Staging lets you test and preview changes to your settings and configurations without impacting your live index.
-seo-description: Staging lets you test and preview changes to your settings and configurations without impacting your live index.
-seo-title: About Staging
 solution: Target
 title: About Staging
 topic: Staging,Site search and merchandising
