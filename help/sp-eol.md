@@ -3,8 +3,6 @@ title: Adobe Search&Promote End-of-Service Announcement
 description: Learn more about Adobe Search&Promote's End-of-Service announcement.
 feature: 
 role: Administrator,Business Practitioner,Data Engineer,Developer
-hide: no
-hidefromtoc: no
 ---
 
 # Adobe Search&Promote End-of-Service Announcement
