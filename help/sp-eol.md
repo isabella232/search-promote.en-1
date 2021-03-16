@@ -1,35 +1,38 @@
 ---
-title: Lorem Ipsum 
-description:   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vulputate nulla quis libero sagittis sollicitudin.
-solution: Target
+title: Adobe Search&Promote End-of-Service Announcement
+description: Learn more about Adobe Search&Promote's End-of-Service announcement.
+feature: 
+role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: yes
 hidefromtoc: yes
 ---
 
-# Lorem Ipsum
+# Adobe Search&Promote End-of-Service Announcement
 
-## Lorem ipsum dolor sit amet
+## Frequently asked questions about End-of-Service for Search&Promote
 
-Consectetur adipiscing elit. Etiam vulputate nulla quis libero sagittis sollicitudin. Quisque pellentesque enim sit amet maximus commodo. Suspendisse vitae risus volutpat, vehicula orci a, placerat nulla. Curabitur ullamcorper quis dolor ac lacinia. Fusce aliquet egestas mi nec facilisis.
+### **_On what date will Search&Promote cease to operate?_**
 
-Donec neque odio, scelerisque sed odio a, consectetur efficitur ex. Nunc sodales vitae turpis non rutrum. Mauris imperdiet sollicitudin leo vel efficitur. Quisque mattis nulla eget nulla ornare, ac tempor lorem maximus. In facilisis nisl elit, et vulputate nunc maximus quis.
+  End-of-Service for Search&Promote is scheduled for August 1, 2022. On that date, the Search&Promote administrative user interface will no longer be accessible, and requests to Search&Promote APIs will no longer deliver results. Before this date, the service will be fully available and functional.
 
-### **_Lorem ipsum dolor sit amet, consectetur adipiscing elit?_**
+### **_What will happen if a search or other API request is made to Search&Promote?_**
 
-  In rutrum metus at metus volutpat sodales. Donec imperdiet augue nec ipsum vestibulum, in elementum ante egestas. Duis sodales ligula maximus ex auctor, at auctor tortor malesuada.
+  Search and other API requests made to Search&Promote will no longer return results. Requests can result in a “Host not Found” error, a 3xx HTTP redirect, or an HTTP error such as 404, 408, or other HTTP error code.
 
-### **_Pellentesque fringilla purus convallis, sollicitudin leo sit amet, condimentum ex?_**
+### **_Does Adobe have alternative options for site search and commerce search?_**
 
-  Quisque a magna dictum, molestie mauris at, iaculis leo. Pellentesque vel erat ac tellus vehicula ultricies. Morbi condimentum ligula ut condimentum consequat.
+  Yes. For product and commerce search, [Live Search from Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html) is Adobe’s search application going forward. Live Search from Magento Commerce is targeted to launch in the first half of 2021.
 
-### **_Curabitur id nunc at massa fringilla condimentum?_**
+### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
-  Morbi eu nisl nec urna aliquet laoreet. Suspendisse luctus nisl in bibendum scelerisque. Pellentesque sit amet lacus vel erat convallis ornare. Quisque gravida eros eu dapibus tempor.
+  Yes. If the Search&Promote feature is critical to your marketing strategy, consider the many open-source frameworks that exist to power search, including [Apache Solr](https://solr.apache.org/) and [Elastic Free and Open](https://www.elastic.co/about/free-and-open).  
 
-### **_Massa fringilla condimentum?_**
+  Also, both [AWS](https://aws.amazon.com/cloudsearch/) and [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) provide cloud-native search capabilities on their respective cloud platforms. You can integrate both options into Adobe Experience Manager Sites to power site search and more.
 
-  Morbi eu nisl nec urna aliquet laoreet. Suspendisse luctus nisl in bibendum scelerisque. Pellentesque sit amet lacus vel erat convallis ornare. Quisque gravida eros eu dapibus tempor.
+### **_Who can I contact to learn more?_**
 
-### **_Nam et sem ac quam sollicitudin egestas et sit amet ligula?_**
+  Reach out to your Customer Success Manager (CSM) with any questions or contact the Adobe team at [searchquestions@adobe.com](mailto:searchquestions@adobe.com).
 
-  Ut id libero at velit porttitor lacinia sagittis sit amet metus. Nulla vehicula odio mollis dolor facilisis tempor. Morbi sit amet felis sit amet dolor varius vehicula. Nulla vel leo sed purus varius rhoncus.
+### **_Can I still renew my applicable Search&Promote license before its end-of-service?_**
+
+  Yes. Work with your Adobe representative to renew your license with a contract end date no later than August 1, 2022.
