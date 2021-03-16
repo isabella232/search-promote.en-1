@@ -1,7 +1,5 @@
 ---
 description: You can use Excluded Words to specify frequently used phrases and common words, such as "a" and "the", that you want to leave out of search results.
-seo-description: You can use Excluded Words to specify frequently used phrases and common words, such as "a" and "the", that you want to leave out of search results.
-seo-title: About Excluded Words
 solution: Target
 title: About Excluded Words
 topic: Linguistics,Site search and merchandising

@@ -1,7 +1,5 @@
 ---
 description: Use the My Profile menu to set personal information, preferences, login password, and view access privileges.
-seo-description: Use the My Profile menu to set personal information, preferences, login password, and view access privileges.
-seo-title: About the My Profile menu
 solution: Target
 subtopic: My Profile
 title: About the My Profile menu

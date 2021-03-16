@@ -1,7 +1,5 @@
 ---
 description: Use the Crawling menu set date and URL masks, passwords, content types, connections, form definitions, and URL entrypoints.
-seo-description: Use the Crawling menu set date and URL masks, passwords, content types, connections, form definitions, and URL entrypoints.
-seo-title: About the Crawling menu
 solution: Target
 subtopic: Crawling
 title: About the Crawling menu

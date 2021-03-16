@@ -1,7 +1,5 @@
 ---
 description: A refresher concerning the syntax and rules of constructing regular expressions.
-seo-description: A refresher concerning the syntax and rules of constructing regular expressions.
-seo-title: Regular Expressions
 solution: Target
 title: Regular Expressions
 topic: Appendices,Site search and merchandising

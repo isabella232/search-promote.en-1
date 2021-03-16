@@ -1,7 +1,5 @@
 ---
 description: If you are new to Search&Promote and dynamic navigation, start here to get up and running with your account. Among other things, you will learn how to index your website, and customize the look and feel of your search results.
-seo-description: If you are new to Search&Promote and dynamic navigation, start here to get up and running with your account. Among other things, you will learn how to index your website, and customize the look and feel of your search results.
-seo-title: Getting Started
 solution: Target
 title: Getting Started
 topic: Getting Started,Site search and merchandising

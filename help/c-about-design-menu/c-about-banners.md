@@ -1,7 +1,5 @@
 ---
 description: You can use Banners to manage the banner ads on your website.
-seo-description: You can use Banners to manage the banner ads on your website.
-seo-title: About Banners
 solution: Target
 title: About Banners
 topic: Design,Site search and merchandising

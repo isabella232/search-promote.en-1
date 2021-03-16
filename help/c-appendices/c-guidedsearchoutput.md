@@ -1,7 +1,5 @@
 ---
-description: You can customize output in any text-based format, including XML or JSON.
-seo-description: You can customize output in any text-based format, including XML or JSON.
-seo-title: Guided Search output
+description: Learn how to customize output in any text-based format, including XML or JSON.
 solution: Target
 title: Guided Search output
 topic: Appendices,Site search and merchandising

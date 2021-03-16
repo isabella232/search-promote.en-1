@@ -1,7 +1,5 @@
 ---
 description: Use Accounts on the product menu to select an account that you want to access and use.
-seo-description: Use Accounts on the product menu to select an account that you want to access and use.
-seo-title: About the Accounts menu
 solution: Target
 title: About the Accounts menu
 topic: Settings,Site search and merchandising

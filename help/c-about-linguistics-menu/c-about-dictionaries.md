@@ -1,7 +1,5 @@
 ---
 description: You can use Dictionaries to manage a collection of dictionaries and their associated synonyms and hyponyms.
-seo-description: You can use Dictionaries to manage a collection of dictionaries and their associated synonyms and hyponyms.
-seo-title: About Dictionaries
 solution: Target
 title: About Dictionaries
 topic: Linguistics,Site search and merchandising

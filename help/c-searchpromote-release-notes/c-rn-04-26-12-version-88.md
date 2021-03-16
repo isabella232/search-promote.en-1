@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: Search&amp;Promote 8.8 Release Notes (04/26/2012)
+description: Search&amp;Promote 8.8 release notes.
 solution: Target
 title: Search&amp;Promote 8.8 Release Notes (04/26/2012)
 topic: Release Notes,Site search and merchandising

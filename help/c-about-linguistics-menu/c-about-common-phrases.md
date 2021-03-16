@@ -1,7 +1,5 @@
 ---
 description: You can define Common Phrases that are used on your website so that when a customer enters a search query, they do not need to enter quotes around any of the phrases you have defined.
-seo-description: You can define Common Phrases that are used on your website so that when a customer enters a search query, they do not need to enter quotes around any of the phrases you have defined.
-seo-title: About Common Phrases
 solution: Target
 title: About Common Phrases
 topic: Linguistics,Site search and merchandising

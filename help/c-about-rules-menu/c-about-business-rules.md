@@ -1,7 +1,5 @@
 ---
 description: You can use Business Rules to merchandise your search.
-seo-description: You can use Business Rules to merchandise your search.
-seo-title: About Business Rules
 solution: Target
 title: About Business Rules
 topic: Rules,Site search and merchandising

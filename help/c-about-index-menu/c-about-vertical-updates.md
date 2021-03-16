@@ -1,7 +1,5 @@
 ---
 description: You can use Vertical Update to quickly update parts of your index without having to process large amounts of data.
-seo-description: You can use Vertical Update to quickly update parts of your index without having to process large amounts of data.
-seo-title: About Vertical Update
 solution: Target
 subtopic: Vertical Update
 title: About Vertical Update

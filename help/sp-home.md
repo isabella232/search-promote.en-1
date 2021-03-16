@@ -1,8 +1,6 @@
 ---
 title: Adobe Search&amp;Promote technical documentation
-seo-title: Adobe Search&amp;Promote technical documentation and self-help
 description: Technical documentation and self-help materials for Adobe Search&amp;Promote
-seo-description: Technical documentation, release notes and self-help materials for Adobe Search&amp;Promote
 solution: Target
 topic: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
@@ -10,15 +8,13 @@ uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 
 # Adobe Search&amp;Promote Guide {#search-promote-documentation}
 
-<!-- ## [Option 1: Lorem Ipsum FAQ announcement](#lorem-ipsum) -->
-
 ## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
 
-<!-- * [Option 2: Lorem ipsum FAQ announcement](anchor) -->
+* **Attention:** [Adobe Search&amp;Promote End-of-Service Announcement](/help/sp-eol.md).
 
 * Adobe Marketing Cloud Release Notes - Contains new features, fixes, and known issues in all of the Marketing Cloud solutions. Feature releases occur in the Spring and Fall, with maintenance releases occurring monthly.
 
-  **Early Access**: Sign up for the [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to receive Adobe Marketing Cloud release notes one week before each release. 
+  Early Access: Sign up for the [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to receive Adobe Marketing Cloud release notes one week before each release. 
 
 * The latest Adobe Search&amp;Promote release notes:
 

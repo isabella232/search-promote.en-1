@@ -1,7 +1,5 @@
 ---
 description: You can use History to review a list of all the revisions that were made to an implemented feature such as a facet, breadcrumb, banner, or template, to name a few.
-seo-description: You can use History to review a list of all the revisions that were made to an implemented feature such as a facet, breadcrumb, banner, or template, to name a few.
-seo-title: Using the History option
 solution: Target
 title: Using the History option
 topic: Using History,Site search and merchandising

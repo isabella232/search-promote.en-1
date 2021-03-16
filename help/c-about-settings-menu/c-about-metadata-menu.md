@@ -1,7 +1,5 @@
 ---
 description: Use the Metadata menu to customize Search definitions and index injections.
-seo-description: Use the Metadata menu to customize Search definitions and index injections.
-seo-title: About the Metadata menu
 solution: Target
 subtopic: Metadata
 title: About the Metadata menu

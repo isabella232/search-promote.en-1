@@ -1,7 +1,5 @@
 ---
 description: You can use Re-Rank Index to update your site's ranking information without the need to recrawl your site.
-seo-description: You can use Re-Rank Index to update your site's ranking information without the need to recrawl your site.
-seo-title: About Re-Rank Index
 solution: Target
 subtopic: Re-Rank Index
 title: About Re-Rank Index

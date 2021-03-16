@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: CGI parameters
+description: Learn about how to use various CGI parameters.
 solution: Target
 title: CGI parameters
 topic: Appendices,Site search and merchandising

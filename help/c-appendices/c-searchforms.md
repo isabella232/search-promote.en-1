@@ -1,7 +1,5 @@
 ---
-description: null
-seo-description: null
-seo-title: Search forms
+description: Learn about search forms in Search&amp;Promote
 solution: Target
 title: Search forms
 topic: Appendices,Site search and merchandising

@@ -1,7 +1,5 @@
 ---
 description: You can configure Did You Mean so that customers are given suggestions for valid search terms when they have tried searches that have failed. Suggestions are formed by looking for spelling and typing corrections to the search terms that result in a valid search.
-seo-description: You can configure Did You Mean so that customers are given suggestions for valid search terms when they have tried searches that have failed. Suggestions are formed by looking for spelling and typing corrections to the search terms that result in a valid search.
-seo-title: About Did You Mean
 solution: Target
 title: About Did You Mean
 topic: Linguistics,Site search and merchandising
