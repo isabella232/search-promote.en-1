@@ -10,7 +10,8 @@ breadcrumb-title: Adobe Search&amp;Promote Guide
 
 # Adobe Search and Promote Guide {#using}
 
-+ **Attention:** [Adobe Search&amp;Promote End-of-Service Announcement](sp-eol.md)
++ Attention
+  * [Adobe Search&amp;Promote End-of-Service Announcement](sp-eol.md)
 + [Search&amp;Promote Documentation overview](sp-home.md)
 + Release notes {#release-notes}
   + [Search&amp;Promote 18.1.1 Release Notes (02/13/2018)](c-searchpromote-release-notes/c-rn-02-13-18-version-1811.md)
