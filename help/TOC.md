@@ -1,5 +1,5 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: adobe search and promote
 solution: Search & Promote
 type: Documentation
