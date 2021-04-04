@@ -5,8 +5,8 @@ subtopic: Navigation
 title: About Dynamic Facets
 topic: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
+exl-id: e668e683-3ed8-48fe-a82b-3c4dd484a1c8
 ---
-
 # About Dynamic Facets{#about-dynamic-facets}
 
 Use Dynamic Facets to create new range selections automatically at the time of search. You can optionally associate each dynamic facet field with up to one table name in your Adobe Search&amp;Promote account. You apply those table relationships at search-time for any dynamic facet fields involved in the search.
@@ -169,4 +169,4 @@ See also
 
    ![](assets/dynamicfacetrail_businessrule.png)
 
-   See also [Adding a new business rule](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7) 
+   See also [Adding a new business rule](../c-about-rules-menu/c-about-business-rules.md#task_BD3B31ED48BB4B1B8F1DCD3BFA2528E7)

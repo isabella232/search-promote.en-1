@@ -4,8 +4,8 @@ solution: Target
 title: About Simulator
 topic: Simulator,Site search and merchandising
 uuid: 7ec8f5b9-3ab3-4b9a-bf8a-65d0ca1dfddb
+exl-id: ee8dcf37-7692-438a-8869-6703ef61e498
 ---
-
 # About Simulator{#about-simulator}
 
 Use Simulator to see what your search would look like if you were to push everything that is currently staged, live.

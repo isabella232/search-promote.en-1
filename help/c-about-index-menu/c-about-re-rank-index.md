@@ -5,8 +5,8 @@ subtopic: Re-Rank Index
 title: About Re-Rank Index
 topic: Index,Site search and merchandising
 uuid: 5c2a4c12-5e06-4fcc-897c-c12fcc5d7aa8
+exl-id: c4ddaec9-43ba-42ec-89dc-04d42306b9b6
 ---
-
 # About Re-Rank Index{#about-re-rank-index}
 
 You can use [!DNL Re-Rank Index] to update your site's ranking information without the need to recrawl your site.
@@ -60,4 +60,3 @@ You cannot export logs, nor save them. However, the log remains available for vi
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

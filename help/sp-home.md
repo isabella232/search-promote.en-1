@@ -4,8 +4,8 @@ description: Technical documentation and self-help materials for Adobe Search&am
 solution: Target
 topic: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
+exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 ---
-
 # Adobe Search&amp;Promote Guide {#search-promote-documentation}
 
 ## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
@@ -28,4 +28,4 @@ uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 
 [Adobe Search&amp;Promote website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
 
-[Industry Insights](https://blogs.adobe.com/digitalmarketing/) - The Adobe blog for digital marketing. 
+[Industry Insights](https://blogs.adobe.com/digitalmarketing/) - The Adobe blog for digital marketing.

@@ -5,8 +5,8 @@ subtopic: Navigation
 title: About Menus
 topic: Design,Site search and merchandising
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
+exl-id: bd9611c0-4bb6-4869-ae92-fb52722026dd
 ---
-
 # About Menus{#about-menus}
 
 You can use menus to customize your presentation layer.
@@ -183,4 +183,3 @@ t_deleting_a_menu.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

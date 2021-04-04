@@ -5,8 +5,8 @@ subtopic: Scripted Index
 title: About Scripted Index
 topic: Index,Site search and merchandising
 uuid: 51e726ad-414b-4cbd-8a68-fefc3cf9b565
+exl-id: e1d14cd5-4885-4e3a-bc5f-fe0b6a4df15e
 ---
-
 # About Scripted Index{#about-scripted-index}
 
 With Scripted Index you can write, update, and maintain incremental indexing options without the need to log in. The search robot reads instructions from a text file that is hosted on your server.
@@ -279,4 +279,3 @@ You cannot export logs, nor save them. However, the log remains available for vi
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

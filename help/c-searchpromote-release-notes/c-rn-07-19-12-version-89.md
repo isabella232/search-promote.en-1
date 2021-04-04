@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.9 Release Notes (07/19/2012)
 topic: Release Notes,Site search and merchandising
 uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
+exl-id: d61bf0ee-60a9-4c89-8381-5514ba85cb99
 ---
-
 # Search&amp;Promote 8.9 Release Notes (07/19/2012){#search-promote-release-notes}
 
  **New features**
@@ -32,4 +32,3 @@ uuid: 3853c75d-19ed-4e36-9e81-dcbffe5f5b0c
 * Clicking Edit on some banners did not display the Edit page. 
 * Re-ranking update code could sometimes be extraordinarily slow. 
 * Removing or pushing a facet item did not work if the facet name used mixed case.
-

@@ -5,8 +5,8 @@ subtopic: Navigation
 title: Configuring recent searches
 topic: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
+exl-id: bc6285fa-eaaf-4afb-8ef3-6f1e66cd7090
 ---
-
 # Configuring recent searches{#configuring-recent-searches}
 
 Recent Searches is a cookie-based system that lets you use a presentation template to display your customer's recent search history.
@@ -64,4 +64,3 @@ See [Presentation template tags](../c-appendices/c-templates.md#reference_F1BBF6
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

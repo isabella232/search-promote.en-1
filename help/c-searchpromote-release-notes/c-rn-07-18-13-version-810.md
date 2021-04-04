@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.10.1 Release Notes (07/18/2013)
 topic: Release Notes,Site search and merchandising
 uuid: 161d678a-6393-4adb-a47a-e28e108acc31
+exl-id: b42dcb03-8673-433d-aabc-de70fd32d6d3
 ---
-
 # Search&amp;Promote 8.10.1 Release Notes (07/18/2013){#search-promote-release-notes}
 
 <table> 
@@ -44,4 +44,3 @@ uuid: 161d678a-6393-4adb-a47a-e28e108acc31
 * **Facet rail** - Added support for multiple facet rails.
 
   See [About Facet Rail](../c-about-design-menu/c-about-facet-rails.md#concept_1FDC8BCDFFC84A0889DA670F63D5F6DB).
-

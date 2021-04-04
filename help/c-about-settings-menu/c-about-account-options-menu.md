@@ -5,8 +5,8 @@ subtopic: Account Options
 title: About the Account Options menu
 topic: Settings,Site search and merchandising
 uuid: 0f830033-de9e-4197-8d76-906c818662eb
+exl-id: 0acaeeed-1649-46bb-af41-20f144400d7c
 ---
-
 # About the Account Options menu{#about-the-account-options-menu}
 
 Use the Account Options menu to update your account settings, set merchandising preferences, or remove your own Search&amp;Promote account.

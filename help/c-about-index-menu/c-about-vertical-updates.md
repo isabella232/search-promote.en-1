@@ -5,8 +5,8 @@ subtopic: Vertical Update
 title: About Vertical Update
 topic: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
+exl-id: 8d6a48c0-377d-4a15-bddc-c67e28037bfc
 ---
-
 # About Vertical Update{#about-vertical-update}
 
 You can use Vertical Update to quickly update parts of your index without having to process large amounts of data.
@@ -128,4 +128,3 @@ You cannot export Vertical Update log files, nor can you save them. The log file
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

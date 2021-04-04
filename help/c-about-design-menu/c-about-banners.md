@@ -4,8 +4,8 @@ solution: Target
 title: About Banners
 topic: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
+exl-id: 2c1de213-e6fc-425b-9971-43a09c07d07c
 ---
-
 # About Banners {#about-banners}
 
 You can use Banners to manage the banner ads that are on your website.
@@ -751,4 +751,4 @@ See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA5
 1. In the [!DNL Confirmation Action] dialog box, click **[!UICONTROL OK]**.
 1. (Optional) On the [!DNL Banners] page, click **[!UICONTROL History]** to revert any changes you have made.
 
-   See [Using the History option](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002). 
+   See [Using the History option](../t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002).

@@ -4,8 +4,8 @@ solution: Target
 title: About Home
 topic: Home,Site search and merchandising
 uuid: 5d4dbf5e-954d-46ae-a822-18a58af60de6
+exl-id: b9249033-dd3e-40a0-a666-e73aa09f11f9
 ---
-
 # About Home{#about-home}
 
 You can use Home to view a variety of report widgets that give you a quick overview of your Search&amp;Promote account.
@@ -52,4 +52,3 @@ The following table describes the report widgets that are available from Home:
   </tr> 
  </tbody> 
 </table>
-

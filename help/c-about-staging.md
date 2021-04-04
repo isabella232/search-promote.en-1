@@ -4,8 +4,8 @@ solution: Target
 title: About Staging
 topic: Staging,Site search and merchandising
 uuid: 2e5889a6-2e9c-4ac7-9d6e-d35e7cafda5b
+exl-id: 61f254b7-4dc1-4a5e-a22e-94763f140c50
 ---
-
 # About Staging{#about-staging}
 
 Staging lets you test and preview changes to your settings and configurations without impacting your live index.

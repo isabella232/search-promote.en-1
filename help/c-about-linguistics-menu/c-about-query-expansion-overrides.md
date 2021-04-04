@@ -4,8 +4,8 @@ solution: Target
 title: About Query Expansion Overrides
 topic: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
+exl-id: 6157ffcb-e696-419a-acb5-2076c12a6763
 ---
-
 # About Query Expansion Overrides{#about-query-expansion-overrides}
 
 You can override the expansion of search query results.
@@ -118,4 +118,3 @@ t_configuring_query_expansion_overrides.xml
     * Click **Push Live**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4)
-

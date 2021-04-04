@@ -4,8 +4,8 @@ solution: Target
 title: About proximity search
 topic: Appendices,Site search and merchandising
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
+exl-id: 52e796a6-43ea-414f-8404-84ecd358bd76
 ---
-
 # About proximity search{#about-proximity-search}
 
 Proximity Search lets you associate a unique location with any page on your website, and then search and sort results by proximity (distance) from a given location.
@@ -73,4 +73,4 @@ You can learn more information about proximity search by reviewing `sp_location`
 
 See [Search CGI parameters](../c-appendices/c-cgiparameters.md#reference_DA27A8B0728246DA94994885E1353890).
 
-See [Adding a new meta tag field](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5). 
+See [Adding a new meta tag field](../c-about-settings-menu/c-about-metadata-menu.md#task_6DF188C0FC7F4831A4444CA9AFA615E5).

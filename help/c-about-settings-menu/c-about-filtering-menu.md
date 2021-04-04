@@ -5,8 +5,8 @@ subtopic: Filtering
 title: About the Filtering menu
 topic: Settings,Site search and merchandising
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
+exl-id: 1a1c7b86-a29b-4c17-8743-ff3c2c91b63a
 ---
-
 # About the Filtering menu{#about-the-filtering-menu}
 
 Use the Filtering menu to use scripts that change the content of a web document before it is indexed.

@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.9.4 Release Notes (01/17/2013)
 topic: Release Notes,Site search and merchandising
 uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
+exl-id: cb5d93d9-54ac-4b41-96ad-66f18ee1e934
 ---
-
 # Search&amp;Promote 8.9.4 Release Notes (01/17/2013){#search-promote-release-notes}
 
 <table> 
@@ -50,4 +50,3 @@ uuid: a9d550f6-0a23-4c71-b123-c31b997e7384
   See [About Ranking Rules](../c-about-rules-menu/c-about-ranking-rules.md#concept_F555C076759B4E81B925441CFE707397).
 
   See [About Re-Rank Index](../c-about-index-menu/c-about-re-rank-index.md#concept_147B0A9FCD51451787DA898E06F7C692).
-

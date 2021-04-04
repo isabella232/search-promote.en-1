@@ -4,8 +4,8 @@ solution: Target
 title: About Data Views
 topic: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
+exl-id: 9ef5eaef-85d6-41e9-af44-b4775755e5bf
 ---
-
 # About Data Views{#about-data-views}
 
 Data Views displays the search results with the meta fields. Each column is a meta field and each row is result from a search query. Customize Data Views by choosing and rearranging columns. Data Views can also have custom titles and descriptions.
@@ -178,4 +178,3 @@ The data view that you select is opened in a separate browser window.
     * On the [!DNL Data Views] page, in the [!DNL Title] column of the table, click the name of a data view that you want to open. 
 
     * On the [!DNL Data Views] page, in the [!DNL Actions] column of the table, click **[!UICONTROL View]** in the row with the data view that you want to open.
-

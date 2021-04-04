@@ -4,8 +4,8 @@ solution: Target
 title: About Post-Search Rules
 topic: Rules,Site search and merchandising
 uuid: 312d1e4a-f5b6-4629-8645-17e6f6c09fc4
+exl-id: 021aaf99-050e-4d3a-a1da-45f0edfd7c35
 ---
-
 # About Post-Search Rules{#about-post-search-rules}
 
 You can use Post-Search Rules to examine the results of a search and determine how the search affects the displayed content.

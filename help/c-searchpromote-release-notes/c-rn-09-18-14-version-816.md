@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.16.0 Release Notes (9/18/2014)
 topic: Release Notes,Site search and merchandising
 uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
+exl-id: 929d6f97-4939-4e37-aded-6a746757b960
 ---
-
 # Search&amp;Promote 8.16.0 Release Notes (9/18/2014){#search-promote-release-notes}
 
 ## Search&amp;Promote 8.16.0 Release Notes (9/18/2014) {#topic_5BECD3F66C684987828F6AE65E62DA29}
@@ -45,4 +45,3 @@ uuid: 0a59858b-213b-40d6-aea1-d085c4d6d2fa
 * Inconsistent search results were experienced with the **[!UICONTROL Common Phrases]** feature. 
 * Display of attribute names were getting truncated in the Rule list summaries. 
 * Pushing an individual business rule live was pushing all business rules live.
-

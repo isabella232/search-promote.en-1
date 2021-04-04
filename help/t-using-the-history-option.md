@@ -4,8 +4,8 @@ solution: Target
 title: Using the History option
 topic: Using History,Site search and merchandising
 uuid: 48b9ee9d-cd61-41e7-b8c3-5f1665b9a9cb
+exl-id: eca73650-fca4-44a4-9f43-d25a52e8222c
 ---
-
 # Using the History option{#using-the-history-option}
 
 You can use History to review a list of all the revisions that were made to an implemented feature such as a facet, breadcrumb, banner, or template, to name a few.

@@ -4,8 +4,8 @@ solution: Target
 title: Templates
 topic: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
+exl-id: f8cc4b5c-4e75-426b-8234-76af8bb0f4c5
 ---
-
 # Templates{#templates}
 
 ## Templates {#concept_A5CFB6BD805D49459A96219AF1B17842}
@@ -2709,4 +2709,4 @@ See [Using collections in search forms](../c-appendices/c-searchforms.md#referen
 
 See [Using frames with forms](../c-appendices/c-searchforms.md#reference_82CDDDA1E37042E4849EBF7EA05407C5).
 
-See [Sample advanced search form](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A). 
+See [Sample advanced search form](../c-appendices/c-searchforms.md#reference_82E1051918744EBA88A01E9E6AE42C4A).

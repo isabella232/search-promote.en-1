@@ -5,8 +5,8 @@ subtopic: Searching
 title: About the Searching menu
 topic: Settings,Site search and merchandising
 uuid: 072111fc-a32b-4acb-8337-cb21bcdb5542
+exl-id: 4cb70240-051b-4bf3-ae2a-b151acc7cba1
 ---
-
 # About the Searching menu{#about-the-searching-menu}
 
 Use the Searching menu to set excluded words, collections, restrictions, preview, and frames.

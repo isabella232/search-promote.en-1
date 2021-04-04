@@ -4,8 +4,8 @@ solution: Target
 title: Getting Started
 topic: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
+exl-id: f2772d7a-b558-403e-9e77-8c87302e2b02
 ---
-
 # Getting Started{#getting-started}
 
 If you are new to Searc&Promote and dynamic navigation, start here to get up and running with your account. Among other things, you will learn how to index your website, and customize the look and feel of your search results.
@@ -135,4 +135,3 @@ There are many additional options that let you completely customize and control 
 * Configure dictionaries to let you specify groups of related words (for example, purchase, buy, and procure). These related words help to return relevant results even when a customer's search query does not exactly match the terminology that is used on your web pages. With the synonym used in the above example, a customer's search query of "purchase" returns pages that contain the word "buy."
 
   See [About Dictionaries](c-about-linguistics-menu/c-about-dictionaries.md#concept_B8028B71EC8144669614C64578EDB034).
-

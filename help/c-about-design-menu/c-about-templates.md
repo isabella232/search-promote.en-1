@@ -4,8 +4,8 @@ solution: Target
 title: About Templates
 topic: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
+exl-id: 846f34b3-9857-494e-9010-3db0b48412d3
 ---
-
 # About Templates{#about-templates}
 
 You can use **[!UICONTROL Templates]** to manage your presentation templates and transport templates.
@@ -687,4 +687,3 @@ See [Previewing the presentation template minimized](../c-about-design-menu/c-ab
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

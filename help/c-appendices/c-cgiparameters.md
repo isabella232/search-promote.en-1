@@ -4,8 +4,8 @@ solution: Target
 title: CGI parameters
 topic: Appendices,Site search and merchandising
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
+exl-id: 9f24aebf-5fa3-433e-b66d-4129bdd3f7f6
 ---
-
 # CGI parameters{#cgi-parameters}
 
 ## CGI parameters {#concept_F395999090FE4926B38BC73D5E612800}
@@ -477,4 +477,3 @@ The following form queries display `25` results starting at result `10`. Summari
 <input type=hidden name=sp_date_range value=30> 
 </form>
 ```
-

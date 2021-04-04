@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 15.1.1 Release Notes (01/15/2015)
 topic: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
+exl-id: 6176ce1e-aafe-4a46-a564-57c3ac4632ef
 ---
-
 # Search&amp;Promote 15.1.1 Release Notes (01/15/2015){#search-promote-release-notes}
 
 ## New feature {#section_2A10EF6B40FC4F2CB2381FFA9FFA64BD}
@@ -27,4 +27,3 @@ uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 * Queries with nonzero `sp_i` values are no longer run through the [!DNL Adobe Analytics] redirector.
 
   See row 15 in the table in [Backend search CGI parameters](../c-appendices/c-cgiparameters.md#reference_582E85C3886740C98FE88CA9DF7918E8).
-

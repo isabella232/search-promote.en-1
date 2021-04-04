@@ -5,8 +5,8 @@ subtopic: Adobe Analytics
 title: About the Adobe Analytics menu
 topic: Settings,Site search and merchandising
 uuid: 5536edf1-d3a4-47af-a307-6e46f385f738
+exl-id: e1f7b8f0-45d4-457a-a9d3-a8cb4b785059
 ---
-
 # About the Adobe Analytics menu{#about-the-adobe-analytics-menu}
 
 Use the Adobe Analytics menu to setup Adobe Analytics metrics authentication, manage Adobe Analytics metrics of a Report Suite, or use SAINT to enhance Adobe Analytics reports through the acceptance of tabular data from outside sources.

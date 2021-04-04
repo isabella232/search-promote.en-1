@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.12.0 Release Notes (01/16/2014)
 topic: Release Notes,Site search and merchandising
 uuid: 4db10eb4-11bf-4483-a7f2-87981d9c7a50
+exl-id: 8ea76d7e-6675-4ba3-8f93-1895476f7017
 ---
-
 # Search&amp;Promote 8.12.0 Release Notes (01/16/2014){#search-promote-release-notes}
 
 <table> 
@@ -59,4 +59,3 @@ uuid: 4db10eb4-11bf-4483-a7f2-87981d9c7a50
 * Auto-complete edits to Include or Exclude lists were not saved in History and, therefore, could not be reverted.
 
   See [About Auto-Complete](../c-about-auto-complete.md#concept_093A9CD754864BA79B456FE4BEB64578).
-

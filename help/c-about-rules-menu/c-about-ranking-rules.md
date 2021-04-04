@@ -5,8 +5,8 @@ subtopic: Ranking Rules
 title: About Ranking Rules
 topic: Rules,Site search and merchandising
 uuid: 21962f9a-1d9c-442f-a6c4-5f452436c640
+exl-id: 7f66c4f6-7659-4faf-9f05-b650cf8c7d47
 ---
-
 # About Ranking Rules{#about-ranking-rules}
 
 You can use Ranking Rules to control the relative positioning or ranking of a customer's search results based on contained meta tag content and related Adobe Analytics metrics.

@@ -5,8 +5,8 @@ feature:
 role: Administrator,Business Practitioner,Data Engineer,Developer
 hide: yes
 hidefromtoc: yes
+exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 ---
-
 # Adobe Search&Promote End-of-Service Announcement
 
 ## Frequently asked questions about End-of-Service for Search&Promote

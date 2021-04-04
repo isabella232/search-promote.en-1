@@ -4,8 +4,8 @@ solution: Target
 title: About Pre-Search Rules
 topic: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
+exl-id: 23e7feda-956a-48ce-8c61-fe0498c1bbda
 ---
-
 # About Pre-Search Rules{#about-pre-search-rules}
 
 Use Pre-Search Rules to analyze the incoming query and determine which presentation template to use. Pre-Search Rules are executed in sequence for every query. To alter the order of your rules you can use drag-and-drop. The actual order does not change until you save it.
@@ -227,4 +227,3 @@ Pre-search rules run in the order that they were defined. The higher a rule's or
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

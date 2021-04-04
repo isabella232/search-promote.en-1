@@ -4,8 +4,8 @@ solution: Target
 title: About the Accounts menu
 topic: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
+exl-id: f3f43b71-cbcb-4325-88de-72db1c049700
 ---
-
 # About the Accounts menu{#about-the-accounts-menu}
 
 Use Accounts on the product menu to select an account that you want to access and use.
@@ -33,4 +33,3 @@ After you have select an account, the account's site search/merchandising Home p
 
     * In the table, under the [!DNL Name] column heading, click an account name that you want to start using and managing. 
     * In the table, under the [!DNL Number] column heading, click an account number that you want to start using and managing.
-

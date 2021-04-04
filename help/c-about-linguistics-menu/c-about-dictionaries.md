@@ -4,8 +4,8 @@ solution: Target
 title: About Dictionaries
 topic: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
+exl-id: c8e83422-bc96-48f8-b4f1-58a25cade1ef
 ---
-
 # About Dictionaries{#about-dictionaries}
 
 You can use Dictionaries to manage a collection of dictionaries and their associated synonyms and hyponyms.
@@ -396,4 +396,3 @@ Be sure you are deleting a dictionary that you know longer need; there is no his
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

@@ -5,8 +5,8 @@ subtopic: Navigation
 title: About Breadcrumbs
 topic: Design,Site search and merchandising
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
+exl-id: e668d706-6899-4db9-968b-d98df9090ad9
 ---
-
 # About Breadcrumbs{#about-breadcrumbs}
 
 Breadcrumbs are a navigational control that you can add to your website. The breadcrumb gives customers feedback on where they are within a search result set. It also helps them quickly back out to a previous step.
@@ -176,4 +176,3 @@ t_deleting_a_breadcrumb.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

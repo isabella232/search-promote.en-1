@@ -5,8 +5,8 @@ subtopic: Auto-Complete
 title: About Auto-Complete
 topic: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
+exl-id: a1d08c0a-6c68-4da2-88d2-fe953d333536
 ---
-
 # About Auto-Complete{#about-auto-complete}
 
 You can configure various areas of Auto-Complete to control the generation of the auto-complete enabled search form, and the file autocomplete_data.js, which is included as a part of the auto-complete enabled search form.

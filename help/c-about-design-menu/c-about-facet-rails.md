@@ -5,8 +5,8 @@ subtopic: Navigation
 title: About Facet Rail
 topic: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
+exl-id: 389b2f5e-c1aa-48d7-ab3e-c8a1d1e4ecb4
 ---
-
 # About Facet Rail{#about-facet-rail}
 
 Use Facet Rail to reorder groups of facets on a web page.
@@ -100,4 +100,4 @@ Any changes you make to facet rails can be reverted using the History feature.
 
     * Save the presentation template and push it live.
 
-      See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3). 
+      See [Editing a presentation or a transport template](../c-about-design-menu/c-about-templates.md#task_800E0E2265C34C028C92FEB5A1243EC3).

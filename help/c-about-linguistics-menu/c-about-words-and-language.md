@@ -4,8 +4,8 @@ solution: Target
 title: About Words & Language
 topic: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
+exl-id: bfc84879-1fd1-4c86-beab-353469014c64
 ---
-
 # About Words & Language{#about-words-language}
 
 You can use [!DNL Words & Language] to determine how search terms are matched to the content of your web pages.
@@ -102,4 +102,3 @@ t_configuring_how_search_terms_matched_to_your_web_content.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

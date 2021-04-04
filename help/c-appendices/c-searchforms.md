@@ -4,8 +4,8 @@ solution: Target
 title: Search forms
 topic: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
+exl-id: 9771a19d-86a8-41db-9c80-d734fbd10ab7
 ---
-
 # Search forms{#search-forms}
 
 ## Using collections in search forms {#reference_5A079AEEEFB84457892EF0870D0605C3}
@@ -913,4 +913,3 @@ Sorry, no matches were found containing <b><SEARCH-QUERY>.</b>
 </SEARCH-IF-ADVANCED> 
 </form>
 ```
-

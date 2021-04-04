@@ -5,8 +5,8 @@ subtopic: Full Index
 title: About Full Index
 topic: Index,Site search and merchandising
 uuid: dce1eafd-5aea-4945-8305-8f9e7dc392df
+exl-id: cb702bd6-8702-469b-8ce9-0368ccdd55d9
 ---
-
 # About Full Index{#about-full-index}
 
 You can use Full Index to index all the pages of your staged or live website. Indexing helps your customers more easily find what they are looking for or what they need when they perform a search.
@@ -110,4 +110,3 @@ You cannot export logs, nor save them. The log remains available for viewing unt
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

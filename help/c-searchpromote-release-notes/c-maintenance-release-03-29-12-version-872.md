@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.7.2 Release Notes (03/29/2012)
 topic: Release Notes,Site search and merchandising
 uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
+exl-id: b2dc51a9-8300-4d0a-8f5d-43dfa59da147
 ---
-
 # Search&amp;Promote 8.7.2 Release Notes (03/29/2012){#search-promote-release-notes}
 
 ## Product Fixes and Enhancements {#section_6B3602709FB04B3C999C5DFE103CFF7D}
@@ -17,4 +17,3 @@ uuid: e8454d47-6444-4136-92d7-35b90bfb12ca
 * Fixed as issue with [!DNL Business Rules] keyword equality tests with pipe delimiter. 
 * Fixed an issue with editing Dynamic Media Classic banner parameters. 
 * Added ability to change the size of a Dynamic Media Classic banner while maintaining its aspect ratio.
-

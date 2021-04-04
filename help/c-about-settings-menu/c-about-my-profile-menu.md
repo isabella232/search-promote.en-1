@@ -5,8 +5,8 @@ subtopic: My Profile
 title: About the My Profile menu
 topic: Settings,Site search and merchandising
 uuid: 6a0a4e57-59fa-48fb-b712-eb16a9f47c3a
+exl-id: 093b47b2-2c4f-47c6-bee4-b794d97d97b9
 ---
-
 # About the My Profile menu {#about-the-my-profile-menu}
 
 Use the My Profile menu to set personal information, preferences, login password, and view access privileges.

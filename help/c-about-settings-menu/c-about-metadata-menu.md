@@ -5,8 +5,8 @@ subtopic: Metadata
 title: About the Metadata menu
 topic: Settings,Site search and merchandising
 uuid: f12fc863-a140-45e8-b219-3dbfdef099cd
+exl-id: 53d62da9-c5bd-4c4a-bb89-743704f66f7f
 ---
-
 # About the Metadata menu{#about-the-metadata-menu}
 
 Use the Metadata menu to customize Search definitions and index injections.

@@ -5,8 +5,8 @@ subtopic: Users
 title: About the Users menu
 topic: Settings,Site search and merchandising
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
+exl-id: 43dfcb59-3924-448e-a998-ec96d823fb7e
 ---
-
 # About the Users menu{#about-the-users-menu}
 
 Use the Users menu to view and add users, view and add roles, or change role membership. You must be a site search/merchandising user with administrator privileges to perform any of the tasks on the Users menu.

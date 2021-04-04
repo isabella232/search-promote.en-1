@@ -5,8 +5,8 @@ subtopic: Rewrite Rules
 title: About the Rewrite Rules menu
 topic: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
+exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 ---
-
 # About the Rewrite Rules menu {#about-the-rewrite-rules-menu}
 
 Use the Rewrite Rules menu to set crawl and search URL and title rules.
@@ -1326,4 +1326,3 @@ t_adding_search_title_rules.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

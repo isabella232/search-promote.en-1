@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.9.3 Release Notes (11/01/2012)
 topic: Release Notes,Site search and merchandising
 uuid: 7bc7bcb6-f47f-4e05-94e5-a22a13a187b7
+exl-id: 9593a87d-2a84-41e1-b052-644d928f5053
 ---
-
 # Search&amp;Promote 8.9.3 Release Notes (11/01/2012){#search-promote-release-notes}
 
 ## Search&amp;Promote 8.9.3 Release Notes (11/01/2012) {#concept_85F5B4B4C40C43FEA3AD63E6EA5593CF}
@@ -62,4 +62,3 @@ uuid: 7bc7bcb6-f47f-4e05-94e5-a22a13a187b7
 * **[!UICONTROL Did You Mean]** search query caching is now disabled.
 
   See [About Did You Mean](../c-about-linguistics-menu/c-about-did-you-mean.md#concept_7D4F3C29EF184B538B8AE2ECAE0CDC5E).
-

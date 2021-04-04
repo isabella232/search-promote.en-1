@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.9.1 Release Notes (08/16/2012)
 topic: Release Notes,Site search and merchandising
 uuid: 6f3284ed-660f-477f-a863-b961b185eaf3
+exl-id: fcea6adc-e43f-4c7f-a6fe-3417427a6421
 ---
-
 # Search&amp;Promote 8.9.1 Release Notes (08/16/2012){#search-promote-release-notes}
 
  **Fixes and enhancements**
@@ -22,4 +22,3 @@ uuid: 6f3284ed-660f-477f-a863-b961b185eaf3
 
 * Fixed various issues with pushing staged business rules live. 
 * Fixed an error in which banner tags are not searched.
-

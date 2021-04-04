@@ -5,8 +5,8 @@ subtopic: Incremental Index
 title: About Incremental Index
 topic: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
+exl-id: 41943f84-23f0-434c-8eef-a9075dd5c03d
 ---
-
 # About Incremental Index{#about-incremental-index}
 
 You can use Incremental Index to index "pieces" of your live or staged website, such as a collection of frequently changed pages.
@@ -247,4 +247,3 @@ You cannot export logs, nor save them. The log remains available for viewing unt
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

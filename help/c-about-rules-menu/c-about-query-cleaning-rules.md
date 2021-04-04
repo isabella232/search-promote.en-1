@@ -4,8 +4,8 @@ solution: Target
 title: About Query Cleaning Rules
 topic: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
+exl-id: 22ebca58-7687-4c8c-9ac1-bacb321065f3
 ---
-
 # About Query Cleaning Rules{#about-query-cleaning-rules}
 
 Use Query Cleaning Rules to analyze and modify the incoming query.
@@ -233,4 +233,3 @@ Query cleaning rules run in the order that they were defined. The higher a rule'
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

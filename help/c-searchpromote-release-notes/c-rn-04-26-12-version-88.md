@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.8 Release Notes (04/26/2012)
 topic: Release Notes,Site search and merchandising
 uuid: ddb9f1af-92a4-4f85-be8f-a36f34d31add
+exl-id: 3bd9b6af-99a2-4631-b7a7-0a792122c157
 ---
-
 # Search&amp;Promote 8.8 Release Notes (04/26/2012){#search-promote-release-notes}
 
  **New features**
@@ -39,4 +39,3 @@ uuid: ddb9f1af-92a4-4f85-be8f-a36f34d31add
 * Added the ability for shorter business rules descriptions (for example, not showing field_table in the manager). 
 * The Guided Search navigation menu had a maximum of nine items. Now the maximum is 20. 
 * Performance improvements made to Index Connector.
-

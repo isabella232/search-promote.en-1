@@ -5,8 +5,8 @@ subtopic: Regenerate Index
 title: About Regenerate Index
 topic: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
+exl-id: 4155a52c-33f6-4f54-b69b-2a092530f7aa
 ---
-
 # About Regenerate Index{#about-regenerate-index}
 
 You can use [!DNL Regenerate Index] to update your website's index without the need to re-crawl your site.
@@ -68,4 +68,3 @@ You cannot export logs, nor save them. However, the log remains available for vi
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

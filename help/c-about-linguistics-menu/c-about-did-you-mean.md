@@ -4,8 +4,8 @@ solution: Target
 title: About Did You Mean
 topic: Linguistics,Site search and merchandising
 uuid: c5973541-3d6b-4fc9-bad4-66d4d3559fe8
+exl-id: c86da375-ac5f-442b-9975-6a4e1ba8a70d
 ---
-
 # About Did You Mean{#about-did-you-mean}
 
 You can configure Did You Mean so that customers are given suggestions for valid search terms when they have tried searches that have failed. Suggestions are formed by looking for spelling and typing corrections to the search terms that result in a valid search.
@@ -92,4 +92,3 @@ t_configuring_did_you_mean.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

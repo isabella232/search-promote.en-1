@@ -5,8 +5,8 @@ subtopic: Navigation
 title: About Facets
 topic: Design,Site search and merchandising
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
+exl-id: 10cdc599-79fe-44e1-8f90-f08b819f6dda
 ---
-
 # About Facets{#about-facets}
 
 You can use Facets to customize your presentation layer and provide your users with a Guided Search that lets them drill down into their search results.
@@ -700,4 +700,3 @@ t_deleting_a_facet.xml
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

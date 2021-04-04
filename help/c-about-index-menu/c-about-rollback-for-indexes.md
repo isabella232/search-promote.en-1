@@ -5,8 +5,8 @@ subtopic: Rollback
 title: About Rollback for indexes
 topic: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
+exl-id: bc75f6ba-d919-4dff-8ee2-e17568892626
 ---
-
 # About Rollback for indexes{#about-rollback-for-indexes}
 
 You can use [!DNL Rollback] to back up and archive website indexes that you have generated. You can also restore the backup of an index at any time.
@@ -74,4 +74,3 @@ View the date and time of all rollback-related operations.
     * Use the navigation options **[!UICONTROL First]**, **[!UICONTROL Prev]**, **[!UICONTROL Next]**, **[!UICONTROL Last]**, or **[!UICONTROL Go to line]** to move through the log. 
     
     * Use the display options **[!UICONTROL Errors only]**, **[!UICONTROL Wrap line]**, or **[!UICONTROL Show]** to refine what you see.
-

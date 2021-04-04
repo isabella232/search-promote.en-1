@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.15.0 Release Notes (6/19/2014)
 topic: Release Notes,Site search and merchandising
 uuid: bb250450-48b4-4563-84b9-66f2c3dc063a
+exl-id: 57476f25-903c-4452-a3e9-adffd229ba5e
 ---
-
 # Search&amp;Promote 8.15.0 Release Notes (6/19/2014){#search-promote-release-notes}
 
 **New features**
@@ -20,4 +20,3 @@ uuid: bb250450-48b4-4563-84b9-66f2c3dc063a
 * The Attribute loader was throwing a 404 error. 
 * If SPIN tried to generate a template that was too large, an alert was displayed. 
 * Updates were made to the Chinese, Korean, and Japanese morphological analyzer.
-

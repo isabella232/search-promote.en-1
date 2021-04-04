@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.13.0 Release Notes (04/16/2014)
 topic: Release Notes,Site search and merchandising
 uuid: b3524992-ff00-4a7c-a404-078242456734
+exl-id: cba582ad-d388-4317-af06-b8b12b300f02
 ---
-
 # Search&amp;Promote 8.13.0 Release Notes (04/16/2014){#search-promote-release-notes}
 
 | New feature and enhancement                  | Description                                                                                                                                                                                                                                                                                                                                                                                 |
@@ -42,4 +42,3 @@ uuid: b3524992-ff00-4a7c-a404-078242456734
 * The SPIN XPath validation function was returning a false-positive error.
 
 * After a SPIN enable/disable operation, the user was redirected to the member center login page.
-

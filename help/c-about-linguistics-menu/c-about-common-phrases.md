@@ -4,8 +4,8 @@ solution: Target
 title: About Common Phrases
 topic: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
+exl-id: 72305fcd-8f9a-4ce2-b416-aa1b58486312
 ---
-
 # About Common Phrases{#about-common-phrases}
 
 You can define Common Phrases that are used on your website so that when a customer enters a search query, they do not need to enter quotes around any of the phrases you have defined.
@@ -204,4 +204,3 @@ See [Using the History option](../t-using-the-history-option.md#task_70DD3F87A67
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

@@ -4,8 +4,8 @@ solution: Target
 title: Search&amp;Promote 8.9.8 Release Notes (05/23/2013)
 topic: Release Notes,Site search and merchandising
 uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
+exl-id: f4034289-e9cf-4cc4-97bf-2bc5769c043d
 ---
-
 # Search&amp;Promote 8.9.8 Release Notes (05/23/2013){#search-promote-release-notes}
 
 <table> 
@@ -39,4 +39,3 @@ uuid: ff4bfc53-1d0e-4b7d-83ad-54c81d3f9769
 * Support now added that lets you remotely push live a staged index.
 
   See [About Remote Control for Indexing](../c-about-index-menu/c-about-remote-control-for-indexing.md#concept_C79B322190E84106A434E5C6D4A4118F).
-

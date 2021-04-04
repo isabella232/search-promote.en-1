@@ -5,8 +5,8 @@ subtopic: Navigation
 title: About Page Navigation
 topic: Design,Site search and merchandising
 uuid: fb17a99e-d7b4-415e-ba1b-ca194fe41a5d
+exl-id: ed1ba6a8-1bab-4616-a447-50cfe319dac8
 ---
-
 # About Page Navigation{#about-page-navigation}
 
 You can use **[!UICONTROL Page Navigation]** to customize the page navigation control of your search presentation layer.
@@ -122,4 +122,3 @@ If your presentation layer has more than one set of search results, the page nav
     * Click **[!UICONTROL Push Live]**.
 
       See [Pushing stage settings live](../c-about-staging.md#task_44306783B4C0408AAA58B471DAF2D9A4).
-

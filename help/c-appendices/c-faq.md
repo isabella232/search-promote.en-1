@@ -4,8 +4,8 @@ solution: Target
 title: Frequently asked questions
 topic: Appendices,Site search and merchandising
 uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
+exl-id: 2bb1da04-62f9-4f8c-bee4-5511d8cb2582
 ---
-
 # Frequently asked questions{#frequently-asked-questions}
 
 ## Adobe Flash {#reference_4A25BBDE32214AF5A1A454F38FD51243}
@@ -1114,4 +1114,4 @@ Check to see if your account has reached its limit on the "Full Index Status" sc
 
 To protect site search/merchandising servers, there are internal limits on bytes and time. Only when crawled files are very large, or when the server that site search/merchandising is trying to reach is slow are these limits reached.
 
-If you hit a time limit, make sure that your server is online, and attempt the index again at a later time. If you hit a bytes limit, check the crawled files by viewing your index log. Are they unusually large? Contact Technical Support if you see either of these messages. 
+If you hit a time limit, make sure that your server is online, and attempt the index again at a later time. If you hit a bytes limit, check the crawled files by viewing your index log. Are they unusually large? Contact Technical Support if you see either of these messages.
