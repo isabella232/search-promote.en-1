@@ -6,6 +6,7 @@ type: Documentation
 audience: end-user
 user-guide-title: Adobe Search&amp;Promote Guide
 breadcrumb-title: Adobe Search&amp;Promote Guide
+feature-set: Search & Promote
 ---
 
 # Adobe Search and Promote Guide {#using}
