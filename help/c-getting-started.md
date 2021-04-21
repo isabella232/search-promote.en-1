@@ -2,7 +2,7 @@
 description: If you are new to Search&Promote and dynamic navigation, start here to get up and running with your account. Among other things, you will learn how to index your website, and customize the look and feel of your search results.
 solution: Target
 title: Getting Started
-topic: Getting Started,Site search and merchandising
+topic-legacy: Getting Started,Site search and merchandising
 uuid: 816ad003-15c9-4e44-b09d-cab284518634
 exl-id: f2772d7a-b558-403e-9e77-8c87302e2b02
 ---

@@ -2,7 +2,7 @@
 description: You can define Common Phrases that are used on your website so that when a customer enters a search query, they do not need to enter quotes around any of the phrases you have defined.
 solution: Target
 title: About Common Phrases
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 0f980a22-d826-4476-97de-0e9c14549bc8
 exl-id: 72305fcd-8f9a-4ce2-b416-aa1b58486312
 ---

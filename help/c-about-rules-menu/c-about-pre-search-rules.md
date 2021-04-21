@@ -2,7 +2,7 @@
 description: Use Pre-Search Rules to analyze the incoming query and determine which presentation template to use. Pre-Search Rules are executed in sequence for every query. To alter the order of your rules you can use drag-and-drop. The actual order does not change until you save it.
 solution: Target
 title: About Pre-Search Rules
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: e75f9d9e-e8ca-4184-bf79-b1fdadb5c0fe
 exl-id: 23e7feda-956a-48ce-8c61-fe0498c1bbda
 ---

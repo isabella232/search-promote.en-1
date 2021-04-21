@@ -2,7 +2,7 @@
 description: A refresher concerning the syntax and rules of constructing regular expressions.
 solution: Target
 title: Regular Expressions
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 369b54f6-372a-41de-bb5d-3ae0bd640199
 exl-id: 6deb9385-9b17-47c2-b6d9-b63f13df8399
 ---

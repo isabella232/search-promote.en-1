@@ -2,7 +2,7 @@
 description: Whenever your website changes, you can run a script or program requesting that the search robot run an index using Remote Control.
 solution: Target
 title: About Remote Control for Indexing
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 20e230c6-5c1a-4bf4-bff3-b8236d14ab21
 exl-id: 1a7689f9-1e3f-48c8-a5f1-abe0efdb7768
 ---

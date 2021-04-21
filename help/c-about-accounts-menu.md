@@ -2,7 +2,7 @@
 description: Use Accounts on the product menu to select an account that you want to access and use.
 solution: Target
 title: About the Accounts menu
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 7cfc1b68-5126-484a-8a1d-54995a8fd19b
 exl-id: f3f43b71-cbcb-4325-88de-72db1c049700
 ---

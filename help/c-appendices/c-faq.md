@@ -2,7 +2,7 @@
 description: Read frequently asked questions about Search&amp;Promote
 solution: Target
 title: Frequently asked questions
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 4ce454a4-e770-4587-91a0-a25491818ac6
 exl-id: 2bb1da04-62f9-4f8c-bee4-5511d8cb2582
 ---

@@ -2,7 +2,7 @@
 description: You can define the date formats that are used when it parses and indexes any field with a "date" data type.
 solution: Target
 title: Date Formats
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 148914b5-33ef-41db-8404-67c03f6f0832
 exl-id: d3b4561b-6359-4b12-b0ff-40ca342a2faa
 ---

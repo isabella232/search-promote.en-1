@@ -3,7 +3,7 @@ description: Breadcrumbs are a navigational control that you can add to your web
 solution: Target
 subtopic: Navigation
 title: About Breadcrumbs
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 3e630a72-a631-4f4f-8aa5-adf2882cdf1c
 exl-id: e668d706-6899-4db9-968b-d98df9090ad9
 ---

@@ -2,7 +2,7 @@
 description: You can use Templates to manage your presentation templates and transport templates.
 solution: Target
 title: About Templates
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: f5805d3e-43bf-4e13-95df-b6bd6b762d11
 exl-id: 846f34b3-9857-494e-9010-3db0b48412d3
 ---

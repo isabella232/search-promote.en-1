@@ -3,7 +3,7 @@ description: You can configure various areas of Auto-Complete to control the gen
 solution: Target
 subtopic: Auto-Complete
 title: About Auto-Complete
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 3dfdd14d-2044-4f01-a5bc-fcb2eb0d5068
 exl-id: a1d08c0a-6c68-4da2-88d2-fe953d333536
 ---

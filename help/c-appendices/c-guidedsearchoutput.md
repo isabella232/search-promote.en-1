@@ -2,7 +2,7 @@
 description: Learn how to customize output in any text-based format, including XML or JSON.
 solution: Target
 title: Guided Search output
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 234fd563-f249-42b0-88ca-c89b44f8df77
 exl-id: 5e36b30f-defb-4a28-8516-53cea81d44c2
 ---

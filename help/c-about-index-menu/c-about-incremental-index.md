@@ -3,7 +3,7 @@ description: You can use Incremental Index to index "pieces" of your live or sta
 solution: Target
 subtopic: Incremental Index
 title: About Incremental Index
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: b1ee9b08-dcbe-4ffe-b0b4-d379daaac9b5
 exl-id: 41943f84-23f0-434c-8eef-a9075dd5c03d
 ---

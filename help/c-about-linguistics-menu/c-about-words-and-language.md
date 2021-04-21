@@ -2,7 +2,7 @@
 description: You can use Words & Language to determine how search terms are matched to the content of your web pages.
 solution: Target
 title: About Words & Language
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 793d7a40-4609-44b8-a170-536eb1434537
 exl-id: bfc84879-1fd1-4c86-beab-353469014c64
 ---

@@ -3,7 +3,7 @@ description: You can use menus to customize your presentation layer.
 solution: Target
 subtopic: Navigation
 title: About Menus
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 011050cd-21b6-4150-9503-18fa3f771626
 exl-id: bd9611c0-4bb6-4869-ae92-fb52722026dd
 ---

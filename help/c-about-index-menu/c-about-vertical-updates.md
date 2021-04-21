@@ -3,7 +3,7 @@ description: You can use Vertical Update to quickly update parts of your index w
 solution: Target
 subtopic: Vertical Update
 title: About Vertical Update
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: ded09e89-5a52-4e8c-a6f7-3e25b4191183
 exl-id: 8d6a48c0-377d-4a15-bddc-c67e28037bfc
 ---

@@ -3,7 +3,7 @@ description: You can use Regenerate Index to update your website's index without
 solution: Target
 subtopic: Regenerate Index
 title: About Regenerate Index
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 9d1f1d88-0453-4422-a625-a348febbf224
 exl-id: 4155a52c-33f6-4f54-b69b-2a092530f7aa
 ---

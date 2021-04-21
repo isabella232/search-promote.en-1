@@ -3,7 +3,7 @@ description: Use the Rewrite Rules menu to set crawl and search URL and title ru
 solution: Target
 subtopic: Rewrite Rules
 title: About the Rewrite Rules menu
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 77ee84dd-fdba-4d34-ae8e-2fe786599800
 exl-id: cff17ead-6997-4ff6-a995-7ca020b06d50
 ---

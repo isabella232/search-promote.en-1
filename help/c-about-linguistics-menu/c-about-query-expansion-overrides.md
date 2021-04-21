@@ -2,7 +2,7 @@
 description: You can override the expansion of search query results.
 solution: Target
 title: About Query Expansion Overrides
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: dfe18004-b8fd-4889-b01c-72a3b0c82b9c
 exl-id: 6157ffcb-e696-419a-acb5-2076c12a6763
 ---

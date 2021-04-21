@@ -2,7 +2,7 @@
 description: Learn about how to use various CGI parameters.
 solution: Target
 title: CGI parameters
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: a5f43547-bc15-44aa-ba23-6b8b573e09d2
 exl-id: 9f24aebf-5fa3-433e-b66d-4129bdd3f7f6
 ---

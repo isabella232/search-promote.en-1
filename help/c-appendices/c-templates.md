@@ -2,7 +2,7 @@
 description: Learn about using presentation and template tags in Search&amp;Promote.
 solution: Target
 title: Templates
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 78299032-dc23-4dfe-b68f-cd57b2b6d7d8
 exl-id: f8cc4b5c-4e75-426b-8234-76af8bb0f4c5
 ---

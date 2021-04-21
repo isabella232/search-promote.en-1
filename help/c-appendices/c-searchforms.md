@@ -2,7 +2,7 @@
 description: Learn about search forms in Search&amp;Promote
 solution: Target
 title: Search forms
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 91153e3a-c437-47f3-8c2a-d9ac02965b8c
 exl-id: 9771a19d-86a8-41db-9c80-d734fbd10ab7
 ---

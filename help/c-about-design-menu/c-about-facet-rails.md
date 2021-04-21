@@ -3,7 +3,7 @@ description: Use Facet Rail to reorder groups of facets on a web page.
 solution: Target
 subtopic: Navigation
 title: About Facet Rail
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 6da2bd67-8c20-4955-9836-bc8ba88546c5
 exl-id: 389b2f5e-c1aa-48d7-ab3e-c8a1d1e4ecb4
 ---

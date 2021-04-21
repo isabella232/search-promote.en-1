@@ -2,7 +2,7 @@
 description: You can use Excluded Words to specify frequently used phrases and common words, such as "a" and "the", that you want to leave out of search results.
 solution: Target
 title: About Excluded Words
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: 1c879462-1b19-44f6-a3b2-20aa786b3221
 exl-id: d553b776-907a-4f4a-8481-b36dc0cb75c9
 ---

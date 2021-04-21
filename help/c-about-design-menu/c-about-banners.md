@@ -2,7 +2,7 @@
 description: You can use Banners to manage the banner ads on your website.
 solution: Target
 title: About Banners
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 653b567d-5cf3-41a0-a260-a6912d0fd20d
 exl-id: 2c1de213-e6fc-425b-9971-43a09c07d07c
 ---

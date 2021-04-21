@@ -3,7 +3,7 @@ description: You can use SEO (Search Engine Optimization) meta tags to help tail
 solution: Target
 subtopic: SEO
 title: About SEO
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 5c5d64f5-fe79-4489-85c6-399d1437f2c4
 exl-id: 0045455b-cb86-4820-82fa-753475ab6ca6
 ---

@@ -2,7 +2,7 @@
 description: The Alerts page provides a central place to view and manage all alerts having to do with your account.
 solution: Target
 title: About Alerts
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 94524563-f9a6-40cf-89f3-e80b1d0113c7
 exl-id: b6d637c9-2a2c-49b3-828b-3ae272bf28aa
 ---

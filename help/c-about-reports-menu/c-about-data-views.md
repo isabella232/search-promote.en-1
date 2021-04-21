@@ -2,7 +2,7 @@
 description: Data Views displays the search results with the meta fields. Each column is a meta field and each row is result from a search query. Customize Data Views by choosing and rearranging columns. Data Views can also have custom titles and descriptions.
 solution: Target
 title: About Data Views
-topic: Reports,Site search and merchandising
+topic-legacy: Reports,Site search and merchandising
 uuid: 18930551-960d-40c2-b5b7-0807a2e11134
 exl-id: 9ef5eaef-85d6-41e9-af44-b4775755e5bf
 ---

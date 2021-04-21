@@ -2,7 +2,7 @@
 description: You can use Dictionaries to manage a collection of dictionaries and their associated synonyms and hyponyms.
 solution: Target
 title: About Dictionaries
-topic: Linguistics,Site search and merchandising
+topic-legacy: Linguistics,Site search and merchandising
 uuid: d4463896-30fe-4385-a283-c930c8264a02
 exl-id: c8e83422-bc96-48f8-b4f1-58a25cade1ef
 ---

@@ -2,7 +2,7 @@
 description: Direct hits let you redirect a customer to a specified URL when the customer searches for a matching term. This kind of functionality lets you improve the navigation of the search of your website.
 solution: Target
 title: About Direct Hits
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: 374d63c8-2b82-4165-b543-05b587757baa
 exl-id: 251dfa47-f55a-469c-8fca-e187877b7759
 ---

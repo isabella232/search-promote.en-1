@@ -3,7 +3,7 @@ description: You can use Facets to customize your presentation layer and provide
 solution: Target
 subtopic: Navigation
 title: About Facets
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 28bc4d4d-a84c-4a77-befb-b0fb3bbdb966
 exl-id: 10cdc599-79fe-44e1-8f90-f08b819f6dda
 ---

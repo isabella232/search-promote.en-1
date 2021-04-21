@@ -3,7 +3,7 @@ description: Use the Crawling menu set date and URL masks, passwords, content ty
 solution: Target
 subtopic: Crawling
 title: About the Crawling menu
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: a58c03bf-90f7-4b5b-91ff-988b95c246b0
 exl-id: 22dbbc30-bf1c-4d51-8fb0-708115ba844b
 ---

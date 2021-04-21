@@ -2,7 +2,7 @@
 description: Proximity Search lets you associate a unique location with any page on your website, and then search and sort results by proximity (distance) from a given location.
 solution: Target
 title: About proximity search
-topic: Appendices,Site search and merchandising
+topic-legacy: Appendices,Site search and merchandising
 uuid: 24fc9265-3400-46a7-b6e0-4de5b049a39a
 exl-id: 52e796a6-43ea-414f-8404-84ecd358bd76
 ---

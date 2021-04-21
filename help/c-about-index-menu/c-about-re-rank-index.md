@@ -3,7 +3,7 @@ description: You can use Re-Rank Index to update your site's ranking information
 solution: Target
 subtopic: Re-Rank Index
 title: About Re-Rank Index
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: 5c2a4c12-5e06-4fcc-897c-c12fcc5d7aa8
 exl-id: c4ddaec9-43ba-42ec-89dc-04d42306b9b6
 ---

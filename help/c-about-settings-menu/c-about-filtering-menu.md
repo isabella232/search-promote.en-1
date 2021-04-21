@@ -3,7 +3,7 @@ description: Use the Filtering menu to use scripts that change the content of a 
 solution: Target
 subtopic: Filtering
 title: About the Filtering menu
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: ebb08fa8-4e17-417d-868b-11fc2af9f284
 exl-id: 1a1c7b86-a29b-4c17-8743-ff3c2c91b63a
 ---

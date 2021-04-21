@@ -3,7 +3,7 @@ description: Use Dynamic Facets to create new range selections automatically at 
 solution: Target
 subtopic: Navigation
 title: About Dynamic Facets
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 1ea91c22-dcc2-4173-aa50-ce618ad0a99c
 exl-id: e668e683-3ed8-48fe-a82b-3c4dd484a1c8
 ---

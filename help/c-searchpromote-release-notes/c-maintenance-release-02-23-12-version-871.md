@@ -2,7 +2,7 @@
 description: Search&amp;Promote 8.7.1 release notes.
 solution: Target
 title: Search&amp;Promote 8.7.1 Release Notes (02/23/2012)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 3fabf7b2-4a27-4f0a-862a-52f701a0631d
 exl-id: b10f0081-ed69-4c6b-86c9-816326b647f0
 ---

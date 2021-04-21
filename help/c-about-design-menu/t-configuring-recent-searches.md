@@ -3,7 +3,7 @@ description: Recent Searches is a cookie-based system that lets you use a presen
 solution: Target
 subtopic: Navigation
 title: Configuring recent searches
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: 8ab1b35c-f953-4c26-921f-524af1fea4ef
 exl-id: bc6285fa-eaaf-4afb-8ef3-6f1e66cd7090
 ---

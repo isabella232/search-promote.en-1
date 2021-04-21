@@ -2,7 +2,7 @@
 title: Adobe Search&amp;Promote technical documentation
 description: Technical documentation and self-help materials for Adobe Search&amp;Promote
 solution: Target
-topic: Site search and merchandising
+topic-legacy: Site search and merchandising
 uuid: bb1c49be-7cfd-485a-a848-c5dc8733b009
 exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 ---

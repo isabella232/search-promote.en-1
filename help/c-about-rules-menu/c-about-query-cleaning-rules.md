@@ -2,7 +2,7 @@
 description: Use Query Cleaning Rules to analyze and modify the incoming query.
 solution: Target
 title: About Query Cleaning Rules
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: 683af81f-f7c0-45f8-9212-e5e7cb82ccca
 exl-id: 22ebca58-7687-4c8c-9ac1-bacb321065f3
 ---

@@ -3,7 +3,7 @@ description: You can use Page Navigation to customize the page navigation contro
 solution: Target
 subtopic: Navigation
 title: About Page Navigation
-topic: Design,Site search and merchandising
+topic-legacy: Design,Site search and merchandising
 uuid: fb17a99e-d7b4-415e-ba1b-ca194fe41a5d
 exl-id: ed1ba6a8-1bab-4616-a447-50cfe319dac8
 ---

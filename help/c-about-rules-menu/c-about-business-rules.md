@@ -2,7 +2,7 @@
 description: You can use Business Rules to merchandise your search.
 solution: Target
 title: About Business Rules
-topic: Rules,Site search and merchandising
+topic-legacy: Rules,Site search and merchandising
 uuid: f2186f54-7a39-4f46-bb29-5115d5a17f07
 exl-id: 6a52e0f5-29c2-4a48-b996-d217eeb52011
 ---

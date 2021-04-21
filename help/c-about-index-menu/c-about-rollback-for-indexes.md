@@ -3,7 +3,7 @@ description: You can use Rollback to back up and archive website indexes that yo
 solution: Target
 subtopic: Rollback
 title: About Rollback for indexes
-topic: Index,Site search and merchandising
+topic-legacy: Index,Site search and merchandising
 uuid: abed878a-71b3-4122-9822-7410f4427a9a
 exl-id: bc75f6ba-d919-4dff-8ee2-e17568892626
 ---

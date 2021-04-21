@@ -2,7 +2,7 @@
 description: Search&amp;Promote 15.1.1 release notes.
 solution: Target
 title: Search&amp;Promote 15.1.1 Release Notes (01/15/2015)
-topic: Release Notes,Site search and merchandising
+topic-legacy: Release Notes,Site search and merchandising
 uuid: 070f9c46-426f-4ca1-80c7-8ca53d40a402
 exl-id: 6176ce1e-aafe-4a46-a564-57c3ac4632ef
 ---

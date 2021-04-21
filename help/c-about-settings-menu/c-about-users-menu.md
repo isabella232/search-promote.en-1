@@ -3,7 +3,7 @@ description: Use the Users menu to view and add users, view and add roles, or ch
 solution: Target
 subtopic: Users
 title: About the Users menu
-topic: Settings,Site search and merchandising
+topic-legacy: Settings,Site search and merchandising
 uuid: 6242b73c-5e8a-44b7-9942-0684530940bc
 exl-id: 43dfcb59-3924-448e-a998-ec96d823fb7e
 ---
