@@ -10,7 +10,9 @@ exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 
 ## News and announcements {#topic_02625547D07F411DBAC9593FCBD4741B}
 
-<!-- * **Attention:** [Adobe Search&amp;Promote End-of-Service Announcement](/help/sp-eol.md). -->
+>[!ATTENTION]
+>
+>[Adobe Search&amp;Promote End-of-Service Announcement](/help/sp-eol.md).
 
 * Adobe Marketing Cloud Release Notes - Contains new features, fixes, and known issues in all of the Marketing Cloud solutions. Feature releases occur in the Spring and Fall, with maintenance releases occurring monthly.
 
