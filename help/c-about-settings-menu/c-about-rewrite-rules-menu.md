@@ -274,14 +274,14 @@ t_adding_a_crawl_list_store_url_rule.xml
 
  -->
 
-**To add crawl list store URL rules** 
+**To add crawl list store URL rules:** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Store URL Rules]**.
 1. In the [!DNL Crawl List Store URL Rules] field, enter the rules that you want.
 
    Blank lines and comment lines beginning with a '#' (hash) character are permitted. 
-1. (Optional) On the [!DNL Crawl List Store URL Rules] page, in the [!DNL Test Crawl List Store URL Rules] field, enter a test URL whose crawl rules you want to test, and then click **Test**.
-1. Click **Save Changes**.
+1. (Optional) On the [!DNL Crawl List Store URL Rules] page, in the [!DNL Test Crawl List Store URL Rules] field, enter a test URL whose crawl rules you want to test, and then click **[!UICONTROL Test]**.
+1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Rebuild your staged site index if you want to preview the results.
 
    See [Configuring an incremental index of a staged website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0). 
@@ -559,14 +559,14 @@ t_adding_crawl_list_retrieve_url_rules.xml
 
  -->
 
-**To add crawl list retrieve URL rules** 
+**To add crawl list retrieve URL rules:** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl List Retrieve URL Rules]**.
 1. In the [!DNL Crawl List Retrieve URL Rules] field, enter the rules that you want.
 
    Blank lines and comment lines beginning with a '#' (hash) character are permitted. 
-1. (Optional) On the [!DNL Crawl List Retrieve URL Rules] page, in the [!DNL Test Crawl List Retrieve URL Rules] field, enter a test URL whose crawl rules you want to test, and then click **Test**.
-1. Click **Save Changes**.
+1. (Optional) On the [!DNL Crawl List Retrieve URL Rules] page, in the [!DNL Test Crawl List Retrieve URL Rules] field, enter a test URL whose crawl rules you want to test, and then click **[!UICONTROL Test]**.
+1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Rebuild your staged site index if you want to preview the results.
 
    See [Configuring an incremental index of a staged website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0). 
@@ -630,22 +630,21 @@ RewriteRule Pattern Substitution [Flags]
 
 See [Regular Expressions](../c-appendices/r-regular-expressions.md#reference_B5BA7D61D82E4109A01D2A2D964E3A6A).
 
-You can use the "not" character ('!') to prefix the pattern. The "not" character allows you to negate a pattern, that is, to be true only if the current title does NOT match the pattern. The "not" character can be used when it is better to match a negative pattern, or as a final default rule. Note: You cannot use both the "not" character and grouped wildcards in a pattern. In addition, you cannot use a negated pattern when the substitution string contains $N.
+You can use the "not" character ('!') to prefix the pattern. The "not" character allows you to negate a pattern, that is, to be true only if the current title does NOT match the pattern. The "not" character can be used when it is better to match a negative pattern, or as a final default rule. Note: You cannot use both the "not" character and grouped wildcards in a pattern. In addition, you cannot use a negated pattern when the substitution string contains `$N`.
 
 You can use parentheses to create a backreference, which can be referenced by the Substitution and CondPattern.
 
-**Substitution** The title is replaced by the substitution string. The string can contain the following:
+Substitution - The title is replaced by the substitution string. The string can contain the following:
 
 Plain text - Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are two types of backreferences:
 
-* RewriteRule Backreferences
+* RewriteRule Backreferences - These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). 
 
-  These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
-* RewriteCond Backreferences
+  For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
 
-  These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
+* RewriteCond Backreferences - These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
 Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the `[E]` flag for more information on setting environment variables.
 
@@ -713,17 +712,20 @@ Plain text - Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. There are two types of backreferences:
 
-* RewriteRule Backreferences These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
-* RewriteCond Backreferences These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
+* RewriteRule Backreferences - These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9).
+
+  For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}`
+
+* RewriteCond Backreferences - These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
 Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the `[E]` flag for more information on setting environment variables..
 
 Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
-* tolower makes all characters in *key* lowercase. 
-* toupper makes all characters in *key* uppercase. 
-* escape URL-encodes all characters in key. 
-* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent. 
+* tolower makes all characters in *key* lowercase.
+* toupper makes all characters in *key* uppercase.
+* escape URL-encodes all characters in key.
+* The characters 'a'..'z', 'A'..'Z', '0'..'9', '*', '-', '.', '/', '@', and '_' are left unchanged, spaces are translated to '+', and all other characters are transformed to their %xx URL-encoded equivalent.
 * unescape transforms '+' back to space and all %xx URL- encoded characters back into single characters.
 
 **CondPattern** is a standard Extended Regular Expression with some additions. The pattern string can be prefixed with a '!' character (exclamation mark) to specify a non-matching pattern. Instead of real regular expression strings, you can use one of the following special variants.
@@ -790,7 +792,15 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>}
 ```
 
-The rule's Pattern `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` contains a backreference `(.*)` that matches the title content that follows "My Company-". Remember that surrounding a portion of a pattern with parenthesis ( ) creates a backreference that can be referenced by the Substitution. In this example, the Substitution (${toupper:**$1**}) rewrites that backreference (**$1**) using the toupper function.
+The rule's Pattern 
+
+`(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` 
+
+contains a backreference `(.*)` that matches the title content that follows "My Company-". Remember that surrounding a portion of a pattern with parenthesis ( ) creates a backreference that can be referenced by the Substitution. In this example, the Substitution
+
+`(${toupper:**$1**})` 
+ 
+ rewrites that backreference (`**$1**`) using the toupper function.
 
 Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
@@ -808,14 +818,14 @@ t_adding_crawl_title_rules.xml
 
  -->
 
-**To add crawl title rules** 
+**To add crawl title rules:** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Crawl Title Rules]**.
 1. In the [!DNL Crawl Title Rules] field, enter the rules that you want.
 
    Blank lines and comment lines beginning with a '#' (hash) character are permitted. 
-1. (Optional) On the [!DNL Crawl Title Rules] page, in the [!DNL Test Crawl Title Rules] field, enter a test URL whose search rules you want to test, and then click **Test**.
-1. Click **Save Changes**.
+1. (Optional) On the [!DNL Crawl Title Rules] page, in the [!DNL Test Crawl Title Rules] field, enter a test URL whose search rules you want to test, and then click **[!UICONTROL Test]**.
+1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Rebuild your staged site index if you want to preview the results.
 
    See [Configuring an incremental index of a staged website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0). 
@@ -976,15 +986,17 @@ Plain text: Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. There are two types of backreferences:
 
-* ** RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
+* RewriteRule Backreferences - These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). 
 
-* **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
+  For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
+
+* RewriteCond Backreferences - These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
 Variables These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the RewriteRule *`[E]`* flag for more information on setting variables.
 
 >[!NOTE]
 >
->Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"` will automatically provide four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like `<input type=hidden name="session" value="1234">`.
+>Rewrite rules generally make use of variables. All CGI parameters from the current URL are automatically made into variables. For example, the search URL `"https://search.atomz.com/search/?sp_a=sp00000000&sp_q="Product"&session=1234&id=5678"` automatically provides four variables, which can be referenced in the rewrite rules. In this example, one variable is called "session" and its value is "1234" while another variable is called "id", and its value is "5678." (The other two variables are `sp_a` and `sp_q`.) You should pass all necessary variables as hidden fields from the search form on your Web page. In this example, you should pass the "session" and "id" values, which identify the Web site user performing the search. To pass a hidden field on the search form, use a tag like `<input type=hidden name="session" value="1234">`.
 
 Functions These are functions of the form ${NAME_OF_FUNCTION:key} where NAME_OF_FUNCTION is:
 
@@ -1063,14 +1075,15 @@ t_adding_search_url_rules.xml
 
  -->
 
-**To add search URL rules** 
+**To add search URL rules:** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search URL Rules]**.
 1. In the [!DNL Search URL Rules] field, enter the rules that you want.
 
    Blank lines and comment lines beginning with a '#' (hash) character are permitted. 
-1. (Optional) On the [!DNL Search URL Rules] page, in the [!DNL Test Search URL Rules] field, enter a test URL whose crawl rules you want to test, and then click **Test**.
-1. Click **Save Changes**.
+
+1. (Optional) On the [!DNL Search URL Rules] page, in the [!DNL Test Search URL Rules] field, enter a test URL whose crawl rules you want to test, and then click **[!UICONTROL Test]**.
+1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Rebuild your staged site index if you want to preview the results.
 
    See [Configuring an incremental index of a staged website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0). 
@@ -1136,9 +1149,11 @@ You may use parentheses to create a backreference, which can be referenced by th
 
 Plain text - Text that is passed through unchanged.
 
-**Backreferences** Provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are two types of backreferences:
+* Backreferences -  Provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. The following are two types of backreferences:
 
-* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
+* RewriteRule Backreferences - These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). 
+
+  For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
 
 * ** RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
@@ -1206,9 +1221,11 @@ Plain text - Text that is passed through unchanged.
 
 Backreferences provide access to the grouped parts (inside parenthesis) of the Pattern or CondPattern. There are two types of backreferences:
 
-* **RewriteRule Backreferences** These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
+* RewriteRule Backreferences - These match backreferences in the corresponding RewriteRule Pattern and take the form $N (0 <= N <= 9). 
 
-* **RewriteCond Backreferences** These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
+  For example, `RewriteRule ^My[[:blank:]] (.*)$ ${toupper: $1}` 
+
+* RewriteCond Backreferences - These match backreferences in the last matched RewriteCond CondPattern and take the form %N (0 <= N <= 9).
 
 **Variables** These are variables of the form %{NAME_OF_VARIABLE} where NAME_OF_VARIABLE can be a string for the name of a defined variable. See the `[E]` flag for more information on setting environment variables. Variables can also be defined in the search form that generated the search results.
 
@@ -1284,7 +1301,11 @@ RewriteRule  ^My[[:blank:]]Company[[:blank:]]-[[:blank:]]
 <b>$1</b>} 
 ```
 
-The rule's Pattern `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` contains a backreference **`(.*)`** that matches the title content that follows "My Company-". Remember that surrounding a portion of a pattern with parenthesis ( ) creates a backreference that can be referenced by the Substitution. In this example, the Substitution (${toupper:**$1**}) rewrites that backreference (**$1**) using the toupper function.
+The rule's Pattern `(^My[[:blank:]]Company[[:blank:]]-[[:blank:]] (.*))` contains a backreference **`(.*)`** that matches the title content that follows "My Company-". Remember that surrounding a portion of a pattern with parenthesis ( ) creates a backreference that can be referenced by the Substitution. In this example, the Substitution
+
+`(${toupper:**$1**})` 
+
+rewrites that backreference (**$1**) using the toupper function.
 
 Thus, a title of the form "My Company - Welcome" is rewritten as "WELCOME".
 
@@ -1302,14 +1323,14 @@ t_adding_search_title_rules.xml
 
  -->
 
-**To add search title rules** 
+**To add search title rules:** 
 
 1. On the product menu, click **[!UICONTROL Settings]** > **[!UICONTROL Rewrite Rules]** > **[!UICONTROL Search Title Rules]**.
 1. In the [!DNL Search Title Rules] field, enter the rules that you want.
 
    Blank lines and comment lines beginning with a '#' (hash) character are permitted. 
-1. (Optional) On the [!DNL Search Title Rules] page, in the [!DNL Test Search Title Rules] field, enter a test title, and then click **Test**.
-1. Click **Save Changes**.
+1. (Optional) On the [!DNL Search Title Rules] page, in the [!DNL Test Search Title Rules] field, enter a test title, and then click **[!UICONTROL Test]**.
+1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Rebuild your staged site index if you want to preview the results.
 
    See [Configuring an incremental index of a staged website](../c-about-index-menu/c-about-incremental-index.md#task_46A367B0786C4C90BFFA5D3F95FD86C0). 
