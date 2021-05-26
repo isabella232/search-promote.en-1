@@ -11,7 +11,7 @@ exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 
 ### **_On what date will Search&Promote cease to operate?_**
 
-  End-of-Service for Adobe Search&Promote is scheduled for **September 1, 2022**. On that date, the Search&Promote administrative user interface will no longer be accessible, and requests to Search&Promote APIs will no longer deliver results. Before this date, the service will be fully available and functional.
+  End-of-Service for Adobe Search&Promote is scheduled for **September 1, 2022**. On that date, the Search&Promote administrative user interface will no longer be accessible, and requests to Search&Promote APIs will no longer deliver results. Before this date, the service will be fully available and functional. In anticipation of September 1, 2022, contractual entitlements to Search&Promote will not be allowed beyond August 31, 2022.
 
 ### **_What will happen if a search or other API request is made to Search&Promote?_**
 
