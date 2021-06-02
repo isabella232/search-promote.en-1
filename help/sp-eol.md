@@ -33,4 +33,4 @@ exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 
 ### **_Can I still renew my applicable Search&Promote license before its end-of-service?_**
 
-  Yes. Work with your Adobe representative to renew your license with a contract end date no later than **September 1, 2022**.
+  Yes. Work with your Adobe representative to renew your license with a contract end date no later than **August 31, 2022**.
