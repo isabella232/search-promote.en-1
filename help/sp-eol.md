@@ -21,11 +21,11 @@ exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 
   Yes. For product and commerce search, [Live Search from Magento Commerce](https://blog.adobe.com/en/publish/2020/11/23/new-ai-capabilities-for-magento-commerce-improve-retail.html) is Adobe’s search application going forward. Live Search from Magento Commerce is targeted to launch in the first half of 2021.
 
-### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
+<!-- ### **_Can Adobe recommend any frameworks or platforms that offer features similar to Search&Promote?_**
 
   Yes. If the Search&Promote feature is critical to your marketing strategy, consider the many open-source frameworks that exist to power search, including [Apache Solr](https://solr.apache.org/) and [Elastic Free and Open](https://www.elastic.co/about/free-and-open).  
 
-  Also, both [AWS](https://aws.amazon.com/cloudsearch/) and [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) provide cloud-native search capabilities on their respective cloud platforms. You can integrate both options into Adobe Experience Manager Sites to power site search and more.
+  Also, both [AWS](https://aws.amazon.com/cloudsearch/) and [Microsoft® Azure](https://azure.microsoft.com/en-us/services/search/) provide cloud-native search capabilities on their respective cloud platforms. You can integrate both options into Adobe Experience Manager Sites to power site search and more. -->
 
 ### **_Who can I contact to learn more?_**
 
