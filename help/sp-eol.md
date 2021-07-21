@@ -1,7 +1,6 @@
 ---
 title: Adobe Search&Promote End-of-Service Announcement
 description: Learn more about Adobe Search&Promote's End-of-Service announcement.
-feature: 
 role: Admin,User,Data Engineer,Developer
 exl-id: 1e062554-090b-4275-8595-8ae4233c58d7
 ---
