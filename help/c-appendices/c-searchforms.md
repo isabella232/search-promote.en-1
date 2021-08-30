@@ -96,9 +96,9 @@ The `<search-input>` tag outputs an `<input>` tag and includes the `checked` att
 
 You can configure your framesets to work with site search/merchandising.
 
-To learn more about HTML frames and the HTML frameset element, see the following URL:
+<!-- 404 DEAD LINK To learn more about HTML frames and the HTML frameset element, see the following URL:
 
-[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp)
+[https://www.w3schools.com/html/html_frames.asp](https://www.w3schools.com/html/html_frames.asp) -->
 
 If your site uses frames, you can specify a target frame for search result links. The default target is _self, which opens links in the current frame or browser window. You can, instead, specify site-specific or browser-reserved targets:
 

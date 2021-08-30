@@ -17,7 +17,7 @@ The file [!DNL autocomplete_data.js] is regenerated and published to the search 
 
 ## Configuring Auto-Complete {#task_F491F2BFC4D24A61BBDC48B9059C11BB}
 
-You can configure and setup the options that control the generation of the auto-complete enabled search form, and the file.
+You can configure and set up the options that control the generation of the auto-complete enabled search form, and the file.
 
 <!-- 
 
@@ -90,7 +90,7 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do one of the following:
 
-    * Click **[!UICONTROL History]** to revert any changes that you have made.
+    * Click **[!UICONTROL History]** if you want to revert any changes that you have made.
 
       See [Using the History option](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002). 
     
@@ -167,7 +167,7 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
       </tr> 
       <tr> 
       <td colname="col1"> <p>Update on Re-Index </p> </td> 
-      <td colname="col2"> <p>Auto-complete word list is automatically regenerated after each successful account re-index. </p> </td> 
+      <td colname="col2"> <p>Auto-complete word list is automatically regenerated after each successful account reindex. </p> </td> 
       </tr> 
     </tbody> 
    </table>
@@ -175,7 +175,7 @@ See [Configuring Auto-Complete CSS](c-about-auto-complete.md#task_EECE35DEB6C94F
 1. Click **[!UICONTROL Save Changes]**.
 1. (Optional) Do any of the following:
 
-    * Click **[!UICONTROL History]** to revert any changes that you have made. 
+    * Click **[!UICONTROL History]** if you want to revert any changes that you have made. 
     * Click **[!UICONTROL Preview Word List]** to save any changes you have made, and then open [!DNL Auto-Complete Word List Preview] page where you can review the auto-complete suggestions list. Use the navigation options near the top of the page to review and refine the displayed list. When you are done, click **[!UICONTROL Close]** to return to the [!DNL Auto-Complete Word List] page.
 
       See [Using the History option](t-using-the-history-option.md#task_70DD3F87A67242BBBD2CB27156F43002). 
@@ -200,7 +200,7 @@ t_configuring_auto-complete_css.xml
 
 Auto-Complete CSS controls the content of [!DNL autocomplete_styles.css], which is included as a part of the auto-complete enabled search form. The CSS you specify here controls the visual presentation of the auto-complete suggestion list. For an example of the visual presentation ideas that are possible, see the following:
 
-[https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html).
+<!-- 404 DEAD LINK [https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html](https://developer.yahoo.com/yui/examples/autocomplete/ac_skinning.html). -->
 
 [Configuring Auto-Complete Word List](c-about-auto-complete.md#task_1F8E0F346263443383F8CFD2C7AB35D4).
 
@@ -210,7 +210,7 @@ When you are finished configuring Auto-Complete CSS, you can preview the search 
 
 See [Previewing the search form as it would appear on your...](c-about-auto-complete.md#task_437B35EFA5424603A08AF8E79E6B4714).
 
-**Important**: To apply your custom auto-complete CSS, you need to remove the comment tags from the second line that appears in the HTML code. Then you move the same line to within the head section of the page that contains the search form.
+**Important**: To apply your custom auto-complete CSS, you must remove the comment tags from the second line that appears in the HTML code. Then you move the same line to within the head section of the page that contains the search form.
 
 See [Copying the HTML code of the search form into the...](c-about-auto-complete.md#task_A3A01EA800F24C0AA33902387E0362C7).
 
