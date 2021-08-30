@@ -22,7 +22,7 @@ exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 
 ## Whitepaper {#topic_EED10B7F7E8D4A9A8F759FE24C461937}
 
-[Understanding and Designing Index Connector Feeds in Adobe Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/index_connector_feeds.pdf) 
+[Understanding and Designing Index Connector Feeds in Adobe Search&amp;Promote](/help/assets/index_connector_feeds.pdf) 
 
 ## Other information {#topic_34A00195904D4AE7AE982D3746F693AA}
 
