@@ -12,9 +12,9 @@ exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 
 * **IMPORTANT:** [Adobe Search&amp;Promote End-of-Service Announcement](/help/sp-eol.md).
 
-* Adobe Marketing Cloud Release Notes - Contains new features, fixes, and known issues in all Marketing Cloud Solutions. Feature releases occur in the Spring and Fall, with maintenance releases occurring monthly.
+* Adobe Experience Cloud Release Notes - Contains new features, fixes, and known issues in all Experience Cloud Solutions. Feature releases occur in the Spring and Fall, with maintenance releases occurring monthly.
 
-  Early Access: Sign up for the [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to receive Adobe Marketing Cloud release notes one week before each release. 
+<!--   Early Access: Sign up for the [Adobe Priority Product Update](https://campaign.adobe.com/webApp/adbePriorityProductSubscribe) to receive Adobe Marketing Cloud release notes one week before each release. --> 
 
 * The latest Adobe Search&amp;Promote release notes:
 
@@ -26,6 +26,6 @@ exl-id: 6920dbf0-beeb-4723-8178-4da37f0b03ed
 
 ## Other information {#topic_34A00195904D4AE7AE982D3746F693AA}
 
-[Adobe Search&amp;Promote website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html)
+<!-- [Adobe Search&amp;Promote website](https://www.adobe.com/solutions/testing-targeting/search-driven-merchandising.html) -->
 
 [Industry Insights](https://blog.adobe.com/en/topics/digital-transformation.html) - The Adobe blog for digital marketing.
